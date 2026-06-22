@@ -11,8 +11,9 @@ const NEWS_PATH = path.join(ROOT, "data", "news.json");
 const parser = new Parser({
   requestOptions: {
     headers: {
-      "User-Agent": "TopNewsBot/1.0 (RSS aggregator; contact: topnews@local)",
+      "User-Agent": "Mozilla/5.0 (compatible; TopNewsBot/1.0; +https://puholet-sketch.github.io/TopNews/)",
       Accept: "application/rss+xml, application/xml, text/xml, */*",
+      "Accept-Language": "ru-RU,ru;q=0.9",
     },
     timeout: 30000,
   },

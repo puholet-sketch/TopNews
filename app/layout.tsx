@@ -4,9 +4,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "TopNews — Топ новостей по 20 темам",
+  title: "TopNews — Топ новостей на русском",
   description:
-    "Автоматический агрегатор: топ-5 свежих новостей из 20 ведущих источников — от IT до медицины.",
+    "Автоматический агрегатор: топ-5 свежих новостей на русском языке из 20 ведущих источников — от IT до медицины.",
 };
 
 export default function RootLayout({

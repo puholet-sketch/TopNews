@@ -40,11 +40,11 @@ export default function HomePage() {
               marginBottom: "1rem",
             }}
           >
-            Топ-5 из 20 ведущих источников
+            Топ-5 из 20 русскоязычных источников
           </h1>
           <p style={{ color: "var(--text-muted)", maxWidth: "52ch", fontSize: "1.1rem" }}>
-            IT, медицина, наука, спорт и ещё 16 тем. Сбор по расписанию каждого
-            источника — от 2 до 12 часов.
+            IT, медицина, наука, спорт и ещё 16 тем — все материалы на русском языке.
+            Сбор по расписанию каждого источника — от 2 до 12 часов.
           </p>
           {data.updatedAt && (
             <p style={{ marginTop: "1.5rem", color: "var(--text-muted)", fontSize: "0.9rem" }}>
