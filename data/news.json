@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-22T21:54:35.656Z",
+  "updatedAt": "2026-06-22T23:10:53.195Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
     "ai",
     "cybersecurity",
     "business",
@@ -12,22 +20,14 @@
     "automotive",
     "sports",
     "politics",
-    "law"
-  ],
-  "skippedNow": [
-    "it",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-06-22T18:08:56.219Z",
+      "lastFetchAt": "2026-06-22T23:10:46.050Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-06-22T18:08:59.926Z",
+      "lastFetchAt": "2026-06-22T23:10:47.851Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-06-22T18:09:02.234Z",
+      "lastFetchAt": "2026-06-22T23:10:49.307Z",
       "intervalHours": 4,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -455,60 +455,60 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1782150360000",
-          "title": "СКР возбудил дело о теракте в связи с ракетной атакой по Воронежу",
-          "summary": "Следственный комитет РФ (СКР) расследует уголовное дело о террористическом акте в связи с украинской ракетной атакой по объектам в Воронеже, сообщила официальный представитель ведомства Светлана Петренко.\"Возбуждено уголовное дело о террористическом акте (п. \"б\" ч.",
-          "url": "https://www.interfax.ru/russia/1097590",
+          "id": "medicine-0-1782168240000",
+          "title": "Предвыборный съезд ЛДПР пройдет в Подмосковье",
+          "summary": "Съезд ЛДПР пройдет во вторник, сообщила заместитель руководителя центрального аппарата партии по информационной политике Элеонора Кавшар.",
+          "url": "https://www.interfax.ru/russia/1097611",
           "image": null,
-          "publishedAt": "2026-06-22T17:46:00.000Z",
+          "publishedAt": "2026-06-22T22:44:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1782150360000",
-          "title": "Что произошло за день: понедельник, 22 июня",
-          "summary": "Последствия атаки на Воронеж, предотвращение подрыва состава с ГСМ в Подмосковье, приостановка бронирования детского отдыха в Крыму, решение Кира Стармера об отставке",
-          "url": "https://www.interfax.ru/russia/1097585",
+          "id": "medicine-1-1782167520000",
+          "title": "Трамп надеется, что Иран не потратит средства от продажи нефти на восстановление армии",
+          "summary": "Президент США Дональд Трамп рассчитывает, что Иран будет использовать полученные от продажи нефти доходы для закупок продовольствия у американских фермеров, а не для усиления военного потенциала.",
+          "url": "https://www.interfax.ru/world/1097610",
           "image": null,
-          "publishedAt": "2026-06-22T17:46:00.000Z",
+          "publishedAt": "2026-06-22T22:32:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1782150240000",
-          "title": "Месси стал лучшим бомбардиром истории чемпионатов мира по футболу",
-          "summary": "Нападающий сборной Аргентины по футболу Лионель Месси довел до 17 число голов в карьере на чемпионатах мира по футболу.",
-          "url": "https://www.sport-interfax.ru/1097589",
+          "id": "medicine-2-1782164580000",
+          "title": "Число пострадавших после урагана в свердловской Кушве достигло до 15 человек",
+          "summary": "Число пострадавших в результате непогоды в городе Кушва Свердловской области достигло 15 человек, сообщает департамент информационной политики региона.",
+          "url": "https://www.interfax.ru/russia/1097609",
           "image": null,
-          "publishedAt": "2026-06-22T17:44:00.000Z",
+          "publishedAt": "2026-06-22T21:43:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1782150060000",
-          "title": "Минобороны РФ сообщило о поражении более 140 беспилотников с 7 утра",
-          "summary": "Минобороны РФ сообщило, что с 07:00 до 20:00 дежурными средствами ПВО перехвачен и уничтожен 141 украинский беспилотный летательный аппарат самолетного типа.",
-          "url": "https://www.interfax.ru/russia/1097588",
+          "id": "medicine-3-1782162720000",
+          "title": "Открыт аэропорт Геленджика",
+          "summary": "Аэропорт Геленджика возобновил обслуживание рейсов, сообщили в Росавиации.\"Сняты ограничения на прием и выпуск воздушных судов\", - говорится в сообщении.",
+          "url": "https://www.interfax.ru/russia/1097608",
           "image": null,
-          "publishedAt": "2026-06-22T17:41:00.000Z",
+          "publishedAt": "2026-06-22T21:12:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-4-1782149760000",
-          "title": "Более 80 тыс. заявлений подали абитуриенты в вузы РФ в первый день приемной кампании",
-          "summary": "В первый день приемной кампании поступило порядка 82 тыс. заявлений в российские вузы от более чем 38 тыс. абитуриентов, включая свыше 1 тыс. иностранных граждан, сообщили \"Интерфаксу\" в пресс-службе Минобрнауки РФ.\"В течение первого дня приема абитуриенты всего подали 81 тыс.",
-          "url": "https://www.interfax.ru/russia/1097587",
+          "id": "medicine-4-1782162540000",
+          "title": "Минобороны РФ сообщило о многочасовом полете Ту-160 над Баренцевым и Норвежским морями",
+          "summary": "Стратегические ракетоносцы Ту-160 дальней авиации ВКС России выполнили плановый полет в воздушном пространстве над нейтральными водами Баренцева и Норвежского морей, сообщили в Минобороны РФ.\"Продолжительность полета составила около 16 часов.",
+          "url": "https://www.interfax.ru/russia/1097607",
           "image": null,
-          "publishedAt": "2026-06-22T17:36:00.000Z",
+          "publishedAt": "2026-06-22T21:09:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-06-22T18:09:02.957Z",
+      "lastFetchAt": "2026-06-22T23:10:50.426Z",
       "intervalHours": 4,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -595,60 +595,60 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1782150360000",
-          "title": "СКР возбудил дело о теракте в связи с ракетной атакой по Воронежу",
-          "summary": "Следственный комитет РФ (СКР) расследует уголовное дело о террористическом акте в связи с украинской ракетной атакой по объектам в Воронеже, сообщила официальный представитель ведомства Светлана Петренко.\"Возбуждено уголовное дело о террористическом акте (п. \"б\" ч.",
-          "url": "https://www.interfax.ru/russia/1097590",
+          "id": "environment-0-1782168240000",
+          "title": "Предвыборный съезд ЛДПР пройдет в Подмосковье",
+          "summary": "Съезд ЛДПР пройдет во вторник, сообщила заместитель руководителя центрального аппарата партии по информационной политике Элеонора Кавшар.",
+          "url": "https://www.interfax.ru/russia/1097611",
           "image": null,
-          "publishedAt": "2026-06-22T17:46:00.000Z",
+          "publishedAt": "2026-06-22T22:44:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1782150360000",
-          "title": "Что произошло за день: понедельник, 22 июня",
-          "summary": "Последствия атаки на Воронеж, предотвращение подрыва состава с ГСМ в Подмосковье, приостановка бронирования детского отдыха в Крыму, решение Кира Стармера об отставке",
-          "url": "https://www.interfax.ru/russia/1097585",
+          "id": "environment-1-1782167520000",
+          "title": "Трамп надеется, что Иран не потратит средства от продажи нефти на восстановление армии",
+          "summary": "Президент США Дональд Трамп рассчитывает, что Иран будет использовать полученные от продажи нефти доходы для закупок продовольствия у американских фермеров, а не для усиления военного потенциала.",
+          "url": "https://www.interfax.ru/world/1097610",
           "image": null,
-          "publishedAt": "2026-06-22T17:46:00.000Z",
+          "publishedAt": "2026-06-22T22:32:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1782150240000",
-          "title": "Месси стал лучшим бомбардиром истории чемпионатов мира по футболу",
-          "summary": "Нападающий сборной Аргентины по футболу Лионель Месси довел до 17 число голов в карьере на чемпионатах мира по футболу.",
-          "url": "https://www.sport-interfax.ru/1097589",
+          "id": "environment-2-1782164580000",
+          "title": "Число пострадавших после урагана в свердловской Кушве достигло до 15 человек",
+          "summary": "Число пострадавших в результате непогоды в городе Кушва Свердловской области достигло 15 человек, сообщает департамент информационной политики региона.",
+          "url": "https://www.interfax.ru/russia/1097609",
           "image": null,
-          "publishedAt": "2026-06-22T17:44:00.000Z",
+          "publishedAt": "2026-06-22T21:43:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1782150060000",
-          "title": "Минобороны РФ сообщило о поражении более 140 беспилотников с 7 утра",
-          "summary": "Минобороны РФ сообщило, что с 07:00 до 20:00 дежурными средствами ПВО перехвачен и уничтожен 141 украинский беспилотный летательный аппарат самолетного типа.",
-          "url": "https://www.interfax.ru/russia/1097588",
+          "id": "environment-3-1782162720000",
+          "title": "Открыт аэропорт Геленджика",
+          "summary": "Аэропорт Геленджика возобновил обслуживание рейсов, сообщили в Росавиации.\"Сняты ограничения на прием и выпуск воздушных судов\", - говорится в сообщении.",
+          "url": "https://www.interfax.ru/russia/1097608",
           "image": null,
-          "publishedAt": "2026-06-22T17:41:00.000Z",
+          "publishedAt": "2026-06-22T21:12:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1782149760000",
-          "title": "Более 80 тыс. заявлений подали абитуриенты в вузы РФ в первый день приемной кампании",
-          "summary": "В первый день приемной кампании поступило порядка 82 тыс. заявлений в российские вузы от более чем 38 тыс. абитуриентов, включая свыше 1 тыс. иностранных граждан, сообщили \"Интерфаксу\" в пресс-службе Минобрнауки РФ.\"В течение первого дня приема абитуриенты всего подали 81 тыс.",
-          "url": "https://www.interfax.ru/russia/1097587",
+          "id": "environment-4-1782162540000",
+          "title": "Минобороны РФ сообщило о многочасовом полете Ту-160 над Баренцевым и Норвежским морями",
+          "summary": "Стратегические ракетоносцы Ту-160 дальней авиации ВКС России выполнили плановый полет в воздушном пространстве над нейтральными водами Баренцева и Норвежского морей, сообщили в Минобороны РФ.\"Продолжительность полета составила около 16 часов.",
+          "url": "https://www.interfax.ru/russia/1097607",
           "image": null,
-          "publishedAt": "2026-06-22T17:36:00.000Z",
+          "publishedAt": "2026-06-22T21:09:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-06-22T18:09:04.631Z",
+      "lastFetchAt": "2026-06-22T23:10:51.796Z",
       "intervalHours": 4,
       "source": "StopGame",
       "siteUrl": "https://stopgame.ru",
@@ -805,7 +805,31 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1782151125000",
+          "id": "gaming-0-1782163068000",
+          "title": "В OD от Хидео Кодзимы появится специальная система для пугливых игроков",
+          "summary": "Хидео Кодзима (Hideo Kojima) поделился новыми подробностями о хорроре OD, который создаётся при поддержке XBOX. По словам гейм-дизайнера, проект должен превзойти другие игры по уровню страха, а для особо впечатлительных пользователей команда подготовила специальную механику.… […]",
+          "url": "https://stopgame.ru/newsdata/71923/v_od_ot_hideo_kodzimy_poyavitsya_specialnaya_sistema_dlya_puglivyh_igrokov",
+          "image": "https://images.stopgame.ru/news/2026/06/23/yjJ0TZZvM.jpg",
+          "publishedAt": "2026-06-22T21:17:48.000Z",
+          "source": "StopGame",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1782159275000",
+          "title": "Sony Santa Monica планировала God of War про Фэй больше восьми лет назад, утверждает актриса",
+          "summary": "Актриса Дебора Энн Уолл (Deborah Ann Woll) пообщалась с журналисткой Comics Gaming Magazine. Помимо всего прочего, собеседницы обсудили грядущую God of War Laufey, в которой артистка сыграла главную роль.… […]",
+          "url": "https://stopgame.ru/newsdata/71922/sony_santa_monica_planirovala_god_of_war_pro_fey_bolshe_vosmi_let_nazad_utverzhdaet_aktrisa",
+          "image": "https://images.stopgame.ru/news/2026/06/22/RW4M46Jc.jpg",
+          "publishedAt": "2026-06-22T20:14:35.000Z",
+          "source": "StopGame",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1782151125000",
           "title": "«Гораздо сложнее Yakuza» — впечатления от боевой системы Stranger Than Heaven",
           "summary": "На днях Тристану Огилви (Tristan Ogilvie) из IGN посчастливилось посетить превью-мероприятие BiliBili Game First Look в Шанхае и опробовать геймплейное демо Stranger Than Heaven — готовящегося приквела серии Yakuza / Like a Dragon от Ryu Ga Gotoku Studio. По во… […]",
           "url": "https://stopgame.ru/newsdata/71921/gorazdo_slozhnee_yakuza_vpechatleniya_ot_boevoy_sistemy_stranger_than_heaven",
@@ -817,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1782150449000",
+          "id": "gaming-3-1782150449000",
           "title": "Самая дешёвая версия Steam Machine будет стоить $1 049",
           "summary": "Valve объявила о скором старте продаж Steam Machine и раскрыла стоимость устройств. Цены, как и следовало ожидать, кусаются.… […]",
           "url": "https://stopgame.ru/newsdata/71920/samaya_deshevaya_versiya_steam_machine_budet_stoit_s1_049",
@@ -829,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1782146852000",
+          "id": "gaming-4-1782146852000",
           "title": "Состоялся релиз экшен-платформера Dark Scrolls",
           "summary": "Создатели Gato Roboto и Gunbrella из студии doinksoft при поддержке издателя Devolver Digital выпустили свой новый проект в лице […]",
           "url": "https://stopgame.ru/newsdata/71919/sostoyalsya_reliz_ekshen_platformera_dark_scrolls",
@@ -839,35 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1782142080000",
-          "title": "Кооперативный hack’n’slash рогалик Tears of Metal стартует в раннем доступе 22 июля",
-          "summary": "Независимая канадская студия Paper Cult объявила, что её динамичный экшен-рогалик Tears of Metal отправится в ранний доступ Steam и […]",
-          "url": "https://stopgame.ru/newsdata/71918/kooperativnyy_hack_n_slash_rogalik_tears_of_metal_startuet_v_rannem_dostupe_22_iyulya",
-          "image": "https://images.stopgame.ru/news/2026/06/22/N9YOoKa.jpg",
-          "publishedAt": "2026-06-22T15:28:00.000Z",
-          "source": "StopGame",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1782136947000",
-          "title": "В новом акте Valorant обзаведётся режимом «3 на 3» и картой с изюминкой",
-          "summary": "Во время финала соревнования Masters London 2026 команда Riot Games объявила, что добавит в Valorant новую карту под названием Summit. Она пополнит существующий набор 24 июня — тогда же в шутере начнётся четвёртый акт 26-го сезона.… […]",
-          "url": "https://stopgame.ru/newsdata/71917/v_novom_akte_valorant_obzavedetsya_rezhimom_3_na_3_i_kartoy_s_izyuminkoy",
-          "image": "https://images.stopgame.ru/news/2026/06/22/YAyecLtS.jpg",
-          "publishedAt": "2026-06-22T14:02:27.000Z",
-          "source": "StopGame",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-06-22T18:09:06.655Z",
+      "lastFetchAt": "2026-06-22T23:10:53.195Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
