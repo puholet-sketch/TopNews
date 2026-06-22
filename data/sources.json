@@ -1,0 +1,204 @@
+{
+  "categories": [
+    {
+      "id": "it",
+      "name": "IT и технологии",
+      "slug": "it",
+      "source": "TechCrunch",
+      "siteUrl": "https://techcrunch.com",
+      "feedUrl": "https://techcrunch.com/feed/",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "ai",
+      "name": "Искусственный интеллект",
+      "slug": "ai",
+      "source": "MIT Technology Review",
+      "siteUrl": "https://www.technologyreview.com",
+      "feedUrl": "https://www.technologyreview.com/feed/",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Кибербезопасность",
+      "slug": "cybersecurity",
+      "source": "Krebs on Security",
+      "siteUrl": "https://krebsonsecurity.com",
+      "feedUrl": "https://krebsonsecurity.com/feed/",
+      "intervalHours": 12,
+      "topCount": 5
+    },
+    {
+      "id": "business",
+      "name": "Бизнес и финансы",
+      "slug": "business",
+      "source": "CNBC",
+      "siteUrl": "https://www.cnbc.com",
+      "feedUrl": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "intervalHours": 2,
+      "topCount": 5
+    },
+    {
+      "id": "startups",
+      "name": "Стартапы",
+      "slug": "startups",
+      "source": "VentureBeat",
+      "siteUrl": "https://venturebeat.com",
+      "feedUrl": "https://venturebeat.com/feed/",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "science",
+      "name": "Наука",
+      "slug": "science",
+      "source": "Phys.org",
+      "siteUrl": "https://phys.org",
+      "feedUrl": "https://phys.org/rss-feed/",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "medicine",
+      "name": "Медицина",
+      "slug": "medicine",
+      "source": "FDA News",
+      "siteUrl": "https://www.fda.gov",
+      "feedUrl": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "health",
+      "name": "Здоровье",
+      "slug": "health",
+      "source": "WHO News",
+      "siteUrl": "https://www.who.int",
+      "feedUrl": "https://www.who.int/rss-feeds/news-english.xml",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "environment",
+      "name": "Экология и климат",
+      "slug": "environment",
+      "source": "The Guardian Environment",
+      "siteUrl": "https://www.theguardian.com/environment",
+      "feedUrl": "https://www.theguardian.com/environment/rss",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "energy",
+      "name": "Энергетика",
+      "slug": "energy",
+      "source": "OilPrice.com",
+      "siteUrl": "https://oilprice.com",
+      "feedUrl": "https://oilprice.com/rss/main",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "space",
+      "name": "Космос",
+      "slug": "space",
+      "source": "Space.com",
+      "siteUrl": "https://www.space.com",
+      "feedUrl": "https://www.space.com/feeds/all",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "automotive",
+      "name": "Авто",
+      "slug": "automotive",
+      "source": "Car and Driver",
+      "siteUrl": "https://www.caranddriver.com",
+      "feedUrl": "https://www.caranddriver.com/rss/all.xml/",
+      "intervalHours": 6,
+      "topCount": 5
+    },
+    {
+      "id": "gaming",
+      "name": "Игры",
+      "slug": "gaming",
+      "source": "Rock Paper Shotgun",
+      "siteUrl": "https://www.rockpapershotgun.com",
+      "feedUrl": "https://www.rockpapershotgun.com/feed",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "entertainment",
+      "name": "Развлечения",
+      "slug": "entertainment",
+      "source": "Variety",
+      "siteUrl": "https://variety.com",
+      "feedUrl": "https://variety.com/feed/",
+      "intervalHours": 4,
+      "topCount": 5
+    },
+    {
+      "id": "sports",
+      "name": "Спорт",
+      "slug": "sports",
+      "source": "ESPN",
+      "siteUrl": "https://www.espn.com",
+      "feedUrl": "https://www.espn.com/espn/rss/news",
+      "intervalHours": 2,
+      "topCount": 5
+    },
+    {
+      "id": "politics",
+      "name": "Мировая политика",
+      "slug": "politics",
+      "source": "NPR World",
+      "siteUrl": "https://www.npr.org/sections/world",
+      "feedUrl": "https://feeds.npr.org/1004/rss.xml",
+      "intervalHours": 2,
+      "topCount": 5
+    },
+    {
+      "id": "education",
+      "name": "Образование",
+      "slug": "education",
+      "source": "EdSurge",
+      "siteUrl": "https://www.edsurge.com",
+      "feedUrl": "https://www.edsurge.com/articles_rss",
+      "intervalHours": 8,
+      "topCount": 5
+    },
+    {
+      "id": "law",
+      "name": "Право",
+      "slug": "law",
+      "source": "NPR Law",
+      "siteUrl": "https://www.npr.org/sections/law",
+      "feedUrl": "https://feeds.npr.org/1019/rss.xml",
+      "intervalHours": 12,
+      "topCount": 5
+    },
+    {
+      "id": "realestate",
+      "name": "Недвижимость",
+      "slug": "realestate",
+      "source": "Curbed",
+      "siteUrl": "https://www.curbed.com",
+      "feedUrl": "https://www.curbed.com/rss/index.xml",
+      "intervalHours": 8,
+      "topCount": 5
+    },
+    {
+      "id": "travel",
+      "name": "Путешествия",
+      "slug": "travel",
+      "source": "Skift",
+      "siteUrl": "https://skift.com",
+      "feedUrl": "https://skift.com/feed/",
+      "intervalHours": 8,
+      "topCount": 5
+    }
+  ]
+}

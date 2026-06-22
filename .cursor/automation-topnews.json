@@ -1,0 +1,14 @@
+{
+  "name": "TopNews — сбор RSS новостей",
+  "description": "Каждые 2 часа собирает топ-5 новостей из 20 RSS-источников (IT → медицина), обновляет data/news.json и создаёт PR.",
+  "prefillUrl": "https://cursor.com/automations/new?prefill=eyJuYW1lIjoiVG9wTmV3cyDigJQg0YHQsdC-0YAgUlNTINC90L7QstC-0YHRgtC10LkiLCJkZXNjcmlwdGlvbiI6ItCa0LDQttC00YvQtSAyINGH0LDRgdCwINGB0L7QsdC40YDQsNC10YIg0YLQvtC_LTUg0L3QvtCy0L7RgdGC0LXQuSDQuNC3IDIwIFJTUy3QuNGB0YLQvtGH0L3QuNC60L7QsiAoSVQg4oaSINC80LXQtNC40YbQuNC90LApLCDQvtCx0L3QvtCy0LvRj9C10YIgZGF0YS9uZXdzLmpzb24g0Lgg0YHQvtC30LTQsNGR0YIgUFIuIiwid29ya2Zsb3ciOnsiZ2l0Q29uZmlnIjp7ImJyYW5jaCI6Im1haW4iLCJyZXBvc2l0b3J5IjoiaHR0cHM6Ly9naXRodWIuY29tL1lPVVJfVVNFUk5BTUUvVG9wTmV3cyJ9LCJpbnN0cnVjdGlvbnMiOiLQotGLIOKAlCDQsNCz0LXQvdGCINCw0LLRgtC-0LzQsNGC0LjQt9Cw0YbQuNC4INC_0YDQvtC10LrRgtCwIFRvcE5ld3MuXG5cbiMjINCX0LDQtNCw0YfQsFxuMS4g0KDQsNCx0L7RgtCw0Lkg0LIg0LrQvtGA0L3QtSDRgNC10L_QvtC30LjRgtC-0YDQuNGPIFRvcE5ld3MuXG4yLiBucG0gaW5zdGFsbCDQtdGB0LvQuCBub2RlX21vZHVsZXMg0L7RgtGB0YPRgtGB0YLQstGD0LXRgi5cbjMuIG5wbSBydW4gY29sbGVjdCDigJQg0YHQutGA0LjQv9GCINC-0LHQvdC-0LLQu9GP0LXRgiDQutCw0YLQtdCz0L7RgNC40Lgg0L_QviDQuNGFINC40L3RgtC10YDQstCw0LvRgyAoMuKAkzEyINGHKS5cbjQuINCV0YHQu9C4IGRhdGEvbmV3cy5qc29uINC40LfQvNC10L3QuNC70YHRjyDigJQg0LrQvtC80LzQuNGC0YwgXCJjaG9yZTogdXBkYXRlIG5ld3MgZmVlZFwiINC4INC-0YLQutGA0L7QuSBwdWxsIHJlcXVlc3QuXG41LiDQldGB0LvQuCDQuNC30LzQtdC90LXQvdC40Lkg0L3QtdGCIOKAlCDQt9Cw0LLQtdGA0YjQuCDQsdC10LcgUFIuXG5cbiMjINCe0YLRh9GR0YJcbtCh0LrQvtC70YzQutC-INC60LDRgtC10LPQvtGA0LjQuSDQvtCx0L3QvtCy0LvQtdC90L4g0Lgg0L_RgNC-0L_Rg9GJ0LXQvdC-LiIsIm1lbW9yeUVuYWJsZWQiOnRydWUsInRyaWdnZXJzIjpbeyJzY2hlZHVsZSI6IjAgKi8yICogKiAqIiwidHlwZSI6ImNyb24ifV19fQ",
+  "workflow": {
+    "triggers": [{ "type": "cron", "schedule": "0 */2 * * *" }],
+    "memoryEnabled": true,
+    "gitConfig": {
+      "repository": "https://github.com/puholet-sketch/TopNews",
+      "branch": "main"
+    },
+    "instructions": "Ты — агент автоматизации проекта TopNews.\n\n## Задача\n1. Работай в корне репозитория TopNews.\n2. npm install если node_modules отсутствует.\n3. npm run collect — скрипт обновляет категории по их интервалу (2–12 ч).\n4. Если data/news.json изменился — коммить \"chore: update news feed\" и открой pull request.\n5. Если изменений нет — заверши без PR.\n\n## Отчёт\nСколько категорий обновлено и пропущено."
+  }
+}
