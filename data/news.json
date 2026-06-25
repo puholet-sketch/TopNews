@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-06-25T19:44:13.887Z",
+  "updatedAt": "2026-06-25T21:20:32.011Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive"
+  ],
+  "skippedNow": [
     "it",
+    "cybersecurity",
     "business",
     "startups",
     "medicine",
@@ -10,16 +19,7 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-06-25T13:59:28.608Z",
+      "lastFetchAt": "2026-06-25T21:20:23.627Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1782393589000",
+          "id": "ai-0-1782411037000",
+          "title": "Система виновата всегда — даже когда она ещё не включена",
+          "summary": "Когда говоришь о видеоаналитике, обычно ждут разговора про точность моделей, архитектуру и алгоритмы. Но за три года внедрений я понял — самая сложная часть проекта это не технология. Это люди. И самое неожиданное сопротивление приходит не оттуда откуда ждёшь. История первая. \"Эт",
+          "url": "https://habr.com/ru/articles/1052020/?utm_campaign=1052020&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/a9e/d23/27c/a9ed2327cb2233ef073ca96b4535685f.jpg",
+          "publishedAt": "2026-06-25T18:10:37.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1782393589000",
           "title": "Следим за релизами Codex: последние обновления",
           "summary": "Если вы работаете с Codex, то наверняка замечали следующее - нажимаешь кнопку “Обновить”, Codex перезапускается, но визуально ничего не меняется. На самом деле изменения есть - просто чаще всего это не что-то глобальное, а внутреннее: скорость, MCP-инструменты, работа с Git и т.д",
           "url": "https://habr.com/ru/articles/1051916/?utm_campaign=1051916&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +129,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1782391383000",
+          "id": "ai-2-1782391383000",
           "title": "LLM Sandbox: пример реализации агента с песочницей [часть 2, практика]",
           "summary": "Статья посвящена практической реализации агента с изолированной средой исполнения кода. Рассказываю как устроен агент, который пишет и исполняет код в Docker песочнице. Это вторая часть серии про LLM Sandbox. В первой части мы разобрали риски исполнения кода от LLM, ограничения п",
           "url": "https://habr.com/ru/articles/1051892/?utm_campaign=1051892&utm_source=habrahabr&utm_medium=rss",
@@ -129,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1782391353000",
+          "id": "ai-3-1782391353000",
           "title": "Kafka Consumer в тестовой автоматизации: архитектурный разбор",
           "summary": "Привет, Хабр! На связи Егор Лаптев — QA Fullstack Java в SENSE на проекте крупного российского банка. End-to-end тесты UI проверяют только то, что видно на экране: кнопка нажалась, форма открылась, данные отобразились. Но в распределённых системах значительная часть бизнес-логики",
           "url": "https://habr.com/ru/companies/it_sense/articles/1051890/?utm_campaign=1051890&utm_source=habrahabr&utm_medium=rss",
@@ -141,24 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1782390508000",
+          "id": "ai-4-1782390508000",
           "title": "Классификация и анализ методов верификации нейросетей",
           "summary": "Можно ли доверять ответу нейросети? Получить ответ от нейросети — только половина задачи. Не менее важно понять, насколько этому ответу можно доверять. В новой статье делюсь своим взглядом на существующие методы верификации. В статье: классификация подходов, их ограничения и реко",
           "url": "https://habr.com/ru/companies/docdoc/articles/1050238/?utm_campaign=1050238&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/1c6/7dc/6a7/1c67dc6a7a9b1fb5d9573eff7f3a9b40.png",
           "publishedAt": "2026-06-25T12:28:28.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1782387930000",
-          "title": "Как мы валидировали сервер YADRO для NVIDIA H100 PCIe",
-          "summary": "Недавно на рынке появились PCIe-карты NVIDIA H100: они позиционируются как решения на базе SXM-чипов, извлеченных из HGX-модулей. Но точно ли их производительность не уступает производительности оригинальных NVIDIA H100 NVL? Меня зовут Артём Маклаев, вместе с командой я занимаюсь",
-          "url": "https://habr.com/ru/companies/yadro/articles/1051680/?utm_campaign=1051680&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a3f/47a/b60/a3f47ab60e45bad108747509622f6b38.jpg",
-          "publishedAt": "2026-06-25T11:45:30.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-06-25T13:59:32.356Z",
+      "lastFetchAt": "2026-06-25T21:20:24.856Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -385,7 +385,43 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1782392700000",
+          "id": "science-0-1782404820000",
+          "title": "Врачи описали результаты пересадки мочевого пузыря спустя полгода после операции",
+          "summary": "Врачи описали результаты пересадки мочевого пузыря спустя полгода после операции",
+          "url": "https://nplus1.ru/news/2026/06/25/bladder-kidney-transplantation",
+          "image": "https://minio.nplus1.ru/app-images/1114979/conversions/6a3d2ab934b44_cover-share.png",
+          "publishedAt": "2026-06-25T16:27:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1782401760000",
+          "title": "Интенсивное освещение по вечерам ускорило старение глаз",
+          "summary": "Интенсивное освещение по вечерам ускорило старение глаз",
+          "url": "https://nplus1.ru/news/2026/06/25/age-related-evening-light",
+          "image": "https://minio.nplus1.ru/app-images/1114836/conversions/6a3c4d0a32b64_cover-share.png",
+          "publishedAt": "2026-06-25T15:36:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-2-1782399600000",
+          "title": "Агонисты рецептора ГПП-1 нарушили вкус и обоняние у больных диабетом второго типа",
+          "summary": "Агонисты рецептора ГПП-1 нарушили вкус и обоняние у больных диабетом второго типа",
+          "url": "https://nplus1.ru/news/2026/06/25/smell-taste-glp",
+          "image": "https://minio.nplus1.ru/app-images/1114691/conversions/6a3be309aed63_cover-share.png",
+          "publishedAt": "2026-06-25T15:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-3-1782392700000",
           "title": "Треть пациентов с устойчивой лимфомой остались живы через 10 лет после CAR-T-терапии",
           "summary": "Треть пациентов с устойчивой лимфомой остались живы через 10 лет после CAR-T-терапии",
           "url": "https://nplus1.ru/news/2026/06/25/car-t-staying-alive",
@@ -397,48 +433,12 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1782391920000",
+          "id": "science-4-1782391920000",
           "title": "Ультразвуковая стимуляция прилежащего ядра снизила тягу к опиоидам у взрослого израильтянина",
           "summary": "Ультразвуковая стимуляция прилежащего ядра снизила тягу к опиоидам у взрослого израильтянина",
           "url": "https://nplus1.ru/news/2026/06/25/opioid-sound-wave-technology",
           "image": "https://minio.nplus1.ru/app-images/1114953/conversions/6a3d206c7411f_cover-share.png",
           "publishedAt": "2026-06-25T12:52:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-2-1782390600000",
-          "title": "Прием антисекреторных препаратов во время беременности связали с заболеваниями кишечника у детей",
-          "summary": "Прием антисекреторных препаратов во время беременности связали с заболеваниями кишечника у детей",
-          "url": "https://nplus1.ru/news/2026/06/25/acid-suppressive-medications-ibd",
-          "image": "https://minio.nplus1.ru/app-images/1114899/conversions/6a3d0679e951d_cover-share.png",
-          "publishedAt": "2026-06-25T12:30:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-3-1782389940000",
-          "title": "Химики получили полезный химикат из биомассы, света и углекислого газа",
-          "summary": "Химики получили полезный химикат из биомассы, света и углекислого газа",
-          "url": "https://nplus1.ru/news/2026/06/25/bioplastic-and-carbonic-dioxide",
-          "image": "https://minio.nplus1.ru/app-images/1114271/conversions/6a3a7f024a18b_cover-share.png",
-          "publishedAt": "2026-06-25T12:19:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1782387000000",
-          "title": "Поднять щиты",
-          "summary": "Поднять щиты",
-          "url": "https://nplus1.ru/blog/2026/06/25/perst-112",
-          "image": "https://minio.nplus1.ru/app-images/1114933/conversions/6a3d0f9d02ef5_cover-share.png",
-          "publishedAt": "2026-06-25T11:30:00.000Z",
           "source": "N+1",
           "categoryId": "science",
           "categoryName": "Наука",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-06-25T13:59:36.359Z",
+      "lastFetchAt": "2026-06-25T21:20:28.224Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-06-25T13:59:37.553Z",
+      "lastFetchAt": "2026-06-25T21:20:29.592Z",
       "intervalHours": 6,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1782395340000",
-          "title": "Аксенов сообщил о повреждении энергоинфраструктуры Крыма из-за ударов ВСУ",
-          "summary": "Энергетическая инфраструктура повреждена в Крыму в результате украинских ударов, сообщил глава республики Сергей Аксенов в четверг.",
-          "url": "https://www.interfax.ru/russia/1098343",
+          "id": "energy-0-1782421680000",
+          "title": "Аэропорт Калуги приостановил работу",
+          "summary": "Аэропорт Калуги временно не принимает и не отправляет рейсы, сообщили в Росавиации.\"Аэропорт Калуга (Грабцево).",
+          "url": "https://www.interfax.ru/russia/1098404",
           "image": null,
-          "publishedAt": "2026-06-25T13:49:00.000Z",
+          "publishedAt": "2026-06-25T21:08:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1782395160000",
-          "title": "Лукашенко сообщил о встрече с представителями Зеленского в Минске",
-          "summary": "Президент Белоруссии Александр Лукашенко рассказал о состоявшейся у него недавно встрече с представителями президента Украины Владимира Зеленского, передает БелТА. \"Вот на этом месте недавно были представители Зеленского.",
-          "url": "https://www.interfax.ru/world/1098342",
+          "id": "energy-1-1782420600000",
+          "title": "Россия и Белоруссия могут довести товарооборот до $70 млрд в 2026 году",
+          "summary": "Заместитель председателя правительства РФ Алексей Оверчук обсудил в ходе встречи с премьером Белоруссии Александром Турчиным в Минске торгово-экономическое сотрудничество.\"Основной темой беседы стали актуальные вопросы двусторонней повестки, в том числе развитие торгово-экономиче",
+          "url": "https://www.interfax.ru/business/1098403",
           "image": null,
-          "publishedAt": "2026-06-25T13:46:00.000Z",
+          "publishedAt": "2026-06-25T20:50:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1782394800000",
-          "title": "Португальский эксперт призвал не переоценивать голы Роналду сборной Узбекистана",
-          "summary": "Португальский футбольный агент Паулу Барбоза считает, что дубль Криштиану Роналду в матче против сборной Узбекистана на чемпионате мира не является показательным для нападающего.\"Да, забил два мяча.",
-          "url": "https://www.sport-interfax.ru/1098341",
+          "id": "energy-2-1782420360000",
+          "title": "Более 61 тыс. жителей в Дагестане остались без света из-за непогоды",
+          "summary": "Аварийные отключения электроэнергии произошли в восьми районах Дагестана из-за коротких замыканий и обрывов ЛЭП, вызванных непогодой, сообщает пресс-служба ГУ МЧС РФ по республике в четверг.\"Поступают сообщения об аварийных отключениях электроснабжения в восьми муниципальных обра",
+          "url": "https://www.interfax.ru/russia/1098402",
           "image": null,
-          "publishedAt": "2026-06-25T13:40:00.000Z",
+          "publishedAt": "2026-06-25T20:46:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1782394680000",
-          "title": "Apple повысила цены на MacBook и iPad из-за дефицита чипов памяти",
-          "summary": "Американская Apple Inc. повысила цены на свою продукцию, включая ноутбуки MacBook и планшеты iPad, из-за роста расходов на чипы памяти на фоне их дефицита.",
-          "url": "https://www.interfax.ru/business/1098339",
-          "image": "https://www.interfax.ru/ftproot/textphotos/2026/06/25/ip1000.jpg",
-          "publishedAt": "2026-06-25T13:38:00.000Z",
+          "id": "energy-3-1782420060000",
+          "title": "Жара во Франции бьет исторические рекорды",
+          "summary": "Вторник, среда и четверг стали самыми жаркими днями, когда-либо зарегистрированными во Франции, передает BFMTV.\"В четверг с общенациональным температурным индексом в 30 градусов по Цельсию был зафиксирован самый жаркий день в нашей метеорологической истории, сравнявшийся с показа",
+          "url": "https://www.interfax.ru/world/1098401",
+          "image": null,
+          "publishedAt": "2026-06-25T20:41:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1782394560000",
-          "title": "В результате последних атак на ЛНР один человек погиб, двое ранены",
-          "summary": "В результате последних атак по районам Луганской Народной Республики погиб один человек и еще двое были ранены, сообщил глава региона Леонид Пасечник.\"Беспилотники ВФУ (вооруженных формирований Украины - ИФ) атаковали гражданские грузовые автомобили в Новоайдарском муниципальном ",
-          "url": "https://www.interfax.ru/russia/1098338",
+          "id": "energy-4-1782418560000",
+          "title": "ВМС КСИР назвали альтернативный маршрут в Ормузе опасным",
+          "summary": "Военно-морские силы Корпуса стражей Исламской революции (КСИР) в четверг объявили, что только обозначенный Ираном маршрут являет безопасными для прохождения торговых судов через Ормузский пролив, передает агентство IRNA.",
+          "url": "https://www.interfax.ru/world/1098400",
           "image": null,
-          "publishedAt": "2026-06-25T13:36:00.000Z",
+          "publishedAt": "2026-06-25T20:16:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-06-25T13:59:38.302Z",
+      "lastFetchAt": "2026-06-25T21:20:30.095Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-06-25T13:59:40.719Z",
+      "lastFetchAt": "2026-06-25T21:20:32.010Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1365,7 +1365,43 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1782389737000",
+          "id": "automotive-0-1782404897000",
+          "title": "«Ведомости»: АГР прекратил производство автомобилей марки Solaris",
+          "summary": "В петербургском Сестрорецке на бывшем заводе Hyundai под брендом Solaris выпускали модели Hyundai Solaris и Hyundai Creta, а также Kia Rio и Rio X. Как сообщают «Ведомости», в 2026 году предприятие не смогло собрать ни одного автомобиля по причине отсутствия машинокомплектов.",
+          "url": "https://motor.ru/news/khvatit-do-oseni-v-rossii-svernuli-vypusk-pereimenovannykh-hyundai-i-kia-25-06-2026.htm",
+          "image": "https://motor.ru/imgs/2026/06/25/16/6984060/361846204f15b89a8af685b5dbf2b0f48c40f363.webp",
+          "publishedAt": "2026-06-25T16:28:17.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1782398434000",
+          "title": "В Германии начали продавать газомоторные Lada Niva Legend",
+          "summary": "Об этом сообщает проект «Авто Mail».",
+          "url": "https://motor.ru/news/v-germanii-nachali-prodavat-lada-na-gaze-za-2-4-mln-rublei-25-06-2026.htm",
+          "image": "https://motor.ru/imgs/2026/06/25/14/6984045/ecc6ba3711bb6e5ef565d31b6e8e30f81da4fe68.webp",
+          "publishedAt": "2026-06-25T14:40:34.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-2-1782396221000",
+          "title": "Авто Mail: в России ожидается подорожание моторного масла",
+          "summary": "В открытой продаже резко сократилось количество предложений по моторным маслам, а цены выросли на 40−60%. Некоторые позиции отсутствуют, а дальнейший рост стоимости может стать двукратным. Такие данные приводит Авто Mail со ссылкой на представителей дилерского сообщества.",
+          "url": "https://motor.ru/news/plyus-40-60-v-rossii-vyrosli-ceny-na-motornoe-maslo-25-06-2026.htm",
+          "image": "https://motor.ru/imgs/2026/06/25/14/6984034/9ea28ac7b4b6a744d96db94a2f31de5bafd1679b.jpg",
+          "publishedAt": "2026-06-25T14:03:41.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-3-1782389737000",
           "title": "АвтоВАЗ открыл продажи Lada Iskra с мощным мотором и механической коробкой",
           "summary": "АвтоВАЗ расширил гамму версий универсала Lada Iskra. Если прежде со 106-сильным мотором устанавливался только вариатор, то теперь появилась модификация, укомплектованная 6-ступенчатой механической коробкой передач.",
           "url": "https://motor.ru/news/u-lada-iskra-poyavilas-novaya-versiya-za-1-6-mln-rublei-25-06-2026.htm",
@@ -1377,48 +1413,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1782386561000",
+          "id": "automotive-4-1782386561000",
           "title": "Водителей предупредили о новой автоподставе с незаметным торможением",
           "summary": "Об этой «новации» мошенников рассказали в ГИБДД.",
           "url": "https://motor.ru/news/novaya-avtopodstava-moshenniki-tormozyat-ruchnikom-skryvaya-stop-signaly-25-06-2026.htm",
           "image": "https://motor.ru/imgs/2026/06/25/11/6983932/ccad574ec3fb359ad12ade836b611408fe0960c9.jpg",
           "publishedAt": "2026-06-25T11:22:41.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-2-1782384647000",
-          "title": "Загадочный Ford Super Deluxe Woody 1941 года нашли на затонувшем авианосце USS Yorktown",
-          "summary": "Исследователи NOAA Ocean Exploration обнаружили загадочный автомобиль Ford Super Deluxe Woody 1941 года на затонувшем авианосце USS Yorktown в Тихом океане. Находка была сделана еще 19 апреля прошлого года с помощью подводного аппарата Deep Discoverer на глубине около 5200 метров",
-          "url": "https://motor.ru/news/zagadka-vtoroi-mirovoi-voiny-kak-ford-okazalsya-na-bortu-zatonuvshego-avianosca-25-06-2026.htm",
-          "image": "https://motor.ru/imgs/2026/06/25/10/6983889/c3611797148f6bbb0914843f390ae0b7048df46f.webp",
-          "publishedAt": "2026-06-25T10:50:47.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-3-1782383606000",
-          "title": "«АвтоВАЗ» запатентовал \"литературные\" названия Onegin, Poema и Tezis",
-          "summary": "Кроме того, по данным Роспатента, патенты поданы на названия Arteus, Bagira, Elegia и Tenor.",
-          "url": "https://motor.ru/news/avtovaz-podal-zayavki-na-registraciyu-semi-tovarnykh-znakov-25-06-2026.htm",
-          "image": "https://motor.ru/imgs/2026/06/25/08/6983828/6458b120d8051c050db0c16fadb773ee35f76f6b.webp",
-          "publishedAt": "2026-06-25T10:33:26.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1782375600000",
-          "title": "Игра «Дальнобойщики-2» перевыпущена спустя 25 лет после релиза",
-          "summary": "На платформе Steam, через которую распространяются компьютерное программное обеспечение, состоялся релиз некогда культового симулятора «Дальнобойщики-2». Сама игра была выпущена в 2000 году, а сейчас издательство «1С» и студия SoftLab-NSK перезапустили проект.",
-          "url": "https://motor.ru/news/u-rossiyan-vnov-poyavilas-vozmozhnost-sygrat-v-dalnoboishiki-2-25-06-2026.htm",
-          "image": "https://motor.ru/imgs/2026/06/25/08/6983823/94438f6fee7b8a7d7452c5abd001b0aac8b0b9d1.jpg",
-          "publishedAt": "2026-06-25T08:20:00.000Z",
           "source": "Motor.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
