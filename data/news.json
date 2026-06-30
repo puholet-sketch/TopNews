@@ -1,15 +1,10 @@
 {
-  "updatedAt": "2026-06-29T22:45:01.670Z",
+  "updatedAt": "2026-06-30T02:05:43.855Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -20,14 +15,19 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
+  "skippedNow": [
+    "cybersecurity",
+    "law"
+  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-06-29T19:30:26.787Z",
+      "lastFetchAt": "2026-06-30T02:05:21.652Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-06-29T16:50:51.017Z",
+      "lastFetchAt": "2026-06-30T02:05:23.087Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,31 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1782750419000",
+          "id": "ai-0-1782764123000",
+          "title": "[Перевод] Что делает роботов экономически жизнеспособным бизнесом",
+          "summary": "Когда компания обосновывает покупку роботов, разговор почти всегда начинается одинаково: «сэкономим зарплаты стольких-то человек». Но стоимость человеческого труда — лишь верхушка пирамиды ценности, и часто наименьшая её часть. На самом деле всё сводится к одному уравнению: ценно",
+          "url": "https://habr.com/ru/articles/1053644/?utm_campaign=1053644&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/420/d82/9e0/420d829e06e051a84aadaccea241f615.png",
+          "publishedAt": "2026-06-29T20:15:23.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1782756408000",
+          "title": "Дело на вечер: собираем домашний ИИ-сервер",
+          "summary": "Конечно, можно купить готовый (за ~1.3 млн. руб. есть неплохие варианты), но нам ведь главное процесс, ведь так? К тому же, не все готовы выложить такую сумму за возможность запускать дома нейронку. Итак, что нам пригодится, чтобы влезть в бюджет до 400 тыс. руб.: Читать далее",
+          "url": "https://habr.com/ru/articles/1053612/?utm_campaign=1053612&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/92f/49b/208/92f49b20809a42a3f60df359457884da.png",
+          "publishedAt": "2026-06-29T18:06:48.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1782750419000",
           "title": "Аудио-токенизатор KVAE-Audio от Сбера",
           "summary": "Привет, Хабр. Мы уже показывали токенизаторы для изображений и видео, рассказывали про обновление видеомоделей KVAE-2.0, а теперь закрываем третью модальность — публикуем KVAE-Audio, непрерывный полнодиапазонный (48 кГц) токенизатор для звука. По результатам тестов наш VAE (вариа",
           "url": "https://habr.com/ru/companies/sberbank/articles/1053410/?utm_campaign=1053410&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1782749613000",
+          "id": "ai-3-1782749613000",
           "title": "Как мы разрушили последний бастион бюрократии в HR и сократили время оформления сотрудников до нескольких секунд",
           "summary": "Самый дорогой сотрудник для компании — тот, который уже найден, но еще не может приступить к работе. Каждый час между принятием решения о найме и фактическим выходом сотрудника означает потерянное рабочее время, дополнительную нагрузку на HR и задержку бизнес-процессов. И хотя ка",
           "url": "https://habr.com/ru/companies/smartengines/articles/1053560/?utm_campaign=1053560&utm_source=habrahabr&utm_medium=rss",
@@ -129,36 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1782749419000",
+          "id": "ai-4-1782749419000",
           "title": "Почему я перестал слать каждый вопрос в LLM: архитектура предсказуемого конвейера",
           "summary": "Очевидный путь для бота поддержки на LLM — слать в модель каждый вопрос вместе с куском базы знаний. На демо работает, в проде разваливается: галлюцинации, путаница в похожих сценариях и счёт за каждое «здравствуйте». Рассказываю, как я перевернул схему — вопрос доходит до нейрос",
           "url": "https://habr.com/ru/articles/1053542/?utm_campaign=1053542&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/11d/9fc/32a/11d9fc32a152856e7821286549d4068d.png",
           "publishedAt": "2026-06-29T16:10:19.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1782745826000",
-          "title": "Народная карта бензина собрала почти 2 млн посетителей за три дня. Её навайбкодил один человек",
-          "summary": "Бэкенд кое-как держит нагрузку, но от нормальной монетизации автор отказывается из принципа — пока есть только донаты. Читать далее",
-          "url": "https://habr.com/ru/articles/1053532/?utm_campaign=1053532&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/5f9/9f3/72d/5f99f372dcb95269078aa95a287d94d4.jpeg",
-          "publishedAt": "2026-06-29T15:10:26.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1782744629000",
-          "title": "Как мы строим корпоративную экзаменационную платформу с AI: архитектура, дубли, мульти-tenant и продовые шишки",
-          "summary": "Привет, Хабр. Хочу рассказать про наш проект Exam AI — внутреннюю платформу для аттестации и тренировки сотрудников. Это не “ещё один тестик на 20 вопросов”, а система, где: Читать далее",
-          "url": "https://habr.com/ru/companies/sandboxer/articles/1053514/?utm_campaign=1053514&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/7f7/4fd/e40/7f74fde40b782a4a11fa6556b5ce17ae.png",
-          "publishedAt": "2026-06-29T14:50:29.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-06-29T22:44:59.316Z",
+      "lastFetchAt": "2026-06-30T02:05:24.174Z",
       "intervalHours": 2,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-06-29T19:30:29.845Z",
+      "lastFetchAt": "2026-06-30T02:05:25.790Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,24 +327,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1782717608000",
-          "title": "Приложение Happ снова появилось в российском App Store",
-          "summary": "Популярный VPN-клиент удалили из магазина Apple 24 июня 2026 года.",
-          "url": "https://vc.ru/services/3001429-prilozhenie-happ-snova-v-rossiyskom-app-store?from=rss",
-          "image": "https://leonardo.osnova.io/5ad956f6-a852-5203-a16b-8603b26754ae/",
-          "publishedAt": "2026-06-29T07:20:08.000Z",
+          "id": "startups-1-1782752408000",
+          "title": "WhatsApp* представил юзернеймы и открыл их бронирование",
+          "summary": "Функцию запустят в течение нескольких месяцев.",
+          "url": "https://vc.ru/services/3002905-whatsapp-predstavil-yuzernyemy?from=rss",
+          "image": "https://leonardo.osnova.io/8627dce8-dbfe-517d-8d5a-8b0d2433a8cc/",
+          "publishedAt": "2026-06-29T17:00:08.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1782752408000",
-          "title": "WhatsApp* представил юзернеймы и открыл их бронирование",
-          "summary": "Функцию запустят в течение нескольких месяцев.",
-          "url": "https://vc.ru/services/3002905-whatsapp-predstavil-yuzernyemy?from=rss",
-          "image": "https://leonardo.osnova.io/8627dce8-dbfe-517d-8d5a-8b0d2433a8cc/",
-          "publishedAt": "2026-06-29T17:00:08.000Z",
+          "id": "startups-2-1782717608000",
+          "title": "Приложение Happ снова появилось в российском App Store",
+          "summary": "Популярный VPN-клиент удалили из магазина Apple 24 июня 2026 года.",
+          "url": "https://vc.ru/services/3001429-prilozhenie-happ-snova-v-rossiyskom-app-store?from=rss",
+          "image": "https://leonardo.osnova.io/5ad956f6-a852-5203-a16b-8603b26754ae/",
+          "publishedAt": "2026-06-29T07:20:08.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-06-29T16:50:53.468Z",
+      "lastFetchAt": "2026-06-30T02:05:26.888Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -385,7 +385,19 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1782749280000",
+          "id": "science-0-1782759600000",
+          "title": "Зоологи нашли на картине Яна Брейгеля Старшего поймавшую птицу гигантскую вечерницу",
+          "summary": "Зоологи нашли на картине Яна Брейгеля Старшего поймавшую птицу гигантскую вечерницу",
+          "url": "https://nplus1.ru/news/2026/06/29/brueghel-knew-about-bird-eating-noctule-bats",
+          "image": "https://minio.nplus1.ru/app-images/1115773/conversions/6a3f7b6042e15_cover-share.png",
+          "publishedAt": "2026-06-29T19:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1782749280000",
           "title": "Человекообразные обезьяны унаследовали медленное старение от общего предка",
           "summary": "Человекообразные обезьяны унаследовали медленное старение от общего предка",
           "url": "https://nplus1.ru/news/2026/06/29/ageing-rates-in-the-primate-lineage",
@@ -397,7 +409,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1782746940000",
+          "id": "science-2-1782746940000",
           "title": "Большой адронный коллайдер остановили на четыре года для модернизации",
           "summary": "Большой адронный коллайдер остановили на четыре года для модернизации",
           "url": "https://nplus1.ru/news/2026/06/29/lhc-shutdown3",
@@ -409,7 +421,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-2-1782745200000",
+          "id": "science-3-1782745200000",
           "title": "Практика осознанности облегчила боль в спине",
           "summary": "Практика осознанности облегчила боль в спине",
           "url": "https://nplus1.ru/news/2026/06/29/mindfulness-back-pain",
@@ -421,7 +433,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-3-1782735000000",
+          "id": "science-4-1782735000000",
           "title": "Генетики опубликовали пятый высококачественный геном неандертальца",
           "summary": "Палеогенетики опубликовали результаты анализа ДНК более чем двух десятков поздних неандертальцев, останки которых археологи раскопали на нескольких археологических памятниках, расположенных на северо-западе Европы. Помимо того, что они представили всего лишь пятый высококачествен",
           "url": "https://nplus1.ru/news/2026/06/29/late-neanderthals-in-northwestern-europe",
@@ -431,23 +443,11 @@
           "categoryId": "science",
           "categoryName": "Наука",
           "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1782727200000",
-          "title": "«История пиццы: Из Неаполя в Голливуд»",
-          "summary": "Вряд ли кто-то будет спорить с тем, что пицца — итальянское блюдо. При этом версия, с которой мы, вероятно, знакомы лучше всего, появилась в Америке и сильно отличается от традиционной неаполитанской фокаччи. В книге «История пиццы: Из Неаполя в Голливуд» («НЛО»), переведенной на",
-          "url": "https://nplus1.ru/blog/2026/06/29/storia-della-pizza",
-          "image": "https://minio.nplus1.ru/app-images/1115859/conversions/6a4248be31bf7_cover-share.png",
-          "publishedAt": "2026-06-29T10:00:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
         }
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-06-29T19:30:30.775Z",
+      "lastFetchAt": "2026-06-30T02:05:27.963Z",
       "intervalHours": 4,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -455,60 +455,60 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1782760740000",
-          "title": "Досрочные выборы в парламент Сербии состоятся через несколько месяцев",
-          "summary": "Досрочные парламентские выборы пройдут в Сербии через три или четыре месяца, заявил в понедельник президент страны Александр Вучич.\"Выборы в Сербии состоятся в ближайшие три-четыре месяца\", - приводит слова Вучича сербский телерадиоканал РТС.",
-          "url": "https://www.interfax.ru/world/1099101",
+          "id": "medicine-0-1782784200000",
+          "title": "Число сбитых на подлете к Москве беспилотников увеличилось до 28",
+          "summary": "Мэр Москвы Сергей Собянин сообщил о семи уничтоженных беспилотниках, летевших к столице, таким образом общее число сбитых БПЛА с начала вторника достигло 28.",
+          "url": "https://www.interfax.ru/moscow/1099132",
           "image": null,
-          "publishedAt": "2026-06-29T19:19:00.000Z",
+          "publishedAt": "2026-06-30T01:50:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1782760380000",
-          "title": "Три человека погибли, 13 ранены в результате ударов беспилотников в ДНР",
-          "summary": "Трое мирных жителей погибли, еще 13 пострадали в результате ударов беспилотников по территории Донецкой Народной Республики в понедельник, сообщил глава региона Денис Пушилин.\"Три человека погибли, ещё тринадцать мирных жителей Республики пострадали сегодня из-за ударных дронов В",
-          "url": "https://www.interfax.ru/russia/1099100",
+          "id": "medicine-1-1782783960000",
+          "title": "Уиткофф вылетел в Катар на переговоры с Ираном",
+          "summary": "Спецпосланник президента США Дональда Трампа Стив Уиткофф отправился в столицу Катара Доху, где во вторник ожидаются американо-иранские переговоры, передает CNN.\"Уиткофф в настоящее время на пути в Доху\", - сообщил телеканал со ссылкой на двух американских чиновников.",
+          "url": "https://www.interfax.ru/world/1099131",
           "image": null,
-          "publishedAt": "2026-06-29T19:13:00.000Z",
+          "publishedAt": "2026-06-30T01:46:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1782759840000",
-          "title": "В Севастополе топливо 30 июня будут продавать по QR-кодам",
-          "summary": "В Севастополе топливо 30 июня будут продавать по QR-кодам, сообщил губернатор города Михаил Развожаев.\"Завтра продажа топлива на АЗС будет по QR-кодам.",
-          "url": "https://www.interfax.ru/russia/1099099",
+          "id": "medicine-2-1782783180000",
+          "title": "ВВС США провели испытание ракеты LRASM с борта B-2 в Тихом океане",
+          "summary": "Американский стратегический бомбардировщик B-2 Spirit потопил корабль-мишень с помощью новой противокорабельной ракеты большой дальности LRASM в ходе учений в Тихом океане, сообщает во вторник Командование глобальных ударов ВВС США.",
+          "url": "https://www.interfax.ru/world/1099130",
           "image": null,
-          "publishedAt": "2026-06-29T19:04:00.000Z",
+          "publishedAt": "2026-06-30T01:33:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1782759660000",
-          "title": "В Севастополе отменили ограничения электроснабжения",
-          "summary": "В Севастополе отменили ограничения электроснабжения - перегруз сетей, ставший причиной перебоев, ликвидирован за пределами региона, сообщил губернатор города Михаил Развожаев.\"Сейчас постепенно электроснабжение потребителям 2 очереди будет восстановлено\", - написал он.",
-          "url": "https://www.interfax.ru/russia/1099098",
+          "id": "medicine-3-1782782700000",
+          "title": "Сборная Германии выбыла из ЧМ",
+          "summary": "Сборная Германии по футболу уступила Парагваю в 1/16 финала чемпионата мира 2026 года.",
+          "url": "https://www.sport-interfax.ru/1099129",
           "image": null,
-          "publishedAt": "2026-06-29T19:01:00.000Z",
+          "publishedAt": "2026-06-30T01:25:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-4-1782759000000",
-          "title": "В Орловской области введут отпуск бензина по номерам машин",
-          "summary": "Новые правила введут с 4 июля для всех АЗС \"Роснефти\" и \"Газпрома\"",
-          "url": "https://www.interfax.ru/russia/1099097",
+          "id": "medicine-4-1782782400000",
+          "title": "На подлете к Москве сбили уже 16 дронов",
+          "summary": "Мэр Москвы Сергей Собянин сообщил об уничтожении еще пяти БПЛА, летевших к Москве, таким образом общее число сбитых БПЛА с начала вторника достигло 16.",
+          "url": "https://www.interfax.ru/moscow/1099128",
           "image": null,
-          "publishedAt": "2026-06-29T18:50:00.000Z",
+          "publishedAt": "2026-06-30T01:20:00.000Z",
           "source": "Интерфакс",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-06-29T16:50:57.308Z",
+      "lastFetchAt": "2026-06-30T02:05:31.196Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-06-29T19:30:31.391Z",
+      "lastFetchAt": "2026-06-30T02:05:31.937Z",
       "intervalHours": 4,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -595,60 +595,60 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1782760740000",
-          "title": "Досрочные выборы в парламент Сербии состоятся через несколько месяцев",
-          "summary": "Досрочные парламентские выборы пройдут в Сербии через три или четыре месяца, заявил в понедельник президент страны Александр Вучич.\"Выборы в Сербии состоятся в ближайшие три-четыре месяца\", - приводит слова Вучича сербский телерадиоканал РТС.",
-          "url": "https://www.interfax.ru/world/1099101",
+          "id": "environment-0-1782784200000",
+          "title": "Число сбитых на подлете к Москве беспилотников увеличилось до 28",
+          "summary": "Мэр Москвы Сергей Собянин сообщил о семи уничтоженных беспилотниках, летевших к столице, таким образом общее число сбитых БПЛА с начала вторника достигло 28.",
+          "url": "https://www.interfax.ru/moscow/1099132",
           "image": null,
-          "publishedAt": "2026-06-29T19:19:00.000Z",
+          "publishedAt": "2026-06-30T01:50:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1782760380000",
-          "title": "Три человека погибли, 13 ранены в результате ударов беспилотников в ДНР",
-          "summary": "Трое мирных жителей погибли, еще 13 пострадали в результате ударов беспилотников по территории Донецкой Народной Республики в понедельник, сообщил глава региона Денис Пушилин.\"Три человека погибли, ещё тринадцать мирных жителей Республики пострадали сегодня из-за ударных дронов В",
-          "url": "https://www.interfax.ru/russia/1099100",
+          "id": "environment-1-1782783960000",
+          "title": "Уиткофф вылетел в Катар на переговоры с Ираном",
+          "summary": "Спецпосланник президента США Дональда Трампа Стив Уиткофф отправился в столицу Катара Доху, где во вторник ожидаются американо-иранские переговоры, передает CNN.\"Уиткофф в настоящее время на пути в Доху\", - сообщил телеканал со ссылкой на двух американских чиновников.",
+          "url": "https://www.interfax.ru/world/1099131",
           "image": null,
-          "publishedAt": "2026-06-29T19:13:00.000Z",
+          "publishedAt": "2026-06-30T01:46:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1782759840000",
-          "title": "В Севастополе топливо 30 июня будут продавать по QR-кодам",
-          "summary": "В Севастополе топливо 30 июня будут продавать по QR-кодам, сообщил губернатор города Михаил Развожаев.\"Завтра продажа топлива на АЗС будет по QR-кодам.",
-          "url": "https://www.interfax.ru/russia/1099099",
+          "id": "environment-2-1782783180000",
+          "title": "ВВС США провели испытание ракеты LRASM с борта B-2 в Тихом океане",
+          "summary": "Американский стратегический бомбардировщик B-2 Spirit потопил корабль-мишень с помощью новой противокорабельной ракеты большой дальности LRASM в ходе учений в Тихом океане, сообщает во вторник Командование глобальных ударов ВВС США.",
+          "url": "https://www.interfax.ru/world/1099130",
           "image": null,
-          "publishedAt": "2026-06-29T19:04:00.000Z",
+          "publishedAt": "2026-06-30T01:33:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1782759660000",
-          "title": "В Севастополе отменили ограничения электроснабжения",
-          "summary": "В Севастополе отменили ограничения электроснабжения - перегруз сетей, ставший причиной перебоев, ликвидирован за пределами региона, сообщил губернатор города Михаил Развожаев.\"Сейчас постепенно электроснабжение потребителям 2 очереди будет восстановлено\", - написал он.",
-          "url": "https://www.interfax.ru/russia/1099098",
+          "id": "environment-3-1782782700000",
+          "title": "Сборная Германии выбыла из ЧМ",
+          "summary": "Сборная Германии по футболу уступила Парагваю в 1/16 финала чемпионата мира 2026 года.",
+          "url": "https://www.sport-interfax.ru/1099129",
           "image": null,
-          "publishedAt": "2026-06-29T19:01:00.000Z",
+          "publishedAt": "2026-06-30T01:25:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1782759000000",
-          "title": "В Орловской области введут отпуск бензина по номерам машин",
-          "summary": "Новые правила введут с 4 июля для всех АЗС \"Роснефти\" и \"Газпрома\"",
-          "url": "https://www.interfax.ru/russia/1099097",
+          "id": "environment-4-1782782400000",
+          "title": "На подлете к Москве сбили уже 16 дронов",
+          "summary": "Мэр Москвы Сергей Собянин сообщил об уничтожении еще пяти БПЛА, летевших к Москве, таким образом общее число сбитых БПЛА с начала вторника достигло 16.",
+          "url": "https://www.interfax.ru/moscow/1099128",
           "image": null,
-          "publishedAt": "2026-06-29T18:50:00.000Z",
+          "publishedAt": "2026-06-30T01:20:00.000Z",
           "source": "Интерфакс",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-06-29T16:50:58.654Z",
+      "lastFetchAt": "2026-06-30T02:05:33.691Z",
       "intervalHours": 6,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1782751380000",
-          "title": "Макрон договорился с султаном Омана о сотрудничестве по разминированию Ормузского пролива",
-          "summary": "Президент Франции Эммануэль Макрон сообщил, что договорился с султаном Омана Хейсамом бен Тареком Аль Саидом о сотрудничестве по разминированию Ормузского пролива.\"Мы решили сотрудничать в координации с нашими партнерами в деле разминирования пролива, чтобы обеспечить безопасност",
-          "url": "https://www.interfax.ru/world/1099074",
+          "id": "energy-0-1782784200000",
+          "title": "Число сбитых на подлете к Москве беспилотников увеличилось до 28",
+          "summary": "Мэр Москвы Сергей Собянин сообщил о семи уничтоженных беспилотниках, летевших к столице, таким образом общее число сбитых БПЛА с начала вторника достигло 28.",
+          "url": "https://www.interfax.ru/moscow/1099132",
           "image": null,
-          "publishedAt": "2026-06-29T16:43:00.000Z",
+          "publishedAt": "2026-06-30T01:50:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1782750900000",
-          "title": "Катар запретил выход в море прогулочным судам и рыбачьим баркасам",
-          "summary": "Министерство транспорта Катара временно, до дальнейшего уведомления, запретило выходить на воду некоторым категориям морских транспортных средств, сообщает CNN.",
-          "url": "https://www.interfax.ru/world/1099073",
+          "id": "energy-1-1782783960000",
+          "title": "Уиткофф вылетел в Катар на переговоры с Ираном",
+          "summary": "Спецпосланник президента США Дональда Трампа Стив Уиткофф отправился в столицу Катара Доху, где во вторник ожидаются американо-иранские переговоры, передает CNN.\"Уиткофф в настоящее время на пути в Доху\", - сообщил телеканал со ссылкой на двух американских чиновников.",
+          "url": "https://www.interfax.ru/world/1099131",
           "image": null,
-          "publishedAt": "2026-06-29T16:35:00.000Z",
+          "publishedAt": "2026-06-30T01:46:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1782750600000",
-          "title": "Ереван не будет реагировать на признание правительством Израиля геноцида армян",
-          "summary": "Премьер-министр Армении Никол Пашинян считает нецелесообразным реагировать на признание правительством Израиля геноцида армян в Османской Турции 1915 года.\"Мы не видим необходимости в реагировании (на решение правительства Израиля - ИФ), поскольку считаем, что вхождение в тему пр",
-          "url": "https://www.interfax.ru/world/1099072",
+          "id": "energy-2-1782783180000",
+          "title": "ВВС США провели испытание ракеты LRASM с борта B-2 в Тихом океане",
+          "summary": "Американский стратегический бомбардировщик B-2 Spirit потопил корабль-мишень с помощью новой противокорабельной ракеты большой дальности LRASM в ходе учений в Тихом океане, сообщает во вторник Командование глобальных ударов ВВС США.",
+          "url": "https://www.interfax.ru/world/1099130",
           "image": null,
-          "publishedAt": "2026-06-29T16:30:00.000Z",
+          "publishedAt": "2026-06-30T01:33:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1782750360000",
-          "title": "Рубль на \"Мосбирже\" заметно подорожал к юаню",
-          "summary": "На \"Московской бирже\" на торгах понедельника рубль подорожал к юаню в рамках коррекции после сильного падения на прошлой недели.",
-          "url": "https://www.interfax.ru/business/1099069",
+          "id": "energy-3-1782782700000",
+          "title": "Сборная Германии выбыла из ЧМ",
+          "summary": "Сборная Германии по футболу уступила Парагваю в 1/16 финала чемпионата мира 2026 года.",
+          "url": "https://www.sport-interfax.ru/1099129",
           "image": null,
-          "publishedAt": "2026-06-29T16:26:00.000Z",
+          "publishedAt": "2026-06-30T01:25:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1782750180000",
-          "title": "Бразильский футболист Фелипе Аугусто перешел в \"Зенит\"",
-          "summary": "Бразильский нападающий Фелипе Аугусто стал игроком \"Зенита\", сообщается на сайте петербургского футбольного клуба.",
-          "url": "https://www.sport-interfax.ru/1099071",
+          "id": "energy-4-1782782400000",
+          "title": "На подлете к Москве сбили уже 16 дронов",
+          "summary": "Мэр Москвы Сергей Собянин сообщил об уничтожении еще пяти БПЛА, летевших к Москве, таким образом общее число сбитых БПЛА с начала вторника достигло 16.",
+          "url": "https://www.interfax.ru/moscow/1099128",
           "image": null,
-          "publishedAt": "2026-06-29T16:23:00.000Z",
+          "publishedAt": "2026-06-30T01:20:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-06-29T16:50:59.416Z",
+      "lastFetchAt": "2026-06-30T02:05:34.777Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-06-29T19:30:32.723Z",
+      "lastFetchAt": "2026-06-30T02:05:38.042Z",
       "intervalHours": 4,
       "source": "StopGame",
       "siteUrl": "https://stopgame.ru",
@@ -805,7 +805,43 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1782748640000",
+          "id": "gaming-0-1782773697000",
+          "title": "По мотивам Persona снимут сериал",
+          "summary": "Ресурс Variety передаёт, что франшиза Persona получит многосерийную экранизацию с живыми актёрами. За проект отвечают компании Netflix, 21 Laps и Story Kitchen.… […]",
+          "url": "https://stopgame.ru/newsdata/72004/po_motivam_persona_snimut_serial",
+          "image": "https://images.stopgame.ru/news/2026/06/30/QMoLl59Mj.jpg",
+          "publishedAt": "2026-06-29T22:54:57.000Z",
+          "source": "StopGame",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1782770490000",
+          "title": "СМИ: Destiny 2 сгубили дороговизна поддержки и бездарное руководство Bungie",
+          "summary": "В июне Bungie выпустила заключительный апдейт для Destiny 2, а триквела, по слухам, нет даже в планах. О том, как популярная серия лутер-шутеров оказалась скорее мертва, чем жива, р… […]",
+          "url": "https://stopgame.ru/newsdata/72003/smi_destiny_2_sgubili_dorogovizna_podderzhki_i_bezdarnoe_rukovodstvo_bungie",
+          "image": "https://images.stopgame.ru/news/2026/06/30/Ts_9u4o73.jpg",
+          "publishedAt": "2026-06-29T22:01:30.000Z",
+          "source": "StopGame",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1782762060000",
+          "title": "Assassin’s Creed Black Flag Resynced: видео с PS5 Pro и режимы работы на консолях",
+          "summary": "Ubisoft опубликовала трейлер версии Assassin’s Creed Black Flag Resynced для PlayStation 5 Pro и раскрыла список графических режимов игры на консолях.… […]",
+          "url": "https://stopgame.ru/newsdata/72002/assassin_s_creed_black_flag_resynced_video_s_ps5_pro_i_rezhimy_raboty_na_konsolyah",
+          "image": "https://images.stopgame.ru/news/2026/06/29/_fri_It.jpg",
+          "publishedAt": "2026-06-29T19:41:00.000Z",
+          "source": "StopGame",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-3-1782748640000",
           "title": "Взрывы, кровь и киберпсихоз в новом тизер-трейлере Cyberpunk: Edgerunners 2",
           "summary": "Как и было обещано, сегодня продолжение нашумевшего аниме-сериала Cyberpunk: Edgerunners обзавелось вторым тизер-трейлером. Ролик представляет собой нарезку динамичных сцен с участием основных действующих лиц.… […]",
           "url": "https://stopgame.ru/newsdata/72001/vzryvy_krov_i_kiberpsihoz_v_novom_tizer_trailere_cyberpunk_edgerunners_2",
@@ -817,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1782748503000",
+          "id": "gaming-4-1782748503000",
           "title": "Продюсер Onimusha: Way of the Sword не боится сентябрьской «мясорубки» релизов",
           "summary": "Сентябрь этого года обещает стать одним из самых насыщенных на AAA-релизы месяцев для игровой индустрии. Однако в Capcom не переживают из-за высокой конкуренции. Продюсер Onimusha: Way of the Sword Акихито Кадоваки (Akihito Kadowaki) признался, что команда удивилась количеству кр",
           "url": "https://stopgame.ru/newsdata/72000/prodyuser_onimusha_way_of_the_sword_ne_boitsya_sentyabrskoy_myasorubki_relizov",
@@ -827,47 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-2-1782747007000",
-          "title": "Авторы Virtua Fighter Crossroads показали трейлер зловещего убийцы",
-          "summary": "Создатели серии Yakuza / Like a Dragon из Ryu Ga Gotoku Studio опубликовали очередной геймплейный трейлер Virtua Fighter Crossroads. Ролик посвящён совершенно новому играбельному персонажу в лице таинственного убийцы.… […]",
-          "url": "https://stopgame.ru/newsdata/71999/avtory_virtua_fighter_crossroads_pokazali_trailer_zloveschego_ubiycy",
-          "image": "https://images.stopgame.ru/news/2026/06/29/3CVXH36s.jpg",
-          "publishedAt": "2026-06-29T15:30:07.000Z",
-          "source": "StopGame",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1782745755000",
-          "title": "Sony не будет продавать консоли себе в убыток",
-          "summary": "Sony заявила, что не собирается продавать игровые консоли себе в убыток, несмотря на продолжающийся рост стоимости комплектующих. При этом компания признала, что внимательно следит за ситуацией на рынке, поскольку она напрямую повлияет на стратегию запуска следующего поколения Pl",
-          "url": "https://stopgame.ru/newsdata/71998/sony_ne_budet_prodavat_konsoli_sebe_v_ubytok",
-          "image": "https://images.stopgame.ru/news/2026/06/29/2jETZCys.jpg",
-          "publishedAt": "2026-06-29T15:09:15.000Z",
-          "source": "StopGame",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1782744920000",
-          "title": "В Fatal Fury: City of the Wolves добавили легендарного Кенширо",
-          "summary": "И вновь у нас новость по файтингам на фоне EVO 2026. Сегодня японские разработчики из SNK порадовали аудиторию Fatal Fury: City of the Wolves релизом нового гостевого DLC-персонажа, коим стал знаменитый Кенширо из «Кулака Полярной звезды».… […]",
-          "url": "https://stopgame.ru/newsdata/71997/v_fatal_fury_city_of_the_wolves_dobavili_legendarnogo_kenshiro",
-          "image": "https://images.stopgame.ru/news/2026/06/29/8AB8VtsA.jpg",
-          "publishedAt": "2026-06-29T14:55:20.000Z",
-          "source": "StopGame",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-06-29T19:30:33.155Z",
+      "lastFetchAt": "2026-06-30T02:05:38.791Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-06-29T22:45:00.328Z",
+      "lastFetchAt": "2026-06-30T02:05:39.813Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1782772380000",
-          "title": "Лукаку о ЧМ с 48 командами: «В этот раз было много отличных матчей, небольшие футбольные страны поднимают уровень игры. Это делает турнир таким интересным»",
-          "summary": "Форвард сборной Бельгии Ромелу Лукаку заявил, что ему интересно смотреть чемпионат мира с участием 48 сборных. – Вы смотрите огромное количество матчей. Успевали ли вы следить за групповым этапом после расширения турнира до 48 команд? – Обычно я смотрю все матчи чемпионата мира. ",
-          "url": "https://www.sports.ru/football/1117272813-lukaku-o-chm-s-48-komandami-v-etot-raz-bylo-mnogo-otlichnyx-matchej-ma.html",
+          "id": "sports-0-1782784500000",
+          "title": "«Флорида» выменяла права на Гудаса у «Анахайма» на права на Грира. Защитник может стать свободным агентом 1 июля, он уже играл за «Пантерс»",
+          "summary": "« Флорида » и « Анахайм » обменялись правами на игроков, которые могут выйти на рынок свободных агентов 1 июля. «Пантерс» получили права на 36-летнего защитника Радко Гудаса . Ранее чех уже выступал за команду (с 2021 по 2023 год). «Дакс» получили права на 29-летнего форварда Энт",
+          "url": "https://www.sports.ru/hockey/1117272929-florida-vymenyala-prava-na-gudasa-u-anaxajma-na-prava-na-grira-zashhit.html",
           "image": null,
-          "publishedAt": "2026-06-29T22:33:00.000Z",
+          "publishedAt": "2026-06-30T01:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1782772080000",
-          "title": "Германия – Парагвай. 1:1 – Хавертц ответил на гол Энсисо, команды проведут экстра-таймы. Онлайн-трансляция",
-          "summary": "Сборная Германии играет с командой Парагвая в 1/16 финала ЧМ-2026. Игра проходит в Бостоне на «Джиллетт Стэдиум». Спортс’‘ ведет текстовую онлайн-трансляцию этого матча. Хулио Энсисо открыл счет на 42-й минуте. Кай Хавертц на 54-й забил ответный мяч. Основное время матча завершил",
-          "url": "https://www.sports.ru/football/1117271469-germaniya-paragvaj-onlajn-translyacziya-nachnetsya-v-2330.html",
+          "id": "sports-1-1782784080000",
+          "title": "Киммих о вылете с ЧМ-2026: «Германия сейчас не соответствует уровню – несем за это ответственность. Игроки все испортили – не медиа, не судья, не соперник»",
+          "summary": "Защитник сборной Германии Йозуа Киммих высказался о вылете команды с ЧМ-2026 . Немецкая сборная проиграла команде Парагвая (1:1, 3:4 пенальти) по пенальти и завершила выступление на турнире. «В детстве я смотрел матчи сборной Германии – это всегда были полуфинал или финал. Мы хот",
+          "url": "https://www.sports.ru/football/1117272925-kimmix-o-vylete-s-chm-2026-germaniya-sejchas-ne-sootvetstvuet-urovnyu-.html",
           "image": null,
-          "publishedAt": "2026-06-29T22:28:00.000Z",
+          "publishedAt": "2026-06-30T01:48:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1782772260000",
-          "title": "Германия не смогла обыграть Парагвай в основное время – 1:1. На дополнительное время давали 5.20",
-          "summary": "Германия играет вничью с Парагваем в матче 1/16 финала ЧМ-2026 (1:1, перерыв). На 42-й минуте Парагвай вышел вперед благодаря голу Хулио Энсисо. Германия сравняла на 54-й – отличился Кай Хаверц. Перед игрой букмекеры давали коэффициент 5.20 на то, что в матче будет дополнительное",
-          "url": "https://www.sports.ru/betting/1117272820-germaniya-ne-smogla-obygrat-paragvaj-v-osnovnoe-vremya-11-na-dopolnite.html",
+          "id": "sports-2-1782783360000",
+          "title": "«Нагельсманн не играл в футбол. Даже не знаю имен помощников в его штабе. А ведь Германию тренировали Беккенбауэр, Феллер, Клинсманн, Фогтс». Леманн о Юлиане",
+          "summary": "Бывший вратарь сборной Германии Йенс Леманн отметил отсутствие игрового опыта у Юлиана Нагельсманна после вылета Германии с ЧМ-2026. Немецкая сборная проиграла команде Парагвая (1:1, 3:4 пенальти) по пенальти и завершила выступление на турнире. «Дело в образованности тренера. Нап",
+          "url": "https://www.sports.ru/football/1117272922-nagelsmann-ne-igral-v-futbol-dazhe-ne-znayu-imen-pomoshhnikov-v-ego-sh.html",
           "image": null,
-          "publishedAt": "2026-06-29T22:31:00.000Z",
+          "publishedAt": "2026-06-30T01:36:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1782771720000",
-          "title": "Дешам о Мбаппе: «Может, он защищается меньше других, но забивает больше всех – это его миссия. Килиан прекрасно справляется с ролью капитана и всегда стремится к лучшему»",
-          "summary": "Главный тренер сборной Франции Дидье Дешам порассуждал о роли Килиана Мбаппе в национальной команде. «Килиан защищается. Он умеет защищаться. Может быть, меньше, чем другие, но он забивает больше остальных. Да, это его миссия, но я с самого первого дня говорил – даже если вы не в",
-          "url": "https://www.sports.ru/football/1117272771-desham-o-mbappe-mozhet-on-zashhishhaetsya-menshe-drugix-no-zabivaet-bo.html",
+          "id": "sports-3-1782782640000",
+          "title": "Президент Парагвая объявил выходной в стране после победы над Германией на ЧМ-2026",
+          "summary": "Президент Парагвая Сантьяго Пенья объявил выходной в стране после победы над Германией на ЧМ-2026 . Южноамериканская сборная переиграла сборную Германии (1:1, 4:3 пенальти) по пенальти в матче 1/16 финала турнира и в следующем раунде сыграет с победителем пары Франция – Швеция. П",
+          "url": "https://www.sports.ru/football/1117272917-prezident-paragvaya-obyavil-vyxodnoj-v-strane-posle-pobedy-nad-germani.html",
           "image": null,
-          "publishedAt": "2026-06-29T22:22:00.000Z",
+          "publishedAt": "2026-06-30T01:24:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1782771600000",
-          "title": "Билич о фаворите ЧМ: «Только один ответ – не Франция и Испания, а именно Франция. У них потрясающая атака, два равноценных состава. Аргентину можно назвать лишь из-за Месси»",
-          "summary": "Экс-защитник и тренер сборной Хорватии Славен Билич считает Францию основным фаворитом ЧМ-2026 . «Перед турниром друзья часто спрашивали меня, кто является фаворитом. Девять из десяти знатоков футбола назвали бы Францию, Испанию, Аргентину или Англию. Хорваты выбрали бы Хорватию,",
-          "url": "https://www.sports.ru/football/1117272454-bilich-o-favorite-chm-tolko-odin-otvet-ne-francziya-i-ispaniya-a-imenn.html",
+          "id": "sports-4-1782781920000",
+          "title": "Нагельсманн готов остаться в сборной Германии после вылета с ЧМ-2026: «Я не из тех, кто убегает. Это исключено»",
+          "summary": "Главный тренер сборной Германии Юлиан Нагельсманн выразил готовность остаться во главе команды после вылета в 1/16 финала ЧМ-2026 . Немецкая сборная проиграла команде Парагвая (1:1, 3:4 пенальти) по пенальти и завершила выступление на турнире. «Я хочу продолжить работу. Если этог",
+          "url": "https://www.sports.ru/football/1117272910-nagelsmann-gotov-ostatsya-v-sbornoj-germanii-posle-vyleta-s-chm-2026-y.html",
           "image": null,
-          "publishedAt": "2026-06-29T22:20:00.000Z",
+          "publishedAt": "2026-06-30T01:12:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-06-29T22:45:01.670Z",
+      "lastFetchAt": "2026-06-30T02:05:41.194Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1782771508000",
-          "title": "На срочном заседании ООН высказались об ударе ВСУ на автобус с детьми из Белоруссии",
+          "id": "politics-0-1782784860000",
+          "title": "В Евросоюзе начали обсуждать полный запрет на выдачу туристических виз россиянам",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/06/30/na-srochnom-zasedanii-oon-vyskazalis-ob-udare-vsu-na-avtobus-s-detmi-iz-belorussii/",
-          "image": "https://icdn.lenta.ru/images/2026/06/30/01/20260630011839940/pic_b4fc0214d381a8b5a85c6fe2948c9f19.jpg",
-          "publishedAt": "2026-06-29T22:18:28.000Z",
+          "url": "https://lenta.ru/news/2026/06/30/v-evrosoyuze-nachali-obsuzhdat-polnyy-zapret-na-vydachu-turisticheskih-viz-rossiyanam/",
+          "image": "https://icdn.lenta.ru/images/2026/06/30/04/20260630045040218/pic_50ebe90c6cf9c150cdd9665c5ed505c7.jpg",
+          "publishedAt": "2026-06-30T02:01:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1782771300000",
-          "title": "В США рассказали о серьезной ошибке Украины",
+          "id": "politics-1-1782784847000",
+          "title": "Политолог рассказал об одном страхе украинских властей",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/06/30/v-ssha-rasskazali-o-serieznoy-oshibke-ukrainy/",
-          "image": "https://icdn.lenta.ru/images/2026/06/30/01/20260630011549825/pic_710fa10bbb9a97fd07782d5967145c8b.jpg",
-          "publishedAt": "2026-06-29T22:15:00.000Z",
+          "url": "https://lenta.ru/news/2026/06/30/federation/",
+          "image": "https://icdn.lenta.ru/images/2026/06/29/14/20260629144144599/pic_6cbcfaa610e044ea2961012509acccef.jpg",
+          "publishedAt": "2026-06-30T02:00:47.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1782770940000",
-          "title": "Белоруссия осудила удар ВСУ по автобусу с детьми",
+          "id": "politics-2-1782784845000",
+          "title": "Извращенец тайно снял 50 голых женщин в солярии фитнес-клуба и оказался на свободе",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/06/30/belorussiya-osudila-udar-vsu-po-avtobusu-s-detmi/",
-          "image": "https://icdn.lenta.ru/images/2026/06/30/00/20260630005345209/pic_1eb39f017551eeaefb46aadbb64db1d4.jpg",
-          "publishedAt": "2026-06-29T22:09:00.000Z",
+          "url": "https://lenta.ru/news/2026/06/30/izvraschenets-tayno-snyal-50-golyh-zhenschin-v-solyarii-fitnes-kluba-i-okazalsya-na-svobode/",
+          "image": "https://icdn.lenta.ru/images/2026/06/29/13/20260629135358395/pic_c730cd19d1799b79ca93f78fc8da3f79.jpg",
+          "publishedAt": "2026-06-30T02:00:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1782770700000",
-          "title": "Раскрыта возможная личность пострадавшего при взрыве в Монако украинского олигарха",
+          "id": "politics-3-1782784843000",
+          "title": "Стесняющемуся мастурбации женатому мужчине дали совет",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/06/30/raskryta-vozmozhnaya-lichnost-postradavshego-pri-vzryve-v-monako-ukrainskogo-oligarha/",
-          "image": "https://icdn.lenta.ru/images/2026/06/30/01/20260630011459557/pic_f0853d8fb9200eeaf5f7f5f1e13c7138.jpg",
-          "publishedAt": "2026-06-29T22:05:00.000Z",
+          "url": "https://lenta.ru/news/2026/06/30/stesnyayuschemusya-masturbatsii-zhenatomu-muzhchine-dali-sovet/",
+          "image": "https://icdn.lenta.ru/images/2026/06/26/15/20260626155711059/pic_be979d7a626d18b1f75c150c2f351f68.jpg",
+          "publishedAt": "2026-06-30T02:00:43.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1782770405000",
-          "title": "Мужчинам назвали здоровый промежуток между оргазмом и новой эрекцией",
+          "id": "politics-4-1782784112000",
+          "title": "Россиянам напомнили о возможности заказать нытинг",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/06/30/muzhchinam-nazvali-zdorovyy-promezhutok-mezhdu-orgazmom-i-novoy-erektsiey/",
-          "image": "https://icdn.lenta.ru/images/2026/06/29/14/20260629144545957/pic_d18c0add08a7a553cb4e4a070ffc0ca3.jpg",
-          "publishedAt": "2026-06-29T22:00:05.000Z",
+          "url": "https://lenta.ru/news/2026/06/30/rossiyanam-napomnili-o-vozmozhnosti-zakazat-nyting/",
+          "image": "https://icdn.lenta.ru/images/2026/06/30/04/20260630044734905/pic_3707e40d2f91e39d4efcdbb47c54dd6d.jpg",
+          "publishedAt": "2026-06-30T01:48:32.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-06-29T16:51:05.824Z",
+      "lastFetchAt": "2026-06-30T02:05:42.104Z",
       "intervalHours": 8,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -1085,60 +1085,60 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1782751380000",
-          "title": "Макрон договорился с султаном Омана о сотрудничестве по разминированию Ормузского пролива",
-          "summary": "Президент Франции Эммануэль Макрон сообщил, что договорился с султаном Омана Хейсамом бен Тареком Аль Саидом о сотрудничестве по разминированию Ормузского пролива.\"Мы решили сотрудничать в координации с нашими партнерами в деле разминирования пролива, чтобы обеспечить безопасност",
-          "url": "https://www.interfax.ru/world/1099074",
+          "id": "education-0-1782784200000",
+          "title": "Число сбитых на подлете к Москве беспилотников увеличилось до 28",
+          "summary": "Мэр Москвы Сергей Собянин сообщил о семи уничтоженных беспилотниках, летевших к столице, таким образом общее число сбитых БПЛА с начала вторника достигло 28.",
+          "url": "https://www.interfax.ru/moscow/1099132",
           "image": null,
-          "publishedAt": "2026-06-29T16:43:00.000Z",
+          "publishedAt": "2026-06-30T01:50:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1782750900000",
-          "title": "Катар запретил выход в море прогулочным судам и рыбачьим баркасам",
-          "summary": "Министерство транспорта Катара временно, до дальнейшего уведомления, запретило выходить на воду некоторым категориям морских транспортных средств, сообщает CNN.",
-          "url": "https://www.interfax.ru/world/1099073",
+          "id": "education-1-1782783960000",
+          "title": "Уиткофф вылетел в Катар на переговоры с Ираном",
+          "summary": "Спецпосланник президента США Дональда Трампа Стив Уиткофф отправился в столицу Катара Доху, где во вторник ожидаются американо-иранские переговоры, передает CNN.\"Уиткофф в настоящее время на пути в Доху\", - сообщил телеканал со ссылкой на двух американских чиновников.",
+          "url": "https://www.interfax.ru/world/1099131",
           "image": null,
-          "publishedAt": "2026-06-29T16:35:00.000Z",
+          "publishedAt": "2026-06-30T01:46:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1782750600000",
-          "title": "Ереван не будет реагировать на признание правительством Израиля геноцида армян",
-          "summary": "Премьер-министр Армении Никол Пашинян считает нецелесообразным реагировать на признание правительством Израиля геноцида армян в Османской Турции 1915 года.\"Мы не видим необходимости в реагировании (на решение правительства Израиля - ИФ), поскольку считаем, что вхождение в тему пр",
-          "url": "https://www.interfax.ru/world/1099072",
+          "id": "education-2-1782783180000",
+          "title": "ВВС США провели испытание ракеты LRASM с борта B-2 в Тихом океане",
+          "summary": "Американский стратегический бомбардировщик B-2 Spirit потопил корабль-мишень с помощью новой противокорабельной ракеты большой дальности LRASM в ходе учений в Тихом океане, сообщает во вторник Командование глобальных ударов ВВС США.",
+          "url": "https://www.interfax.ru/world/1099130",
           "image": null,
-          "publishedAt": "2026-06-29T16:30:00.000Z",
+          "publishedAt": "2026-06-30T01:33:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1782750360000",
-          "title": "Рубль на \"Мосбирже\" заметно подорожал к юаню",
-          "summary": "На \"Московской бирже\" на торгах понедельника рубль подорожал к юаню в рамках коррекции после сильного падения на прошлой недели.",
-          "url": "https://www.interfax.ru/business/1099069",
+          "id": "education-3-1782782700000",
+          "title": "Сборная Германии выбыла из ЧМ",
+          "summary": "Сборная Германии по футболу уступила Парагваю в 1/16 финала чемпионата мира 2026 года.",
+          "url": "https://www.sport-interfax.ru/1099129",
           "image": null,
-          "publishedAt": "2026-06-29T16:26:00.000Z",
+          "publishedAt": "2026-06-30T01:25:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1782750180000",
-          "title": "Бразильский футболист Фелипе Аугусто перешел в \"Зенит\"",
-          "summary": "Бразильский нападающий Фелипе Аугусто стал игроком \"Зенита\", сообщается на сайте петербургского футбольного клуба.",
-          "url": "https://www.sport-interfax.ru/1099071",
+          "id": "education-4-1782782400000",
+          "title": "На подлете к Москве сбили уже 16 дронов",
+          "summary": "Мэр Москвы Сергей Собянин сообщил об уничтожении еще пяти БПЛА, летевших к Москве, таким образом общее число сбитых БПЛА с начала вторника достигло 16.",
+          "url": "https://www.interfax.ru/moscow/1099128",
           "image": null,
-          "publishedAt": "2026-06-29T16:23:00.000Z",
+          "publishedAt": "2026-06-30T01:20:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-06-29T16:51:07.086Z",
+      "lastFetchAt": "2026-06-30T02:05:43.430Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1225,7 +1225,19 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1782680883000",
+          "id": "realestate-0-1782681039000",
+          "title": "Ava Group продолжает искать инвесторов на свои активы в Московском регионе",
+          "summary": "Она выставила на продажу крупный земельный участок под строительство жилья в Домодедове",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/06/29/1209505-krasnodarskaya-ava-group-prodolzhaet-iskat-investorov-na-svoi-aktivi",
+          "image": "https://cdn.vdmsti.ru/image/2026/4z/1azwiy/normal-1owq.jpg",
+          "publishedAt": "2026-06-28T21:10:39.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1782680883000",
           "title": "Готовое жилье в крупнейших городах России за год подорожало на 10%",
           "summary": "Это результат перетока покупателей с рынка новостроек и сокращения предложения",
           "url": "https://www.vedomosti.ru/realty/articles/2026/06/29/1209504-gotovoe-zhile-v-krupneishih-gorodah-rossii-podorozhalo",
@@ -1237,7 +1249,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1782422576000",
+          "id": "realestate-2-1782422576000",
           "title": "Российские новостройки дешевеют второй месяц подряд",
           "summary": "Из-за снижения спроса на жилье застройщики отказываются от повышения цен",
           "url": "https://www.vedomosti.ru/realty/articles/2026/06/26/1208967-rossiiskie-novostroiki-desheveyut-vtoroi-mesyats-podryad",
@@ -1249,7 +1261,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1782340348000",
+          "id": "realestate-3-1782340348000",
           "title": "Объем строящихся с переносом сроков жилых проектов за год увеличился на 30%",
           "summary": "Это результат падения спроса на новостройки",
           "url": "https://www.vedomosti.ru/realty/articles/2026/06/25/1208621-obem-stroyaschihsya-s-perenosom-srokov-zhilih-proektov-uvelichilsya",
@@ -1261,7 +1273,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1782162740000",
+          "id": "realestate-4-1782162740000",
           "title": "Владелец ТЦ «Миллион мелочей» в Бибиреве проиграл спор на 3 млрд рублей",
           "summary": "Это может привести его к потере объекта",
           "url": "https://www.vedomosti.ru/realty/articles/2026/06/23/1207952-vladelets-torgovogo-tsentra-million-melochei-v-bibireve-proigral-spor",
@@ -1271,23 +1283,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1782162000000",
-          "title": "Дело труба",
-          "summary": "Почему развитие российских городов упирается не в жилье, а в инженерную инфраструктуру",
-          "url": "https://www.vedomosti.ru/opinion/columns/2026/06/23/1207933-delo-truba",
-          "image": "https://cdn.vdmsti.ru/image/2026/4t/1cwxsi/normal-1re6.jpg",
-          "publishedAt": "2026-06-22T21:00:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-06-29T16:51:08.294Z",
+      "lastFetchAt": "2026-06-30T02:05:43.854Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-06-29T16:51:01.892Z",
+      "lastFetchAt": "2026-06-30T02:05:36.777Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1365,7 +1365,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1782744891000",
+          "id": "automotive-0-1782762147000",
+          "title": "BMW досрочно рассекретила внешность нового поколения BMW X5",
+          "summary": "Компания BMW показала первое официальное изображение кроссовера X5 нового поколения. Как оказалось, при оформлении экстерьера дизайнеры применили стилистику Neue Klasse — в ней выполнены электрический седан BMW i3, а также батарейный вседорожник BMW iX3.",
+          "url": "https://motor.ru/news/s-glazami-pokoinika-v-seti-poyavilis-foto-novogo-bmw-x5-29-06-2026.htm",
+          "image": "https://motor.ru/imgs/2026/06/29/19/6985009/252915e821fc5d8b326096a5406af4a6dc7917bf.webp",
+          "publishedAt": "2026-06-29T19:42:27.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1782744891000",
           "title": "В Техасе продают редчайшую Toyota Origin с мотором от Supra",
           "summary": "Модель Toyota с ретро-дизайном оборудована дверями, открывающимися назад, двигателем 2JZ и произведена в количестве, меньшем, чем у большинства суперкаров. Об этом сообщает Carscoops.",
           "url": "https://motor.ru/news/redchaishii-toyota-origin-retro-model-za-3-2-mln-rublei-prodayut-v-tekhase-29-06-2026.htm",
@@ -1377,7 +1389,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1782736430000",
+          "id": "automotive-2-1782736430000",
           "title": "«Известия»: запчасти для популярных в России иномарок подорожали на 15–20%",
           "summary": "Увеличение стоимости деталей произошло с начала 2026 года. Как пишет газета «Известия», такую динамику подтверждают участники автомобильного рынка.",
           "url": "https://motor.ru/news/v-rossii-rezko-vzleteli-ceny-na-zapchasti-dlya-inomarok-29-06-2026.htm",
@@ -1389,7 +1401,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1782728298000",
+          "id": "automotive-3-1782728298000",
           "title": "Motor выяснил, насколько кроссовер Belgee X70 удобен для путешествий",
           "summary": "Формат «путешествия выходного дня» стал крайне популярен среди россиян. Выбравшись из города пятничным вечером, можно вернуться домой хоть утром понедельника, напитавшись яркими впечатлениями, но без ущерба для рабочего графика. Редактор журнала Motor со своей семьёй протестирова",
           "url": "https://motor.ru/testdrives/semeinyi-test-draiv-belgee-x70-dva-dnya-dva-goroda-i-nebo-v-panorame.htm",
@@ -1401,24 +1413,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1782716132000",
+          "id": "automotive-4-1782716132000",
           "title": "Fit Service назвал три группы иномарок, на которые дольше всего доставляются запчасти",
           "summary": "Ситуация с запчастями в России нормализовалась, но для некоторых марок и позиций ожидание может затянуться до 3−5 месяцев. Об этом изданию «Газета.Ru» рассказали в пресс-службе сети автосервисов Fit Service.",
           "url": "https://motor.ru/news/voditelyam-rasskazali-na-kakie-mashiny-v-rf-dolshe-vsego-zhdat-zapchasti-29-06-2026.htm",
           "image": "https://motor.ru/imgs/2026/06/29/06/6984795/59aee416013c1e422661d889329534d8e1da443d.jpg",
           "publishedAt": "2026-06-29T06:55:32.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1782710343000",
-          "title": "«Сравни»: внедорожник Haval H5 за три года теряет в цене более 1,2 млн рублей",
-          "summary": "Аналитики финансового маркетплейса «Сравни» подсчитали и рассказали «Газете.Ru», как быстро обесцениваются автомобили китайской марки Haval на российском вторичном рынке. Оказалось, что за 2−3 года владения некоторые модели могут потерять в цене более миллиона рублей. Данные были",
-          "url": "https://motor.ru/news/nazvany-modeli-haval-kotorye-desheveyut-bystree-vsego-pri-pereprodazhe-29-06-2026.htm",
-          "image": "https://motor.ru/imgs/2026/06/29/05/6984781/cdabc280f3f9017e6f27ea4c82945b9b9781b1df.webp",
-          "publishedAt": "2026-06-29T05:19:03.000Z",
           "source": "Motor.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
