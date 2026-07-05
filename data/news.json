@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-07-05T18:57:54.855Z",
+  "updatedAt": "2026-07-05T20:44:46.029Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "it",
     "ai",
-    "cybersecurity",
-    "startups",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
     "education",
-    "law",
     "realestate",
     "travel"
+  ],
+  "skippedNow": [
+    "it",
+    "cybersecurity",
+    "business",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
+    "sports",
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-07-05T13:03:27.868Z",
+      "lastFetchAt": "2026-07-05T20:44:35.332Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,60 +105,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1783253154000",
+          "id": "ai-0-1783274364000",
+          "title": "Как мы научили большую языковую модель говорить на карачаево-балкарском",
+          "summary": "Давно ничего не писал где-либо: разработка занимает много времени. Надеюсь, наш путь будет кому-либо полезен, особенно тем, кто обучает модельки на малоресурсных языках. Большая в данном контексте - это условно. По сути, взяли Qwen3-4B-Instruct-2507 и обучили на карачаево-балкарс",
+          "url": "https://habr.com/ru/articles/1055816/?utm_campaign=1055816&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/336/af2/31e/336af231ee088b07bac6e2eea15cd7c0.png",
+          "publishedAt": "2026-07-05T17:59:24.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1783268520000",
+          "title": "DSpark на двух DGX Spark: порт, баг на одну строку и бенчмарки, которые пришлось мерить заново",
+          "summary": "DeepSeek выпустил DSpark — спекулятивный декодер для V4. В окне 27–30 июня 2026 рабочего публичного пути для GB10 не было — мы портировали его сами, нашли унаследованный баг, убивавший качество драфта, и сняли профиль своего стенда. Потом комьюнити выложило рецепт вдвое быстрее н",
+          "url": "https://habr.com/ru/articles/1055792/?utm_campaign=1055792&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/33f/707/7f9/33f7077f9026a727dc2efe63ef66dcbe.png",
+          "publishedAt": "2026-07-05T16:22:00.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1783263970000",
+          "title": "Fable 5 из подвала, Sonnet 5 в дефолт. Что Antropic сделал за 5 дней",
+          "summary": "Утро четверга, в шапке Claude Code «Sonnet 5» — а я не переключал. Полез разбираться, что Antropic успел за 5 дней. Вернули Файбл 5 после 19 дней в подвале и приложили cyber safeguards, jailbreak severity framework, HackerOne для баг-хантеров. Выкатили Sonnet 5 и поставили дефолт",
+          "url": "https://habr.com/ru/articles/1055752/?utm_campaign=1055752&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/a8b/350/2f1/a8b3502f19a8f55f1561b27ee1d9054f.jpg",
+          "publishedAt": "2026-07-05T15:06:10.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-3-1783257048000",
+          "title": "Съездили к ByteDance и Z.ai: роботы по паспорту, серверные карты на рынке и восемь дней внутри китайского AI",
+          "summary": "Прилетаем в Шанхай — в аэропорту встречают трое, помогают с чемоданами. По дороге выясняется: один из них — владелец компании, у которой данные покупают крупнейшие AI-лаборатории мира (OpenAI, Meta, Antropic и др.). Так начались наши восемь дней внутри китайского AI: SiliconFlow,",
+          "url": "https://habr.com/ru/articles/1055766/?utm_campaign=1055766&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/856/c30/424/856c30424ae72e59c91bf5e156d4c58a.jpeg",
+          "publishedAt": "2026-07-05T13:10:48.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-4-1783253154000",
           "title": "Гибель богов. Fable и ещё 10 LLM реорганизуют код. Сравнение",
           "summary": "Это подробный разбор одного эксперимента. Я взял god node из реального LangGraph агента и попросил 5 американских и 6 китайских моделей сначала предложить, как её распутать, а потом оценить предложения друг друга. Дальше тремя разными способами пытался понять, кому из них в этом ",
           "url": "https://habr.com/ru/articles/1055740/?utm_campaign=1055740&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/bd8/fc3/ba1/bd8fc3ba19a35f7f421bd82f344dd05a.png",
           "publishedAt": "2026-07-05T12:05:54.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-1-1783249792000",
-          "title": "Галлюцинации: почему LLM «тупеют» от «умных» промптов",
-          "summary": "Как разработчик, я должен пользоваться ИИ на работе. Я бы, конечно, предпочел безлимитный Claude, но мне доступен только Qwen Code, а он часто галлюцинирует. В этой статье я расскажу, как искал причины галлюцинаций, устранял их и к чему это привело. Первая моя задача для ИИ-помощ",
-          "url": "https://habr.com/ru/articles/1053516/?utm_campaign=1053516&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e06/31e/481/e0631e481cc52197dfff748320db1484.JPG",
-          "publishedAt": "2026-07-05T11:09:52.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-2-1783247091000",
-          "title": "Обзор изменений в новой версии Yttri",
-          "summary": "0.86.0-beta.1 - это большой бета-цикл: агент получил единый дом в интерфейсе, у Yttri появился первый плагин (интеграция с Obsidian) и сама платформа плагинов, на Mac с Apple Silicon заработал альтернативный локальный движок MLX, а голосовой ввод и запись прошли через плотную сер",
-          "url": "https://habr.com/ru/articles/1055718/?utm_campaign=1055718&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/366/aae/ee6/366aaeee614101701782ef2eadce38b5.jpg",
-          "publishedAt": "2026-07-05T10:24:51.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1783246692000",
-          "title": "Промпт против скилла: прогнал библиотеку промптов Anthropic и скилл grill-me",
-          "summary": "Пять промптов, один злой скилл и парсер Хабра: полевой отчёт не-разработчика о двух часах в Claude Code Читать далее",
-          "url": "https://habr.com/ru/articles/1055714/?utm_campaign=1055714&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e56/4ad/e88/e564ade88e0802ac36a2431cfa52d88f.png",
-          "publishedAt": "2026-07-05T10:18:12.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1783242026000",
-          "title": "Давайте поговорим о доверии и границах",
-          "summary": "Я женщина, поэтому даже в технической области я спокойно могу говорить на эти темы. (надеюсь в комментариях не обозлятся за это высказывание). Ответьте себе на вопрос: где проходит ваша граница доверия с вашим агентом? Что вы готовы ему простить? А что для вас жесткий ред-флаг? Г",
-          "url": "https://habr.com/ru/articles/1054586/?utm_campaign=1054586&utm_source=habrahabr&utm_medium=rss",
-          "image": null,
-          "publishedAt": "2026-07-05T09:00:26.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-07-05T13:03:28.148Z",
+      "lastFetchAt": "2026-07-05T20:44:36.022Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-07-05T13:03:31.043Z",
+      "lastFetchAt": "2026-07-05T20:44:39.364Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-07-05T13:03:31.956Z",
+      "lastFetchAt": "2026-07-05T20:44:40.931Z",
       "intervalHours": 6,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1783255980000",
-          "title": "Аэропорт Домодедово вернулся к штатной работе",
-          "summary": "Ограничения на прием и выпуск воздушных судов сняты в московском аэропорту Домодедово, сообщает Росавиация.",
-          "url": "https://www.interfax.ru/russia/1101294",
+          "id": "energy-0-1783282620000",
+          "title": "Ограничения введены в аэропорту Геленджика",
+          "summary": "Дополнительные временные ограничения на прием и выпуск воздушных судов введены в аэропорту Геленджика, сообщает в воскресенье Росавиация.\"Аэропорт Геленджик.",
+          "url": "https://www.interfax.ru/russia/1101330",
           "image": null,
-          "publishedAt": "2026-07-05T12:53:00.000Z",
+          "publishedAt": "2026-07-05T20:17:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1783255680000",
-          "title": "Восстановлено железнодорожное сообщение между Россией и Абхазией",
-          "summary": "В Абхазии восстановили железнодорожное сообщение, прерванное из-за повреждения контактной сети в результате шквалистого ветра.\"Ремонтные бригады АЖД завершили работы на поврежденном участке.",
-          "url": "https://www.interfax.ru/russia/1101293",
+          "id": "energy-1-1783280400000",
+          "title": "Китайская ракета вывела на орбиту группу интернет-спутников \"Цяньфань\"",
+          "summary": "Ракета-носитель\"Чанчжэн-8А\" (\"Великий поход-8А\") в воскресенье успешно вывела на орбиту группу из 20 интернет-спутников для пополнения орбитальной группировки SpaceSail Constellation (\"Цяньфань\"), сообщил телеканал CCTV.",
+          "url": "https://www.interfax.ru/world/1101329",
           "image": null,
-          "publishedAt": "2026-07-05T12:48:00.000Z",
+          "publishedAt": "2026-07-05T19:40:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1783255140000",
-          "title": "До 15 выросло количество сбитых на подлете к Москве дронов",
-          "summary": "Мэр Москвы Сергей Собянин сообщил о пяти уничтоженных беспилотниках, направлявшихся на столицу; общее число сбитых с начала суток БПЛА возросло до 15.",
-          "url": "https://www.interfax.ru/moscow/1101292",
+          "id": "energy-2-1783277580000",
+          "title": "США рассчитывают обсудить вопрос Ормузского пролива на саммите НАТО",
+          "summary": "Вашингтон рассчитывает на то, что в ходе саммита НАТО в Анкаре союзники по альянсу обсудят тему обеспечения безопасности в Ормузском проливе, сообщает CNN со ссылкой на источник.",
+          "url": "https://www.interfax.ru/world/1101327",
           "image": null,
-          "publishedAt": "2026-07-05T12:39:00.000Z",
+          "publishedAt": "2026-07-05T18:53:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1783255080000",
-          "title": "Аэропорт Саратова вновь принимает и отправляет рейсы",
-          "summary": "Вводившиеся ранее ограничения в аэропорту Саратова сняты, сообщает пресс-служба Росавиации в воскресенье.",
-          "url": "https://www.interfax.ru/russia/1101291",
+          "id": "energy-3-1783277040000",
+          "title": "Топливо по QR-кодам будут продавать в Севастополе в понедельник",
+          "summary": "Топливо в Севастополе будут продавать по QR-кодам в понедельник, сообщил губернатор города Михаил Развожаев.\"Продолжает действовать ограничение: заправить можно 20 литров в одну машину\", - написал Развожаев в своем канале в Мах.",
+          "url": "https://www.interfax.ru/russia/1101328",
           "image": null,
-          "publishedAt": "2026-07-05T12:38:00.000Z",
+          "publishedAt": "2026-07-05T18:44:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1783254840000",
-          "title": "Один человек погиб, один ранен в результате атак ВСУ по автомобилям в ЛНР",
-          "summary": "ВСУ атаковали легковые автомобили в Кременной и на участке автодороги Счастье - Луганск в ЛНР.",
-          "url": "https://www.interfax.ru/russia/1101290",
+          "id": "energy-4-1783275480000",
+          "title": "Двое мирных жителей получили ранения при ударе беспилотника по донецкой Горловке",
+          "summary": "Двое мирных жителей пострадали в результате удара беспилотника по Горловке в Донецкой Народной Республике, сообщил мэр города Иван Приходько.\"В результате атаки дрона ВСУ в Калининском районе Горловки ранены два мирных жителя\", - говорится в сообщении Приходько, распространенном ",
+          "url": "https://www.interfax.ru/russia/1101326",
           "image": null,
-          "publishedAt": "2026-07-05T12:34:00.000Z",
+          "publishedAt": "2026-07-05T18:18:00.000Z",
           "source": "Интерфакс",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-07-05T13:03:32.507Z",
+      "lastFetchAt": "2026-07-05T20:44:41.733Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-05T11:21:51.857Z",
+      "lastFetchAt": "2026-07-05T20:44:44.315Z",
       "intervalHours": 8,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -1085,60 +1085,60 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1783250100000",
-          "title": "Работа аэропорта Саратова приостановлена",
-          "summary": "Аэропорт Саратова (Гагарин) временно не обслуживает рейсы, сообщает Росавиация в воскресенье.\"Введены временные ограничения на прием и выпуск воздушных судов\", - говорится в сообщении ведомства в канале в Мах.",
-          "url": "https://www.interfax.ru/russia/1101280",
+          "id": "education-0-1783282620000",
+          "title": "Ограничения введены в аэропорту Геленджика",
+          "summary": "Дополнительные временные ограничения на прием и выпуск воздушных судов введены в аэропорту Геленджика, сообщает в воскресенье Росавиация.\"Аэропорт Геленджик.",
+          "url": "https://www.interfax.ru/russia/1101330",
           "image": null,
-          "publishedAt": "2026-07-05T11:15:00.000Z",
+          "publishedAt": "2026-07-05T20:17:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1783249260000",
-          "title": "В Катаре сняли ограничения на судоходство",
-          "summary": "Власти Катара объявили в воскресенье о снятии ограничений на судоходство, введенных в конце июня из-за обострения военного противостояния США и Ирана, сообщает агентство EFE.\"Объявляем о полном восстановлении морского судоходства для всех типов судов\", - приводит оно заявление ми",
-          "url": "https://www.interfax.ru/world/1101279",
+          "id": "education-1-1783280400000",
+          "title": "Китайская ракета вывела на орбиту группу интернет-спутников \"Цяньфань\"",
+          "summary": "Ракета-носитель\"Чанчжэн-8А\" (\"Великий поход-8А\") в воскресенье успешно вывела на орбиту группу из 20 интернет-спутников для пополнения орбитальной группировки SpaceSail Constellation (\"Цяньфань\"), сообщил телеканал CCTV.",
+          "url": "https://www.interfax.ru/world/1101329",
           "image": null,
-          "publishedAt": "2026-07-05T11:01:00.000Z",
+          "publishedAt": "2026-07-05T19:40:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1783248420000",
-          "title": "Российские войска в зоне СВО за сутки улучшили положение и заняли более выгодные рубежи",
-          "summary": "Войска российских группировок, которые действуют в зоне проведения специальной военной операции, за сутки улучшили положение и заняли более выгодные рубежи, сообщило в воскресенье министерство обороны РФ.\"Подразделения группировки войск \"Север\" улучшили тактическое положение.",
-          "url": "https://www.interfax.ru/russia/1101278",
+          "id": "education-2-1783277580000",
+          "title": "США рассчитывают обсудить вопрос Ормузского пролива на саммите НАТО",
+          "summary": "Вашингтон рассчитывает на то, что в ходе саммита НАТО в Анкаре союзники по альянсу обсудят тему обеспечения безопасности в Ормузском проливе, сообщает CNN со ссылкой на источник.",
+          "url": "https://www.interfax.ru/world/1101327",
           "image": null,
-          "publishedAt": "2026-07-05T10:47:00.000Z",
+          "publishedAt": "2026-07-05T18:53:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1783247280000",
-          "title": "Объявлены лауреаты XV Международного конкурса артистов балета",
-          "summary": "Лауреаты XV Международного конкурса артистов балета объявлены в Москве, среди них - представители России, США, Японии, Словении, Монголии, Сербии, Армении, Швеции и других стран, сообщила министр культуры РФ Ольга Любимова.\"Объявлены имена победителей XV Международного конкурса а",
-          "url": "https://www.interfax.ru/culture/1101277",
+          "id": "education-3-1783277040000",
+          "title": "Топливо по QR-кодам будут продавать в Севастополе в понедельник",
+          "summary": "Топливо в Севастополе будут продавать по QR-кодам в понедельник, сообщил губернатор города Михаил Развожаев.\"Продолжает действовать ограничение: заправить можно 20 литров в одну машину\", - написал Развожаев в своем канале в Мах.",
+          "url": "https://www.interfax.ru/russia/1101328",
           "image": null,
-          "publishedAt": "2026-07-05T10:28:00.000Z",
+          "publishedAt": "2026-07-05T18:44:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1783247040000",
-          "title": "Россия увеличила импорт бензина из Белоруссии до исторического максимума",
-          "summary": "Россия резко нарастила импорт бензина из Белоруссии, сообщило издание \"Ведомости\" со ссылкой на данные Центра ценовых индексов.\"Россия увеличила импорт бензина из Белоруссии в июне 2026 г. до исторического максимума.",
-          "url": "https://www.interfax.ru/business/1101275",
-          "image": "https://www.interfax.ru/ftproot/textphotos/2026/07/05/voz1200.jpg",
-          "publishedAt": "2026-07-05T10:24:00.000Z",
+          "id": "education-4-1783275480000",
+          "title": "Двое мирных жителей получили ранения при ударе беспилотника по донецкой Горловке",
+          "summary": "Двое мирных жителей пострадали в результате удара беспилотника по Горловке в Донецкой Народной Республике, сообщил мэр города Иван Приходько.\"В результате атаки дрона ВСУ в Калининском районе Горловки ранены два мирных жителя\", - говорится в сообщении Приходько, распространенном ",
+          "url": "https://www.interfax.ru/russia/1101326",
+          "image": null,
+          "publishedAt": "2026-07-05T18:18:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-05T11:21:55.091Z",
+      "lastFetchAt": "2026-07-05T20:44:45.744Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1287,7 +1287,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-05T11:21:55.378Z",
+      "lastFetchAt": "2026-07-05T20:44:46.029Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-07-05T13:03:34.540Z",
+      "lastFetchAt": "2026-07-05T20:44:43.616Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1365,7 +1365,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1783256439000",
+          "id": "automotive-0-1783263227000",
+          "title": "AMG показала дизайн электрического внедорожника с мощностью 1153 л.с.",
+          "summary": "Новый электрический внедорожник станет прямым соперником Porsche Cayenne EV. Он получит зарядку на 600 кВт, запас хода 435 миль, а также будет имитировать звук и переключения V8 — двигателя, которого у него нет, сообщает Carscoops.",
+          "url": "https://motor.ru/news/amg-vypustit-elektrokrossover-moshnostyu-1153-l-s-s-imitaciei-zvuka-v8-05-07-2026.htm",
+          "image": "https://motor.ru/imgs/2026/07/05/14/6986691/48820e5c936ed0a9ca89e732eba83c767c37eeab.webp",
+          "publishedAt": "2026-07-05T14:53:47.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1783256439000",
           "title": "Alfa Romeo GT получила цифровой тюнинг с круглыми фарами в стиле классики",
           "summary": "Выпускавшаяся с 2003 по 2010 год Alfa Romeo GT — купе на платформе хэтчбека 147 и седана 156 — стала последней моделью бренда, созданной Bertone, и последней с мотором Busso V6. Из-за низких цен на вторичном рынке возникла идея превратить такой автомобиль в экзотический кастом с ",
           "url": "https://motor.ru/news/avto-alfa-romeo-gt-prevratili-v-ekzoticheskii-kastom-s-klassicheskimi-chertami-05-07-2026.htm",
@@ -1377,7 +1389,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1783235023000",
+          "id": "automotive-2-1783235023000",
           "title": "Адаму Кадырову вручили новую медаль",
           "summary": "18-летний сын главы Чечни Рамзана Кадырова Адам Кадыров получил медаль «90 лет ГИБДД МВД России». Об этом чиновник сообщил в своем Telegram-канале.",
           "url": "https://motor.ru/news/adam-kadyrov-poluchil-medal-05-07-2026.htm",
@@ -1389,7 +1401,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1783180518000",
+          "id": "automotive-3-1783180518000",
           "title": "Ferrari оборудовала модель 12Cilindri псевдомеханической коробкой передач",
           "summary": "В гамму Ferrari 12Cilindri вошла версия Manuale — это эксклюзивная лимитированная серия суперкара, которая возвращает на машины из Маранелло механическую коробку передач с культовым открытым пазом (gated shifter) после 14-летнего перерыва. Тираж машины ограничен 1499 экземплярами",
           "url": "https://motor.ru/news/ferrari-predlozhila-klientam-nenastoyashuyu-mekhaniku-04-07-2026.htm",
@@ -1401,24 +1413,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1783177970000",
+          "id": "automotive-4-1783177970000",
           "title": "В ФРГ водителей начали штрафовать за использование медиасистемы во время езды",
           "summary": "Немецкого автомобилиста наказали за использование экрана на центральной консоли автомобиля для регулировки стеклоочистителей. Из-за того, что водитель отвлёкся, случилась авария. Водителя оштрафовали на 200 евро (17 тыс. рублей), а также лишили водительских прав на один месяц, со",
           "url": "https://motor.ru/news/nemca-lishili-prav-za-ispolzovanie-ekrana-mediasistemy-v-salone-avtomobilya-04-07-2026.htm",
           "image": "https://motor.ru/imgs/2026/07/04/15/6986542/39dd8521c8f5fd3193e982497e2fe7feddb51177.webp",
           "publishedAt": "2026-07-04T15:12:50.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1783172405000",
-          "title": "На заводе Scania под Петербургом наладят выпуск китайских электробусов Skywell",
-          "summary": "Компания Skywell приняла решение свернуть присутствие на рынке РФ зимой 2025 года. В России бренд пришёл осенью 2022 года, но спрос оказался недостаточным. Теперь фирма возвращается, но будет предлагать технику совершенно другой категории, а конкретно — электрические автобусы.",
-          "url": "https://motor.ru/news/polucheno-otts-sbezhavshaya-iz-rossii-marka-skywell-vernyotsya-so-svoimi-avtobusami-03-07-2026.htm",
-          "image": "https://motor.ru/imgs/2026/07/04/13/6986370/c7c53413f64a3c9aec625c70b98d01c7b7a3b9a8.jpg",
-          "publishedAt": "2026-07-04T13:40:05.000Z",
           "source": "Motor.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
