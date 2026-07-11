@@ -1,10 +1,15 @@
 {
-  "updatedAt": "2026-07-11T01:24:17.130Z",
+  "updatedAt": "2026-07-11T04:52:01.164Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "business",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
     "it",
     "cybersecurity",
-    "business",
     "startups",
     "science",
     "medicine",
@@ -15,15 +20,10 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "politics",
     "education",
     "law",
     "realestate",
     "travel"
-  ],
-  "skippedNow": [
-    "ai"
   ],
   "categories": {
     "it": {
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-07-10T22:48:05.654Z",
+      "lastFetchAt": "2026-07-11T04:51:50.023Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1783712056000",
+          "id": "ai-0-1783740991000",
+          "title": "LLM говнокодит не хуже людей. Только быстрее",
+          "summary": "Полгода назад я начал писать пет-проект практически полностью с помощью LLM-агентов. Первые недели это был чистый дофамин: фичи вылетали за вечер, я один успевал столько, сколько раньше делала небольшая команда. А потом всё начало вязнуть — ровно так, как вязнет любой проект с го",
+          "url": "https://habr.com/ru/articles/1058064/?utm_campaign=1058064&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/9c7/6e9/fe7/9c76e9fe739e45b5bb9d9cd05503df25.png",
+          "publishedAt": "2026-07-11T03:36:31.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1783712056000",
           "title": "Энтузиаст запустил GLM-5.2 на ноутбуке с 25 ГБ RAM: без дистилляции, но на скорости от 0,05 токена в секунду",
           "summary": "Разработчик-одиночка под ником JustVugg представил Colibri — движок, который запускает открытую модель GLM-5.2 с 744 миллиардами параметров на обычном компьютере с 25 ГБ оперативной памяти. Для сравнения, даже 2-битный квант моделей этого семейства требует порядка 220 ГБ памяти. ",
           "url": "https://habr.com/ru/articles/1058050/?utm_campaign=1058050&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +129,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1783709791000",
+          "id": "ai-2-1783709791000",
           "title": "Что такое код на самом деле? И почему он (не) нужен?",
           "summary": "Когда я коммитил код в последний рабочий день на этой неделе, я задумался: «А что из закоммиченного мне не страшно потерять?» И понял странную вещь: сам код — не жалко. Страшно потерять другое: требования к системе и навыки агентов, которые умеют эти требования превращать в работ",
           "url": "https://habr.com/ru/articles/1058046/?utm_campaign=1058046&utm_source=habrahabr&utm_medium=rss",
@@ -129,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1783702249000",
+          "id": "ai-3-1783702249000",
           "title": "ИИ и автотесты: как поймать ложную зелёную галочку?",
           "summary": "ИИ уже умеет генерировать тесты пачками, но зелёный пайплайн по‑прежнему может врать. В статье разбираем на примере Java и JUnit, как отличить тест, который действительно ловит баги, от теста, который просто создаёт иллюзию проверки. Читать далее",
           "url": "https://habr.com/ru/companies/otus/articles/1047068/?utm_campaign=1047068&utm_source=habrahabr&utm_medium=rss",
@@ -141,24 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1783697490000",
+          "id": "ai-4-1783697490000",
           "title": "GEO — эпоха продвижения в нейросетях уже наступила. Часть 1 из 3",
           "summary": "Это первая из трёх статей про GEO. Здесь — концептуальная база: за что вообще идёт борьба в нейровыдаче и почему это не косметическая надстройка над SEO. Во второй части будет содержательный слой — смыслы, граундинг, факт-чекинг и почему накрутка не держится. В третьей — прикладн",
           "url": "https://habr.com/ru/articles/1056746/?utm_campaign=1056746&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/f6f/f18/82f/f6ff1882faeb720e65d5f0efe6a25154.jpg",
           "publishedAt": "2026-07-10T15:31:30.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1783694818000",
-          "title": "Конвейер из 10 агентов без строчки кода: три промпта, 40 минут и прогон при зале",
-          "summary": "Недавно я вёл урок по прототипированию сервисов в Cursor. На рабочую часть ушло максимум 40 минут: 15–20 минут я рассказывал, 20–25 минут мы работали. Из этого времени сам Cursor чистыми отработал минут десять, остальное я говорил, копировал промпты и показывал на экране. На выхо",
-          "url": "https://habr.com/ru/articles/1057992/?utm_campaign=1057992&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c8c/1ec/fdd/c8c1ecfdd26f7c4cba4bcdc17cd4eebb.jpg",
-          "publishedAt": "2026-07-10T14:46:58.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-11T01:23:48.344Z",
+      "lastFetchAt": "2026-07-11T04:51:53.047Z",
       "intervalHours": 2,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-11T01:24:09.243Z",
+      "lastFetchAt": "2026-07-11T04:51:59.456Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1783732320000",
-          "title": "Ринат Билялетдинов покинул пост тренера «Спартак» Кострома спустя полтора месяца после назначения. 12 июля у команды первый матч сезона в Лиге PARI",
-          "summary": "Ринат Билялетдинов покинул пост главного тренера «Спартака» из Костромы. «Благодарим за работу Рината Саяровича Билялетдинова. О назначении главного тренера и изменениях в тренерском штабе сообщим дополнительно», – говорится в заявлении. О назначении 68-летнего специалиста в клуб",
-          "url": "https://www.sports.ru/football/1117290888-rinat-bilyaletdinov-pokinul-post-trenera-spartak-kostroma-spustya-polt.html",
+          "id": "sports-0-1783744800000",
+          "title": "Кравчук о рынке НХЛ: «Очень мощный, закачиваются большие деньги. КХЛ теперь не так комфортно, как 10 лет назад – даже с АХЛ жесткая конкуренция»",
+          "summary": "Двукратный олимпийский чемпион Игорь Кравчук высказался о работе рынка свободных агентов НХЛ. – В последние годы вы работали тренером в ЦСКА и «Спартаке», интересен ваш взгляд из Северной Америки на трансферы в этих клубах и в КХЛ в целом. – В первую очередь скажу, что в НХЛ очен",
+          "url": "https://www.sports.ru/hockey/1117290943-kravchuk-o-rynke-nxl-ochen-moshhnyj-zakachivayutsya-bolshie-dengi-kxl-.html",
           "image": null,
-          "publishedAt": "2026-07-11T01:12:00.000Z",
+          "publishedAt": "2026-07-11T04:40:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1783731609000",
-          "title": "Аргентина – Швейцария – во сколько и где смотреть трансляцию матча, Чемпионат мира по футболу, 1/4 финала, 12 июля 2026",
-          "summary": "Во воскресенье, 12 июля, сыграют Аргентина и Швейцария в матче четвертьфинала Чемпионата мира по футболу. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 04:00 по московскому времени. Где смотреть матч Аргентина – Швейцария Игра пройдет на стадио",
-          "url": "https://www.sports.ru/football/1117290889-argentina-shvejczariya-vo-skolko-i-gde-smotret-translyacziyu-matcha-ch.html",
+          "id": "sports-1-1783744560000",
+          "title": "Защитник Аргентины Лисандро про ЧМ: «Судьи работают превосходно. Пресса генерирует разговоры. Мы сосредоточены на том, чтобы показывать максимум на поле»",
+          "summary": "Защитник сборной Аргентины Лисандро Мартинес заявил, что судьи хорошо работают на ЧМ-2026 . Футболист ответил на вопрос о том, может ли он что-то сказать по поводу судейства на турнире. «Нет, абсолютно ничего. Думаю, что арбитры делают превосходную работу. Порой это пресса генери",
+          "url": "https://www.sports.ru/football/1117290938-zashhitnik-argentiny-lisandro-pro-chm-sudi-delayut-xoroshuyu-rabotu-pr.html",
           "image": null,
-          "publishedAt": "2026-07-11T01:00:09.000Z",
+          "publishedAt": "2026-07-11T04:36:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1783731360000",
-          "title": "Харри Кейн: «Трамп играет в гольф очень хорошо. Надеюсь, смогу играть так же хорошо, когда буду в его возрасте. Уникальный опыт. Благодарен, что он пригласил меня поиграть»",
-          "summary": "Нападающий сборной Англии и «Баварии» Харри Кейн подтвердил, что играл в гольф с президентом США Дональдом Трампом. Политик ранее рассказал об этом: «Я играл с Кейном в гольф, он мне очень понравился. Он великолепный футболист, в гольф тоже классно играет» . «Я сыграл хорошо, чес",
-          "url": "https://www.sports.ru/football/1117290887-xarri-kejn-tramp-ochen-xorosho-igraet-v-golf-nadeyus-smogu-igrat-tak.html",
+          "id": "sports-2-1783743900000",
+          "title": "Генменеджер «Филадельфии» о том, что «Анахайм» повторил оффер-шит Карлссону: «Понимали, что это возможно. Наша цель не меняется – использовать каждый шанс для усиления команды»",
+          "summary": "Генеральный менеджер «Филадельфии» Даниэль Бриэр высказался о том, что клубу не удалось заполучить форварда « Анахайма » Лео Карлссона . «Флайерс» сделали 21-летнему шведу оффер-шит (контрактное предложение ограниченно свободному агенту) на 5 лет и 90 миллионов долларов. «Дакс» п",
+          "url": "https://www.sports.ru/hockey/1117290937-genmenedzher-filadelfii-o-tom-chto-anaxajm-povtoril-offer-shit-karlsso.html",
           "image": null,
-          "publishedAt": "2026-07-11T00:56:00.000Z",
+          "publishedAt": "2026-07-11T04:25:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1783730520000",
-          "title": "«Спартак» заплатит около 6 млн евро за трансфер защитника «Алавеса» Парады (Marca)",
-          "summary": "24-летний левый защитник « Алавеса » Виктор Парада перейдет в « Спартак » примерно за 6 миллионов евро. Об этом сообщает Marca. Кроме того, сумма трансфера может превысить 6 миллионов евро, если будут выполнены определенные условия. Ранее сообщалось , что за испанского футболиста",
-          "url": "https://www.sports.ru/football/1117290885-spartak-zaplatit-okolo-6-mln-evro-za-transfer-zashhitnika-parady.html",
+          "id": "sports-3-1783743840000",
+          "title": "Скалони об Аргентине на ЧМ: «В футболе нет понятия помощи. Показываем игрокам: есть люди, которые не хотят, чтобы Аргентина победила. С ВАР нет места для двойной интерпретации»",
+          "summary": "Главный тренер сборной Аргентины Лионель Скалони ответил на вопрос об отношении арбитров к южноамериканской команде на ЧМ-2026 . Аргентина переиграла Египет (3:2) в матче 1/8 финала турнира. «Еще в 1986 году (Аргентина выиграла ЧМ-1986 – Спортс’‘) говорили, что нам оказывают преф",
+          "url": "https://www.sports.ru/football/1117290930-skaloni-ob-argentine-na-chm-v-futbole-net-ponyatiya-pomoshhi-pokazyvae.html",
           "image": null,
-          "publishedAt": "2026-07-11T00:42:00.000Z",
+          "publishedAt": "2026-07-11T04:24:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1783729680000",
-          "title": "«ПСЖ» предварительно договорился с Ферраном. Парижане хотят завершить трансфер форварда «Барсы» после ЧМ",
-          "summary": "« ПСЖ » предварительно договорился с форвардом «Барселоны» Ферраном Торресом . Французский клуб намерен завершить трансфер 26-летнего нападающего после чемпионата мира. Действующий контракт испанского футболиста и «Барселоны» рассчитан до 30 июня 2027 года. В прошлом сезоне напад",
-          "url": "https://www.sports.ru/football/1117290883-pszh-predvaritelno-dogovorilsya-s-ferranom-parizhane-xotyat-zavershit-.html",
+          "id": "sports-4-1783743600000",
+          "title": "Егор Дёмин набрал 20 очков в разгромной победе над «Нью-Йорком»",
+          "summary": "Защитник « Бруклина » Егор Дёмин стал одним из двух лучших бомбардиров своей команды в матче Летней лиги против « Нью-Йорка ». За 22 минуты на паркете россиянин набрал 20 очков, реализовав 7 из 15 бросков с игры, 3 из 9 трехочковых и 2 из 3 штрафных. Защитник добавил к этому 3 по",
+          "url": "https://www.sports.ru/basketball/1117290933-egor-dyomin-nabral-20-ochkov-v-razgromnoj-pobede-nad-nyu-jorkom.html",
           "image": null,
-          "publishedAt": "2026-07-11T00:28:00.000Z",
+          "publishedAt": "2026-07-11T04:20:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-11T01:24:10.914Z",
+      "lastFetchAt": "2026-07-11T04:52:01.164Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1783732171000",
-          "title": "Стивен Сигал назвал Путина величайшим лидером",
+          "id": "politics-0-1783744967000",
+          "title": "В Крыму назвали враньем слова Киева о подрыве «Северных потоков»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/11/stiven-sigal-nazval-putina-velichayshim-liderom/",
-          "image": "https://icdn.lenta.ru/images/2026/07/11/04/20260711040905875/pic_cc2022f78f2a71251d115324ee4529d9.jpg",
-          "publishedAt": "2026-07-11T01:09:31.000Z",
+          "url": "https://lenta.ru/news/2026/07/11/v-krymu-nazvali-vraniem-slova-kieva-o-podryve-severnyh-potokov/",
+          "image": "https://icdn.lenta.ru/images/2026/07/11/07/20260711074234464/pic_fdc5afc14df599fff09238f526bdd8f2.jpg",
+          "publishedAt": "2026-07-11T04:42:47.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1783731180000",
-          "title": "В российском регионе перевернулся междугородний автобус",
+          "id": "politics-1-1783744203000",
+          "title": "Украинская биатлонистка объяснила переезд в Россию фразой «Сегодня я там, где меня ценят»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/11/bus/",
-          "image": "https://icdn.lenta.ru/images/2026/07/11/03/20260711035536189/pic_e8fa3a911a41f9339b3889f96730bf7e.jpg",
-          "publishedAt": "2026-07-11T00:53:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/10/ukrainskaya-biatlonistka-ob-yasnila-pereezd-v-rossiyu-frazoy-segodnya-ya-tam-gde-menya-tsenyat/",
+          "image": "https://icdn.lenta.ru/images/2026/07/10/20/20260710205150803/pic_343c3c00087e76c4f23ae6e9420152e4.jpg",
+          "publishedAt": "2026-07-11T04:30:03.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1783730921000",
-          "title": "Стало известно о планомерном уничтожении АЗС между Киевом и Черниговом",
+          "id": "politics-2-1783744018000",
+          "title": "Более 150 человек стали жертвами политического террора на Украине",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/11/stalo-izvestno-o-planomernom-unichtozhenii-azs-mezhdu-kievom-i-chernigovom/",
-          "image": "https://icdn.lenta.ru/images/2026/07/11/03/20260711034504658/pic_b44fb6735eebf2947b53db0b68e2762d.jpg",
-          "publishedAt": "2026-07-11T00:48:41.000Z",
+          "url": "https://lenta.ru/news/2026/07/11/azarov/",
+          "image": "https://icdn.lenta.ru/images/2026/07/11/07/20260711072624306/pic_f9a29bdff257d555854813633e66b814.jpg",
+          "publishedAt": "2026-07-11T04:26:58.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1783730867000",
-          "title": "Внук де Голля призвал Европу заключить союз с Россией",
+          "id": "politics-3-1783743524000",
+          "title": "Раскрыты последствия ночной атаки по Украине",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/11/vnuk/",
-          "image": "https://icdn.lenta.ru/images/2026/07/11/03/20260711034643676/pic_c89834364a911a099adb598604b298df.jpg",
-          "publishedAt": "2026-07-11T00:47:47.000Z",
+          "url": "https://lenta.ru/news/2026/07/11/raskryty-posledstviya-nochnoy-ataki-po-ukraine/",
+          "image": "https://icdn.lenta.ru/images/2026/07/11/07/20260711071835972/pic_c94aeb91231fb90248fab28d60269502.jpg",
+          "publishedAt": "2026-07-11T04:18:44.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1783730434000",
-          "title": "Четыре предмета станут обязательными для студентов всех российских вузов",
+          "id": "politics-4-1783743161000",
+          "title": "В Киеве объяснили невозможность производить ракеты для Patriot на Украине",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/11/chetyre-predmeta-stanut-obyazatelnymi-dlya-studentov-vseh-rossiyskih-vuzov/",
-          "image": "https://icdn.lenta.ru/images/2026/07/11/03/20260711034024558/pic_f0dfa02c4b71e12e0da26f8ffd3f37b8.jpg",
-          "publishedAt": "2026-07-11T00:40:34.000Z",
+          "url": "https://lenta.ru/news/2026/07/10/v-kieve-ob-yasnili-nevozmozhnost-proizvodit-rakety-dlya-patriot-na-ukraine/",
+          "image": "https://icdn.lenta.ru/images/2026/07/11/06/20260711062913533/pic_ceab7d5ccf5e6a3ff662690812161041.jpg",
+          "publishedAt": "2026-07-11T04:12:41.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
