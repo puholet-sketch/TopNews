@@ -1,10 +1,18 @@
 {
-  "updatedAt": "2026-07-24T22:50:52.916Z",
+  "updatedAt": "2026-07-25T01:25:52.501Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "business",
+    "sports",
+    "politics",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
+    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -15,15 +23,7 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "law"
   ],
   "categories": {
     "it": {
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-24T22:50:35.589Z",
+      "lastFetchAt": "2026-07-25T01:25:47.845Z",
       "intervalHours": 2,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -245,7 +245,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1784927648000",
+          "id": "business-0-1784936534000",
+          "title": "Татьяна Ким сообщила о перестройке логистики Wildberries после атак БПЛА",
+          "summary": "Глава RWB и основательница Wildberries Татьяна Ким сообщила о реорганизации логистики компании. Маркетплейс перераспределяет товарные потоки для сокращения сроков доставки.",
+          "url": "https://www.kommersant.ru/doc/8844546",
+          "image": null,
+          "publishedAt": "2026-07-24T23:42:14.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1784927648000",
           "title": "Бывшую фабрику Порошенко Roshen в Липецке включили в программу приватизации",
           "summary": "Правительство России решило продать обращенную в доход государства фабрику Roshen в Липецке, ранее принадлежавшую экс-президенту Украины Петру Порошенко. Согласно распоряжению премьер-министра Михаила Мишустина, 99,9% акций кондитерского предприятия включили в программу приватиза",
           "url": "https://www.kommersant.ru/doc/8844309",
@@ -257,7 +269,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1784925416000",
+          "id": "business-2-1784925416000",
           "title": "Paramount согласилась отложить слияние с Warner Bros. почти на год",
           "summary": "Paramount Skydance согласилась отложить слияние с Warner Bros. Discovery стоимостью $110 млрд на время рассмотрения судебного иска, направленного на отмену сделки.",
           "url": "https://www.kommersant.ru/doc/8844306",
@@ -269,7 +281,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1784916369000",
+          "id": "business-3-1784916369000",
           "title": "Курс доллара. Прогноз на 27–31 июля // Мнения и прогнозы аналитиков о том, как будет вести себя рубль",
           "summary": "Повышение цен на нефть, произошедшее на минувшей неделе на фоне эскалации конфликта на Ближнем Востоке, поддержало курс рубля. Если по итогам торгов понедельника внебиржевой курс доллара составлял 78,57 руб./$, то на закрытии пятницы остановился на отметке 77,64 руб./$. Таким обр",
           "url": "https://www.kommersant.ru/doc/8844275",
@@ -281,24 +293,12 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1784915920000",
+          "id": "business-4-1784915920000",
           "title": "У моющих средств наметилась химия // «Арнест» может выкупить часть бизнеса Reckitt Benckiser за 12–14 млрд рублей",
           "summary": "Британская Reckitt Benckiser планирует продать ГК «Арнест» Алексея Сагала российский бизнес по производству бытовой химии. Сумма сделки может достигнуть 12–14 млрд руб., из которых около 70%, вероятно, деньги на счетах компании. Привычные бренды Vanish, Calgon и Cilit Bang после ",
           "url": "https://www.kommersant.ru/doc/8844212",
           "image": "https://im2.kommersant.ru/Issues.photo2/DAILY/2026/133/KMO_196016_00014_1_t219_184631.jpg",
           "publishedAt": "2026-07-24T17:58:40.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1784915290000",
-          "title": "Визовый центр Италии в Москве ввел предоплату для записи на подачу документов",
-          "summary": "Визовый центр Италии в Москве VMS ввел предоплату в размере 3,9 тыс. руб. для записи на подачу документов. Сервисный сбор необходимо внести в полном объеме на этапе создания заявки.",
-          "url": "https://www.kommersant.ru/doc/8844273",
-          "image": null,
-          "publishedAt": "2026-07-24T17:48:10.000Z",
           "source": "Коммерсантъ",
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-24T22:50:51.739Z",
+      "lastFetchAt": "2026-07-25T01:25:48.783Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,7 +945,31 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1784931600000",
+          "id": "sports-0-1784942040000",
+          "title": "Талалаев после 1:2 с ЦСКА: «С тем, что сейчас происходит, «Балтика» должна быть готова к другим местам в таблице. Качества игры не хватает»",
+          "summary": "Тренер «Балтики» Андрей Талалаев после поражения от ЦСКА (1:2) в 1-м туре «Альфа-Банк» РПЛ допустил, что калининградцы выступят хуже, чем в прошлом сезоне. В Премьер-лиге-2025/26 « Балтика » заняла 6-е место. — Насколько «Балтика» далека от идеального состояния? — По цифрам мы го",
+          "url": "https://www.sports.ru/football/1117311843-talalaev-posle-12-s-czska-s-tem-chto-sejchas-proisxodit-baltika-dolzhn.html",
+          "image": null,
+          "publishedAt": "2026-07-25T01:14:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1784934900000",
+          "title": "«Бориско в ЦСКА – это выстрел в голову и борьба за выживание». Яркая пресс-конференция Талалаева после поражения",
+          "summary": "",
+          "url": "https://www.sports.ru/football/1117311837-borisko-v-czska-eto-vystrel-v-golovu-i-borba-za-vyzhivanie-yarkaya-pre.html",
+          "image": null,
+          "publishedAt": "2026-07-24T23:15:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1784931600000",
           "title": "«Реал» начал переговоры с «РБ Лейпциг» по Диоманде, «Арсеналу» и «Сити» он тоже интересен. Немцы оценивают вингера в 120 млн евро и ранее не продали «Ливерпулю» за 100 млн",
           "summary": "« Реал » начал переговоры с «РБ Лейпциг» по трансферу вингера Яна Диоманде , сообщает Фабрицио Романо . Также «сливочные» контактируют и с представителями 19-летнего игрока. По данным Bild, « РБ Лейпциг » хочет получить за Диоманде минимум 120 млн евро. Ранее немецкий клуб отклон",
           "url": "https://www.sports.ru/football/1117311803-real-nachal-peregovory-s-rb-lejpczig-po-yanu-diomande-nemeczkij-klub-o.html",
@@ -957,7 +981,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1784931300000",
+          "id": "sports-3-1784931300000",
           "title": "Роналду подарили люксовые часы янтарного цвета. Криштиану заявил, что его Bugatti такого же оттенка",
           "summary": "Криштиану Роналду встретился с ювелиром Джейкобом Арабо – основателем бренда Jacob & Co и партнером по выпуску именных часов. Во время беседы Арабо подарил футболисту « Аль-Насра » и сборной Португалии часы янтарно-оранжевого цвета. «Это уникальный цвет – янтарный, с оранжевым от",
           "url": "https://www.sports.ru/football/1117311704-ronaldu-podarili-lyuksovye-chasy-yantarnogo-czveta-krishtianu-zayavil-.html",
@@ -969,7 +993,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1784930400000",
+          "id": "sports-4-1784930400000",
           "title": "Дмитрий Игдисамов: «Перестал читать все, что пишут в прессе, время и желания смотреть на это нет. Насколько ЦСКА близок к идеалу? Со школы тяжело считать проценты, я гуманитарий»",
           "summary": "Главный тренер ЦСКА Дмитрий Игдисамов рассказал, изменился ли он из-за давления и повышенного внимания после назначения главным тренером московского клуба. – Вы поменялись внутренне из‑за давления и внимания? – Абсолютно другая роль, ответственность. Я перестал читать все, что пи",
           "url": "https://www.sports.ru/football/1117311816-dmitrij-igdisamov-perestal-chitat-vse-chto-pishut-v-presse-vremya-i-zh.html",
@@ -979,35 +1003,11 @@
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1784930280000",
-          "title": "Гендиректор «Сибири» о Широкове: «Предложили Сергею работать в клубе руководителем селекционной службы. Готовы ждать»",
-          "summary": "Генеральный директор « Сибири » Лев Крутохвостов высказался о будущем экс-форварда клуба Сергея Широкова . 28 мая 40-летний Широков объявил о завершении карьеры. – Какова судьба Сергея Широкова в клубе? – Сергею сделано предложение работать в клубе в должности руководителя селекц",
-          "url": "https://www.sports.ru/hockey/1117311813-gendirektor-sibiri-o-shirokove-predlozhili-sergeyu-rabotat-v-klube-ruk.html",
-          "image": null,
-          "publishedAt": "2026-07-24T21:58:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1784930280000",
-          "title": "МОК не будет расследовать нарушение Инфантино политического нейтралитета в отношениях с Трампом после жалобы FairSquare. Комитет заявил, что не обладает юрисдикцией",
-          "summary": "Международный олимпийский комитет не будет заводить расследование в отношении Джанни Инфантино . Ранее некоммерческая правозащитная организация FairSquare направила в МОК жалобу на то, что президент ФИФА нарушил правила политического нейтралитета в своих отношениях с президентом ",
-          "url": "https://www.sports.ru/football/1117311810-mok-ne-budet-rassledovat-narushenie-infantino-nejtraliteta-v-otnosheni.html",
-          "image": null,
-          "publishedAt": "2026-07-24T21:58:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
         }
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-24T22:50:52.915Z",
+      "lastFetchAt": "2026-07-25T01:25:50.105Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1784932980000",
-          "title": "Стало известно о пострадавших в результате атаки ВСУ на российский регион",
+          "id": "politics-0-1784942079000",
+          "title": "Стало известно о тайных ударах Бахрейна и Кувейта по Ирану",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/25/stalo-izvestno-o-postradavshih/",
-          "image": "https://icdn.lenta.ru/images/2026/07/25/01/20260725014321709/pic_9e05111ee99c80b819b29b9129e47ae6.jpg",
-          "publishedAt": "2026-07-24T22:43:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/25/stalo-izvestno-o-taynyh-udarah-bahreyna-i-kuveyta-po-iranu/",
+          "image": "https://icdn.lenta.ru/images/2026/07/25/04/20260725041445333/pic_d9d3e220df2126d19260a55279201e57.jpg",
+          "publishedAt": "2026-07-25T01:14:39.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1784932744000",
-          "title": "В России захотели приватизировать бывшую фабрику Порошенко",
+          "id": "politics-1-1784941998000",
+          "title": "Стало известно о предпосылках исключения буквы «Ё» из русского алфавита",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/25/v-rossii-zahoteli-privatizirovat-byvshuyu-fabriku-poroshenko/",
-          "image": "https://icdn.lenta.ru/images/2026/07/25/01/20260725013909720/pic_6df0a21bc158454dd3a4d5bd0b3b691a.jpg",
-          "publishedAt": "2026-07-24T22:39:04.000Z",
+          "url": "https://lenta.ru/news/2026/07/25/stalo-izvestno-o-predposylkah-isklyucheniya-bukvy-yo-iz-russkogo-alfavita/",
+          "image": "https://icdn.lenta.ru/images/2026/07/25/04/20260725041249138/pic_56f714f313ee31c79b6ddaa4fc66f625.jpg",
+          "publishedAt": "2026-07-25T01:13:18.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1784932010000",
-          "title": "Набиуллина высказалась о последствиях атаки БПЛА на логистические центры",
+          "id": "politics-2-1784940480000",
+          "title": "Названа причина увольнения Сырского Зеленским",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/25/nabiullina-vyskazalas-o-posledstviyah-ataki-bpla-na-logisticheskie-tsentry/",
-          "image": "https://icdn.lenta.ru/images/2026/07/25/01/20260725012651917/pic_e8fa1d31e6ff14b2efcc81f2439e86c8.jpg",
-          "publishedAt": "2026-07-24T22:26:50.000Z",
+          "url": "https://lenta.ru/news/2026/07/25/nazvana-prichina-uvolneniya-syrskogo-zelenskim/",
+          "image": "https://icdn.lenta.ru/images/2026/07/25/03/20260725035037151/pic_438cfb82f4718705a6a9d9800fc4c829.jpg",
+          "publishedAt": "2026-07-25T00:48:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1784930720000",
-          "title": "«Непревзойденное откровение Зеленского». Президент Украины ответил на вопрос об употреблении кокаина с Макроном и рассмешил Россию",
+          "id": "politics-3-1784940060000",
+          "title": "Опубликованы кадры мощного пожара на юго-востоке Москвы",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/25/long-neprevzoydennoe-otkrovenie-zelenskogo-prezident-ukrainy-otvetil-na-vopros-ob-upotreblenii-kokaina-s-makronom-i-rassmeshil-rossiyu/",
-          "image": "https://icdn.lenta.ru/images/2026/07/25/00/20260725004827040/pic_9a39c003dae35c972b929e2fcae4330e.jpg",
-          "publishedAt": "2026-07-24T22:05:20.000Z",
+          "url": "https://lenta.ru/news/2026/07/25/opublikovany-kadry-moschnogo-pozhara-na-yugo-vostoke-moskvy/",
+          "image": "https://icdn.lenta.ru/images/2026/07/25/03/20260725034001857/pic_9c73d98a364c377de868a4ef2f2f148e.jpg",
+          "publishedAt": "2026-07-25T00:41:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1784930340000",
-          "title": "Трамп пригрозил двум странам пошлинами",
+          "id": "politics-4-1784938800000",
+          "title": "Мощный пожар разгорелся на юго-востоке  Москвы",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/24/tramp-prigrozil-dvum-stranam-poshlinami/",
-          "image": "https://icdn.lenta.ru/images/2026/07/25/01/20260725010149748/pic_b8b279ca83a5f9499c8e26e4c08b8880.jpg",
-          "publishedAt": "2026-07-24T21:59:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/25/moschnyy-pozhar-razgorelsya-na-yugo-vostoke-moskvy/",
+          "image": "https://icdn.lenta.ru/images/2026/07/25/03/20260725032611265/pic_f5e09634439ae113dd20fde431039f4f.jpg",
+          "publishedAt": "2026-07-25T00:20:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-24T17:19:09.617Z",
+      "lastFetchAt": "2026-07-25T01:25:51.387Z",
       "intervalHours": 8,
       "source": "Интерфакс",
       "siteUrl": "https://www.interfax.ru",
@@ -1085,60 +1085,60 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1784913120000",
-          "title": "Российские туристы смогут посещать Черногорию без визы до 31 октября",
-          "summary": "Граждане РФ и Белоруссии смогут въезжать в Черногорию без виз на 30 дней до 31 октября, следует из постановления правительства республики.\"Граждане Республики Беларусь и Российской Федерации могут до 31 октября 2026 года в соответствии с заключенными международными договорами о в",
-          "url": "https://www.interfax.ru/world/1105430",
+          "id": "education-0-1784940960000",
+          "title": "Три человека пострадали из-за удара БПЛА по Горловке",
+          "summary": "Трое мирных жителей пострадали в результате удара беспилотника по Горловке в Донецкой Народной Республике, сообщил мэр города Иван Приходько.\"В результате атаки БПЛА ВСУ в Никитовском районе Горловки ранены три мирных жителя, - говорится в сообщении Приходько, распространенном в ",
+          "url": "https://www.interfax.ru/russia/1105471",
           "image": null,
-          "publishedAt": "2026-07-24T17:12:00.000Z",
+          "publishedAt": "2026-07-25T00:56:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1784913000000",
-          "title": "Делегация из Омана прибыла в Иран для обсуждения судоходства в Ормузском проливе",
-          "summary": "Члены делегации Омана прибыли в иранскую столицу для переговоров по Ормузскому проливу, сообщает в пятницу ИРНА.\"Оманская делегация приехала в Тегеран для обсуждения механизмов, связанных с Ормузским проливом\", - говорится в сообщении.",
-          "url": "https://www.interfax.ru/world/1105429",
+          "id": "education-1-1784940780000",
+          "title": "Аэропорт Ярославля приостановил работу",
+          "summary": "Временные ограничения введены в ярославском аэропорту, сообщили в Росавиации в субботу.\"Введены ограничения на прием и выпуск воздушных судов\", - говорится в сообщении агентства в мессенджере Мах.",
+          "url": "https://www.interfax.ru/russia/1105475",
           "image": null,
-          "publishedAt": "2026-07-24T17:10:00.000Z",
+          "publishedAt": "2026-07-25T00:53:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1784912880000",
-          "title": "В Армении за неуплату налогов задержан директор завода \"Арарат\", принадлежащий Царукяну",
-          "summary": "Директор принадлежащего арестованному главе оппозиционной партии \"Процветающая Армения\", бизнесмену Гагику Царукяну коньячно-винно-водочного комбината \"Арарат\" задержан в пятницу.\"Директор Ереванского коньячно-винно-водочного комбината \"Арарат\" (производит продукцию под брендом \"",
-          "url": "https://www.interfax.ru/world/1105428",
+          "id": "education-2-1784940420000",
+          "title": "Площадь пожара на юго-востоке Москвы возросла до 3 тыс. кв. м",
+          "summary": "Площадь пожара, возникшего ранее в производственном ангаре на Автомобильном проезде, увеличилась до 3 тыс. кв. м, сообщает ночью в субботу МЧС России.\"Площадь пожара 3000 кв.м.",
+          "url": "https://www.interfax.ru/russia/1105470",
           "image": null,
-          "publishedAt": "2026-07-24T17:08:00.000Z",
+          "publishedAt": "2026-07-25T00:47:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1784912520000",
-          "title": "ЕС применил механизм гражданской защиты для тушения лесных пожаров в Испании и Франции",
-          "summary": "В ответ на поступившие накануне запросы Испании и Франции об активации механизма гражданской защиты ЕС для помощи в тушении лесных пожаров были выделены самолеты и вертолеты, заявила официальный представитель Еврокомиссии (ЕК) Анна-Кайса Итконен.",
-          "url": "https://www.interfax.ru/world/1105427",
+          "id": "education-3-1784940060000",
+          "title": "Землетрясение магнитудой 5,8 зарегистрировано возле Камчатки",
+          "summary": "Землетрясение магнитудой 5,8 произошло ночью в субботу в Тихом океане возле Камчатки, сообщает пресс-служба ГУ МЧС региона со ссылкой на Камчатский филиал Геофизической службы РАН.\"В акватории Тихого океана зарегистрировано ощущаемое сейсмособытие, магнитуда 5,8.",
+          "url": "https://www.interfax.ru/russia/1105467",
           "image": null,
-          "publishedAt": "2026-07-24T17:02:00.000Z",
+          "publishedAt": "2026-07-25T00:41:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1784911860000",
-          "title": "Мажоритарий \"ПИКа\" направлял требование о выкупе его акций, но ЦБ его не согласовал",
-          "summary": "Мажоритарный акционер ПАО \"ПИК-специализированный застройщик\", компания \"Недвижимые активы\", готовился выставить требование о выкупе акций у миноритариев, но ЦБ его не согласовал.",
-          "url": "https://www.interfax.ru/business/1105426",
+          "id": "education-4-1784939760000",
+          "title": "Аэропорты Нижнего Новгорода, Самары и Чебоксар временно не обслуживают рейсы",
+          "summary": "Ограничения введены в аэропортах Нижнего Новгорода, Самары и Чебоксар, сообщает Росавиация.\"Введены временные ограничения на прием и выпуск воздушных судов\", - говорится в сообщении ведомства в мессенджере Max.",
+          "url": "https://www.interfax.ru/world/1105472",
           "image": null,
-          "publishedAt": "2026-07-24T16:51:00.000Z",
+          "publishedAt": "2026-07-25T00:36:00.000Z",
           "source": "Интерфакс",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-24T17:19:14.025Z",
+      "lastFetchAt": "2026-07-25T01:25:52.177Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1287,7 +1287,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-24T17:19:15.289Z",
+      "lastFetchAt": "2026-07-25T01:25:52.501Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1295,7 +1295,31 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1784845521000",
+          "id": "travel-0-1780816564000",
+          "title": "От «Моны Лизы» до банана: самые примечательные музейные кражи",
+          "summary": "Во Франции похитили инсталляцию «Комедиант»",
+          "url": "https://www.vedomosti.ru/lifestyle/articles/2026/06/07/1203591-ot-moni-lizi",
+          "image": "https://cdn.vdmsti.ru/image/2026/4c/100245/normal-1anp.jpg",
+          "publishedAt": "2026-06-07T07:16:04.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1784919168000",
+          "title": "Индия глазами Pirelli: бэкстейдж со съемок календаря 2027 года",
+          "summary": "От студийных кадров к улицам Старого Дели",
+          "url": "https://www.vedomosti.ru/lifestyle/galleries/2026/07/24/1216369-pirelli-beksteidzh",
+          "image": "https://cdn.vdmsti.ru/image/2026/5p/16vtt8/normal-1jks.jpg",
+          "publishedAt": "2026-07-24T18:52:48.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1784845521000",
           "title": "150 000 россиян могут находиться в крайней стадии зависимости от азартных игр",
           "summary": "Регулярно делает ставки более 6% населения страны",
           "url": "https://www.vedomosti.ru/society/articles/2026/07/24/1216089-150-000-rossiyan-mogut-nahoditsya-v-krainei-stadii-zavisimosti-ot-azartnih-igr",
@@ -1307,7 +1331,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1784843054000",
+          "id": "travel-3-1784843054000",
           "title": "«Похищение»: а был ли мальчик?",
           "summary": "На Okko стартовал показ детективного триллера о пропавшем ребенке и сыщиках-социопатах",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/24/1216075-pohischenie-a-bil-li-malchik",
@@ -1319,36 +1343,12 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1784842982000",
+          "id": "travel-4-1784842982000",
           "title": "«Гармония образа»: искусство исчезающих миров",
           "summary": "Третьяковская галерея показывает картины Виктора Борисова-Мусатова",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/24/1216074-garmoniya-obraza-iskusstvo-ischezayuschih-mirov",
           "image": "https://cdn.vdmsti.ru/image/2026/5o/1cdkc3/normal-1qp2.jpg",
           "publishedAt": "2026-07-23T21:43:02.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1784499838000",
-          "title": "Испания выиграла Чемпионат мира по футболу",
-          "summary": "Она обыграла Аргентину со счетом 1:0 в дополнительное время",
-          "url": "https://www.vedomosti.ru/society/articles/2026/07/20/1214864-ispaniya-viigrala-chempionat",
-          "image": "https://cdn.vdmsti.ru/image/2026/5l/2lzxk/normal-3dt.jpg",
-          "publishedAt": "2026-07-19T22:23:58.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1784532442000",
-          "title": "Как иностранные СМИ оценили финал чемпионата мира по футболу",
-          "summary": "Особое внимание зарубежная пресса уделила моральному состоянию Месси",
-          "url": "https://www.vedomosti.ru/society/articles/2026/07/20/1214904-kak-inostrannie-smi",
-          "image": "https://cdn.vdmsti.ru/image/2026/5l/l5gev/normal-rev.jpg",
-          "publishedAt": "2026-07-20T07:27:22.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
