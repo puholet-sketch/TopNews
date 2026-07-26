@@ -7,18 +7,18 @@ export function Footer() {
     : "ещё не обновлялось";
 
   return (
-    <footer
-      style={{
-        borderTop: "1px solid var(--border)",
-        marginTop: "4rem",
-        padding: "2rem 0",
-        color: "var(--text-muted)",
-        fontSize: "0.875rem",
-      }}
-    >
-      <div className="container" style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: "1rem" }}>
-        <span>TopNews — автоматический сбор RSS</span>
-        <span>Последнее обновление: {updated}</span>
+    <footer className="site-footer">
+      <div className="container footer-inner">
+        <div>
+          <strong style={{ color: "var(--ink)" }}>TopNews</strong>
+          <p style={{ marginTop: "0.35rem" }}>
+            Автосбор топ-новостей на русском · без редакционной правки текстов
+          </p>
+        </div>
+        <div>
+          <div>Последнее обновление: {updated}</div>
+          <div style={{ marginTop: "0.35rem" }}>Источники указаны у каждой новости</div>
+        </div>
       </div>
     </footer>
   );

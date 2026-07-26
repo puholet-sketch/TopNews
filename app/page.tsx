@@ -1,97 +1,110 @@
+import Link from "next/link";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { NewsCard } from "@/components/NewsCard";
-import { getAllArticles, getNewsData, getSources } from "@/lib/news";
+import { TopicList } from "@/components/TopicList";
+import {
+  getAllArticles,
+  getCategoryBuckets,
+  getNewsData,
+  getSources,
+} from "@/lib/news";
 
 export default function HomePage() {
   const articles = getAllArticles();
   const sources = getSources();
   const data = getNewsData();
-  const featured = articles.slice(0, 1);
-  const rest = articles.slice(1, 13);
+  const buckets = getCategoryBuckets().slice(0, 8);
+  const lead = articles[0];
+  const side = articles.slice(1, 4);
+  const latest = articles.slice(4, 13);
 
   return (
     <>
-      <section
-        style={{
-          padding: "4rem 0 2rem",
-          background:
-            "radial-gradient(ellipse 80% 60% at 50% -20%, var(--accent-soft), transparent)",
-        }}
-      >
+      <section className="hero">
         <div className="container">
-          <p
-            style={{
-              color: "var(--accent)",
-              fontWeight: 600,
-              fontSize: "0.85rem",
-              textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              marginBottom: "1rem",
-            }}
-          >
-            Автоагрегатор новостей
+          <p className="hero-kicker">Live news desk</p>
+          <h1>TopNews</h1>
+          <p className="hero-lead">
+            Топ-5 свежих материалов по 20 темам — от IT и науки до медицины и
+            спорта. Только русскоязычные источники, автосбор по расписанию.
           </p>
-          <h1
-            className="serif"
-            style={{
-              fontSize: "clamp(2.5rem, 6vw, 4rem)",
-              lineHeight: 1.1,
-              maxWidth: "16ch",
-              marginBottom: "1rem",
-            }}
-          >
-            Топ-5 из 20 русскоязычных источников
-          </h1>
-          <p style={{ color: "var(--text-muted)", maxWidth: "52ch", fontSize: "1.1rem" }}>
-            IT, медицина, наука, спорт и ещё 16 тем — все материалы на русском языке.
-            Сбор по расписанию каждого источника — от 2 до 12 часов.
-          </p>
-          {data.updatedAt && (
-            <p style={{ marginTop: "1.5rem", color: "var(--text-muted)", fontSize: "0.9rem" }}>
-              {articles.length} новостей · обновлено{" "}
-              {new Date(data.updatedAt).toLocaleString("ru-RU")}
-            </p>
-          )}
+          <div className="hero-meta">
+            <span className="meta-pill">{articles.length} материалов</span>
+            <span className="meta-pill">{sources.length} тем</span>
+            {data.updatedAt && (
+              <span className="meta-pill">
+                обновлено {new Date(data.updatedAt).toLocaleString("ru-RU")}
+              </span>
+            )}
+          </div>
         </div>
       </section>
 
       {articles.length === 0 ? (
-        <section className="container" style={{ padding: "2rem 0 4rem" }}>
-          <div
-            style={{
-              padding: "3rem",
-              textAlign: "center",
-              background: "var(--bg-elevated)",
-              borderRadius: "var(--radius)",
-              border: "1px solid var(--border)",
-            }}
-          >
-            <p className="serif" style={{ fontSize: "1.5rem", marginBottom: "0.75rem" }}>
-              Новостей пока нет
-            </p>
-            <p style={{ color: "var(--text-muted)" }}>
-              Запустите <code style={{ color: "var(--accent)" }}>npm run collect</code> или
-              дождитесь автоматизации Cursor.
-            </p>
+        <section className="section">
+          <div className="container">
+            <div className="empty-state">
+              <p className="serif" style={{ fontSize: "1.6rem", marginBottom: "0.5rem" }}>
+                Новостей пока нет
+              </p>
+              <p style={{ color: "var(--ink-muted)" }}>
+                Запустите <code>npm run collect -- --force</code> или дождитесь
+                GitHub Actions.
+              </p>
+            </div>
           </div>
         </section>
       ) : (
-        <section className="container" style={{ padding: "2rem 0" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-              gap: "1.25rem",
-            }}
-          >
-            {featured.map((a) => (
-              <NewsCard key={a.id} article={a} featured />
-            ))}
-            {rest.map((a) => (
-              <NewsCard key={a.id} article={a} />
-            ))}
-          </div>
-        </section>
+        <>
+          <section className="section">
+            <div className="container">
+              <div className="section-head">
+                <h2>Главное сейчас</h2>
+                <Link href={`/category/${lead.categorySlug}`} className="section-link">
+                  Смотреть тему →
+                </Link>
+              </div>
+              <div className="lead-grid">
+                <NewsCard article={lead} variant="lead" />
+                <div className="side-stack">
+                  {side.map((article) => (
+                    <NewsCard key={article.id} article={article} variant="side" />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container">
+              <div className="section-head">
+                <h2>Свежая лента</h2>
+              </div>
+              <div className="cards-grid">
+                {latest.map((article) => (
+                  <NewsCard key={article.id} article={article} />
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {buckets.map(({ category, articles: topicArticles }) => (
+            <section key={category.id} className="topic-block">
+              <div className="container">
+                <div className="section-head">
+                  <h2>{category.name}</h2>
+                  <Link href={`/category/${category.slug}`} className="section-link">
+                    Все {topicArticles.length} →
+                  </Link>
+                </div>
+                <div className="topic-layout">
+                  <NewsCard article={topicArticles[0]} variant="lead" />
+                  <TopicList articles={topicArticles.slice(1, 5)} />
+                </div>
+              </div>
+            </section>
+          ))}
+        </>
       )}
 
       <CategoryGrid categories={sources} />

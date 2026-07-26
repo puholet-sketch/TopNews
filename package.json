@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "collect": "node scripts/collect-news.mjs",
+    "collect:force": "node scripts/collect-news.mjs --force",
     "lint": "next lint"
   },
   "dependencies": {

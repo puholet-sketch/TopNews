@@ -36,4 +36,5 @@ export interface SourceCategory {
   feedUrl: string;
   intervalHours: number;
   topCount: number;
+  keywordFilter?: string[];
 }
