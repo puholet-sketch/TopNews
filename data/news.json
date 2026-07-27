@@ -1,8 +1,20 @@
 {
-  "updatedAt": "2026-07-27T19:08:38.725Z",
+  "updatedAt": "2026-07-27T20:59:50.560Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "ai",
+    "cybersecurity",
     "business",
     "science",
     "health",
@@ -10,24 +22,12 @@
     "space",
     "automotive",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-27T16:06:12.074Z",
+      "lastFetchAt": "2026-07-27T20:59:37.398Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785167107000",
+          "id": "it-0-1785181244000",
+          "title": "Конвейеры на Channels: как не получить тихую утечку памяти и вечно висящий воркер",
+          "summary": "Неограниченный канал спокойно работает до первого замедления потребителя, после чего очередь начинает расти, память — заканчиваться, а фоновый воркер может зависнуть при остановке сервиса. В статье разберём, как строить ",
+          "url": "https://habr.com/ru/companies/otus/articles/1062492/?utm_campaign=1062492&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/9d0/271/40e/9d027140e9b04d10393c76f48c2a7187.png",
+          "publishedAt": "2026-07-27T19:40:44.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785181231000",
+          "title": "Английский вместо кода",
+          "summary": "Язык, который придумали, чтобы программисты стали не нужны, породил профессию, которая жива до сих пор и неплохо оплачивается, а другой язык назвали \"структурированным английским\", и думали, что на нем сможет писать любо",
+          "url": "https://habr.com/ru/articles/1058500/?utm_campaign=1058500&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/975/ab1/c7f/975ab1c7f0f8a2824ad15f142fb7d08f.png",
+          "publishedAt": "2026-07-27T19:40:31.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1785167107000",
           "title": "[Перевод] Атомарность в реактивных системах",
           "summary": "Ранее мы говорили о чрезвычайных ситуациях при вычислении инвариантов. Однако они также могут возникать и во время одновременных изменений нескольких исходных состояний. Давайте посмотрим, какие тут есть варианты поведен",
           "url": "https://habr.com/ru/articles/1063664/?utm_campaign=1063664&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785160303000",
+          "id": "it-3-1785160303000",
           "title": "Django ORM ломается не там, где вы смотрели: шесть ошибок",
           "summary": "Django ORM умеет долго скрывать проблемы: лишние запросы, гонки при save(), затянувшиеся транзакции и выборки, которые незаметно съедают память. В статье разберём шесть типичных ошибок, которые редко проявляются на тесто",
           "url": "https://habr.com/ru/companies/otus/articles/1062496/?utm_campaign=1062496&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785159038000",
+          "id": "it-4-1785159038000",
           "title": "[Перевод] Доверьтесь компилятору: C++23 против трюков из 90-х",
           "summary": "Как часто вы слышали: «Не доверяй компилятору, пиши вручную»? Похоже, эту идеологию пора сдавать в архив. Автор специально собрал примеры, в которых «умный» код современного C++ либо проигрывает наивному, либо не даёт вы",
           "url": "https://habr.com/ru/companies/timeweb/articles/1061248/?utm_campaign=1061248&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/74e/9f4/d46/74e9f4d4603c2e39f91573e2edcda52f.jpg",
           "publishedAt": "2026-07-27T13:30:38.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1785154379000",
-          "title": "[Перевод] Что нового в PhpStorm 2026.2",
-          "summary": "Несмотря на то, что PhpStorm уже несколько лет официально недоступен в России, он по‑прежнему остаётся одним из главных инструментов для PHP‑разработчиков. Недавно вышла новая версия PhpStorm 2026.2. В релиз вошли новые ",
-          "url": "https://habr.com/ru/companies/haulmont/articles/1063508/?utm_campaign=1063508&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/06f/eac/9af/06feac9afc45af7566fca05d699aae7f.png",
-          "publishedAt": "2026-07-27T12:12:59.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785151501000",
-          "title": "Green Tea GC: что на самом деле поменялось в сборщике мусора Go 1.26",
-          "summary": "С весны на собесах стабильно спрашивают про Green Tea. И ответ, который я слышу в девяти случаях из десяти, звучит так: «ну, он на 40% быстрее». Дальше начинаешь уточнять — быстрее что? — и человек плывёт. Проценты там д",
-          "url": "https://habr.com/ru/articles/1063470/?utm_campaign=1063470&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1063470/2830e69e864bf8ca6bb2c8dc17cc7b18/",
-          "publishedAt": "2026-07-27T11:25:01.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-27T16:06:17.390Z",
+      "lastFetchAt": "2026-07-27T20:59:39.570Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -319,7 +319,7 @@
           "title": "Топ-менеджера российской компании уволили за разглашение коммерческой тайны — она загрузила некоторые внутренние документы в DeepSeek",
           "summary": "Сотрудница пыталась оспорить решение через суд, но проиграла.",
           "url": "https://vc.ru/hr/3047723-uvolnenie-top-menedzhera-za-razglashenie-kommercheskoy-tayny-cherez-deepseek?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785168377/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785185979/cover.jpg",
           "publishedAt": "2026-07-27T08:01:03.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -327,48 +327,48 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1785134750000",
-          "title": "«Интерес в развитии компании, а не выходе из неё»: создатель ClickHouse — о «спин-оффе» из «Яндекса», планах догнать DataBricks и возможном IPO",
-          "summary": "Выжимка разговора Алексея Миловидова с основательницей The Bell Елизаветой Осетинской.",
-          "url": "https://vc.ru/services/3044867-razvitie-clickhouse-plany-dognat-databricks-i-ipo?from=rss",
-          "image": "https://leonardo.osnova.io/4644a376-b362-5db5-b0fc-79da910db314/",
-          "publishedAt": "2026-07-27T06:45:50.000Z",
+          "id": "startups-1-1785177183000",
+          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
+          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
+          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
+          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
+          "publishedAt": "2026-07-27T18:33:03.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785164372000",
+          "id": "startups-2-1785171369000",
+          "title": "Спа-комплексы и теплицы вместо железных коробок: как архитектурные бюро разных стран переосмысляют дата-центры",
+          "summary": "В попытке снизить недовольство жителей архитекторы стараются делать центры более экологичными и вписывать их в городскую среду. Собрали семь необычных проектов — некоторые уже построены.",
+          "url": "https://vc.ru/design/3047865-ekologichnye-data-tsentry-novye-arhitekturnye-resheniya?from=rss",
+          "image": "https://leonardo.osnova.io/d4099d54-9d32-5b3e-a447-39248a2480e5/",
+          "publishedAt": "2026-07-27T16:56:09.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1785169161000",
+          "title": "Porsche согласовала увольнение 5000 сотрудников к 2035 году — всего к этому времени хотят сократить примерно 9000 работников",
+          "summary": "О первой волне увольнений компания объявила в феврале 2026 года.",
+          "url": "https://vc.ru/transport/3048925-porsche-sokrashchaet-5000-sotrudnikov?from=rss",
+          "image": "https://leonardo.osnova.io/805c4e81-134d-5572-975d-c77c90efc40c/",
+          "publishedAt": "2026-07-27T16:19:21.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1785164372000",
           "title": "Nike представила Air Zoom Hyperslide — шлёпки с функциями подогрева и вибрации по цене в $249",
           "summary": "Они предназначены для восстановления после тренировок.",
           "url": "https://vc.ru/tech/3048823-nike-air-zoom-hyperslide-shlyopki-s-funktsiyami-nagreva-i-vibratsii?from=rss",
           "image": "https://leonardo.osnova.io/1d8a05a6-90c2-5b3a-bc04-9b858c98e5a0/",
           "publishedAt": "2026-07-27T14:59:32.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1785148221000",
-          "title": "В Max добавили «Истории» — их публикация доступна в последней версии приложения для Android",
-          "summary": "Авторы могут выкладывать фотографии и видео, а также настраивать, кому и в течение какого времени будет видна публикация.",
-          "url": "https://vc.ru/services/3048133-max-dobavil-istorii-dlya-polzovateley-android?from=rss",
-          "image": "https://leonardo.osnova.io/50a40f82-e7e1-5bbc-834c-23818cbd2f9d/",
-          "publishedAt": "2026-07-27T10:30:21.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1785154840000",
-          "title": "Google разрабатывает виджет «Переводчика» для Android с функцией перевода речи в реальном времени",
-          "summary": "Но официально его пока не анонсировали.",
-          "url": "https://vc.ru/services/3048465-google-razrabatyvaet-vidzhet-dlya-perevoda-rechi-v-realnom-vremeni-na-android?from=rss",
-          "image": "https://leonardo.osnova.io/4db987d2-caf2-55e2-9a2b-2771cb9baa96/",
-          "publishedAt": "2026-07-27T12:20:40.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-27T16:06:22.768Z",
+      "lastFetchAt": "2026-07-27T20:59:43.633Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-27T16:06:23.713Z",
+      "lastFetchAt": "2026-07-27T20:59:44.308Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,31 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1785166260000",
+          "id": "environment-0-1785178800000",
+          "title": "Парантропы наследили в Кооби-Форе 1,43 миллиона лет назад",
+          "summary": "Археологи и палеоантропологи проанализировали 21 след, который приблизительно 1,43 миллиона лет назад оставили в кенийской местности Кооби-Фора древние гоминины. Исследователи склонились к тому, что эти отпечатки ступней",
+          "url": "https://nplus1.ru/news/2026/07/27/footprints-of-paranthropus",
+          "image": "https://minio.nplus1.ru/app-images/1123479/conversions/6a64a3af02aac_cover-share.png",
+          "publishedAt": "2026-07-27T19:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1785168000000",
+          "title": "Чему не учат в школе",
+          "summary": "Чему не учат в школе",
+          "url": "https://nplus1.ru/blog/2026/07/27/non-standart-model-15",
+          "image": "https://minio.nplus1.ru/app-images/1123897/conversions/6a677e72e434b_cover-share.png",
+          "publishedAt": "2026-07-27T16:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1785166260000",
           "title": "FDA одобрило первый тройной ингибитор обратного захвата для лечения СДВГ",
           "summary": "FDA одобрило первый тройной ингибитор обратного захвата для лечения СДВГ",
           "url": "https://nplus1.ru/news/2026/07/27/first-ndsri-go",
@@ -607,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1785165960000",
+          "id": "environment-3-1785165960000",
           "title": "Прием антипсихотиков связали с ростом частоты диабета второго типа среди голландской молодежи",
           "summary": "Прием антипсихотиков связали с ростом частоты диабета второго типа среди голландской молодежи",
           "url": "https://nplus1.ru/news/2026/07/27/antipsychotic-exposure-diabetes",
@@ -619,36 +643,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1785160860000",
+          "id": "environment-4-1785160860000",
           "title": "Однополые объятия и поцелуи перед едой помогли шимпанзе и бонобо смягчить конкуренцию",
           "summary": "Однополые объятия и поцелуи перед едой помогли шимпанзе и бонобо смягчить конкуренцию",
           "url": "https://nplus1.ru/news/2026/07/27/reassuring-body-contact",
           "image": "https://minio.nplus1.ru/app-images/1123800/conversions/6a675f1227704_cover-share.png",
           "publishedAt": "2026-07-27T14:01:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-3-1785160080000",
-          "title": "Лесные пожары повысили число обращений по поводу мигрени и другой головной боли",
-          "summary": "Лесные пожары повысили число обращений по поводу мигрени и другой головной боли",
-          "url": "https://nplus1.ru/news/2026/07/27/wildlife-headache",
-          "image": "https://minio.nplus1.ru/app-images/1123784/conversions/6a675e28d48bc_cover-share.png",
-          "publishedAt": "2026-07-27T13:48:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1785153600000",
-          "title": "Мужчины чаще женщин умирали в начале пандемии ковида",
-          "summary": "Мужчины чаще женщин умирали в начале пандемии ковида",
-          "url": "https://nplus1.ru/news/2026/07/27/sex-differences-in-excess-mortality",
-          "image": "https://minio.nplus1.ru/app-images/1123725/conversions/6a673fef31f33_cover-share.png",
-          "publishedAt": "2026-07-27T12:00:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-27T16:06:26.113Z",
+      "lastFetchAt": "2026-07-27T20:59:45.681Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-27T16:06:29.079Z",
+      "lastFetchAt": "2026-07-27T20:59:47.579Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -915,7 +915,7 @@
           "title": "Российских артистов при въезде в Литву обяжут подписать бумагу с осуждением СВО",
           "summary": "Министерство иностранных дел Литвы инициировало расширение санкций против граждан России и Белоруссии. Ведомство предложило «воспрепятствовать въезду в страну деятелей культуры, образования и спорта, поддерживающих росси",
           "url": "https://www.kommersant.ru/doc/8845329",
-          "image": "https://im2.kommersant.ru/SocialPics/8845329_49_0_2021057299",
+          "image": "https://iv.kommersant.ru/SocialPics/8845329_49_0_2021057299",
           "publishedAt": "2026-07-27T07:12:24.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-27T12:48:36.680Z",
+      "lastFetchAt": "2026-07-27T20:59:49.391Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1089,7 +1089,7 @@
           "title": "Топ-менеджера российской компании уволили за разглашение коммерческой тайны — она загрузила некоторые внутренние документы в DeepSeek",
           "summary": "Сотрудница пыталась оспорить решение через суд, но проиграла.",
           "url": "https://vc.ru/hr/3047723-uvolnenie-top-menedzhera-za-razglashenie-kommercheskoy-tayny-cherez-deepseek?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785156516/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785185989/cover.jpg",
           "publishedAt": "2026-07-27T08:01:03.000Z",
           "source": "VC.ru",
           "categoryId": "education",
@@ -1097,48 +1097,48 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1785134750000",
-          "title": "«Интерес в развитии компании, а не выходе из неё»: создатель ClickHouse — о «спин-оффе» из «Яндекса», планах догнать DataBricks и возможном IPO",
-          "summary": "Выжимка разговора Алексея Миловидова с основательницей The Bell Елизаветой Осетинской.",
-          "url": "https://vc.ru/services/3044867-razvitie-clickhouse-plany-dognat-databricks-i-ipo?from=rss",
-          "image": "https://leonardo.osnova.io/4644a376-b362-5db5-b0fc-79da910db314/",
-          "publishedAt": "2026-07-27T06:45:50.000Z",
+          "id": "education-1-1785177183000",
+          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
+          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
+          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
+          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
+          "publishedAt": "2026-07-27T18:33:03.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1785148221000",
-          "title": "В Max добавили «Истории» — их публикация доступна в последней версии приложения для Android",
-          "summary": "Авторы могут выкладывать фотографии и видео, а также настраивать, кому и в течение какого времени будет видна публикация.",
-          "url": "https://vc.ru/services/3048133-max-dobavil-istorii-dlya-polzovateley-android?from=rss",
-          "image": "https://leonardo.osnova.io/50a40f82-e7e1-5bbc-834c-23818cbd2f9d/",
-          "publishedAt": "2026-07-27T10:30:21.000Z",
+          "id": "education-2-1785171369000",
+          "title": "Спа-комплексы и теплицы вместо железных коробок: как архитектурные бюро разных стран переосмысляют дата-центры",
+          "summary": "В попытке снизить недовольство жителей архитекторы стараются делать центры более экологичными и вписывать их в городскую среду. Собрали семь необычных проектов — некоторые уже построены.",
+          "url": "https://vc.ru/design/3047865-ekologichnye-data-tsentry-novye-arhitekturnye-resheniya?from=rss",
+          "image": "https://leonardo.osnova.io/d4099d54-9d32-5b3e-a447-39248a2480e5/",
+          "publishedAt": "2026-07-27T16:56:09.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1785154840000",
-          "title": "Google разрабатывает виджет «Переводчика» для Android с функцией перевода речи в реальном времени",
-          "summary": "Но официально его пока не анонсировали.",
-          "url": "https://vc.ru/services/3048465-google-razrabatyvaet-vidzhet-dlya-perevoda-rechi-v-realnom-vremeni-na-android?from=rss",
-          "image": "https://leonardo.osnova.io/4db987d2-caf2-55e2-9a2b-2771cb9baa96/",
-          "publishedAt": "2026-07-27T12:20:40.000Z",
+          "id": "education-3-1785169161000",
+          "title": "Porsche согласовала увольнение 5000 сотрудников к 2035 году — всего к этому времени хотят сократить примерно 9000 работников",
+          "summary": "О первой волне увольнений компания объявила в феврале 2026 года.",
+          "url": "https://vc.ru/transport/3048925-porsche-sokrashchaet-5000-sotrudnikov?from=rss",
+          "image": "https://leonardo.osnova.io/805c4e81-134d-5572-975d-c77c90efc40c/",
+          "publishedAt": "2026-07-27T16:19:21.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1785070311000",
-          "title": "Напоминает Kodak: Nokia проиграла рынок смартфонов, но упустить ИИ-бум не хочет",
-          "summary": "Она доминировала на рынке мобильных телефонов с 1998-го по 2012 год, сразу разглядела угрозу со стороны Apple, пыталась соперничать с производителями Android-устройств, но удержать позиции не смогла. Теперь перед компани",
-          "url": "https://vc.ru/story/3044749-nokia-i-ii-novye-tekhnologii?from=rss",
-          "image": "https://leonardo.osnova.io/31d026ab-d520-5612-968e-73595f283b90/",
-          "publishedAt": "2026-07-26T12:51:51.000Z",
+          "id": "education-4-1785164372000",
+          "title": "Nike представила Air Zoom Hyperslide — шлёпки с функциями подогрева и вибрации по цене в $249",
+          "summary": "Они предназначены для восстановления после тренировок.",
+          "url": "https://vc.ru/tech/3048823-nike-air-zoom-hyperslide-shlyopki-s-funktsiyami-nagreva-i-vibratsii?from=rss",
+          "image": "https://leonardo.osnova.io/1d8a05a6-90c2-5b3a-bc04-9b858c98e5a0/",
+          "publishedAt": "2026-07-27T14:59:32.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-27T12:48:37.723Z",
+      "lastFetchAt": "2026-07-27T20:59:50.178Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1287,7 +1287,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-27T12:48:38.113Z",
+      "lastFetchAt": "2026-07-27T20:59:50.560Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
