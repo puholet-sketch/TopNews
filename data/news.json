@@ -1,15 +1,10 @@
 {
-  "updatedAt": "2026-07-27T22:48:48.288Z",
+  "updatedAt": "2026-07-28T01:21:35.579Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -20,6 +15,11 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-27T20:59:37.398Z",
+      "lastFetchAt": "2026-07-28T01:21:13.409Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785181244000",
+          "id": "it-0-1785189572000",
+          "title": "Click to Pray: один if — и ты ошибся",
+          "summary": "Интернет приписывает Джейсону Стейтему фразу «Одна ошибка — и ты ошибся!». В случае этой истории она почему‑то сама собой переиначилась в вариант из заголовка. Уж очень всё оказалось из серии «никогда так не делай». 24 и",
+          "url": "https://habr.com/ru/articles/1063726/?utm_campaign=1063726&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/6ed/47b/cba/6ed47bcba56520de619a421dcf29be9f.jpg",
+          "publishedAt": "2026-07-27T21:59:32.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785181244000",
           "title": "Конвейеры на Channels: как не получить тихую утечку памяти и вечно висящий воркер",
           "summary": "Неограниченный канал спокойно работает до первого замедления потребителя, после чего очередь начинает расти, память — заканчиваться, а фоновый воркер может зависнуть при остановке сервиса. В статье разберём, как строить ",
           "url": "https://habr.com/ru/companies/otus/articles/1062492/?utm_campaign=1062492&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785181231000",
+          "id": "it-2-1785181231000",
           "title": "Английский вместо кода",
           "summary": "Язык, который придумали, чтобы программисты стали не нужны, породил профессию, которая жива до сих пор и неплохо оплачивается, а другой язык назвали \"структурированным английским\", и думали, что на нем сможет писать любо",
           "url": "https://habr.com/ru/articles/1058500/?utm_campaign=1058500&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785167107000",
+          "id": "it-3-1785167107000",
           "title": "[Перевод] Атомарность в реактивных системах",
           "summary": "Ранее мы говорили о чрезвычайных ситуациях при вычислении инвариантов. Однако они также могут возникать и во время одновременных изменений нескольких исходных состояний. Давайте посмотрим, какие тут есть варианты поведен",
           "url": "https://habr.com/ru/articles/1063664/?utm_campaign=1063664&utm_source=habrahabr&utm_medium=rss",
@@ -71,7 +83,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1785160303000",
+          "id": "it-4-1785160303000",
           "title": "Django ORM ломается не там, где вы смотрели: шесть ошибок",
           "summary": "Django ORM умеет долго скрывать проблемы: лишние запросы, гонки при save(), затянувшиеся транзакции и выборки, которые незаметно съедают память. В статье разберём шесть типичных ошибок, которые редко проявляются на тесто",
           "url": "https://habr.com/ru/companies/otus/articles/1062496/?utm_campaign=1062496&utm_source=habrahabr&utm_medium=rss",
@@ -81,23 +93,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785159038000",
-          "title": "[Перевод] Доверьтесь компилятору: C++23 против трюков из 90-х",
-          "summary": "Как часто вы слышали: «Не доверяй компилятору, пиши вручную»? Похоже, эту идеологию пора сдавать в архив. Автор специально собрал примеры, в которых «умный» код современного C++ либо проигрывает наивному, либо не даёт вы",
-          "url": "https://habr.com/ru/companies/timeweb/articles/1061248/?utm_campaign=1061248&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/74e/9f4/d46/74e9f4d4603c2e39f91573e2edcda52f.jpg",
-          "publishedAt": "2026-07-27T13:30:38.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-07-27T19:08:26.637Z",
+      "lastFetchAt": "2026-07-28T01:21:15.624Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,31 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1785178780000",
+          "id": "ai-0-1785188663000",
+          "title": "Ищем скрытые возможности прошивки и бэкдоры коммутатора за 3 промпта",
+          "summary": "Некоторые производители поставляют свои прошивки в незашифрованном виде, без защиты от реверс-инжиниринга и даже с debug-символами. Еще 5 лет назад, для того чтобы раскопать что-то в такой прошивке приходилось копаться с",
+          "url": "https://habr.com/ru/articles/1063724/?utm_campaign=1063724&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1063724/1479e1c44f22b61dd6e83f2368789c9e/",
+          "publishedAt": "2026-07-27T21:44:23.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1785182560000",
+          "title": "[Перевод] Как стать лучшим AI-Builder, или Топ худших ошибок с AI и как их преодолеть",
+          "summary": "Все поинты ниже применяются при общении, промптинге и ежедневной работе с AI - и во многом они пересекаются с тем, как общаются люди между собой. «Нельзя ошибаться» → Ошибаться это нормально. Спрашивайте проанализировать",
+          "url": "https://habr.com/ru/articles/1063720/?utm_campaign=1063720&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/8ac/b84/8f8/8acb848f808c01b1adec0c4060cdd30d.jpg",
+          "publishedAt": "2026-07-27T20:02:40.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1785178780000",
           "title": "Как превратить свободный текст игрока в исполняемый граф",
           "summary": "Игрок пишет: «Пока орк отвлечён, я тихо выхватываю меч и прыгаю в окно». Для человека за столом это один ход. Для бота — разбор фразы на атомы, зависимости и броски, иначе «выхватываю» случится после «прыгаю» и всё запут",
           "url": "https://habr.com/ru/articles/1063710/?utm_campaign=1063710&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1785176335000",
+          "id": "ai-3-1785176335000",
           "title": "Как устроена Kimi K3: 2,8 трлн параметров, линейное внимание и агенты на миллион токенов",
           "summary": "Moonshot AI выпустила веса Kimi K3 — мультимодальной MoE‑модели с 2,8 трлн параметров, из которых на каждом токене активируются 104 млрд. В отдельных тестах программирования и работы с инструментами K3 обходит Claude Opu",
           "url": "https://habr.com/ru/articles/1063696/?utm_campaign=1063696&utm_source=habrahabr&utm_medium=rss",
@@ -129,36 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1785168111000",
+          "id": "ai-4-1785168111000",
           "title": "Автоматизация реверс‑инжиниринга через локальную LLM",
           "summary": "Облачные LLM сливают IOC в общие базы и цензурят описание опасных модулей. Реализуем анализатор вредоносного программного обеспечения с помощью локальной LLM, Ghidra и Neo4j. Читать далее",
           "url": "https://habr.com/ru/articles/1063666/?utm_campaign=1063666&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/d8a/93e/aa0/d8a93eaa08bb9e53af3fe289730af99a.jpg",
           "publishedAt": "2026-07-27T16:01:51.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1785165993000",
-          "title": "Почему идеальная LLM всё равно не сделает агентные системы предсказуемыми",
-          "summary": "Представьте LLM, которая никогда не галлюцинирует, никогда не ошибается. На один и тот же запрос всегда выдаёт один и тот же ответ — символ в символ. Можно ли тогда наконец относиться к LLM‑системе как к обычному коду — ",
-          "url": "https://habr.com/ru/articles/1063650/?utm_campaign=1063650&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/1d6/d86/162/1d6d86162ac285eb68dde3559d506ac3.jpg",
-          "publishedAt": "2026-07-27T15:26:33.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1785163556000",
-          "title": "Claude Opus 5 — новый лидер в FoodTruck Bench. Рассказываю, как у него это получилось",
-          "summary": "Claude Opus 5 закончил 30-й день в FoodTruck Bench с итоговым капиталом $75 264. Это лучший результат за всю историю бенчмарка: на 13,6% выше лучшего результата любой другой модели. Коротко: итоговый капитал $75 264 · RO",
-          "url": "https://habr.com/ru/articles/1063548/?utm_campaign=1063548&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/500/648/1c7/5006481c749a388c987219e5992d2f89.png",
-          "publishedAt": "2026-07-27T14:45:56.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-27T22:48:44.535Z",
+      "lastFetchAt": "2026-07-28T01:21:16.721Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-27T20:59:39.570Z",
+      "lastFetchAt": "2026-07-28T01:21:18.778Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -319,7 +319,7 @@
           "title": "Топ-менеджера российской компании уволили за разглашение коммерческой тайны — она загрузила некоторые внутренние документы в DeepSeek",
           "summary": "Сотрудница пыталась оспорить решение через суд, но проиграла.",
           "url": "https://vc.ru/hr/3047723-uvolnenie-top-menedzhera-za-razglashenie-kommercheskoy-tayny-cherez-deepseek?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785185979/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3047723/1785201678/cover.jpg",
           "publishedAt": "2026-07-27T08:01:03.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -339,24 +339,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785171369000",
-          "title": "Спа-комплексы и теплицы вместо железных коробок: как архитектурные бюро разных стран переосмысляют дата-центры",
-          "summary": "В попытке снизить недовольство жителей архитекторы стараются делать центры более экологичными и вписывать их в городскую среду. Собрали семь необычных проектов — некоторые уже построены.",
-          "url": "https://vc.ru/design/3047865-ekologichnye-data-tsentry-novye-arhitekturnye-resheniya?from=rss",
-          "image": "https://leonardo.osnova.io/d4099d54-9d32-5b3e-a447-39248a2480e5/",
-          "publishedAt": "2026-07-27T16:56:09.000Z",
+          "id": "startups-2-1785169161000",
+          "title": "Porsche согласовала увольнение 5000 сотрудников к 2035 году — всего к этому времени хотят сократить примерно 9000 работников",
+          "summary": "О первой волне увольнений компания объявила в феврале 2026 года.",
+          "url": "https://vc.ru/transport/3048925-porsche-sokrashchaet-5000-sotrudnikov?from=rss",
+          "image": "https://leonardo.osnova.io/805c4e81-134d-5572-975d-c77c90efc40c/",
+          "publishedAt": "2026-07-27T16:19:21.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1785169161000",
-          "title": "Porsche согласовала увольнение 5000 сотрудников к 2035 году — всего к этому времени хотят сократить примерно 9000 работников",
-          "summary": "О первой волне увольнений компания объявила в феврале 2026 года.",
-          "url": "https://vc.ru/transport/3048925-porsche-sokrashchaet-5000-sotrudnikov?from=rss",
-          "image": "https://leonardo.osnova.io/805c4e81-134d-5572-975d-c77c90efc40c/",
-          "publishedAt": "2026-07-27T16:19:21.000Z",
+          "id": "startups-3-1785171369000",
+          "title": "Спа-комплексы и теплицы вместо железных коробок: как архитектурные бюро разных стран переосмысляют дата-центры",
+          "summary": "В попытке снизить недовольство жителей архитекторы стараются делать центры более экологичными и вписывать их в городскую среду. Собрали семь необычных проектов — некоторые уже построены.",
+          "url": "https://vc.ru/design/3047865-ekologichnye-data-tsentry-novye-arhitekturnye-resheniya?from=rss",
+          "image": "https://leonardo.osnova.io/d4099d54-9d32-5b3e-a447-39248a2480e5/",
+          "publishedAt": "2026-07-27T16:56:09.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-07-27T19:08:28.134Z",
+      "lastFetchAt": "2026-07-28T01:21:19.056Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -385,7 +385,19 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1785168000000",
+          "id": "science-0-1785178800000",
+          "title": "Парантропы наследили в Кооби-Форе 1,43 миллиона лет назад",
+          "summary": "Археологи и палеоантропологи проанализировали 21 след, который приблизительно 1,43 миллиона лет назад оставили в кенийской местности Кооби-Фора древние гоминины. Исследователи склонились к тому, что эти отпечатки ступней",
+          "url": "https://nplus1.ru/news/2026/07/27/footprints-of-paranthropus",
+          "image": "https://minio.nplus1.ru/app-images/1123479/conversions/6a64a3af02aac_cover-share.png",
+          "publishedAt": "2026-07-27T19:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1785168000000",
           "title": "Чему не учат в школе",
           "summary": "Чему не учат в школе",
           "url": "https://nplus1.ru/blog/2026/07/27/non-standart-model-15",
@@ -397,7 +409,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1785166260000",
+          "id": "science-2-1785166260000",
           "title": "FDA одобрило первый тройной ингибитор обратного захвата для лечения СДВГ",
           "summary": "FDA одобрило первый тройной ингибитор обратного захвата для лечения СДВГ",
           "url": "https://nplus1.ru/news/2026/07/27/first-ndsri-go",
@@ -409,7 +421,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-2-1785165960000",
+          "id": "science-3-1785165960000",
           "title": "Прием антипсихотиков связали с ростом частоты диабета второго типа среди голландской молодежи",
           "summary": "Прием антипсихотиков связали с ростом частоты диабета второго типа среди голландской молодежи",
           "url": "https://nplus1.ru/news/2026/07/27/antipsychotic-exposure-diabetes",
@@ -421,7 +433,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-3-1785160860000",
+          "id": "science-4-1785160860000",
           "title": "Однополые объятия и поцелуи перед едой помогли шимпанзе и бонобо смягчить конкуренцию",
           "summary": "Однополые объятия и поцелуи перед едой помогли шимпанзе и бонобо смягчить конкуренцию",
           "url": "https://nplus1.ru/news/2026/07/27/reassuring-body-contact",
@@ -431,23 +443,11 @@
           "categoryId": "science",
           "categoryName": "Наука",
           "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1785160080000",
-          "title": "Лесные пожары повысили число обращений по поводу мигрени и другой головной боли",
-          "summary": "Лесные пожары повысили число обращений по поводу мигрени и другой головной боли",
-          "url": "https://nplus1.ru/news/2026/07/27/wildlife-headache",
-          "image": "https://minio.nplus1.ru/app-images/1123784/conversions/6a675e28d48bc_cover-share.png",
-          "publishedAt": "2026-07-27T13:48:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
         }
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-27T20:59:43.633Z",
+      "lastFetchAt": "2026-07-28T01:21:23.267Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-07-27T19:08:31.831Z",
+      "lastFetchAt": "2026-07-28T01:21:25.658Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-27T20:59:44.308Z",
+      "lastFetchAt": "2026-07-28T01:21:25.923Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-07-27T19:08:34.309Z",
+      "lastFetchAt": "2026-07-28T01:21:28.726Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1785178960000",
-          "title": "Путин указал на особую ответственность «Единой России»",
-          "summary": "Президент России Владимир Путин указал на особую ответственность «Единой России» как партии парламентского большинства. Об этом политик заявил во время встречи с депутатами после заключительного пленарного заседания Госд",
-          "url": "https://www.kommersant.ru/doc/8846050",
-          "image": "https://im2.kommersant.ru/SocialPics/8846050_49_0_1846961451",
-          "publishedAt": "2026-07-27T19:02:40.000Z",
+          "id": "energy-0-1785200186000",
+          "title": "Более 130 человек пострадали из-за пожара в метро Барселоны",
+          "summary": "В метро Барселоны пассажиров эвакуировали со станций Clot и Glories из-за пожара на контактной линии первой ветки (L1), сообщает издание Ara. К медикам обратились 137 человек.",
+          "url": "https://www.kommersant.ru/doc/8846087",
+          "image": "https://iv.kommersant.ru/SocialPics/8846087_49_0_1368441296",
+          "publishedAt": "2026-07-28T00:56:26.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1785178239000",
-          "title": "Песков: нынешний кризис сплотил российское общество",
-          "summary": "Пресс-секретарь президента России Дмитрий Песков заявил, что нынешний кризис сплотил российское общество и сделал его сильнее. Таким мнением представитель Кремля поделился на форуме «Территория смыслов» в Солнечногорске.",
-          "url": "https://www.kommersant.ru/doc/8846046",
-          "image": "https://im2.kommersant.ru/SocialPics/8846046_49_0_899132224",
-          "publishedAt": "2026-07-27T18:50:39.000Z",
+          "id": "energy-1-1785199024000",
+          "title": "Bloomberg узнало детали переговоров Ирана и Омана по Ормузскому проливу",
+          "summary": "Переговорщики из Ирана и Омана обсуждают возможное соглашение о возобновлении судоходства через Ормузский пролив, сообщает Bloomberg. Стороны продолжают переговоры после того, как их официальные лица встретились в Тегера",
+          "url": "https://www.kommersant.ru/doc/8846086",
+          "image": "https://im2.kommersant.ru/SocialPics/8846086_49_0_1622865003",
+          "publishedAt": "2026-07-28T00:37:04.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1785177679000",
-          "title": "Пашинян попросил Путина решить проблемы с ввозом товаров из Армении в Россию",
-          "summary": "Премьер-министр Армении Никол Пашинян в ходе телефонного разговора попросил президента России Владимира Путина решить проблемы с импортом армянских товаров. Об этом сообщили в пресс-службе премьера Армении.",
-          "url": "https://www.kommersant.ru/doc/8846041",
-          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/07/27/KMO_201171_00240_1_t219_215426.jpg",
-          "publishedAt": "2026-07-27T18:41:19.000Z",
+          "id": "energy-2-1785197209000",
+          "title": "Американские дипломаты ушли с заседания ООН после критики прав человека в США",
+          "summary": "Дипломаты США покинули заседание Совета Безопасности ООН по Украине после критики позиции Вашингтона представителями Франции. Об этом сообщает Associated Press.",
+          "url": "https://www.kommersant.ru/doc/8846084",
+          "image": "https://iv.kommersant.ru/SocialPics/8846084_49_0_1154085752",
+          "publishedAt": "2026-07-28T00:06:49.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1785177253000",
-          "title": "Владимир Путин назвал депутатов Госдумы боевым отрядом народа",
-          "summary": "Президент России Владимир Путин встретился с депутатами Госдумы восьмого созыва и назвал их боевым отрядом народа. Как отмечает специальный корреспондент “Ъ” Андрей Колесников, осталось выслушать мнение народа, причем уж",
-          "url": "https://www.kommersant.ru/doc/8846039",
-          "image": "https://im2.kommersant.ru/SocialPics/8846039_49_0_598460741",
-          "publishedAt": "2026-07-27T18:34:13.000Z",
+          "id": "energy-3-1785196001000",
+          "title": "Захарова: новые санкции США станут «выстрелом в ногу»",
+          "summary": "Представитель МИД России Мария Захарова заявила, что в случае принятия нового закона об ужесточении санкций в отношении Москвы США выстрелят себе в ногу. «Очевидно, что утверждение новой антироссийской инициативы будет р",
+          "url": "https://www.kommersant.ru/doc/8846082",
+          "image": "https://im2.kommersant.ru/SocialPics/8846082_49_0_769527416",
+          "publishedAt": "2026-07-27T23:46:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1785177210000",
-          "title": "Пашинян рассказал о возможном проведении референдума о вступлении в Евросоюз",
-          "summary": "Премьер-министр Армении Никол Пашинян во время разговора с президентом России Владимиром Путиным допустил проведение референдума по вступлению в ЕС. Об этом сообщает пресс-служба армянского кабмина.",
-          "url": "https://www.kommersant.ru/doc/8846023",
-          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/07/27/KMO_190560_00024_1_t219_215030.jpg",
-          "publishedAt": "2026-07-27T18:33:30.000Z",
+          "id": "energy-4-1785194222000",
+          "title": "Новый премьер Британии заявил о готовности направить войска на Украину",
+          "summary": "Новое правительство Великобритании готово отправить военный контингент на Украину после завершения конфликта, заявил премьер-министр страны Энди Бернем. Лондон продолжит поддерживать Киев и усиливать давление на Москву д",
+          "url": "https://www.kommersant.ru/doc/8846083",
+          "image": "https://im2.kommersant.ru/SocialPics/8846083_49_0_410424130",
+          "publishedAt": "2026-07-27T23:17:02.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-07-27T19:08:35.218Z",
+      "lastFetchAt": "2026-07-28T01:21:29.544Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-27T20:59:45.681Z",
+      "lastFetchAt": "2026-07-28T01:21:32.403Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-27T20:59:47.579Z",
+      "lastFetchAt": "2026-07-28T01:21:33.095Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,7 +875,31 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1785150805000",
+          "id": "entertainment-0-1785169411000",
+          "title": "Театр присяжных // «Враг народа» Ибсена стал интерактивной судебной драмой в Авиньоне",
+          "summary": "Одним из самых обсуждаемых спектаклей 80-го Международного театрального фестиваля в Авиньоне стала постановка из Бразилии: Кристиан Жатаи представила свою версию «Врага народа» Генрика Ибсена. Из Авиньона — Эсфирь Штейнб",
+          "url": "https://www.kommersant.ru/doc/8845946",
+          "image": "https://im2.kommersant.ru/SocialPics/8845946_49_3169637_1005977651",
+          "publishedAt": "2026-07-27T16:23:31.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1785167597000",
+          "title": "Кинотеатр повторного брака // На экранах итальянская комедийная мелодрама «30 ночей с бывшим»",
+          "summary": "В прокат вышел фильм «30 ночей с бывшим» итальянского режиссера Гуидо Кьезы. Жанр его заявлен как романтическая комедия, однако на деле это довольно грустное кино о том, каково жить с психически нездоровым человеком, счи",
+          "url": "https://www.kommersant.ru/doc/8845914",
+          "image": "https://im2.kommersant.ru/SocialPics/8845914_49_3169619_515986868",
+          "publishedAt": "2026-07-27T15:53:17.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1785150805000",
           "title": "Умер японский писатель Кэйго Хигасино",
           "summary": "Японский писатель Кэйго Хигасино умер 23 июля в возрасте 68 лет. У него был диагностирован рак толстой кишки.",
           "url": "https://www.kommersant.ru/doc/8845682",
@@ -887,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1785146245000",
+          "id": "entertainment-3-1785146245000",
           "title": "Любовь возможна и победит // Андрей Плахов — к повторному выходу на экраны «Короткого фильма о любви» Кшиштофа Кесьлёвского",
           "summary": "В повторный прокат в России вышел «Короткий фильм о любви» Кшиштофа Кесьлёвского, а фестиваль в Венеции анонсировал картину «Возможная любовь» — корейский ремейк классического польского фильма. Живучести наследия режиссе",
           "url": "https://www.kommersant.ru/doc/8845443",
@@ -899,7 +923,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1785136917000",
+          "id": "entertainment-4-1785136917000",
           "title": "В Британии после выхода «Одиссеи» интернет-запросы об изучении греческого выросли на 550%",
           "summary": "Британские пользователи на 550% чаще стали запрашивать «изучение греческого языка» в Google после выхода фильма Кристофера Нолана «Одиссея». Об этом написала The Times со ссылкой на подсчеты платформы по изучению языков ",
           "url": "https://www.kommersant.ru/doc/8845344",
@@ -909,35 +933,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1785136344000",
-          "title": "Российских артистов при въезде в Литву обяжут подписать бумагу с осуждением СВО",
-          "summary": "Министерство иностранных дел Литвы инициировало расширение санкций против граждан России и Белоруссии. Ведомство предложило «воспрепятствовать въезду в страну деятелей культуры, образования и спорта, поддерживающих росси",
-          "url": "https://www.kommersant.ru/doc/8845329",
-          "image": "https://iv.kommersant.ru/SocialPics/8845329_49_0_2021057299",
-          "publishedAt": "2026-07-27T07:12:24.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1785084573000",
-          "title": "Кубинская резолюция // Пушкинский музей показывает кубинский плакат 1950–1970-х",
-          "summary": "В Пушкинском музее проходит выставка «Кубинский плакат. 1950–1970-е. Кино и революция». Всего здесь представлено более 140 плакатов и киноафиш, все — из фондов музея. Открытая накануне очередной годовщины начала кубинско",
-          "url": "https://www.kommersant.ru/doc/8845065",
-          "image": "https://im2.kommersant.ru/Issues.photo2/DAILY/2026/133M/KMO_208829_00032_1_t219_175431.jpg",
-          "publishedAt": "2026-07-26T16:49:33.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-27T22:48:47.090Z",
+      "lastFetchAt": "2026-07-28T01:21:35.053Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785189720000",
-          "title": "Драйзайтль о Бэбкоке: «Он поможет «Эдмонтону» прийти к тому, чего мы хотим. Мы воодушевлены»",
-          "summary": "Форвард « Эдмонтона » Леон Драйзайтль дал положительную оценку назначению Майка Бэбкока на пост главного тренера. «Для нас пришло время двигаться дальше и готовиться к началу сезона. Мы невероятно воодушевлены. Думаю, де",
-          "url": "https://www.sports.ru/hockey/1117315210-drajzajtl-o-naznachenii-bebkoka-na-post-trenera-edmontona.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/521/0/share/63e323_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-27T22:02:00.000Z",
+          "id": "sports-0-1785201120000",
+          "title": "Артета увлечен идеей подписать Винисиуса. В «Арсенале» трансфер вингера «Реала» рассматривают как главную цель",
+          "summary": "Главный тренер « Арсенала » Микель Артета заинтересован в подписании Винисиуса. Ранее стало известно , что английский клуб проявил интерес к бразильскому футболисту «Реала», если он не продлит договор с испанским клубом,",
+          "url": "https://www.sports.ru/football/1117315244-arteta-uvlechen-ideej-podpisat-vinisiusa-v-arsenale-transfer-vingera-r.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/524/4/share/f49f82_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-28T01:12:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785189420000",
-          "title": "Быстров о «Локомотиве»: «Джикия и Коваленко – не усиление состава в их нынешней форме. Георгий еще до отъезда в Турцию не тянул уровень РПЛ»",
-          "summary": "Бывший полузащитник сборной России Владимир Быстров оценил перспективы «Локомотива» в сезоне-2026/27. – Вы понимаете, почему «Локомотив» за неделю до чемпионата продал Воробьева? – Видимо, они считают, что могут побороть",
-          "url": "https://www.sports.ru/football/1117315209-bystrov-o-lokomotive-dzhikiya-i-kovalenko-ne-usilenie-sostava-v-ix-nyn.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/520/9/share/bc56da_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-27T21:57:00.000Z",
+          "id": "sports-1-1785199680000",
+          "title": "Макаров о том, что тренер в «Кайсериспоре» сравнил его с Роббеном: «Нормально воспринял слова. У него есть понимание футбола»",
+          "summary": "Вингер « Крыльев Советов » Денис Макаров прокомментировал сравнение с Арьеном Роббеном . – Твой тренер в « Кайсериспоре » (Радомир Джалович – Спортс’‘) сравнил тебя с Роббеном. – Нормально воспринял эти слова. Общались с",
+          "url": "https://www.sports.ru/football/1117315243-makarov-o-tom-chto-trener-kajserispora-sravnil-ego-s-robbenom-normalno.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/524/3/share/be1091_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-28T00:48:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785189000000",
-          "title": "Илья Сорокин: «Не люблю буллиты. Это как фехтование: кто кого перетерпит, передернет. Пока чаще перетерпливают и передергивают меня»",
-          "summary": "Вратарь «Айлендерс» Илья Сорокин объяснил, почему не любит серии послематчевых буллитов. – Буллиты по-прежнему ненавидишь? Хотя последние две серии выиграл... – Вот это меня тоже удивило. И «Тампу» обыграли. Это вообще ш",
-          "url": "https://www.sports.ru/hockey/1117315206-ilya-sorokin-ne-lyublyu-bullity-eto-kak-fextovanie-kto-kogo-pereterpit.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/520/6/share/2dfea7_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-27T21:50:00.000Z",
+          "id": "sports-2-1785198960000",
+          "title": "Кирьяков о «Динамо»: «Приглашение Шварца – авантюра чистой воды. Такое впечатление, что всем все равно на то, что происходит с клубом»",
+          "summary": "Бывший нападающий сборной России Сергей Кирьяков прокомментировал результат первого матча «Динамо» в нынешнем сезоне Альфа-Банк РПЛ. Команда тренера Сандро Шварца сыграла вничью 0:0 с «Крыльями Советов». – В первом туре ",
+          "url": "https://www.sports.ru/football/1117315241-kiryakov-o-dinamo-priglashenie-shvarcza-avantyura-chistoj-vody-takoe-v.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/524/1/share/38bb6c_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-28T00:36:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1785188880000",
-          "title": "Кин об уходе Мальдини и Леонардо из FIGC: «Это по-детски, нельзя уходить только потому, что не получили желаемого тренера. Лидеры не устраивают истерик, когда что-то пошло не так»",
-          "summary": "Экс-полузащитник «Манчестер Юнайтед» и сборной Ирландии Рой Кин раскритиковал Паоло Мальдини и Леонардо за решение покинуть Федерацию футбола Италии (FIGC). Ранее FIGC отказалась от назначения Андреа Пирло , чья кандидат",
-          "url": "https://www.sports.ru/football/1117315203-kin-ob-uxode-maldini-i-leonardo-iz-figc-eto-po-detski-nelzya-uxodit-to.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/520/3/share/ce0ba4_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-27T21:48:00.000Z",
+          "id": "sports-3-1785198240000",
+          "title": "«Палмейрас» за 20+5 млн евро не продал Лопеса в «Спартак». Красно-белые готовы платить форварду больше, чем бразильцы",
+          "summary": "«Спартак» пытается приобрести 25-летнего нападающего « Палмейраса » Флако Лопеса . Красно-белые предложили 20 миллионов евро в качестве фиксированной суммы плюс 5 миллионов евро бонусами за аргентинского футболиста. Одна",
+          "url": "https://www.sports.ru/football/1117315238-palmejras-za-205-mln-evro-ne-prodal-lopesa-v-spartak-krasno-belye-goto.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/523/8/share/71598b_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-28T00:24:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1785187980000",
-          "title": "«Реал» направил Винисиусу встречное предложение о продлении контракта. «Арсенал» готовится представить свое (Флориан Плеттенберг)",
-          "summary": "«Реал» стремится к продлению сотрудничества с Винисиусом Жуниором . Ранее сообщалось , что вингер хочет обсудить с руководством роль в новом проекте Жозе Моуринью и понять, соответствует ли предложенная зарплата его стат",
-          "url": "https://www.sports.ru/football/1117315199-real-napravil-vinisiusu-vstrechnoe-predlozhenie-o-prodlenii-kontrakta-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/519/9/share/6e56de_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-27T21:33:00.000Z",
+          "id": "sports-4-1785197520000",
+          "title": "«Ньюкасл» подписал долгосрочный контракт с Барнсом. Вингер играет за клуб с 2023 года",
+          "summary": "« Ньюкасл » подписал новый контракт с вингером Харви Барнсом . С 28-летним вингером заключено долгосрочное соглашение. По прошлому договору у игрока оставалось еще два года. Англичанин выступает за «Ньюкасл» с июля 2023 ",
+          "url": "https://www.sports.ru/football/1117315236-nyukasl-podpisal-dolgosrochnyj-kontrakt-s-barnsom-vinger-igraet-za-klu.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/523/6/share/db9be9_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-28T00:12:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-27T22:48:48.288Z",
+      "lastFetchAt": "2026-07-28T01:21:35.578Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785191783000",
-          "title": "В США указали на уловку Зеленского",
+          "id": "politics-0-1785201324000",
+          "title": "Превосходство iPhone над другими смартфонами объяснили",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/28/v-ssha-ukazali-na-ulovku-zelenskogo/",
-          "image": "https://icdn.lenta.ru/images/2026/07/28/01/20260728013617689/pic_686f2f7985db377b4cd27a869984f691.jpg",
-          "publishedAt": "2026-07-27T22:36:23.000Z",
+          "url": "https://lenta.ru/news/2026/07/28/iphone-is-good/",
+          "image": "https://icdn.lenta.ru/images/2026/07/27/16/20260727164003878/pic_ab81734117897f336dbe23b2a3fa20f9.jpg",
+          "publishedAt": "2026-07-28T01:15:24.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785191400000",
-          "title": "В одной стране сообщили о задержании действовавших в интересах Киева боевиков",
+          "id": "politics-1-1785200457000",
+          "title": "Мужчина открыл дверь туалета в больнице и неприятно удивился",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/28/v-odnoy-strane-soobschili-o-zaderzhanii-deystvovavshih-v-interesah-kieva-boevikov/",
-          "image": "https://icdn.lenta.ru/images/2026/07/28/01/20260728013040276/pic_0427f665c20e351708cfddb372bd0e85.jpg",
-          "publishedAt": "2026-07-27T22:30:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/28/opened/",
+          "image": "https://icdn.lenta.ru/images/2026/07/27/19/20260727191945268/pic_c1faecf62d6fc5cc0493208ea0af35e6.jpg",
+          "publishedAt": "2026-07-28T01:00:57.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785191100000",
-          "title": "В Киеве прогремела серия взрывов",
+          "id": "politics-2-1785200445000",
+          "title": "Кэти Холмс в прозрачной рубашке обнялась с возлюбленным",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/28/v-kieve-progremela-seriya-vzryvov/",
-          "image": "https://icdn.lenta.ru/images/2026/07/28/01/20260728014307548/pic_16d25a287b03f919a789928e00baf22f.jpg",
-          "publishedAt": "2026-07-27T22:25:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/28/keti-holms-v-prozrachnoy-rubashke-obnyalas-s-vozlyublennym/",
+          "image": "https://icdn.lenta.ru/images/2026/07/27/10/20260727104216018/pic_3a4dc8bbcc1e23b1143a64298f8fb825.jpg",
+          "publishedAt": "2026-07-28T01:00:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785190631000",
-          "title": "Украинского прокурора поймали на съемке видео для OnlyFans",
+          "id": "politics-3-1785200340000",
+          "title": "Пленный из ВСУ рассказал об угрозах от родной сестры убить их бабушку",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/28/ukrainskogo-prokurora-poymali-na-s-emke-video-dlya-onlyfans/",
-          "image": "https://icdn.lenta.ru/images/2026/07/28/01/20260728011711604/pic_d1ee055914824a4584efa7c3921e2c31.jpg",
-          "publishedAt": "2026-07-27T22:17:11.000Z",
+          "url": "https://lenta.ru/news/2026/07/28/plennyy-vsu-rasskazal-ob-ugrozah-ot-rodnoy-sestry-ubit-ih-babushku/",
+          "image": "https://icdn.lenta.ru/images/2026/07/28/03/20260728035934956/pic_dd81ff713d1b4e23db5a5826fc583447.jpg",
+          "publishedAt": "2026-07-28T00:59:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785189785000",
-          "title": "64-летняя телеведущая показала результат похудения на фото в купальнике",
+          "id": "politics-4-1785199980000",
+          "title": "В Раде сообщили о политическом сигнале Зеленского Трампу",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/28/64-letnyaya-televeduschaya-pokazala-rezultat-pohudeniya-na-foto-v-kupalnike/",
-          "image": "https://icdn.lenta.ru/images/2026/07/27/17/20260727174443133/pic_c0bd36d10357c582f5c4e36bd470198f.jpg",
-          "publishedAt": "2026-07-27T22:03:05.000Z",
+          "url": "https://lenta.ru/news/2026/07/28/v-rade-soobschili-o-politicheskom-signale-zelenskogo-trampu/",
+          "image": "https://icdn.lenta.ru/images/2026/07/28/03/20260728035527644/pic_069308303635cc685fe97015c8df9936.jpg",
+          "publishedAt": "2026-07-28T00:53:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-07-27T19:08:36.242Z",
+      "lastFetchAt": "2026-07-28T01:21:30.592Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
