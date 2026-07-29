@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-07-28T22:49:44.835Z",
+  "updatedAt": "2026-07-29T01:23:04.576Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
-    "cybersecurity",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "law"
+  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-28T19:03:31.786Z",
+      "lastFetchAt": "2026-07-29T01:22:43.714Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-28T22:49:28.827Z",
+      "lastFetchAt": "2026-07-29T01:22:45.021Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-28T19:03:33.922Z",
+      "lastFetchAt": "2026-07-29T01:22:46.637Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -339,19 +339,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785177183000",
-          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
-          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
-          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
-          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
-          "publishedAt": "2026-07-27T18:33:03.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1785232366000",
+          "id": "startups-2-1785232366000",
           "title": "The Information: Китай начал серийное производство установок для иммерсионной литографии, которые позволяют выпускать чипы по техпроцессу до 7 нм",
           "summary": "Первый экземпляры оборудования планируют поставить крупным китайским производителям микросхем в 2026 году. Это позволит им снизить зависимость от иностранных технологий.",
           "url": "https://vc.ru/tech/3049960-kitai-zapustil-proizvodstvo-ustanovok-dlya-immerzionnoy-litografii?from=rss",
@@ -363,12 +351,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1785245571000",
-          "title": "Visa сократит 7% штата для «повышения эффективности» бизнеса — Bloomberg",
-          "summary": "Всего уволят около 2600 сотрудников.",
-          "url": "https://vc.ru/hr/3050474-visa-sokratit-shtat-dlya-povysheniya-effektivnosti-biznesa?from=rss",
-          "image": "https://leonardo.osnova.io/68880ce4-489e-5e83-91da-19d4b436d4b7/",
-          "publishedAt": "2026-07-28T13:32:51.000Z",
+          "id": "startups-3-1785177183000",
+          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
+          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
+          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
+          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
+          "publishedAt": "2026-07-27T18:33:03.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1785263602000",
+          "title": "Минпромторг добавил в список автомобилей для такси ещё шесть моделей — Jetour Dashing, Tenet T8 и другие",
+          "summary": "После обновления в перечне будет 36 моделей.",
+          "url": "https://vc.ru/transport/3051082-minpromtorg-dobavil-novye-modeli-avtomobilei-dlya-taksi?from=rss",
+          "image": "https://leonardo.osnova.io/71acb106-7e9b-566f-a156-954ffd553977/",
+          "publishedAt": "2026-07-28T18:33:22.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-28T19:03:37.498Z",
+      "lastFetchAt": "2026-07-29T01:22:50.604Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-28T19:03:38.238Z",
+      "lastFetchAt": "2026-07-29T01:22:51.088Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1785256080000",
+          "id": "environment-0-1785279900000",
+          "title": "Феромон королевы галиктид подсказал рабочим остаться в гнезде",
+          "summary": "Феромон королевы галиктид подсказал рабочим остаться в гнезде",
+          "url": "https://nplus1.ru/news/2026/07/29/queen-bee-pheromones",
+          "image": "https://minio.nplus1.ru/app-images/1124331/conversions/6a68cdd058617_cover-share.png",
+          "publishedAt": "2026-07-28T23:05:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1785256080000",
           "title": "Перовскитный лазер заработал без внешней оптической накачки",
           "summary": "Перовскитный лазер заработал без внешней оптической накачки",
           "url": "https://nplus1.ru/news/2026/07/28/perolaser",
@@ -607,7 +619,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1785254580000",
+          "id": "environment-2-1785254580000",
           "title": "Наездника-сверхпаразитоида назвали в честь Эрнеста Хемингуэя",
           "summary": "Наездника-сверхпаразитоида назвали в честь Эрнеста Хемингуэя",
           "url": "https://nplus1.ru/news/2026/07/28/chlorocytus-papahemii",
@@ -619,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1785250980000",
+          "id": "environment-3-1785250980000",
           "title": "Локдаун защитил маленьких шведов от госпитализации",
           "summary": "Локдаун защитил маленьких шведов от госпитализации",
           "url": "https://nplus1.ru/news/2026/07/28/pandemic-children",
@@ -631,24 +643,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1785246180000",
+          "id": "environment-4-1785246180000",
           "title": "Нарушение фолдинга бета-амилоида назвали лучшим доклиническим биомаркером болезни Альцгеймера",
           "summary": "Нарушение фолдинга бета-амилоида назвали лучшим доклиническим биомаркером болезни Альцгеймера",
           "url": "https://nplus1.ru/news/2026/07/28/preclinically-misfolded",
           "image": "https://minio.nplus1.ru/app-images/1124218/conversions/6a68aba06a8ae_cover-share.png",
           "publishedAt": "2026-07-28T13:43:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1785243480000",
-          "title": "Орнитоптер за секунду вылетел из воды",
-          "summary": "Орнитоптер за секунду вылетел из воды",
-          "url": "https://nplus1.ru/news/2026/07/28/aerial-aquatic-drone-with-flapping-wings",
-          "image": "https://minio.nplus1.ru/app-images/1124169/conversions/6a68a6fc5c14b_cover-share.png",
-          "publishedAt": "2026-07-28T12:58:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-28T19:03:40.136Z",
+      "lastFetchAt": "2026-07-29T01:22:53.049Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-28T19:03:42.557Z",
+      "lastFetchAt": "2026-07-29T01:22:56.812Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -891,7 +891,7 @@
           "title": "Библейские истории экран покажет наш // На экраны выходит полнометражный мультфильм о царе Давиде",
           "summary": "В прокат выходит анимационный фильм «Храбрый Давид» (David) Фила Каннингема и Брента Доуза, снятый, как сообщают вступительные титры, «по мотивам» первой и второй Книги Царств Ветхого Завета. В руках авторов картины эти ",
           "url": "https://www.kommersant.ru/doc/8846709",
-          "image": "https://iv.kommersant.ru/SocialPics/8846709_49_3170705_760916589",
+          "image": "https://im2.kommersant.ru/SocialPics/8846709_49_3170705_760916589",
           "publishedAt": "2026-07-28T14:50:29.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -915,7 +915,7 @@
           "title": "Режиссер «Призраков дома на холме» напишет сценарий к экранизации Warhammer 40,000",
           "summary": "Американский режиссер хорроров Майк Флэнаган напишет сценарий к фильму по мотивам вселенной настольной игры Warhammer 40,000, который продюсирует актер Генри Кавилл. Об этом сообщает профильное издание Collider со ссылко",
           "url": "https://www.kommersant.ru/doc/8846673",
-          "image": "https://iv.kommersant.ru/SocialPics/8846673_49_0_210459066",
+          "image": "https://im2.kommersant.ru/SocialPics/8846673_49_0_210459066",
           "publishedAt": "2026-07-28T13:17:46.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-28T22:49:44.137Z",
+      "lastFetchAt": "2026-07-29T01:22:59.256Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,7 +945,19 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785276180000",
+          "id": "sports-0-1785287700000",
+          "title": "Корнеев о Бориско: «Уход в ЦСКА – это точно удар в спину Талалаеву. Случилось все несвоевременно»",
+          "summary": "Игорь Корнеев оценил переход голкипера «Балтики» Максима Бориско в ЦСКА. «Это точно удар в спину [тренеру «Балтики»] Талалаеву . И как поздно это сделали. Сейчас « Балтика » должна искать вратаря. Говорят, Латышонок прид",
+          "url": "https://www.sports.ru/football/1117316304-korneev-o-borisko-uxod-v-czska-eto-tochno-udar-v-spinu-talalaevu-sluch.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/630/4/share/49660a_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-29T01:15:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1785276180000",
           "title": "Директор «Бешикташа» Озен: «Три раза встречались с Салахом, как только заговорили о финансах – процесс замедлился. Наше предложение на столе, нового не будет»",
           "summary": "Директор «Бешикташа» Ондер Озен подтвердил, что клуб пытается подписать Мохамеда Салаха . «Мы выходили на контакт с Салахом и касались в том числе модели финансирования. Салах – игрок мирового уровня и уважаемый спортсме",
           "url": "https://www.sports.ru/football/1117316266-direktor-beshiktasha-tri-raza-vstrechalis-s-salaxom-kak-tolko-zagovori.html",
@@ -957,7 +969,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785275880000",
+          "id": "sports-2-1785275880000",
           "title": "Вайсфельд о Кручинине: «Когда тебя расторгает 2 раза подряд одна и та же команда, есть основания задуматься. Игроки, часто попадающие в конфликтные ситуации, вызывают сомнения»",
           "summary": "Бывший генеральный менеджер клубов FONBET КХЛ Леонид Вайсфельд высказался о расторжении контракта « Торпедо » с нападающим Алексеем Кручининым . – Алексей Кручинин покинул «Торпедо». Насколько неожиданный ход от клуба из",
           "url": "https://www.sports.ru/hockey/1117316263-vajsfeld-o-kruchinine-kogda-tebya-rastorgaet-2-raza-podryad-odna-i-ta-.html",
@@ -969,7 +981,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785275760000",
+          "id": "sports-3-1785275760000",
           "title": "Лапочкин о молодых судьях в РПЛ: «Их привели туда как необстрелянных юнцов. Когда в 24 года арбитр говорит, что он здесь главный – это странно. Опытные судьи чувствуют себя не в своей тарелке»",
           "summary": "Бывший арбитр ФИФА Сергей Лапочкин высказался о появлении молодых судьей в РПЛ . «Из восьми игр первого тура в четырех были дебютанты. Я не представляю, как сейчас себя чувствуют Кукуляк , Кукуян , Казарцев , Чебан и Ива",
           "url": "https://www.sports.ru/football/1117316265-lapochkin-o-molodyx-sudyax-v-rpl-ix-priveli-tuda-kak-neobstrelyannyx-y.html",
@@ -981,7 +993,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1785275460000",
+          "id": "sports-4-1785275460000",
           "title": "Бретт Мюррей: «Слышал исключительно хорошие отзывы о «Шанхае», Петербурге, арене. Ожидания у меня довольно высокие. Хочется как можно скорее начать работать»",
           "summary": "Нападающий Бретт Мюррей поделился ожиданиями от игры за «Шанхай» Игрок прилетел в Санкт-Петербург, чтобы с 1 августа начать подготовку к новому сезону. «Если честно, ожидания у меня довольно высокие. Я слышал исключитель",
           "url": "https://www.sports.ru/hockey/1117316262-brett-myurrej-slyshal-isklyuchitelno-xoroshie-otzyvy-o-shanxae-peterbu.html",
@@ -991,23 +1003,11 @@
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1785275100000",
-          "title": "Kick It Out получила рекордные 1744 сообщения о дискриминации в сезоне-2025/26 – на 25% больше, чем год назад. Почти половина посвящена расизму",
-          "summary": "Организация Kick It Out сообщила о рекордном количестве жалоб на дискриминацию в сезоне-2025/26. Получены 1744 сообщения о подобных инцидентах – это рекордный показатель. Обращений стало на 25% больше, чем в предыдущем с",
-          "url": "https://www.sports.ru/football/1117316260-kick-it-out-poluchila-rekordnye-1744-soobshheniya-o-diskriminaczii-v-s.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/626/0/share/9a0f3f_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-28T21:45:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
         }
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-28T22:49:44.835Z",
+      "lastFetchAt": "2026-07-29T01:23:00.672Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785278199000",
-          "title": "Гроб с телом сенатора Грэма остался закрытым всю церемонию прощания",
+          "id": "politics-0-1785288011000",
+          "title": "Внук де Голля заявил о планах переехать в Россию",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/grob-s-telom-senatora-grema-ostalsya-zakrytym-vsyu-tseremoniyu-proschaniya/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/01/20260729013649050/pic_c360d1dbb8d4afa1606bcdb85baea8e8.jpg",
-          "publishedAt": "2026-07-28T22:36:39.000Z",
+          "url": "https://lenta.ru/news/2026/07/29/vnuk-de-gollya-zayavil-o-planah-pereehat-v-rossiyu/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/04/20260729041715494/pic_c40ddba172ac728681e220836521363c.jpg",
+          "publishedAt": "2026-07-29T01:20:11.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785277416000",
-          "title": "Бывший военный ВСУ рассказал о переходе на сторону России",
+          "id": "politics-1-1785287822000",
+          "title": "«Вышел очевидный фальстарт». Захарова предрекла провал диалога нового посла Германии с Москвой",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/byvshiy-voennyy-vsu-rasskazal-o-perehode-na-storonu-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/01/20260729011203159/pic_6fb7cdbd27afe5fe5ffc58a1a6ec457c.jpg",
-          "publishedAt": "2026-07-28T22:23:36.000Z",
+          "url": "https://lenta.ru/news/2026/07/29/long-vyshel-ochevidnyy-falstart-zaharova-predrekla-proval-dialoga-novogo-posla-germanii-s-moskvoy/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/03/20260729030002796/pic_7bea0410474733f4b763f2663423e68c.jpg",
+          "publishedAt": "2026-07-29T01:17:02.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785277299000",
-          "title": "Стало известно об уничтожении всех АЗС ВСУ от Харькова до Полтавы",
+          "id": "politics-2-1785287772000",
+          "title": "США и Саудовская Аравия ударили по террористам в Ираке",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/stalo-izvestno-ob-unichtozhenii-vseh-azs-vsu-ot-harkova-do-poltavy/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/01/20260729012147485/pic_b561cc7131867b7ad7470b5ec1abbb9d.jpg",
-          "publishedAt": "2026-07-28T22:21:39.000Z",
+          "url": "https://lenta.ru/news/2026/07/29/ssha-i-saudovskaya-araviya-udarili-po-terroristam-v-irake/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/04/20260729040937142/pic_91f99588007e47361cfe0f966e13787a.jpg",
+          "publishedAt": "2026-07-29T01:16:12.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785277080000",
-          "title": "Рекордное число польских граждан проголосовало против вступления Украины в ЕС",
+          "id": "politics-3-1785287137000",
+          "title": "Samsung похоронит популярное приложение",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/polandd/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/01/20260729011529965/pic_a79b54945899154c0a375f273f2105b9.jpg",
-          "publishedAt": "2026-07-28T22:18:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/29/find/",
+          "image": "https://icdn.lenta.ru/images/2026/07/28/18/20260728180659596/pic_51db16f3572edb88c096593c1e8763a4.jpg",
+          "publishedAt": "2026-07-29T01:05:37.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785277013000",
-          "title": "Любящая обнажаться на публике популярная модель оконфузилась на пляже из-за мини-платья",
+          "id": "politics-4-1785287134000",
+          "title": "В сети обсудили появление дочери Синди Кроуфорд в прозрачном платье на публике",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/lyubyaschaya-obnazhatsya-na-publike-populyarnaya-model-okonfuzilas-na-plyazhe-iz-za-mini-platya/",
-          "image": "https://icdn.lenta.ru/images/2026/07/28/18/20260728182403121/pic_606eb81275acd618218d6f8229227910.jpg",
-          "publishedAt": "2026-07-28T22:16:53.000Z",
+          "url": "https://lenta.ru/news/2026/07/29/v-seti-obsudili-poyavlenie-docheri-sindi-krouford-v-prozrachnom-platie-na-publike/",
+          "image": "https://icdn.lenta.ru/images/2026/07/28/16/20260728164459382/pic_ada7f8b8b28f91da6b3519621e8cfe04.jpg",
+          "publishedAt": "2026-07-29T01:05:34.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-28T17:21:57.136Z",
+      "lastFetchAt": "2026-07-29T01:23:02.340Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1085,43 +1085,19 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1785177183000",
-          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
-          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
-          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
-          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
-          "publishedAt": "2026-07-27T18:33:03.000Z",
+          "id": "education-0-1785259466000",
+          "title": "Британский депутат через суд потребовала запретить Grok генерировать обнажённые дипфейки с её лицом",
+          "summary": "Её адвокаты считают, что дело может стать прецедентом в случае успеха.",
+          "url": "https://vc.ru/legal/3050811-britanskij-deputat-trebujet-zapretit-grok-na-generirovanie-obnazhennyh-dipfejkov?from=rss",
+          "image": "https://leonardo.osnova.io/e8dc2031-11a3-5474-aeeb-2c2e62c52b36/",
+          "publishedAt": "2026-07-28T17:24:26.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1785232366000",
-          "title": "The Information: Китай начал серийное производство установок для иммерсионной литографии, которые позволяют выпускать чипы по техпроцессу до 7 нм",
-          "summary": "Первый экземпляры оборудования планируют поставить крупным китайским производителям микросхем в 2026 году. Это позволит им снизить зависимость от иностранных технологий.",
-          "url": "https://vc.ru/tech/3049960-kitai-zapustil-proizvodstvo-ustanovok-dlya-immerzionnoy-litografii?from=rss",
-          "image": "https://leonardo.osnova.io/12b546e0-b110-5138-9253-49804079c8f5/",
-          "publishedAt": "2026-07-28T09:52:46.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-2-1785225070000",
-          "title": "Власти начали обсуждать налоговые и финансовые меры поддержки ИИ-отрасли на примерно 72 млрд рублей в год — РБК",
-          "summary": "«Сбер» и «Яндекс» просили выделять по 400-450 млрд рублей в год.",
-          "url": "https://vc.ru/legal/3049616-podderzhka-ii-otrasli-nalogovye-i-finansovye-mery-ot-vlastej?from=rss",
-          "image": "https://leonardo.osnova.io/1c86296c-f2f3-54b9-bb71-d0d7482c3d85/",
-          "publishedAt": "2026-07-28T07:51:10.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-3-1785239163000",
+          "id": "education-1-1785239163000",
           "title": "Wildberries и Ozon исполнили предупреждение ФАС за «навязывание невыгодных условий продавцам»",
           "summary": "В частности, синхронизировали сроки выплат продавцам за реализованные товары и отменили привязку тарифов на логистику к цене товара.",
           "url": "https://vc.ru/marketplace/3050281-wildberries-i-ozon-izmenili-usloviya-dlya-prodavtsov?from=rss",
@@ -1133,12 +1109,36 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1785245571000",
-          "title": "Visa сократит 7% штата для «повышения эффективности» бизнеса — Bloomberg",
-          "summary": "Всего уволят около 2600 сотрудников.",
-          "url": "https://vc.ru/hr/3050474-visa-sokratit-shtat-dlya-povysheniya-effektivnosti-biznesa?from=rss",
-          "image": "https://leonardo.osnova.io/68880ce4-489e-5e83-91da-19d4b436d4b7/",
-          "publishedAt": "2026-07-28T13:32:51.000Z",
+          "id": "education-2-1785232366000",
+          "title": "The Information: Китай начал серийное производство установок для иммерсионной литографии, которые позволяют выпускать чипы по техпроцессу до 7 нм",
+          "summary": "Первый экземпляры оборудования планируют поставить крупным китайским производителям микросхем в 2026 году. Это позволит им снизить зависимость от иностранных технологий.",
+          "url": "https://vc.ru/tech/3049960-kitai-zapustil-proizvodstvo-ustanovok-dlya-immerzionnoy-litografii?from=rss",
+          "image": "https://leonardo.osnova.io/12b546e0-b110-5138-9253-49804079c8f5/",
+          "publishedAt": "2026-07-28T09:52:46.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-3-1785177183000",
+          "title": "Ozon повысит тарифы на страховку от атак беспилотников в 3,3 раза",
+          "summary": "С 0,0035% до 0,0115% в день от стоимости товаров.",
+          "url": "https://vc.ru/marketplace/3049104-ozon-povyshaet-tarify-na-strahovku-ot-atak-bespilotnikov?from=rss",
+          "image": "https://leonardo.osnova.io/6c6c601d-e74e-5d90-8c29-9b43a2bc487f/",
+          "publishedAt": "2026-07-27T18:33:03.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-4-1785263602000",
+          "title": "Минпромторг добавил в список автомобилей для такси ещё шесть моделей — Jetour Dashing, Tenet T8 и другие",
+          "summary": "После обновления в перечне будет 36 моделей.",
+          "url": "https://vc.ru/transport/3051082-minpromtorg-dobavil-novye-modeli-avtomobilei-dlya-taksi?from=rss",
+          "image": "https://leonardo.osnova.io/71acb106-7e9b-566f-a156-954ffd553977/",
+          "publishedAt": "2026-07-28T18:33:22.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-28T17:22:03.056Z",
+      "lastFetchAt": "2026-07-29T01:23:03.987Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1225,12 +1225,12 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1785126862000",
-          "title": "От предприятия‑крепости до творческого кластера: история и будущее Электрозавода",
-          "summary": "В Москве реконструируют известный образец промышленной неоготики",
-          "url": "https://www.vedomosti.ru/society/galleries/2026/07/27/1216195-ot-predpriyatiyakreposti-do-tvorcheskogo",
-          "image": "https://cdn.vdmsti.ru/image/2026/5q/oclaz/normal-vk2.jpg",
-          "publishedAt": "2026-07-27T04:34:22.000Z",
+          "id": "realestate-0-1785188414000",
+          "title": "Столичная мэрия выкупила у «Экспоцентра» площадку рядом с «Москва-сити»",
+          "summary": "Здесь может появиться еще один деловой или жилой комплекс",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/07/28/1216887-ryadom-s-natsionalnim-tsentrom-rossiya-mozhet-poyavitsya-delovoi-ili-zhiloi-kompleks",
+          "image": "https://cdn.vdmsti.ru/image/2026/5s/1c0fyw/normal-1q82.jpg",
+          "publishedAt": "2026-07-27T21:40:14.000Z",
           "source": "Ведомости",
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
@@ -1249,7 +1249,19 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1784844792000",
+          "id": "realestate-2-1784881374000",
+          "title": "В Крыму снизили арендную плату за госимущество для бизнеса",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/business/news/2026/07/24/1216179-krimu-snizili",
+          "image": "https://cdn.vdmsti.ru/image/2026/5p/o4hbo/normal-v9k.jpg",
+          "publishedAt": "2026-07-24T08:22:54.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-3-1784844792000",
           "title": "«Гранель» построит жилой комплекс на юго-востоке Москвы",
           "summary": "Структура группы выкупила у бывших топ-менеджеров «Интеко» площадку в Лефортове",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/24/1216102-granel-postroit-zhiloi-kompleks-na-yugo-vostoke-moskvi",
@@ -1261,7 +1273,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1784844682000",
+          "id": "realestate-4-1784844682000",
           "title": "В Московском регионе начал снова расти спрос на склады",
           "summary": "Впрочем, пока активность объясняется несколькими крупными сделками",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/24/1216100-v-moskovskom-regione-nachal-rasti-spros-na-skladi",
@@ -1271,23 +1283,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1784755461000",
-          "title": "Совокупная выручка крупнейших российских девелоперов жилья упала на 6%",
-          "summary": "Это следствие сокращения доходов у лидеров рынка",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/07/23/1215802-sovokupnaya-viruchka-rossiiskih-developerov-zhilya-upala",
-          "image": "https://cdn.vdmsti.ru/image/2026/5n/1d5qky/normal-1rpl.jpg",
-          "publishedAt": "2026-07-22T21:24:21.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-28T17:22:03.462Z",
+      "lastFetchAt": "2026-07-29T01:23:04.576Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
