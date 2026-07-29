@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-07-29T11:53:03.749Z",
+  "updatedAt": "2026-07-29T13:41:41.651Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
     "ai",
+    "cybersecurity",
     "business",
     "science",
     "health",
@@ -12,22 +21,13 @@
     "sports",
     "politics",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "law"
-  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-29T08:15:28.980Z",
+      "lastFetchAt": "2026-07-29T13:41:25.908Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,60 +35,60 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785312128000",
-          "title": "Почему Вайбкод понимает вашу CRM, а внешний GPT — нет",
-          "summary": "Создаём одно приложение для портала Битрикс24 двумя способами: через внешний ИИ и через платформу вайб-кодинга Битрикс24 Вайбкод. На этом эксперименте покажем, почему платформа быстрее понимает CRM и требует меньше ручно",
-          "url": "https://habr.com/ru/companies/bitrix/articles/1063890/?utm_campaign=1063890&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a65/350/508/a653505088d82b2589b12dc7897b0195.png",
-          "publishedAt": "2026-07-29T08:02:08.000Z",
+          "id": "it-0-1785331946000",
+          "title": "IllegalMonitorStateException. Красим код в поисках монитора",
+          "summary": "Статья настоящий разбор-детектив: почему неблокирующий API может блокироваться, как потерять монитор после деоптимизации JIT, почему try-catch иногда важнее коллбэков, и как решать сложные проблемы новыми концепциями мыш",
+          "url": "https://habr.com/ru/companies/spring_aio/articles/1064528/?utm_campaign=1064528&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/ec8/a01/3ee/ec8a013ee5f60149b473ed365a5ef2a0.png",
+          "publishedAt": "2026-07-29T13:32:26.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785301244000",
-          "title": "Piano — сделал 18 культовых мелодий. C++",
-          "summary": "Вот в github: https://github.com/Divetoxx/Piano 🎹 Основная философия: «Ритмическое дирижирование без ошибок» Главное новшество этого фортепиано заключается в том, что пользователю никогда не нужно беспокоиться о неправи",
-          "url": "https://habr.com/ru/articles/1064168/?utm_campaign=1064168&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a73/527/c1a/a73527c1a44ab749b7734b5dbda85cff.png",
-          "publishedAt": "2026-07-29T05:00:44.000Z",
+          "id": "it-1-1785330029000",
+          "title": "Как устроена программа онлайн-магистратуры ИТМО для разработчиков в эпоху ИИ: гибкость, элективы и поддержка наставников",
+          "summary": "Привет! Это команда Яндекс Практикума. Приёмная кампания 2026 уже идёт и закончится всего , поэтому сегодня подробно расскажем, какие навыки и компетенции нужно развивать начинающим разработчикам несмотря на ИИ и как в э",
+          "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1064260/?utm_campaign=1064260&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f8f/68a/ccf/f8f68accf2603b1db0625985cafc0fe1.png",
+          "publishedAt": "2026-07-29T13:00:29.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785257462000",
-          "title": "Агентный SDLC на внутренней LLM: инженерия вместо промптов",
-          "summary": "Большинство публичных материалов об агентной разработке описывает работу с frontier-моделями. В корпоративной среде frontier-модель часто недоступна: отправка кода внешним LLM-провайдерам запрещена политикой безопасности",
-          "url": "https://habr.com/ru/articles/1064140/?utm_campaign=1064140&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1064140/8a0b839acbb9d89c69d55d3862eda27d/",
-          "publishedAt": "2026-07-28T16:51:02.000Z",
+          "id": "it-2-1785316172000",
+          "title": "За полчаса и 10 рублей — полноценный сайт для редактирования скриншотов. Пошаговая инструкция",
+          "summary": "Делюсь личным опытом создания проекта с нуля на вайбкоде. Красивый сайт со сверхбыстрой загрузкой и функционалом, которого не найти на ресурсах без авторизации. И всё это — с нуля за полчаса описания банальных пожеланий ",
+          "url": "https://habr.com/ru/articles/1064302/?utm_campaign=1064302&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/295/eea/921/295eea92105aa8b760a4f7ee78432855.png",
+          "publishedAt": "2026-07-29T09:09:32.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1785247859000",
-          "title": "Kimi K3 обошла Fable 5, Caveman не работает и релиз OpenIDE Pro",
-          "summary": "21-й выпуск IT‑новостей от OpenIDE! OpenAI раскатили GPT-5.6 на всех, и та же модель тут же отменила все Stripe‑подписки в чужом стартапе за семь секунд. JetBrains проверили скилл, который обещал экономию 65% токенов, и ",
-          "url": "https://habr.com/ru/companies/haulmont/articles/1064078/?utm_campaign=1064078&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c29/f39/4d2/c29f394d2aa5b456faa40d7c363881fc.png",
-          "publishedAt": "2026-07-28T14:10:59.000Z",
+          "id": "it-3-1785315907000",
+          "title": "Трилемма Святого Грааля типизации: почему нельзя всё сразу",
+          "summary": "Все мы знаем, что языки делятся на динамические и статические: Python или JS позволяют молниеносно прототипировать, но расплачиваться нестабильностью в продакшене приходится потом, тогда как C++, Java или C# требуют проп",
+          "url": "https://habr.com/ru/companies/timeweb/articles/1055556/?utm_campaign=1055556&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/647/ff0/150/647ff0150cf7f51cc2b85cba921c9f2c.png",
+          "publishedAt": "2026-07-29T09:05:07.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-4-1785247247000",
-          "title": "[Перевод] Разработчики проверяют код, который не писали — и могут не понимать",
-          "summary": "По данным GitLab, 91% компаний держат в работе минимум два ИИ‑инструмента, 54% — три и более. 78% команд пишут и коммитят код быстрее, чем раньше, 60% говорят, что отдача от ИИ превзошла ожидания, 73% отмечают рост качес",
-          "url": "https://habr.com/ru/companies/basis/articles/1063968/?utm_campaign=1063968&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f83/daa/e55/f83daae55b03f7a32ef348bc39978af3.png",
-          "publishedAt": "2026-07-28T14:00:47.000Z",
+          "id": "it-4-1785314992000",
+          "title": "Микрофронтенды в экосистеме Vue 3: практическое руководство для разработчика в 2026 году",
+          "summary": "Привет, друзья! Меня зовут Наталья и я frontend‑разработчик в компании SimbirSoft. Когда‑то в 2020 году микрофронтенды были модой. Чуть ли ни каждый хотел почувствовать себя всемогущим и попробовать разделить монолит на ",
+          "url": "https://habr.com/ru/companies/simbirsoft/articles/1064080/?utm_campaign=1064080&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2e6/330/c94/2e6330c946bcc3b5b1d5ffa5a426b57a.png",
+          "publishedAt": "2026-07-29T08:49:52.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-29T08:15:33.654Z",
+      "lastFetchAt": "2026-07-29T13:41:28.882Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -315,7 +315,31 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1785308449000",
+          "id": "startups-0-1785317474000",
+          "title": "Reuters: Wildberries обсуждает с властями выделение помощи в виде кредитов и льгот — основным источником поддержки может стать ВТБ",
+          "summary": "По данным «Ъ», маркетплейс также начал искать складские площади в Казахстане.",
+          "url": "https://vc.ru/money/3051824-wildberries-podderzhka-vtb-i-sklady-v-kazahstane?from=rss",
+          "image": "https://leonardo.osnova.io/ee792375-0d9d-5c22-805d-96d38282017c/",
+          "publishedAt": "2026-07-29T09:31:14.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1785319889000",
+          "title": "Финская энергетическая компания Fingrid предупредила, что с 2027 года прекратит обслуживание линий связи, через которые проходит часть интернет-трафика между Россией и Европой — «Ъ»",
+          "summary": "Российские операторы уже ведут переговоры с финскими компаниями об альтернативных маршрутах.",
+          "url": "https://vc.ru/services/3051950-fingrid-prekrashchaet-obsluzhivanie-linij-svyazi-mezhdu-rossiej-i-evropej?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3051950/1785332488/cover.jpg",
+          "publishedAt": "2026-07-29T10:11:29.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1785308449000",
           "title": "Отчёт «Яндекса» за квартал: выручка составила 386,3 млрд рублей, а «Электронная коммерция» впервые вышла на безубыточность по скорректированной EBITDA",
           "summary": "31 июля 2026 года совет директоров рассмотрит предложение по выплате дивидендов за первое полугодие в размере 110 рублей на акцию.",
           "url": "https://vc.ru/money/3051537-otchet-yandeksa-vyruchka-i-uspehi-v-electronnoy-kommercii?from=rss",
@@ -327,7 +351,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1785310303000",
+          "id": "startups-3-1785310303000",
           "title": "«2ГИС» добавил «сенсорную навигацию» с помощью датчиков смартфона — она продолжает вести автомобиль по маршруту при потере спутникового сигнала",
           "summary": "Чтобы функция работала, нужно «надёжно зафиксировать устройство в держателе».",
           "url": "https://vc.ru/services/3051647-sensornaya-navigatsiya-v-2gis?from=rss",
@@ -339,36 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785239163000",
-          "title": "Wildberries и Ozon исполнили предупреждение ФАС за «навязывание невыгодных условий продавцам»",
-          "summary": "В частности, синхронизировали сроки выплат продавцам за реализованные товары и отменили привязку тарифов на логистику к цене товара.",
-          "url": "https://vc.ru/marketplace/3050281-wildberries-i-ozon-izmenili-usloviya-dlya-prodavtsov?from=rss",
-          "image": "https://leonardo.osnova.io/5e7f1b73-79f4-5272-8791-55957df39330/",
-          "publishedAt": "2026-07-28T11:46:03.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1785259466000",
-          "title": "Британский депутат через суд потребовала запретить Grok генерировать обнажённые дипфейки с её лицом",
-          "summary": "Её адвокаты считают, что дело может стать прецедентом в случае успеха.",
-          "url": "https://vc.ru/legal/3050811-britanskij-deputat-trebujet-zapretit-grok-na-generirovanie-obnazhennyh-dipfejkov?from=rss",
-          "image": "https://leonardo.osnova.io/e8dc2031-11a3-5474-aeeb-2c2e62c52b36/",
-          "publishedAt": "2026-07-28T17:24:26.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1785232366000",
-          "title": "The Information: Китай начал серийное производство установок для иммерсионной литографии, которые позволяют выпускать чипы по техпроцессу до 7 нм",
-          "summary": "Первый экземпляры оборудования планируют поставить крупным китайским производителям микросхем в 2026 году. Это позволит им снизить зависимость от иностранных технологий.",
-          "url": "https://vc.ru/tech/3049960-kitai-zapustil-proizvodstvo-ustanovok-dlya-immerzionnoy-litografii?from=rss",
-          "image": "https://leonardo.osnova.io/12b546e0-b110-5138-9253-49804079c8f5/",
-          "publishedAt": "2026-07-28T09:52:46.000Z",
+          "id": "startups-4-1785328532000",
+          "title": "Wildberries сообщил о локализации пожара на складе в Рязани — «большую часть» товаров удалось сохранить",
+          "summary": "Сотрудников эвакуировали, сообщала компания утром 29 июля 2026 года.",
+          "url": "https://vc.ru/marketplace/3052260-wildberries-lokalizoval-pozharnyj-sklad-ryazani?from=rss",
+          "image": "https://leonardo.osnova.io/fc068e85-b195-535f-a53f-682144ec28af/",
+          "publishedAt": "2026-07-29T12:35:32.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-29T08:15:36.931Z",
+      "lastFetchAt": "2026-07-29T13:41:33.196Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-29T08:15:37.494Z",
+      "lastFetchAt": "2026-07-29T13:41:33.758Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1785309840000",
+          "id": "environment-0-1785329100000",
+          "title": "Глифлозины снизили риск метастазирования рака груди",
+          "summary": "Глифлозины снизили риск метастазирования рака груди",
+          "url": "https://nplus1.ru/news/2026/07/29/sglt2-inhibitors-metastasis",
+          "image": "https://minio.nplus1.ru/app-images/1124492/conversions/6a69ef929d085_cover-share.png",
+          "publishedAt": "2026-07-29T12:45:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1785309840000",
           "title": "Генетики прочитали ДНК ужасных волков",
           "summary": "Палеогенетики прочитали ядерную ДНК двух ужасных волков, остатки которых обнаружили на территории США. Они выяснили, что, по всей видимости, популяция этих животных возникла в результате смешения двух эволюционных линий,",
           "url": "https://nplus1.ru/news/2026/07/29/genomes-of-dire-wolf",
@@ -607,7 +619,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1785298200000",
+          "id": "environment-2-1785298200000",
           "title": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
           "summary": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
           "url": "https://nplus1.ru/news/2026/07/29/tabby-star-companion-maybe",
@@ -619,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1785279900000",
+          "id": "environment-3-1785279900000",
           "title": "Феромон королевы галиктид подсказал рабочим остаться в гнезде",
           "summary": "Феромон королевы галиктид подсказал рабочим остаться в гнезде",
           "url": "https://nplus1.ru/news/2026/07/29/queen-bee-pheromones",
@@ -631,24 +643,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1785256080000",
+          "id": "environment-4-1785256080000",
           "title": "Перовскитный лазер заработал без внешней оптической накачки",
           "summary": "Перовскитный лазер заработал без внешней оптической накачки",
           "url": "https://nplus1.ru/news/2026/07/28/perolaser",
           "image": "https://minio.nplus1.ru/app-images/1124328/conversions/6a68cdcc32b89_cover-share.png",
           "publishedAt": "2026-07-28T16:28:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1785254580000",
-          "title": "Наездника-сверхпаразитоида назвали в честь Эрнеста Хемингуэя",
-          "summary": "Наездника-сверхпаразитоида назвали в честь Эрнеста Хемингуэя",
-          "url": "https://nplus1.ru/news/2026/07/28/chlorocytus-papahemii",
-          "image": "https://minio.nplus1.ru/app-images/1123815/conversions/6a67693523cfb_cover-share.png",
-          "publishedAt": "2026-07-28T16:03:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-29T08:15:39.434Z",
+      "lastFetchAt": "2026-07-29T13:41:36.372Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785227676000",
+          "id": "gaming-0-1785329829000",
+          "title": "Лучшие новые игры для Nintendo Switch: во что поиграть в 2026 году",
+          "summary": "Портативный гейминг особенно актуален в сезон отпусков. И так как на улице обычно нет возможности полностью погрузиться в сюжет, здесь больше подходят игры, ориентированные на геймплей. Как раз такими электронными развле",
+          "url": "https://habr.com/ru/companies/ggsel/articles/1064504/?utm_campaign=1064504&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/5ec/406/afa/5ec406afacfc27f4ad4e8680bca35b3d.png",
+          "publishedAt": "2026-07-29T12:57:09.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785227676000",
           "title": "Идеальный диегетический инвентарь",
           "summary": "Диегетические игровые элементы (существующие в мире игры) — довольно привычное явление на сегодняшний день, но, несмотря на это, мало кто с ними работает на полную, добиваясь влияния на механики. Бесплатная игра Crawl ка",
           "url": "https://habr.com/ru/articles/1063852/?utm_campaign=1063852&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785154123000",
+          "id": "gaming-2-1785154123000",
           "title": "Mount &amp; Blade 2: Bannerlord в 2026 году: что изменилось, и стоит ли возвращаться?",
           "summary": "Mount & Blade по праву считается одной из лучших серий игр-песочниц про Средневековье. Преданные поклонники раз за разом возвращаются в суровый мир Кальрадии, чтобы преуспеть в завоевании замков и городов, снискать славу",
           "url": "https://habr.com/ru/companies/ggsel/articles/1063502/?utm_campaign=1063502&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785150010000",
+          "id": "gaming-3-1785150010000",
           "title": "Как я получил перманентный бан за публикацию статьи про инди‑геймдев на IXBT",
           "summary": "Что же за статья такая была? Неужели там была какая‑то информация, нарушающая нормы законодательства? Ведь не дают перманентный бан просто так! Значит, была веская причина. Оказывается — это всё неважно, и перманентный б",
           "url": "https://habr.com/ru/articles/1063366/?utm_campaign=1063366&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1785089102000",
+          "id": "gaming-4-1785089102000",
           "title": "Почему страх в старых играх работал?",
           "summary": "Вот представь, ты только что вернулся из школы,совсем недавно отец принес новую пачку дисков для PlayStation. Ты с интересом начал перебирать коробки. Они приятно пахнут свежим пластиком, и каждая манит обещанием новых м",
           "url": "https://habr.com/ru/companies/timeweb/articles/1050294/?utm_campaign=1050294&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1784985853000",
-          "title": "От Counter-Strike на PSP до Half-Life на Nokia: запускаем известные игры на необычных платформах",
-          "summary": "Старые консоли и телефоны давно вышли из активного оборота, но энтузиасты продолжают находить для них новое применение. Благодаря открытым движкам, обратной инженерии и собственным разработкам на устройствах двадцатилетн",
-          "url": "https://habr.com/ru/companies/ru_mts/articles/1062300/?utm_campaign=1062300&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/976/2a4/8c7/9762a48c7ec99ba33b304ee625bc03bd.png",
-          "publishedAt": "2026-07-25T13:24:13.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-29T08:15:49.614Z",
+      "lastFetchAt": "2026-07-29T13:41:41.651Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,60 +875,60 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1785306600000",
-          "title": "О чем поют обэриуты // Спектакль «Список Паперной» спели в ДК «Рассвет»",
-          "summary": "В московском ДК «Рассвет» показали «Список Паперной» — спектакль-застолье Константина Учителя, посвященный обэриутам. За одним столом с Хармсом, Введенским, Заболоцким, Маршаком и другими поэтами оказалась Марина Шимадин",
-          "url": "https://www.kommersant.ru/doc/8846749",
-          "image": "https://iv.kommersant.ru/SocialPics/8846749_49_3170785_585340991",
-          "publishedAt": "2026-07-29T06:30:00.000Z",
+          "id": "entertainment-0-1785331237000",
+          "title": "Музей в Нагасаки обвинили в сокрытии «темных страниц истории»",
+          "summary": "Музей атомной бомбы в Нагасаки, долгие годы являвшийся символом борьбы за мир и памяти о жертвах атомной бомбардировки, оказался в центре скандала из-за изменений в экспозиции впервые за тридцать лет. Об этом сообщает Th",
+          "url": "https://www.kommersant.ru/doc/8847523",
+          "image": "https://im2.kommersant.ru/SocialPics/8847523_49_0_266607479",
+          "publishedAt": "2026-07-29T13:20:37.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1785302175000",
-          "title": "Экс-владельцы «Золотого глобуса» заявили о рейдерском захвате премии",
-          "summary": "Члены Ассоциации иностранной прессы Голливуда (HFPA), которая ранее владела премией «Золотой глобус», подали иск в федеральный суд Калифорнии к корпорации Penske Media и связанным с ней структурам. Истцы утверждают, что ",
-          "url": "https://www.kommersant.ru/doc/8847041",
-          "image": "https://im2.kommersant.ru/SocialPics/8847041_49_0_1217278147",
-          "publishedAt": "2026-07-29T05:16:15.000Z",
+          "id": "entertainment-1-1785329099000",
+          "title": "BTS решили не участвовать в Grammy после появления отдельной категории для азиатской музыки // BTS отказались участвовать в Grammy из-за новой категории для Азии",
+          "summary": "Южнокорейский бой-бэнд BTS не будет подавать заявки на соискание премии Grammy. 69-я церемония запланирована на февраль 2027 года.",
+          "url": "https://www.kommersant.ru/doc/8847511",
+          "image": "https://iv.kommersant.ru/SocialPics/8847511_49_3171465_2091771323",
+          "publishedAt": "2026-07-29T12:44:59.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1785251498000",
-          "title": "В лонг-лист Букеровской премии 2026 года вошли 13 романов",
-          "summary": "Жюри Букеровской премии по литературе за 2026 год опубликовало лонг-лист финалистов. В него попали 13 художественных произведений, написанных на английском языке и опубликованных в Великобритании и Ирландии с 1 октября 2",
-          "url": "https://www.kommersant.ru/doc/8846762",
-          "image": "https://im2.kommersant.ru/SocialPics/8846762_49_3170783_1548157626",
-          "publishedAt": "2026-07-28T15:11:38.000Z",
+          "id": "entertainment-2-1785326067000",
+          "title": "Получивший «Оскар» ирландский музыкант Глен Хансард погиб в аварии",
+          "summary": "Ирландский музыкант, фронтмен рок-группы The Frames Глен Хансард разбился на мотоцикле в пригороде Дублина, сообщает издание The Irish Times. Артисту было 56 лет.",
+          "url": "https://www.kommersant.ru/doc/8847450",
+          "image": "https://im2.kommersant.ru/SocialPics/8847450_49_0_50997444",
+          "publishedAt": "2026-07-29T11:54:27.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1785250229000",
-          "title": "Библейские истории экран покажет наш // На экраны выходит полнометражный мультфильм о царе Давиде",
-          "summary": "В прокат выходит анимационный фильм «Храбрый Давид» (David) Фила Каннингема и Брента Доуза, снятый, как сообщают вступительные титры, «по мотивам» первой и второй Книги Царств Ветхого Завета. В руках авторов картины эти ",
-          "url": "https://www.kommersant.ru/doc/8846709",
-          "image": "https://im2.kommersant.ru/SocialPics/8846709_49_3170705_760916589",
-          "publishedAt": "2026-07-28T14:50:29.000Z",
+          "id": "entertainment-3-1785318853000",
+          "title": "Умер актер из «Игры престолов» и «Доктора Кто» Том Чадбон",
+          "summary": "Британский актер Том Чадбон умер в возрасте 80 лет, сообщает Mirror. Актер известен по ролям в сериалах «Игра престолов» и «Доктор Кто».",
+          "url": "https://www.kommersant.ru/doc/8847320",
+          "image": "https://iv.kommersant.ru/SocialPics/8847320_49_0_2035133731",
+          "publishedAt": "2026-07-29T09:54:13.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-4-1785247740000",
-          "title": "Грусть на сладкое // Вышел новый альбом группы «Руки вверх!»",
-          "summary": "В год 50-летия музыкант и бизнесмен Сергей Жуков выпустил 11-й альбом своей группы «Руки вверх!». О поп-феномене и его авторе рассказывает Игорь Гаврилов.",
-          "url": "https://www.kommersant.ru/doc/8846668",
-          "image": "https://im2.kommersant.ru/SocialPics/8846668_49_3170654_1840936883",
-          "publishedAt": "2026-07-28T14:09:00.000Z",
+          "id": "entertainment-4-1785317442000",
+          "title": "Умер автор саундтрека к фильму «Драйв» диджей Kavinsky",
+          "summary": "Французский диджей Венсан Пьер Клод Белорже, известный под псевдонимом Kavinsky, умер в возрасте 50 лет. Об этом сообщает BFMTV со ссылкой на парижскую прокуратуру.",
+          "url": "https://www.kommersant.ru/doc/8847299",
+          "image": "https://im2.kommersant.ru/SocialPics/8847299_49_3171174_1935159653",
+          "publishedAt": "2026-07-29T09:30:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
