@@ -1,10 +1,18 @@
 {
-  "updatedAt": "2026-07-30T01:16:03.716Z",
+  "updatedAt": "2026-07-30T04:45:09.720Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "business",
+    "sports",
+    "politics",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
+    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -15,15 +23,7 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "law"
   ],
   "categories": {
     "it": {
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-30T01:15:31.991Z",
+      "lastFetchAt": "2026-07-30T04:45:03.354Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-30T01:16:02.119Z",
+      "lastFetchAt": "2026-07-30T04:45:05.822Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785372960000",
-          "title": "Губерниев о ЦСКА: «Игдисамов – нормальный и воспитанный мужик. Приятно удивило, что он нашел мой телефон и написал слова благодарности за поддержку. Это умный тренер»",
-          "summary": "Комментатор и ведущий «Матч ТВ» Дмитрий Губерниев высказался про главного тренера ЦСКА Дмитрия Игдисамова. «Надеюсь, что ЦСКА тоже будет бороться за высокие места. Давно пора! В клубе молодцы, что сделали тренером Игдиса",
-          "url": "https://www.sports.ru/football/1117317373-guberniev-o-czska-igdisamov-normalnyj-i-vospitannyj-muzhik-priyatno-ud.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/737/3/share/e75c1c_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-30T00:56:00.000Z",
+          "id": "sports-0-1785385800000",
+          "title": "Радимов о «Динамо»: «По матчу с «Крыльями» не понимаю, зачем было менять Гусева. Настолько блекло и вяло смотрелась команда на фоне «Зенита», «Спартака», «Краснодара» и ЦСКА»",
+          "summary": "Бывший полузащитник «Зенита» Владислав Радимов оценил результат матча «Динамо» и «Крыльев Советов» (0:0) в матче 1-го тура Альфа-Банк РПЛ. – «Динамо» стартовало в сезоне не так удачно – не смогли на своем поле «вскрыть» ",
+          "url": "https://www.sports.ru/football/1117317402-radimov-o-dinamo-po-matchu-s-krylyami-ne-ponimayu-zachem-bylo-menyat.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/740/2/share/c25473_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T04:30:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785372120000",
-          "title": "Месси провел первую тренировку с «Интер Майами» после ЧМ-2026",
-          "summary": "Нападающий Лионель Месси вернулся в расположение « Интер Майами » после ЧМ-2026 . 39-летний футболист в среду, 29 июля, провел тренировку с командой. Клуб из Флориды проведет ближайший матч в ночь на 2 августа по московс",
-          "url": "https://www.sports.ru/football/1117317370-messi-provel-pervuyu-trenirovku-s-inter-majami.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/737/0/share/f7630a_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-30T00:42:00.000Z",
+          "id": "sports-1-1785385440000",
+          "title": "Расследование по «Клипперс» и Каваю Ленарду может перейти в арбитраж, который затянется до 2027 года",
+          "summary": "По сообщениям ESPN, «Клипперс» и профсоюз игроков НБА будут готовы перейти к стадии арбитража, если доказательства обхода потолка зарплат в ситуации с Каваем Ленардом не будут максимально убедительными. Лига исследует во",
+          "url": "https://www.sports.ru/basketball/1117317401-rassledovanie-po-klippers-i-kavayu-lenardu-mozhet-perejti-v-arbitrazh-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/740/1/share/72dcee_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T04:24:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785371280000",
-          "title": "Бителло о Карпине: «Все проблемы «Динамо» были за полем. Я многое не понимал, не был согласен с некоторыми вещами. Было много требований – это работало против команды»",
-          "summary": "Полузащитник «Динамо» Бителло поделился мнением о работе Валерия Карпина с командой. Специалист, также возглавляющий сборную России, тренировал бело-голубых с июля по ноябрь 2025 года. – Поговорим немного про прошлый сез",
-          "url": "https://www.sports.ru/football/1117317369-bitello-o-karpine-vse-problemy-dinamo-byli-za-polem-ya-mnogoe-ne-ponim.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/736/9/share/5efbe7_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-30T00:28:00.000Z",
+          "id": "sports-2-1785384900000",
+          "title": "Алдервейрелд считает, что Кейн может выиграть «Золотой мяч»: «Харри – это бомбардир, но делает игру команды лучше. Он один из лучших в мире»",
+          "summary": "Бывший защитник «Тоттенхэма» Тоби Алдервейрелд ответил на вопрос о том, может ли нападающий «Баварии» и сборной Англии Харри Кейн выиграть « Золотой мяч ». «На мой взгляд – да. Раньше на «Золотой мяч» всегда претендовали",
+          "url": "https://www.sports.ru/football/1117317400-aldervejreld-schitaet-chto-kejn-mozhet-vyigrat-zolotoj-myach-xarri-eto.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/740/0/share/00b9f8_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T04:15:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1785370440000",
-          "title": "Владислав Радимов: «Соболев пытается доказать: «А зачем вам Тюкавин?». Слава Богу, что я с ним не поспорил на пиво в этом сезоне»",
-          "summary": "Бывший полузащитник « Зенита » Владислав Радимов высказался про нападающего команды Александра Соболева . Форвард забил два гола и сделал результативную передачу в матче 1-го тура Альфа-Банк РПЛ против «Акрона» (5:0). «Я",
-          "url": "https://www.sports.ru/football/1117317368-vladislav-radimov-sobolev-pytaetsya-dokazat-a-zachem-vam-tyukavin.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/736/8/share/9853c5_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-30T00:14:00.000Z",
+          "id": "sports-3-1785384420000",
+          "title": "Джош Ричардсон завершил игровую карьеру с 10 сезонами в НБА",
+          "summary": "40-й номер драфта-2015 Джош Ричардсон официально подтвердил завершение игровой карьеры в 32 года. Ричардсон отыграл 10 лет в НБА, первые и последние сезоны – всего шесть – прошли в «Майами». На счету «винга» 554 матча в ",
+          "url": "https://www.sports.ru/basketball/1117317398-dzhosh-richardson-zavershil-igrovuyu-kareru-s-10-sezonami-v-nba.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/739/8/share/a837b6_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T04:07:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1785369900000",
-          "title": "Товарищеские матчи. «Ливерпуль» играет с «Рексхэмом» в США, «Атлетико» забил 4 гола «Хетафе»",
-          "summary": "В товарищеских матчах «Боруссия» Дортмунд в гостях уступила «Сересо Осака» (0:1), «Атлетико» разгромил «Хетафе» (4:1), «Ливерпуль» встречается с « Рексхэмом » в США. Товарищеские матчи « Байер » Германия – « Генк » Бельг",
-          "url": "https://www.sports.ru/football/1117316354-tovarishheskie-matchi-dortmund-v-gostyax-u-osaki-liverpul-sygraet-s-re.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/635/4/share/33dc5a_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-30T00:05:00.000Z",
+          "id": "sports-4-1785384060000",
+          "title": "Дзюба о Манчини в «Зените»: «Солярий разрывал, не хватало огурцов на глазах. Тренировка идет, мы пашем, он стоит-стоит, на время смотрит: «Да ну вас, ###» – развернулся и пошел»",
+          "summary": "Нападающий Артем Дзюба поделился воспоминаниями о работе с Роберто Манчини в « Зените ». Итальянский специалист возглавлял петербуржский клуб с июля 2017 года по июнь 2018 года. – Ты пережил многих тренеров в «Зените». М",
+          "url": "https://www.sports.ru/football/1117317395-dzyuba-o-manchini-solyarij-razryval-ne-xvatalo-ogurczov-na-glazax-tren.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/739/5/share/38e3a9_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T04:01:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-30T01:16:03.716Z",
+      "lastFetchAt": "2026-07-30T04:45:07.130Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785373808000",
-          "title": "Молодой человек сказал три слова на втором свидании и навсегда лишился третьего",
+          "id": "politics-0-1785386148000",
+          "title": "Участнику бандитской расправы над вице-мэром российского города огласили срок",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/paren-skazal-tri-slova-na-vtorom-svidanii-i-navsegda-lishilsya-tretiego/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/16/20260729163107605/pic_9b9c6d6129343af982152e47f149d65c.jpg",
-          "publishedAt": "2026-07-30T01:10:08.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/uchastniku-banditskoy-raspravy-nad-vitse-merom-rossiyskogo-goroda-oglasili-srok/",
+          "image": "https://icdn.lenta.ru/images/2026/07/30/07/20260730073717407/pic_51cffa5b5eef203e62904fc12482d658.jpg",
+          "publishedAt": "2026-07-30T04:35:48.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785373800000",
-          "title": "Россияне получат возможность запретить себе ставки и казино",
+          "id": "politics-1-1785386040000",
+          "title": "В России стали реже угонять легковые автомобили",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/rossiyane-poluchat-vozmozhnost-zapretit-sebe-stavki-i-kazino/",
-          "image": "https://icdn.lenta.ru/images/2026/07/30/04/20260730041052563/pic_80c5ed52a5448b685c41a3425b919c51.jpg",
-          "publishedAt": "2026-07-30T01:10:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/v-rossii-stali-rezhe-ugonyat-legkovye-avtomobili/",
+          "image": "https://icdn.lenta.ru/images/2026/07/30/07/20260730073631317/pic_0aa841492d385aa1212e0b089b34f228.jpg",
+          "publishedAt": "2026-07-30T04:34:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785372660000",
-          "title": "Илон Маск решил проспонсировать предвыборную гонку в США",
+          "id": "politics-2-1785385968000",
+          "title": "Россиянин описал опасное озеро в Африке словами «вода растворяет кожу за пару минут»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/ilon-mask-reshil-prosponsirovat-predvybornuyu-gonku-v-ssha/",
-          "image": "https://icdn.lenta.ru/images/2026/07/30/03/20260730035130943/pic_62147b8daf51255791cb6bea826f7533.jpg",
-          "publishedAt": "2026-07-30T00:51:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/rossiyanin-opisal-opasnoe-ozero-v-afrike-slovami-voda-rastvoryaet-kozhu-za-paru-minut/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/14/20260729140212459/pic_da33d5fa00db1ba30783c1b83f6cb2e7.jpg",
+          "publishedAt": "2026-07-30T04:32:48.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785372360000",
-          "title": "В европейской стране украли кельтское ожерелье возрастом 2,5 тысячи лет",
+          "id": "politics-3-1785385957000",
+          "title": "Женщина потребовала вернуть ей свадебный подарок спустя 40 лет",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/v-evropeyskoy-strane-ukrali-keltskoe-zolotoe-ozherelie-vozrastom-2-5-tysyachi-let/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-07-30T00:46:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/zhenschina-potrebovala-vernut-ey-svadebnyy-podarok-40-letney-davnosti/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/17/20260729171144929/pic_a4afa1bcf7ca4960584990f36894184e.jpg",
+          "publishedAt": "2026-07-30T04:32:37.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785371435000",
-          "title": "Женщина пришла в ярость и сняла трусы на людях",
+          "id": "politics-4-1785385680000",
+          "title": "Минобороны выпустило заявление после массированного удара ВСУ по регионам России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/zhenschina-prishla-v-yarost-i-snyala-trusy-na-lyudyah/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/16/20260729164159748/pic_304a4099ffcc69bc0ffec4b23e96dbdd.jpg",
-          "publishedAt": "2026-07-30T00:30:35.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/minoborony-vypustilo-zayavlenie-posle-massirovannogo-udara-vsu-po-regionam-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/07/30/07/20260730073011232/pic_651718460fd6bee9929f28382524b4fa.jpg",
+          "publishedAt": "2026-07-30T04:28:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-29T20:41:51.960Z",
+      "lastFetchAt": "2026-07-30T04:45:08.794Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1169,7 +1169,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-29T20:41:57.653Z",
+      "lastFetchAt": "2026-07-30T04:45:09.407Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1177,7 +1177,19 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1785188414000",
+          "id": "realestate-0-1785273501000",
+          "title": "В Москве закрылась крупнейшая в этом году сделка с жилым помещением",
+          "summary": "1000-метровая резиденция рядом с Кремлем могла быть продана за 3,5 млрд рублей",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/07/29/1217180-v-moskve-zakrilas-krupneishaya-sdelka-s-pomescheniem",
+          "image": "https://cdn.vdmsti.ru/image/2026/5t/1bhlc7/normal-1pjm.jpg",
+          "publishedAt": "2026-07-28T21:18:21.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1785188414000",
           "title": "Столичная мэрия выкупила у «Экспоцентра» площадку рядом с «Москва-сити»",
           "summary": "Здесь может появиться еще один деловой или жилой комплекс",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/28/1216887-ryadom-s-natsionalnim-tsentrom-rossiya-mozhet-poyavitsya-delovoi-ili-zhiloi-kompleks",
@@ -1189,7 +1201,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1785100746000",
+          "id": "realestate-2-1785100746000",
           "title": "У банка «Реалист» появился еще один офис в центре Москвы",
           "summary": "Финансовая организация арендовала здание бизнес-центра на Таганке",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/27/1216580-u-banka-realist-poyavilsya-esche-odin-ofis",
@@ -1201,7 +1213,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1784881374000",
+          "id": "realestate-3-1784881374000",
           "title": "В Крыму снизили арендную плату за госимущество для бизнеса",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/07/24/1216179-krimu-snizili",
@@ -1213,7 +1225,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1784844792000",
+          "id": "realestate-4-1784844792000",
           "title": "«Гранель» построит жилой комплекс на юго-востоке Москвы",
           "summary": "Структура группы выкупила у бывших топ-менеджеров «Интеко» площадку в Лефортове",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/24/1216102-granel-postroit-zhiloi-kompleks-na-yugo-vostoke-moskvi",
@@ -1223,23 +1235,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1784844682000",
-          "title": "В Московском регионе начал снова расти спрос на склады",
-          "summary": "Впрочем, пока активность объясняется несколькими крупными сделками",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/07/24/1216100-v-moskovskom-regione-nachal-rasti-spros-na-skladi",
-          "image": "https://cdn.vdmsti.ru/image/2026/5o/1cl1s0/normal-1qyr.jpg",
-          "publishedAt": "2026-07-23T22:11:22.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-29T20:42:01.304Z",
+      "lastFetchAt": "2026-07-30T04:45:09.720Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
