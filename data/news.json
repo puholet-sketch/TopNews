@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-07-30T11:44:36.171Z",
+  "updatedAt": "2026-07-30T13:22:54.347Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "cybersecurity",
-    "business",
-    "sports",
-    "politics",
-    "law"
-  ],
-  "skippedNow": [
     "it",
-    "ai",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "education",
     "realestate",
     "travel"
   ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "business",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "sports",
+    "politics",
+    "law"
+  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-30T08:04:20.501Z",
+      "lastFetchAt": "2026-07-30T13:22:38.106Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785395045000",
+          "id": "it-0-1785416434000",
+          "title": "Как думает LLM",
+          "summary": "Почему ChatGPT иногда может ответить мгновенно, а иногда заставляет смотреть на надпись Thinking почти минуту? Неужели модель..думает. А раз уж она думает может модель обрела… самосознание? На самом деле этот процесс сег",
+          "url": "https://habr.com/ru/companies/bothub/articles/1064512/?utm_campaign=1064512&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/777/c50/80c/777c5080cc09165be6b07d3f5fa4a221.jpg",
+          "publishedAt": "2026-07-30T13:00:34.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785412111000",
+          "title": "Журналирование ошибок: практическое руководство для Java, Kotlin, JavaScript и Python",
+          "summary": "Привет, Хабр! Меня зовут Ноянова Наталья, около 10 лет я исследую и работаю в ИБ, сейчас занимаюсь статическим анализом кода, изучаю его недостатки и уязвимости. Один из типов таких недостатков кода привлек моё внимание.",
+          "url": "https://habr.com/ru/companies/T1Holding/articles/1063806/?utm_campaign=1063806&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/751/141/9a3/7511419a39763619f8e58081c67f4b37.jpg",
+          "publishedAt": "2026-07-30T11:48:31.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1785395045000",
           "title": "«lock xadd, и это весь Arc::clone? Не совсем",
           "summary": "Ну, привет. lock xadd. Вот и весь Arc::clone на x86. Одна инструкция. Заглядываешь в дизассемблер и даже немного обидно: столько разговоров про атомарные счётчики ссылок, а внутри обычный атомарный инкремент, который ком",
           "url": "https://habr.com/ru/companies/beget/articles/1051176/?utm_campaign=1051176&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785393062000",
+          "id": "it-3-1785393062000",
           "title": "Как пройти алгоритмическое собеседование в Яндексе: советы интервьюера",
           "summary": "Перед офером разработчиков в Яндексе ждут несколько этапов отбора, и один из них — причём вокруг которого ходит больше всего мифов — это собеседование с алгоритмическими задачами. В Яндекс Практикуме прошёл вебинар, где ",
           "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1064626/?utm_campaign=1064626&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785331946000",
+          "id": "it-4-1785331946000",
           "title": "IllegalMonitorStateException. Красим код в поисках монитора",
           "summary": "Статья настоящий разбор-детектив: почему неблокирующий API может блокироваться, как потерять монитор после деоптимизации JIT, почему try-catch иногда важнее коллбэков, и как решать сложные проблемы новыми концепциями мыш",
           "url": "https://habr.com/ru/companies/spring_aio/articles/1064528/?utm_campaign=1064528&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/ec8/a01/3ee/ec8a013ee5f60149b473ed365a5ef2a0.png",
           "publishedAt": "2026-07-29T13:32:26.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1785330029000",
-          "title": "Как устроена программа онлайн-магистратуры ИТМО для разработчиков в эпоху ИИ: гибкость, элективы и поддержка наставников",
-          "summary": "Привет! Это команда Яндекс Практикума. Приёмная кампания 2026 уже идёт и закончится всего , поэтому сегодня подробно расскажем, какие навыки и компетенции нужно развивать начинающим разработчикам несмотря на ИИ и как в э",
-          "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1064260/?utm_campaign=1064260&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f8f/68a/ccf/f8f68accf2603b1db0625985cafc0fe1.png",
-          "publishedAt": "2026-07-29T13:00:29.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785316172000",
-          "title": "За полчаса и 10 рублей — полноценный сайт для редактирования скриншотов. Пошаговая инструкция",
-          "summary": "Делюсь личным опытом создания проекта с нуля на вайбкоде. Красивый сайт со сверхбыстрой загрузкой и функционалом, которого не найти на ресурсах без авторизации. И всё это — с нуля за полчаса описания банальных пожеланий ",
-          "url": "https://habr.com/ru/articles/1064302/?utm_campaign=1064302&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/295/eea/921/295eea92105aa8b760a4f7ee78432855.png",
-          "publishedAt": "2026-07-29T09:09:32.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-30T08:04:26.905Z",
+      "lastFetchAt": "2026-07-30T13:22:40.102Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -319,7 +319,7 @@
           "title": "Wildberries сообщил об атаке беспилотников на склады в Пензенской области и Удмуртии",
           "summary": "В зданиях возникли пожары.",
           "url": "https://vc.ru/marketplace/3053161-wildberries-ataka-bespilotnikov-sklad-penzenskaya-oblast?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3053161/1785398666/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3053161/1785417759/cover.jpg",
           "publishedAt": "2026-07-30T04:30:47.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -339,36 +339,36 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785339117000",
-          "title": "«Магнит Маркет» предупредил продавцов о приостановке работы «основной витрины» с 6 сентября 2026 года — он откажется от «стратегии универсального маркетплейса»",
-          "summary": "Но площадка не закрывается и не прекращает работу с продавцами, говорят в «Магните».",
-          "url": "https://vc.ru/marketplace/3052539-magnit-market-izmenenie-rabotyi?from=rss",
-          "image": "https://leonardo.osnova.io/8a66a954-f981-5e4a-bada-2eadfb754438/",
-          "publishedAt": "2026-07-29T15:31:57.000Z",
+          "id": "startups-2-1785417117000",
+          "title": "Главу производителя масла «Олейна» и майонеза «Слобода» Евгения Ляшенко задержали вместе с акционером компании Валерием Кустовым — из-за подозрений в мошенничестве с проектом грузовых дронов",
+          "summary": "Речь о компании «Транспорт будущего», которая выделилась из группы «Эфко».",
+          "url": "https://vc.ru/legal/3054136-glavu-proizvoditelya-masla-oleina-i-maioneza-sloboda-evgeniya-lyashenko-zaderzhali-vmeste-s-akcionerom-kompanii-valeriem-kustovym-iz-za-podozrenii-v-moshennichestve-s-proektom-gruzovyh-dronov?from=rss",
+          "image": "https://leonardo.osnova.io/16ca5dc1-0db0-57ea-a74e-b69f2f65d2bb/",
+          "publishedAt": "2026-07-30T13:11:57.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1785317474000",
-          "title": "Reuters: Wildberries обсуждает с властями выделение помощи в виде кредитов и льгот — основным источником поддержки может стать ВТБ",
-          "summary": "По данным «Ъ», маркетплейс также начал искать складские площади в Казахстане.",
-          "url": "https://vc.ru/money/3051824-wildberries-podderzhka-vtb-i-sklady-v-kazahstane?from=rss",
-          "image": "https://leonardo.osnova.io/ee792375-0d9d-5c22-805d-96d38282017c/",
-          "publishedAt": "2026-07-29T09:31:14.000Z",
+          "id": "startups-3-1785412926000",
+          "title": "Winamp, перезапущенный как стриминг с подписками на музыкантов, анонсировал выход нового плеера на базе Deezer",
+          "summary": "Он будет работать по подписке, подробные детали компания не раскрывает.",
+          "url": "https://vc.ru/services/3053945-winamp-i-deezer-novyi-strimingovyi-pleer-s-podpiskoi?from=rss",
+          "image": "https://leonardo.osnova.io/9ff739c4-52e9-5c91-b8a3-777a82b3c66b/",
+          "publishedAt": "2026-07-30T12:02:06.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1785390294000",
-          "title": "День 1618: рост реальных располагаемых доходов россиян в первой половине 2026 года замедлился до 1,5%",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/money/3053194-rost-realnih-raspolozhennyh-dohodov-rossiyan-zamedlilsya?from=rss",
-          "image": "https://leonardo.osnova.io/8b8e1bcc-d60f-5f79-b02a-73f07162298f/",
-          "publishedAt": "2026-07-30T05:44:54.000Z",
+          "id": "startups-4-1785397807000",
+          "title": "Отчёт Ozon за квартал: выручка выросла на 47% и составила 334,2 млрд рублей, чистая прибыль — 10,1 млрд рублей",
+          "summary": "Против 359 млн рублей во втором квартале 2025 года.",
+          "url": "https://vc.ru/money/3053401-otchet-ozon-vyruchka-i-pribyl?from=rss",
+          "image": "https://leonardo.osnova.io/a251573c-5a43-507c-89a4-4b1db36a9705/",
+          "publishedAt": "2026-07-30T07:50:07.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-30T08:04:30.778Z",
+      "lastFetchAt": "2026-07-30T13:22:43.283Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-30T08:04:33.429Z",
+      "lastFetchAt": "2026-07-30T13:22:43.822Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,60 +595,60 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1785397500000",
-          "title": "Металл-органический каркас очистил воду от радиоактивного трития в семь раз эффективней",
-          "summary": "Металл-органический каркас очистил воду от радиоактивного трития в семь раз эффективней",
-          "url": "https://nplus1.ru/news/2026/07/30/hto",
-          "image": "https://minio.nplus1.ru/app-images/1124690/conversions/6a6a83da0dac5_cover-share.png",
-          "publishedAt": "2026-07-30T07:45:00.000Z",
+          "id": "environment-0-1785414420000",
+          "title": "Рыбы-симбионты ускорили заживление ран у кораллов",
+          "summary": "Рыбы-симбионты ускорили заживление ран у кораллов",
+          "url": "https://nplus1.ru/news/2026/07/30/fishes-heal-corals",
+          "image": "https://minio.nplus1.ru/app-images/1124883/conversions/6a6b316d2f4db_cover-share.png",
+          "publishedAt": "2026-07-30T12:27:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1785395100000",
-          "title": "В Германии обнаружили 40-тысячелетние фигурки куропаток",
-          "summary": "Немецкие исследователи во главе с Николасом Конрадом (Nicholas Conard) из Тюбингенского университета рассказали о новых находках, сделанных в ходе раскопок в известной пещере Холе-Фельс. Во время работ в слоях, относящих",
-          "url": "https://nplus1.ru/news/2026/07/30/two-small-birds",
-          "image": "https://minio.nplus1.ru/app-images/1124729/conversions/6a6ae5ef66d0a_cover-share.png",
-          "publishedAt": "2026-07-30T07:05:00.000Z",
+          "id": "environment-1-1785406320000",
+          "title": "Самцы медведей обманом преувеличили свой рост в глазах самок и конкурентов",
+          "summary": "Самцы медведей обманом преувеличили свой рост в глазах самок и конкурентов",
+          "url": "https://nplus1.ru/news/2026/07/30/exaggerated-signaling-in-brown-bears",
+          "image": "https://minio.nplus1.ru/app-images/1124839/conversions/6a6b16b32178c_cover-share.png",
+          "publishedAt": "2026-07-30T10:12:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1785358800000",
-          "title": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
-          "summary": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
-          "url": "https://nplus1.ru/news/2026/07/30/milwaukee-shoulder",
-          "image": "https://minio.nplus1.ru/app-images/1124424/conversions/6a68f31f79953_cover-share.png",
-          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "id": "environment-2-1785405600000",
+          "title": "Рацион без сахара в первые 1000 дней после зачатия снизил риск болезни Альцгеймера",
+          "summary": "Рацион без сахара в первые 1000 дней после зачатия снизил риск болезни Альцгеймера",
+          "url": "https://nplus1.ru/news/2026/07/30/early-sugar-rationing",
+          "image": "https://minio.nplus1.ru/app-images/1124605/conversions/6a6a2f271c0b8_cover-share.png",
+          "publishedAt": "2026-07-30T10:00:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1785358800000",
-          "title": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
-          "summary": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
-          "url": "https://nplus1.ru/news/2026/07/30/car-t-pregnancy",
-          "image": "https://minio.nplus1.ru/app-images/1124264/conversions/6a68c91c95310_cover-share.png",
-          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "id": "environment-3-1785403800000",
+          "title": "«Вирусы, вулканы и вода: как Природа меняет общество? О естественных причинах модернизации»",
+          "summary": "Почему модернизация на Западе началась раньше, чем в остальном мире? Многие исследователи считают, что ключевую роль сыграли инновации и институты. При этом куда реже во внимание принимают благоприятные природные условия",
+          "url": "https://nplus1.ru/blog/2026/07/30/viruses-volcanoes-and-water",
+          "image": "https://minio.nplus1.ru/app-images/1124739/conversions/6a6b06a00ca48_cover-share.png",
+          "publishedAt": "2026-07-30T09:30:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1785348000000",
-          "title": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
-          "summary": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
-          "url": "https://nplus1.ru/news/2026/07/29/pet-ownership-health",
-          "image": "https://minio.nplus1.ru/app-images/1124464/conversions/6a69d72126136_cover-share.png",
-          "publishedAt": "2026-07-29T18:00:00.000Z",
+          "id": "environment-4-1785400020000",
+          "title": "Длину бедра назвали маркером риска сахарного диабета",
+          "summary": "Длину бедра назвали маркером риска сахарного диабета",
+          "url": "https://nplus1.ru/news/2026/07/30/measure-your-thigh",
+          "image": "https://minio.nplus1.ru/app-images/1124646/conversions/6a6a6044bb505_cover-share.png",
+          "publishedAt": "2026-07-30T08:27:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-30T08:04:45.029Z",
+      "lastFetchAt": "2026-07-30T13:22:45.615Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,31 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785329829000",
+          "id": "gaming-0-1785407945000",
+          "title": "Какой ПК собрать в 2026 году, чтобы он потянул GTA 6, и не разориться",
+          "summary": "Стоит выйти новому трейлеру GTA 6, как половина всех, у кого есть ПК, внезапно вспоминает, что он был собран еще во времена второго Обливиона. А раз так, то оценить новый релиз не получится ну никак. Значит, надо обновля",
+          "url": "https://habr.com/ru/companies/x-com/articles/1064884/?utm_campaign=1064884&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/cba/a67/b79/cbaa67b7950cb4b2ef16425d7982de45.jpeg",
+          "publishedAt": "2026-07-30T10:39:05.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785402076000",
+          "title": "Чего ждать от Unreal Engine 6: подробное превью",
+          "summary": "Компания Epic Games готовит к релизу Unreal Engine 6, который призван изменить подход к разработке игр. В отличие от UE5, сфокусированного на визуальной составляющей, шестая итерация станет основой для создания масштабно",
+          "url": "https://habr.com/ru/companies/ggsel/articles/1064582/?utm_campaign=1064582&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/104/4c4/449/1044c444922b15ed7ed550ac8b525c55.png",
+          "publishedAt": "2026-07-30T09:01:16.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1785329829000",
           "title": "Лучшие новые игры для Nintendo Switch: во что поиграть в 2026 году",
           "summary": "Портативный гейминг особенно актуален в сезон отпусков. И так как на улице обычно нет возможности полностью погрузиться в сюжет, здесь больше подходят игры, ориентированные на геймплей. Как раз такими электронными развле",
           "url": "https://habr.com/ru/companies/ggsel/articles/1064504/?utm_campaign=1064504&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785227676000",
+          "id": "gaming-3-1785227676000",
           "title": "Идеальный диегетический инвентарь",
           "summary": "Диегетические игровые элементы (существующие в мире игры) — довольно привычное явление на сегодняшний день, но, несмотря на это, мало кто с ними работает на полную, добиваясь влияния на механики. Бесплатная игра Crawl ка",
           "url": "https://habr.com/ru/articles/1063852/?utm_campaign=1063852&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785154123000",
+          "id": "gaming-4-1785154123000",
           "title": "Mount &amp; Blade 2: Bannerlord в 2026 году: что изменилось, и стоит ли возвращаться?",
           "summary": "Mount & Blade по праву считается одной из лучших серий игр-песочниц про Средневековье. Преданные поклонники раз за разом возвращаются в суровый мир Кальрадии, чтобы преуспеть в завоевании замков и городов, снискать славу",
           "url": "https://habr.com/ru/companies/ggsel/articles/1063502/?utm_campaign=1063502&utm_source=habrahabr&utm_medium=rss",
@@ -839,35 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1785150010000",
-          "title": "Как я получил перманентный бан за публикацию статьи про инди‑геймдев на IXBT",
-          "summary": "Что же за статья такая была? Неужели там была какая‑то информация, нарушающая нормы законодательства? Ведь не дают перманентный бан просто так! Значит, была веская причина. Оказывается — это всё неважно, и перманентный б",
-          "url": "https://habr.com/ru/articles/1063366/?utm_campaign=1063366&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a55/302/3d4/a553023d405c84586efc4bffbfc0f8ca.webp",
-          "publishedAt": "2026-07-27T11:00:10.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785089102000",
-          "title": "Почему страх в старых играх работал?",
-          "summary": "Вот представь, ты только что вернулся из школы,совсем недавно отец принес новую пачку дисков для PlayStation. Ты с интересом начал перебирать коробки. Они приятно пахнут свежим пластиком, и каждая манит обещанием новых м",
-          "url": "https://habr.com/ru/companies/timeweb/articles/1050294/?utm_campaign=1050294&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/af5/c03/397/af5c03397f066849863d5aae2d244193.png",
-          "publishedAt": "2026-07-26T18:05:02.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-30T08:04:46.503Z",
+      "lastFetchAt": "2026-07-30T13:22:52.151Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -877,9 +877,9 @@
         {
           "id": "entertainment-0-1785397603000",
           "title": "Отца Эми Уайнхаус обязали выплатить ее подругам почти 1 млн фунтов",
-          "summary": "Высокий суд Лондона обязал отца британской певицы Эми Уайнхаус выплатить подругам дочери £950 тыс. в рамках проигранного иска. Отец певицы, Митч Уайнхаус, выступал в качестве истца.",
+          "summary": "Высокий суд Лондона обязал отца британской певицы Эми Уайнхаус выплатить подругам дочери £950 тыс. ($1,2 млн) в рамках проигранного иска.",
           "url": "https://www.kommersant.ru/doc/8847993",
-          "image": "https://iv.kommersant.ru/SocialPics/8847993_49_3171908_548591088",
+          "image": "https://im2.kommersant.ru/SocialPics/8847993_49_3171908_548591088",
           "publishedAt": "2026-07-30T07:46:43.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-07-30T04:45:08.794Z",
+      "lastFetchAt": "2026-07-30T13:22:53.676Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1169,7 +1169,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-07-30T04:45:09.407Z",
+      "lastFetchAt": "2026-07-30T13:22:54.192Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1239,7 +1239,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-07-30T04:45:09.720Z",
+      "lastFetchAt": "2026-07-30T13:22:54.347Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
