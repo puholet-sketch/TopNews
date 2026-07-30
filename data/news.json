@@ -1,15 +1,10 @@
 {
-  "updatedAt": "2026-07-29T22:45:38.358Z",
+  "updatedAt": "2026-07-30T01:16:03.716Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -20,6 +15,11 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-07-29T18:51:43.431Z",
+      "lastFetchAt": "2026-07-30T01:15:27.590Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-07-29T18:51:45.740Z",
+      "lastFetchAt": "2026-07-30T01:15:30.030Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,43 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1785338992000",
+          "id": "ai-0-1785371403000",
+          "title": "ИИ в медицине: на пути к клиническому применению",
+          "summary": "В 2026 году активно выходят новые фронтир LLM-ки, агентные системы и принципиально новые подходы в самых разных областях. Медицинский AI периодически перенимает наработки, однако область применения ИИ в медицине сейчас о",
+          "url": "https://habr.com/ru/articles/1064694/?utm_campaign=1064694&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/127/a70/afc/127a70afcf80724b041d848a799d5aaa.png",
+          "publishedAt": "2026-07-30T00:30:03.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1785355639000",
+          "title": "Глобальная Управляющая Система: интерпретация высшего разума через призму ТАУ и кибернетики",
+          "summary": "Мысленный эксперимент инженера по системам регулирования: демифологизация высшего разума и анализ структуры мироздания через призму ТАУ и кибернетики. Познание Бога Очень хочется, чтобы вам пон",
+          "url": "https://habr.com/ru/articles/1064674/?utm_campaign=1064674&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1064674/985eeeb5d6647b175674ecfa59ea96e9/",
+          "publishedAt": "2026-07-29T20:07:19.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1785352514000",
+          "title": "Как попасть в голосовые ответы Алисы — и почему разметка тут почти ни при чём",
+          "summary": "Недавно на сайте одного из клиентов мы с командой по всем правилам поставили speakable — разметку, которая подсказывает голосовому ассистенту, какие куски страницы читать вслух: короткий ответ в начале, три ответа из FAQ",
+          "url": "https://habr.com/ru/articles/1064662/?utm_campaign=1064662&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/451/ecc/e29/451ecce29478ca04286190b1ab259be6.jpg",
+          "publishedAt": "2026-07-29T19:15:14.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-3-1785338992000",
           "title": "[Перевод] Дата-агенты поверх BI: кто такая Dora и что она может сделать с вашими данными",
           "summary": "Всем привет! На связи Александр Ларин, руководитель центра поддержки и обучения в GlowByte. Компания GlowByte – официальный партнер FanRuan по внедрению FineBI в России. Мы внимательно изучаем новые продукты вендора и не",
           "url": "https://habr.com/ru/companies/glowbyte/articles/1064590/?utm_campaign=1064590&utm_source=habrahabr&utm_medium=rss",
@@ -117,48 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1785337701000",
+          "id": "ai-4-1785337701000",
           "title": "Claude Opus 5: самая умная модель по версии Artificial Analysis – что скрывается за баллами",
           "summary": "Полтора месяца все обсуждали Fable 5. Её выпустили 9 июня, через три дня отключили по требованию Минторга США (экспортные ограничения, что-то про уязвимость в защите), а 30 июня вернули обратно, но уже без места в обычно",
           "url": "https://habr.com/ru/companies/gptunnel/articles/1064584/?utm_campaign=1064584&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/43f/624/37a/43f62437a1fc2d8f062ffc16437ebad0.png",
           "publishedAt": "2026-07-29T15:08:21.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-2-1785337221000",
-          "title": "Как создать сайт с помощью Codex и GPT-5.6 — пошаговый гайд для новичка",
-          "summary": "В этом гайде я покажу, как создать сайт в Codex, используя модель GPT-5.6. Вы программист? Я - нет. Но у меня получилось сгенерировать сайт хорошего качества за один вечер. Читать далее",
-          "url": "https://habr.com/ru/articles/1064580/?utm_campaign=1064580&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/1e8/067/eaf/1e8067eaf1f4c6a99e28c7d0e9ba46ef.jpg",
-          "publishedAt": "2026-07-29T15:00:21.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1785330029000",
-          "title": "Как устроена программа онлайн-магистратуры ИТМО для разработчиков в эпоху ИИ: гибкость, элективы и поддержка наставников",
-          "summary": "Привет! Это команда Яндекс Практикума. Приёмная кампания 2026 уже идёт и закончится всего , поэтому сегодня подробно расскажем, какие навыки и компетенции нужно развивать начинающим разработчикам несмотря на ИИ и как в э",
-          "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1064260/?utm_campaign=1064260&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f8f/68a/ccf/f8f68accf2603b1db0625985cafc0fe1.png",
-          "publishedAt": "2026-07-29T13:00:29.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1785329064000",
-          "title": "ГОСТы по ИИ. Разбираю 5 стандартов",
-          "summary": "С 1 января 2025 года в России уже действует пакет национальных стандартов по искусственному интеллекту. Этот разбор я делал по первоисточникам, поэтому дальше будет много конкретики. Впереди лонгрид, если хочется краткую",
-          "url": "https://habr.com/ru/articles/1064494/?utm_campaign=1064494&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1064494/60266b401bc2078186b0f50e4703b6d0/",
-          "publishedAt": "2026-07-29T12:44:24.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-07-29T22:45:35.064Z",
+      "lastFetchAt": "2026-07-30T01:15:31.991Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-07-29T18:51:49.372Z",
+      "lastFetchAt": "2026-07-30T01:15:34.447Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -343,7 +343,7 @@
           "title": "Финская энергетическая компания Fingrid предупредила, что с 2027 года прекратит обслуживание линий связи, через которые проходит часть интернет-трафика между Россией и Европой — «Ъ»",
           "summary": "Российские операторы уже ведут переговоры с финскими компаниями об альтернативных маршрутах.",
           "url": "https://vc.ru/services/3051950-fingrid-prekrashchaet-obsluzhivanie-linij-svyazi-mezhdu-rossiej-i-evropej?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3051950/1785351109/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3051950/1785374134/cover.jpg",
           "publishedAt": "2026-07-29T10:11:29.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-07-29T18:51:49.941Z",
+      "lastFetchAt": "2026-07-30T01:15:35.298Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -385,7 +385,31 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1785348000000",
+          "id": "science-0-1785358800000",
+          "title": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
+          "summary": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
+          "url": "https://nplus1.ru/news/2026/07/30/milwaukee-shoulder",
+          "image": "https://minio.nplus1.ru/app-images/1124424/conversions/6a68f31f79953_cover-share.png",
+          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1785358800000",
+          "title": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
+          "summary": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
+          "url": "https://nplus1.ru/news/2026/07/30/car-t-pregnancy",
+          "image": "https://minio.nplus1.ru/app-images/1124264/conversions/6a68c91c95310_cover-share.png",
+          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-2-1785348000000",
           "title": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
           "summary": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
           "url": "https://nplus1.ru/news/2026/07/29/pet-ownership-health",
@@ -397,7 +421,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1785338280000",
+          "id": "science-3-1785338280000",
           "title": "Онколитическая генная иммунотерапия позволила не удалять мочевой пузырь при раке",
           "summary": "Онколитическая генная иммунотерапия позволила не удалять мочевой пузырь при раке",
           "url": "https://nplus1.ru/news/2026/07/29/geneonkoimmuno",
@@ -409,36 +433,12 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-2-1785329100000",
+          "id": "science-4-1785329100000",
           "title": "Глифлозины снизили риск метастазирования рака груди",
           "summary": "Глифлозины снизили риск метастазирования рака груди",
           "url": "https://nplus1.ru/news/2026/07/29/sglt2-inhibitors-metastasis",
           "image": "https://minio.nplus1.ru/app-images/1124492/conversions/6a69ef929d085_cover-share.png",
           "publishedAt": "2026-07-29T12:45:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-3-1785309840000",
-          "title": "Генетики прочитали ДНК ужасных волков",
-          "summary": "Палеогенетики прочитали ядерную ДНК двух ужасных волков, остатки которых обнаружили на территории США. Они выяснили, что, по всей видимости, популяция этих животных возникла в результате смешения двух эволюционных линий,",
-          "url": "https://nplus1.ru/news/2026/07/29/genomes-of-dire-wolf",
-          "image": "https://minio.nplus1.ru/app-images/1124045/conversions/6a68711059ba8_cover-share.png",
-          "publishedAt": "2026-07-29T07:24:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1785298200000",
-          "title": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
-          "summary": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
-          "url": "https://nplus1.ru/news/2026/07/29/tabby-star-companion-maybe",
-          "image": "https://minio.nplus1.ru/app-images/1124383/conversions/6a68d1b5f221c_cover-share.png",
-          "publishedAt": "2026-07-29T04:10:00.000Z",
           "source": "N+1",
           "categoryId": "science",
           "categoryName": "Наука",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-07-29T18:51:53.420Z",
+      "lastFetchAt": "2026-07-30T01:15:42.232Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -455,7 +455,31 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1784647888000",
+          "id": "medicine-0-1785373820000",
+          "title": "Жителя Магнитогорска приговорили к трём годам колонии за нападение на бригаду скорой",
+          "summary": "Суд назначил жителю Магнитогорска три года колонии общего режима по делу о нападении на бригаду скорой помощи. Сообщение Жителя Магнитогорска приговорили к трём годам колонии за нападение на бригаду скорой появились снач",
+          "url": "https://medrussia.org/63250-zhitelya-magnitogorska-prigovorili-k-t/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/07/magnitogorsk-ambulance-crew-safety-2026.jpg",
+          "publishedAt": "2026-07-30T01:10:20.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1785364304000",
+          "title": "Роспотребнадзор рекомендовал регионам оценить готовность к сезону гриппа до 30 сентября",
+          "summary": "Главный государственный санитарный врач Анна Попова подписала постановление о профилактике гриппа, ОРВИ и COVID-19 в эпидсезоне 2026–2027 годов. Регионам рекомендовали до 30 сентября оценить готовность медицинских органи",
+          "url": "https://medrussia.org/63245-rospotrebnadzor-rekomendoval-region/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/07/medrussia-63245-flu-season-reportage.png",
+          "publishedAt": "2026-07-29T22:31:44.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-2-1784647888000",
           "title": "Три жалобы в Росздравнадзор и семь исков в суд подали пациенты на Ильинскую больницу",
           "summary": "В Санкт-Петербурге пациенты «Ильинской больницы» и их родственники оспаривают последствия операций, качество медицинской помощи и стоимость вмешательств, которые, по их мнению, не должны были оплачиваться, сообщают «Изве",
           "url": "https://medrussia.org/63242-tri-zhalobi-v-roszdravnadzor-i-sem-isk/",
@@ -467,7 +491,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1784627839000",
+          "id": "medicine-3-1784627839000",
           "title": "Фельдшер отсудила 10 тысяч моральной компенсации по делу о защите чести и достоинства",
           "summary": "В Орловской области суд рассмотрел гражданское дело по иску фельдшера скорой помощи к местной супружеской паре о защите чести, достоинства и компенсации морального вреда. Основанием для разбирательства послужил конфликт,",
           "url": "https://medrussia.org/63239-feldsher-otsudila-10-tisyach-moralnoy-ko/",
@@ -479,36 +503,12 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1784621269000",
+          "id": "medicine-4-1784621269000",
           "title": "В департаменте здравоохранения Курганской области отрицают реорганизацию больниц, на которую жаловались врачи",
           "summary": "О ситуации рассказали сотрудники ГБУ «Шадринская центральная районная больница», отметив, что недопонимания возникли после назначения на должность нового руководителя Дмитрия Подушкина, ранее возглавлявшего ГБУ «Шадринск",
           "url": "https://medrussia.org/63235-v-departamente-zdravookhraneniya-kurg-2/",
           "image": "https://medrussia.org/wp-content/uploads/2026/07/bfnd06sfcuwsjctaz758sn05lh1jcfdnq8t3tjkk2u5hny-bwx4yafiazhhy3vtz1z-v8gqcyfdrizclzvf78cou.jpg",
           "publishedAt": "2026-07-21T08:07:49.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-3-1784562437000",
-          "title": "Путин поручил проанализировать систему наставничества и собрать «обратную связь» от врачей",
-          "summary": "Президент России Владимир Путин поручил изучить, как в регионах развивается система наставничества молодых специалистов. Мониторингом займётся комиссия Госсовета по направлению «Продолжительная и активная жизнь» совместн",
-          "url": "https://medrussia.org/63232-putin-poruchil-proanalizirovat-sist/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/07/vladimir_putin_v_2023_godu.jpg",
-          "publishedAt": "2026-07-20T15:47:17.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1784549729000",
-          "title": "Врачи из Новосибирска впервые в России применили передовую технологию для лечения врождённых пороков",
-          "summary": "В НМИЦ им. ак. Е. Н. Мешалкина Минздрава России поступила четырехлетняя девочка с редким многокомпонентным врождённым пороком сердца и зеркальным расположением органов. У ребёнка диагностированы коррегированная транспози",
-          "url": "https://medrussia.org/63227-vrachi-iz-novosibirska-vpervie-v-rossi/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/07/e180b9ea-19c1-4f56-bfb9-bbd35489b91d.jpeg",
-          "publishedAt": "2026-07-20T12:15:29.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-07-29T18:51:55.194Z",
+      "lastFetchAt": "2026-07-30T01:15:44.810Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -525,7 +525,31 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1784647888000",
+          "id": "health-0-1785373820000",
+          "title": "Жителя Магнитогорска приговорили к трём годам колонии за нападение на бригаду скорой",
+          "summary": "Суд назначил жителю Магнитогорска три года колонии общего режима по делу о нападении на бригаду скорой помощи. Сообщение Жителя Магнитогорска приговорили к трём годам колонии за нападение на бригаду скорой появились снач",
+          "url": "https://medrussia.org/63250-zhitelya-magnitogorska-prigovorili-k-t/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/07/magnitogorsk-ambulance-crew-safety-2026.jpg",
+          "publishedAt": "2026-07-30T01:10:20.000Z",
+          "source": "МедРоссия",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-1-1785364304000",
+          "title": "Роспотребнадзор рекомендовал регионам оценить готовность к сезону гриппа до 30 сентября",
+          "summary": "Главный государственный санитарный врач Анна Попова подписала постановление о профилактике гриппа, ОРВИ и COVID-19 в эпидсезоне 2026–2027 годов. Регионам рекомендовали до 30 сентября оценить готовность медицинских органи",
+          "url": "https://medrussia.org/63245-rospotrebnadzor-rekomendoval-region/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/07/medrussia-63245-flu-season-reportage.png",
+          "publishedAt": "2026-07-29T22:31:44.000Z",
+          "source": "МедРоссия",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-2-1784647888000",
           "title": "Три жалобы в Росздравнадзор и семь исков в суд подали пациенты на Ильинскую больницу",
           "summary": "В Санкт-Петербурге пациенты «Ильинской больницы» и их родственники оспаривают последствия операций, качество медицинской помощи и стоимость вмешательств, которые, по их мнению, не должны были оплачиваться, сообщают «Изве",
           "url": "https://medrussia.org/63242-tri-zhalobi-v-roszdravnadzor-i-sem-isk/",
@@ -537,7 +561,7 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1784627839000",
+          "id": "health-3-1784627839000",
           "title": "Фельдшер отсудила 10 тысяч моральной компенсации по делу о защите чести и достоинства",
           "summary": "В Орловской области суд рассмотрел гражданское дело по иску фельдшера скорой помощи к местной супружеской паре о защите чести, достоинства и компенсации морального вреда. Основанием для разбирательства послужил конфликт,",
           "url": "https://medrussia.org/63239-feldsher-otsudila-10-tisyach-moralnoy-ko/",
@@ -549,7 +573,7 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-2-1784621269000",
+          "id": "health-4-1784621269000",
           "title": "В департаменте здравоохранения Курганской области отрицают реорганизацию больниц, на которую жаловались врачи",
           "summary": "О ситуации рассказали сотрудники ГБУ «Шадринская центральная районная больница», отметив, что недопонимания возникли после назначения на должность нового руководителя Дмитрия Подушкина, ранее возглавлявшего ГБУ «Шадринск",
           "url": "https://medrussia.org/63235-v-departamente-zdravookhraneniya-kurg-2/",
@@ -559,35 +583,11 @@
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
-        },
-        {
-          "id": "health-3-1784562437000",
-          "title": "Путин поручил проанализировать систему наставничества и собрать «обратную связь» от врачей",
-          "summary": "Президент России Владимир Путин поручил изучить, как в регионах развивается система наставничества молодых специалистов. Мониторингом займётся комиссия Госсовета по направлению «Продолжительная и активная жизнь» совместн",
-          "url": "https://medrussia.org/63232-putin-poruchil-proanalizirovat-sist/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/07/vladimir_putin_v_2023_godu.jpg",
-          "publishedAt": "2026-07-20T15:47:17.000Z",
-          "source": "МедРоссия",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-4-1784549729000",
-          "title": "Врачи из Новосибирска впервые в России применили передовую технологию для лечения врождённых пороков",
-          "summary": "В НМИЦ им. ак. Е. Н. Мешалкина Минздрава России поступила четырехлетняя девочка с редким многокомпонентным врождённым пороком сердца и зеркальным расположением органов. У ребёнка диагностированы коррегированная транспози",
-          "url": "https://medrussia.org/63227-vrachi-iz-novosibirska-vpervie-v-rossi/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/07/e180b9ea-19c1-4f56-bfb9-bbd35489b91d.jpeg",
-          "publishedAt": "2026-07-20T12:15:29.000Z",
-          "source": "МедРоссия",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
         }
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-07-29T18:51:55.358Z",
+      "lastFetchAt": "2026-07-30T01:15:45.182Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,31 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1785348000000",
+          "id": "environment-0-1785358800000",
+          "title": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
+          "summary": "Работа на стройке полностью разрушила мужчине головку плечевой кости",
+          "url": "https://nplus1.ru/news/2026/07/30/milwaukee-shoulder",
+          "image": "https://minio.nplus1.ru/app-images/1124424/conversions/6a68f31f79953_cover-share.png",
+          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1785358800000",
+          "title": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
+          "summary": "Медики сообщили о нормальных беременностях после CAR-T-терапии аутоиммунных болезней",
+          "url": "https://nplus1.ru/news/2026/07/30/car-t-pregnancy",
+          "image": "https://minio.nplus1.ru/app-images/1124264/conversions/6a68c91c95310_cover-share.png",
+          "publishedAt": "2026-07-29T21:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1785348000000",
           "title": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
           "summary": "Наличие домашних животных связали со снижением субъективной оценки здоровья",
           "url": "https://nplus1.ru/news/2026/07/29/pet-ownership-health",
@@ -607,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1785338280000",
+          "id": "environment-3-1785338280000",
           "title": "Онколитическая генная иммунотерапия позволила не удалять мочевой пузырь при раке",
           "summary": "Онколитическая генная иммунотерапия позволила не удалять мочевой пузырь при раке",
           "url": "https://nplus1.ru/news/2026/07/29/geneonkoimmuno",
@@ -619,7 +643,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1785329100000",
+          "id": "environment-4-1785329100000",
           "title": "Глифлозины снизили риск метастазирования рака груди",
           "summary": "Глифлозины снизили риск метастазирования рака груди",
           "url": "https://nplus1.ru/news/2026/07/29/sglt2-inhibitors-metastasis",
@@ -629,35 +653,11 @@
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
-        },
-        {
-          "id": "environment-3-1785309840000",
-          "title": "Генетики прочитали ДНК ужасных волков",
-          "summary": "Палеогенетики прочитали ядерную ДНК двух ужасных волков, остатки которых обнаружили на территории США. Они выяснили, что, по всей видимости, популяция этих животных возникла в результате смешения двух эволюционных линий,",
-          "url": "https://nplus1.ru/news/2026/07/29/genomes-of-dire-wolf",
-          "image": "https://minio.nplus1.ru/app-images/1124045/conversions/6a68711059ba8_cover-share.png",
-          "publishedAt": "2026-07-29T07:24:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1785298200000",
-          "title": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
-          "summary": "Астрономы нашли у звезды Табби кандидата в компаньоны планетарной массы",
-          "url": "https://nplus1.ru/news/2026/07/29/tabby-star-companion-maybe",
-          "image": "https://minio.nplus1.ru/app-images/1124383/conversions/6a68d1b5f221c_cover-share.png",
-          "publishedAt": "2026-07-29T04:10:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
         }
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-07-29T18:52:00.008Z",
+      "lastFetchAt": "2026-07-30T01:15:50.227Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1785350720000",
-          "title": "Митрополита Илариона направили служить в женский монастырь в Подмосковье",
-          "summary": "Патриарх Московский и всея Руси Кирилл изменил свое решение о месте служения митрополита Илариона (Алфеева). В начале июня митрополита направили служить в Бразилию после того, как его задержали в Чехии по подозрению в хр",
-          "url": "https://www.kommersant.ru/doc/8847772",
-          "image": "https://iv.kommersant.ru/SocialPics/8847772_49_0_1695115098",
-          "publishedAt": "2026-07-29T18:45:20.000Z",
+          "id": "energy-0-1785373841000",
+          "title": "Тело пропавшей женщины нашли в лесополосе в Подмосковье",
+          "summary": "Тело 39-летней женщины обнаружили в лесополосе в подмосковном Одинцово, сообщает СКР по Московской области. Следователи возбудили уголовное дело об убийстве (ч.",
+          "url": "https://www.kommersant.ru/doc/8847814",
+          "image": "https://im2.kommersant.ru/SocialPics/8847814_49_0_1522100371",
+          "publishedAt": "2026-07-30T01:10:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1785350612000",
-          "title": "Джаред Лето ответил на обвинения в сексуализированном насилии",
-          "summary": "Американский певец и актер Джаред Лето отверг обвинения в сексуализированном насилии. Об этом исполнитель рассказал в интервью порталу TMZ.",
-          "url": "https://www.kommersant.ru/doc/8847773",
-          "image": "https://im2.kommersant.ru/SocialPics/8847773_49_0_1270321920",
-          "publishedAt": "2026-07-29T18:43:32.000Z",
+          "id": "energy-1-1785372381000",
+          "title": "США атаковали Иран после обстрела базы в Иордании",
+          "summary": "Американские войска нанесли удары по территории Ирана. Об этом сообщила пресс-служба Центрального командования ВС США (CENTCOM) в соцсети X.",
+          "url": "https://www.kommersant.ru/doc/8847819",
+          "image": "https://iv.kommersant.ru/SocialPics/8847819_49_0_949678543",
+          "publishedAt": "2026-07-30T00:46:21.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1785350559000",
-          "title": "Бывшая глава аппарата СР зарегистрирована кандидатом в Госдуму от «Новых людей»",
-          "summary": "Экс-глава центрального аппарата «Справедливой России» (СР) Анастасия Павлюченкова зарегистрирована в качестве кандидата в Госдуму от партии «Новые люди» по Ленинградскому одномандатному округу Москвы. «Системе нужна инъе",
-          "url": "https://www.kommersant.ru/doc/8847774",
-          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/07/29/KMO_200805_00058_1_t219_214640.jpg",
-          "publishedAt": "2026-07-29T18:42:39.000Z",
+          "id": "energy-2-1785371346000",
+          "title": "15 человек погибли при нападении боевиков на КПП в Пакистане",
+          "summary": "Минимум 15 человек погибли при нападении на КПП на севере Пакистана. Среди них семеро полицейских и восемь предполагаемых боевиков, передает AFP.",
+          "url": "https://www.kommersant.ru/doc/8847818",
+          "image": "https://im2.kommersant.ru/SocialPics/8847818_49_0_622588512",
+          "publishedAt": "2026-07-30T00:29:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1785350338000",
-          "title": "На Урале задержали второго фигуранта дела об избиении ученого Никиты Зезина",
-          "summary": "Второго фигуранта дела об избиении директора Уральского федерального аграрного центра Уральского отделения Российской академии наук и ученого Никиты Зезина задержали. Ему предъявили обвинение по делу о хулиганстве, сообщ",
-          "url": "https://www.kommersant.ru/doc/8847771",
-          "image": "https://im2.kommersant.ru/SocialPics/8847771_49_0_862218557",
-          "publishedAt": "2026-07-29T18:38:58.000Z",
+          "id": "energy-3-1785370114000",
+          "title": "Трамп: премьер Великобритании пообещал открыть Северное море для добычи нефти",
+          "summary": "Президент США Дональд Трамп заявил, что новый премьер Великобритании Энди Бернем выразил желание начать добычу нефти в Северном море. «Новый джентльмен, когда я с ним разговаривал, сказал, что намерен открыть Северное мо",
+          "url": "https://www.kommersant.ru/doc/8847817",
+          "image": "https://im2.kommersant.ru/SocialPics/8847817_49_0_1855310679",
+          "publishedAt": "2026-07-30T00:08:34.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1785348879000",
-          "title": "ООН: число нападений на палестинцев на Западном берегу достигло рекордного уровня",
-          "summary": "Управление верховного комиссара ООН по правам человека (OHCHR) заявило об ухудшении ситуации на Западном берегу реки Иордан — число случаев насилия со стороны израильских поселенцев достигло рекордного уровня. По подсчет",
-          "url": "https://www.kommersant.ru/doc/8847762",
-          "image": "https://im2.kommersant.ru/SocialPics/8847762_49_3171750_130188548",
-          "publishedAt": "2026-07-29T18:14:39.000Z",
+          "id": "energy-4-1785368357000",
+          "title": "Песня певицы-иноагента Монеточки прозвучала в новом фильме о Человеке-пауке",
+          "summary": "Песня «Монополия» Елизаветы Гырдымовой (Монеточка; признана иноагентом в РФ) вошла в саундтрек фильма «Человек-паук: Новый день». Об этом сообщила кинокритик Тамара Ходова.",
+          "url": "https://www.kommersant.ru/doc/8847816",
+          "image": "https://im2.kommersant.ru/SocialPics/8847816_49_0_514825745",
+          "publishedAt": "2026-07-29T23:39:17.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-07-29T18:52:00.911Z",
+      "lastFetchAt": "2026-07-30T01:15:51.243Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-07-29T18:52:04.069Z",
+      "lastFetchAt": "2026-07-30T01:15:55.135Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-07-29T18:52:05.476Z",
+      "lastFetchAt": "2026-07-30T01:15:58.430Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,19 +875,43 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1785350612000",
-          "title": "Джаред Лето ответил на обвинения в сексуализированном насилии",
-          "summary": "Американский певец и актер Джаред Лето отверг обвинения в сексуализированном насилии. Об этом исполнитель рассказал в интервью порталу TMZ.",
-          "url": "https://www.kommersant.ru/doc/8847773",
-          "image": "https://iv.kommersant.ru/SocialPics/8847773_49_0_1270321920",
-          "publishedAt": "2026-07-29T18:43:32.000Z",
+          "id": "entertainment-0-1785368357000",
+          "title": "Песня певицы-иноагента Монеточки прозвучала в новом фильме о Человеке-пауке",
+          "summary": "Песня «Монополия» Елизаветы Гырдымовой (Монеточка; признана иноагентом в РФ) вошла в саундтрек фильма «Человек-паук: Новый день». Об этом сообщила кинокритик Тамара Ходова.",
+          "url": "https://www.kommersant.ru/doc/8847816",
+          "image": "https://iv.kommersant.ru/SocialPics/8847816_49_0_514825745",
+          "publishedAt": "2026-07-29T23:39:17.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1785341560000",
+          "id": "entertainment-1-1785358618000",
+          "title": "«Одиссея» Нолана собрала в прокате больше $700 млн",
+          "summary": "«Одиссея» Кристофера Нолана собрала в прокате $727,9 млн по всему миру и стала четвертым самым кассовым фильмом года всего через 12 дней после выхода на экраны. Об этом сообщает Variety.",
+          "url": "https://www.kommersant.ru/doc/8847798",
+          "image": "https://im2.kommersant.ru/SocialPics/8847798_49_0_424356272",
+          "publishedAt": "2026-07-29T20:56:58.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1785357044000",
+          "title": "«Мастер и Маргарита» Локшина выйдет в США в сентябре",
+          "summary": "Экранизация романа Михаила Булгакова «Мастер и Маргарита» режиссера Михаила Локшина выйдет в американский прокат спустя два с лишним года после премьеры в России. Релиз в США задержался из-за долгих разбирательств в суда",
+          "url": "https://www.kommersant.ru/doc/8847794",
+          "image": "https://im2.kommersant.ru/SocialPics/8847794_49_0_547559867",
+          "publishedAt": "2026-07-29T20:30:44.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-3-1785341560000",
           "title": "Заправочное бюро // Музей архитектуры показывает выставку, посвященную АЗС",
           "summary": "В Музее архитектуры им. А. В. Щусева представили проект «АЗС. Архитектура заправочных станций». Он посвящен эволюции бензоколонок, большей частью на примере советской эпохи, и превращению их в факт массовой культуры. Зло",
           "url": "https://www.kommersant.ru/doc/8847666",
@@ -899,7 +923,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1785339130000",
+          "id": "entertainment-4-1785339130000",
           "title": "«Эксмо» сняло с продажи роман Даниила Туровского «Луч»",
           "summary": "Российское издательство «Эксмо» сняло с продажи фантастический роман Даниила Туровского «Луч». Об этом сам автор произведения сообщил в Instagram (принадлежит Meta, признанной экстремистской и запрещенной в РФ).",
           "url": "https://www.kommersant.ru/doc/8847632",
@@ -909,35 +933,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1785337276000",
-          "title": "Марафон беспокойников // В кинотеатрах стартует анимационный триллер «Непокой»",
-          "summary": "В прокат выходит фильм «Непокой» Леонида Шмелькова. Заявленную творческую задачу режиссер, безусловно, выполнил — Михаил Трофименков вошел в состояние глубокого непокоя.",
-          "url": "https://www.kommersant.ru/doc/8847599",
-          "image": "https://iv.kommersant.ru/SocialPics/8847599_49_3171569_398412727",
-          "publishedAt": "2026-07-29T15:01:16.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1785336448000",
-          "title": "Мировой тур BTS принес их музыкальному агентству HYBE рекордный $1 млрд",
-          "summary": "Выручка южнокорейского музыкального агентства и звукозаписывающего лейбла HYBE во втором квартале составила рекордные 1,45 трлн вон ($987 млн). Операционная прибыль также оказалась рекордной — 170,9 млрд вон ($116 млн).",
-          "url": "https://www.kommersant.ru/doc/8847625",
-          "image": "https://im2.kommersant.ru/SocialPics/8847625_49_3171579_2024952131",
-          "publishedAt": "2026-07-29T14:47:28.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-07-29T22:45:37.085Z",
+      "lastFetchAt": "2026-07-30T01:16:02.119Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785364623000",
-          "title": "Товарищеские матчи. «Ливерпуль» сыграет с «Рексхэмом» в США, «Атлетико» забил 4 гола «Хетафе», «Боруссия» Дортмунд уступила «Осаке»",
-          "summary": "В товарищеских матчах «Боруссия» Дортмунд в гостях уступила «Сересо Осака» (0:1), «Атлетико» разгромил «Хетафе» (4:1), «Ливерпуль» встретится с « Рексхэмом » в США. Товарищеские матчи « Байер » Германия – « Генк » Бельги",
+          "id": "sports-0-1785372960000",
+          "title": "Губерниев о ЦСКА: «Игдисамов – нормальный и воспитанный мужик. Приятно удивило, что он нашел мой телефон и написал слова благодарности за поддержку. Это умный тренер»",
+          "summary": "Комментатор и ведущий «Матч ТВ» Дмитрий Губерниев высказался про главного тренера ЦСКА Дмитрия Игдисамова. «Надеюсь, что ЦСКА тоже будет бороться за высокие места. Давно пора! В клубе молодцы, что сделали тренером Игдиса",
+          "url": "https://www.sports.ru/football/1117317373-guberniev-o-czska-igdisamov-normalnyj-i-vospitannyj-muzhik-priyatno-ud.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/737/3/share/e75c1c_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T00:56:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1785372120000",
+          "title": "Месси провел первую тренировку с «Интер Майами» после ЧМ-2026",
+          "summary": "Нападающий Лионель Месси вернулся в расположение « Интер Майами » после ЧМ-2026 . 39-летний футболист в среду, 29 июля, провел тренировку с командой. Клуб из Флориды проведет ближайший матч в ночь на 2 августа по московс",
+          "url": "https://www.sports.ru/football/1117317370-messi-provel-pervuyu-trenirovku-s-inter-majami.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/737/0/share/f7630a_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T00:42:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1785371280000",
+          "title": "Бителло о Карпине: «Все проблемы «Динамо» были за полем. Я многое не понимал, не был согласен с некоторыми вещами. Было много требований – это работало против команды»",
+          "summary": "Полузащитник «Динамо» Бителло поделился мнением о работе Валерия Карпина с командой. Специалист, также возглавляющий сборную России, тренировал бело-голубых с июля по ноябрь 2025 года. – Поговорим немного про прошлый сез",
+          "url": "https://www.sports.ru/football/1117317369-bitello-o-karpine-vse-problemy-dinamo-byli-za-polem-ya-mnogoe-ne-ponim.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/736/9/share/5efbe7_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T00:28:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-3-1785370440000",
+          "title": "Владислав Радимов: «Соболев пытается доказать: «А зачем вам Тюкавин?». Слава Богу, что я с ним не поспорил на пиво в этом сезоне»",
+          "summary": "Бывший полузащитник « Зенита » Владислав Радимов высказался про нападающего команды Александра Соболева . Форвард забил два гола и сделал результативную передачу в матче 1-го тура Альфа-Банк РПЛ против «Акрона» (5:0). «Я",
+          "url": "https://www.sports.ru/football/1117317368-vladislav-radimov-sobolev-pytaetsya-dokazat-a-zachem-vam-tyukavin.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/736/8/share/9853c5_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T00:14:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-4-1785369900000",
+          "title": "Товарищеские матчи. «Ливерпуль» играет с «Рексхэмом» в США, «Атлетико» забил 4 гола «Хетафе»",
+          "summary": "В товарищеских матчах «Боруссия» Дортмунд в гостях уступила «Сересо Осака» (0:1), «Атлетико» разгромил «Хетафе» (4:1), «Ливерпуль» встречается с « Рексхэмом » в США. Товарищеские матчи « Байер » Германия – « Генк » Бельг",
           "url": "https://www.sports.ru/football/1117316354-tovarishheskie-matchi-dortmund-v-gostyax-u-osaki-liverpul-sygraet-s-re.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/635/4/share/40b66b_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-29T22:37:03.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-1-1785364380000",
-          "title": "Чемпионат мира по фехтованию-2026. Российские саблисты и рапиристки выступят в командном турнире",
-          "summary": "Россиянин Павел Граудынь завоевал золото в сабле на чемпионате мира по фехтованию в Гонконге. В финальном поединке он победил корейца То Кен Дона со счетом 15:7. Это единственная медаль россиян в личных соревнованиях. Ро",
-          "url": "https://www.sports.ru/fencing/1117307906-chempionat-mira-po-fextovaniyu-2026-kirill-i-anton-borodachevy-rustamo.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/730/790/6/share/2873c5_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-29T22:33:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-2-1785362407000",
-          "title": "Ливерпуль  Рексхэм: смотреть онлайн прямую трансляцию матча, 30 июля 2026",
-          "summary": "В четверг, 30 июля, сыграют Ливерпуль и Рексхэм в рамках товарищеских матчей. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 02:30 по московскому времени. Где смотреть матч Ливерпуль — ",
-          "url": "https://www.sports.ru/football/1117317348-liverpul-reksxem-smotret-onlajn-pryamuyu-translyacziyu-matcha-30-iyuly.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/734/8/share/eebf0f_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-29T22:00:07.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1785362340000",
-          "title": "Глава FFF Диалло о планах ФИФА продать часть прав на ЧМ: «Проект вызывает много вопросов, у нас не было никакой информации. Деталей нет, хотя он касается крупнейшего турнира в мире»",
-          "summary": "Президент Футбольной федерации Франции (FFF) Филипп Диалло выразил сомнения по поводу планов ФИФА продать часть прав на ЧМ частным инвесторам. «Это тревожный проект, вызывающий множество вопросов. Мы узнали о нем из прес",
-          "url": "https://www.sports.ru/football/1117317344-glava-fff-diallo-o-planax-fifa-prodat-chast-prav-na-chm-proekt-vyzyvae.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/734/4/share/639e15_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-29T21:59:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1785361980000",
-          "title": "Мовсисян о Москве: «Превышал скорость так, что друг молился, чтобы полиция остановила – но меня отпускали. Проблем с пробками не было – есть полоса для автобусов! Штрафы были большие»",
-          "summary": "Экс-форвард «Спартака» Юра Мовсисян рассказал о том, как превышал скорость на дорогах Москвы. – И Москва, и Краснодар – это кошмарный трафик. Вы сами ездили за рулем? – Да. Москва – это множество машин, но у меня никогда",
-          "url": "https://www.sports.ru/football/1117317342-movsisyan-o-moskve-inogda-prevyshal-skorost-tak-chto-drug-vzhimalsya-v.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/734/2/share/be501d_no_logo_no_text.jpg",
-          "publishedAt": "2026-07-29T21:53:00.000Z",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/635/4/share/33dc5a_no_logo_no_text.jpg",
+          "publishedAt": "2026-07-30T00:05:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-07-29T22:45:38.358Z",
+      "lastFetchAt": "2026-07-30T01:16:03.716Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785363986000",
-          "title": "На Украине после удара загорелся склад «Новой почты»",
+          "id": "politics-0-1785373808000",
+          "title": "Молодой человек сказал три слова на втором свидании и навсегда лишился третьего",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/na-ukraine-posle-udara-zagorelsya-sklad-novoy-pochty/",
+          "url": "https://lenta.ru/news/2026/07/30/paren-skazal-tri-slova-na-vtorom-svidanii-i-navsegda-lishilsya-tretiego/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/16/20260729163107605/pic_9b9c6d6129343af982152e47f149d65c.jpg",
+          "publishedAt": "2026-07-30T01:10:08.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-1-1785373800000",
+          "title": "Россияне получат возможность запретить себе ставки и казино",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/07/30/rossiyane-poluchat-vozmozhnost-zapretit-sebe-stavki-i-kazino/",
+          "image": "https://icdn.lenta.ru/images/2026/07/30/04/20260730041052563/pic_80c5ed52a5448b685c41a3425b919c51.jpg",
+          "publishedAt": "2026-07-30T01:10:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-2-1785372660000",
+          "title": "Илон Маск решил проспонсировать предвыборную гонку в США",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/07/30/ilon-mask-reshil-prosponsirovat-predvybornuyu-gonku-v-ssha/",
+          "image": "https://icdn.lenta.ru/images/2026/07/30/03/20260730035130943/pic_62147b8daf51255791cb6bea826f7533.jpg",
+          "publishedAt": "2026-07-30T00:51:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-3-1785372360000",
+          "title": "В европейской стране украли кельтское ожерелье возрастом 2,5 тысячи лет",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/07/30/v-evropeyskoy-strane-ukrali-keltskoe-zolotoe-ozherelie-vozrastom-2-5-tysyachi-let/",
           "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-07-29T22:26:26.000Z",
+          "publishedAt": "2026-07-30T00:46:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785363720000",
-          "title": "Взрывы прогремели в Киеве",
+          "id": "politics-4-1785371435000",
+          "title": "Женщина пришла в ярость и сняла трусы на людях",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/vzryvy-progremeli-v-kieve/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-07-29T22:22:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-2-1785363342000",
-          "title": "55-летняя телеведущая попала на обложку журнала после критики ее фото в купальниках",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/55-letnyaya-televeduschaya-popala-na-oblozhku-zhurnala-posle-kritiki-ee-foto-v-kupalnikah/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/17/20260729174336290/pic_baad337905683c8a723508628a947358.jpg",
-          "publishedAt": "2026-07-29T22:15:42.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-3-1785363058000",
-          "title": "Замам российского губернатора дали 39 лет на двоих за хищения при стройке фортификаций",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/zamam-rossiyskogo-gubernatora-dali-39-let-za-hischeniya-pri-stroitelstve-fortifikatsiy/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-07-29T22:10:58.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1785362700000",
-          "title": "Диверсанты ВСУ попытались свести татуировки с гербом Украины и свастикой",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/07/30/diversanty-vsu-popytalis-svesti-tatuirovki-s-gerbom-ukrainy-i-svastikoy/",
-          "image": "https://icdn.lenta.ru/images/2026/07/30/01/20260730010808687/pic_99a8555a65e03c9bf479e75254c43d63.jpg",
-          "publishedAt": "2026-07-29T22:05:00.000Z",
+          "url": "https://lenta.ru/news/2026/07/30/zhenschina-prishla-v-yarost-i-snyala-trusy-na-lyudyah/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/16/20260729164159748/pic_304a4099ffcc69bc0ffec4b23e96dbdd.jpg",
+          "publishedAt": "2026-07-30T00:30:35.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1309,7 +1309,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-07-29T18:52:02.184Z",
+      "lastFetchAt": "2026-07-30T01:15:52.914Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1317,7 +1317,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1785340241000",
+          "id": "automotive-0-1785351240000",
+          "title": "ВСУ ударили по машине скорой помощи в российском регионе",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/07/30/vsu-udarili-po-mashine-skoroy-pomoschi-v-rossiyskom-regione/",
+          "image": "https://icdn.lenta.ru/images/2026/07/29/21/20260729215439867/pic_b7dc0cb3b204c01d3f28d774ceca264d.jpg",
+          "publishedAt": "2026-07-29T18:54:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1785340241000",
           "title": "Россиянам назвали самые быстро раскупаемые машины с пробегом",
           "summary": "",
           "url": "https://lenta.ru/news/2026/07/29/rossiyanam-nazvali-samye-bystro-raskupaemye-mashiny-s-probegom/",
@@ -1329,7 +1341,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1785338460000",
+          "id": "automotive-2-1785338460000",
           "title": "На российском автомобильном рынке зафиксировали очередной рекорд",
           "summary": "",
           "url": "https://lenta.ru/news/2026/07/29/na-rossiyskom-avtomobilnom-rynke-zafiksirovali-ocherednoy-rekord/",
@@ -1341,36 +1353,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1785336166000",
+          "id": "automotive-3-1785336166000",
           "title": "Россиян предупредили об особенности гибридных машин",
           "summary": "",
           "url": "https://lenta.ru/news/2026/07/29/rossiyan-predupredili-ob-osobennosti-gibridnyh-mashin/",
           "image": "https://icdn.lenta.ru/images/2026/07/29/17/20260729173959187/pic_b8aa2452a16d88bcc3b2ed449dba626e.jpg",
           "publishedAt": "2026-07-29T14:42:46.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-3-1785330900000",
-          "title": "В России определили самый популярный электрокар с пробегом",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/v-rossii-opredelili-samyy-populyarnyy-elektrokar-s-probegom/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/16/20260729161040712/pic_a0686ed796162e297bcdca8fdaf39a80.jpg",
-          "publishedAt": "2026-07-29T13:15:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1785328500000",
-          "title": "Помощник прокурора регулярно насиловал россиянок в машине",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/07/29/pomoschnik-prokurora-regulyarno-nasiloval-rossiyanok-v-mashine/",
-          "image": "https://icdn.lenta.ru/images/2026/07/29/15/20260729150854087/pic_6eafc7ac99d4394bb9779b3e27b376b0.jpg",
-          "publishedAt": "2026-07-29T12:35:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
