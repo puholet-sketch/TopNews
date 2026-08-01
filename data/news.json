@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-01T11:12:42.562Z",
+  "updatedAt": "2026-08-01T12:51:38.921Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-01T07:59:18.694Z",
+      "lastFetchAt": "2026-08-01T12:51:26.962Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,60 +35,60 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785568765000",
-          "title": "«У вас в резюме указаны навыки ИИ. Что вы имели в виду?» Что отвечать, кроме количества потраченных токенов",
-          "summary": "Всё началось с чата с однокурсниками. Кто‑то обронил фразу «сейчас без ИИ никуда, это уже базовый навык», и следующие два дня мы выясняли, что каждый понимает под этим что‑то своё. Один говорил, что весь навык сводится к",
-          "url": "https://habr.com/ru/articles/1064110/?utm_campaign=1064110&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/bdd/183/31d/bdd18331d00b7655c76ee71f24f096c5.png",
-          "publishedAt": "2026-08-01T07:19:25.000Z",
+          "id": "it-0-1785586002000",
+          "title": "07.2026 Тренды агентной разработки за июль и подборка полезных статей на эту тему",
+          "summary": "По сути, тренды июля те же, что и в июне (описание июня здесь): как создать лучший harness, как настроить автономные или полуавтономные процессы, управление контекстом, повышение качества и повторяемости результатов, опт",
+          "url": "https://habr.com/ru/articles/1055452/?utm_campaign=1055452&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/d00/ec8/7b2/d00ec87b2100dbea7d0fd8c6a5d6eb77.jpeg",
+          "publishedAt": "2026-08-01T12:06:42.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785530213000",
-          "title": "Бенчмаркая ArrayPool: подстава при копировании потоков — 131 072 байта в LOH",
-          "summary": "ArrayPool используют ради экономии на аллокациях. Но есть размеры, где он делает обратное: массив уходит в LOH, а через new остаётся в нулевом поколении. Один такой размер зашит в .NET по умолчанию — им копируются потоки",
-          "url": "https://habr.com/ru/articles/1065518/?utm_campaign=1065518&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e99/4f9/7d1/e994f97d1c93ff763388df1fc1ec49e0.png",
-          "publishedAt": "2026-07-31T20:36:53.000Z",
+          "id": "it-1-1785577988000",
+          "title": "Торговля по паттернам с точки зрения алгоритмов",
+          "summary": "Классические фигуры вроде «головы и плеч» легко увидеть глазами, но тяжело формализовать без десятков спорных условий. В статье я рассказываю, как заменил ручное описание паттернов поиском похожих исторических участков с",
+          "url": "https://habr.com/ru/articles/1065564/?utm_campaign=1065564&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c02/7c6/a98/c027c6a9833f2306c5617b8c79b09d7a.jpg",
+          "publishedAt": "2026-08-01T09:53:08.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785517382000",
-          "title": "CONTRACT: одна схема вместо N×M сериализаторов",
-          "summary": "Одна C++ схема — protobuf, binary, JSON, YAML и structured logging без ручных маппингов. В статье разбираю, как CONTRACT отделяет стабильный контракт типа от конкретных форматов, зачем нужны BASE, PROPERTY и REFERENCE и ",
-          "url": "https://habr.com/ru/articles/1065488/?utm_campaign=1065488&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/02e/85a/802/02e85a802acbdc491f56e87b0927b052.png",
-          "publishedAt": "2026-07-31T17:03:02.000Z",
+          "id": "it-2-1785575225000",
+          "title": "ИграКОД: Генератор судоку на TypeScript: почему найти решение проще, чем доказать единственность",
+          "summary": "Главная ошибка наивного генератора судоку — проверять, что решение существует, но не проверять, что оно единственное. Вот почти заполненное поле: 534..8912 672195348 198342567 859..1423 426853791 713924856 961537284 2874",
+          "url": "https://habr.com/ru/articles/1065276/?utm_campaign=1065276&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/00d/19b/f68/00d19bf68fa806b8e0d0ba1496e97a5f.png",
+          "publishedAt": "2026-08-01T09:07:05.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1785515119000",
-          "title": "Как облегчить переезд бота из Telegram в MAX",
-          "summary": "В связи с тем, что Павел Дуров теперь террорист, Telegram скоро признают экстремистской сетью, что окончательно выведет бизнес в черную зону. Несмотря на то, что мы видим, как до сих пор всё прекрасно работает в соц.сети",
-          "url": "https://habr.com/ru/articles/1065466/?utm_campaign=1065466&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c32/295/73a/c3229573a642fd97f00f672c09597274.png",
-          "publishedAt": "2026-07-31T16:25:19.000Z",
+          "id": "it-3-1785572352000",
+          "title": "Разработчик 2.0. Следующий уровень абстракции",
+          "summary": "Вы открываете задачу и пишете одну строку: Добавь идемпотентность в API создания заказа. Через некоторое время перед вами diff в незнакомом репозитории. Изменены обработчик API, модель данных, тесты и документация. Все п",
+          "url": "https://habr.com/ru/articles/1065548/?utm_campaign=1065548&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/aeb/409/286/aeb4092869867f16ba466bd7198479c4.png",
+          "publishedAt": "2026-08-01T08:19:12.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-4-1785504446000",
-          "title": "Находки в опенсорсе: мир питона за июль 2026",
-          "summary": "Всем привет! Решил попробовать новый формат на хабре: делиться результатами своей работы за прошедший месяц. С интересными ссылками на события, проекты, обсуждения, релизы из мира питона, моего телеграм канала и нашего з",
-          "url": "https://habr.com/ru/articles/1065404/?utm_campaign=1065404&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1065404/4fbd17cc9fbecb786d7325857a907aea/",
-          "publishedAt": "2026-07-31T13:27:26.000Z",
+          "id": "it-4-1785571260000",
+          "title": "Как успеть поступить в онлайн-магистратуру НИЯУ МИФИ по кибербезопасности в 2026 году: правила и сроки приёма",
+          "summary": "Привет, это команда Яндекс Практикума. До окончания приёмной кампании в онлайн-магистратуру МИФИ «Кибербезопасность» осталось меньше месяца. Если вы планируете поступать в 2026 году, сейчас самое время разобраться, как у",
+          "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1065406/?utm_campaign=1065406&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/55a/3c4/3fd/55a3c43fd703d189461eaf2088083642.png",
+          "publishedAt": "2026-08-01T08:01:00.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-01T07:59:23.361Z",
+      "lastFetchAt": "2026-08-01T12:51:29.287Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,11 +327,23 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1785484813000",
+          "id": "startups-1-1785571581000",
+          "title": "Правительство утвердило список сервисов для обязательной предустановки на смартфоны, компьютеры и ТВ на 2027 год",
+          "summary": "Из списка убрали «Марусю», но добавили «Алису AI».",
+          "url": "https://vc.ru/services/3056535-obyazatelnaya-predustanovka-prilozheniy-na-smartfony-i-pk?from=rss",
+          "image": "https://leonardo.osnova.io/11d35c50-1f50-5248-aa9b-14b3325b7ea1/",
+          "publishedAt": "2026-08-01T08:06:21.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1785484813000",
           "title": "Max договорился с мобильными операторами, что использование мессенджера не будет расходовать пакеты трафика",
           "summary": "Соглашение начнёт действовать с 1 августа 2026 года.",
           "url": "https://vc.ru/services/3055176-max-i-mobilnye-operatory-dogovorilis-ob-ispolzovanii-messendzhera?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3055176/1785571163/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3055176/1785588689/cover.jpg",
           "publishedAt": "2026-07-31T08:00:13.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -339,7 +351,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785522053000",
+          "id": "startups-3-1785522053000",
           "title": "«Помочь можем только мы и государство»: основательница Wildberries призвала пострадавший бизнес не верить обещающим помощь мошенникам и юристам",
           "summary": "Новые меры поддержки анонсируют в ближайшее время.",
           "url": "https://vc.ru/marketplace/3056110-pomoshch-biznesu-ot-wildberries-i-gosudarstva?from=rss",
@@ -351,24 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1785523655000",
+          "id": "startups-4-1785523655000",
           "title": "Правительство запретило майнинг криптовалют в Москве, Подмосковье и на отдельных территориях Курской области до конца 2032 года",
           "summary": "Майнинг в России легализован с 2024 года.",
           "url": "https://vc.ru/crypto/3056142-zapret-na-maining-kriptovalyut-v-moskve-i-kurskoy-oblasti?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785571163/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785588688/cover.jpg",
           "publishedAt": "2026-07-31T18:47:35.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1785486377000",
-          "title": "Xiaomi представила два гибридных внедорожника под брендом SkyNomad — семиместный N90 Max за 299,9 тысячи юаней и пятиместный N70 Max за 259,9 тысячи юаней",
-          "summary": "Продажи начнутся в сентябре 2026 года.",
-          "url": "https://vc.ru/transport/3055144-xiaomi-predstavila-vnedorozhniki-skynomad-n90-max-i-n70-max?from=rss",
-          "image": "https://leonardo.osnova.io/f4705c81-15d7-59ad-b400-272781838075/",
-          "publishedAt": "2026-07-31T08:26:17.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-01T07:59:27.758Z",
+      "lastFetchAt": "2026-08-01T12:51:33.973Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-01T07:59:30.916Z",
+      "lastFetchAt": "2026-08-01T12:51:34.681Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-01T07:59:40.807Z",
+      "lastFetchAt": "2026-08-01T12:51:36.509Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785496017000",
+          "id": "gaming-0-1785574864000",
+          "title": "От Dune II до Dune: Awakening: как менялась легендарная серия игр по «Дюне»",
+          "summary": "Вселенная Фрэнка Герберта давно стала для многих реальностью. Книги породили фильмы, сериалы и, конечно, игры. Они пытались передать ощущение пустынной планеты, где вода дороже жизни, а пряность решает судьбы империй. За",
+          "url": "https://habr.com/ru/companies/ru_mts/articles/1065312/?utm_campaign=1065312&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/cc3/0d9/195/cc30d9195b084fd1829e61a1c00ce582.png",
+          "publishedAt": "2026-08-01T09:01:04.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785496017000",
           "title": "ПК или консоль: спор, который не закрыла даже Steam Machine",
           "summary": "Спор о том, что лучше для игр, собрать ПК самому или взять готовую консоль, идет ровно столько, сколько существуют игровые компьютеры. Свежий повод для него дала Steam Machine от Valve. Компания собрала действительно уда",
           "url": "https://habr.com/ru/companies/x-com/articles/1065318/?utm_campaign=1065318&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785492880000",
+          "id": "gaming-2-1785492880000",
           "title": "Стратегия без врагов, шутер без кнопки «стрелять»: как тотальное упрощение помогло заработать миллионы долларов",
           "summary": "Что будет, если отрезать от стратегии все, включая монстров и графику, а из Diablo убрать возможность прицельно атаковать и пройти игру до конца? Читать далее",
           "url": "https://habr.com/ru/articles/1065284/?utm_campaign=1065284&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785450264000",
+          "id": "gaming-3-1785450264000",
           "title": "Если ссылки схлопываются, значит это кому‑то нужно",
           "summary": "В прошлой статье (Непослушный using ) я разобрал, как using вмешивается в поиск имён и почему его поведение часто расходится с тем, что от него ждет программист, и на этом ветку статей про поиск имен (name lookup) можно ",
           "url": "https://habr.com/ru/articles/1064016/?utm_campaign=1064016&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1785407945000",
+          "id": "gaming-4-1785407945000",
           "title": "Какой ПК собрать в 2026 году, чтобы он потянул GTA 6, и не разориться",
           "summary": "Стоит выйти новому трейлеру GTA 6, как половина всех, у кого есть ПК, внезапно вспоминает, что он был собран еще во времена второго Обливиона. А раз так, то оценить новый релиз не получится ну никак. Значит, надо обновля",
           "url": "https://habr.com/ru/companies/x-com/articles/1064884/?utm_campaign=1064884&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785227676000",
-          "title": "Идеальный диегетический инвентарь",
-          "summary": "Диегетические игровые элементы (существующие в мире игры) — довольно привычное явление на сегодняшний день, но, несмотря на это, мало кто с ними работает на полную, добиваясь влияния на механики. Бесплатная игра Crawl ка",
-          "url": "https://habr.com/ru/articles/1063852/?utm_campaign=1063852&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2e7/d1b/2e6/2e7d1b2e61e896ec4e94b1c8f02d8c50.jpg",
-          "publishedAt": "2026-07-28T08:34:36.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-01T07:59:42.644Z",
+      "lastFetchAt": "2026-08-01T12:51:38.921Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -891,7 +891,7 @@
           "title": "Если дух оказался вдруг // В кинотеатрах показывают индонезийский хоррор «Призрак в клетке»",
           "summary": "На экранах — притворный фильм ужасов индонезийца Джоко Анвара «Призрак в клетке» (Hantu Dalam Sel). Посмотрев его, Михаил Трофименков почувствовал пряное и привольное дыхание Глобального Юга.",
           "url": "https://www.kommersant.ru/doc/8860121",
-          "image": "https://iv.kommersant.ru/SocialPics/8860121_49_3173283_1681136983",
+          "image": "https://im2.kommersant.ru/SocialPics/8860121_49_3173283_1681136983",
           "publishedAt": "2026-07-31T15:23:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
