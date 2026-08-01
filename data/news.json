@@ -1,9 +1,15 @@
 {
-  "updatedAt": "2026-08-01T07:59:46.888Z",
+  "updatedAt": "2026-08-01T09:57:41.388Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
     "ai",
+    "cybersecurity",
     "business",
     "startups",
     "science",
@@ -16,14 +22,8 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-01T01:30:38.170Z",
+      "lastFetchAt": "2026-08-01T09:57:39.484Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1089,7 +1089,7 @@
           "title": "Правительство запретило майнинг криптовалют в Москве, Подмосковье и на отдельных территориях Курской области до конца 2032 года",
           "summary": "Майнинг в России легализован с 2024 года.",
           "url": "https://vc.ru/crypto/3056142-zapret-na-maining-kriptovalyut-v-moskve-i-kurskoy-oblasti?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785547837/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785578259/cover.jpg",
           "publishedAt": "2026-07-31T18:47:35.000Z",
           "source": "VC.ru",
           "categoryId": "education",
@@ -1169,7 +1169,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-01T01:30:39.173Z",
+      "lastFetchAt": "2026-08-01T09:57:40.472Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1239,7 +1239,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-01T01:30:39.487Z",
+      "lastFetchAt": "2026-08-01T09:57:41.388Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1247,7 +1247,31 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1785445729000",
+          "id": "travel-0-1785561578000",
+          "title": "Кандинский стал лидером рейтинга продаж на аукционах среди русских художников",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/01/1218102-kandinskii-stal-liderom",
+          "image": "https://sharing.vedomosti.ru/1785561578/vedomosti.ru/lifestyle/news/2026/08/01/1218102-kandinskii-stal-liderom.jpg",
+          "publishedAt": "2026-08-01T05:19:38.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1785508064000",
+          "title": "Российские прыгуны в воду завоевали серебро чемпионата Европы",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/society/news/2026/07/31/1218023-priguni-zavoevali-serebro",
+          "image": "https://cdn.vdmsti.ru/image/2026/5w/117bsu/normal-1c7r.png",
+          "publishedAt": "2026-07-31T14:27:44.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1785445729000",
           "title": "Уроки «Одиссея»: что успех Кристофера Нолана говорит об индустрии",
           "summary": "Это уже третья голливудская экранизация поэмы Гомера и, как все предыдущие, знак грядущих перемен",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217787-uroki-odisseya-chto-uspeh-kristofera-nolana-govorit-ob-industrii",
@@ -1259,7 +1283,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1785445793000",
+          "id": "travel-3-1785445793000",
           "title": "«София возвращалась домой»: самая печальная книга Наринэ Абгарян",
           "summary": "Автор «Манюни» написала роман об одиссее армянской девушки на фоне бурной истории XX века",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217793-sofiya-vozvraschalas-domoi-samaya-pechalnaya-kniga-narine-abgaryan",
@@ -1271,36 +1295,12 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1785445758000",
+          "id": "travel-4-1785445758000",
           "title": "«Ненаивное наивное»: искусство самоучек",
           "summary": "Выставка в музее-заповеднике «Царицыно» объединяет работы художников, для которых искусство было не профессией, а способом жить",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217792-nenaivnoe-naivnoe-iskusstvo-samouchek",
           "image": "https://cdn.vdmsti.ru/image/2026/5v/1a8362/normal-1nwo.jpg",
           "publishedAt": "2026-07-30T21:09:18.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1784845521000",
-          "title": "150 000 россиян могут находиться в крайней стадии зависимости от азартных игр",
-          "summary": "Регулярно делает ставки более 6% населения страны",
-          "url": "https://www.vedomosti.ru/society/articles/2026/07/24/1216089-150-000-rossiyan-mogut-nahoditsya-v-krainei-stadii-zavisimosti-ot-azartnih-igr",
-          "image": "https://cdn.vdmsti.ru/image/2026/5o/1c06t7/normal-1q7q.jpg",
-          "publishedAt": "2026-07-23T22:25:21.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1784843054000",
-          "title": "«Похищение»: а был ли мальчик?",
-          "summary": "На Okko стартовал показ детективного триллера о пропавшем ребенке и сыщиках-социопатах",
-          "url": "https://www.vedomosti.ru/media/columns/2026/07/24/1216075-pohischenie-a-bil-li-malchik",
-          "image": "https://cdn.vdmsti.ru/image/2026/5o/1ced2t/normal-1qq4.jpg",
-          "publishedAt": "2026-07-23T21:44:14.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
