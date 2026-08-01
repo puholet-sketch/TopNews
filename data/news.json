@@ -1,10 +1,16 @@
 {
-  "updatedAt": "2026-08-01T01:30:39.488Z",
+  "updatedAt": "2026-08-01T05:15:33.321Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "politics",
+    "law"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
     "startups",
     "science",
     "medicine",
@@ -15,15 +21,9 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "politics",
     "education",
     "realestate",
     "travel"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "law"
   ],
   "categories": {
     "it": {
@@ -167,7 +167,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-07-31T15:52:15.077Z",
+      "lastFetchAt": "2026-08-01T05:15:21.484Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -175,7 +175,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1785511236000",
+          "id": "cybersecurity-0-1785525578000",
+          "title": "Уведомления на Android без Google: почему UnifiedPush через публичный ntfy у вас не работает",
+          "summary": "Как вы помните мы делаем мессенджер. Google-сервисы в нашем основном регионе недоступны, значит FCM отпадает, что мы с этим сделали? Стандартный ответ на эту задачу известен и выглядит красиво: UnifiedPush. Открытый конт",
+          "url": "https://habr.com/ru/articles/1065510/?utm_campaign=1065510&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/a85/255/57a/a8525557a656bfa82525305135c1b645.png",
+          "publishedAt": "2026-07-31T19:19:38.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1785518457000",
+          "title": "Хаос, шок, приватные ключи от не менее приватного GitLab",
+          "summary": "Последние пару месяцев злоумышленник распространял трояны с нескольких npm-учеток: alex05255, mdrafiqulislamrabby, b.w1001, abdev8773 и mollspotwood54400. Список пакетов:svg-fetcher, tradepilot, polytrade, polymarket-kit",
+          "url": "https://habr.com/ru/companies/pt/articles/1065498/?utm_campaign=1065498&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/942/b17/5a7/942b175a747cee548334dc099a6c9d7d.png",
+          "publishedAt": "2026-07-31T17:20:57.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1785518241000",
+          "title": "Подборка книг о вирусах и защите от них",
+          "summary": "Я собираю автоматические переводы материалов по хакингу и выкладываю их на сайте библиотеки. И вот, миллионы сожженых токенов спустя, архив наполнился. В сегодняшней подборке книги как по анализу, так и по написанию малв",
+          "url": "https://habr.com/ru/articles/1065496/?utm_campaign=1065496&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/e98/e6d/665/e98e6d665df4142e16387215032f22fb.jpg",
+          "publishedAt": "2026-07-31T17:17:21.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1785511236000",
           "title": "Summ3r Of h4ck 2026: разбор заданий отборочного этапа",
           "summary": "C 13 апреля по 10 мая был открыт приём заявок на стажировку Summ3r 0f h4ck 2026. В этом году на обучающую программу в DSEC by Solar пытались попасть 225 человек – это в несколько раз больше, чем в предыдущие годы! В каче",
           "url": "https://habr.com/ru/companies/dsec/articles/1065452/?utm_campaign=1065452&utm_source=habrahabr&utm_medium=rss",
@@ -187,7 +223,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1785510055000",
+          "id": "cybersecurity-4-1785510055000",
           "title": "Как отправлять письма, чтобы не улетать в спам: DKIM-подпись, прогрев IP и DNS-грабли",
           "summary": "Транзакционные письма — подтверждения регистрации, сброс пароля, чеки — кажутся простейшей задачей: подключил SMTP, вызвал send(), готово. Ровно до момента, когда письма начинают тихо улетать в спам Mail.ru и Яндекса, а ",
           "url": "https://habr.com/ru/articles/1061824/?utm_campaign=1061824&utm_source=habrahabr&utm_medium=rss",
@@ -197,47 +233,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1785509054000",
-          "title": "ИИ по обе стороны кибербезопасности: интервью с руководителем ИБ Своего Банка",
-          "summary": "Привет, Хабр! Сегодня говорим с Алексеем Ахмеевым, руководителем Управления информационной безопасности Своего Банка (входит в финтех-группу СВОЙ). С 2023 года Алексей отвечает за информационную безопасность всей экосист",
-          "url": "https://habr.com/ru/companies/svoi_ru/articles/1065436/?utm_campaign=1065436&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/ce0/df6/0d5/ce0df60d50b1ba7ce915e56b1fa0d4dd.jpg",
-          "publishedAt": "2026-07-31T14:44:14.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1785502351000",
-          "title": "Никто не показывает, как стандарты ИБ связаны друг с другом поэтому пришлось собрать самому",
-          "summary": "OWASP, лаборатории, CVE, инструменты и патчи обычно живут в разных местах. Каждый раз собирать этот маршрут заново утомительно, поэтому и сделал RØØT — автономный полигон, который связывает всё в один процесс: понять → п",
-          "url": "https://habr.com/ru/articles/1065380/?utm_campaign=1065380&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/8cf/bcc/936/8cfbcc9360d95d1897686d8c83e69ed9.jpg",
-          "publishedAt": "2026-07-31T12:52:31.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1785496586000",
-          "title": "Мы делили апельсин: как связать ручное и автоматизированное тестирование в единую систему качества",
-          "summary": "Под «апельсином» в этой статье будем понимать не качество продукта целиком, а тот контур функциональной проверки, в котором пересекаются ручное и автоматизированное тестирование. На качество влияют разработчики, аналитик",
-          "url": "https://habr.com/ru/companies/infowatch/articles/1063872/?utm_campaign=1063872&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/63a/79d/28c/63a79d28c7c59976871c12e09e670e3d.jpg",
-          "publishedAt": "2026-07-31T11:16:26.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-01T01:30:17.808Z",
+      "lastFetchAt": "2026-08-01T05:15:23.149Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-01T01:30:35.384Z",
+      "lastFetchAt": "2026-08-01T05:15:26.210Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785547320000",
-          "title": "«Лейпциг» не ответил на последнее предложение «Реала» по Диоманде. Трансфер откладывается",
-          "summary": "« РБ Лейпциг » не ответил на последнее предложение « Реала » по вингеру Яну Диоманде , сообщает Sky Sport. Немецкий клуб продолжает требовать от «Мадрида» 120 млн евро плюс бонусы. Таким образом, переговоры о трансфере 1",
-          "url": "https://www.sports.ru/football/1117319657-lejpczig-ne-otvetil-na-poslednee-predlozhenie-reala-po-diomande-transf.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/965/7/share/e4d5dc_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T01:22:00.000Z",
+          "id": "sports-0-1785560520000",
+          "title": "Интерес «Чикаго» к Беннедикту Матурину «преувеличен»",
+          "summary": "Хотя у «Буллз» есть свободное место в составе, их интерес к ограниченно свободному агенту « Клипперс » Беннедикту Матурину «преувеличен», как сообщает The Athletic. « Чикаго » сейчас ценит прежде всего гибкость состава и",
+          "url": "https://www.sports.ru/basketball/1117319700-interes-chikago-k-bennediktu-maturinu-preuvelichen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/970/0/share/421970_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-01T05:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785547200000",
-          "title": "Джейк Пол: «Этот парень – ##### лучший в мире. Джастин Гейджи, я люблю тебя, но он легко бы тебя побил»",
-          "summary": "Чемпион PFL в легком весе Усман Нурмагомедов после победы над Арчи Колганом нокаутом в первом раунде пообщался в клетке с главой MVP Джейком Полом, чья лига объединилась с PFL. – Как насчет бонуса, брат? Нокаут в первом ",
-          "url": "https://www.sports.ru/boxing/1117319658-dzhejk-pol-etot-paren-luchshij-v-mire-dzhastin-gejdzhi-ya-lyublyu-teby.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/965/8/share/b26e3c_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T01:20:00.000Z",
+          "id": "sports-1-1785560520000",
+          "title": "Чемпионат России. ЦСКА примет «Крылья», «Локомотив» в гостях у «Махачкалы», «Динамо» против «Балтики»",
+          "summary": "2-й тур Альфа-Банк РПЛ стартовал в пятницу матчем « Родина » – « Ростов » (2:4). В субботу ЦСКА примет « Крылья Советов », «Локомотив» сыграет в гостях с «Динамо» Махачкала, московское «Динамо» – с «Балтикой». В воскресе",
+          "url": "https://www.sports.ru/football/1117318450-chempionat-rossii-rostov-v-gostyax-u-rodiny-zenit-krasnodar-i-spartak-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/845/0/share/ad1153_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-01T05:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785546540000",
-          "title": "Усман Нурмагомедов провел последний бой в PFL: «MVP болтали, что Уайт не платит бойцам. Посмотрим, сколько сами MVP будут платить»",
-          "summary": "Чемпион PFL в легком весе Усман Нурмагомедов после победы над Арчи Колганом в первом раунде заявил, что провел в лиге последний бой. «Это мой последний бой [в PFL]. MVP [лига Джейка Пола, которая объединилась с PFL] болт",
-          "url": "https://www.sports.ru/boxing/1117319656-usman-nurmagomedov-provel-poslednij-boj-v-pfl-mvp-boltali-chto-dana-ne.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/965/6/share/921865_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T01:09:00.000Z",
+          "id": "sports-2-1785560340000",
+          "title": "Чемпионат Европы по водным видам спорта-2026. Разыграют медали в синхронных прыжках с вышки у женщин, на трамплине у мужчин, в дуэтах у синхронистов",
+          "summary": "1 августа на чемпионате Европы по водным видам спорта в Париже будут разыграны 4 комплекта медалей. Чемпионат Европы по водным видам спорта-2026 Париж, Франция Синхронное плавание Смешанные дуэты, произвольная программа ",
+          "url": "https://www.sports.ru/aquatics/1117319528-chempionat-evropy-po-vodnym-vidam-sporta-2026-razygrayut-medali-v-sinx.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/952/8/share/6b0011_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-01T04:59:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1785545580000",
-          "title": "Усман Нурмагомедов нокаутировал Арчи Колгана в первом раунде на турнире PFL в Нью-Йорке",
-          "summary": "В Нью-Йорке прошел турнир PFL , который возглавил титульный бой в легком весе между Усманом Нурмагомедовым (21-0) и Арчи Колганом (15-0). Поединок завершился победой Нурмагомедова нокаутом в первом раунде. Это первая поб",
-          "url": "https://www.sports.ru/boxing/1117319113-usman-nurmagomedov-archi-kolgan-rezultat-boya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/911/3/share/c769a1_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T00:53:00.000Z",
+          "id": "sports-3-1785560100000",
+          "title": "Шмитс – лучший проспект «Рейнджерс» по версии Daily Faceoff. Гринтри – 2-й, Бодуан – 3-й, Хренко – 8-й, Гаранд – 10-й",
+          "summary": "Daily Faceoff опубликовал рейтинг проспектов «Айлендерс». Возглавил список 18-летний латвийский защитник Альбертс Шмитс, выбранный клубом под общим 5-м номером на драфте НХЛ-2026. Он уже подписал контракт новичка с клубо",
+          "url": "https://www.sports.ru/hockey/1117319698-shmits-luchshij-prospekt-rejndzhers-po-versii-daily-faceoff-boduan-3-j.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/969/8/share/9a9a22_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-01T04:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1785545400000",
-          "title": "PFL в Нью-Йорке: Нурмагомедов нокаутировал Колгана, Дитчева победила Килхольтц",
-          "summary": "В Нью-Йорке завершился турнир PFL New York. В главном поединке вечера чемпион PFL в легком весе Усман Нурмагомедов (22-0) нокаутировал Арчи Колгана (15-1) в первом раунде. Основной кард турнира : Дакота Дитчева (16-0) по",
-          "url": "https://www.sports.ru/boxing/1117317718-pfl-v-nyu-jorke-nurmagomedov-kolgan-ditcheva-kilxoltcz-i-drugie-boi.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/771/8/share/544d50_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T00:50:00.000Z",
+          "id": "sports-4-1785560040000",
+          "title": "«Рубин» сыграет с «Акроном» в 2-м туре РПЛ. Начало матча – в 14:00",
+          "summary": "« Рубин » сыграет в гостях с « Акроном » в матче 2-го тура Альфа-Банк РПЛ. Игра пройдет на «Самара Арене». Таблица РПЛ Статистика РПЛ",
+          "url": "https://www.sports.ru/football/1117319696-rubin-sygraet-s-akronom-v-2-m-ture-rpl-nachalo-matcha-1400.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/969/6/share/d1d38e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-01T04:54:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-01T01:30:35.970Z",
+      "lastFetchAt": "2026-08-01T05:15:27.802Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785547022000",
-          "title": "Зеленский назвал жесткой ситуацию на фронте",
+          "id": "politics-0-1785560964000",
+          "title": "Инфантино отозвал свой план частичной приватизации чемпионатов мира по футболу",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/zelenskiy-nazval-zhestkoy-situatsiyu-na-fronte/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/04/20260801040420248/pic_39b4ebf50a6dd1bcb0c7aa0cc10fabf7.jpg",
-          "publishedAt": "2026-08-01T01:17:02.000Z",
+          "url": "https://lenta.ru/news/2026/08/01/infantino-otozval-svoy-plan-chastichnoy-privatizatsii-chempionatov-mira-po-futbolu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/01/08/20260801080929551/pic_365801743cc6da3a452032be06514688.jpg",
+          "publishedAt": "2026-08-01T05:09:24.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785545100000",
-          "title": "Стало известно о мародерстве ВСУ в ДНР",
+          "id": "politics-1-1785560169000",
+          "title": "Российская фигуристка пожаловалась на работу в Китае",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/stalo-izvestno-o-maroderstve-vsu-v-dnr/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/03/20260801034734168/pic_e430f7b37c8a4801deabbfbec3dd17a2.jpg",
-          "publishedAt": "2026-08-01T00:45:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/01/rossiyskaya-figuristka-pozhalovalas-na-rabotu-v-kitae/",
+          "image": "https://icdn.lenta.ru/images/2026/08/01/00/20260801000903633/pic_c3af8d915d88eee1338ae7884f2be749.jpg",
+          "publishedAt": "2026-08-01T04:56:09.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785543868000",
-          "title": "Над куполами дым. В храме Василия Блаженного в Москве произошел пожар",
+          "id": "politics-2-1785559998000",
+          "title": "В Минобороны раскрыли подробности ночной атаки на Киев",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/long-nad-kupolami-dym-v-hrame-vasiliya-blazhennogo-v-moskve-proizoshel-pozhar/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/02/20260801025009931/pic_03c3d29d98756548ad0e8a0abb002fa4.jpg",
-          "publishedAt": "2026-08-01T00:24:28.000Z",
+          "url": "https://lenta.ru/news/2026/08/01/v-minoborony-raskryli-podrobnosti-nochnoy-ataki-na-kiev/",
+          "image": "https://icdn.lenta.ru/images/2026/08/01/07/20260801075344005/pic_c94aeb91231fb90248fab28d60269502.jpg",
+          "publishedAt": "2026-08-01T04:53:18.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785543854000",
-          "title": "Соскин рассказал о решении Трампа для Зеленского",
+          "id": "politics-3-1785559568000",
+          "title": "Силы ПВО за ночь сбили над Россией две сотни украинских дронов",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/soskin/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/03/20260801032348827/pic_290c8e726057368533257213e08ffa85.jpg",
-          "publishedAt": "2026-08-01T00:24:14.000Z",
+          "url": "https://lenta.ru/news/2026/08/01/sily-pvo-za-noch-sbili-nad-rossiey-dve-sotni-ukrainskih-dronov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/01/07/20260801074632245/pic_ed5dc697a5d58a69257f36a8bf31d520.jpg",
+          "publishedAt": "2026-08-01T04:46:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785543835000",
-          "title": "Российские войска за июль поразили свыше 80 морских судов",
+          "id": "politics-4-1785557746000",
+          "title": "В России обнаружили неизвестный науке минерал дороже золота",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/rossiyskie-voyska-za-iyul-porazili-svyshe-80-morskih-sudov/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/03/20260801031437990/pic_967149ae1494e23a7a9752ba8da78536.jpg",
-          "publishedAt": "2026-08-01T00:23:55.000Z",
+          "url": "https://lenta.ru/news/2026/08/01/v-rossii-obnaruzhili-neizvestnyy-nauke-mineral-dorozhe-zolota/",
+          "image": "https://icdn.lenta.ru/images/2026/08/01/07/20260801071702672/pic_d3525c3048f9fc50d95ea9bb8bb0c565.jpg",
+          "publishedAt": "2026-08-01T04:15:46.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1099,7 +1099,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-07-31T15:52:24.818Z",
+      "lastFetchAt": "2026-08-01T05:15:33.321Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1107,7 +1107,19 @@
       "slug": "law",
       "articles": [
         {
-          "id": "law-0-1785512050000",
+          "id": "law-0-1785516111000",
+          "title": "Суд ужесточил приговор ключевому свидетелю по делу Кибовского",
+          "summary": "Константину Яковлеву увеличили срок заключения до 8,5 лет.",
+          "url": "https://pravo.ru/news/265089/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-07-31T16:41:51.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-1-1785512050000",
           "title": "Суд не нашел нарушений публичного порядка из-за иностранного элемента на стороне кредитора",
           "summary": "В качестве доводов заявитель указывал на немотивированность решения арбитров и отсутствие протокола заседания.",
           "url": "https://pravo.ru/news/265083/",
@@ -1119,7 +1131,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-1-1785509387000",
+          "id": "law-2-1785509387000",
           "title": "В «Деловой России» прокомментировали арест руководства «Эфко»",
           "summary": "Организация намерена обратиться к бизнес-омбудсмену и будет оказывать экспертную и правовую поддержку.",
           "url": "https://pravo.ru/news/265088/",
@@ -1131,7 +1143,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-2-1785508683000",
+          "id": "law-3-1785508683000",
           "title": "Суд обратил в доход государства 123 объекта недвижимости «Свидетелей Иеговы»*",
           "summary": "Пожертвования признали недействительными, а действия организации — недобросовестными.",
           "url": "https://pravo.ru/news/265087/",
@@ -1143,24 +1155,12 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-3-1785508600000",
+          "id": "law-4-1785508600000",
           "title": "Новый владелец «Южуралзолота» начал процедуру выкупа акций у миноритариев",
           "summary": "«БТС-мост Холдинг» выполнил обязательное требование ФЗ «Об акционерных обществах» и направил обязательную оферту миноритариям.",
           "url": "https://pravo.ru/news/265086/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
           "publishedAt": "2026-07-31T14:36:40.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-4-1785506160000",
-          "title": "ФНС просит прекратить банкротство «Трансаэро»",
-          "summary": "Служба также запросила согласие участников дела на финансирование дальнейших расходов.",
-          "url": "https://pravo.ru/news/265084/",
-          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-07-31T13:56:00.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
