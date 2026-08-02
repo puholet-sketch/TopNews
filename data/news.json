@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-01T22:42:52.193Z",
+  "updatedAt": "2026-08-02T01:28:18.577Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
-    "cybersecurity",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-01T18:50:35.008Z",
+      "lastFetchAt": "2026-08-02T01:27:57.263Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785608354000",
+          "id": "it-0-1785617774000",
+          "title": "time.ticks_ms() в MicroPython: как не блокировать код и выполнять задачи конкурентно на ESP",
+          "summary": "Очень часто в программировании микроконтроллеров используются блокирующие задержки: delay() для Arduino, time.sleep() для MicroPython. Эти функции просты и понятны, но у них есть фундаментальный недостаток: они останавли",
+          "url": "https://habr.com/ru/articles/1065666/?utm_campaign=1065666&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/10a/8bd/dc4/10a8bddc4db3a940dc569dafd3da256b.png",
+          "publishedAt": "2026-08-01T20:56:14.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785612234000",
+          "title": "7 месяцев вайбкодинга: как в одиночку делать то, что раньше требовало команду",
+          "summary": "примерное содержание: За 7 месяцев вайбкодинга я увидел, как сильно ИИ меняет разработку: от чата с моделью до полноценной агентной работы. В этом материале, мой опыт, советы использования ИИ и выводы о том, что действит",
+          "url": "https://habr.com/ru/articles/1065582/?utm_campaign=1065582&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2ea/8bb/8f3/2ea8bb8f316405725e1181d97a4c4e4c.jpg",
+          "publishedAt": "2026-08-01T19:23:54.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1785608354000",
           "title": "[Перевод] Стохастический клеточный автомат на системе типов",
           "summary": "Давайте разберёмся, как алгорифмы Маркова и pattern matching в WL позволяют генерировать лабиринты, реки, падающий песок и другие клеточные автоматы с помощью системы типов Читать далее",
           "url": "https://habr.com/ru/articles/1065604/?utm_campaign=1065604&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785606583000",
+          "id": "it-3-1785606583000",
           "title": "Как не потерять себя в эпоху ИИ",
           "summary": "Обещание, что скоро код не придется писать руками, звучит далеко не первый раз. COBOL делали похожим на английский, чтобы программы были понятны не только программистам. Предшественник SQL назывался SEQUEL, то есть буква",
           "url": "https://habr.com/ru/articles/1065654/?utm_campaign=1065654&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785586002000",
+          "id": "it-4-1785586002000",
           "title": "07.2026 Тренды агентной разработки за июль и подборка полезных статей на эту тему",
           "summary": "По сути, тренды июля те же, что и в июне (описание июня здесь): как создать лучший harness, как настроить автономные или полуавтономные процессы, управление контекстом, повышение качества и повторяемости результатов, опт",
           "url": "https://habr.com/ru/articles/1055452/?utm_campaign=1055452&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/d00/ec8/7b2/d00ec87b2100dbea7d0fd8c6a5d6eb77.jpeg",
           "publishedAt": "2026-08-01T12:06:42.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1785577988000",
-          "title": "Торговля по паттернам с точки зрения алгоритмов",
-          "summary": "Классические фигуры вроде «головы и плеч» легко увидеть глазами, но тяжело формализовать без десятков спорных условий. В статье я рассказываю, как заменил ручное описание паттернов поиском похожих исторических участков с",
-          "url": "https://habr.com/ru/articles/1065564/?utm_campaign=1065564&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c02/7c6/a98/c027c6a9833f2306c5617b8c79b09d7a.jpg",
-          "publishedAt": "2026-08-01T09:53:08.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785575225000",
-          "title": "ИграКОД: Генератор судоку на TypeScript: почему найти решение проще, чем доказать единственность",
-          "summary": "Главная ошибка наивного генератора судоку — проверять, что решение существует, но не проверять, что оно единственное. Вот почти заполненное поле: 534..8912 672195348 198342567 859..1423 426853791 713924856 961537284 2874",
-          "url": "https://habr.com/ru/articles/1065276/?utm_campaign=1065276&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/00d/19b/f68/00d19bf68fa806b8e0d0ba1496e97a5f.png",
-          "publishedAt": "2026-08-01T09:07:05.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-01T22:42:36.686Z",
+      "lastFetchAt": "2026-08-02T01:27:57.961Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-01T18:50:41.625Z",
+      "lastFetchAt": "2026-08-02T01:28:01.250Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -351,24 +351,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1785484813000",
-          "title": "Max договорился с мобильными операторами, что использование мессенджера не будет расходовать пакеты трафика",
-          "summary": "Соглашение начнёт действовать с 1 августа 2026 года.",
-          "url": "https://vc.ru/services/3055176-max-i-mobilnye-operatory-dogovorilis-ob-ispolzovanii-messendzhera?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3055176/1785610241/cover.jpg",
-          "publishedAt": "2026-07-31T08:00:13.000Z",
+          "id": "startups-3-1785585830000",
+          "title": "День 1620: спрос на наличные в июле 2026 года составил более 620 млрд рублей",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3056693-spros-na-nalichnye-v-rossii?from=rss",
+          "image": "https://leonardo.osnova.io/df792b74-70f5-5c1a-9eae-2bc3103d8a7b/",
+          "publishedAt": "2026-08-01T12:03:50.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1785522053000",
-          "title": "«Помочь можем только мы и государство»: основательница Wildberries призвала пострадавший бизнес не верить обещающим помощь мошенникам и юристам",
-          "summary": "Новые меры поддержки анонсируют в ближайшее время.",
-          "url": "https://vc.ru/marketplace/3056110-pomoshch-biznesu-ot-wildberries-i-gosudarstva?from=rss",
-          "image": "https://leonardo.osnova.io/d624ec74-dda1-59b8-aa88-f7d6622d2edf/",
-          "publishedAt": "2026-07-31T18:20:53.000Z",
+          "id": "startups-4-1785484813000",
+          "title": "Max договорился с мобильными операторами, что использование мессенджера не будет расходовать пакеты трафика",
+          "summary": "Соглашение начнёт действовать с 1 августа 2026 года.",
+          "url": "https://vc.ru/services/3055176-max-i-mobilnye-operatory-dogovorilis-ob-ispolzovanii-messendzhera?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3055176/1785634080/cover.jpg",
+          "publishedAt": "2026-07-31T08:00:13.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-01T18:50:44.650Z",
+      "lastFetchAt": "2026-08-02T01:28:06.948Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-01T18:50:45.045Z",
+      "lastFetchAt": "2026-08-02T01:28:07.843Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-01T18:50:47.305Z",
+      "lastFetchAt": "2026-08-02T01:28:09.912Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-01T18:50:49.614Z",
+      "lastFetchAt": "2026-08-02T01:28:12.442Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,7 +875,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1785521442000",
+          "id": "entertainment-0-1785621916000",
+          "title": "Умер актер из «Клана Сопрано» Винсент Пасторе",
+          "summary": "В возрасте 80 лет умер американский актер Винсент Пасторе. Наибольшую известность ему принесла роль Сальваторе Бонпенсьеро в сериале «Клан Сопрано».",
+          "url": "https://www.kommersant.ru/doc/8860744",
+          "image": "https://im2.kommersant.ru/SocialPics/8860744_49_0_1848299838",
+          "publishedAt": "2026-08-01T22:05:16.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1785521442000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 1–2 августа",
           "summary": "30 июля в прокат вышел ряд фильмов, среди которых анимационная экранизация библейского сюжета «Храбрый Давид» и британский боевик «Ограбить Лондон». Что посмотреть в кино на выходных — в материале «Ъ».",
           "url": "https://www.kommersant.ru/doc/8847352",
@@ -887,11 +899,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1785511403000",
+          "id": "entertainment-2-1785511403000",
           "title": "Если дух оказался вдруг // В кинотеатрах показывают индонезийский хоррор «Призрак в клетке»",
           "summary": "На экранах — притворный фильм ужасов индонезийца Джоко Анвара «Призрак в клетке» (Hantu Dalam Sel). Посмотрев его, Михаил Трофименков почувствовал пряное и привольное дыхание Глобального Юга.",
           "url": "https://www.kommersant.ru/doc/8860121",
-          "image": "https://im2.kommersant.ru/SocialPics/8860121_49_3173283_1681136983",
+          "image": "https://iv.kommersant.ru/SocialPics/8860121_49_3173283_1681136983",
           "publishedAt": "2026-07-31T15:23:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -899,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1785498509000",
+          "id": "entertainment-3-1785498509000",
           "title": "Точечная живописная стратегия // В Потсдаме показывают выставку о Поле Синьяке и неоимпрессионистах",
           "summary": "В Музее Барберини в Потсдаме проходит выставка «Симфония цветов: Поль Синьяк и неоимпрессионизм». Побывав на ней, остался под сильным впечатлением Андрей Плахов.",
           "url": "https://www.kommersant.ru/doc/8859981",
@@ -911,7 +923,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1785497793000",
+          "id": "entertainment-4-1785497793000",
           "title": "«Основной корпус его деревянных скульптур находится в Саранске» // Дмитрий Буткевич — о творческом пути Степана Эрьзи",
           "summary": "В ГТГ на Крымском валу открылась выставка знаменитого скульптора первой половины XX столетия Степана Эрьзи. Его имя мне как выпускнику отделения искусствоведения было известно еще во время учебы, однако работ мастера жив",
           "url": "https://www.kommersant.ru/doc/8858298",
@@ -921,23 +933,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1785428584000",
-          "title": "Явление «Грешницы» народу // В Третьяковской галерее представили проект о Поленове и Третьякове",
-          "summary": "Третьяковская галерея показывает выставку «Павел Третьяков и Василий Поленов», посвященную дружеским и деловым отношениям мецената и художника. Главным хитом стало приехавшее из Русского музея монументальное полотно «Хри",
-          "url": "https://www.kommersant.ru/doc/8848542",
-          "image": "https://im2.kommersant.ru/Issues.photo2/DAILY/2026/137/KMO_208944_00035_1_t219_191855.jpg",
-          "publishedAt": "2026-07-30T16:23:04.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-01T22:42:51.459Z",
+      "lastFetchAt": "2026-08-02T01:28:16.761Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785619440000",
-          "title": "МЛС. «Интер Майами» Месси примет «Коламбус», «Атланта» Миранчука в гостях у «Филадельфии», «Канзас Сити» Шапи сыграет с «Хьюстон Динамо»",
-          "summary": "В регулярном чемпионате МЛС « Интер Майами » Лионеля Месси примет « Коламбус », « Атланта » Алексея Миранчука сыграет в гостях с «Филадельфией», «Канзас Сити» Магомеда-Шапи Сулейманова встретится дома с «Хьюстон Динамо».",
+          "id": "sports-0-1785633304000",
+          "title": "Портленд Тимберс  Сиэтл Саундерс: смотреть онлайн прямую трансляцию матча, 2 августа 2026",
+          "summary": "Во воскресенье, 2 августа, сыграют Портленд Тимберс и Сиэтл Саундерс в рамках МЛС. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 05:45 по московскому времени. Где смотреть матч Портлен",
+          "url": "https://www.sports.ru/football/1117320985-portlend-timbers-sietl-saunders-smotret-onlajn-pryamuyu-translyacziyu-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/098/5/share/765701_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T01:15:04.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1785633240000",
+          "title": "Андрей Талалаев: «Не будет стыдно за «Балтику» в этом сезоне. Какое‑то время нас поболтает, но обязательно стабилизируем и игру, и результат»",
+          "summary": "Тренер «Балтики» Андрей Талалаев уверен, что калининградцы стабилизируют и игру, и результат. За два тура Альфа‑Банк РПЛ « Балтика » набрала 3 очка. «Еще будут усиления. Работа ведется. Стыдно в этом сезоне за «Балтику» ",
+          "url": "https://www.sports.ru/football/1117320984-andrej-talalaev-ne-budet-stydno-za-baltiku-v-etom-sezone-kakoeto-vremy.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/098/4/share/83330e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T01:14:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1785632580000",
+          "title": "МЛС. «Интер Майами» Месси принимает «Коламбус», «Атланта» Миранчука в гостях у «Филадельфии», «Канзас Сити» Шапи сыграет с «Хьюстон Динамо»",
+          "summary": "В регулярном чемпионате МЛС « Интер Майами » Лионеля Месси принимает « Коламбус », « Атланта » Алексея Миранчука играет в гостях с «Филадельфией», «Канзас Сити» Магомеда-Шапи Сулейманова встретится дома с «Хьюстон Динамо",
           "url": "https://www.sports.ru/football/1117319830-mls-inter-majami-messi-primet-kolambus-atlanta-miranchuka-v-gostyax-u-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/731/983/0/share/c3b7ca_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T21:24:00.000Z",
+          "image": "https://www.sports.ru/dynamic_images/news/111/731/983/0/share/6aece7_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T01:03:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785621960000",
-          "title": "Шварц об 1:2 с «Балтикой»: «Результат – дерьмо, но в игре «Динамо» было много хороших моментов. После отличной предсезонки мы ожидали больше очков, но так бывает в футболе»",
-          "summary": "Главный тренер «Динамо» Сандро Шварц высказался о поражении от «Балтики» (1:2) во 2-м туре РПЛ . – Хотел бы поздравить «Балтику» с победой. До первого пропущенного гола мы достаточно хорошо играли, создавали моменты, кон",
-          "url": "https://www.sports.ru/football/1117320962-shvarcz-ob-12-s-baltikoj-rezultat-dermo-no-v-igre-dinamo-bylo-mnogo-xo.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/096/2/share/0cf9c6_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T22:06:00.000Z",
+          "id": "sports-3-1785632407000",
+          "title": "Лос-Анджелес Гэлакси  ФК Даллас: смотреть онлайн прямую трансляцию матча, 2 августа 2026",
+          "summary": "Во воскресенье, 2 августа, сыграют Лос-Анджелес Гэлакси и ФК Даллас в рамках МЛС. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 05:30 по московскому времени. Где смотреть матч Лос-Андж",
+          "url": "https://www.sports.ru/football/1117320982-los-andzheles-gelaksi-fk-dallas-smotret-onlajn-pryamuyu-translyacziyu-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/098/2/share/5c4eae_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T01:00:07.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785621780000",
-          "title": "Ширер об уходе Хау из «Ньюкасла»: «Может, он почувствовал – сколько можно продавать лучших игроков? У Эдди не будет недостатка в предложениях в АПЛ и за границей»",
-          "summary": "Бывший нападающий « Ньюкасла » Алан Ширер поделился мнением об уходе Эдди Хау с поста главного тренера. Хау возглавлял «сорок» с 2021 года. В 2025-м он привел клуб к победе в Кубке английской лиги – это первый трофей ком",
-          "url": "https://www.sports.ru/football/1117320950-shirer-ob-uxode-xau-iz-nyukasla.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/095/0/share/cdcfc9_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T22:03:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1785621613000",
-          "title": "Ванкувер Уайткэпс  Лос-Анджелес: смотреть онлайн прямую трансляцию матча, 2 августа 2026",
-          "summary": "Во воскресенье, 2 августа, сыграют Ванкувер Уайткэпс и Лос-Анджелес в рамках МЛС. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 02:30 по московскому времени. Где смотреть матч Ванкувер",
-          "url": "https://www.sports.ru/football/1117320960-vankuver-uajtkeps-los-andzheles-smotret-onlajn-pryamuyu-translyacziyu-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/096/0/share/123692_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T22:00:13.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1785621613000",
-          "title": "Филадельфия Юнион  Атланта Юнайтед: смотреть онлайн прямую трансляцию матча, 2 августа 2026",
-          "summary": "Во воскресенье, 2 августа, сыграют Филадельфия Юнион и Атланта Юнайтед в рамках МЛС. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 02:30 по московскому времени. Где смотреть матч Филад",
-          "url": "https://www.sports.ru/football/1117320959-filadelfiya-yunion-atlanta-yunajted-smotret-onlajn-pryamuyu-translyacz.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/095/9/share/6879ca_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-01T22:00:13.000Z",
+          "id": "sports-4-1785629705000",
+          "title": "Колорадо Рэпидс  Остин: смотреть онлайн прямую трансляцию матча, 2 августа 2026",
+          "summary": "Во воскресенье, 2 августа, сыграют Колорадо Рэпидс и Остин в рамках МЛС. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 04:30 по московскому времени. Где смотреть матч Колорадо Рэпидс —",
+          "url": "https://www.sports.ru/football/1117320981-kolorado-repids-ostin-smotret-onlajn-pryamuyu-translyacziyu-matcha-2-a.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/098/1/share/d33cf4_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T00:15:05.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-01T22:42:52.193Z",
+      "lastFetchAt": "2026-08-02T01:28:18.577Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785623719000",
-          "title": "Фицо отреагировал на ослабление одного вида санкций ЕС против России",
+          "id": "politics-0-1785633840000",
+          "title": "Украине назвали следующую потерю после лишения выхода к морю",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/02/fitso-otreagiroval-na-oslablenie-odnogo-vida-sanktsiy-es-protiv-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/02/01/20260802013447624/pic_53656d1c20aaf0c489926a706470719b.jpg",
-          "publishedAt": "2026-08-01T22:35:19.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/ukraine-nazvali-sleduyuschuyu-poteryu-posle-lisheniya-vyhoda-k-moryu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/04/20260802042555404/pic_da55a0b81f2ac268e260b88ee87d9643.jpg",
+          "publishedAt": "2026-08-02T01:24:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785623405000",
-          "title": "В московском ресторане сработало самодельное взрывное устройство. Бомбу могла принести смертница",
+          "id": "politics-1-1785633077000",
+          "title": "Вспышка «взрывной» диареи вынудила фермеров в США уничтожить урожай",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/02/long-bomba/",
-          "image": "https://icdn.lenta.ru/images/2026/08/02/01/20260802011756308/pic_7ac9e1cdbd9696c57321127208ecd5cc.jpg",
-          "publishedAt": "2026-08-01T22:30:05.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/vspyshka-vzryvnoy-diarei-vynudila-fermerov-v-ssha-unichtozhit-urozhay/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/04/20260802041232386/pic_c2f7c6b78cfae596f95fffa47ef9aca6.jpg",
+          "publishedAt": "2026-08-02T01:11:17.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785623400000",
-          "title": "МИД прокомментировал слухи об ограничениях при оформлении загранпаспортов в МФЦ",
+          "id": "politics-2-1785633000000",
+          "title": "Стало известно о просьбе наследного принца Саудовской Аравии к Трампу",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/02/mid-prokommentiroval-sluhi-ob-ogranicheniyah-pri-oformlenii-zagranpasportov-v-mfts/",
-          "image": "https://icdn.lenta.ru/images/2026/08/02/01/20260802013120444/pic_64c295715ca2e876c603da98bc3e1388.jpg",
-          "publishedAt": "2026-08-01T22:30:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/stalo-izvestno-o-prosbe-printsa-saudovskoy-aravii-k-trampu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/04/20260802041059396/pic_3c8ce07124e25286da6fc917fcb6cd8c.jpg",
+          "publishedAt": "2026-08-02T01:10:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785623040000",
-          "title": "Тульская область подверглась атаке дронов",
+          "id": "politics-3-1785632760000",
+          "title": "Путин рассказал о строительстве первой в России ВСМ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/02/tulskaya-oblast-podverglas-atake-dronov/",
-          "image": "https://icdn.lenta.ru/images/2026/08/02/01/20260802012513215/pic_f5c2722ed744ede224f81a5bd1ed567d.jpg",
-          "publishedAt": "2026-08-01T22:24:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/putin-rasskazal-o-stroitelstve-pervoy-v-rossii-vsm/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/04/20260802040429371/pic_7e710ac8cc7dc50a1dbbb729f70f1e24.jpg",
+          "publishedAt": "2026-08-02T01:06:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785622717000",
-          "title": "На Западе обеспокоились ответом России на действия НАТО",
+          "id": "politics-4-1785632447000",
+          "title": "Иран уничтожил три американских истребителя F-35. Израиль боится жесткого ответа Трампа. Что он готовит?",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/02/na-zapade-obespokoilis-otvetom-rossii-na-deystviya-nato/",
-          "image": "https://icdn.lenta.ru/images/2026/08/02/01/20260802012024312/pic_8b11f7ab023771e70fd7d94c69af6110.jpg",
-          "publishedAt": "2026-08-01T22:18:37.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/long-iran-unichtozhil-tri-amerikanskih-istrebitelya-f-35-izrail-boitsya-zhestkogo-otveta-trampa-chto-on-gotovit/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/03/20260802035058158/pic_f5df2887fe842acdee11406df7e8afeb.jpg",
+          "publishedAt": "2026-08-02T01:00:47.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
