@@ -1,15 +1,9 @@
 {
-  "updatedAt": "2026-08-02T11:09:59.735Z",
+  "updatedAt": "2026-08-02T12:53:19.294Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -19,7 +13,13 @@
     "space",
     "automotive",
     "gaming",
-    "entertainment",
+    "entertainment"
+  ],
+  "skippedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-02T08:01:13.824Z",
+      "lastFetchAt": "2026-08-02T12:52:58.865Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,19 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785657319000",
-          "title": "Шизофрения LLM, или Поваренная книга вайбкодера",
-          "summary": "Разработчик сдал фичу. Ревьювер нашёл в ней три бага — настоящих, со сценариями поломки. Пикантность в том, что это одна и та же модель: тот же набор весов, который час назад писал этот код и был им доволен, в другой рол",
-          "url": "https://habr.com/ru/articles/1065704/?utm_campaign=1065704&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/9a7/9ce/041/9a79ce0418452c1a241d2d6c469da5ca.png",
-          "publishedAt": "2026-08-02T07:55:19.000Z",
+          "id": "it-0-1785662593000",
+          "title": "Агент изменил рабочую базу данных, хотя это было запрещено в правилах",
+          "summary": "На форуме Cursor разработчик рассказал, как запретил агенту работать с удалённой базой, а тот всё равно выполнил npx supabase db push. Эта команда отправляет локальные изменения схемы в подключённый удалённый проект. Аге",
+          "url": "https://habr.com/ru/companies/veai/articles/1065728/?utm_campaign=1065728&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/d57/040/046/d57040046079452e03fdc588bb07f04f.png",
+          "publishedAt": "2026-08-02T09:23:13.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785650049000",
+          "id": "it-1-1785661576000",
+          "title": "Если вы думаете, что знаете, чем отличается «Expression» от «Statement», то, скорее всего, вы ошибаетесь",
+          "summary": "Я занимаюсь изучением синтаксиса языков программирования и пытаюсь отделить фундаментальные закономерности от исторических случайностей. Одна из таких случайностей - почти повсеместное использование терминов выражение (e",
+          "url": "https://habr.com/ru/articles/1065722/?utm_campaign=1065722&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f0c/983/e77/f0c983e77a4b3f355c03c50b98dedf37.jpg",
+          "publishedAt": "2026-08-02T09:06:16.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1785650049000",
           "title": "«Оценка 300 часов? ИИ мне сделает за вечер!». Считаем тремя методами, и 300 — ниже плинтуса в индустрии",
           "summary": "Я оценил доработку учётной системы в 300 часов, заказчик ответил, что это очень много. Я для него посчитал тот же объём тремя независимыми способами: снизу вверх по пользовательским действиям, через функциональные точки ",
           "url": "https://habr.com/ru/articles/1065640/?utm_campaign=1065640&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785648791000",
+          "id": "it-3-1785648791000",
           "title": "JOIN как в ORM: связи по foreign key в PostgreSQL",
           "summary": "SELECT * FROM document, client(document) запрос, который ходит по связям вместо ON. Как включить такую навигацию на ванильном PostgreSQL — без патчей, расширений и нового синтаксиса, — почему стандарт SQL не научился это",
           "url": "https://habr.com/ru/articles/1065684/?utm_campaign=1065684&utm_source=habrahabr&utm_medium=rss",
@@ -71,7 +83,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1785617774000",
+          "id": "it-4-1785617774000",
           "title": "time.ticks_ms() в MicroPython: как не блокировать код и выполнять задачи конкурентно на ESP",
           "summary": "Очень часто в программировании микроконтроллеров используются блокирующие задержки: delay() для Arduino, time.sleep() для MicroPython. Эти функции просты и понятны, но у них есть фундаментальный недостаток: они останавли",
           "url": "https://habr.com/ru/articles/1065666/?utm_campaign=1065666&utm_source=habrahabr&utm_medium=rss",
@@ -81,23 +93,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785612234000",
-          "title": "7 месяцев вайбкодинга: как в одиночку делать то, что раньше требовало команду",
-          "summary": "примерное содержание: За 7 месяцев вайбкодинга я увидел, как сильно ИИ меняет разработку: от чата с моделью до полноценной агентной работы. В этом материале, мой опыт, советы использования ИИ и выводы о том, что действит",
-          "url": "https://habr.com/ru/articles/1065582/?utm_campaign=1065582&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2ea/8bb/8f3/2ea8bb8f316405725e1181d97a4c4e4c.jpg",
-          "publishedAt": "2026-08-01T19:23:54.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-02T05:14:29.415Z",
+      "lastFetchAt": "2026-08-02T12:53:00.422Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,60 +105,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1785619049000",
+          "id": "ai-0-1785671649000",
+          "title": "AI в дизайн-процессе в 2026: что вижу в индустрии — и как это устроено у меня",
+          "summary": "Как AI на самом деле встроен в процесс дизайнера в 2026 — не с точки зрения хайпа, а по фактам из отчётов, интервью и постов практикующих дизайнеров: смена парадигмы, командная работа на одном канвасе, инструменты, котор",
+          "url": "https://habr.com/ru/articles/1065754/?utm_campaign=1065754&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/1d1/ac0/0db/1d1ac00db9e524ed270a6aa2cc683143.png",
+          "publishedAt": "2026-08-02T11:54:09.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1785664652000",
+          "title": "Квадриллион параметров (1Q) для LLM. Когда нам ждать такую модель?",
+          "summary": "Согласно закону заголовков Беттериджа, который утверждает: «Если заголовок заканчивается вопросительным знаком, на него можно ответить „нет“», ответом на вопрос в заголовке будет „никогда“. И я попытаюсь вас в этом убеди",
+          "url": "https://habr.com/ru/articles/1065320/?utm_campaign=1065320&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f60/359/e1c/f60359e1cd90ce2545b6b60c5a81d665.jpg",
+          "publishedAt": "2026-08-02T09:57:32.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1785658955000",
+          "title": "История о том, как я написал компилятор Svelte на Rust",
+          "summary": "У нас тормозило всё: сборка, дев-сервер, svelte-check, LSP. Я пошёл писать свой компилятор Svelte на Rust. Пять с половиной месяцев ковырял руками и бросил. Через год вернулся с ИИ-агентом и доделал за 106 вечеров и $700",
+          "url": "https://habr.com/ru/articles/1065708/?utm_campaign=1065708&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2b8/168/31f/2b816831fdeb9b2f04b98939384ff116.png",
+          "publishedAt": "2026-08-02T08:22:35.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-3-1785650049000",
+          "title": "«Оценка 300 часов? ИИ мне сделает за вечер!». Считаем тремя методами, и 300 — ниже плинтуса в индустрии",
+          "summary": "Я оценил доработку учётной системы в 300 часов, заказчик ответил, что это очень много. Я для него посчитал тот же объём тремя независимыми способами: снизу вверх по пользовательским действиям, через функциональные точки ",
+          "url": "https://habr.com/ru/articles/1065640/?utm_campaign=1065640&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/905/3ab/d8c/9053abd8c5b70b4c110013eddb6093f7.png",
+          "publishedAt": "2026-08-02T05:54:09.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-4-1785619049000",
           "title": "ИИ стал главной причиной увольнений в США. Инвесторы подозревают, что это отговорка",
           "summary": "Компания monday.com, разработчик популярного таск-трекера, объявила о сокращении 20% штата — около 630 человек. Причина, по формулировке из SEC-филинга, — переход к \"более компактной и сфокусированной операционной модели",
           "url": "https://habr.com/ru/articles/1065668/?utm_campaign=1065668&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/1df/49a/848/1df49a848c5d391e7773a4347867faa9.jpg",
           "publishedAt": "2026-08-01T21:17:29.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-1-1785612234000",
-          "title": "7 месяцев вайбкодинга: как в одиночку делать то, что раньше требовало команду",
-          "summary": "примерное содержание: За 7 месяцев вайбкодинга я увидел, как сильно ИИ меняет разработку: от чата с моделью до полноценной агентной работы. В этом материале, мой опыт, советы использования ИИ и выводы о том, что действит",
-          "url": "https://habr.com/ru/articles/1065582/?utm_campaign=1065582&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2ea/8bb/8f3/2ea8bb8f316405725e1181d97a4c4e4c.jpg",
-          "publishedAt": "2026-08-01T19:23:54.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-2-1785610571000",
-          "title": "Внедрение AI в дизайн-процесс: что реально работает, а что пока только обещано",
-          "summary": "Разбор того, где AI на самом деле прижился в дизайн-процессе, а где пока только обещания. На пяти реальных источниках — от интервью с дизайнерами Atlassian и Shopify до кейса X5Tech с 40-45% AI-контента — показано: AI лу",
-          "url": "https://habr.com/ru/articles/1065660/?utm_campaign=1065660&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/dc6/5c4/0d4/dc65c40d4ae24c7b5a6cc867cdcdead7.png",
-          "publishedAt": "2026-08-01T18:56:11.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1785609556000",
-          "title": "Параллельное Программирование, Процессоры, Кэши с Кэйвоном и Кунле",
-          "summary": "На четвертом курсе Стэнфорда* я записался на урок по параллельному программированию. Изучив алгоритмы, контейнеры данных и математику, стоящую за нейронными сетками, понял, что толком не знаю, что такое микропроцессор. Б",
-          "url": "https://habr.com/ru/articles/1065658/?utm_campaign=1065658&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e30/567/3a2/e305673a2e6781c5ca046911bdf7b9ee.jpeg",
-          "publishedAt": "2026-08-01T18:39:16.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1785607585000",
-          "title": "Что общего у Таро, Viterbi и LLM: как алгоритм выбирает один смысл из многих",
-          "summary": "Можно ли описать интерпретацию Таро как задачу поиска лучшего смыслового пути? Разбираю учебную вероятностную модель: от локального greedy к точному Viterbi, beam search, фактор-графам, CRF и LLM reranking. На контрприме",
-          "url": "https://habr.com/ru/articles/1065656/?utm_campaign=1065656&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/dcf/92c/92c/dcf92c92cbb14ce790fb213c1b8645da.jpg",
-          "publishedAt": "2026-08-01T18:06:25.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-02T08:01:19.313Z",
+      "lastFetchAt": "2026-08-02T12:53:02.084Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -351,19 +351,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1785585830000",
-          "title": "День 1620: спрос на наличные в июле 2026 года составил более 620 млрд рублей",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/money/3056693-spros-na-nalichnye-v-rossii?from=rss",
-          "image": "https://leonardo.osnova.io/df792b74-70f5-5c1a-9eae-2bc3103d8a7b/",
-          "publishedAt": "2026-08-01T12:03:50.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1785514474000",
+          "id": "startups-3-1785514474000",
           "title": "РЖД протестировали «робота-проводника» в «Сапсане»",
           "summary": "Планы по масштабированию и детали об устройстве не раскрыли.",
           "url": "https://vc.ru/transport/3055971-rzd-protestirovalo-robota-provodnika-volodyu-v-sapsane?from=rss",
@@ -373,11 +361,23 @@
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1785585830000",
+          "title": "День 1620: спрос на наличные в июле 2026 года составил более 620 млрд рублей",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3056693-spros-na-nalichnye-v-rossii?from=rss",
+          "image": "https://leonardo.osnova.io/df792b74-70f5-5c1a-9eae-2bc3103d8a7b/",
+          "publishedAt": "2026-08-01T12:03:50.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
         }
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-02T05:14:31.717Z",
+      "lastFetchAt": "2026-08-02T12:53:03.487Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-02T08:01:22.965Z",
+      "lastFetchAt": "2026-08-02T12:53:06.585Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-02T05:14:34.637Z",
+      "lastFetchAt": "2026-08-02T12:53:08.408Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-02T08:01:23.758Z",
+      "lastFetchAt": "2026-08-02T12:53:08.657Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-02T05:14:37.690Z",
+      "lastFetchAt": "2026-08-02T12:53:13.467Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1785647362000",
-          "title": "Минобороны отчиталось об уничтожении силами ПВО 635 дронов ВСУ за ночь",
-          "summary": "Средства ПВО России за ночь уничтожили 635 беспилотников ВСУ над 16 регионами, а также акваториями Азовского и Черного морей. Об этом сообщили в пресс-службе Минобороны России.",
-          "url": "https://www.kommersant.ru/doc/8860765",
-          "image": "https://iv.kommersant.ru/SocialPics/8860765_49_0_232736976",
-          "publishedAt": "2026-08-02T05:09:22.000Z",
+          "id": "energy-0-1785674568000",
+          "title": "Доля офисов до 500 кв. м в структуре продаж выросла в 2,4 раза",
+          "summary": "На помещения до 500 кв. м пришлось 29% сделок по продаже офисов в Москве в январе-июне, это в 2,4 раза больше чем годом ранее. Спрос на маленькие офисы формируют частные инвесторы, ищущие инструменты вложения капитала.",
+          "url": "https://www.kommersant.ru/doc/8860924",
+          "image": "https://im2.kommersant.ru/SocialPics/8860924_49_0_1584896393",
+          "publishedAt": "2026-08-02T12:42:48.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1785645892000",
-          "title": "Над Ростовской областью сбито около 150 беспилотников",
-          "summary": "Губернатор Ростовской области Юрий Слюсарь сообщил, что силы ПВО сбили над регионом почти 150 беспилотников. По его словам, налету подвергся город Каменск-Шахтинский и еще семь районов региона.",
-          "url": "https://www.kommersant.ru/doc/8860762",
-          "image": "https://iv.kommersant.ru/SocialPics/8860762_49_0_320680924",
-          "publishedAt": "2026-08-02T04:44:52.000Z",
+          "id": "energy-1-1785674415000",
+          "title": "Оптовые цены на курятину снизились на 6,3% за две недели",
+          "summary": "Рост оптовых цен на курятину в России сменился снижением, за 14 дней стоимость тушки бройлера потеряла 6,3%, составив 222 руб. за 1 кг. Это связано в том числе с выходом на рынок мелкой птицы.",
+          "url": "https://www.kommersant.ru/doc/8860923",
+          "image": "https://im2.kommersant.ru/SocialPics/8860923_49_0_930295943",
+          "publishedAt": "2026-08-02T12:40:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1785645012000",
-          "title": "Главные новости к утру 2 августа",
-          "summary": "Национальный антитеррористический комитет (НАК) сообщил, что в ресторане на Кудринской площади в Москве произошел подрыв самодельного взрывного устройства. Неизвестная попыталась пронести его в ресторан.",
-          "url": "https://www.kommersant.ru/doc/8860761",
-          "image": "https://im2.kommersant.ru/SocialPics/8860761_49_0_646565018",
-          "publishedAt": "2026-08-02T04:30:12.000Z",
+          "id": "energy-2-1785674337000",
+          "title": "Россиянка Жовнер выиграла золото чемпионата Европы по академической гребле",
+          "summary": "Российская спортсменка Мария Жовнер завоевала золотую медаль в соревнованиях одиночек легкого веса на чемпионате Европы по академической гребле, который проходит в Варезе, Италия. В финальном заплыве Жовнер показала врем",
+          "url": "https://www.kommersant.ru/doc/8860920",
+          "image": "https://iv.kommersant.ru/SocialPics/8860920_49_0_1818434915",
+          "publishedAt": "2026-08-02T12:38:57.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1785643278000",
-          "title": "Два человека погибли при налете БПЛА на Саратов",
-          "summary": "В Саратове из-за атаки БПЛА погибли два человека, сообщил губернатор Саратовской области Роман Бусаргин. Ранее губернатор писал, что из-за налета беспилотников в Саратове и Энгельсе повреждена гражданская инфраструктура.",
-          "url": "https://www.kommersant.ru/doc/8860760",
-          "image": "https://im2.kommersant.ru/SocialPics/8860760_49_0_1241670574",
-          "publishedAt": "2026-08-02T04:01:18.000Z",
+          "id": "energy-3-1785674248000",
+          "title": "Лихачев: обстановка в Энергодаре остается крайне напряженной",
+          "summary": "Генеральный директор госкорпорации «Росатом» Алексей Лихачев сообщил, что ситуация в городе Энергодар, расположенном рядом с Запорожской атомной электростанцией (ЗАЭС), остается крайне напряженной. По его словам, ежеднев",
+          "url": "https://www.kommersant.ru/doc/8860919",
+          "image": "https://iv.kommersant.ru/SocialPics/8860919_49_0_109987796",
+          "publishedAt": "2026-08-02T12:37:28.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1785641176000",
-          "title": "Трамп отказался от новых ударов по Ирану ради сделки",
-          "summary": "Президент США Дональд Трамп заявил, что согласился не наносить новые удары по Ирану ради достижения сделки. По его словам, стороны договорились о контурах мирного соглашения.",
-          "url": "https://www.kommersant.ru/doc/8860754",
-          "image": "https://im2.kommersant.ru/SocialPics/8860754_49_0_794846835",
-          "publishedAt": "2026-08-02T03:26:16.000Z",
+          "id": "energy-4-1785674121000",
+          "title": "Выплаты по переданным в перестраховочный пул полисам ОСАГО превысили объем премий",
+          "summary": "Выплаты по страховке клиентов, чьи полисы были переданы в перестраховочный пул ОСАГО, в полтора раза превысили объем собранных премий. Перестраховочный пул является защитным механизмом, который позволяет участникам рынка",
+          "url": "https://www.kommersant.ru/doc/8860918",
+          "image": "https://im2.kommersant.ru/SocialPics/8860918_49_0_426515496",
+          "publishedAt": "2026-08-02T12:35:21.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-02T05:14:38.323Z",
+      "lastFetchAt": "2026-08-02T12:53:13.882Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-02T08:01:26.231Z",
+      "lastFetchAt": "2026-08-02T12:53:17.718Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,31 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785574864000",
+          "id": "gaming-0-1785663475000",
+          "title": "Почему люди проходят курсы по нейросетям и всё равно не умеют ими пользоваться?",
+          "summary": "Вокруг куча курсов по нейросетям. Марафоны, ютуб, платные интенсивы, гайды на сорок минут. А толку часто ноль. Мы постоянно видим людей, которые честно отсидели два-три курса, открывают Claude, тыкают пару раз, получают ",
+          "url": "https://habr.com/ru/articles/1065730/?utm_campaign=1065730&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/a0c/7f5/a3a/a0c7f5a3accf04bbbc7ed345b21797ea.jpg",
+          "publishedAt": "2026-08-02T09:37:55.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785657934000",
+          "title": "Вышли 25 лет назад и изменили игровую индустрию навсегда. 5 самых важных игр 2001 года",
+          "summary": "В наше время принято говорить, что игровая индустрия умерла, законсервировалась сама в себе, да и вообще хороших игр сто лет не выходит. И с одной стороны, с этим очень легко посмеяться, учитывая какой поток релизов в по",
+          "url": "https://habr.com/ru/companies/timeweb/articles/1065016/?utm_campaign=1065016&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/505/9c5/9ff/5059c59ffefcd9fb7ee57550c0bd526b.jpg",
+          "publishedAt": "2026-08-02T08:05:34.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1785574864000",
           "title": "От Dune II до Dune: Awakening: как менялась легендарная серия игр по «Дюне»",
           "summary": "Вселенная Фрэнка Герберта давно стала для многих реальностью. Книги породили фильмы, сериалы и, конечно, игры. Они пытались передать ощущение пустынной планеты, где вода дороже жизни, а пряность решает судьбы империй. За",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1065312/?utm_campaign=1065312&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785496017000",
+          "id": "gaming-3-1785496017000",
           "title": "ПК или консоль: спор, который не закрыла даже Steam Machine",
           "summary": "Спор о том, что лучше для игр, собрать ПК самому или взять готовую консоль, идет ровно столько, сколько существуют игровые компьютеры. Свежий повод для него дала Steam Machine от Valve. Компания собрала действительно уда",
           "url": "https://habr.com/ru/companies/x-com/articles/1065318/?utm_campaign=1065318&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785492880000",
+          "id": "gaming-4-1785492880000",
           "title": "Стратегия без врагов, шутер без кнопки «стрелять»: как тотальное упрощение помогло заработать миллионы долларов",
           "summary": "Что будет, если отрезать от стратегии все, включая монстров и графику, а из Diablo убрать возможность прицельно атаковать и пройти игру до конца? Читать далее",
           "url": "https://habr.com/ru/articles/1065284/?utm_campaign=1065284&utm_source=habrahabr&utm_medium=rss",
@@ -839,35 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1785450264000",
-          "title": "Если ссылки схлопываются, значит это кому‑то нужно",
-          "summary": "В прошлой статье (Непослушный using ) я разобрал, как using вмешивается в поиск имён и почему его поведение часто расходится с тем, что от него ждет программист, и на этом ветку статей про поиск имен (name lookup) можно ",
-          "url": "https://habr.com/ru/articles/1064016/?utm_campaign=1064016&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/720/c67/a28/720c67a28415c98a479f3f9b4f8a80cc.png",
-          "publishedAt": "2026-07-30T22:24:24.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785407945000",
-          "title": "Какой ПК собрать в 2026 году, чтобы он потянул GTA 6, и не разориться",
-          "summary": "Стоит выйти новому трейлеру GTA 6, как половина всех, у кого есть ПК, внезапно вспоминает, что он был собран еще во времена второго Обливиона. А раз так, то оценить новый релиз не получится ну никак. Значит, надо обновля",
-          "url": "https://habr.com/ru/companies/x-com/articles/1064884/?utm_campaign=1064884&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/cba/a67/b79/cbaa67b7950cb4b2ef16425d7982de45.jpeg",
-          "publishedAt": "2026-07-30T10:39:05.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-02T08:01:29.263Z",
+      "lastFetchAt": "2026-08-02T12:53:19.294Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -1309,7 +1309,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-02T05:14:39.717Z",
+      "lastFetchAt": "2026-08-02T12:53:15.036Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1317,24 +1317,36 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1785590640000",
-          "title": "Продажи ушедшего из России производителя машин упали",
+          "id": "automotive-0-1785672260000",
+          "title": "Руководитель российской клиники пропал после лечения клизмой детей с аутизмом",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/prodazhi-ushedshego-iz-rossii-proizvoditelya-mashin-upali/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/16/20260801160438650/pic_f4dec27c06fd636fe9acd06113922d02.jpg",
-          "publishedAt": "2026-08-01T13:24:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/rukovoditel-rossiyskoy-kliniki-propal-posle-lecheniya-klizmoy-detey-s-autizmom/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/15/20260802150054890/pic_1b2a2ce5a919650cffc418592b7ca078.jpg",
+          "publishedAt": "2026-08-02T12:04:20.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1785579960000",
-          "title": "В МИД резко высказались об ударе ВСУ по пассажирскому автобусу в Запорожской области",
+          "id": "automotive-1-1785663360000",
+          "title": "Появились подробности аварии с микроавтобусом в российском городе",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/01/v-mid-rezko-vyskazalis-ob-udare-vsu-po-passazhirskomu-avtobusu-v-zaporozhskoy-oblasti/",
-          "image": "https://icdn.lenta.ru/images/2026/08/01/13/20260801133251515/pic_479870e57a8607c5eab3a6a6b505bd9f.jpg",
-          "publishedAt": "2026-08-01T10:26:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/02/poyavilis-podrobnosti-avarii-s-mikroavtobusom-v-rossiyskom-gorode/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/11/20260802114235875/pic_b60901772d555a84e5a37ff09b39e0a1.jpg",
+          "publishedAt": "2026-08-02T09:36:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-2-1785661680000",
+          "title": "Брошенных в клетках щенков бигля нашли в багажнике закрытой машины россиянки",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/02/broshennye-schenki-biglya-v-kletkah-nashli-v-bagazhnike-zakrytoy-mashiny-rossiyanki/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/12/20260802120925720/pic_fb7b37b6b5160eb562d2b2fe124beba0.jpg",
+          "publishedAt": "2026-08-02T09:08:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
