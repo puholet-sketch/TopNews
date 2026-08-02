@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-08-02T18:51:53.251Z",
+  "updatedAt": "2026-08-02T20:41:32.487Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "law"
+  ],
+  "skippedNow": [
     "it",
     "business",
     "startups",
@@ -10,18 +20,8 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-02T12:53:00.422Z",
+      "lastFetchAt": "2026-08-02T20:41:13.367Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,55 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1785671649000",
+          "id": "ai-0-1785701450000",
+          "title": "[Перевод] Почему агентная разработка нуждается в политиках",
+          "summary": "Средства разработки с помощью ИИ эволюционируют: от чат-ассистентов, подсказывающих код, к автономным агентам, которые сами планируют, пишут и ревьюят. Вместе с инструментами меняется и смысл того, что мы называем Govern",
+          "url": "https://habr.com/ru/articles/1065834/?utm_campaign=1065834&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/220/630/131/2206301317911baa27584a8e43a490d9.jpg",
+          "publishedAt": "2026-08-02T20:10:50.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1785701131000",
+          "title": "ИИ-агенту дали задачу спасти реальный бизнес. Он врал, спамил и ушел в минус",
+          "summary": "В конце июля исследовательская команда Bottleneck Labs опубликовала отчет о необычном эксперименте: агенту на GPT-5.6 Sol на сутки отдали настоящий бизнес — живое iOS-приложение, банковский счет с реальными деньгами и ко",
+          "url": "https://habr.com/ru/articles/1065830/?utm_campaign=1065830&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dff/660/c2d/dff660c2dedb25d9e1ad1f3893948707.jpg",
+          "publishedAt": "2026-08-02T20:05:31.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1785690490000",
+          "title": "ИИ в IT: как пользоваться ChatGPT и не слить конфиденциальные данные",
+          "summary": "ИИ помогает инженеру. Но готов ли инженер безопасно его использовать? Чтобы найти ошибку в конфиге Cisco, многие просто копируют его целиком в ChatGPT. На решение проблемы уходит две минуты. Но вместе с конфигом искусств",
+          "url": "https://habr.com/ru/articles/1065792/?utm_campaign=1065792&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/7ef/7ef/1f3/7ef7ef1f39428c2414890bbe25a2a309.jpeg",
+          "publishedAt": "2026-08-02T17:08:10.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-3-1785679016000",
+          "title": "Пять уровней защиты платежей в продукте, который собрал не программист",
+          "summary": "Я не Senior-программист — я собираю продукты с помощью ИИ. И на своём опыте понял: самый дорогой факап в такой работе не в том, что нейросеть пишет плохой код, а в том, что она пишет код, который выглядит рабочим. В стат",
+          "url": "https://habr.com/ru/articles/1065766/?utm_campaign=1065766&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1065766/95e965217a6c0de36361372bef237de9/",
+          "publishedAt": "2026-08-02T13:56:56.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-4-1785671649000",
           "title": "AI в дизайн-процессе в 2026: что вижу в индустрии — и как это устроено у меня",
           "summary": "Как AI на самом деле встроен в процесс дизайнера в 2026 — не с точки зрения хайпа, а по фактам из отчётов, интервью и постов практикующих дизайнеров: смена парадигмы, командная работа на одном канвасе, инструменты, котор",
           "url": "https://habr.com/ru/articles/1065754/?utm_campaign=1065754&utm_source=habrahabr&utm_medium=rss",
@@ -115,59 +163,11 @@
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
-        },
-        {
-          "id": "ai-1-1785664652000",
-          "title": "Квадриллион параметров (1Q) для LLM. Когда нам ждать такую модель?",
-          "summary": "Согласно закону заголовков Беттериджа, который утверждает: «Если заголовок заканчивается вопросительным знаком, на него можно ответить „нет“», ответом на вопрос в заголовке будет „никогда“. И я попытаюсь вас в этом убеди",
-          "url": "https://habr.com/ru/articles/1065320/?utm_campaign=1065320&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f60/359/e1c/f60359e1cd90ce2545b6b60c5a81d665.jpg",
-          "publishedAt": "2026-08-02T09:57:32.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-2-1785658955000",
-          "title": "История о том, как я написал компилятор Svelte на Rust",
-          "summary": "У нас тормозило всё: сборка, дев-сервер, svelte-check, LSP. Я пошёл писать свой компилятор Svelte на Rust. Пять с половиной месяцев ковырял руками и бросил. Через год вернулся с ИИ-агентом и доделал за 106 вечеров и $700",
-          "url": "https://habr.com/ru/articles/1065708/?utm_campaign=1065708&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2b8/168/31f/2b816831fdeb9b2f04b98939384ff116.png",
-          "publishedAt": "2026-08-02T08:22:35.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1785650049000",
-          "title": "«Оценка 300 часов? ИИ мне сделает за вечер!». Считаем тремя методами, и 300 — ниже плинтуса в индустрии",
-          "summary": "Я оценил доработку учётной системы в 300 часов, заказчик ответил, что это очень много. Я для него посчитал тот же объём тремя независимыми способами: снизу вверх по пользовательским действиям, через функциональные точки ",
-          "url": "https://habr.com/ru/articles/1065640/?utm_campaign=1065640&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/905/3ab/d8c/9053abd8c5b70b4c110013eddb6093f7.png",
-          "publishedAt": "2026-08-02T05:54:09.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1785619049000",
-          "title": "ИИ стал главной причиной увольнений в США. Инвесторы подозревают, что это отговорка",
-          "summary": "Компания monday.com, разработчик популярного таск-трекера, объявила о сокращении 20% штата — около 630 человек. Причина, по формулировке из SEC-филинга, — переход к \"более компактной и сфокусированной операционной модели",
-          "url": "https://habr.com/ru/articles/1065668/?utm_campaign=1065668&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/1df/49a/848/1df49a848c5d391e7773a4347867faa9.jpg",
-          "publishedAt": "2026-08-01T21:17:29.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
         }
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-02T08:01:15.869Z",
+      "lastFetchAt": "2026-08-02T20:41:15.748Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -175,7 +175,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1785581352000",
+          "id": "cybersecurity-0-1785690490000",
+          "title": "ИИ в IT: как пользоваться ChatGPT и не слить конфиденциальные данные",
+          "summary": "ИИ помогает инженеру. Но готов ли инженер безопасно его использовать? Чтобы найти ошибку в конфиге Cisco, многие просто копируют его целиком в ChatGPT. На решение проблемы уходит две минуты. Но вместе с конфигом искусств",
+          "url": "https://habr.com/ru/articles/1065792/?utm_campaign=1065792&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/7ef/7ef/1f3/7ef7ef1f39428c2414890bbe25a2a309.jpeg",
+          "publishedAt": "2026-08-02T17:08:10.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1785689954000",
+          "title": "Кто ходит по вашим сайтам, пока вы спите",
+          "summary": "Если посещаемость бодро растёт, доход от рекламы лежит на полу, а сервер просит пощады, вам не показалось. Мы нашли распределённого краулера, который приходил из поиска, выдерживал паузы, листал статьи и загружал картинк",
+          "url": "https://habr.com/ru/articles/1065790/?utm_campaign=1065790&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c52/b3a/467/c52b3a467d2a67ad471d52116e73dddd.jpg",
+          "publishedAt": "2026-08-02T16:59:14.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1785679016000",
+          "title": "Пять уровней защиты платежей в продукте, который собрал не программист",
+          "summary": "Я не Senior-программист — я собираю продукты с помощью ИИ. И на своём опыте понял: самый дорогой факап в такой работе не в том, что нейросеть пишет плохой код, а в том, что она пишет код, который выглядит рабочим. В стат",
+          "url": "https://habr.com/ru/articles/1065766/?utm_campaign=1065766&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1065766/95e965217a6c0de36361372bef237de9/",
+          "publishedAt": "2026-08-02T13:56:56.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1785581352000",
           "title": "Фильтрация ТСПУ у серверов Таймвеб Cloud: диагностика, обход через reverse-proxy и СDN",
           "summary": "Два коммерческих сайта на WordPress, оба на одном VPS. Клиенты в одном городе, я сам в другом. Начало июня. Клиенты жалуются, что сайт не открывается без VPN. Мало ли, подумал я — ограничения, белые списки и т.д. Потом с",
           "url": "https://habr.com/ru/articles/1065578/?utm_campaign=1065578&utm_source=habrahabr&utm_medium=rss",
@@ -187,48 +223,12 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1785571260000",
+          "id": "cybersecurity-4-1785571260000",
           "title": "Как успеть поступить в онлайн-магистратуру НИЯУ МИФИ по кибербезопасности в 2026 году: правила и сроки приёма",
           "summary": "Привет, это команда Яндекс Практикума. До окончания приёмной кампании в онлайн-магистратуру МИФИ «Кибербезопасность» осталось меньше месяца. Если вы планируете поступать в 2026 году, сейчас самое время разобраться, как у",
           "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1065406/?utm_campaign=1065406&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/55a/3c4/3fd/55a3c43fd703d189461eaf2088083642.png",
           "publishedAt": "2026-08-01T08:01:00.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1785525578000",
-          "title": "Уведомления на Android без Google: почему UnifiedPush через публичный ntfy у вас не работает",
-          "summary": "Как вы помните мы делаем мессенджер. Google-сервисы в нашем основном регионе недоступны, значит FCM отпадает, что мы с этим сделали? Стандартный ответ на эту задачу известен и выглядит красиво: UnifiedPush. Открытый конт",
-          "url": "https://habr.com/ru/articles/1065510/?utm_campaign=1065510&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a85/255/57a/a8525557a656bfa82525305135c1b645.png",
-          "publishedAt": "2026-07-31T19:19:38.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1785518457000",
-          "title": "Хаос, шок, приватные ключи от не менее приватного GitLab",
-          "summary": "Последние пару месяцев злоумышленник распространял трояны с нескольких npm-учеток: alex05255, mdrafiqulislamrabby, b.w1001, abdev8773 и mollspotwood54400. Список пакетов:svg-fetcher, tradepilot, polytrade, polymarket-kit",
-          "url": "https://habr.com/ru/companies/pt/articles/1065498/?utm_campaign=1065498&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/942/b17/5a7/942b175a747cee548334dc099a6c9d7d.png",
-          "publishedAt": "2026-07-31T17:20:57.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1785518241000",
-          "title": "Подборка книг о вирусах и защите от них",
-          "summary": "Я собираю автоматические переводы материалов по хакингу и выкладываю их на сайте библиотеки. И вот, миллионы сожженых токенов спустя, архив наполнился. В сегодняшней подборке книги как по анализу, так и по написанию малв",
-          "url": "https://habr.com/ru/articles/1065496/?utm_campaign=1065496&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e98/e6d/665/e98e6d665df4142e16387215032f22fb.jpg",
-          "publishedAt": "2026-07-31T17:17:21.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-02T12:53:03.487Z",
+      "lastFetchAt": "2026-08-02T20:41:16.717Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-02T12:53:08.408Z",
+      "lastFetchAt": "2026-08-02T20:41:20.517Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-02T12:53:13.467Z",
+      "lastFetchAt": "2026-08-02T20:41:24.708Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1785674568000",
-          "title": "Доля офисов до 500 кв. м в структуре продаж выросла в 2,4 раза",
-          "summary": "На помещения до 500 кв. м пришлось 29% сделок по продаже офисов в Москве в январе-июне, это в 2,4 раза больше чем годом ранее. Спрос на маленькие офисы формируют частные инвесторы, ищущие инструменты вложения капитала.",
-          "url": "https://www.kommersant.ru/doc/8860924",
-          "image": "https://im2.kommersant.ru/SocialPics/8860924_49_0_1584896393",
-          "publishedAt": "2026-08-02T12:42:48.000Z",
+          "id": "energy-0-1785702300000",
+          "title": "Патрушев в Алжире обсудил сотрудничество в морской логистике",
+          "summary": "Глава Морской коллегии России Николай Патрушев и генеральный секретарь министерства транспорта Алжира Джамаль Эддин Абдельгани Дриди провели переговоры. Как передает ТАСС, стороны обсудили проекты в сфере сотрудничества ",
+          "url": "https://www.kommersant.ru/doc/8861043",
+          "image": "https://im2.kommersant.ru/SocialPics/8861043_49_0_999243859",
+          "publishedAt": "2026-08-02T20:25:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1785674415000",
-          "title": "Оптовые цены на курятину снизились на 6,3% за две недели",
-          "summary": "Рост оптовых цен на курятину в России сменился снижением, за 14 дней стоимость тушки бройлера потеряла 6,3%, составив 222 руб. за 1 кг. Это связано в том числе с выходом на рынок мелкой птицы.",
-          "url": "https://www.kommersant.ru/doc/8860923",
-          "image": "https://im2.kommersant.ru/SocialPics/8860923_49_0_930295943",
-          "publishedAt": "2026-08-02T12:40:15.000Z",
+          "id": "energy-1-1785700244000",
+          "title": "Минобороны РФ заявило об ударах по пунктам управления БПЛА в Харьковской области",
+          "summary": "Воздушно-космические силы России ударили авиабомбами и ракетами по пунктам управления беспилотниками ВСУ в Харьковской области. Об этом сообщила пресс-служба Минобороны РФ.",
+          "url": "https://www.kommersant.ru/doc/8861040",
+          "image": "https://iv.kommersant.ru/SocialPics/8861040_49_0_261130131",
+          "publishedAt": "2026-08-02T19:50:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1785674337000",
-          "title": "Россиянка Жовнер выиграла золото чемпионата Европы по академической гребле",
-          "summary": "Российская спортсменка Мария Жовнер завоевала золотую медаль в соревнованиях одиночек легкого веса на чемпионате Европы по академической гребле, который проходит в Варезе, Италия. В финальном заплыве Жовнер показала врем",
-          "url": "https://www.kommersant.ru/doc/8860920",
-          "image": "https://iv.kommersant.ru/SocialPics/8860920_49_0_1818434915",
-          "publishedAt": "2026-08-02T12:38:57.000Z",
+          "id": "energy-2-1785699101000",
+          "title": "МИД Ирана сообщил о сигналах Украины о нежелании воевать против республики",
+          "summary": "Представители Украины, Великобритании и Болгарии сообщили властям Ирана, что они не намерены вступать в конфликт на Ближнем Востоке. Об этом сообщил представитель иранского МИД Исмаил Багаи.",
+          "url": "https://www.kommersant.ru/doc/8861039",
+          "image": "https://im2.kommersant.ru/SocialPics/8861039_49_0_724859908",
+          "publishedAt": "2026-08-02T19:31:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1785674248000",
-          "title": "Лихачев: обстановка в Энергодаре остается крайне напряженной",
-          "summary": "Генеральный директор госкорпорации «Росатом» Алексей Лихачев сообщил, что ситуация в городе Энергодар, расположенном рядом с Запорожской атомной электростанцией (ЗАЭС), остается крайне напряженной. По его словам, ежеднев",
-          "url": "https://www.kommersant.ru/doc/8860919",
-          "image": "https://iv.kommersant.ru/SocialPics/8860919_49_0_109987796",
-          "publishedAt": "2026-08-02T12:37:28.000Z",
+          "id": "energy-3-1785697452000",
+          "title": "Слуцкий объявил об отставке с поста главного тренера «Шанхай Шэньхуа»",
+          "summary": "Леонид Слуцкий подал в отставку с поста главного тренера китайского клуба «Шанхай Шэньхуа». Об этом сообщила пресс-служба клуба в соцсети WeChat.",
+          "url": "https://www.kommersant.ru/doc/8861038",
+          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/02/KMO_187378_00121_1_t219_220939.jpg",
+          "publishedAt": "2026-08-02T19:04:12.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1785674121000",
-          "title": "Выплаты по переданным в перестраховочный пул полисам ОСАГО превысили объем премий",
-          "summary": "Выплаты по страховке клиентов, чьи полисы были переданы в перестраховочный пул ОСАГО, в полтора раза превысили объем собранных премий. Перестраховочный пул является защитным механизмом, который позволяет участникам рынка",
-          "url": "https://www.kommersant.ru/doc/8860918",
-          "image": "https://im2.kommersant.ru/SocialPics/8860918_49_0_426515496",
-          "publishedAt": "2026-08-02T12:35:21.000Z",
+          "id": "energy-4-1785696200000",
+          "title": "В конгрессе США назвали сложными переговоры с Украиной по Patriot",
+          "summary": "США и Украина ведут переговоры по передаче американских технологий производства систем противовоздушной обороны Patriot. Об этом в интервью CBS News сказал член палаты представителей США от Республиканской партии Майк Те",
+          "url": "https://www.kommersant.ru/doc/8861037",
+          "image": "https://im2.kommersant.ru/SocialPics/8861037_49_0_1585947105",
+          "publishedAt": "2026-08-02T18:43:20.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-02T12:53:13.882Z",
+      "lastFetchAt": "2026-08-02T20:41:25.429Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -735,7 +735,19 @@
       "slug": "space",
       "articles": [
         {
-          "id": "space-0-1785075060000",
+          "id": "space-0-1785678060000",
+          "title": "На Землю еженедельно падают обломки космического мусора весом более тонны, но на компенсацию ущерба надежды мало",
+          "summary": "На Землю падает всё больше космического мусора, что является побочным эффектом гонки между странами за господство в космосе, пишет The New York Times. В прошлом году Космические силы США опубликовали предупреждения о поч",
+          "url": "https://3dnews.ru/1146143",
+          "image": "https://3dnews.ru/assets/external/illustrations/2026/08/02/1146143/sher_00.jpg",
+          "publishedAt": "2026-08-02T13:41:00.000Z",
+          "source": "3DNews",
+          "categoryId": "space",
+          "categoryName": "Космос",
+          "categorySlug": "space"
+        },
+        {
+          "id": "space-1-1785075060000",
           "title": "Корабль «Союз МС-28» доставил с МКС в Казахстан двух россиян и американца",
           "summary": "Спускаемый аппарат пилотируемого корабля «Союз МС-28» с экипажем 74-й долговременной экспедиции Международной космической станции совершил посадку в районе города Жезказган в Казахстане. Сообщение об этом появилось в Tel",
           "url": "https://3dnews.ru/1145771",
@@ -747,7 +759,7 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-1-1784957820000",
+          "id": "space-2-1784957820000",
           "title": "Тринадцатый испытательный полёт SpaceX Starship прошёл успешно, хотя и небезупречно",
           "summary": "SpaceX успешно провела 13-й испытательный запуск ракеты Starship, цели миссии преимущественно достигнуты, хотя и не всё прошло, как планировалось. Тем не менее, в ходе прямой трансляции сотрудники компании отметили «счас",
           "url": "https://3dnews.ru/1145735",
@@ -759,7 +771,7 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-2-1784663220000",
+          "id": "space-3-1784663220000",
           "title": "Лунный корабль «посветит» лазерами на спутники SpaceX Starlink в рамках Artemis III",
           "summary": "По сообщению Space.com, NASA и SpaceX планируют оборудовать космический корабль Orion для миссии Artemis III двумя миниатюрными лазерными терминалами Starlink. Новые панели, размещённые на внешней поверхности аппарата, д",
           "url": "https://3dnews.ru/1145497",
@@ -771,24 +783,12 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-3-1784613180000",
+          "id": "space-4-1784613180000",
           "title": "Эпидемия отмены запусков перекинулась на ракеты Falcon 9 — SpaceX о причинах молчит",
           "summary": "Вчера во время запуска очередной партии спутников Starlink на Falcon 9 старт был отменён за мгновение до отрыва ракеты от стартового стола. Произошёл редчайший в практике запусков случай, когда все девять двигателей раке",
           "url": "https://3dnews.ru/1145436",
           "image": "https://3dnews.ru/assets/external/illustrations/2026/07/21/1145436/start.jpg",
           "publishedAt": "2026-07-21T05:53:00.000Z",
-          "source": "3DNews",
-          "categoryId": "space",
-          "categoryName": "Космос",
-          "categorySlug": "space"
-        },
-        {
-          "id": "space-4-1784550544000",
-          "title": "Запущена вторая партия спутников для отечественного аналог SpaceX Starlink",
-          "summary": "Российская аэрокосмическая компания «Бюро 1440» (входит в ИКС холдинг) объявила об успешном запуске в космос второй партии спутников в рамках развёртывание низкоорбитальной спутниковой группировки для предоставления услу",
-          "url": "https://3dnews.ru/1145403",
-          "image": "https://3dnews.ru/assets/external/illustrations/2026/07/20/1145403/66978cea6dafe9939d2ebed4_1440-connect-2-3.jpg",
-          "publishedAt": "2026-07-20T12:29:04.000Z",
           "source": "3DNews",
           "categoryId": "space",
           "categoryName": "Космос",
@@ -1099,7 +1099,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-02T08:01:38.852Z",
+      "lastFetchAt": "2026-08-02T20:41:32.487Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1309,7 +1309,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-02T12:53:15.036Z",
+      "lastFetchAt": "2026-08-02T20:41:27.599Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1317,7 +1317,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1785672260000",
+          "id": "automotive-0-1785697320000",
+          "title": "Украинцев избили в Польше из-за музыки в машине",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/02/ukraintsev-izbili-v-polshe-iz-za-muzyki-v-mashine/",
+          "image": "https://icdn.lenta.ru/images/2026/08/02/22/20260802220417644/pic_9152ecd014caf87ef926ed5007e167ca.jpg",
+          "publishedAt": "2026-08-02T19:02:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1785672260000",
           "title": "Руководитель российской клиники пропал после лечения клизмой детей с аутизмом",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/02/rukovoditel-rossiyskoy-kliniki-propal-posle-lecheniya-klizmoy-detey-s-autizmom/",
@@ -1329,7 +1341,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1785663360000",
+          "id": "automotive-2-1785663360000",
           "title": "Появились подробности аварии с микроавтобусом в российском городе",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/02/poyavilis-podrobnosti-avarii-s-mikroavtobusom-v-rossiyskom-gorode/",
@@ -1341,7 +1353,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1785661680000",
+          "id": "automotive-3-1785661680000",
           "title": "Брошенных в клетках щенков бигля нашли в багажнике закрытой машины россиянки",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/02/broshennye-schenki-biglya-v-kletkah-nashli-v-bagazhnike-zakrytoy-mashiny-rossiyanki/",
