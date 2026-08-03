@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-02T22:43:19.931Z",
+  "updatedAt": "2026-08-03T01:29:14.720Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
-    "ai",
-    "cybersecurity",
+    "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "law"
+  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-02T18:51:34.675Z",
+      "lastFetchAt": "2026-08-03T01:28:40.056Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-02T22:43:14.814Z",
+      "lastFetchAt": "2026-08-03T01:28:43.629Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-02T18:51:37.862Z",
+      "lastFetchAt": "2026-08-03T01:28:45.207Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-02T18:51:41.074Z",
+      "lastFetchAt": "2026-08-03T01:28:49.157Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-02T18:51:41.486Z",
+      "lastFetchAt": "2026-08-03T01:28:50.106Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-02T18:51:43.320Z",
+      "lastFetchAt": "2026-08-03T01:28:52.768Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-02T18:51:45.504Z",
+      "lastFetchAt": "2026-08-03T01:29:05.848Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,11 +875,23 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1785688369000",
+          "id": "entertainment-0-1785709141000",
+          "title": "«Человек-паук» и «Одиссея» принесли американским кинотеатрам рекордную прибыль",
+          "summary": "Фильм «Человек-паук: Новый день» собрал за первый уикенд в мировом прокате $875 млн, передает Variety. Из них $335 млн фильм заработал в кинотеатрах США и Канады, что стало вторым результатом в истории проката в Северной",
+          "url": "https://www.kommersant.ru/doc/8861050",
+          "image": "https://im2.kommersant.ru/SocialPics/8861050_49_0_1845012394",
+          "publishedAt": "2026-08-02T22:19:01.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1785688369000",
           "title": "Камера смотрит в «Битлз» // Неизвестные фотографии Пола Маккартни рассказывают о рождении битломании",
           "summary": "В Музее Гране во французском Экс-ан-Провансе открыта выставка «Взгляд из центра бури» — это до недавнего времени неизвестные фотографии, сделанные Полом Маккартни в те месяцы, когда группа The Beatles обретала мировую сл",
           "url": "https://www.kommersant.ru/doc/8861001",
-          "image": "https://iv.kommersant.ru/SocialPics/8861001_49_3174179_160548163",
+          "image": "https://im2.kommersant.ru/SocialPics/8861001_49_3174179_160548163",
           "publishedAt": "2026-08-02T16:32:49.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -887,11 +899,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1785687734000",
+          "id": "entertainment-2-1785687734000",
           "title": "«Пять лет мы утюжили мир как разогревающая группа» // Арсений Бородин о международных успехах группы Black Sonic Pearls",
           "summary": "Российская группа Black Sonic Pearls (BSP) закончила британское турне и готовится к выпуску второго альбома. Игорь Гаврилов поговорил с солистом BSP Арсением Бородиным о том, каково это — выступать на родине Оззи Осборна",
           "url": "https://www.kommersant.ru/doc/8860994",
-          "image": "https://iv.kommersant.ru/SocialPics/8860994_49_3174153_86014486",
+          "image": "https://im2.kommersant.ru/SocialPics/8860994_49_3174153_86014486",
           "publishedAt": "2026-08-02T16:22:14.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -899,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1785621916000",
+          "id": "entertainment-3-1785621916000",
           "title": "Умер актер из «Клана Сопрано» Винсент Пасторе",
           "summary": "В возрасте 80 лет умер американский актер Винсент Пасторе. Наибольшую известность ему принесла роль Сальваторе Бонпенсьеро в сериале «Клан Сопрано».",
           "url": "https://www.kommersant.ru/doc/8860744",
@@ -909,35 +921,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1785521442000",
-          "title": "Прокатная десятка // Что посмотреть в кино на выходных 1–2 августа",
-          "summary": "30 июля в прокат вышел ряд фильмов, среди которых анимационная экранизация библейского сюжета «Храбрый Давид» и британский боевик «Ограбить Лондон». Что посмотреть в кино на выходных — в материале «Ъ».",
-          "url": "https://www.kommersant.ru/doc/8847352",
-          "image": "https://iv.kommersant.ru/SocialPics/8847352_49_3173691_772606594",
-          "publishedAt": "2026-07-31T18:10:42.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1785511403000",
-          "title": "Если дух оказался вдруг // В кинотеатрах показывают индонезийский хоррор «Призрак в клетке»",
-          "summary": "На экранах — притворный фильм ужасов индонезийца Джоко Анвара «Призрак в клетке» (Hantu Dalam Sel). Посмотрев его, Михаил Трофименков почувствовал пряное и привольное дыхание Глобального Юга.",
-          "url": "https://www.kommersant.ru/doc/8860121",
-          "image": "https://iv.kommersant.ru/SocialPics/8860121_49_3173283_1681136983",
-          "publishedAt": "2026-07-31T15:23:23.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-02T22:43:17.967Z",
+      "lastFetchAt": "2026-08-03T01:29:08.875Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,7 +933,31 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785709380000",
+          "id": "sports-0-1785719580000",
+          "title": "Карседо – игрокам «Спартака» после 2:1 с «Ахматом»: «Угощу вас всех ужином. Вы это заслужили!»",
+          "summary": "Тренер « Спартака » Хуан Карседо обратился к команде в раздевалке после выездной победы над « Ахматом » (2:1) в 2-м туре Альфа-Банк РПЛ. «Парни, поздравляю с победой! Начало матча было сложным, но мы были сильны ментальн",
+          "url": "https://www.sports.ru/football/1117321963-karsedo-igrokam-spartaka-posle-21-s-axmatom-ugoshhu-vas-vsex-uzhinom-v.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/196/3/share/3a7efc_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-03T01:13:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1785713705000",
+          "title": "Толука  Некакса: смотреть онлайн прямую трансляцию матча, 3 августа 2026",
+          "summary": "В понедельник, 3 августа, сыграют Толука и Некакса в рамках высшей лиги Мексики. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 04:05 по московскому времени. Где смотреть матч Толука — ",
+          "url": "https://www.sports.ru/football/1117321956-toluka-nekaksa-smotret-onlajn-pryamuyu-translyacziyu-matcha-3-avgusta-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/195/6/share/6db359_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-02T23:35:05.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1785709380000",
           "title": "Ямаль станцевал с репликой Кубка мира: «19 лет, а уже чемпион мира»",
           "summary": "Вингер «Барселоны» и сборной Испании Ламин Ямаль продолжает праздновать победу на ЧМ-2026. 19-летний футболист опубликовал в соцсетях видео, на котором танцует с репликой Кубка мира. Ролик Ямаль сопроводил короткой подпи",
           "url": "https://www.sports.ru/football/1117321927-yamal-stanczeval-s-replikoj-kubka-mira-19-let-a-uzhe-chempion-mira.html",
@@ -957,7 +969,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785709200000",
+          "id": "sports-3-1785709200000",
           "title": "Товарищеский матч. «Ливерпуль» проиграл «Лидсу» в США",
           "summary": "« Ливерпуль » потерпел поражение в товарищеском матче с « Лидсом » в США – 2:4. Товарищеский матч ПРИМЕЧАНИЕ: время начала матча – московское.",
           "url": "https://www.sports.ru/football/1117321047-tovarishheskij-match-liverpul-sygraet-s-lidsom-v-ssha.html",
@@ -969,7 +981,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785708180000",
+          "id": "sports-4-1785708180000",
           "title": "Винисиус выложил фото из отпуска. Вингер «Реала» общался с Jay-Z, играл на пианино, отдыхал на яхте и лежал в обнимку с девушкой",
           "summary": "Вингер « Реала » Винисиус поделился фотографиями из отпуска. Бразилец выложил несколько снимков. На них среди прочего футболист показал, как проводил время с семьей и девушкой, запечатлел встречу с Jay-Z и игру на пианин",
           "url": "https://www.sports.ru/football/1117321945-vinisius-vylozhil-foto-s-otpuska-vstretilsya-s-jay-z-igral-na-pianino-.html",
@@ -979,35 +991,11 @@
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1785707940000",
-          "title": "Панин о Кузнецове: «Есть качества, которые чуть-чуть ему мешают закрепиться на том уровне, который есть. Я хотел бы, чтобы он остался, но с корректировкой его роли в команде»",
-          "summary": "Капитан « Салавата Юлаева » Григорий Панин высказался об уходе форварда Евгения Кузнецова из клуба. – Под каждое видео с Евгением Кузнецовым приходят болельщики «Салавата». Я не говорю, что это общая позиция, но я знаю м",
-          "url": "https://www.sports.ru/hockey/1117321943-panin-o-kuzneczove-est-kachestva-kotorye-chut-chut-emu-meshayut-zakrep.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/194/3/share/930595_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-02T21:59:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1785707700000",
-          "title": "Европейские ассоциации планируют массово отозвать письма в поддержку Инфантино. Ранее главу ФИФА поддержали все члены УЕФА, кроме Германии, Румынии и Норвегии (The Guardian)",
-          "summary": "Европейские футбольные ассоциации планируют начать отзывать письма в поддержку президента ФИФА Джанни Инфантино. Ранее сообщалось , что президент УЕФА Александер Чеферин хочет, чтобы все страны – члены союза, выразившие ",
-          "url": "https://www.sports.ru/football/1117321933-evropejskie-assocziaczii-planiruyut-massovo-otozvat-pisma-v-podderzhku.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/193/3/share/0e797c_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-02T21:55:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
         }
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-02T22:43:19.931Z",
+      "lastFetchAt": "2026-08-03T01:29:10.940Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1003,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785710340000",
-          "title": "Трамп анонсировал наказание для Канады за смог от пожаров",
+          "id": "politics-0-1785720220000",
+          "title": "Израиль узнал об отмене ударов по Ирану из соцсетей",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/tramp-anonsiroval-nakazanie-dlya-kanady-za-smog-ot-pozharov/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/01/20260803013024501/pic_506a10fff51865b21d264013017341af.jpg",
-          "publishedAt": "2026-08-02T22:39:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/03/izrail-uznal-ob-otmene-udarov-po-iranu-iz-sotssetey/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/04/20260803042335274/pic_9d77ac015df60aa9265217fd09020d63.jpg",
+          "publishedAt": "2026-08-03T01:23:40.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785709740000",
-          "title": "Мендель сделала заявление о внутреннем кризисе на Украине",
+          "id": "politics-1-1785720120000",
+          "title": "В России произвел фурор один праздник",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/mendel-sdelala-zayavlenie-o-vnutrennem-krizise-na-ukraine/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/01/20260803013117893/pic_7661fb2f4c99331c659f40058ab38c6a.jpg",
-          "publishedAt": "2026-08-02T22:29:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/03/v-rossii-proizvel-furor-odin-prazdnik/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/04/20260803042038874/pic_cbf278551dbdddb6e8994d7e3c0468bf.jpg",
+          "publishedAt": "2026-08-03T01:22:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785709500000",
-          "title": "Мендель раскрыла новые факты о выгоде Зеленского от конфликта",
+          "id": "politics-2-1785719725000",
+          "title": "Раскрыта неожиданная причина не покупать дорогой смартфон",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/mendel-raskryla-novye-fakty-o-vygode-zelenskogo-ot-konflikta/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/01/20260803012626861/pic_54e182bb90025d42f7d70173ea1e7148.jpg",
-          "publishedAt": "2026-08-02T22:25:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/03/less-storage/",
+          "image": "https://icdn.lenta.ru/images/2026/07/31/16/20260731164751516/pic_eaa4fb93d9e4af1e9b449a7c8a37a479.jpg",
+          "publishedAt": "2026-08-03T01:15:25.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785709286000",
-          "title": "«Очень-очень трудно». В конгрессе США сообщили о сложных переговорах с Украиной по Patriot",
+          "id": "politics-3-1785719137000",
+          "title": "Российские военнослужащие рисковали собой ради спасения сдавшихся солдат ВСУ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/long-ochen-ochen-trudno-v-kongresse-ssha-soobschili-o-slozhnyh-peregovorah-s-ukrainoy-po-patriot/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/01/20260803010100593/pic_e807d4ca6c830821008438e0fedd2f32.jpg",
-          "publishedAt": "2026-08-02T22:21:26.000Z",
+          "url": "https://lenta.ru/news/2026/08/03/rossiyskie-voennosluzhaschie-riskovali-soboy-radi-spaseniya-sdavshihsya-soldat-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/04/20260803040544903/pic_7db11b797ba06302ab55b28208f3291b.jpg",
+          "publishedAt": "2026-08-03T01:05:37.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785708089000",
-          "title": "Сомнолог предупредил о причинах проблем со сном летом",
+          "id": "politics-4-1785718920000",
+          "title": "Раскрыты серьезные последствия для Британии из-за закрытия Ормузского пролива",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/somnolog-predupredil-o-prichinah-problem-so-snom-letom/",
-          "image": "https://icdn.lenta.ru/images/2026/07/31/11/20260731115640312/pic_840899cb4fea51fdc87eeefcfc2c968d.jpg",
-          "publishedAt": "2026-08-02T22:01:29.000Z",
+          "url": "https://lenta.ru/news/2026/08/03/raskryty-serieznye-posledstviya-dlya-britanii-iz-za-zakrytiya-ormuzskogo-proliva/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/04/20260803040510963/pic_0a96ab6e19bf9235b8fd6e27ffb238ba.jpg",
+          "publishedAt": "2026-08-03T01:02:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1065,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-02T14:53:05.236Z",
+      "lastFetchAt": "2026-08-03T01:29:13.287Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1089,7 +1077,7 @@
           "title": "Правительство запретило майнинг криптовалют в Москве, Подмосковье и на отдельных территориях Курской области до конца 2032 года",
           "summary": "Майнинг в России легализован с 2024 года.",
           "url": "https://vc.ru/crypto/3056142-zapret-na-maining-kriptovalyut-v-moskve-i-kurskoy-oblasti?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785682384/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3056142/1785720552/cover.jpg",
           "publishedAt": "2026-07-31T18:47:35.000Z",
           "source": "VC.ru",
           "categoryId": "education",
@@ -1169,7 +1157,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-02T14:53:05.788Z",
+      "lastFetchAt": "2026-08-03T01:29:14.458Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1177,7 +1165,19 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1785496583000",
+          "id": "realestate-0-1785705090000",
+          "title": "Объем сделок с офисами в Москве сократился в 1,5 раза",
+          "summary": "Активность на рынке коммерческой недвижимости падает на фоне дорогих кредитов",
+          "url": "https://www.vedomosti.ru/newspaper/articles/2026/08/03/1218271-obem-sdelok-s-ofisami-v-moskve-sokratilsya",
+          "image": "https://cdn.vdmsti.ru/image/2026/5y/1a1t8b/normal-1noi.jpg",
+          "publishedAt": "2026-08-02T21:11:30.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1785496583000",
           "title": "В регионах снижается средняя площадь новых торговых центров",
           "summary": "Сдать крупные объекты в аренду в текущей экономической ситуации стало сложно",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/31/1217948-regionah-snizhaetsya-ploschad",
@@ -1189,7 +1189,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1785447135000",
+          "id": "realestate-2-1785447135000",
           "title": "Ввод торговых центров в регионах может сократиться",
           "summary": "Это связано с перенасыщением местных рынков такими объектами и снижением интереса к ним со стороны ритейлеров",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/31/1217810-vvod-torgovih-tsentrov-v-regionah-mozhet-sokratitsya",
@@ -1201,7 +1201,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1785359627000",
+          "id": "realestate-3-1785359627000",
           "title": "«Колди» поучаствует еще в одном проекте КРТ в Москве",
           "summary": "Компания планирует построить крупный индустриальный парк в Чертанове",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/30/1217504-koldi-pouchastvuet-esche-v-odnom-proekte-krt",
@@ -1213,7 +1213,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1785273501000",
+          "id": "realestate-4-1785273501000",
           "title": "В Москве закрылась крупнейшая в этом году сделка с жилым помещением",
           "summary": "1000-метровая резиденция рядом с Кремлем могла быть продана за 3,5 млрд рублей",
           "url": "https://www.vedomosti.ru/realty/articles/2026/07/29/1217180-v-moskve-zakrilas-krupneishaya-sdelka-s-pomescheniem",
@@ -1223,23 +1223,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1785188414000",
-          "title": "Столичная мэрия выкупила у «Экспоцентра» площадку рядом с «Москва-сити»",
-          "summary": "Здесь может появиться еще один деловой или жилой комплекс",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/07/28/1216887-ryadom-s-natsionalnim-tsentrom-rossiya-mozhet-poyavitsya-delovoi-ili-zhiloi-kompleks",
-          "image": "https://cdn.vdmsti.ru/image/2026/5s/1c0fyw/normal-1q82.jpg",
-          "publishedAt": "2026-07-27T21:40:14.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-02T14:53:06.104Z",
+      "lastFetchAt": "2026-08-03T01:29:14.720Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
