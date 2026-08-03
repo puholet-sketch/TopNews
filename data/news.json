@@ -1,8 +1,16 @@
 {
-  "updatedAt": "2026-08-03T19:15:32.181Z",
+  "updatedAt": "2026-08-03T20:52:37.516Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "entertainment",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "ai",
+    "cybersecurity",
     "business",
     "startups",
     "science",
@@ -14,20 +22,12 @@
     "automotive",
     "gaming",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "entertainment",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-03T16:13:04.726Z",
+      "lastFetchAt": "2026-08-03T20:52:30.869Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785769237000",
+          "id": "it-0-1785774016000",
+          "title": "Скилл для ИИ-агента: как превратить пожелание в правило",
+          "summary": "Сначала это даже приятно. Просишь ИИ-агента сделать одну фичу — он делает, код работает, переключаешься на следующую задачу. Потом просишь написать похожее для другой фичи — и он делает снова, но чуть иначе: во второй фи",
+          "url": "https://habr.com/ru/articles/1066212/?utm_campaign=1066212&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/442/708/837/44270883714b8e80d4d0abbb0a0abadc.jpg",
+          "publishedAt": "2026-08-03T16:20:16.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785769237000",
           "title": "Переписал CRest от Битрикса с нуля: гонки токенов, даунтаймы и мультипортальность, которых нет в стоке",
           "summary": "У Битрикса есть официальная обёртка для REST API — класс CRest, который лежит в каждом примере приложения и который все копируют к себе в проект. Он умещается в один файл и работает — ровно до того момента, пока приложен",
           "url": "https://habr.com/ru/articles/1061694/?utm_campaign=1061694&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785767435000",
+          "id": "it-2-1785767435000",
           "title": "Go прощает меньше, чем кажется: восемь ошибок, на которых спотыкается каждый новичок",
           "summary": "Привет, Хабр! Go специально сделали маленьким языком. Ключевых слов немного, конструкций мало, за неделю осваиваешь синтаксис и начинаешь писать. Именно из-за этой простоты возникает ложное ощущение, что тут негде ошибит",
           "url": "https://habr.com/ru/companies/otus/articles/1065500/?utm_campaign=1065500&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785758425000",
+          "id": "it-3-1785758425000",
           "title": "Выпекаем тесты на Go с Testo: делимся нашим open-source-фреймворком",
           "summary": "Привет, Хабр! Я Вадим, разработчик QA-платформы в Ozon. Стандартного testing в Go хватает юнит-тестам, но большим end-to-end-сценариям нужно больше: Allure-отчёты, плагины, Suite’ы, параметризация, параллельные запуски. ",
           "url": "https://habr.com/ru/companies/ozontech/articles/1062036/?utm_campaign=1062036&utm_source=habrahabr&utm_medium=rss",
@@ -71,24 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1785746637000",
+          "id": "it-4-1785746637000",
           "title": "Scala Digest. Выпуск 43",
           "summary": "Привет, Хабр! Мы Настя, Эвелина и Михаил — бэкенд-разработчики Т-Банка, пишем код на Scala и горим желанием его популяризировать. Мы собираем и агрегируем новости из разных источников, включая Scala Times, блог Petr Zapl",
           "url": "https://habr.com/ru/companies/tbank/articles/1065928/?utm_campaign=1065928&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/90c/9a2/19b/90c9a219b435bc77d9de877b7116f9d7.jpg",
           "publishedAt": "2026-08-03T08:43:57.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785746089000",
-          "title": "Infostart Toolkit Air 2026.2: быстрее анализировать запросы и отлаживать отчеты СКД",
-          "summary": "В новой версии переработан вывод результатов запросов, расширены возможности Консоли СКД и упрощен перенос пользовательских алгоритмов между информационными базами. Основные изменения Infostart Toolkit Air 2026.2 связаны",
-          "url": "https://habr.com/ru/companies/infostart/articles/1065936/?utm_campaign=1065936&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0a8/1d3/9a6/0a81d39a637115798c8a500bfb73cd7d.jpeg",
-          "publishedAt": "2026-08-03T08:34:49.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-03T16:13:15.228Z",
+      "lastFetchAt": "2026-08-03T20:52:32.878Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -879,7 +879,7 @@
           "title": "Литературоведение в стадии обострения // «Колокольчики Достоевского» Сергея Носова в шорт-листе «Большой книги»",
           "summary": "Роман лауреата Нацбеста (2015) Сергея Носова «Колокольчики Достоевского: записки сумасшедшего литературоведа» — один из финалистов литературной премии «Большая книга». Новую работу писателя, считающегося продолжателем «п",
           "url": "https://www.kommersant.ru/doc/8861669",
-          "image": "https://iv.kommersant.ru/SocialPics/8861669_49_3174924_1984892875",
+          "image": "https://im2.kommersant.ru/SocialPics/8861669_49_3174924_1984892875",
           "publishedAt": "2026-08-03T15:15:20.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -891,7 +891,7 @@
           "title": "Пропорциональное достояние // Открывается кинофестиваль «Окно в Европу»",
           "summary": "4 августа в Выборге стартует 34-й фестиваль российского кино «Окно в Европу», который продлится до 9 августа. В этом году в его конкурсных и внеконкурсных программах покажут почти 100 игровых, документальных и анимационн",
           "url": "https://www.kommersant.ru/doc/8861643",
-          "image": null,
+          "image": "https://im2.kommersant.ru/SocialPics/8861643_49_3174918_2042317194",
           "publishedAt": "2026-08-03T14:18:29.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -903,7 +903,7 @@
           "title": "Умер канадский актер Скотт Хайлендс // Актер из «Сверхъестественного» и «Фарго» Скотт Хайлендс умер в возрасте 83 лет",
           "summary": "Канадский актер Скотт Хайлендс умер в возрасте 83 лет. Об этом сообщил его сын Люк в соцсетях.",
           "url": "https://www.kommersant.ru/doc/8861558",
-          "image": null,
+          "image": "https://iv.kommersant.ru/SocialPics/8861558_49_0_307450319",
           "publishedAt": "2026-08-03T12:55:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -915,7 +915,7 @@
           "title": "В России промаркируют книги Стивена Кинга, Чака Паланика и Виктора Пелевина",
           "summary": "Российский книжный союз (РКС) расширил список книг, содержащих упоминания наркотических средств и подлежащих специальной маркировке. В перечень вошла в том числе книга писателя Энтони Берджесса «Заводной апельсин».",
           "url": "https://www.kommersant.ru/doc/8861516",
-          "image": "https://im2.kommersant.ru/SocialPics/8861516_49_0_11564038",
+          "image": "https://iv.kommersant.ru/SocialPics/8861516_49_0_11564038",
           "publishedAt": "2026-08-03T12:01:56.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-03T12:48:20.120Z",
+      "lastFetchAt": "2026-08-03T20:52:35.397Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1085,11 +1085,35 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1785736466000",
+          "id": "education-0-1785766783000",
+          "title": "В App Store добавили приложение Air Pilot Log с функциями «Т-Банка»",
+          "summary": "Оно замаскировано под программу для пилотов.",
+          "url": "https://vc.ru/services/3059830-prilozhenie-air-pilot-log-ot-t-banka?from=rss",
+          "image": "https://leonardo.osnova.io/025b248d-8f27-501e-aedf-5a4519c030f9/",
+          "publishedAt": "2026-08-03T14:19:43.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-1-1785767080000",
+          "title": "ФСБ потребовала подключить «Т-Банк» и «Райффайзенбанк» к системе оперативно-розыскных мероприятий — The Bell",
+          "summary": "Оба банка судились из-за предписаний, но проиграли, узнало издание.",
+          "url": "https://vc.ru/legal/3059780-fsb-trebuet-ot-t-banka-i-raiffeizenbanka-vnedrit-sorm?from=rss",
+          "image": "https://leonardo.osnova.io/8b1e67ba-a23a-5796-aedb-95f3ea9643bc/",
+          "publishedAt": "2026-08-03T14:24:40.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-2-1785736466000",
           "title": "Wildberries сообщил об атаке беспилотников на склад во Владимирской области",
           "summary": "В здании начался пожар.",
           "url": "https://vc.ru/marketplace/3058442-wildberries-ataka-bespilotnikov-sklad-vladimirskaya-oblast?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785761299/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785790354/cover.jpg",
           "publishedAt": "2026-08-03T05:54:26.000Z",
           "source": "VC.ru",
           "categoryId": "education",
@@ -1097,48 +1121,24 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1785744870000",
+          "id": "education-3-1785775336000",
+          "title": "Минцифры обсуждает с хостинг-провайдерами повышение эффективности контроля за IP-адресами легитимных VPN — РБК",
+          "summary": "Их включают в специальный список, чтобы не допустить блокировки, но туда попадают и «замаскированные» VPN для обхода ограничений, пишет издание.",
+          "url": "https://vc.ru/services/3060018-mincifry-i-hosting-provajdery-obshchayut-kontrol-za-legitimnymi-vpn?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3060018/1785790354/cover.jpg",
+          "publishedAt": "2026-08-03T16:42:16.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-4-1785744870000",
           "title": "Хакеры похитили больше 1300 биткоинов с 4500 аппаратных кошельков Coldcard из-за уязвимости в ПО",
           "summary": "Ошибка привела к генерации seed‑фраз «с низкой степенью случайности».",
           "url": "https://vc.ru/crypto/3058605-hakery-pohitili-bitkoiny-s-koshelkov-coldcard?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058605/1785761299/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058605/1785790355/cover.jpg",
           "publishedAt": "2026-08-03T08:14:30.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-2-1785755790000",
-          "title": "РЖД запустили сервис доставки багажа от «Сапсана» «в любую точку» Москвы",
-          "summary": "Стоимость услуги — от 490 рублей.",
-          "url": "https://vc.ru/transport/3054775-rzhd-zapustili-dostavku-bagazha-ot-sapsana-v-lyubuyu-tochku-moskvy?from=rss",
-          "image": "https://leonardo.osnova.io/34b8c0be-3b60-5e0b-a58f-21a280243661/",
-          "publishedAt": "2026-08-03T11:16:30.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-3-1785751163000",
-          "title": "Первый серийный импортозамещённый самолёт МС-21 совершил испытательный полёт",
-          "summary": "В ходе него проверили устойчивость и управляемость судна в разных конфигурациях и работу отечественных систем.",
-          "url": "https://vc.ru/transport/3059115-ispytatelnyy-polet-importozameshchennogo-samoleta-ms-21?from=rss",
-          "image": "https://leonardo.osnova.io/5ad966b0-0f2a-590a-b295-4a2e87f323d3/-/resize/1300/",
-          "publishedAt": "2026-08-03T09:59:23.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-4-1785682271000",
-          "title": "Жили в заброшенном комплексе в Малайзии: WSJ рассказало о бывшем техдиректоре Coinbase, который задумал построить новую страну — но для начала решил протестировать задумку на техносообществе",
-          "summary": "Сейчас он собирается запустить проект в Казахстане. Пересказ материала WSJ.",
-          "url": "https://vc.ru/future/3057466-tehdirektor-coinbase-novaya-strana-kazahstan?from=rss",
-          "image": "https://leonardo.osnova.io/be3cf82b-c353-5f25-a1a6-dd672b94c4f4/",
-          "publishedAt": "2026-08-02T14:51:11.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-03T12:48:21.487Z",
+      "lastFetchAt": "2026-08-03T20:52:36.338Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1287,7 +1287,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-03T12:48:21.879Z",
+      "lastFetchAt": "2026-08-03T20:52:37.516Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1295,60 +1295,60 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1780816564000",
-          "title": "От «Моны Лизы» до банана: самые примечательные музейные кражи",
-          "summary": "Во Франции похитили инсталляцию «Комедиант»",
-          "url": "https://www.vedomosti.ru/lifestyle/articles/2026/06/07/1203591-ot-moni-lizi",
-          "image": "https://cdn.vdmsti.ru/image/2026/4c/100245/normal-1anp.jpg",
-          "publishedAt": "2026-06-07T07:16:04.000Z",
+          "id": "travel-0-1785770621000",
+          "title": "Синхронистки из РФ выиграли золото чемпионата Европы в произвольной программе",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/03/1218530-zoloto-chempionata-evropi",
+          "image": "https://cdn.vdmsti.ru/image/2026/5z/131o8l/normal-1els.jpg",
+          "publishedAt": "2026-08-03T15:23:41.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1785561602000",
-          "title": "Главный по новой классике: чем запомнился Ив Сен-Лоран",
-          "summary": "90 лет со дня рождения кутюрье",
-          "url": "https://www.vedomosti.ru/lifestyle/galleries/2026/08/01/1218022-glavnii-po-novoi-klassike",
-          "image": "https://cdn.vdmsti.ru/image/2026/5w/135jlh/normal-1eqs.jpg",
-          "publishedAt": "2026-08-01T05:20:02.000Z",
+          "id": "travel-1-1785737978000",
+          "title": "Дегтярев рассказал о карантине для сменивших спортивное гражданство",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/politics/news/2026/08/03/1218312-smenu-sportivnogo-grazhdanstva",
+          "image": "https://cdn.vdmsti.ru/image/2026/5z/jaooy/normal-p0c.png",
+          "publishedAt": "2026-08-03T06:19:38.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1785472423000",
-          "title": "Главный стадион страны: как строили и возрождали «Лужники»",
-          "summary": "70 лет назад спорткомплекс принял первых зрителей",
-          "url": "https://www.vedomosti.ru/society/galleries/2026/07/31/1217586-glavnii-stadion-strani",
-          "image": "https://cdn.vdmsti.ru/image/2026/5v/14bzly/normal-1g9s.jpg",
-          "publishedAt": "2026-07-31T04:33:43.000Z",
+          "id": "travel-2-1785561578000",
+          "title": "Кандинский стал лидером рейтинга продаж на аукционах среди русских художников",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/01/1218102-kandinskii-stal-liderom",
+          "image": "https://sharing.vedomosti.ru/1785561578/vedomosti.ru/lifestyle/news/2026/08/01/1218102-kandinskii-stal-liderom.jpg",
+          "publishedAt": "2026-08-01T05:19:38.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-3-1785445729000",
+          "id": "travel-3-1785508064000",
+          "title": "Российские прыгуны в воду завоевали серебро чемпионата Европы",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/society/news/2026/07/31/1218023-priguni-zavoevali-serebro",
+          "image": "https://cdn.vdmsti.ru/image/2026/5w/117bsu/normal-1c7r.png",
+          "publishedAt": "2026-07-31T14:27:44.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-4-1785445729000",
           "title": "Уроки «Одиссея»: что успех Кристофера Нолана говорит об индустрии",
           "summary": "Это уже третья голливудская экранизация поэмы Гомера и, как все предыдущие, знак грядущих перемен",
           "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217787-uroki-odisseya-chto-uspeh-kristofera-nolana-govorit-ob-industrii",
           "image": "https://cdn.vdmsti.ru/image/2026/5v/1a8q9y/normal-1nxi.jpg",
           "publishedAt": "2026-07-30T21:08:49.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1785445793000",
-          "title": "«София возвращалась домой»: самая печальная книга Наринэ Абгарян",
-          "summary": "Автор «Манюни» написала роман об одиссее армянской девушки на фоне бурной истории XX века",
-          "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217793-sofiya-vozvraschalas-domoi-samaya-pechalnaya-kniga-narine-abgaryan",
-          "image": "https://cdn.vdmsti.ru/image/2026/5v/1a6mtn/normal-1nur.jpg",
-          "publishedAt": "2026-07-30T21:09:53.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
