@@ -1,10 +1,18 @@
 {
-  "updatedAt": "2026-08-04T01:19:01.390Z",
+  "updatedAt": "2026-08-04T04:52:48.303Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "business",
+    "sports",
+    "politics",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
+    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -15,15 +23,7 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "law"
   ],
   "categories": {
     "it": {
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-04T01:18:43.670Z",
+      "lastFetchAt": "2026-08-04T04:52:40.866Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-04T01:19:00.876Z",
+      "lastFetchAt": "2026-08-04T04:52:43.143Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -945,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1785795480000",
-          "title": "Форму с надписью «Мальвинские острова принадлежат аргентинцам» показал «Альмиранте Браун» из 2-й лиги Аргентины. Такой же лозунг был на баннере у сборной в полуфинале ЧМ",
-          "summary": "Аргентинский клуб « Альмиранте Браун » продемонстрировал форму с лозунгом, заявляющим о принадлежности к его стране Фолклендских островов. Новая футболка сопровождается шрифтом, напоминающим тот, что был на баннере, кото",
-          "url": "https://www.sports.ru/football/1117322822-almirante-braun-iz-2-j-ligi-argentiny-pokazal-novuyu-formu-s-nadpisyu-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/282/2/share/cc2abb_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-03T22:18:00.000Z",
+          "id": "sports-0-1785818700000",
+          "title": "Погребняк о Батракове: «Надо уходить из «Локомотива», он бы усилил «Зенит». Если предложения от «Аль-Насра» или «Аль-Ахли» с великими звездами – нужно рассматривать»",
+          "summary": "Бывший игрок сборной России Павел Погребняк считает, что полузащитнику «Локомотива» Алексею Батракову следует перейти в другой клуб. – Даже если бы «Локомотив» набрал 6 очков в первых двух играх, ему все равно надо уходи",
+          "url": "https://www.sports.ru/football/1117322867-pogrebnyak-o-batrakove-nado-uxodit-iz-lokomotiva-on-by-usilil-zenit-es.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/286/7/share/c77e6c_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-04T04:45:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1785794160000",
-          "title": "Депай потребовал у «Коринтианса» за продление контракта бонус за КЧМ, которой пройдет после его истечения, пользование ложей стадиона, проведение там мероприятий и 50% дохода от них",
-          "summary": "«Коринтианс» и Мемфис Депай продолжают переговоры о продлении соглашения. По данным Gazeta Esportiva, одна из главных причин их задержки – ряд привилегий, запрошенных 32-летним нападающим. На данный момент руководство бр",
-          "url": "https://www.sports.ru/football/1117322819-depaj-poprosil-u-korintiansa-za-prodlenie-kontrakta-bonus-za-kchm-koto.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/281/9/share/eae8c5_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-03T21:56:00.000Z",
+          "id": "sports-1-1785818520000",
+          "title": "Вице-президент «Нью-Йорка» Герссон Росас покинул команду после 4 сезонов",
+          "summary": "Старший вице-президент по баскетбольным операциям «Никс» Герссон Росас ушел из организация, в которой провел четыре сезона. Прежде чем в 2022 году оказаться в Нью-Йорке , Росас работал в «Хьюстоне» и «Миннесоте». Он был ",
+          "url": "https://www.sports.ru/basketball/1117322865-vicze-prezident-nyu-jorka-gersson-rosas-pokinul-komandu-posle-4-sezono.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/286/5/share/2f4484_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-04T04:42:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1785792480000",
-          "title": "Палестинская федерация о ФИФА: «Доверие давно снижается. Израильские клубы с оккупированной территории продолжают выступать. Молчание во время геноцида равносильно соучастию»",
-          "summary": "Палестинская футбольная ассоциация (PFA) высказалась о скандале вокруг ФИФА. Напомним, на прошлой неделе стало известно о планах ФИФА создать FIFA Forward Enterprise (FFE) – новую коммерческую структуру для продажи прав ",
-          "url": "https://www.sports.ru/football/1117322812-palestinskaya-assocziacziya-o-fifa-doverie-davno-snizhaetsya-izrailski.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/281/2/share/cd235d_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-03T21:28:00.000Z",
+          "id": "sports-2-1785818340000",
+          "title": "Девин Букер включил Дюрэнта в символическую пятерку всех времен",
+          "summary": "Звезда « Финикса » Девин Букер по просьбе болельщика назвал символическую пятерку всех времен. Стефен Карри , Кобе Брайант , Леброн Джеймс , Кевин Дюрэнт, Шакил О’Нил. Букер ранее выступал с Дюрэнтом за «Санз», но дуэт н",
+          "url": "https://www.sports.ru/basketball/1117322864-devin-buker-vklyuchil-dyurenta-v-simvolicheskuyu-pyaterku-vsex-vremen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/286/4/share/3eb8d7_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-04T04:39:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1785792120000",
-          "title": "Торонто (WTA). Самсонова играет с Тьен, Корнеева, Плишкова вышли во 2-й круг, Блинкова, Андрееску, Винус выбыли",
-          "summary": "Анна Блинкова уступила Ребекке Шрамковой в первом круге тысячника в Торонто. Сетка турнира здесь . National Bank Open presented by Rogers Торонто, Канада 2 – 13 августа 2026 WTA 1000 Призовой фонд – 7 433 076 долларов От",
-          "url": "https://www.sports.ru/tennis/1117321318-toronto-wta-2026-rezultaty-pervogo-kruga.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/131/8/share/c725a8_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-03T21:22:00.000Z",
+          "id": "sports-3-1785817800000",
+          "title": "«РПЛ все еще входит в топ-6 лиг Европы. Больше громких имен, чем в Нидерландах». Защитник «Крыльев» Ороз об уровне чемпионата России",
+          "summary": "Защитник «Крыльев Советов» Доминик Ороз считает, что уровень Альфа банк РПЛ позволяет ей входить в топ-6 в Европе. «Чемпионаты России и Нидерландов очень разные, на самом деле. В РПЛ больше единоборств, борьбы. Также зде",
+          "url": "https://www.sports.ru/football/1117322863-rpl-vse-eshhe-vxodit-v-top-6-lig-evropy-v-lige-bolshe-gromkix-imen-che.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/286/3/share/daafc3_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-04T04:30:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1785792060000",
-          "title": "Монреаль (ATP). 1-й круг. Берреттини борется с Навоне (матч прерван из-за дождя), Боржес доиграет с Ковачевичем, Дрэйпер встретится с Атманом, Чилич – с Симабукуро",
-          "summary": "Маттео Берреттини играет с Мариано Навоне в первом круге «Мастерса» в Монреале. Сетка турнира здесь . National Bank Open presented by Rogers Монреаль, Канада 2 – 13 августа 2026 ATP Masters 1000 Призовой фонд – 9 415 724",
-          "url": "https://www.sports.ru/tennis/1117321278-monreal-atp-2026-rezultaty-pervogo-kruga.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/127/8/share/8a5bc8_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-03T21:21:00.000Z",
+          "id": "sports-4-1785817620000",
+          "title": "Женская НБА. 28+11+10 от Джеки Янг помогли «Лас-Вегасу» разгромить «Атланту», 19+15+12 от Алиссы Томас позволили «Финиксу» справиться с «Чикаго»",
+          "summary": "«Атланта» разгромно уступила « Лас-Вегасу », защитница «Эйсес Джеки Янг оформила трипл-дабл из 28 очков, 11 подборов и 10 передач (11 из 17 с игры, 4 из 7 трехочковых, 2 из 4 штрафных). «Чикаго» не справился с « Финиксом",
+          "url": "https://www.sports.ru/basketball/1117322383-zhenskaya-nba-atlanta-primet-las-vegas-chikago-vstretitsya-s-finiksom.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/238/3/share/d3dead_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-04T04:27:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-04T01:19:01.390Z",
+      "lastFetchAt": "2026-08-04T04:52:44.603Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785806151000",
-          "title": "59-летняя Памела Андерсон в полупрозрачном наряде снялась для Vogue",
+          "id": "politics-0-1785818915000",
+          "title": "В России не заметили поводов для роста промышленности",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/59-letnyaya-pamela-anderson-v-poluprozrachnom-naryade-snyalas-dlya-vogue/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/16/20260803162052428/pic_4dd96900fae35729a9204651f79fa423.jpg",
-          "publishedAt": "2026-08-04T01:15:51.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/netu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/07/20260804074841520/pic_98cd9810b793ff17316d7a49a57b321a.jpg",
+          "publishedAt": "2026-08-04T04:48:35.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785806021000",
-          "title": "Раскрыта реакция США на визит американской делегации на ПМЭФ",
+          "id": "politics-1-1785818769000",
+          "title": "Украину обвинили в неразумном поведении из-за ситуации с Польшей",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/raskryta-reaktsiya-ssha-na-vizit-amerikanskoy-delegatsii-na-pmef/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040651302/pic_46809f0afe4b52b1c2c2504d46f1be79.jpg",
-          "publishedAt": "2026-08-04T01:13:41.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/ukrainu-obvinili-v-nerazumnom-povedenii-iz-za-situatsii-s-polshey/",
+          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
+          "publishedAt": "2026-08-04T04:46:09.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785806021000",
-          "title": "Раскрыта реакция США на визит американской делегации на ПМЭФ",
+          "id": "politics-2-1785818465000",
+          "title": "Скрывавшийся 20 лет после кражи на российском судне вор попал в ловушку",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/raskryta-reaktsiya-ssha-na-vizit-amerikanskoy-delegatsii-na-pmef/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040651302/pic_46809f0afe4b52b1c2c2504d46f1be79.jpg",
-          "publishedAt": "2026-08-04T01:13:41.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/na-kamchatke/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/07/20260804074128686/pic_220ce8cc6d99b5890a1b2031c7e27c7b.jpg",
+          "publishedAt": "2026-08-04T04:41:05.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785805305000",
-          "title": "Пленный рассказал о стоимости побега с Украины без гарантий",
+          "id": "politics-3-1785818408000",
+          "title": "Россиянка побывала в магазине в Белизе и описала ассортимент фразой «офигела от продуктов»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/plennyy-rasskazal-o-stoimosti-pobega-s-ukrainy-bez-garantiy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040017957/pic_ac8ac84ef129f90e5d84e666bd741a3d.jpg",
-          "publishedAt": "2026-08-04T01:01:45.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/rossiyanka-pobyvala-v-magazine-v-belize-i-opisala-assortiment-frazoy-ofigela-ot-produktov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/20/20260803200807569/pic_e57b5325daba1dd1d18757644c6b45fb.jpg",
+          "publishedAt": "2026-08-04T04:40:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785805294000",
-          "title": "Т-90М с «Ареной-М» заметили на испытаниях",
+          "id": "politics-4-1785818192000",
+          "title": "Несколько пожаров вспыхнули в Подмосковье после удара украинских беспилотников",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/t-90m-s-arenoy-m-zametili-na-ispytaniyah/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/14/20260803144530167/pic_82b8a78e53bd78f505f845b828bfe889.jpg",
-          "publishedAt": "2026-08-04T01:01:34.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/neskolko-pozharov-vspyhnuli-v-podmoskovie-posle-udara-ukrainskih-bespilotnikov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/07/20260804073711342/pic_bd79b3f408b9598a7cb1617243edcb44.jpg",
+          "publishedAt": "2026-08-04T04:36:32.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1077,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-03T20:52:35.397Z",
+      "lastFetchAt": "2026-08-04T04:52:46.710Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1109,23 +1109,11 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1785736466000",
-          "title": "Wildberries сообщил об атаке беспилотников на склад во Владимирской области",
-          "summary": "В здании начался пожар.",
-          "url": "https://vc.ru/marketplace/3058442-wildberries-ataka-bespilotnikov-sklad-vladimirskaya-oblast?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785790354/cover.jpg",
-          "publishedAt": "2026-08-03T05:54:26.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-3-1785775336000",
+          "id": "education-2-1785775336000",
           "title": "Минцифры обсуждает с хостинг-провайдерами повышение эффективности контроля за IP-адресами легитимных VPN — РБК",
           "summary": "Их включают в специальный список, чтобы не допустить блокировки, но туда попадают и «замаскированные» VPN для обхода ограничений, пишет издание.",
           "url": "https://vc.ru/services/3060018-mincifry-i-hosting-provajdery-obshchayut-kontrol-za-legitimnymi-vpn?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3060018/1785790354/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3060018/1785819166/cover.jpg",
           "publishedAt": "2026-08-03T16:42:16.000Z",
           "source": "VC.ru",
           "categoryId": "education",
@@ -1133,12 +1121,24 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1785744870000",
-          "title": "Хакеры похитили больше 1300 биткоинов с 4500 аппаратных кошельков Coldcard из-за уязвимости в ПО",
-          "summary": "Ошибка привела к генерации seed‑фраз «с низкой степенью случайности».",
-          "url": "https://vc.ru/crypto/3058605-hakery-pohitili-bitkoiny-s-koshelkov-coldcard?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058605/1785790355/cover.jpg",
-          "publishedAt": "2026-08-03T08:14:30.000Z",
+          "id": "education-3-1785764327000",
+          "title": "Суд в Москве не признал ИИ-картины объектом авторского права и отказал дизайнеру — тот требовал компенсации от продавца мерча с его работами",
+          "summary": "Ответчиком выступала студия SlovoDna Кирилла Караваева, которая продавала футболки и худи с «Моной Лизой с вином».",
+          "url": "https://vc.ru/legal/3059659-sud-v-moskve-otkazal-v-avtorskom-prave-na-ii-kartiny-dizajnera-pozdnyakova?from=rss",
+          "image": "https://leonardo.osnova.io/56b8d066-78b1-56d4-a642-da05320186dc/",
+          "publishedAt": "2026-08-03T13:38:47.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-4-1785736466000",
+          "title": "Wildberries сообщил об атаке беспилотников на склад во Владимирской области",
+          "summary": "В здании начался пожар.",
+          "url": "https://vc.ru/marketplace/3058442-wildberries-ataka-bespilotnikov-sklad-vladimirskaya-oblast?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785819166/cover.jpg",
+          "publishedAt": "2026-08-03T05:54:26.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1217,7 +1217,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-03T20:52:36.338Z",
+      "lastFetchAt": "2026-08-04T04:52:47.388Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1287,7 +1287,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-03T20:52:37.516Z",
+      "lastFetchAt": "2026-08-04T04:52:48.303Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1295,7 +1295,19 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1785770621000",
+          "id": "travel-0-1785794191000",
+          "title": "Теннисистка Лютова поднялась на 126 место в рейтинге WTA после победы в Мемфисе",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/04/1218597-tennisistka-lyutova-wta",
+          "image": "https://sharing.vedomosti.ru/1785794191/vedomosti.ru/lifestyle/news/2026/08/04/1218597-tennisistka-lyutova-wta.jpg",
+          "publishedAt": "2026-08-03T21:56:31.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1785770621000",
           "title": "Синхронистки из РФ выиграли золото чемпионата Европы в произвольной программе",
           "summary": "",
           "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/03/1218530-zoloto-chempionata-evropi",
@@ -1307,7 +1319,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1785737978000",
+          "id": "travel-2-1785737978000",
           "title": "Дегтярев рассказал о карантине для сменивших спортивное гражданство",
           "summary": "",
           "url": "https://www.vedomosti.ru/politics/news/2026/08/03/1218312-smenu-sportivnogo-grazhdanstva",
@@ -1319,7 +1331,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1785561578000",
+          "id": "travel-3-1785561578000",
           "title": "Кандинский стал лидером рейтинга продаж на аукционах среди русских художников",
           "summary": "",
           "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/01/1218102-kandinskii-stal-liderom",
@@ -1331,24 +1343,12 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-3-1785508064000",
+          "id": "travel-4-1785508064000",
           "title": "Российские прыгуны в воду завоевали серебро чемпионата Европы",
           "summary": "",
           "url": "https://www.vedomosti.ru/society/news/2026/07/31/1218023-priguni-zavoevali-serebro",
           "image": "https://cdn.vdmsti.ru/image/2026/5w/117bsu/normal-1c7r.png",
           "publishedAt": "2026-07-31T14:27:44.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1785445729000",
-          "title": "Уроки «Одиссея»: что успех Кристофера Нолана говорит об индустрии",
-          "summary": "Это уже третья голливудская экранизация поэмы Гомера и, как все предыдущие, знак грядущих перемен",
-          "url": "https://www.vedomosti.ru/media/columns/2026/07/31/1217787-uroki-odisseya-chto-uspeh-kristofera-nolana-govorit-ob-industrii",
-          "image": "https://cdn.vdmsti.ru/image/2026/5v/1a8q9y/normal-1nxi.jpg",
-          "publishedAt": "2026-07-30T21:08:49.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
