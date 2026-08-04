@@ -1,16 +1,10 @@
 {
-  "updatedAt": "2026-08-03T22:49:50.769Z",
+  "updatedAt": "2026-08-04T01:19:01.390Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "cybersecurity",
-    "business",
-    "sports",
-    "politics",
-    "law"
-  ],
-  "skippedNow": [
     "it",
     "ai",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -21,13 +15,19 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-03T20:52:30.869Z",
+      "lastFetchAt": "2026-08-04T01:18:39.713Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1785774016000",
+          "id": "it-0-1785798553000",
+          "title": "Wiremokjs как я создавал свой скриптовый язык для wiremock",
+          "summary": "В этой статье я расскажу, как создавал скриптовый язык WiremockJs — с нуля и до рабочего прототипа. Поделюсь, что меня подтолкнуло к этому «подвигу», как я проектировал грамматику, с какими ограничениями столкнулся и поч",
+          "url": "https://habr.com/ru/articles/1066180/?utm_campaign=1066180&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/e68/e3f/fdb/e68e3ffdb0bd5f398f87b52c992886fe.png",
+          "publishedAt": "2026-08-03T23:09:13.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1785794935000",
+          "title": "Любовь на языке Rust: ownership, borrowing и конечный автомат отношений",
+          "summary": "Почему знакомство похоже на систему с неполной информацией, неопределённость удерживает внимание, а алкоголь временно включает unsafe. Меня зовут Артур Валиев, я разрабатываю EVRT и EVRTCK. В программировании я привык мы",
+          "url": "https://habr.com/ru/articles/1066278/?utm_campaign=1066278&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/189/de6/d13/189de6d137c319377a05ba3e0d1eb3aa.jpg",
+          "publishedAt": "2026-08-03T22:08:55.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1785774016000",
           "title": "Скилл для ИИ-агента: как превратить пожелание в правило",
           "summary": "Сначала это даже приятно. Просишь ИИ-агента сделать одну фичу — он делает, код работает, переключаешься на следующую задачу. Потом просишь написать похожее для другой фичи — и он делает снова, но чуть иначе: во второй фи",
           "url": "https://habr.com/ru/articles/1066212/?utm_campaign=1066212&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1785769237000",
+          "id": "it-3-1785769237000",
           "title": "Переписал CRest от Битрикса с нуля: гонки токенов, даунтаймы и мультипортальность, которых нет в стоке",
           "summary": "У Битрикса есть официальная обёртка для REST API — класс CRest, который лежит в каждом примере приложения и который все копируют к себе в проект. Он умещается в один файл и работает — ровно до того момента, пока приложен",
           "url": "https://habr.com/ru/articles/1061694/?utm_campaign=1061694&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +83,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1785767435000",
+          "id": "it-4-1785767435000",
           "title": "Go прощает меньше, чем кажется: восемь ошибок, на которых спотыкается каждый новичок",
           "summary": "Привет, Хабр! Go специально сделали маленьким языком. Ключевых слов немного, конструкций мало, за неделю осваиваешь синтаксис и начинаешь писать. Именно из-за этой простоты возникает ложное ощущение, что тут негде ошибит",
           "url": "https://habr.com/ru/companies/otus/articles/1065500/?utm_campaign=1065500&utm_source=habrahabr&utm_medium=rss",
@@ -69,35 +93,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1785758425000",
-          "title": "Выпекаем тесты на Go с Testo: делимся нашим open-source-фреймворком",
-          "summary": "Привет, Хабр! Я Вадим, разработчик QA-платформы в Ozon. Стандартного testing в Go хватает юнит-тестам, но большим end-to-end-сценариям нужно больше: Allure-отчёты, плагины, Suite’ы, параметризация, параллельные запуски. ",
-          "url": "https://habr.com/ru/companies/ozontech/articles/1062036/?utm_campaign=1062036&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e2c/cb1/7a3/e2ccb17a3a521dc86ad367071de1a924.png",
-          "publishedAt": "2026-08-03T12:00:25.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1785746637000",
-          "title": "Scala Digest. Выпуск 43",
-          "summary": "Привет, Хабр! Мы Настя, Эвелина и Михаил — бэкенд-разработчики Т-Банка, пишем код на Scala и горим желанием его популяризировать. Мы собираем и агрегируем новости из разных источников, включая Scala Times, блог Petr Zapl",
-          "url": "https://habr.com/ru/companies/tbank/articles/1065928/?utm_campaign=1065928&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/90c/9a2/19b/90c9a219b435bc77d9de877b7116f9d7.jpg",
-          "publishedAt": "2026-08-03T08:43:57.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-03T19:15:11.984Z",
+      "lastFetchAt": "2026-08-04T01:18:41.026Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,31 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1785783051000",
+          "id": "ai-0-1785793431000",
+          "title": "DocGen: как я сделал AI-ассистента для системного аналитика и не сошёл с ума",
+          "summary": "Последний раз я тут писал в 2010 году )). С тех пор многое изменилось и вся моя тогдашняя писанина теперь в чердаке. И заново ее публиковать не вижу смысла. Ниже будет статья, которую написал мой соратник. Тот самый, кот",
+          "url": "https://habr.com/ru/articles/1066274/?utm_campaign=1066274&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fc2/e03/3a1/fc2e033a1d1e2fb612ce43b9f30b6152.png",
+          "publishedAt": "2026-08-03T21:43:51.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1785786911000",
+          "title": "Claude Fable обошел GPT-5.6 в переписывании программ с нуля. Вот как ему это удалось",
+          "summary": "Исследовательская группа Epoch AI обновила лидерборд бенчмарка MirrorCode, добавив результаты новых флагманов Anthropic и OpenAI. Claude Fable 5 решил 64% задач, GPT-5.6 Sol — 20%. Разрыв втрое выглядит аномалией: на мно",
+          "url": "https://habr.com/ru/articles/1066254/?utm_campaign=1066254&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/ec7/760/1a6/ec77601a67a244f649d78b25645ec2c8.jpeg",
+          "publishedAt": "2026-08-03T19:55:11.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1785783051000",
           "title": "Промпт, RAG или дообучение: что реально выучит вашу LLM",
           "summary": "Локальная модель может уверенно отвечать на общие вопросы и так же уверенно ошибаться в вашем домене. В статье сравнили на одной задаче промпт с контекстом, RAG и дообучение методом QLoRA, замерили результат на 30 вопрос",
           "url": "https://habr.com/ru/companies/otus/articles/1064244/?utm_campaign=1064244&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1785782827000",
+          "id": "ai-3-1785782827000",
           "title": "Почему агентный SDD ломается между микросервисами?",
           "summary": "Каждая команда описала свой сервис, каждый агент точно выполнил локальную спецификацию, все контракты прошли проверку — а сквозной процесс всё равно развалился. Проблема не обязательно в коде: часто у системы нет общего ",
           "url": "https://habr.com/ru/articles/1066242/?utm_campaign=1066242&utm_source=habrahabr&utm_medium=rss",
@@ -129,36 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1785776147000",
-          "title": "Разум ИИ уже существует. Просто мы ищем его не там",
+          "id": "ai-4-1785776147000",
+          "title": "Разум ИИ уже существует. Просто мы ищем его не там",
           "summary": "От теста Тьюринга к человеко-машинному контуру Эта статья выросла не из попытки построить общую теорию разума, а из длительной практической работы с человеком и искусственным интеллектом как с единой рабочей системой. На",
           "url": "https://habr.com/ru/articles/1065976/?utm_campaign=1065976&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/4e4/2ed/b5e/4e42edb5eb6349d9443d31bbb62738f4.jpg",
           "publishedAt": "2026-08-03T16:55:47.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1785774687000",
-          "title": "Где LLM хранит факты, или как перенести Эйфелеву башню из Парижа в Рим",
-          "summary": "Помните, как в «Матрице» Нео загрузили боевые навыки прямо в мозг? Раз, и человек, который раньше не умел драться, говорит: «Я знаю кунг-фу». Попробуем повторить этот трюк с языковой моделью. Но так как мы далеки от един",
-          "url": "https://habr.com/ru/companies/bothub/articles/1066216/?utm_campaign=1066216&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0f9/4dd/a21/0f94dda21e47b1e9728568067f612b89.jpg",
-          "publishedAt": "2026-08-03T16:31:27.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1785774016000",
-          "title": "Скилл для ИИ-агента: как превратить пожелание в правило",
-          "summary": "Сначала это даже приятно. Просишь ИИ-агента сделать одну фичу — он делает, код работает, переключаешься на следующую задачу. Потом просишь написать похожее для другой фичи — и он делает снова, но чуть иначе: во второй фи",
-          "url": "https://habr.com/ru/articles/1066212/?utm_campaign=1066212&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/442/708/837/44270883714b8e80d4d0abbb0a0abadc.jpg",
-          "publishedAt": "2026-08-03T16:20:16.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-03T22:49:40.302Z",
+      "lastFetchAt": "2026-08-04T01:18:43.670Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-03T19:15:17.048Z",
+      "lastFetchAt": "2026-08-04T01:18:45.793Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -339,23 +339,11 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1785736466000",
-          "title": "Wildberries сообщил об атаке беспилотников на склад во Владимирской области",
-          "summary": "В здании начался пожар.",
-          "url": "https://vc.ru/marketplace/3058442-wildberries-ataka-bespilotnikov-sklad-vladimirskaya-oblast?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785784516/cover.jpg",
-          "publishedAt": "2026-08-03T05:54:26.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1785775336000",
+          "id": "startups-2-1785775336000",
           "title": "Минцифры обсуждает с хостинг-провайдерами повышение эффективности контроля за IP-адресами легитимных VPN — РБК",
           "summary": "Их включают в специальный список, чтобы не допустить блокировки, но туда попадают и «замаскированные» VPN для обхода ограничений, пишет издание.",
           "url": "https://vc.ru/services/3060018-mincifry-i-hosting-provajdery-obshchayut-kontrol-za-legitimnymi-vpn?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3060018/1785784516/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3060018/1785806325/cover.jpg",
           "publishedAt": "2026-08-03T16:42:16.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -363,12 +351,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1785744870000",
-          "title": "Хакеры похитили больше 1300 биткоинов с 4500 аппаратных кошельков Coldcard из-за уязвимости в ПО",
-          "summary": "Ошибка привела к генерации seed‑фраз «с низкой степенью случайности».",
-          "url": "https://vc.ru/crypto/3058605-hakery-pohitili-bitkoiny-s-koshelkov-coldcard?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058605/1785784516/cover.jpg",
-          "publishedAt": "2026-08-03T08:14:30.000Z",
+          "id": "startups-3-1785736466000",
+          "title": "Wildberries сообщил об атаке беспилотников на склад во Владимирской области",
+          "summary": "В здании начался пожар.",
+          "url": "https://vc.ru/marketplace/3058442-wildberries-ataka-bespilotnikov-sklad-vladimirskaya-oblast?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3058442/1785806325/cover.jpg",
+          "publishedAt": "2026-08-03T05:54:26.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1785764327000",
+          "title": "Суд в Москве не признал ИИ-картины объектом авторского права и отказал дизайнеру — тот требовал компенсации от продавца мерча с его работами",
+          "summary": "Ответчиком выступала студия SlovoDna Кирилла Караваева, которая продавала футболки и худи с «Моной Лизой с вином».",
+          "url": "https://vc.ru/legal/3059659-sud-v-moskve-otkazal-v-avtorskom-prave-na-ii-kartiny-dizajnera-pozdnyakova?from=rss",
+          "image": "https://leonardo.osnova.io/56b8d066-78b1-56d4-a642-da05320186dc/",
+          "publishedAt": "2026-08-03T13:38:47.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-03T19:15:17.674Z",
+      "lastFetchAt": "2026-08-04T01:18:46.208Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-03T19:15:20.597Z",
+      "lastFetchAt": "2026-08-04T01:18:49.117Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-03T19:15:22.393Z",
+      "lastFetchAt": "2026-08-04T01:18:50.808Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-03T19:15:22.636Z",
+      "lastFetchAt": "2026-08-04T01:18:51.061Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-03T19:15:25.775Z",
+      "lastFetchAt": "2026-08-04T01:18:54.080Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1785784148000",
-          "title": "Генпрокуратура признала голландский Dalan Fund нежелательной организацией",
-          "summary": "Голландская организация Dalan Fund признана нежелательной в России. Об этом сообщила пресс-служба Генпрокуратуры.",
-          "url": "https://www.kommersant.ru/doc/8861827",
-          "image": "https://iv.kommersant.ru/SocialPics/8861827_49_0_1841920504",
-          "publishedAt": "2026-08-03T19:09:08.000Z",
+          "id": "energy-0-1785805639000",
+          "title": "Власти Молдавии ограничили использование воды из-за обмеления Днестра",
+          "summary": "Правительство Молдавии ограничило использование воды из-за обмеления реки Днестр. Решение приняла Национальная комиссия по управлению кризисами при кабинете министров страны.",
+          "url": "https://www.kommersant.ru/doc/8861878",
+          "image": "https://iv.kommersant.ru/SocialPics/8861878_49_0_1744282700",
+          "publishedAt": "2026-08-04T01:07:19.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1785783856000",
-          "title": "Трамп допустил открытие Ормузского пролива к 4 августа",
-          "summary": "США и Иран обсуждают полное открытие Ормузского пролива к 4 августа. Об этом заявил журналистам американский президент Дональд Трамп, передает NBC News.",
-          "url": "https://www.kommersant.ru/doc/8861838",
-          "image": "https://im2.kommersant.ru/SocialPics/8861838_49_0_1362745082",
-          "publishedAt": "2026-08-03T19:04:16.000Z",
+          "id": "energy-1-1785804203000",
+          "title": "Россия не передавала сигналы западным странам через Казахстан",
+          "summary": "Россия не передавала через Казахстан сигналов западным странам по Украине, заявил замглавы МИД России Михаил Галузин. По его словам, у Москвы «нет необходимости беспокоить своих казахстанских друзей» вопросами по Украине",
+          "url": "https://www.kommersant.ru/doc/8861876",
+          "image": "https://iv.kommersant.ru/SocialPics/8861876_49_0_1460850140",
+          "publishedAt": "2026-08-04T00:43:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1785783294000",
-          "title": "26 человек заразились легионеллезом в Швейцарии",
-          "summary": "В швейцарском городе Базеле зарегистрировано 26 случаев легионеллеза -- тяжелой инфекционной болезни с симптомами лихорадки и пневмонии. Один человек погиб, еще один заболевший находится в реанимации.",
-          "url": "https://www.kommersant.ru/doc/8861815",
-          "image": "https://iv.kommersant.ru/SocialPics/8861815_49_0_1066040003",
-          "publishedAt": "2026-08-03T18:54:54.000Z",
+          "id": "energy-2-1785802873000",
+          "title": "Турция, Египет и Катар обвинили Израиль в нарушении соглашения по сектору Газа",
+          "summary": "Турция, Египет и Катар опубликовали совместное заявление, в котором осудили нарушения Израилем условий перемирия в секторе Газа. Они указали, что действия израильской стороны подрывают реализацию второго этапа соглашения",
+          "url": "https://www.kommersant.ru/doc/8861877",
+          "image": "https://iv.kommersant.ru/SocialPics/8861877_49_0_1563882091",
+          "publishedAt": "2026-08-04T00:21:13.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1785782987000",
-          "title": "Чистая прибыль Роснано по РСБУ упала почти в 12 раз в первом полугодии",
-          "summary": "Чистая прибыль АО «Роснано» по РСБУ составила 71,7 млн руб. по итогам первого полугодия. Это почти в 12 раз меньше аналогичного показателя в 2025 году, следует из отчетности на сайте раскрытия информации.",
-          "url": "https://www.kommersant.ru/doc/8861833",
-          "image": "https://iv.kommersant.ru/SocialPics/8861833_49_0_1254828937",
-          "publishedAt": "2026-08-03T18:49:47.000Z",
+          "id": "energy-3-1785801282000",
+          "title": "В Нидерландах из-за засухи перекрыли каналы и запретили забор воды",
+          "summary": "Управление водными ресурсами региона Делфланд на западе Нидерландов закрыло каналы для коммерческих и прогулочных судов из-за жары. Власти также запретили забор воды из каналов, ручьев и канав.",
+          "url": "https://www.kommersant.ru/doc/8861875",
+          "image": "https://im2.kommersant.ru/SocialPics/8861875_49_0_1895662851",
+          "publishedAt": "2026-08-03T23:54:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1785782027000",
-          "title": "Индекс Мосбиржи отыграл июльский провал",
-          "summary": "3 августа индекс Московской биржи закрылся на отметке 2262,75 пункта, вернувшись к значениям месячной давности. Восстановление после падения, которое продолжалось предыдущие четыре месяца, началось в конце июля, после то",
-          "url": "https://www.kommersant.ru/doc/8861830",
-          "image": "https://im2.kommersant.ru/SocialPics/8861830_49_0_848311967",
-          "publishedAt": "2026-08-03T18:33:47.000Z",
+          "id": "energy-4-1785800484000",
+          "title": "Уступку прав требования не признали обходом санкционного законодательства",
+          "summary": "Российский госсуд рассмотрел случай передачи прав требования долга от иностранного кредитора российской юрфирме. Права были переданы для исполнения решения арбитража, нидерландская компания-кредитор сочла, что у российск",
+          "url": "https://www.kommersant.ru/doc/8861874",
+          "image": "https://iv.kommersant.ru/SocialPics/8861874_49_0_21574152",
+          "publishedAt": "2026-08-03T23:41:24.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-03T19:15:26.600Z",
+      "lastFetchAt": "2026-08-04T01:18:54.885Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-03T19:15:29.365Z",
+      "lastFetchAt": "2026-08-04T01:18:57.846Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785765658000",
+          "id": "gaming-0-1785786652000",
+          "title": "Продакшен пал, Милорд",
+          "summary": "Кривенгард был заложен в лето 23-е от начала правления короля Страструппа на скальном мысу у излучины Малой Невки, где река делает поворот и всякий, кто идёт с севера, вынужден либо переправляться под стенами, либо огиба",
+          "url": "https://habr.com/ru/articles/1064964/?utm_campaign=1064964&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c29/dfb/60e/c29dfb60e397f90312f72c3245de4db8.png",
+          "publishedAt": "2026-08-03T19:50:52.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785765658000",
           "title": "Страсти по RAM",
           "summary": "Вся история микрокомпьютеров, расцвет которых пришелся на начало 1980-х, фактически сводится к борьбе программистов и инженеров за каждый свободный байт. Именно оперативная память определяла границы дозволенного. Игры и ",
           "url": "https://habr.com/ru/companies/ispsystem/articles/1066142/?utm_campaign=1066142&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785763221000",
+          "id": "gaming-2-1785763221000",
           "title": "Assassin's Creed Black Flag здорового человека",
           "summary": "Что ж, этот день наконец-то настал. Спустя годы путешествий по Египту, Греции, Скандинавии и Японии мы получили хорошую игру от некогда великой компании Юбисофт. Однако игра эта представляет собой лишь ремейк, а не полно",
           "url": "https://habr.com/ru/articles/1066116/?utm_campaign=1066116&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785733312000",
+          "id": "gaming-3-1785733312000",
           "title": "Хакатон — соло игра за 2 дня на Fable 5 и Nano Banana 2",
           "summary": "Поучаствовал в хакатоне от работы. Интересно было испытать себя и проверить свой тулсет для разработки игр. Смогу ли я один сделать игру под ключ - код, арт, звуки? Штош, игру сделал! Правда лег спать около шести утра 😖",
           "url": "https://habr.com/ru/articles/1065796/?utm_campaign=1065796&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1785657934000",
+          "id": "gaming-4-1785657934000",
           "title": "Вышли 25 лет назад и изменили игровую индустрию навсегда. 5 самых важных игр 2001 года",
           "summary": "В наше время принято говорить, что игровая индустрия умерла, законсервировалась сама в себе, да и вообще хороших игр сто лет не выходит. И с одной стороны, с этим очень легко посмеяться, учитывая какой поток релизов в по",
           "url": "https://habr.com/ru/companies/timeweb/articles/1065016/?utm_campaign=1065016&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785574864000",
-          "title": "От Dune II до Dune: Awakening: как менялась легендарная серия игр по «Дюне»",
-          "summary": "Вселенная Фрэнка Герберта давно стала для многих реальностью. Книги породили фильмы, сериалы и, конечно, игры. Они пытались передать ощущение пустынной планеты, где вода дороже жизни, а пряность решает судьбы империй. За",
-          "url": "https://habr.com/ru/companies/ru_mts/articles/1065312/?utm_campaign=1065312&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/cc3/0d9/195/cc30d9195b084fd1829e61a1c00ce582.png",
-          "publishedAt": "2026-08-01T09:01:04.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-03T20:52:32.878Z",
+      "lastFetchAt": "2026-08-04T01:18:58.666Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -903,7 +903,7 @@
           "title": "Умер канадский актер Скотт Хайлендс // Актер из «Сверхъестественного» и «Фарго» Скотт Хайлендс умер в возрасте 83 лет",
           "summary": "Канадский актер Скотт Хайлендс умер в возрасте 83 лет. Об этом сообщил его сын Люк в соцсетях.",
           "url": "https://www.kommersant.ru/doc/8861558",
-          "image": "https://iv.kommersant.ru/SocialPics/8861558_49_0_307450319",
+          "image": "https://im2.kommersant.ru/SocialPics/8861558_49_0_307450319",
           "publishedAt": "2026-08-03T12:55:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-03T22:49:43.148Z",
+      "lastFetchAt": "2026-08-04T01:19:00.876Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -949,7 +949,7 @@
           "title": "Форму с надписью «Мальвинские острова принадлежат аргентинцам» показал «Альмиранте Браун» из 2-й лиги Аргентины. Такой же лозунг был на баннере у сборной в полуфинале ЧМ",
           "summary": "Аргентинский клуб « Альмиранте Браун » продемонстрировал форму с лозунгом, заявляющим о принадлежности к его стране Фолклендских островов. Новая футболка сопровождается шрифтом, напоминающим тот, что был на баннере, кото",
           "url": "https://www.sports.ru/football/1117322822-almirante-braun-iz-2-j-ligi-argentiny-pokazal-novuyu-formu-s-nadpisyu-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/282/2/share/0ba13d_no_logo_no_text.jpg",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/282/2/share/cc2abb_no_logo_no_text.jpg",
           "publishedAt": "2026-08-03T22:18:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
@@ -958,10 +958,10 @@
         },
         {
           "id": "sports-1-1785794160000",
-          "title": "Депай потребовал у «Коринтианса» за продление контракта бонус за КЧМ, который пройдет после его истечения, пользование ложей стадиона, проведение там мероприятий и 50% дохода от них",
-          "summary": "«Коринтианс» и Мемфис Депай продолжают переговоры о продлении соглашения. По данным Gazeta Esportiva, одна из главных причин их задержки – ряд привилегий, запрошенных нападающим. На данный момент руководство бразильского",
+          "title": "Депай потребовал у «Коринтианса» за продление контракта бонус за КЧМ, которой пройдет после его истечения, пользование ложей стадиона, проведение там мероприятий и 50% дохода от них",
+          "summary": "«Коринтианс» и Мемфис Депай продолжают переговоры о продлении соглашения. По данным Gazeta Esportiva, одна из главных причин их задержки – ряд привилегий, запрошенных 32-летним нападающим. На данный момент руководство бр",
           "url": "https://www.sports.ru/football/1117322819-depaj-poprosil-u-korintiansa-za-prodlenie-kontrakta-bonus-za-kchm-koto.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/281/9/share/3682a4_no_logo_no_text.jpg",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/281/9/share/eae8c5_no_logo_no_text.jpg",
           "publishedAt": "2026-08-03T21:56:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
@@ -985,7 +985,7 @@
           "title": "Торонто (WTA). Самсонова играет с Тьен, Корнеева, Плишкова вышли во 2-й круг, Блинкова, Андрееску, Винус выбыли",
           "summary": "Анна Блинкова уступила Ребекке Шрамковой в первом круге тысячника в Торонто. Сетка турнира здесь . National Bank Open presented by Rogers Торонто, Канада 2 – 13 августа 2026 WTA 1000 Призовой фонд – 7 433 076 долларов От",
           "url": "https://www.sports.ru/tennis/1117321318-toronto-wta-2026-rezultaty-pervogo-kruga.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/131/8/share/81a3a9_no_logo_no_text.jpg",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/131/8/share/c725a8_no_logo_no_text.jpg",
           "publishedAt": "2026-08-03T21:22:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-03T22:49:45.356Z",
+      "lastFetchAt": "2026-08-04T01:19:01.390Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1785796559000",
-          "title": "Российское авторское общество захотело взыскать 100 тысяч рублей с театра Кадышевой",
+          "id": "politics-0-1785806151000",
+          "title": "59-летняя Памела Андерсон в полупрозрачном наряде снялась для Vogue",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/rossiyskoe-avtorskoe-obschestvo-zahotelo-vzyskat-100-tysyach-rubley-s-teatra-kadyshevoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804013734183/pic_8688c4f68c0a841139f9b3c4f4725380.jpg",
-          "publishedAt": "2026-08-03T22:35:59.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/59-letnyaya-pamela-anderson-v-poluprozrachnom-naryade-snyalas-dlya-vogue/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/16/20260803162052428/pic_4dd96900fae35729a9204651f79fa423.jpg",
+          "publishedAt": "2026-08-04T01:15:51.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1785796320000",
-          "title": "Книги Пелевина и Кинга получат специальную маркировку в России",
+          "id": "politics-1-1785806021000",
+          "title": "Раскрыта реакция США на визит американской делегации на ПМЭФ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/knigi-pelevina-i-kinga-poluchat-spetsialnuyu-markirovku-v-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804013455239/pic_8a402e12eacb6bf6c4697bfb183fc751.jpg",
-          "publishedAt": "2026-08-03T22:32:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/raskryta-reaktsiya-ssha-na-vizit-amerikanskoy-delegatsii-na-pmef/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040651302/pic_46809f0afe4b52b1c2c2504d46f1be79.jpg",
+          "publishedAt": "2026-08-04T01:13:41.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1785796048000",
-          "title": "На Украине рассказали о критической массе дезертиров в ВСУ",
+          "id": "politics-2-1785806021000",
+          "title": "Раскрыта реакция США на визит американской делегации на ПМЭФ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/na-ukraine-rasskazali-o-kriticheskoy-masse-dezertirov-v-vsu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804010602155/pic_12aa7815ee53c059539586a7ddc7aa64.jpg",
-          "publishedAt": "2026-08-03T22:27:28.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/raskryta-reaktsiya-ssha-na-vizit-amerikanskoy-delegatsii-na-pmef/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040651302/pic_46809f0afe4b52b1c2c2504d46f1be79.jpg",
+          "publishedAt": "2026-08-04T01:13:41.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1785795943000",
-          "title": "Спецпредставитель Путина прокомментировал кадры из Сеуты",
+          "id": "politics-3-1785805305000",
+          "title": "Пленный рассказал о стоимости побега с Украины без гарантий",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/spetspredstavitel-putina-prokommentiroval-kadry-iz-seuty/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804011924062/pic_88e5f356641dced3b42b63925aeb5b36.jpg",
-          "publishedAt": "2026-08-03T22:25:43.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/plennyy-rasskazal-o-stoimosti-pobega-s-ukrainy-bez-garantiy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/04/20260804040017957/pic_ac8ac84ef129f90e5d84e666bd741a3d.jpg",
+          "publishedAt": "2026-08-04T01:01:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1785794940000",
-          "title": "На Украине заявили о грядущей сложной зиме",
+          "id": "politics-4-1785805294000",
+          "title": "Т-90М с «Ареной-М» заметили на испытаниях",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/04/na-ukraine-zayavili-o-gryaduschey-slozhnoy-zime/",
-          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804011438796/pic_ef629f447450475ab44419419a6983dc.jpg",
-          "publishedAt": "2026-08-03T22:09:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/04/t-90m-s-arenoy-m-zametili-na-ispytaniyah/",
+          "image": "https://icdn.lenta.ru/images/2026/08/03/14/20260803144530167/pic_82b8a78e53bd78f505f845b828bfe889.jpg",
+          "publishedAt": "2026-08-04T01:01:34.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-03T19:15:27.751Z",
+      "lastFetchAt": "2026-08-04T01:18:56.133Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1365,7 +1365,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1785772740000",
+          "id": "automotive-0-1785796559000",
+          "title": "Российское авторское общество захотело взыскать 100 тысяч рублей с театра Кадышевой",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/04/rossiyskoe-avtorskoe-obschestvo-zahotelo-vzyskat-100-tysyach-rubley-s-teatra-kadyshevoy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/04/01/20260804013734183/pic_8688c4f68c0a841139f9b3c4f4725380.jpg",
+          "publishedAt": "2026-08-03T22:35:59.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1785772740000",
           "title": "Единственный производитель российских телевизоров обанкротился",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/03/obankrotilsya/",
@@ -1377,7 +1389,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1785772093000",
+          "id": "automotive-2-1785772093000",
           "title": "Названы самые популярные машины в Китае",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/03/nazvany-samye-populyarnye-mashiny-v-kitae/",
@@ -1389,7 +1401,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1785767769000",
+          "id": "automotive-3-1785767769000",
           "title": "В Changan прокомментировали изменение цен на машины в России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/03/v-changan-prokommentirovali-izmenenie-tsen-na-mashiny-v-rossii/",
@@ -1401,24 +1413,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1785766140000",
+          "id": "automotive-4-1785766140000",
           "title": "Мужчина угнал машину с двухлетней девочкой внутри",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/04/muzhchina-ugnal-mashinu-s-dvuhletney-devochkoy-vnutri/",
           "image": "https://icdn.lenta.ru/images/2026/08/03/09/20260803095831129/pic_304fb60756a4a6ca843de3cf22500f0c.jpg",
           "publishedAt": "2026-08-03T14:09:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1785764086000",
-          "title": "Шесть производителей резко увеличили цены на машины в России",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/03/shest-proizvoditeley-rezko-uvelichili-tseny-na-mashiny-v-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/16/20260803163011227/pic_c6b2d042b6bf3b0355bb090cd7bfaeb3.jpg",
-          "publishedAt": "2026-08-03T13:34:46.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
