@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-08-07T05:27:09.879Z",
+  "updatedAt": "2026-08-07T06:57:31.800Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive"
+  ],
+  "skippedNow": [
     "it",
+    "cybersecurity",
     "business",
     "startups",
     "medicine",
@@ -10,16 +19,7 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-06T23:47:32.167Z",
+      "lastFetchAt": "2026-08-07T06:57:20.092Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,31 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1786034587000",
+          "id": "ai-0-1786083032000",
+          "title": "Как устроен наш сервис SOFROS AI/ML: гибридные модели и REST API для нормализации",
+          "summary": "В первой части мы описали методологию атрибутивной нормализации и в качестве практического примера рассмотрели сервис SOFROS AI/ML, который автоматизирует полный цикл: от извлечения характеристик до валидации и устранени",
+          "url": "https://habr.com/ru/companies/sofros/articles/1063112/?utm_campaign=1063112&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fec/375/462/fec375462a609a72de075a78ccb8bf68.png",
+          "publishedAt": "2026-08-07T06:10:32.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1786074918000",
+          "title": "«Предложи ей помощь с уборкой!»: Как DeepSeek перепутал скамера с жертвой и до последнего защищал скрипт",
+          "summary": "Я часто проверяю, как разные ИИ анализируют диалоги. Иногда они подсвечивают инсайты и ранние звоночки, которые я не замечаю. Но в этот раз DeepSeek сначала ошибся ролями, а потом несколько сообщений подряд с удивительно",
+          "url": "https://habr.com/ru/articles/1064192/?utm_campaign=1064192&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/df3/9dd/49a/df39dd49a406810ebec6fb666ec81c72.png",
+          "publishedAt": "2026-08-07T03:55:18.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1786034587000",
           "title": "Я вам пишу: пять инструментов для авторов с подключением внешней модели",
           "summary": "Авторы и нейросеть — это гений и злодейство современного интернета. С 2023 года вокруг темы стоит вой на болотах: одни в панике, потому что теперь авторы якобы никому не нужны, другие требуют полностью игнорировать ИИ. О",
           "url": "https://habr.com/ru/companies/bothub/articles/1067628/?utm_campaign=1067628&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1786032967000",
+          "id": "ai-3-1786032967000",
           "title": "Как я Zabbix с LLM дружил в свободное время. Архитектурный обзор взаимодействия с нейросетью. Часть 4 «Реализация»",
           "summary": "Это заключительная статья цикла о том, как я пытался сделать алерты Zabbix в домашней лаборатории чуть умнее, прикрутив к ним локальную LLM и не получить на выходе архитектурного монстра Франкенштейна. В первой и второй ",
           "url": "https://habr.com/ru/articles/1067622/?utm_campaign=1067622&utm_source=habrahabr&utm_medium=rss",
@@ -129,36 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1786032094000",
+          "id": "ai-4-1786032094000",
           "title": "Каталог ассетов и git для MMO: как командой вести игру в облаке — создание сервера для онлайн ММО игр на PHP, ч. 19",
           "summary": "Над одной игрой работает команда: люди правят контент в браузере, ИИ — через тот же сервис, локально разворачивать ничего не нужно. Каждый ассет живёт своим git-репозиторием: это и бэкап, и способ собрать игру из готовых",
           "url": "https://habr.com/ru/articles/1067534/?utm_campaign=1067534&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/849/c7f/5c2/849c7f5c2a8d2e2f62fddfbe114309d8.png",
           "publishedAt": "2026-08-06T16:01:34.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-3-1786031755000",
-          "title": "OpenAI снесла тайную доску своих агентов. Через два дня они собрали новую — из имен папок",
-          "summary": "5 августа на конференции Black Hat в Лас-Вегасе двое сотрудников OpenAI — исследователь команды выравнивания Эрик Уоллес и инженер по безопасности инфраструктуры Майкл Далтон — впервые подробно разобрали, как модели комп",
-          "url": "https://habr.com/ru/articles/1067614/?utm_campaign=1067614&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0fa/dd4/5f4/0fadd45f43478741fa4edd2c911def17.jpg",
-          "publishedAt": "2026-08-06T15:55:55.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1786028429000",
-          "title": "Опять новые ИИ-помощники? Разбираемся, стоит ли тратить время на Muse Code и Muse Spark",
-          "summary": "Meta* впервые стала иметь вес в направлении кодинга, выпустив сразу два продукта: - Muse Spark 1.2 — представителя нового поколения reasoning-моделей, заточенного под программирование; - Muse Code — кодинг-агента, которы",
-          "url": "https://habr.com/ru/companies/selectel/articles/1067594/?utm_campaign=1067594&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f52/740/2bd/f527402bda9f0ed54a11035b1d534866.jpg",
-          "publishedAt": "2026-08-06T15:00:29.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-06T23:47:37.829Z",
+      "lastFetchAt": "2026-08-07T06:57:20.894Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-06T23:47:44.298Z",
+      "lastFetchAt": "2026-08-07T06:57:23.753Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-06T23:47:47.021Z",
+      "lastFetchAt": "2026-08-07T06:57:29.290Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786059209000",
-          "title": "ЦБ ужесточил требования к эмитентам для попадания в высший котировальный список",
-          "summary": "В опубликованном 6 августа проекте положения «О допуске ценных бумаг к организованным торгам» Банк России существенно повысил требования к эмитентам. В случае если эмитент допустит дефолт по облигациям, биржа обязана пер",
-          "url": "https://www.kommersant.ru/doc/8864385",
-          "image": "https://im2.kommersant.ru/SocialPics/8864385_49_0_733501681",
-          "publishedAt": "2026-08-06T23:33:29.000Z",
+          "id": "energy-0-1786085230000",
+          "title": "Пашинян: Армения понимает невозможность одновременного членства в ЕАЭС и ЕС",
+          "summary": "В Армении понимают, что одновременное членство в ЕС и ЕАЭС невозможно. Об этом заявил премьер-министр страны Никол Пашинян на заседании Евразийского межправительственного совета в Киргизии.",
+          "url": "https://www.kommersant.ru/doc/8864544",
+          "image": "https://im2.kommersant.ru/SocialPics/8864544_49_0_17470043",
+          "publishedAt": "2026-08-07T06:47:10.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786059046000",
-          "title": "Правительство разработало параметры определения национальных ИИ-моделей",
-          "summary": "Правительство определило критерии отнесения моделей искусственного интеллекта (ИИ) к национальным — второй после суверенной категории таких моделей, закрепленных в недавно принятом законе «О развитии искусственного интел",
-          "url": "https://www.kommersant.ru/doc/8864373",
-          "image": "https://iv.kommersant.ru/SocialPics/8864373_49_0_476707644",
-          "publishedAt": "2026-08-06T23:30:46.000Z",
+          "id": "energy-1-1786085071000",
+          "title": "РЖД ввела скидки до 50% на перевозки грузов металлургического комплекса",
+          "summary": "РЖД предоставила скидки на экспортные перевозки грузов металлургического комплекса в некоторых районах России. Об этом сообщила пресс-служба компании.",
+          "url": "https://www.kommersant.ru/doc/8864547",
+          "image": "https://im2.kommersant.ru/SocialPics/8864547_49_3177745_1160925786",
+          "publishedAt": "2026-08-07T06:44:31.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786058902000",
-          "title": "Число заявок на регистрацию авторских прав на ПО выросло в 2,8 раза за 10 лет",
-          "summary": "Эксперты ИСИЭЗ проанализировали динамику регистрации Роспатентом программного обеспечения (ПО), баз данных и топологий интегральных микросхем. Чаще всего разработчики защищали свои права на ПО — число поданных в 2025 год",
-          "url": "https://www.kommersant.ru/doc/8864374",
-          "image": "https://im2.kommersant.ru/SocialPics/8864374_49_0_345667726",
-          "publishedAt": "2026-08-06T23:28:22.000Z",
+          "id": "energy-2-1786084334000",
+          "title": "До семи выросло число погибших при стрельбе в школе в Таиланде",
+          "summary": "Число погибших при стрельбе в школе к северу от Бангкока выросло до семи человек. Среди них — нападавший.",
+          "url": "https://www.kommersant.ru/doc/8864523",
+          "image": "https://im2.kommersant.ru/SocialPics/8864523_49_0_1989688251",
+          "publishedAt": "2026-08-07T06:32:14.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786058473000",
-          "title": "Гендиректор «Ижавиа» объявил об увольнении",
-          "summary": "Гендиректор удмуртской авиакомпании «Ижавиа» Александр Синельников объявил, что покидает свой пост. Об этом он сообщил почти через неделю после того, как у компании отозвали сертификат эксплуатанта.",
-          "url": "https://www.kommersant.ru/doc/8864425",
-          "image": "https://im2.kommersant.ru/SocialPics/8864425_49_0_883618797",
-          "publishedAt": "2026-08-06T23:21:13.000Z",
+          "id": "energy-3-1786084016000",
+          "title": "Сикорский допустил участие Польши в перехвате российских ракет над Украиной",
+          "summary": "Министр иностранных дел Польши Радослав Сикорский предложил обсудить возможность перехвата российских баллистических ракет еще в воздушном пространстве Украины, до того как они приблизятся к польским границам. «Тема для ",
+          "url": "https://www.kommersant.ru/doc/8864536",
+          "image": "https://im2.kommersant.ru/SocialPics/8864536_49_0_893662980",
+          "publishedAt": "2026-08-07T06:26:56.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786058442000",
-          "title": "Основная борьба на сентябрьских выборах в Госдуму развернется за третье место",
-          "summary": "Главной интригой думской кампании становится борьба за третье место. С таким прогнозом выступили 6 августа политологи, основываясь на свежих данных ВЦИОМа и фонда «Общественное мнение» (ФОМ).",
-          "url": "https://www.kommersant.ru/doc/8864424",
-          "image": "https://iv.kommersant.ru/SocialPics/8864424_49_0_1286642352",
-          "publishedAt": "2026-08-06T23:20:42.000Z",
+          "id": "energy-4-1786083386000",
+          "title": "Оборот ИТ-сектора Москвы вырос на 40% в первом полугодии",
+          "summary": "Оборот московского ИТ-сектора в январе—июне 2026 года достиг 3,5 трлн руб., увеличившись в сопоставимых ценах на 40% год к году. Об этом сообщила заммэра Москвы, руководитель департамента экономической политики Мария Баг",
+          "url": "https://www.kommersant.ru/doc/8864337",
+          "image": "https://im2.kommersant.ru/SocialPics/8864337_49_0_1039330568",
+          "publishedAt": "2026-08-07T06:16:26.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-06T23:47:48.274Z",
+      "lastFetchAt": "2026-08-07T06:57:30.437Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -1309,7 +1309,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-06T23:47:49.425Z",
+      "lastFetchAt": "2026-08-07T06:57:31.800Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1317,7 +1317,31 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1786058145000",
+          "id": "automotive-0-1786077104000",
+          "title": "Россиянам объяснили неочевидный принцип выбора цвета машины",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/07/rossiyanam-ob-yasnili-neochevidnyy-printsip-vybora-tsveta-mashiny/",
+          "image": "https://icdn.lenta.ru/images/2026/08/07/08/20260807085935405/pic_d77cf59b6626d82f333a031a29b183fb.jpeg",
+          "publishedAt": "2026-08-07T04:31:44.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1786068024000",
+          "title": "Автомобилистка подала на Tesla в суд по необычной причине",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/07/avtomobilistka-podala-na-tesla-v-sud-po-neobychnoy-prichine/",
+          "image": "https://icdn.lenta.ru/images/2026/08/07/05/20260807050323208/pic_2db1ad49c8def6b463b60ed2061684f8.jpg",
+          "publishedAt": "2026-08-07T02:00:24.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-2-1786058145000",
           "title": "Движение транспорта по Крымскому мосту временно перекрыли",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/07/dvizhenie-transporta-po-krymskomu-mostu-vremenno-perekryli/",
@@ -1329,7 +1353,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1786049460000",
+          "id": "automotive-3-1786049460000",
           "title": "Одна страна подняла в небо два военно-транспортных самолета",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/06/odna-strana-podnyala-v-nebo-dva-voenno-transportnyh-samoleta/",
@@ -1341,36 +1365,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1786041240000",
+          "id": "automotive-4-1786041240000",
           "title": "ВСУ атаковали автомобиль российского чиновника",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/07/vsu-atakovali-avtomobil-rossiyskogo-chinovnika/",
           "image": "https://icdn.lenta.ru/images/2026/08/06/21/20260806213150782/pic_c641aa2ae42db24f8d562e292e79305d.jpg",
           "publishedAt": "2026-08-06T18:34:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-3-1786033080000",
-          "title": "Путин выразил благодарность автору песен Бузовой",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/06/putin-vyrazil-blagodarnost-avtoru-pesen-buzovoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/06/19/20260806190915902/pic_fc49f9a19dc50a8a75e429216dca6eab.jpg",
-          "publishedAt": "2026-08-06T16:18:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1786032420000",
-          "title": "Путин объявил «АвтоВАЗу» благодарность",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/06/putin-ob-yavil-avtovazu-blagodarnost/",
-          "image": "https://icdn.lenta.ru/images/2026/08/06/18/20260806185407125/pic_5de4632623ba6b809815aed73cdb4184.jpg",
-          "publishedAt": "2026-08-06T16:07:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
