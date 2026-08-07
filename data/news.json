@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-07T08:44:18.554Z",
+  "updatedAt": "2026-08-07T10:40:28.615Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
-    "law"
+    "sports",
+    "politics",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-07T05:26:47.167Z",
+      "lastFetchAt": "2026-08-07T10:40:19.397Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,8 +35,32 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786026535000",
-          "title": "[Перевод] Swift на Apple II. Часть 1: язык, компилятор и байткод",
+          "id": "it-0-1786097445000",
+          "title": "Как и зачем ускоряют LLM",
+          "summary": "Мы знаем, что сегодняшние большие языковые модели основаны на архитектуре transformer, а самое важное понятие в трансформере это механизм attention. Вычисление attention происходит путем многократного произведения матриц",
+          "url": "https://habr.com/ru/companies/bothub/articles/1067658/?utm_campaign=1067658&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2bc/25c/64c/2bc25c64c6ac4aad1ab96991a4dec332.png",
+          "publishedAt": "2026-08-07T10:10:45.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786094590000",
+          "title": "Java Digest #38: Valhalla в master, ежемесячные патчи Oracle и AI-скиллы в IDEA",
+          "summary": "Всем привет! 👋👋👋👋👋 Мы — Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся этим со всем со",
+          "url": "https://habr.com/ru/companies/tbank/articles/1067830/?utm_campaign=1067830&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dd7/112/e9c/dd7112e9cf93a36b4b0dfd0c3c994b6c.jpg",
+          "publishedAt": "2026-08-07T09:23:10.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786026535000",
+          "title": "[Перевод] Swift на Apple II. Часть 1: язык, компилятор и байткод",
           "summary": "Swift — язык, на котором пишут приложения для iPhone и Mac. Apple II — 8-битный компьютер 1977 года с процессором на 1 МГц, где под всю вашу программу остаётся ровно 40 704 байта. Автор оригинала соединил эти два полюса ",
           "url": "https://habr.com/ru/companies/cloud4y/articles/1067592/?utm_campaign=1067592&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/477/c62/ecc/477c62ecc26acd047cc404b2248f6ce0.png",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786023791000",
+          "id": "it-3-1786023791000",
           "title": "Как оценивать эффективность разработки",
           "summary": "Меня зовут Антон Омельяненко, я Head of Software Development в EXANTE. Менеджер управляет командой так, чтобы она приносила бизнесу результат. Чтобы понимать, насколько хорошо люди справляются с задачами, ему нужны данны",
           "url": "https://habr.com/ru/articles/1067558/?utm_campaign=1067558&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786018632000",
+          "id": "it-4-1786018632000",
           "title": "Kotlin: про Structured Concurrency, CoroutineContext и CoroutineScope",
           "summary": "Разбираемся с Kotlin Corouitines - какие идеи заложены и чем отличается CoroutineContext от CoroutineScope Интересно?",
           "url": "https://habr.com/ru/articles/1067510/?utm_campaign=1067510&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/ccd/1fc/e78/ccd1fce78eab6fc599f34adc57389912.jpeg",
           "publishedAt": "2026-08-06T12:17:12.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786016868000",
-          "title": "Обработка ошибок и исключений в RPG на IBM i",
-          "summary": "Продолжение цикла статей \"что такое RPG и как с ним работать. Предыдущие статьи Современный RPG — что может и зачем нужен Способы работы с БД DB2 в языке RPG на платформе IBM i Читать далее",
-          "url": "https://habr.com/ru/articles/903516/?utm_campaign=903516&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/904/7b3/735/9047b3735f7a7e9f2930c1a74c6ddeea.png",
-          "publishedAt": "2026-08-06T11:47:48.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786012380000",
-          "title": "Графический фреймворк «Арго»",
-          "summary": "Данная статья содержит обзор графического фреймворка “Арго”, предназначенного для быстрой разработки полноценного пользовательского интерфейса для управления приложениями. Это кроссплатформенное решение, которое может ра",
-          "url": "https://habr.com/ru/articles/1067450/?utm_campaign=1067450&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/df2/65a/eb7/df265aeb76b5029910871f83f2c4869e.png",
-          "publishedAt": "2026-08-06T10:33:00.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-07T05:26:52.908Z",
+      "lastFetchAt": "2026-08-07T10:40:21.744Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -318,8 +318,8 @@
           "id": "startups-0-1786078961000",
           "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
           "summary": "Сотрудников эвакуировали.",
-          "url": "https://vc.ru/marketplace/3066959-wildberries-soobshil-o-pozhare-na-sklade-v-ekaterinburge-posle-ataki-bespilotnikov?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786080412/cover.jpg",
+          "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786099221/cover.jpg",
           "publishedAt": "2026-08-07T05:02:41.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -327,48 +327,48 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786008932000",
-          "title": "Больше средних узлов, дольше доставка и сложности со взысканием убытков через суд: эксперты — о последствиях атак на склады Wildberries",
-          "summary": "Мнением и оценками поделились с редакцией аналитики, юрист и общественники.",
-          "url": "https://vc.ru/marketplace/3064521-posledstviya-atak-na-sklady-wildberries?from=rss",
-          "image": "https://leonardo.osnova.io/5ee9c1f9-82d0-5f2a-ad44-aee417f8698e/",
-          "publishedAt": "2026-08-06T09:35:32.000Z",
+          "id": "startups-1-1786094998000",
+          "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
+          "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
+          "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786099221/cover.jpg",
+          "publishedAt": "2026-08-07T09:29:58.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786013336000",
-          "title": "Пользователи пожаловались на сбой у Ozon, «Яндекса», «Ростелекома» и других сервисов",
-          "summary": "В «Ростелекоме» подтвердили кратковременный сбой.",
-          "url": "https://vc.ru/services/3065843-sboj-v-rabote-ozon-yandeks-rostelekom-i-drugikh-populyarnykh-servisov?from=rss",
-          "image": "https://leonardo.osnova.io/4afd15e6-f5cb-524d-8634-79cba0a4ed02/",
-          "publishedAt": "2026-08-06T10:48:56.000Z",
+          "id": "startups-2-1786096905000",
+          "title": "Max откроет доступ к API для создания альтернативных клиентов мессенджера",
+          "summary": "Летом 2026 года приложения Max пропали из App Store и Google Play.",
+          "url": "https://vc.ru/services/3067365-max-otkroet-dostup-k-api-dlya-sozdaniya-klientov-messendzhera?from=rss",
+          "image": "https://leonardo.osnova.io/ed687e9b-f1e3-5347-bbe5-b6429d90f9a4/",
+          "publishedAt": "2026-08-07T10:01:45.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786026158000",
-          "title": "Grokipedia, онлайн-энциклопедия от Илона Маска, несколько месяцев не проверяет правки от пользователей — Lawfare",
-          "summary": "А те задаются вопросом, «не мёртв ли» запущенный осенью 2025 года проект.",
-          "url": "https://vc.ru/services/3066211-grokipedia-ot-ilona-maska-ne-proveryaet-pravki-polzovateley?from=rss",
-          "image": "https://leonardo.osnova.io/564d27a4-b019-588d-8f1d-ded7eb7f26de/",
-          "publishedAt": "2026-08-06T14:22:38.000Z",
+          "id": "startups-3-1786092966000",
+          "title": "Суд в Нью-Мексико обязал Meta* выплатить $942 млн по делу о вреде соцсетей для детей",
+          "summary": "Также компания должна ограничить в штате время использования Facebook* и Instagram* для несовершеннолетних.",
+          "url": "https://vc.ru/legal/3067280-sud-v-nyu-meksiko-obazal-meta-vyplatit-kompensatsiyu?from=rss",
+          "image": "https://leonardo.osnova.io/fa568711-61f6-54de-87bb-081980746b03/",
+          "publishedAt": "2026-08-07T08:56:06.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1786008796000",
-          "title": "МВД, ФСБ и Генпрокуратура предложили возвращать деньги за услуги риелторов при сделках, которые суд признал недействительными — «Ведомости»",
-          "summary": "Инициативу подготовили к третьему пакету мер по борьбе с мошенничеством. Но другие ведомства её не поддерживают.",
-          "url": "https://vc.ru/legal/3065561-mvd-i-fsb-predlozhili-vozvrashchat-dengi-za-uslugi-rieltorov?from=rss",
-          "image": "https://leonardo.osnova.io/57e8bc8a-c8c0-58d8-ac5f-0b2be649df66/",
-          "publishedAt": "2026-08-06T09:33:16.000Z",
+          "id": "startups-4-1786086987000",
+          "title": "OpenAI запланировала в 2027 году выпустить портативную «умную» колонку в форме «пончика» за $300-400 — Bloomberg",
+          "summary": "Устройство будет оснащено подвижными частями и подсветкой, которые активируются во время взаимодействия с ним.",
+          "url": "https://vc.ru/tech/3067029-openai-portativnaya-kolonka-v-forme-ponchika?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067029/1786099221/cover.jpg",
+          "publishedAt": "2026-08-07T07:16:27.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-07T05:26:56.437Z",
+      "lastFetchAt": "2026-08-07T10:40:24.390Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-07T05:26:57.372Z",
+      "lastFetchAt": "2026-08-07T10:40:24.814Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,31 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1786032540000",
+          "id": "environment-0-1786084800000",
+          "title": "При атопическом дерматите оказался повышен риск опоясывающего герпеса",
+          "summary": "При атопическом дерматите оказался повышен риск опоясывающего герпеса",
+          "url": "https://nplus1.ru/news/2026/08/07/atopic-zoster",
+          "image": "https://minio.nplus1.ru/app-images/1127451/conversions/6a74f6ea7fd24_cover-share.png",
+          "publishedAt": "2026-08-07T06:40:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1786084260000",
+          "title": "FDA одобрило первую мРНК-вакцину от гриппа",
+          "summary": "FDA одобрило первую мРНК-вакцину от гриппа",
+          "url": "https://nplus1.ru/news/2026/08/07/first-flu-mrna-go",
+          "image": "https://minio.nplus1.ru/app-images/1127410/conversions/6a74f5b3c629a_cover-share.png",
+          "publishedAt": "2026-08-07T06:31:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1786032540000",
           "title": "Заточенные карандаши, горящий магний и дендриты серебра",
           "summary": "Заточенные карандаши, горящий магний и дендриты серебра",
           "url": "https://nplus1.ru/material/2026/08/06/electron-microscope-from-school",
@@ -607,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1786031640000",
+          "id": "environment-3-1786031640000",
           "title": "Убивавшего редких новозеландских уток одичавшего кота поймали после трех лет поисков",
           "summary": "Убивавшего редких новозеландских уток одичавшего кота поймали после трех лет поисков",
           "url": "https://nplus1.ru/news/2026/08/06/nine-lives-feral-cat",
@@ -619,36 +643,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1786028400000",
+          "id": "environment-4-1786028400000",
           "title": "Электросамокатчики травмировали голову и внутренние органы чаще мотоциклистов и велосипедистов",
           "summary": "Электросамокатчики травмировали голову и внутренние органы чаще мотоциклистов и велосипедистов",
           "url": "https://nplus1.ru/news/2026/08/06/warning-e-scooters",
           "image": "https://minio.nplus1.ru/app-images/1127188/conversions/6a747ce6ce168_cover-share.png",
           "publishedAt": "2026-08-06T15:00:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-3-1786020720000",
-          "title": "Профессиональный контакт с пестицидами повысил риск бокового амиотрофического склероза",
-          "summary": "Профессиональный контакт с пестицидами повысил риск бокового амиотрофического склероза",
-          "url": "https://nplus1.ru/news/2026/08/06/amyotrophic-pesticides",
-          "image": "https://minio.nplus1.ru/app-images/1127248/conversions/6a74831978ed2_cover-share.png",
-          "publishedAt": "2026-08-06T12:52:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1786020000000",
-          "title": "Прививка от менингококка частично защитила австралийских подростков от гонореи",
-          "summary": "Прививка от менингококка частично защитила австралийских подростков от гонореи",
-          "url": "https://nplus1.ru/news/2026/08/06/gonomeningo",
-          "image": "https://minio.nplus1.ru/app-images/1127211/conversions/6a74803126ae5_cover-share.png",
-          "publishedAt": "2026-08-06T12:40:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-07T05:26:59.506Z",
+      "lastFetchAt": "2026-08-07T10:40:26.563Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1785925410000",
+          "id": "gaming-0-1786094912000",
+          "title": "Невиноватая игра: почему видеоигры — не враг, а зеркало",
+          "summary": "Мое знакомство с видеоиграми начиналось заочно – в детстве я видел компьютер однажды в гостях, а о приставках узнавал из рекламных передач по телевизору. Со временем и у меня, и у моих сверстников появились и то, и друго",
+          "url": "https://habr.com/ru/articles/1067832/?utm_campaign=1067832&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/574/66f/c3f/57466fc3f1b818a1734c0a25f447d462.jpg",
+          "publishedAt": "2026-08-07T09:28:32.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1785925410000",
           "title": "Обзор PUBG Mobile в 2026 году: стоит ли возвращаться, и какие режимы актуальны",
           "summary": "PUBG Mobile была и остается одним из самых популярных шутеров в жанре королевской битвы. За последние годы игра приросла новыми форматами и свежим контентом, однако меняющийся с обновлениями интерфейс, множество загрузок",
           "url": "https://habr.com/ru/companies/ggsel/articles/1066962/?utm_campaign=1066962&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785917111000",
+          "id": "gaming-2-1785917111000",
           "title": "Как сделать игру для ZX Spectrum в 2026 (и зачем)",
           "summary": "Идея заняться этим возникла после участия в качестве члена жюри последнего Технотекста (я оценивал статьи из хаба DIY и научпоп). Поначалу для меня было удивительно, зачем тратить столько времени на (казалось бы) странны",
           "url": "https://habr.com/ru/companies/timeweb/articles/1061328/?utm_campaign=1061328&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785860296000",
+          "id": "gaming-3-1785860296000",
           "title": "Проблемы Unity, о которых не расскажут в пресс-релизе",
           "summary": "Игровые движки не сравнивал только ленивый, но за анализом фич и красивых пресс-релизов редко упоминаются баги, костыли и прочие особенности, превращающие разработку в кошмар. А ведь именно они могут повлиять на игру сил",
           "url": "https://habr.com/ru/articles/1065094/?utm_campaign=1065094&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1785845542000",
+          "id": "gaming-4-1785845542000",
           "title": "Как DLSS 5 меняет саму идею графики реального времени (и снова делает ПК-гейминг элитарным)",
           "summary": "После скандального мартовского анонса Nvidia получила много негативных отзывов. Саму идею нейронного рендеринга не раскритиковал только ленивый, а публично хвалить результат работы DLSS 5 мало кто отважился. И это вполне",
           "url": "https://habr.com/ru/companies/ggsel/articles/1066508/?utm_campaign=1066508&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785840689000",
-          "title": "Сотни миллионов долларов убытков, пиар-катастрофа и травма Андрея Дороничева: вспоминаем провал Google Stadia",
-          "summary": "Давайте вспомним, чем была Stadia — какой была амбиция, что удалось реализовать, где случился провал и почему проект закрыли, вместо того чтобы доработать. В финале предлагаю пофантазировать: можно ли было ее спасти, а г",
-          "url": "https://habr.com/ru/articles/1066466/?utm_campaign=1066466&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/815/167/f88/815167f889bc454a324a75cfb25f52b9.jpg",
-          "publishedAt": "2026-08-04T10:51:29.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-07T05:27:04.561Z",
+      "lastFetchAt": "2026-08-07T10:40:28.615Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,7 +875,43 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786044428000",
+          "id": "entertainment-0-1786096074000",
+          "title": "Зрители раскатали «Колобка» // Чем российская кинолента не устроила киноаудиторию",
+          "summary": "Еще до премьеры новой части франшизы «Последний богатырь» пользователи начали массово ставить минимальные оценки. На сайте «Киноафиша» средний балл фильма — 1,2. А онлайн-сервис «Кинопоиск» из-за наплыва комментаторов и ",
+          "url": "https://www.kommersant.ru/doc/8864648",
+          "image": "https://im2.kommersant.ru/SocialPics/8864648_49_3177952_585887969",
+          "publishedAt": "2026-08-07T09:47:54.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786090064000",
+          "title": "Галерею Уффици в Италии реконструируют за €50 млн",
+          "summary": "Галерею Уффици в Италии планируют реконструировать. Работы также будут проводиться во дворце Питти и садах Боболи, которые входят в музейный комплекс.",
+          "url": "https://www.kommersant.ru/doc/8864611",
+          "image": "https://iv.kommersant.ru/SocialPics/8864611_49_0_627000253",
+          "publishedAt": "2026-08-07T08:07:44.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1786084200000",
+          "title": "Чем дальше влез // Фильмы «Без оглядки» и «Лес» открыли фестиваль «Окно в Европу»",
+          "summary": "В Выборге продолжает работу фестиваль российского кино «Окно в Европу». Картины, открывшие конкурсные показы,— «Без оглядки» Наталии Кончаловской и «Лес» Гамлета Дульяна,— повествующие о коварности русских дорог, посмотр",
+          "url": "https://www.kommersant.ru/doc/8864180",
+          "image": "https://iv.kommersant.ru/SocialPics/8864180_49_3177465_719638059",
+          "publishedAt": "2026-08-07T06:30:00.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-3-1786044428000",
           "title": "Путин объявил благодарность рэперу ST",
           "summary": "Благодарность президента России получил рэпер Александр Степанов (ST). Распоряжение Владимира Путина опубликовано на официальном портале правовых актов.",
           "url": "https://www.kommersant.ru/doc/8864393",
@@ -887,48 +923,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786038655000",
+          "id": "entertainment-4-1786038655000",
           "title": "Sony выпустила обновленные постеры для 10 фильмов о Человеке-пауке",
           "summary": "Sony Pictures выпустила обложки для 10 фильмов о Человеке-пауке. Постеры представлены в цифровых версиях картин в онлайн-кинотеатрах.",
           "url": "https://www.kommersant.ru/doc/8864336",
-          "image": "https://im2.kommersant.ru/SocialPics/8864336_49_3177594_899566595",
+          "image": "https://iv.kommersant.ru/SocialPics/8864336_49_3177594_899566595",
           "publishedAt": "2026-08-06T17:50:55.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-2-1786023614000",
-          "title": "Не буди во мне тигра // Выходит новый роман Натальи Илишкиной «Мирэ»",
-          "summary": "У Натальи Илишкиной, чей исторический роман «Улан Далай. Степная сага» в 2024 году стал финалистом премий «Большая книга» и «Ясная поляна», в конце августа выходит книга «Мирэ. Дальневосточный роман». Новый роман похож н",
-          "url": "https://www.kommersant.ru/doc/8864091",
-          "image": "https://im2.kommersant.ru/SocialPics/8864091_49_3177317_2059511107",
-          "publishedAt": "2026-08-06T13:40:14.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1786018730000",
-          "title": "Спасение солнца и охота на человека // Открылся 79-й Международный кинофестиваль в Локарно",
-          "summary": "В швейцарском Локарно начался один из старейших международных кинофестивалей. Его программа стремится сочетать классику и новое кино. С места событий комментирует Андрей Плахов.",
-          "url": "https://www.kommersant.ru/doc/8863961",
-          "image": "https://im2.kommersant.ru/SocialPics/8863961_49_3177213_706978899",
-          "publishedAt": "2026-08-06T12:18:50.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1785960231000",
-          "title": "Организаторы «Интервидения» подтвердили проведение конкурса в Саудовской Аравии",
-          "summary": "Международный музыкальный конкурс «Интервидение» состоится в 2026 году в Саудовской Аравии, сообщили организаторы мероприятия. Ранее ТАСС писал со ссылкой на источник, что проведение конкурса в Эр-Рияде стоит под вопросо",
-          "url": "https://www.kommersant.ru/doc/8863528",
-          "image": "https://iv.kommersant.ru/SocialPics/8863528_49_0_1310896202",
-          "publishedAt": "2026-08-05T20:03:51.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
