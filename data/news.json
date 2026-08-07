@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-07T18:37:01.886Z",
+  "updatedAt": "2026-08-07T20:27:01.331Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
-    "law"
+    "sports",
+    "politics",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-07T14:43:40.133Z",
+      "lastFetchAt": "2026-08-07T20:26:49.808Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786112220000",
+          "id": "it-0-1786131197000",
+          "title": "Кольца на срезе или сколько лет программисту?",
+          "summary": "Возраст дерева можно определить по количеству колец на срезе дерева. Сколько колец столько и лет. А как определить “профессиональный возраст” программиста ? Читать далее",
+          "url": "https://habr.com/ru/articles/1066816/?utm_campaign=1066816&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2fb/fed/a01/2fbfeda0136d10872c61e3cab4891d4c.webp",
+          "publishedAt": "2026-08-07T19:33:17.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786116441000",
+          "title": "ИИ-агенты заговорили на языке OpenTelemetry: два сигнала от MCP и Otel",
+          "summary": "Вызов инструмента ИИ-агентом легко теряется между моделью, MCP-клиентом, сервером и внешним API. В конце июля сразу два события показали, каким способом индустрия собирается решать эту проблему. Новая спецификация MCP за",
+          "url": "https://habr.com/ru/companies/proto/articles/1068040/?utm_campaign=1068040&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/872/a41/dd9/872a41dd96ead03646d7beed9fdbf4ab.png",
+          "publishedAt": "2026-08-07T15:27:21.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786112220000",
           "title": "Agentic AI: стек агентного инженера",
           "summary": "Этот материал навеян типичными требованиями к агентным Python-инженерам - теми списками требований к вакансии, где рядом стоят всякие PydanticAI/CrewAI/Langraph, MCP/A2A, фреймворки, оценки, векторные базы и тому подобно",
           "url": "https://habr.com/ru/articles/1068024/?utm_campaign=1068024&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786108644000",
+          "id": "it-3-1786108644000",
           "title": "C++-техрадар: что разработчики действительно готовы брать в работу",
           "summary": "В мае на конференциях C++ Russia и HolyJS мы предложили участникам оценить технологии, инструменты и инженерные практики, с которыми они работают или за которыми следят. Так появились данные для двух технических радаров:",
           "url": "https://habr.com/ru/companies/kaspersky/articles/1067982/?utm_campaign=1067982&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786107714000",
+          "id": "it-4-1786107714000",
           "title": "«Как за вами (не) следит Яндекс»: что на самом деле происходит внутри Android-приложений",
           "summary": "На днях на Хабре вышла статья с разбором Яндекс Браузера и приложения Яндекс для Android. Автор сделал несколько выводов о работе приложений на основе анализа кода. Часть наблюдений в статье действительно описывает сущес",
           "url": "https://habr.com/ru/companies/yandex/articles/1067964/?utm_campaign=1067964&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habr.com/share/publication/1067964/89de118b3445d553f633fb863af3d102/",
           "publishedAt": "2026-08-07T13:01:54.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786105585000",
-          "title": "ConnectRPC против gRPC: практическое сравнение",
-          "summary": "Привет, Хабр! Меня зовут Артём Трофимов, я работаю backend-разработчиком в компании «Юзтех». Последние 5 лет я занимаюсь разработкой backend-сервисов на Golang, и мне регулярно приходится работать с микросервисами, общаю",
-          "url": "https://habr.com/ru/companies/usetech/articles/1067960/?utm_campaign=1067960&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/d4b/4e2/cab/d4b4e2cab00ac257c53c74cc11fbf25b.png",
-          "publishedAt": "2026-08-07T12:26:25.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786097445000",
-          "title": "Как и зачем ускоряют LLM",
-          "summary": "Мы знаем, что сегодняшние большие языковые модели основаны на архитектуре transformer, а самое важное понятие в трансформере это механизм attention. Вычисление attention происходит путем многократного произведения матриц",
-          "url": "https://habr.com/ru/companies/bothub/articles/1067658/?utm_campaign=1067658&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2bc/25c/64c/2bc25c64c6ac4aad1ab96991a4dec332.png",
-          "publishedAt": "2026-08-07T10:10:45.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-07T14:43:46.401Z",
+      "lastFetchAt": "2026-08-07T20:26:54.000Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,11 +327,23 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786078961000",
+          "id": "startups-1-1786114091000",
+          "title": "Netflix установил в Голливуде билборд с «комнатой» и на время «запер» там живого актёра — к выходу фильма «Последний дом»",
+          "summary": "Он общается с прохожими с помощью табличек и ест хлопья на подоконнике.",
+          "url": "https://vc.ru/marketing/3067839-netflix-bilbord-aktjor-v-gollivude-film-poslednij-dom?from=rss",
+          "image": "https://leonardo.osnova.io/7f73d371-d6e0-51ef-aa7a-66bbac1b79f7/-/resize/1300/",
+          "publishedAt": "2026-08-07T14:48:11.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1786078961000",
           "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
           "summary": "Сотрудников эвакуировали.",
           "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786113825/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786134412/cover.jpg",
           "publishedAt": "2026-08-07T05:02:41.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -339,24 +351,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786094998000",
+          "id": "startups-3-1786094998000",
           "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
           "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
           "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786113825/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786134412/cover.jpg",
           "publishedAt": "2026-08-07T09:29:58.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1786103571000",
-          "title": "«Яндекс Лавка» открыла кафе в Москве — с пекарней, кофейней и зоной готовой еды",
-          "summary": "Это не первая офлайн-точка сервиса, но его «первый полностью самостоятельный проект».",
-          "url": "https://vc.ru/food/3062335-yandeks-lavka-kafe-moskva?from=rss",
-          "image": "https://leonardo.osnova.io/62247175-7c95-58a8-9f1e-d586f59216d2/",
-          "publishedAt": "2026-08-07T11:52:51.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -367,7 +367,7 @@
           "title": "Wildberries протестирует партнёрские хабы для хранения товаров — их могут открыть владельцы и арендаторы подходящих помещений",
           "summary": "В рамках мер поддержки продавцов и владельцев ПВЗ.",
           "url": "https://vc.ru/marketplace/3067542-wildberries-testiruet-partnerskie-haby-dlya-hraneniya-tovarov?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067542/1786113826/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067542/1786134413/cover.jpg",
           "publishedAt": "2026-08-07T10:51:38.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-07T14:43:50.472Z",
+      "lastFetchAt": "2026-08-07T20:26:56.563Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-07T14:43:52.944Z",
+      "lastFetchAt": "2026-08-07T20:26:56.960Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,60 +595,60 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1786107720000",
+          "id": "environment-0-1786125600000",
+          "title": "Белок CDC42 активировал пирин по неизвестному ранее механизму",
+          "summary": "Белок CDC42 активировал пирин по неизвестному ранее механизму",
+          "url": "https://nplus1.ru/news/2026/08/07/pyrin-cdc42",
+          "image": "https://minio.nplus1.ru/app-images/1127360/conversions/6a74b5015250e_cover-share.png",
+          "publishedAt": "2026-08-07T18:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1786120020000",
+          "title": "Первая вакцина от дифтерии и столбняка с хранением без холодильника прошла первую фазу испытаний",
+          "summary": "Первая вакцина от дифтерии и столбняка с хранением без холодильника прошла первую фазу испытаний",
+          "url": "https://nplus1.ru/news/2026/08/07/fridge-free-vaccine",
+          "image": "https://minio.nplus1.ru/app-images/1127615/conversions/6a75fac329f2c_cover-share.png",
+          "publishedAt": "2026-08-07T16:27:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1786118580000",
+          "title": "Проект Codebook расширил известный словарь связывания белков с ДНК на 15 процентов",
+          "summary": "Проект Codebook расширил известный словарь связывания белков с ДНК на 15 процентов",
+          "url": "https://nplus1.ru/news/2026/08/07/tf-codebook",
+          "image": "https://minio.nplus1.ru/app-images/1127558/conversions/6a75ea9aa6069_cover-share.png",
+          "publishedAt": "2026-08-07T16:03:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-3-1786117200000",
+          "title": "Искали кобальт, нашли уран",
+          "summary": "В июле 2026 года в Nature Communications вышла, статья, которая утверждает, что из Конго за 20 лет могли вывезти от двух до пяти тысяч тонн природного урана. По версии авторов исследования, радиоактивный металл не экспор",
+          "url": "https://nplus1.ru/material/2026/08/07/cobalt-and-uranium",
+          "image": "https://minio.nplus1.ru/app-images/1127606/conversions/7b60e43c4d8a10b45199d9fd005b6309-share.png",
+          "publishedAt": "2026-08-07T15:40:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-4-1786107720000",
           "title": "Древняя надпись поведала о налоговых преступлениях",
           "summary": "Археологические исследования, проходившие на западе Турции, принесли любопытный результат. Ученые обнаружили каменную плиту с надписью, содержание которой поведало о преступной схеме, о чем рассказал высеченный указ. Так",
           "url": "https://nplus1.ru/news/2026/08/07/roman-tax-scandal",
           "image": "https://minio.nplus1.ru/app-images/1127521/conversions/6a75cb753e42d_cover-share.png",
           "publishedAt": "2026-08-07T13:02:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-1-1786084800000",
-          "title": "При атопическом дерматите оказался повышен риск опоясывающего герпеса",
-          "summary": "При атопическом дерматите оказался повышен риск опоясывающего герпеса",
-          "url": "https://nplus1.ru/news/2026/08/07/atopic-zoster",
-          "image": "https://minio.nplus1.ru/app-images/1127451/conversions/6a74f6ea7fd24_cover-share.png",
-          "publishedAt": "2026-08-07T06:40:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-2-1786084260000",
-          "title": "FDA одобрило первую мРНК-вакцину от гриппа",
-          "summary": "FDA одобрило первую мРНК-вакцину от гриппа",
-          "url": "https://nplus1.ru/news/2026/08/07/first-flu-mrna-go",
-          "image": "https://minio.nplus1.ru/app-images/1127410/conversions/6a74f5b3c629a_cover-share.png",
-          "publishedAt": "2026-08-07T06:31:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-3-1786032540000",
-          "title": "Заточенные карандаши, горящий магний и дендриты серебра",
-          "summary": "Заточенные карандаши, горящий магний и дендриты серебра",
-          "url": "https://nplus1.ru/material/2026/08/06/electron-microscope-from-school",
-          "image": "https://minio.nplus1.ru/app-images/1127300/conversions/9831399e5f481a587b8fdf362e9b30b0-share.png",
-          "publishedAt": "2026-08-06T16:09:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1786031640000",
-          "title": "Убивавшего редких новозеландских уток одичавшего кота поймали после трех лет поисков",
-          "summary": "Убивавшего редких новозеландских уток одичавшего кота поймали после трех лет поисков",
-          "url": "https://nplus1.ru/news/2026/08/06/nine-lives-feral-cat",
-          "image": "https://minio.nplus1.ru/app-images/1127314/conversions/6a74a236ccf32_cover-share.png",
-          "publishedAt": "2026-08-06T15:54:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-07T14:44:59.574Z",
+      "lastFetchAt": "2026-08-07T20:26:58.328Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-07T14:45:04.667Z",
+      "lastFetchAt": "2026-08-07T20:27:01.331Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,7 +875,31 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786108533000",
+          "id": "entertainment-0-1786132699000",
+          "title": "Сборы «Одиссеи» в мировом прокате превысили $1 млрд",
+          "summary": "Кассовые сборы «Одиссеи» Кристофера Нолана превысили $1 млрд в мировом прокате спустя три недели после выхода фильма. Об этом сообщила The Variety.",
+          "url": "https://www.kommersant.ru/doc/8875180",
+          "image": "https://im2.kommersant.ru/SocialPics/8875180_49_0_1501223723",
+          "publishedAt": "2026-08-07T19:58:19.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786118808000",
+          "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
+          "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
+          "url": "https://www.kommersant.ru/doc/8875048",
+          "image": "https://im2.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
+          "publishedAt": "2026-08-07T16:06:48.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1786108533000",
           "title": "Вернер Херцог получит почетную награду Кинофестиваля в Сан-Себастьяне",
           "summary": "Немецкий режиссер Вернер Херцог получит почетную премию «Доностия» Международного кинофестиваля в Сан-Себастьяне. Как сообщила пресс-служба фестиваля, 83-летнего режиссера наградят на гала-вечере открытия после показа ег",
           "url": "https://www.kommersant.ru/doc/8874972",
@@ -887,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786108062000",
+          "id": "entertainment-3-1786108062000",
           "title": "Умер продюсер Мадонны, Бритни Спирс и Blur Уильям Орбит",
           "summary": "Британский музыкант, композитора и продюсер, который работал, в частности, с Мадонной, Бритни Спирс, Blur, U2 и All Saints Уильям Орбит умер 23 июля, сообщила The Guardian со ссылкой на объявление его родных. «Нам и всем",
           "url": "https://www.kommersant.ru/doc/8874974",
@@ -899,36 +923,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786106432000",
+          "id": "entertainment-4-1786106432000",
           "title": "Голоса ушли в печать // Издана первая биография группы «Альянс»",
           "summary": "Вышла книга Дениса Ступникова «Альянс. Авторизованная биография» — история одной из самых влиятельных и многогранных групп отечественной рок-сцены. С произведением ознакомился Игорь Гаврилов.",
           "url": "https://www.kommersant.ru/doc/8874947",
           "image": "https://im2.kommersant.ru/SocialPics/8874947_49_3178193_405748280",
           "publishedAt": "2026-08-07T12:40:32.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1786096074000",
-          "title": "Зрители раскатали «Колобка» // Чем российская кинолента не устроила киноаудиторию",
-          "summary": "Еще до премьеры новой части франшизы «Последний богатырь» пользователи начали массово ставить минимальные оценки. На сайте «Киноафиша» средний балл фильма — 1,2. А онлайн-сервис «Кинопоиск» из-за наплыва комментаторов и ",
-          "url": "https://www.kommersant.ru/doc/8864648",
-          "image": "https://iv.kommersant.ru/SocialPics/8864648_49_3177952_585887969",
-          "publishedAt": "2026-08-07T09:47:54.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786090064000",
-          "title": "Галерею Уффици в Италии реконструируют за €50 млн",
-          "summary": "Галерею Уффици в Италии планируют реконструировать. Работы также будут проводиться во дворце Питти и садах Боболи, которые входят в музейный комплекс.",
-          "url": "https://www.kommersant.ru/doc/8864611",
-          "image": "https://iv.kommersant.ru/SocialPics/8864611_49_0_627000253",
-          "publishedAt": "2026-08-07T08:07:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
