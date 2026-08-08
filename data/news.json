@@ -1,15 +1,9 @@
 {
-  "updatedAt": "2026-08-08T18:19:37.662Z",
+  "updatedAt": "2026-08-08T20:15:47.617Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -19,7 +13,13 @@
     "space",
     "automotive",
     "gaming",
-    "entertainment",
+    "entertainment"
+  ],
+  "skippedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-08T14:21:29.077Z",
+      "lastFetchAt": "2026-08-08T20:15:29.089Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786191339000",
+          "id": "it-0-1786208712000",
+          "title": "Патчим Codex: управляемая амнезия без потери контекста",
+          "summary": "Я дал модели (в codex) возможность самостоятельно решать, когда нужен compact, и обязал её объяснять причину и строить план на будущее. Зачем? компакт посреди правки большого связного куска проекта вызывает некие сомнени",
+          "url": "https://habr.com/ru/articles/1068252/?utm_campaign=1068252&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dda/42e/b62/dda42eb6288df39402f0d49f9f5ee3ff.png",
+          "publishedAt": "2026-08-08T17:05:12.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786206153000",
+          "title": "24 главы, два языка и живой Event Loop: как я собрал с Codex лабораторию по backend-разработке",
+          "summary": "В 2026 году AI-агенты уже неплохо пишут прикладной код. Но если просто принимать готовые реализации, проект развивается быстрее, а разработчик — не обязательно. Поэтому я собрал с Codex open-source лабораторию, в которой",
+          "url": "https://habr.com/ru/articles/1068238/?utm_campaign=1068238&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/1ea/a03/d8f/1eaa03d8f362c4bf80c05638c6af879f.jpg",
+          "publishedAt": "2026-08-08T16:22:33.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786191339000",
           "title": "Побеждаем OOM в PyTorch: как обучать гигантские графы на обычной видеокарте",
           "summary": "При обучении графных нейросетей и гигантских эмбеддингов на миллионы узлов стандартный torch.optim.SparseAdam в PyTorch моментально забивает RAM и VRAM, вызывая ошибку CUDA out of memory (OOM). В этой статье разбираем, к",
           "url": "https://habr.com/ru/articles/1068202/?utm_campaign=1068202&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786185978000",
+          "id": "it-3-1786185978000",
           "title": "[Перевод] Победить Hibernate в тестах. Возможно?",
           "summary": "Победить Hibernate в тестах. Сможем? Всем, привет! На связи Михаил Поливаха, технический лидер Open Source проекта Axelix (проект, посвященный помочь вам идентифицировать частые проблемы в Java server-side приложениях, в",
           "url": "https://habr.com/ru/companies/spring_aio/articles/1068176/?utm_campaign=1068176&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +83,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786175868000",
+          "id": "it-4-1786175868000",
           "title": "Записки нейроманта #0 — Claude Code вчера получил лучшее обновление года",
           "summary": "У меня всегда крутится несколько Claude Code. Вчера заметил странное: два агента, работавшие над одной проблемой, сами обменялись сообщениями через сокет uds:/tmp/cc-socks/769334.sock. Раньше такого не было. Оказалось, в",
           "url": "https://habr.com/ru/articles/1068106/?utm_campaign=1068106&utm_source=habrahabr&utm_medium=rss",
@@ -69,35 +93,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786171261000",
-          "title": "Не отдавайте ИИ то, что должны придумать сами",
-          "summary": "«Планируйте задачу с достаточным контекстом» — совет, который есть в каждой статье про агентов. Я споткнулся об одно слово: достаточным — это сколько? Пока я не ответил на этот вопрос, любые фоновые агенты выдавали мне у",
-          "url": "https://habr.com/ru/articles/1068120/?utm_campaign=1068120&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/d89/072/694/d890726948d9b470976856d203fc3282.png",
-          "publishedAt": "2026-08-08T06:41:01.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786154446000",
-          "title": "Событийная сингулярность как философская модель факта и возможного",
-          "summary": "Обычно событие представляют линейно, нечто произошло, вызвало определённые последствия и стало частью прошлого. Подобное описание позволяет установить хронологическую последовательность, но не раскрывает внутреннюю струк",
-          "url": "https://habr.com/ru/articles/1065800/?utm_campaign=1065800&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/38c/adb/381/38cadb381518141556294141c64ecdc6.png",
-          "publishedAt": "2026-08-08T02:00:46.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-08T12:22:04.633Z",
+      "lastFetchAt": "2026-08-08T20:15:30.774Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,60 +105,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1786191339000",
-          "title": "Побеждаем OOM в PyTorch: как обучать гигантские графы на обычной видеокарте",
-          "summary": "При обучении графных нейросетей и гигантских эмбеддингов на миллионы узлов стандартный torch.optim.SparseAdam в PyTorch моментально забивает RAM и VRAM, вызывая ошибку CUDA out of memory (OOM). В этой статье разбираем, к",
-          "url": "https://habr.com/ru/articles/1068202/?utm_campaign=1068202&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/601/0b0/e4b/6010b0e4b738f61262a907dcccfb071c.png",
-          "publishedAt": "2026-08-08T12:15:39.000Z",
+          "id": "ai-0-1786215250000",
+          "title": "ИИ улучшает ИИ: как Google потерял и тут же вернул своих ведущих исследователей",
+          "summary": "5 августа Google объявил сразу об уходе четырех человек, на которых десятилетиями держались его инфраструктура и ИИ-исследования. Джефф Дин, главный научный сотрудник компании, уходит после 27 лет вместе с Санджаем Гемав",
+          "url": "https://habr.com/ru/articles/1068270/?utm_campaign=1068270&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/92f/3ae/5d8/92f3ae5d8ca1aba33d842cc9b1c830b3.jpg",
+          "publishedAt": "2026-08-08T18:54:10.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1786190647000",
-          "title": "Из немыслимого в элементарное: парсинг сайта спортпита на Python без бэкграунда программиста",
-          "summary": "Привет, Habr! Сразу дисклеймер: эта статья не реклама магазина, не туториал «парсинг за 5 минут», и я не программист. Я переводчик и штангист-любитель, а код, который будет представлен ниже, писал вместе с нейросетью. Эт",
-          "url": "https://habr.com/ru/articles/1068200/?utm_campaign=1068200&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/629/82c/0d0/62982c0d0f0996e941ce980be7614ba2.png",
-          "publishedAt": "2026-08-08T12:04:07.000Z",
+          "id": "ai-1-1786208712000",
+          "title": "Патчим Codex: управляемая амнезия без потери контекста",
+          "summary": "Я дал модели (в codex) возможность самостоятельно решать, когда нужен compact, и обязал её объяснять причину и строить план на будущее. Зачем? компакт посреди правки большого связного куска проекта вызывает некие сомнени",
+          "url": "https://habr.com/ru/articles/1068252/?utm_campaign=1068252&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dda/42e/b62/dda42eb6288df39402f0d49f9f5ee3ff.png",
+          "publishedAt": "2026-08-08T17:05:12.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1786185413000",
-          "title": "Как ИИ забраковал планету, а мы её всё равно нашли",
-          "summary": "В данной статье я хотел бы описать как была открыта планета TOI-1899 b, почему эта планета интересная, что необычного было в её открытии. ИИ не справился, а мы смогли. Читать далее",
-          "url": "https://habr.com/ru/articles/1068098/?utm_campaign=1068098&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/69a/e17/8a9/69ae178a9c4fc928fb0a1c31287fcecb.jpg",
-          "publishedAt": "2026-08-08T10:36:53.000Z",
+          "id": "ai-2-1786206982000",
+          "title": "Самая опасная уязвимость — интеллект атакующего агента?",
+          "summary": "Сейчас уже не удивляет, что агенты работают с терминалом, БД, браузером и инфраструктурой - без прямого контроля человека. Но чем шире полномочия агента, тем вероятнее, что для достижения цели выбранный им путь обернётся",
+          "url": "https://habr.com/ru/articles/1068248/?utm_campaign=1068248&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2c0/856/23c/2c085623c10474894b7b20f38184d19b.png",
+          "publishedAt": "2026-08-08T16:36:22.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1786183220000",
-          "title": "Лопнет ли пузырь на рынке ИИ? Разбираем потери, долги и производительность",
-          "summary": "Нынешняя экономика искусственного интеллекта — это история о потерях, доходах, смене стиля жизни и интернет-среды, а также о разрыве между ожиданиями и реальностью. Инвесторы пока имеют деньги и терпение, чтобы вкладыват",
-          "url": "https://habr.com/ru/companies/bothub/articles/1068046/?utm_campaign=1068046&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/05c/cbb/563/05ccbb5636a308986b8b5a16ef7e8e98.jpeg",
-          "publishedAt": "2026-08-08T10:00:20.000Z",
+          "id": "ai-3-1786206153000",
+          "title": "24 главы, два языка и живой Event Loop: как я собрал с Codex лабораторию по backend-разработке",
+          "summary": "В 2026 году AI-агенты уже неплохо пишут прикладной код. Но если просто принимать готовые реализации, проект развивается быстрее, а разработчик — не обязательно. Поэтому я собрал с Codex open-source лабораторию, в которой",
+          "url": "https://habr.com/ru/articles/1068238/?utm_campaign=1068238&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/1ea/a03/d8f/1eaa03d8f362c4bf80c05638c6af879f.jpg",
+          "publishedAt": "2026-08-08T16:22:33.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-4-1786181075000",
-          "title": "От болтливых LLM-агентов к управляемым системам",
-          "summary": "Когда достаточно одного LLM-агента, когда нужна мультиагентная система, а когда лучше вообще использовать обычный workflow? Разбираем современный стек агентных приложений: ReAct, Agent SDK, графы, durable execution, sand",
-          "url": "https://habr.com/ru/articles/1068168/?utm_campaign=1068168&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/350/01e/d70/35001ed70f20ae3dc7a4dcb06ab98adb.jpg",
-          "publishedAt": "2026-08-08T09:24:35.000Z",
+          "id": "ai-4-1786202772000",
+          "title": "ИИ Агент для скоринга торговых рекомендаций",
+          "summary": "👾 ИИ Агент для скоринга торговых рекомендаций Как понять, кто реально умеет торговать, а кто просто удаляет убыточные посты? ИИ извлекает торговое намерение из свободного текста, а дальше детерминированный движок прогон",
+          "url": "https://habr.com/ru/articles/1068228/?utm_campaign=1068228&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fe5/10f/f92/fe510ff92d50c0643536b442f6ad06fa.png",
+          "publishedAt": "2026-08-08T15:26:12.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-08T14:21:33.483Z",
+      "lastFetchAt": "2026-08-08T20:15:32.435Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,7 +327,31 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786096905000",
+          "id": "startups-1-1786216363000",
+          "title": "«ИИ-слоп вперемешку с рекламой»: на американском стриминге Roku запустили «первый» круглосуточный канал со сгенерированными фильмами и сериалами",
+          "summary": "Летом 2026 года платформу пытался выкупить Netflix.",
+          "url": "https://vc.ru/media/3069115-kanal-roku-s-filmami-i-serialami-sozdannymi-ii?from=rss",
+          "image": "https://leonardo.osnova.io/8831d09f-8beb-5b11-afa0-e4751bda1ce0/-/resize/1300/",
+          "publishedAt": "2026-08-08T19:12:43.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1786210260000",
+          "title": "День 1627: Wildberries включил риски из-за атак беспилотников в страхование заказов на периоды доставки и хранения в ПВЗ",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/marketplace/3068904-wildberries-vklyuchil-riski-atak-bespilotnikov-v-strahovanie-zakazov?from=rss",
+          "image": "https://leonardo.osnova.io/64676e6c-81a9-5c28-98a8-eb5f314213fb/",
+          "publishedAt": "2026-08-08T17:31:00.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1786096905000",
           "title": "Max откроет доступ к API для создания альтернативных клиентов мессенджера",
           "summary": "Летом 2026 года приложения Max пропали из App Store и Google Play.",
           "url": "https://vc.ru/services/3067365-max-otkroet-dostup-k-api-dlya-sozdaniya-klientov-messendzhera?from=rss",
@@ -339,7 +363,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786105002000",
+          "id": "startups-4-1786105002000",
           "title": "Бывшего директора издательств Popcorn Books и Individuum Дмитрия Протопопова* приговорили к четырём годам тюрьмы условно по делу о «распространении ЛГБТ**-книг»",
           "summary": "В июле 2026 года он признал вину и заключил досудебное соглашение с прокуратурой.",
           "url": "https://vc.ru/legal/3067622-dmitriy-protopopov-osuzhden-za-delo-o-rasprostranenii-lgbt-knig?from=rss",
@@ -349,35 +373,11 @@
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1786094998000",
-          "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
-          "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
-          "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786198893/cover.jpg",
-          "publishedAt": "2026-08-07T09:29:58.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786078961000",
-          "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
-          "summary": "Сотрудников эвакуировали.",
-          "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786198893/cover.jpg",
-          "publishedAt": "2026-08-07T05:02:41.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
         }
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-08T12:22:08.036Z",
+      "lastFetchAt": "2026-08-08T20:15:33.024Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-08T14:21:36.862Z",
+      "lastFetchAt": "2026-08-08T20:15:36.245Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-08T12:22:12.927Z",
+      "lastFetchAt": "2026-08-08T20:15:38.458Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-08T14:21:37.774Z",
+      "lastFetchAt": "2026-08-08T20:15:39.020Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-08T12:22:22.265Z",
+      "lastFetchAt": "2026-08-08T20:15:42.505Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786191361000",
-          "title": "Медведев предрек Армении кризис в случае разрыва с РФ",
-          "summary": "Зампред Совета безопасности России Дмитрий Медведев заявил, что экономический разрыв Армении с РФ приведет к глубокому внутреннему кризису, «а может, и что похуже». Такое мнение он высказал в интервью «РИА Новости», комм",
-          "url": "https://www.kommersant.ru/doc/8875558",
-          "image": "https://iv.kommersant.ru/SocialPics/8875558_49_0_838233024",
-          "publishedAt": "2026-08-08T12:16:01.000Z",
+          "id": "energy-0-1786218623000",
+          "title": "В детской больнице в Подольске произошел пожар",
+          "summary": "В подмосковном Подольске произошел пожар в здании детской больницы. Открытое горение ликвидировано, сообщило управление МЧС по Московской области.",
+          "url": "https://www.kommersant.ru/doc/8875630",
+          "image": "https://im2.kommersant.ru/SocialPics/8875630_49_0_634735318",
+          "publishedAt": "2026-08-08T19:50:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786190290000",
-          "title": "У моря в Турции найден неизвестный БПЛА",
-          "summary": "Неизвестный беспилотник найден в 500 м от побережья турецкой провинции Сакарья. БПЛА был без взрывчатки, его передали сотрудникам береговой охраны.",
-          "url": "https://www.kommersant.ru/doc/8875554",
-          "image": "https://im2.kommersant.ru/SocialPics/8875554_49_0_1793081160",
-          "publishedAt": "2026-08-08T11:58:10.000Z",
+          "id": "energy-1-1786217334000",
+          "title": "ЦСКА сыграл вничью с «Ростовом» в третьем туре РПЛ",
+          "summary": "Московский ЦСКА и «Ростов» завершили матч третьего тура Российской премьер-лиги (РПЛ) со счетом 0:0. Игра прошла на «ВЭБ-Арене» в Москве.",
+          "url": "https://www.kommersant.ru/doc/8875628",
+          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/08/KMO_209057_00025_1_t219_225215.jpg",
+          "publishedAt": "2026-08-08T19:28:54.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786190261000",
-          "title": "Вучич не ждет скорого окончания украинского конфликта",
-          "summary": "Президент Сербии Александр Вучич выразил сомнения в скором завершении конфликта на Украине после встречи с украинским лидером Владимиром Зеленским. Его слова прозвучали на совместной пресс-конференции в Белграде, куда го",
-          "url": "https://www.kommersant.ru/doc/8875555",
-          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/08/KMO_194187_00158_1_t219_150522.jpg",
-          "publishedAt": "2026-08-08T11:57:41.000Z",
+          "id": "energy-2-1786216701000",
+          "title": "Вучич пообещал Украине помощь со вступлением в Евросоюз",
+          "summary": "Президент Сербии Александр Вучич пообещал оказывать поддержку Украине для ее скорейшего вступления в Евросоюз. Об этом он заявил на совместной пресс-конференции с президентом Украины Владимиром Зеленским.",
+          "url": "https://www.kommersant.ru/doc/8875627",
+          "image": "https://iv.kommersant.ru/SocialPics/8875627_49_0_1093831848",
+          "publishedAt": "2026-08-08T19:18:21.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786189086000",
-          "title": "В Севастополе после атаки БПЛА повреждены 22 жилых дома",
-          "summary": "В результате атаки беспилотников на Севастополь повреждения получили 22 жилых дома и десять автомобилей. Об этом сообщил губернатор города Михаил Развожаев.",
-          "url": "https://www.kommersant.ru/doc/8875549",
-          "image": "https://im2.kommersant.ru/SocialPics/8875549_49_0_1195320445",
-          "publishedAt": "2026-08-08T11:38:06.000Z",
+          "id": "energy-3-1786215015000",
+          "title": "Егор Громадский стал чемпионом Европы по пятиборью",
+          "summary": "Российский спортсмен Егор Громадский завоевал золотую медаль на чемпионате Европы по современному пятиборью. Турнир проходит в Стамбуле.",
+          "url": "https://www.kommersant.ru/doc/8875626",
+          "image": "https://im2.kommersant.ru/SocialPics/8875626_49_3178771_516820898",
+          "publishedAt": "2026-08-08T18:50:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786188936000",
-          "title": "Медведев: нанесенный режимом Саакашвили урон Грузии будет чувствоваться долго",
-          "summary": "Нынешние власти Грузии проводят прагматичную политику, считает зампред Совбеза РФ Дмитрий Медведев. Однако, по его мнению, урон, нанесенный действиями экс-президента Михаила Саакашвили, будет чувствоваться еще долго.",
-          "url": "https://www.kommersant.ru/doc/8875548",
-          "image": "https://iv.kommersant.ru/SocialPics/8875548_49_0_618950036",
-          "publishedAt": "2026-08-08T11:35:36.000Z",
+          "id": "energy-4-1786213034000",
+          "title": "Турция предложила России и Украине объявить мораторий на удары в Черном море",
+          "summary": "Турция направила России и Украине предложение объявить мораторий на удары по судам в Черном море. Анкара ожидает ответа сторон.",
+          "url": "https://www.kommersant.ru/doc/8875625",
+          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/08/KMO_208518_00053_1_t219_212037.jpg",
+          "publishedAt": "2026-08-08T18:17:14.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-08T12:22:23.714Z",
+      "lastFetchAt": "2026-08-08T20:15:43.156Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-08T14:21:39.672Z",
+      "lastFetchAt": "2026-08-08T20:15:46.461Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-08T14:21:41.655Z",
+      "lastFetchAt": "2026-08-08T20:15:47.617Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -879,7 +879,7 @@
           "title": "У берегов Сицилии обнаружили затонувшее античное судно с сотнями амфор",
           "summary": "Итальянские карабинеры совместно с Управлением морского культурного наследия Сицилии нашли у побережья Мадзара-дель-Валло затонувшее древнеримское судно с сотнями амфор. Обнаружение произошло на глубине 46 м, примерно в ",
           "url": "https://www.kommersant.ru/doc/8875576",
-          "image": "https://im2.kommersant.ru/SocialPics/8875576_49_0_461760337",
+          "image": "https://im2.kommersant.ru/SocialPics/8875576_49_3178767_461760337",
           "publishedAt": "2026-08-08T13:36:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -903,7 +903,7 @@
           "title": "Сборы «Одиссеи» в мировом прокате превысили $1 млрд",
           "summary": "Кассовые сборы «Одиссеи» Кристофера Нолана превысили $1 млрд в мировом прокате спустя три недели после выхода фильма. Об этом сообщила The Variety.",
           "url": "https://www.kommersant.ru/doc/8875180",
-          "image": "https://iv.kommersant.ru/SocialPics/8875180_49_0_1501223723",
+          "image": "https://im2.kommersant.ru/SocialPics/8875180_49_0_1501223723",
           "publishedAt": "2026-08-07T19:58:19.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -915,7 +915,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
           "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
           "url": "https://www.kommersant.ru/doc/8875048",
-          "image": "https://im2.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
+          "image": "https://iv.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
           "publishedAt": "2026-08-07T16:06:48.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-08T12:22:25.429Z",
+      "lastFetchAt": "2026-08-08T20:15:44.353Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1365,7 +1365,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1786186080000",
+          "id": "automotive-0-1786204860000",
+          "title": "Названы наиболее вероятные авторы голов «Зенита» в матче с «Родиной»",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/08/nazvany-naibolee-veroyatnye-avtory-golov-zenita-v-matche-s-rodinoy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/08/18/20260808185034735/pic_4214b8b323c2cb46e5be41aeff3f826e.jpg",
+          "publishedAt": "2026-08-08T16:01:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1786186080000",
           "title": "Назван самый вероятный автор гола за «Локомотив» в матче с «Акроном»",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/08/nazvan-samyy-veroyatnyy-avtor-gola-za-lokomotiv-v-matche-s-akronom/",
@@ -1377,7 +1389,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1786166700000",
+          "id": "automotive-2-1786166700000",
           "title": "Пожилая женщина въехала на машине в детский сад в США",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/08/pozhilaya-zhenschina-v-ehala-na-mashine-v-detskiy-sad-v-ssha/",
@@ -1389,7 +1401,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1786165211000",
+          "id": "automotive-3-1786165211000",
           "title": "В Госдуме возмутились разницей цен на автомобили «АвтоВАЗа» в России и за границей",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/08/v-gosdume-vozmutilis-raznitsey-tsen-na-avtomobili-avtovaza-v-rossii-i-za-granitsey/",
@@ -1401,24 +1413,12 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1786164540000",
+          "id": "automotive-4-1786164540000",
           "title": "Суд оставил под арестом один роскошный автомобиль блогера Лерчек",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/08/sud-ostavil-pod-arestom-odin-roskoshnyy-avtomobil-blogera-lerchek/",
           "image": "https://icdn.lenta.ru/images/2026/08/08/07/20260808075046696/pic_c944d08b55090b0a1f67fbcbc37ee9d5.jpg",
           "publishedAt": "2026-08-08T04:49:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1786140720000",
-          "title": "Мать украинского военного избили и выгнали из автобуса за русский язык",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/mat-ukrainskogo-voennogo-izbili-i-vygnali-iz-avtobusa-za-russkiy-yazyk/",
-          "image": "https://icdn.lenta.ru/images/2026/08/08/01/20260808011135896/pic_c5dc4e23880f6eea959969004c4cedd7.jpg",
-          "publishedAt": "2026-08-07T22:12:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "automotive",
           "categoryName": "Авто",
