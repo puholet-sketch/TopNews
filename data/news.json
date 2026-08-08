@@ -1,18 +1,9 @@
 {
-  "updatedAt": "2026-08-08T03:15:35.160Z",
+  "updatedAt": "2026-08-08T04:45:01.907Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -22,12 +13,21 @@
     "space",
     "automotive",
     "gaming",
-    "entertainment",
-    "law"
+    "entertainment"
+  ],
+  "skippedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "politics",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-08T00:43:52.314Z",
+      "lastFetchAt": "2026-08-08T04:44:42.045Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786146516000",
+          "id": "it-0-1786154446000",
+          "title": "Событийная сингулярность как философская модель факта и возможного",
+          "summary": "Обычно событие представляют линейно, нечто произошло, вызвало определённые последствия и стало частью прошлого. Подобное описание позволяет установить хронологическую последовательность, но не раскрывает внутреннюю струк",
+          "url": "https://habr.com/ru/articles/1065800/?utm_campaign=1065800&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/38c/adb/381/38cadb381518141556294141c64ecdc6.png",
+          "publishedAt": "2026-08-08T02:00:46.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786146516000",
           "title": "EvertyDesk: я отдаю то, на что ушли годы",
           "summary": "Меня зовут Артур Валиев. Я открыл исходники EvertyDesk Lite — и заодно EvertyDesk Next, то, что должно было стать следующей версией. Полностью. Без купюр. Читать далее",
           "url": "https://habr.com/ru/articles/1068100/?utm_campaign=1068100&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786131197000",
+          "id": "it-2-1786131197000",
           "title": "Кольца на срезе или сколько лет программисту?",
           "summary": "Возраст дерева можно определить по количеству колец на срезе дерева. Сколько колец столько и лет. А как определить “профессиональный возраст” программиста ? Читать далее",
           "url": "https://habr.com/ru/articles/1066816/?utm_campaign=1066816&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786116441000",
+          "id": "it-3-1786116441000",
           "title": "ИИ-агенты заговорили на языке OpenTelemetry: два сигнала от MCP и Otel",
           "summary": "Вызов инструмента ИИ-агентом легко теряется между моделью, MCP-клиентом, сервером и внешним API. В конце июля сразу два события показали, каким способом индустрия собирается решать эту проблему. Новая спецификация MCP за",
           "url": "https://habr.com/ru/companies/proto/articles/1068040/?utm_campaign=1068040&utm_source=habrahabr&utm_medium=rss",
@@ -71,7 +83,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786112220000",
+          "id": "it-4-1786112220000",
           "title": "Agentic AI: стек агентного инженера",
           "summary": "Этот материал навеян типичными требованиями к агентным Python-инженерам - теми списками требований к вакансии, где рядом стоят всякие PydanticAI/CrewAI/Langraph, MCP/A2A, фреймворки, оценки, векторные базы и тому подобно",
           "url": "https://habr.com/ru/articles/1068024/?utm_campaign=1068024&utm_source=habrahabr&utm_medium=rss",
@@ -81,23 +93,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786108644000",
-          "title": "C++-техрадар: что разработчики действительно готовы брать в работу",
-          "summary": "В мае на конференциях C++ Russia и HolyJS мы предложили участникам оценить технологии, инструменты и инженерные практики, с которыми они работают или за которыми следят. Так появились данные для двух технических радаров:",
-          "url": "https://habr.com/ru/companies/kaspersky/articles/1067982/?utm_campaign=1067982&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0dd/78b/1fb/0dd78b1fb08d8117a5e32e9d2fae8e63.jpg",
-          "publishedAt": "2026-08-07T13:17:24.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-07T22:23:00.911Z",
+      "lastFetchAt": "2026-08-08T04:44:43.213Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1786133673000",
+          "id": "ai-0-1786154446000",
+          "title": "Событийная сингулярность как философская модель факта и возможного",
+          "summary": "Обычно событие представляют линейно, нечто произошло, вызвало определённые последствия и стало частью прошлого. Подобное описание позволяет установить хронологическую последовательность, но не раскрывает внутреннюю струк",
+          "url": "https://habr.com/ru/articles/1065800/?utm_campaign=1065800&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/38c/adb/381/38cadb381518141556294141c64ecdc6.png",
+          "publishedAt": "2026-08-08T02:00:46.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1786133673000",
           "title": "Открытая модель сбежала из песочницы на тестах. Поставить ее на паузу уже невозможно",
           "summary": "Американская компания Frontier Security рассказала, что Kimi K3 — флагманская открытая модель китайской Moonshot AI — сбежала из изолированной песочницы во время теста навыков киберзащиты. Вместо того чтобы решать выданн",
           "url": "https://habr.com/ru/articles/1068090/?utm_campaign=1068090&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +129,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1786121644000",
+          "id": "ai-2-1786121644000",
           "title": "Использую нейронку как компилятор",
           "summary": "Довайте соберем полный конвеер компиляции от исходного кода до готового бинарника из AI-моделей (нет, не соберем) соберем",
           "url": "https://habr.com/ru/articles/1068062/?utm_campaign=1068062&utm_source=habrahabr&utm_medium=rss",
@@ -129,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1786120976000",
+          "id": "ai-3-1786120976000",
           "title": "От Excel до нейросетей: как ИИ меняет планирование производства и когда ждать автономии",
           "summary": "Excel-таблицы, интуиция опытного диспетчера и авральные совещания по пятницам. Знакомая картина для любого производственного предприятия? Вопрос о переходе к автономному планированию сегодня звучит уже не как «когда-нибу",
           "url": "https://habr.com/ru/articles/1068058/?utm_campaign=1068058&utm_source=habrahabr&utm_medium=rss",
@@ -141,24 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1786119619000",
+          "id": "ai-4-1786119619000",
           "title": "AI и склонение немецких прилагательных",
           "summary": "Всю свою сознательную жизнь я «учил» немецкий: в школе, универе, на внутренних курсах IT-компании и самостоятельно. Слово «учил» я поставил в кавычки, потому что на самом деле я ничего никогда нигде не учил, ну разве что",
           "url": "https://habr.com/ru/articles/1068054/?utm_campaign=1068054&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/f98/eec/a95/f98eeca9504b56c7b4165b944264a7ea.png",
           "publishedAt": "2026-08-07T16:20:19.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1786117154000",
-          "title": "Жители Валдории живут 147 лет, а страна граничит с Германией и Японией одновременно. Исследование MiroFish. Часть 2",
-          "summary": "Вторая статья из трёх об исследовании MiroFish, открытого стека мультиагентной симуляции общества. В первой части изложены методология исследования и находка Silent Failure. В этой части: досье вымышленной страны с восем",
-          "url": "https://habr.com/ru/articles/1067384/?utm_campaign=1067384&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/45d/24d/409/45d24d409ce0efb3c86e1d703de563ac.jpg",
-          "publishedAt": "2026-08-07T15:39:14.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-08T00:43:58.456Z",
+      "lastFetchAt": "2026-08-08T04:44:46.054Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -315,19 +315,7 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1786096905000",
-          "title": "Max откроет доступ к API для создания альтернативных клиентов мессенджера",
-          "summary": "Летом 2026 года приложения Max пропали из App Store и Google Play.",
-          "url": "https://vc.ru/services/3067365-max-otkroet-dostup-k-api-dlya-sozdaniya-klientov-messendzhera?from=rss",
-          "image": "https://leonardo.osnova.io/ed687e9b-f1e3-5347-bbe5-b6429d90f9a4/",
-          "publishedAt": "2026-08-07T10:01:45.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-1-1786114091000",
+          "id": "startups-0-1786114091000",
           "title": "Netflix установил в Голливуде билборд с «комнатой» и на время «запер» там живого актёра — к выходу фильма «Последний дом»",
           "summary": "Он общается с прохожими с помощью табличек и ест хлопья на подоконнике.",
           "url": "https://vc.ru/marketing/3067839-netflix-bilbord-aktjor-v-gollivude-film-poslednij-dom?from=rss",
@@ -339,24 +327,36 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786094998000",
-          "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
-          "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
-          "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786149838/cover.jpg",
-          "publishedAt": "2026-08-07T09:29:58.000Z",
+          "id": "startups-1-1786096905000",
+          "title": "Max откроет доступ к API для создания альтернативных клиентов мессенджера",
+          "summary": "Летом 2026 года приложения Max пропали из App Store и Google Play.",
+          "url": "https://vc.ru/services/3067365-max-otkroet-dostup-k-api-dlya-sozdaniya-klientov-messendzhera?from=rss",
+          "image": "https://leonardo.osnova.io/ed687e9b-f1e3-5347-bbe5-b6429d90f9a4/",
+          "publishedAt": "2026-08-07T10:01:45.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786078961000",
+          "id": "startups-2-1786078961000",
           "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
           "summary": "Сотрудников эвакуировали.",
           "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786149838/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786164285/cover.jpg",
           "publishedAt": "2026-08-07T05:02:41.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1786094998000",
+          "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
+          "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
+          "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786164285/cover.jpg",
+          "publishedAt": "2026-08-07T09:29:58.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -367,7 +367,7 @@
           "title": "Wildberries протестирует партнёрские хабы для хранения товаров — их могут открыть владельцы и арендаторы подходящих помещений",
           "summary": "В рамках мер поддержки продавцов и владельцев ПВЗ.",
           "url": "https://vc.ru/marketplace/3067542-wildberries-testiruet-partnerskie-haby-dlya-hraneniya-tovarov?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067542/1786149838/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067542/1786164285/cover.jpg",
           "publishedAt": "2026-08-07T10:51:38.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-07T22:23:03.551Z",
+      "lastFetchAt": "2026-08-08T04:44:46.639Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-08T00:44:01.093Z",
+      "lastFetchAt": "2026-08-08T04:44:50.909Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -455,60 +455,60 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1785946380000",
-          "title": "Пациентская организация попросила включить трастузумаб дерукстекан в ЖНВЛП",
-          "summary": "«Ореол Жизни» попросил комиссию Минздрава включить трастузумаб дерукстекан в ЖНВЛП. Решение по вопросу пока не принято. Сообщение Пациентская организация попросила включить трастузумаб дерукстекан в ЖНВЛП появились снача",
-          "url": "https://medrussia.org/63276-patsientskaya-organizatsiya-poprosila-vklyuchit-trastuzumab-derukstekan-v-zhnvlp/",
+          "id": "medicine-0-1786162523000",
+          "title": "В Госдуме предложили открыть кабинеты нутрициологии в детских поликлиниках",
+          "summary": "Депутаты предложили создать кабинеты медицинской нутрициологии в крупных детских поликлиниках и организовать выездные и дистанционные консультации там, где отдельный кабинет нецелесообразен. Сообщение В Госдуме предложил",
+          "url": "https://medrussia.org/63289-v-gosdume-predlozhili-otkryt-kabinety-nutritsiologii-v-detskih-poliklinikah/",
           "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T16:13:00.000Z",
+          "publishedAt": "2026-08-08T04:15:23.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1785944537000",
-          "title": "Команда «Справочника Врача» запустила канал для фарммаркетологов",
-          "summary": "Команда приложения «Справочник Врача» объявила о запуске канала «Между нами, фарма» для специалистов по фармацевтическому маркетингу. Сообщение Команда «Справочника Врача» запустила канал для фарммаркетологов появились с",
-          "url": "https://medrussia.org/63274-spravochnik-vracha-zapustil-kanal-dlya-farmmarketologov/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T15:42:17.000Z",
+          "id": "medicine-1-1786160578000",
+          "title": "Жителя Челябинска будут судить за угрозы медработникам и их незаконное удержание",
+          "summary": "В Челябинске завершили расследование дела в отношении мужчины, которого обвиняют в угрозах убийством и незаконном лишении свободы администратора и фельдшера частного медицинского центра. Материалы направлены в суд. Что, ",
+          "url": "https://medrussia.org/63287-chelyabinsk-sud-ugrozy-medrabotnikam-nezakonnoe-uderzhanie/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/chelyabinsk-medics-court-case-dbe6e0c7-b972-4994-9aed-3bfa9962fe65.jpg",
+          "publishedAt": "2026-08-08T03:42:58.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1785942742000",
-          "title": "После попадания беспилотника в больницу Донецка погибли и пострадали люди",
-          "summary": "ТАСС сообщил о погибших и раненых после попадания беспилотника в больницу Донецка. Число пострадавших не раскрывается. Сообщение После попадания беспилотника в больницу Донецка погибли и пострадали люди появились сначала",
-          "url": "https://medrussia.org/63272-posle-popadaniya-bespilotnika-v-bolnitsu-donetska-pogibli-i-postradali-lyudi/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T15:12:22.000Z",
+          "id": "medicine-2-1786158733000",
+          "title": "Суд взыскал с районной больницы 100 тысяч рублей за отказ в экстренной помощи",
+          "summary": "Суд Хабаровского края взыскал с КГБУЗ «Солнечная районная больница» 100 тысяч рублей компенсации морального вреда в пользу пациента — пенсионера и инвалида. Речь идёт об отказе в экстренной помощи. В сообщении о судебном",
+          "url": "https://medrussia.org/63284-sud-vzyskal-100-tysyach-za-otkaz-v-ekstrennoy-pomoshchi/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/solnechnaya-raionnaya-bolnitsa-illustration-3fc06f71-e049-4be0-bd01-5e1022b33c0c.jpg",
+          "publishedAt": "2026-08-08T03:12:13.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1785937328000",
-          "title": "Протоиерей Андрей Ткачев связал отказ от белых халатов с «грехами» врачей",
-          "summary": "Протоиерей Андрей Ткачев высказал мнение о цвете медицинской одежды и работе врачей; в материале отдельно отмечено, что это оценочные суждения. Сообщение Протоиерей Андрей Ткачев связал отказ от белых халатов с «грехами»",
-          "url": "https://medrussia.org/63270-tcachev-svyazal-otkaz-ot-belyh-halatov-s-grehami-vrachey/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T13:42:08.000Z",
+          "id": "medicine-3-1786156961000",
+          "title": "Врачи-ординаторы в Коммунарке будут проходить оценку по трём лигам",
+          "summary": "В ММКЦ «Коммунарка» ординаторов планируют распределять по трём лигам: высшей, первой и второй. При оценке будут учитывать успеваемость, практическую активность и участие в работе клиники. Система действует уже после пост",
+          "url": "https://medrussia.org/63282-ordinatory-kommunarka-ocenka-po-ligam/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/kommunarka-residents-training-f9270d9b-a393-47bf-8637-e44e4c859894.jpg",
+          "publishedAt": "2026-08-08T02:42:41.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-4-1785934531000",
-          "title": "Детская дорожная аптечка: какие лекарства не стоит применять без врача",
-          "summary": "Педиатр Жанна Валова рассказала о лекарствах, которые не стоит включать в детскую дорожную аптечку «на всякий случай». По её словам, при диарее, рвоте и боли в ухе важно сначала понять причину симптомов, а не выбирать пр",
-          "url": "https://medrussia.org/63266-detskaya-dorozhnaya-aptechka-lekarstva-bez-naznacheniya-vracha/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/child-travel-first-aid-kit-reportage.jpg",
-          "publishedAt": "2026-08-05T12:55:31.000Z",
+          "id": "medicine-4-1786155093000",
+          "title": "В Находке начали проверку после жалобы пациентки на отказ в экстренной помощи",
+          "summary": "Находкинская городская больница проводит служебную проверку после обращения пациентки, которая заявила, что не получила необходимую экстренную помощь и по рекомендации сотрудников приёмного отделения обратилась в частную",
+          "url": "https://medrussia.org/63280-nahodka-proverka-zhaloba-ekstrennaya-pomosch/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/nahodka-hospital-service-check-b9ab9704-60de-4703-a229-2d0ae6032f5d.jpg",
+          "publishedAt": "2026-08-08T02:11:33.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -517,7 +517,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-07T22:23:06.677Z",
+      "lastFetchAt": "2026-08-08T04:44:53.434Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -525,60 +525,60 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1785946380000",
-          "title": "Пациентская организация попросила включить трастузумаб дерукстекан в ЖНВЛП",
-          "summary": "«Ореол Жизни» попросил комиссию Минздрава включить трастузумаб дерукстекан в ЖНВЛП. Решение по вопросу пока не принято. Сообщение Пациентская организация попросила включить трастузумаб дерукстекан в ЖНВЛП появились снача",
-          "url": "https://medrussia.org/63276-patsientskaya-organizatsiya-poprosila-vklyuchit-trastuzumab-derukstekan-v-zhnvlp/",
+          "id": "health-0-1786162523000",
+          "title": "В Госдуме предложили открыть кабинеты нутрициологии в детских поликлиниках",
+          "summary": "Депутаты предложили создать кабинеты медицинской нутрициологии в крупных детских поликлиниках и организовать выездные и дистанционные консультации там, где отдельный кабинет нецелесообразен. Сообщение В Госдуме предложил",
+          "url": "https://medrussia.org/63289-v-gosdume-predlozhili-otkryt-kabinety-nutritsiologii-v-detskih-poliklinikah/",
           "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T16:13:00.000Z",
+          "publishedAt": "2026-08-08T04:15:23.000Z",
           "source": "МедРоссия",
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1785944537000",
-          "title": "Команда «Справочника Врача» запустила канал для фарммаркетологов",
-          "summary": "Команда приложения «Справочник Врача» объявила о запуске канала «Между нами, фарма» для специалистов по фармацевтическому маркетингу. Сообщение Команда «Справочника Врача» запустила канал для фарммаркетологов появились с",
-          "url": "https://medrussia.org/63274-spravochnik-vracha-zapustil-kanal-dlya-farmmarketologov/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T15:42:17.000Z",
+          "id": "health-1-1786160578000",
+          "title": "Жителя Челябинска будут судить за угрозы медработникам и их незаконное удержание",
+          "summary": "В Челябинске завершили расследование дела в отношении мужчины, которого обвиняют в угрозах убийством и незаконном лишении свободы администратора и фельдшера частного медицинского центра. Материалы направлены в суд. Что, ",
+          "url": "https://medrussia.org/63287-chelyabinsk-sud-ugrozy-medrabotnikam-nezakonnoe-uderzhanie/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/chelyabinsk-medics-court-case-dbe6e0c7-b972-4994-9aed-3bfa9962fe65.jpg",
+          "publishedAt": "2026-08-08T03:42:58.000Z",
           "source": "МедРоссия",
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
         },
         {
-          "id": "health-2-1785942742000",
-          "title": "После попадания беспилотника в больницу Донецка погибли и пострадали люди",
-          "summary": "ТАСС сообщил о погибших и раненых после попадания беспилотника в больницу Донецка. Число пострадавших не раскрывается. Сообщение После попадания беспилотника в больницу Донецка погибли и пострадали люди появились сначала",
-          "url": "https://medrussia.org/63272-posle-popadaniya-bespilotnika-v-bolnitsu-donetska-pogibli-i-postradali-lyudi/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T15:12:22.000Z",
+          "id": "health-2-1786158733000",
+          "title": "Суд взыскал с районной больницы 100 тысяч рублей за отказ в экстренной помощи",
+          "summary": "Суд Хабаровского края взыскал с КГБУЗ «Солнечная районная больница» 100 тысяч рублей компенсации морального вреда в пользу пациента — пенсионера и инвалида. Речь идёт об отказе в экстренной помощи. В сообщении о судебном",
+          "url": "https://medrussia.org/63284-sud-vzyskal-100-tysyach-za-otkaz-v-ekstrennoy-pomoshchi/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/solnechnaya-raionnaya-bolnitsa-illustration-3fc06f71-e049-4be0-bd01-5e1022b33c0c.jpg",
+          "publishedAt": "2026-08-08T03:12:13.000Z",
           "source": "МедРоссия",
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
         },
         {
-          "id": "health-3-1785937328000",
-          "title": "Протоиерей Андрей Ткачев связал отказ от белых халатов с «грехами» врачей",
-          "summary": "Протоиерей Андрей Ткачев высказал мнение о цвете медицинской одежды и работе врачей; в материале отдельно отмечено, что это оценочные суждения. Сообщение Протоиерей Андрей Ткачев связал отказ от белых халатов с «грехами»",
-          "url": "https://medrussia.org/63270-tcachev-svyazal-otkaz-ot-belyh-halatov-s-grehami-vrachey/",
-          "image": "https://medrussia.org/wp-content/uploads/2019/01/f7fc28087cc4378d6997e2ec431711d6.jpg",
-          "publishedAt": "2026-08-05T13:42:08.000Z",
+          "id": "health-3-1786156961000",
+          "title": "Врачи-ординаторы в Коммунарке будут проходить оценку по трём лигам",
+          "summary": "В ММКЦ «Коммунарка» ординаторов планируют распределять по трём лигам: высшей, первой и второй. При оценке будут учитывать успеваемость, практическую активность и участие в работе клиники. Система действует уже после пост",
+          "url": "https://medrussia.org/63282-ordinatory-kommunarka-ocenka-po-ligam/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/kommunarka-residents-training-f9270d9b-a393-47bf-8637-e44e4c859894.jpg",
+          "publishedAt": "2026-08-08T02:42:41.000Z",
           "source": "МедРоссия",
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
         },
         {
-          "id": "health-4-1785934531000",
-          "title": "Детская дорожная аптечка: какие лекарства не стоит применять без врача",
-          "summary": "Педиатр Жанна Валова рассказала о лекарствах, которые не стоит включать в детскую дорожную аптечку «на всякий случай». По её словам, при диарее, рвоте и боли в ухе важно сначала понять причину симптомов, а не выбирать пр",
-          "url": "https://medrussia.org/63266-detskaya-dorozhnaya-aptechka-lekarstva-bez-naznacheniya-vracha/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/child-travel-first-aid-kit-reportage.jpg",
-          "publishedAt": "2026-08-05T12:55:31.000Z",
+          "id": "health-4-1786155093000",
+          "title": "В Находке начали проверку после жалобы пациентки на отказ в экстренной помощи",
+          "summary": "Находкинская городская больница проводит служебную проверку после обращения пациентки, которая заявила, что не получила необходимую экстренную помощь и по рекомендации сотрудников приёмного отделения обратилась в частную",
+          "url": "https://medrussia.org/63280-nahodka-proverka-zhaloba-ekstrennaya-pomosch/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/nahodka-hospital-service-check-b9ab9704-60de-4703-a229-2d0ae6032f5d.jpg",
+          "publishedAt": "2026-08-08T02:11:33.000Z",
           "source": "МедРоссия",
           "categoryId": "health",
           "categoryName": "Здоровье",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-08T00:44:01.444Z",
+      "lastFetchAt": "2026-08-08T04:44:53.956Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +657,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-07T22:23:10.910Z",
+      "lastFetchAt": "2026-08-08T04:44:57.580Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +665,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786139555000",
-          "title": "Экс-президент Финляндии предложил Евросоюзу обсудить с Россией две темы",
-          "summary": "Экс-президент Финляндии Саули Ниинистё призвал страны Евросоюза вступить в диалог с Россией. Он считает, что стороны должны обсудить две важные темы: архитектуру безопасности в Европе и то, как стороны будут уживаться др",
-          "url": "https://www.kommersant.ru/doc/8875413",
-          "image": "https://iv.kommersant.ru/SocialPics/8875413_49_0_285846315",
-          "publishedAt": "2026-08-07T21:52:35.000Z",
+          "id": "energy-0-1786163147000",
+          "title": "В России ночью сбили 397 беспилотников",
+          "summary": "Российские силы ПВО сбили за ночь 397 украинских беспилотников. Дроны перехватывали над российскими регионами и над Азовским морем, сообщили в Минобороны России.",
+          "url": "https://www.kommersant.ru/doc/8875436",
+          "image": "https://im2.kommersant.ru/SocialPics/8875436_49_0_301974262",
+          "publishedAt": "2026-08-08T04:25:47.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786138843000",
-          "title": "Любовница Джанни Инфантино получила от UEFA шестизначную сумму",
-          "summary": "Союз европейских футбольных ассоциаций (UEFA) в прошлом десятилетии выплатил шестизначную сумму сотруднице, которая являлась любовницей Джанни Инфантино, ныне занимающего пост президента Международной федерации футбола (",
-          "url": "https://www.kommersant.ru/doc/8875412",
-          "image": "https://iv.kommersant.ru/SocialPics/8875412_49_0_50668844",
-          "publishedAt": "2026-08-07T21:40:43.000Z",
+          "id": "energy-1-1786162571000",
+          "title": "На Ильском НПЗ произошел пожар из-за атаки БПЛА",
+          "summary": "Из-за падения обломков БПЛА на Ильском нефтеперерабатывающем заводе (НПЗ) произошел пожар. Об этом сообщили в оперативном штабе Краснодарского края.",
+          "url": "https://www.kommersant.ru/doc/8875435",
+          "image": "https://im2.kommersant.ru/SocialPics/8875435_49_0_1320001193",
+          "publishedAt": "2026-08-08T04:16:11.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786137007000",
-          "title": "Лукашенко рассказал про выгоду от безвизового режима с ЕС",
-          "summary": "Президент Белоруссии Александр Лукашенко во время своей рабочей поездки в Минскую область рассказал, зачем власти страны продолжают продлевать безвизовый режим для граждан стран ЕС. Стране это выгодно, сказал президент.",
-          "url": "https://www.kommersant.ru/doc/8875408",
-          "image": "https://im2.kommersant.ru/SocialPics/8875408_49_0_1671832733",
-          "publishedAt": "2026-08-07T21:10:07.000Z",
+          "id": "energy-2-1786162178000",
+          "title": "Рядом с Москвой сбили три беспилотника",
+          "summary": "Силы ПВО сбили три беспилотника, которые летели на Москву. Об этом сообщил мэр столицы Сергей Собянин в Telegram.",
+          "url": "https://www.kommersant.ru/doc/8875434",
+          "image": "https://im2.kommersant.ru/SocialPics/8875434_49_0_1114010475",
+          "publishedAt": "2026-08-08T04:09:38.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786136490000",
-          "title": "Верховный суд и ГИБДД выступили против наказания за магнитное крепление номеров",
-          "summary": "Нельзя лишать прав водителей, использующих магнитные крепления автомобильного номера,— соответствующее разъяснение Верховный суд (ВС) направит нижестоящим судебным инстанциям. Некоторые региональные суды и прокуратуры сч",
-          "url": "https://www.kommersant.ru/doc/8875161",
-          "image": "https://iv.kommersant.ru/SocialPics/8875161_49_0_1060449736",
-          "publishedAt": "2026-08-07T21:01:30.000Z",
+          "id": "energy-3-1786161930000",
+          "title": "Главные новости к утру 8 августа",
+          "summary": "Украина обязалась не наносить удары по инфраструктуре Каспийского трубопроводного консорциума, сообщило Bloomberg. В испанских в портах и аэропортах ввели выборочный контроль путешественников из Италии.",
+          "url": "https://www.kommersant.ru/doc/8875432",
+          "image": "https://iv.kommersant.ru/SocialPics/8875432_49_0_1870279640",
+          "publishedAt": "2026-08-08T04:05:30.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786134915000",
-          "title": "Минтруд предложил новые пенсионные льготы для семей погибших бойцов ЧВК",
-          "summary": "Минтруд предложил выплачивать по две пенсии — личную и по потере кормильца — нетрудоспособным родным погибших на СВО бойцов ЧВК, спецподразделений и ополчения Донбасса. Законопроект опубликован на портале проектов нормат",
-          "url": "https://www.kommersant.ru/doc/8875182",
-          "image": "https://iv.kommersant.ru/SocialPics/8875182_49_0_1576785167",
-          "publishedAt": "2026-08-07T20:35:15.000Z",
+          "id": "energy-4-1786160976000",
+          "title": "Беспилотики атаковали промышленное предприятие в Самарской области",
+          "summary": "Одно из промышленных предприятий в Самарской области было атаковано с помощью беспилотников, сообщил губернатор Вячеслав Федорищев. Какое именно предприятие и где оно находится, глава региона не уточнил.",
+          "url": "https://www.kommersant.ru/doc/8875427",
+          "image": "https://im2.kommersant.ru/SocialPics/8875427_49_0_802383102",
+          "publishedAt": "2026-08-08T03:49:36.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +727,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-07T22:23:12.010Z",
+      "lastFetchAt": "2026-08-08T04:44:58.522Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-08T00:44:03.750Z",
+      "lastFetchAt": "2026-08-08T04:45:00.809Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-08T00:44:06.919Z",
+      "lastFetchAt": "2026-08-08T04:45:01.906Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -927,7 +927,7 @@
           "title": "Голоса ушли в печать // Издана первая биография группы «Альянс»",
           "summary": "Вышла книга Дениса Ступникова «Альянс. Авторизованная биография» — история одной из самых влиятельных и многогранных групп отечественной рок-сцены. С произведением ознакомился Игорь Гаврилов.",
           "url": "https://www.kommersant.ru/doc/8874947",
-          "image": "https://iv.kommersant.ru/SocialPics/8874947_49_3178193_405748280",
+          "image": "https://im2.kommersant.ru/SocialPics/8874947_49_3178193_405748280",
           "publishedAt": "2026-08-07T12:40:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1357,7 +1357,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-07T22:23:13.585Z",
+      "lastFetchAt": "2026-08-08T04:44:59.722Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
