@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-08-08T12:22:35.445Z",
+  "updatedAt": "2026-08-08T14:21:46.259Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "cybersecurity",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
+    "law"
+  ],
+  "skippedNow": [
     "ai",
     "business",
     "science",
@@ -15,19 +25,9 @@
     "realestate",
     "travel"
   ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "law"
-  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-08T10:19:24.264Z",
+      "lastFetchAt": "2026-08-08T14:21:29.077Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786175868000",
+          "id": "it-0-1786191339000",
+          "title": "Побеждаем OOM в PyTorch: как обучать гигантские графы на обычной видеокарте",
+          "summary": "При обучении графных нейросетей и гигантских эмбеддингов на миллионы узлов стандартный torch.optim.SparseAdam в PyTorch моментально забивает RAM и VRAM, вызывая ошибку CUDA out of memory (OOM). В этой статье разбираем, к",
+          "url": "https://habr.com/ru/articles/1068202/?utm_campaign=1068202&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/601/0b0/e4b/6010b0e4b738f61262a907dcccfb071c.png",
+          "publishedAt": "2026-08-08T12:15:39.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786185978000",
+          "title": "[Перевод] Победить Hibernate в тестах. Возможно?",
+          "summary": "Победить Hibernate в тестах. Сможем? Всем, привет! На связи Михаил Поливаха, технический лидер Open Source проекта Axelix (проект, посвященный помочь вам идентифицировать частые проблемы в Java server-side приложениях, в",
+          "url": "https://habr.com/ru/companies/spring_aio/articles/1068176/?utm_campaign=1068176&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/db9/a98/561/db9a985613e4dd7eaa56d917bd4ff71a.png",
+          "publishedAt": "2026-08-08T10:46:18.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786175868000",
           "title": "Записки нейроманта #0 — Claude Code вчера получил лучшее обновление года",
           "summary": "У меня всегда крутится несколько Claude Code. Вчера заметил странное: два агента, работавшие над одной проблемой, сами обменялись сообщениями через сокет uds:/tmp/cc-socks/769334.sock. Раньше такого не было. Оказалось, в",
           "url": "https://habr.com/ru/articles/1068106/?utm_campaign=1068106&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786171261000",
+          "id": "it-3-1786171261000",
           "title": "Не отдавайте ИИ то, что должны придумать сами",
           "summary": "«Планируйте задачу с достаточным контекстом» — совет, который есть в каждой статье про агентов. Я споткнулся об одно слово: достаточным — это сколько? Пока я не ответил на этот вопрос, любые фоновые агенты выдавали мне у",
           "url": "https://habr.com/ru/articles/1068120/?utm_campaign=1068120&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786154446000",
+          "id": "it-4-1786154446000",
           "title": "Событийная сингулярность как философская модель факта и возможного",
           "summary": "Обычно событие представляют линейно, нечто произошло, вызвало определённые последствия и стало частью прошлого. Подобное описание позволяет установить хронологическую последовательность, но не раскрывает внутреннюю струк",
           "url": "https://habr.com/ru/articles/1065800/?utm_campaign=1065800&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/38c/adb/381/38cadb381518141556294141c64ecdc6.png",
           "publishedAt": "2026-08-08T02:00:46.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786146516000",
-          "title": "EvertyDesk: я отдаю то, на что ушли годы",
-          "summary": "Меня зовут Артур Валиев. Я открыл исходники EvertyDesk Lite — и заодно EvertyDesk Next, то, что должно было стать следующей версией. Полностью. Без купюр. Читать далее",
-          "url": "https://habr.com/ru/articles/1068100/?utm_campaign=1068100&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/4d8/104/6d1/4d81046d13a0420a077865c18c1a0178.png",
-          "publishedAt": "2026-08-07T23:48:36.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786131197000",
-          "title": "Кольца на срезе или сколько лет программисту?",
-          "summary": "Возраст дерева можно определить по количеству колец на срезе дерева. Сколько колец столько и лет. А как определить “профессиональный возраст” программиста ? Читать далее",
-          "url": "https://habr.com/ru/articles/1066816/?utm_campaign=1066816&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2fb/fed/a01/2fbfeda0136d10872c61e3cab4891d4c.webp",
-          "publishedAt": "2026-08-07T19:33:17.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -167,7 +167,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-08T00:43:55.321Z",
+      "lastFetchAt": "2026-08-08T14:21:30.814Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -175,60 +175,60 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1786118469000",
-          "title": "NEOMSA APIM 4.6.0, платформа управления API: как мы устранили уязвимости Critical и High из БДУ ФСТЭК",
-          "summary": "Мы выпустили NEOMSA APIM 4.6.0. Основной фокус этого релиза — повышение безопасности состава поставки платформы. В рамках процессов безопасной разработки (SSDLC) мы сформировали SBOM, проверили компоненты и их зависимост",
-          "url": "https://habr.com/ru/companies/neoflex/articles/1067482/?utm_campaign=1067482&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a56/e6a/85c/a56e6a85c26a72ec1ba98185a672a81e.jpg",
-          "publishedAt": "2026-08-07T16:01:09.000Z",
+          "id": "cybersecurity-0-1786191781000",
+          "title": "Как я настроил безопасное шифрование данных для сайта с помощью протокола HTTPS и SSL/TLS сертификата",
+          "summary": "Представим что у вас есть свой сайт запущенный на VPS на голом HTTP, также вы уже купили домен и связали его со своим IP-адресом. Но спустя время вы решили, что не хотите, чтоб весь трафик между клиентами и сервером был ",
+          "url": "https://habr.com/ru/articles/1068204/?utm_campaign=1068204&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/345/57d/e7b/34557de7b8a07147c6755dffd6a30f49.png",
+          "publishedAt": "2026-08-08T12:23:01.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1786110650000",
-          "title": "Загрузил не тот файл в нейросеть — уволен. Как устроена безопасность данных в ИИ",
-          "summary": "Договор с клиентом, фрагмент кода, медицинская карта — отважные пользователи нейросетей каждый день загружают данные, которые никогда бы не отправили незнакомому человеку. При этом мало кто понимает, куда физически они п",
-          "url": "https://habr.com/ru/companies/ratingruneta/articles/1068006/?utm_campaign=1068006&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2e8/6a1/a70/2e86a1a70e4834fa6eba5cb684a114d7.png",
-          "publishedAt": "2026-08-07T13:50:50.000Z",
+          "id": "cybersecurity-1-1786190473000",
+          "title": "Как злоумышленник за несколько шагов перехватит ваши данные",
+          "summary": "Привет, Хабр. Статья является напоминанием как уязвимы ваши личные данные при несоблюдении базовых правил цифровой гигиены. Материал создан исключительно в учебных целях, для специалистов по информационной безопасности и",
+          "url": "https://habr.com/ru/articles/1068198/?utm_campaign=1068198&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/251/33a/7cb/25133a7cb2248c0b748ba29020b8e2a6.jpeg",
+          "publishedAt": "2026-08-08T12:01:13.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1786110427000",
-          "title": "Пайплайн увольнения отработал без сбоев. Приказу Роскомнадзора всё равно нужен человек с фамилией",
-          "summary": "Разбираю тот же сценарий увольнения, который в прошлый раз хвалил за гейтинг и идемпотентность - но теперь прикладываю к нему приказ Роскомнадзора № 179 про подтверждение уничтожения персональных данных. Из пяти обязател",
-          "url": "https://habr.com/ru/articles/1068004/?utm_campaign=1068004&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/5a8/c17/dc0/5a8c17dc0d492f10a31f7249c44e2eb4.png",
-          "publishedAt": "2026-08-07T13:47:07.000Z",
+          "id": "cybersecurity-2-1786178828000",
+          "title": "«Bro, what…?» #1. Первый контакт с crackme на Linux x86-64",
+          "summary": "Вы запускаете программу, о которой ничего не знаете. Она вежливо просит строку, а в ответ на ваш ввод насмешливо отвечает: «Bro, what are you trying to do?» И правда, что мы пытаемся сделать? Пытаемся понять ее. Перед на",
+          "url": "https://habr.com/ru/articles/1068160/?utm_campaign=1068160&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/ff4/0ae/279/ff40ae2799b80224a265528b70aa73bc.png",
+          "publishedAt": "2026-08-08T08:47:08.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-3-1786110078000",
-          "title": "У нас есть для вас пакет! Как LLM придумывают несуществующие зависимости",
-          "summary": "Что произойдет, если большая языковая модель (LLM) добавит в код пакет, которого никогда не существовало? Разработчик может принять рекомендацию за корректную, а злоумышленник – опубликовать под придуманным именем вредон",
-          "url": "https://habr.com/ru/companies/codescoring/articles/1068000/?utm_campaign=1068000&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/d73/bac/b5d/d73bacb5d9161159a681c4d90f453bf0.png",
-          "publishedAt": "2026-08-07T13:41:18.000Z",
+          "id": "cybersecurity-3-1786176010000",
+          "title": "RCE-уязвимость в ИИ-редакторах кода угрожала 50 млн разработчиков. Разбираемся, что произошло",
+          "summary": "Исследователи AISLE обнаружили критическую уязвимость, которая затрагивает Cursor, Microsoft Visual Studio Code и Google Antigravity. Проблема позволяла злоумышленнику добиться удаленного выполнения кода (RCE), если разр",
+          "url": "https://habr.com/ru/companies/selectel/articles/1067406/?utm_campaign=1067406&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/836/217/a94/836217a94304ea0d4db1f0e6941c9dcd.jpg",
+          "publishedAt": "2026-08-08T08:00:10.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-4-1786107714000",
-          "title": "«Как за вами (не) следит Яндекс»: что на самом деле происходит внутри Android-приложений",
-          "summary": "На днях на Хабре вышла статья с разбором Яндекс Браузера и приложения Яндекс для Android. Автор сделал несколько выводов о работе приложений на основе анализа кода. Часть наблюдений в статье действительно описывает сущес",
-          "url": "https://habr.com/ru/companies/yandex/articles/1067964/?utm_campaign=1067964&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1067964/89de118b3445d553f633fb863af3d102/",
-          "publishedAt": "2026-08-07T13:01:54.000Z",
+          "id": "cybersecurity-4-1786176010000",
+          "title": "Что видит DPI, и что мы попробовали у него отобрать",
+          "summary": "Последние пару лет я работаю в команде, которая занимается устойчивой к DPI (Deep Packet Inspection) туннельной инфраструктурой — по сути, альтернативой классическому VPN. Когда начинаешь заниматься этим всерьёз, довольн",
+          "url": "https://habr.com/ru/articles/1068156/?utm_campaign=1068156&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dbf/94e/66c/dbf94e66cc2f1776134e4bfbcf449a43.png",
+          "publishedAt": "2026-08-08T08:00:10.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-08T10:19:30.330Z",
+      "lastFetchAt": "2026-08-08T14:21:33.483Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -355,7 +355,7 @@
           "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
           "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
           "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786184369/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786198893/cover.jpg",
           "publishedAt": "2026-08-07T09:29:58.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -367,7 +367,7 @@
           "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
           "summary": "Сотрудников эвакуировали.",
           "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786184369/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786198893/cover.jpg",
           "publishedAt": "2026-08-07T05:02:41.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-08T10:19:33.813Z",
+      "lastFetchAt": "2026-08-08T14:21:36.862Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-08T10:19:34.707Z",
+      "lastFetchAt": "2026-08-08T14:21:37.774Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-08T10:19:37.159Z",
+      "lastFetchAt": "2026-08-08T14:21:39.672Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-08T10:19:40.513Z",
+      "lastFetchAt": "2026-08-08T14:21:41.655Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,11 +875,35 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786132699000",
+          "id": "entertainment-0-1786196204000",
+          "title": "У берегов Сицилии обнаружили затонувшее античное судно с сотнями амфор",
+          "summary": "Итальянские карабинеры совместно с Управлением морского культурного наследия Сицилии нашли у побережья Мадзара-дель-Валло затонувшее древнеримское судно с сотнями амфор. Обнаружение произошло на глубине 46 м, примерно в ",
+          "url": "https://www.kommersant.ru/doc/8875576",
+          "image": "https://im2.kommersant.ru/SocialPics/8875576_49_0_461760337",
+          "publishedAt": "2026-08-08T13:36:44.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786186800000",
+          "title": "В поисках утраченной веры // Уникальные церкви России и кто их сохраняет",
+          "summary": "В начале августа в ярославском селе Курба во второй раз прошел фестиваль «А Курба будет жить!» — вокруг единственного в мире 16-лепесткового Казанского храма, который десять лет возрождает фонд «Белый Ирис». Древних и не",
+          "url": "https://www.kommersant.ru/doc/8864372",
+          "image": "https://iv.kommersant.ru/SocialPics/8864372_49_3178148_1400400419",
+          "publishedAt": "2026-08-08T11:00:00.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1786132699000",
           "title": "Сборы «Одиссеи» в мировом прокате превысили $1 млрд",
           "summary": "Кассовые сборы «Одиссеи» Кристофера Нолана превысили $1 млрд в мировом прокате спустя три недели после выхода фильма. Об этом сообщила The Variety.",
           "url": "https://www.kommersant.ru/doc/8875180",
-          "image": "https://im2.kommersant.ru/SocialPics/8875180_49_0_1501223723",
+          "image": "https://iv.kommersant.ru/SocialPics/8875180_49_0_1501223723",
           "publishedAt": "2026-08-07T19:58:19.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -887,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786118808000",
+          "id": "entertainment-3-1786118808000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
           "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
           "url": "https://www.kommersant.ru/doc/8875048",
@@ -899,36 +923,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786108533000",
+          "id": "entertainment-4-1786108533000",
           "title": "Вернер Херцог получит почетную награду Кинофестиваля в Сан-Себастьяне",
           "summary": "Немецкий режиссер Вернер Херцог получит почетную премию «Доностия» Международного кинофестиваля в Сан-Себастьяне. Как сообщила пресс-служба фестиваля, 83-летнего режиссера наградят на гала-вечере открытия после показа ег",
           "url": "https://www.kommersant.ru/doc/8874972",
           "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/07/KMO_171037_00132_1_t219_161313.jpg",
           "publishedAt": "2026-08-07T13:15:33.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1786108062000",
-          "title": "Умер продюсер Мадонны, Бритни Спирс и Blur Уильям Орбит",
-          "summary": "Британский музыкант, композитора и продюсер, который работал, в частности, с Мадонной, Бритни Спирс, Blur, U2 и All Saints Уильям Орбит умер 23 июля, сообщила The Guardian со ссылкой на объявление его родных. «Нам и всем",
-          "url": "https://www.kommersant.ru/doc/8874974",
-          "image": "https://im2.kommersant.ru/SocialPics/8874974_49_3178221_1380477518",
-          "publishedAt": "2026-08-07T13:07:42.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786106432000",
-          "title": "Голоса ушли в печать // Издана первая биография группы «Альянс»",
-          "summary": "Вышла книга Дениса Ступникова «Альянс. Авторизованная биография» — история одной из самых влиятельных и многогранных групп отечественной рок-сцены. С произведением ознакомился Игорь Гаврилов.",
-          "url": "https://www.kommersant.ru/doc/8874947",
-          "image": "https://im2.kommersant.ru/SocialPics/8874947_49_3178193_405748280",
-          "publishedAt": "2026-08-07T12:40:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -1147,7 +1147,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-08T00:44:13.994Z",
+      "lastFetchAt": "2026-08-08T14:21:46.259Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
