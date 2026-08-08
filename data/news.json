@@ -1,24 +1,25 @@
 {
-  "updatedAt": "2026-08-08T08:25:41.388Z",
+  "updatedAt": "2026-08-08T10:19:45.244Z",
   "totalCategories": 20,
-  "fetchedNow": [],
-  "skippedNow": [
+  "fetchedNow": [
     "it",
-    "ai",
-    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
-    "politics",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
     "law",
     "realestate",
@@ -26,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-08T04:44:42.045Z",
+      "lastFetchAt": "2026-08-08T10:19:24.264Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -34,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786154446000",
+          "id": "it-0-1786175868000",
+          "title": "Записки нейроманта #0 — Claude Code вчера получил лучшее обновление года",
+          "summary": "У меня всегда крутится несколько Claude Code. Вчера заметил странное: два агента, работавшие над одной проблемой, сами обменялись сообщениями через сокет uds:/tmp/cc-socks/769334.sock. Раньше такого не было. Оказалось, в",
+          "url": "https://habr.com/ru/articles/1068106/?utm_campaign=1068106&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/8f0/304/cb7/8f0304cb784e76f7a62d615c307ce77e.jpg",
+          "publishedAt": "2026-08-08T07:57:48.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786171261000",
+          "title": "Не отдавайте ИИ то, что должны придумать сами",
+          "summary": "«Планируйте задачу с достаточным контекстом» — совет, который есть в каждой статье про агентов. Я споткнулся об одно слово: достаточным — это сколько? Пока я не ответил на этот вопрос, любые фоновые агенты выдавали мне у",
+          "url": "https://habr.com/ru/articles/1068120/?utm_campaign=1068120&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/d89/072/694/d890726948d9b470976856d203fc3282.png",
+          "publishedAt": "2026-08-08T06:41:01.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786154446000",
           "title": "Событийная сингулярность как философская модель факта и возможного",
           "summary": "Обычно событие представляют линейно, нечто произошло, вызвало определённые последствия и стало частью прошлого. Подобное описание позволяет установить хронологическую последовательность, но не раскрывает внутреннюю струк",
           "url": "https://habr.com/ru/articles/1065800/?utm_campaign=1065800&utm_source=habrahabr&utm_medium=rss",
@@ -46,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786146516000",
+          "id": "it-3-1786146516000",
           "title": "EvertyDesk: я отдаю то, на что ушли годы",
           "summary": "Меня зовут Артур Валиев. Я открыл исходники EvertyDesk Lite — и заодно EvertyDesk Next, то, что должно было стать следующей версией. Полностью. Без купюр. Читать далее",
           "url": "https://habr.com/ru/articles/1068100/?utm_campaign=1068100&utm_source=habrahabr&utm_medium=rss",
@@ -58,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786131197000",
+          "id": "it-4-1786131197000",
           "title": "Кольца на срезе или сколько лет программисту?",
           "summary": "Возраст дерева можно определить по количеству колец на срезе дерева. Сколько колец столько и лет. А как определить “профессиональный возраст” программиста ? Читать далее",
           "url": "https://habr.com/ru/articles/1066816/?utm_campaign=1066816&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/2fb/fed/a01/2fbfeda0136d10872c61e3cab4891d4c.webp",
           "publishedAt": "2026-08-07T19:33:17.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786116441000",
-          "title": "ИИ-агенты заговорили на языке OpenTelemetry: два сигнала от MCP и Otel",
-          "summary": "Вызов инструмента ИИ-агентом легко теряется между моделью, MCP-клиентом, сервером и внешним API. В конце июля сразу два события показали, каким способом индустрия собирается решать эту проблему. Новая спецификация MCP за",
-          "url": "https://habr.com/ru/companies/proto/articles/1068040/?utm_campaign=1068040&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/872/a41/dd9/872a41dd96ead03646d7beed9fdbf4ab.png",
-          "publishedAt": "2026-08-07T15:27:21.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786112220000",
-          "title": "Agentic AI: стек агентного инженера",
-          "summary": "Этот материал навеян типичными требованиями к агентным Python-инженерам - теми списками требований к вакансии, где рядом стоят всякие PydanticAI/CrewAI/Langraph, MCP/A2A, фреймворки, оценки, векторные базы и тому подобно",
-          "url": "https://habr.com/ru/articles/1068024/?utm_campaign=1068024&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/325/f1f/3c6/325f1f3c66ed87ff8035dcdd094f5edc.webp",
-          "publishedAt": "2026-08-07T14:17:00.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -236,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-08T06:30:49.173Z",
+      "lastFetchAt": "2026-08-08T10:19:27.499Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -244,7 +245,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1786137427000",
+          "id": "business-0-1786171524000",
+          "title": "Из-за жары Европа выкачала из хранилищ рекордный объем газа",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/business/news/2026/08/08/1219705-iz-za-zhari-evropa",
+          "image": "https://sharing.vedomosti.ru/1786173987/vedomosti.ru/business/news/2026/08/08/1219705-iz-za-zhari-evropa.jpg",
+          "publishedAt": "2026-08-08T06:45:24.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1786137427000",
           "title": "«Росатом» разрешил китайской Sealegend Shipping проход по СМП",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/08/1219687-rosatom-razreshil-prohod",
@@ -256,7 +269,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1786132508000",
+          "id": "business-2-1786132508000",
           "title": "Wildberries включила атаки беспилотников в страхование заказов",
           "summary": "Но товаров на складах это не касается",
           "url": "https://www.vedomosti.ru/finance/articles/2026/08/07/1219683-ataki-v-strahovanie-zakazov",
@@ -268,7 +281,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1786129215000",
+          "id": "business-3-1786129215000",
           "title": "Аукцион по продаже Рижского вокзала вновь не состоялся",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/07/1219679-auktsion-ne-sostoyalsya",
@@ -280,7 +293,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1786120349000",
+          "id": "business-4-1786120349000",
           "title": "Сбор тепличных овощей в РФ вырос на 3,5% до 1 млн тонн",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/07/1219664-sbor-teplichnih-ovoschei",
@@ -290,23 +303,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1786118382000",
-          "title": "Власти Удмуртии хотят вернуть сертификат эксплуатанта «Ижавиа» к ноябрю",
-          "summary": "Вероятно, речь идет о подготовке компании к новой сертификации",
-          "url": "https://www.vedomosti.ru/business/articles/2026/08/07/1219657-vernut-sertifikat",
-          "image": "https://cdn.vdmsti.ru/image/2026/63/13pxas/normal-1fh6.jpg",
-          "publishedAt": "2026-08-07T15:59:42.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-08T04:44:46.054Z",
+      "lastFetchAt": "2026-08-08T10:19:30.330Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -338,12 +339,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786078961000",
-          "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
-          "summary": "Сотрудников эвакуировали.",
-          "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786164285/cover.jpg",
-          "publishedAt": "2026-08-07T05:02:41.000Z",
+          "id": "startups-2-1786105002000",
+          "title": "Бывшего директора издательств Popcorn Books и Individuum Дмитрия Протопопова* приговорили к четырём годам тюрьмы условно по делу о «распространении ЛГБТ**-книг»",
+          "summary": "В июле 2026 года он признал вину и заключил досудебное соглашение с прокуратурой.",
+          "url": "https://vc.ru/legal/3067622-dmitriy-protopopov-osuzhden-za-delo-o-rasprostranenii-lgbt-knig?from=rss",
+          "image": "https://leonardo.osnova.io/f219afc3-ed21-5339-baea-dce6cf6fa37b/",
+          "publishedAt": "2026-08-07T12:16:42.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -354,7 +355,7 @@
           "title": "MetaMask открыл доступ к кошельку Agent Wallet — он позволяет ИИ-агентам автономно торговать на децентрализованных платформах и рынках предсказаний",
           "summary": "Пользователи могут устанавливать лимиты, а также ограничивать число доступных протоколов и операций.",
           "url": "https://vc.ru/crypto/3067292-metamask-otkryl-dostup-k-koshelku-agent-wallet?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786164285/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067292/1786184369/cover.jpg",
           "publishedAt": "2026-08-07T09:29:58.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -362,12 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1786099898000",
-          "title": "Wildberries протестирует партнёрские хабы для хранения товаров — их могут открыть владельцы и арендаторы подходящих помещений",
-          "summary": "В рамках мер поддержки продавцов и владельцев ПВЗ.",
-          "url": "https://vc.ru/marketplace/3067542-wildberries-testiruet-partnerskie-haby-dlya-hraneniya-tovarov?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3067542/1786164285/cover.jpg",
-          "publishedAt": "2026-08-07T10:51:38.000Z",
+          "id": "startups-4-1786078961000",
+          "title": "Wildberries сообщил о пожаре на складе в Екатеринбурге после атаки беспилотников",
+          "summary": "Сотрудников эвакуировали.",
+          "url": "https://vc.ru/marketplace/3066959-pozharnyj-sklad-wildberries-ekaterinburg?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3066959/1786184369/cover.jpg",
+          "publishedAt": "2026-08-07T05:02:41.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -446,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-08T04:44:50.909Z",
+      "lastFetchAt": "2026-08-08T10:19:33.813Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -454,7 +455,43 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786162523000",
+          "id": "medicine-0-1786169580000",
+          "title": "Олег Костин возглавит министерство здравоохранения Тверской области",
+          "summary": "Бывший министр здравоохранения Саратовской области Олег Костин возглавит министерство здравоохранения Тверской области. По информации ИА «Взгляд-инфо», к работе в новой должности он приступит 10 августа. Сам Костин не ст",
+          "url": "https://medrussia.org/63295-oleg-kostin-vozglavit-ministerstvo-zdravoohraneniya-tverskoy-oblasti/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/mediamedics-15353-kostin-tver-healthcare-9f6a675a-9b9b-4c40-bb18-56498f924232.jpg",
+          "publishedAt": "2026-08-08T06:13:00.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786167734000",
+          "title": "Врачи разобрали инсулинорезистентность, акне, артрит и другие темы недели",
+          "summary": "«Медицинская Россия» собрала новые публикации профильных специалистов. В подборке обсуждаются инсулинорезистентность, акне, заболевания суставов, головная боль, урологические случаи и другие темы. Эндокринология и питани",
+          "url": "https://medrussia.org/63293-vrachi-razobrali-insulinorezistentnost-akne-artrit-i-drugie-temy-nedeli/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/mediamedics-15352-medical-expert-roundup-f6f33ae9-1bea-47c1-8fee-124cdc8a4bbf.jpg",
+          "publishedAt": "2026-08-08T05:42:14.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-2-1786166156000",
+          "title": "Верховный суд отменил взыскание 200 тысяч рублей с врача по программе «Земский доктор»",
+          "summary": "Верховный суд России отменил решения, по которым врач должен был вернуть более 200 тысяч рублей из выплаты по программе «Земский доктор». В споре с региональным Минздравом суд учёл, что медик отработал в сельской больниц",
+          "url": "https://medrussia.org/63291-verkhovny-sud-otmenil-vzyskanie-s-vracha-po-programme-zemsky-doktor/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/zemsky-doctor-supreme-court-65107be7-2207-46f0-be83-01cc3d8374b2.jpg",
+          "publishedAt": "2026-08-08T05:15:56.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-3-1786162523000",
           "title": "В Госдуме предложили открыть кабинеты нутрициологии в детских поликлиниках",
           "summary": "Депутаты предложили создать кабинеты медицинской нутрициологии в крупных детских поликлиниках и организовать выездные и дистанционные консультации там, где отдельный кабинет нецелесообразен. Сообщение В Госдуме предложил",
           "url": "https://medrussia.org/63289-v-gosdume-predlozhili-otkryt-kabinety-nutritsiologii-v-detskih-poliklinikah/",
@@ -466,48 +503,12 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786160578000",
+          "id": "medicine-4-1786160578000",
           "title": "Жителя Челябинска будут судить за угрозы медработникам и их незаконное удержание",
           "summary": "В Челябинске завершили расследование дела в отношении мужчины, которого обвиняют в угрозах убийством и незаконном лишении свободы администратора и фельдшера частного медицинского центра. Материалы направлены в суд. Что, ",
           "url": "https://medrussia.org/63287-chelyabinsk-sud-ugrozy-medrabotnikam-nezakonnoe-uderzhanie/",
           "image": "https://medrussia.org/wp-content/uploads/2026/08/chelyabinsk-medics-court-case-dbe6e0c7-b972-4994-9aed-3bfa9962fe65.jpg",
           "publishedAt": "2026-08-08T03:42:58.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-2-1786158733000",
-          "title": "Суд взыскал с районной больницы 100 тысяч рублей за отказ в экстренной помощи",
-          "summary": "Суд Хабаровского края взыскал с КГБУЗ «Солнечная районная больница» 100 тысяч рублей компенсации морального вреда в пользу пациента — пенсионера и инвалида. Речь идёт об отказе в экстренной помощи. В сообщении о судебном",
-          "url": "https://medrussia.org/63284-sud-vzyskal-100-tysyach-za-otkaz-v-ekstrennoy-pomoshchi/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/solnechnaya-raionnaya-bolnitsa-illustration-3fc06f71-e049-4be0-bd01-5e1022b33c0c.jpg",
-          "publishedAt": "2026-08-08T03:12:13.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-3-1786156961000",
-          "title": "Врачи-ординаторы в Коммунарке будут проходить оценку по трём лигам",
-          "summary": "В ММКЦ «Коммунарка» ординаторов планируют распределять по трём лигам: высшей, первой и второй. При оценке будут учитывать успеваемость, практическую активность и участие в работе клиники. Система действует уже после пост",
-          "url": "https://medrussia.org/63282-ordinatory-kommunarka-ocenka-po-ligam/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/kommunarka-residents-training-f9270d9b-a393-47bf-8637-e44e4c859894.jpg",
-          "publishedAt": "2026-08-08T02:42:41.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786155093000",
-          "title": "В Находке начали проверку после жалобы пациентки на отказ в экстренной помощи",
-          "summary": "Находкинская городская больница проводит служебную проверку после обращения пациентки, которая заявила, что не получила необходимую экстренную помощь и по рекомендации сотрудников приёмного отделения обратилась в частную",
-          "url": "https://medrussia.org/63280-nahodka-proverka-zhaloba-ekstrennaya-pomosch/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/nahodka-hospital-service-check-b9ab9704-60de-4703-a229-2d0ae6032f5d.jpg",
-          "publishedAt": "2026-08-08T02:11:33.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -586,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-08T04:44:53.956Z",
+      "lastFetchAt": "2026-08-08T10:19:34.707Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -796,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-08T04:45:00.809Z",
+      "lastFetchAt": "2026-08-08T10:19:37.159Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -804,7 +805,31 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786094912000",
+          "id": "gaming-0-1786176010000",
+          "title": "Погружение в создание приставки для Microsoft MakeCode Arcade",
+          "summary": "В прошлой статье я рассказывал, как делал Arduboy WOW с применением модулей, но помимо Arduboy мне еще почти также сильно интересовала платформа Microsoft MakeCode Arcade и мне захотелось повторить тоже самое, но с ней. ",
+          "url": "https://habr.com/ru/articles/1056210/?utm_campaign=1056210&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/6f5/468/ef2/6f5468ef2391ec4303fa2b9b597a87b0.jpg",
+          "publishedAt": "2026-08-08T08:00:10.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786172705000",
+          "title": "Они все испортили. Как Nintendo Switch и Steam Deck убили индустрию портативных консолей, и всем с этим нормально",
+          "summary": "Нет, это не кликбейт. Да, я вполне серьезно и без шуток так считаю, и нет, я не какой-то там заядлый фанат портативок или ретро-гейминга в принципе. Статья ниже — исключительно мой личный взгляд на то, во что превратился",
+          "url": "https://habr.com/ru/companies/timeweb/articles/1066592/?utm_campaign=1066592&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/07a/8ab/518/07a8ab5184132e72a33a3db202093464.jpg",
+          "publishedAt": "2026-08-08T07:05:05.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1786094912000",
           "title": "Невиноватая игра: почему видеоигры — не враг, а зеркало",
           "summary": "Мое знакомство с видеоиграми начиналось заочно – в детстве я видел компьютер однажды в гостях, а о приставках узнавал из рекламных передач по телевизору. Со временем и у меня, и у моих сверстников появились и то, и друго",
           "url": "https://habr.com/ru/articles/1067832/?utm_campaign=1067832&utm_source=habrahabr&utm_medium=rss",
@@ -816,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1785925410000",
+          "id": "gaming-3-1785925410000",
           "title": "Обзор PUBG Mobile в 2026 году: стоит ли возвращаться, и какие режимы актуальны",
           "summary": "PUBG Mobile была и остается одним из самых популярных шутеров в жанре королевской битвы. За последние годы игра приросла новыми форматами и свежим контентом, однако меняющийся с обновлениями интерфейс, множество загрузок",
           "url": "https://habr.com/ru/companies/ggsel/articles/1066962/?utm_campaign=1066962&utm_source=habrahabr&utm_medium=rss",
@@ -828,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1785917111000",
+          "id": "gaming-4-1785917111000",
           "title": "Как сделать игру для ZX Spectrum в 2026 (и зачем)",
           "summary": "Идея заняться этим возникла после участия в качестве члена жюри последнего Технотекста (я оценивал статьи из хаба DIY и научпоп). Поначалу для меня было удивительно, зачем тратить столько времени на (казалось бы) странны",
           "url": "https://habr.com/ru/companies/timeweb/articles/1061328/?utm_campaign=1061328&utm_source=habrahabr&utm_medium=rss",
@@ -838,35 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1785860296000",
-          "title": "Проблемы Unity, о которых не расскажут в пресс-релизе",
-          "summary": "Игровые движки не сравнивал только ленивый, но за анализом фич и красивых пресс-релизов редко упоминаются баги, костыли и прочие особенности, превращающие разработку в кошмар. А ведь именно они могут повлиять на игру сил",
-          "url": "https://habr.com/ru/articles/1065094/?utm_campaign=1065094&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/ed5/5e0/6a3/ed55e06a3c8ccecf781244364b9c4892.png",
-          "publishedAt": "2026-08-04T16:18:16.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785845542000",
-          "title": "Как DLSS 5 меняет саму идею графики реального времени (и снова делает ПК-гейминг элитарным)",
-          "summary": "После скандального мартовского анонса Nvidia получила много негативных отзывов. Саму идею нейронного рендеринга не раскритиковал только ленивый, а публично хвалить результат работы DLSS 5 мало кто отважился. И это вполне",
-          "url": "https://habr.com/ru/companies/ggsel/articles/1066508/?utm_campaign=1066508&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/966/8db/51e/9668db51e5f17c225cf3fbc1d7ca3aa2.jpg",
-          "publishedAt": "2026-08-04T12:12:22.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-08T04:45:01.906Z",
+      "lastFetchAt": "2026-08-08T10:19:40.513Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -890,7 +891,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
           "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
           "url": "https://www.kommersant.ru/doc/8875048",
-          "image": "https://iv.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
+          "image": "https://im2.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
           "publishedAt": "2026-08-07T16:06:48.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -936,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-08T06:30:51.954Z",
+      "lastFetchAt": "2026-08-08T10:19:43.633Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -944,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1786170180000",
-          "title": "ЦСКА сыграет дома с «Ростовом» в 3-м туре РПЛ. Начало матча – в 20:30",
-          "summary": "ЦСКА сыграет дома с « Ростовом » в 3-м туре Альфа-Банк РПЛ. Таблица РПЛ Статистика РПЛ",
-          "url": "https://www.sports.ru/football/1117326927-czska-sygraet-doma-s-rostovom-v-3-m-ture-rpl-nachalo-matcha-v-2030.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/692/7/share/33dbf0_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-08T06:23:00.000Z",
+          "id": "sports-0-1786183920000",
+          "title": "«Торпедо» готово рассмотреть предложения по Яремчуку и Гераськину",
+          "summary": "«Торпедо» готово рассмотреть предложения по обменам нападающих Александра Яремчука и Игоря Гераськина . Об этом сообщил журналист «Спорт-Экспресса» Артур Хайруллин. Яремчук перешел в «Торпедо» из «Сочи» по ходу прошлого ",
+          "url": "https://www.sports.ru/hockey/1117327114-torpedo-gotovo-rassmotret-predlozheniya-po-yaremchuku-i-geraskinu.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/711/4/share/c08688_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-08T10:12:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1786170000000",
-          "title": "Ротенберг поздравил с Днем физкультурника: «Чем больше людей выбирают спорт, тем сильнее становимся мы и наша страна! В здоровом теле – здоровый дух!»",
-          "summary": "Первый вице-президент ФХР , главный тренер сборной «Россия 25» и член совета директоров « Динамо » Роман Ротенберг поздравил россиян с Днем физкультурника. «С Днем физкультурника! 💪 Этот праздник объединяет всех, кто вы",
-          "url": "https://www.sports.ru/hockey/1117326922-rotenberg-pozdravil-s-dnem-fizkulturnika-chem-bolshe-lyudej-vybirayut-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/692/2/share/7ea954_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-08T06:20:00.000Z",
+          "id": "sports-1-1786183860000",
+          "title": "Сергей Плишкин: «Катание Слуцкой и Гончарова стало более взрослым, осмысленным. Они превратились в хорошую полноценную юниорскую пару»",
+          "summary": "Хореограф Сергей Плишкин рассказал о новых танцах дуэта Варвара Слуцкая – Глеб Гончаров. «О программах Даши (Дрожжиной) и Вани (Тельнова) я рассказал после первого сбора в Новогорске на прошлой неделе. Сейчас ребята еще ",
+          "url": "https://www.sports.ru/figure-skating/1117327117-sergej-plishkin-katanie-sluczkoj-i-goncharova-stalo-bolee-vzroslym-osm.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/711/7/share/7b0d97_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-08T10:11:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1786169880000",
-          "title": "Рублев и Хачанов проиграли на старте парного «Мастерса» в Монреале",
-          "summary": "Андрей Рублев и Карен Хачанов уступили Лоренцо Музетти и Маттео Арнальди в первом круге парного «Мастерса» в Монреале – 1:6, 6:3, 6-10. Оба теннисиста закончили выступление на турнире. В одиночном разряде Рублев уступил ",
-          "url": "https://www.sports.ru/tennis/1117326917-rublev-i-xachanov-proigrali-na-starte-parnogo-mastersa-v-monreale.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/691/7/share/8de787_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-08T06:18:00.000Z",
+          "id": "sports-2-1786183800000",
+          "title": "Андреа Стелла: «Надеемся, Форнароли уже скоро получит новые возможности для дальнейшего роста»",
+          "summary": "Руководитель «Макларена» Андреа Стелла рассказал, что доволен работой и прогрессом резервного пилота команды Леонардо Форнароли. Чемпион «Формулы-2» 2025 года в этом сезоне активно задействован на тестах «Макларена» и уж",
+          "url": "https://www.sports.ru/automoto/1117327120-andrea-stella-nadeemsya-fornaroli-uzhe-skoro-poluchit-novye-vozmozhnos.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/712/0/share/897282_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-08T10:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1786169880000",
-          "title": "Авербух о допуске фигуристов: «Это смотивирует еще больше работать. Добавит интриги и на чемпионате России»",
-          "summary": "Хореограф Илья Авербух считает, что допуск российских фигуристов на международную арену добавит интриги чемпионату страны. Накануне стало известно, что Камила Валиева, Александра Трусова, Петр Гуменник, Владислав Дикиджи",
-          "url": "https://www.sports.ru/figure-skating/1117326921-averbux-o-dopuske-figuristov-eto-smotiviruet-eshhe-bolshe-rabotat-doba.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/692/1/share/1413fb_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-08T06:18:00.000Z",
+          "id": "sports-3-1786183800000",
+          "title": "Монреаль (ATP). 4-й круг. Ходар сыграет с Лехечкой, Фис – с Норри, Боржес поборется с Дардери, Риндеркнеш – с Накашимой",
+          "summary": "Рафаэль Ходар сыграет с Иржи Лехечкой в четвертом круге «Мастерса» в Монреале. Сетка турнира здесь . National Bank Open presented by Rogers Монреаль, Канада 2 – 13 августа 2026 ATP Masters 1000 Призовой фонд – 9 415 724 ",
+          "url": "https://www.sports.ru/tennis/1117327110-monreal-atp-2026-rezultaty-chetvertogo-kruga.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/711/0/share/f2d90f_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-08T10:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1786169640000",
-          "title": "Кайри Ирвинг перед возвращением: «Помню все сказанное о себе, когда народ думал, что со мной покончено»",
-          "summary": "Разыгрывающий « Далласа » Кайри Ирвинг написал в социальных сетях о мотивации перед новым сезоном НБА . «Помню все сказанное о себе, когда народ думал, что со мной покончено», – говорится в сообщении 34-летней звезды лиг",
-          "url": "https://www.sports.ru/basketball/1117326919-kajri-irving-pered-vozvrashheniem-pomnyu-vse-skazannoe-o-sebe-kogda-na.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/732/691/9/share/b1e549_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-08T06:14:00.000Z",
+          "id": "sports-4-1786183206000",
+          "title": "Заря – Кривбасс – во сколько и где смотреть трансляцию матча, Чемпионат Украины по футболу, 9 августа 2026",
+          "summary": "Во воскресенье, 9 августа, сыграют Заря и Кривбасс в рамках Чемпионата Украины по футболу. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 13:00 по московскому времени. Где смотреть матч",
+          "url": "https://www.sports.ru/football/1117327113-zarya-krivbass-vo-skolko-i-gde-smotret-translyacziyu-matcha-chempionat.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/732/711/3/share/88b678_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-08T10:00:06.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1006,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-08T06:30:53.220Z",
+      "lastFetchAt": "2026-08-08T10:19:45.244Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1014,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1786170060000",
-          "title": "Призвавшего помогать Украине «бить москаля» президента Польши назвали дураком",
+          "id": "politics-0-1786183965000",
+          "title": "В Эстонии оценили вероятность нападения России на НАТО",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/prizvavshego-pomogat-ukraine-bit-moskalya-prezidenta-polshi-nazvali-durakom/",
-          "image": "https://icdn.lenta.ru/images/2026/08/08/09/20260808091232137/pic_967254b23ce9f03fd6b4ac0d59f9d7f3.jpg",
-          "publishedAt": "2026-08-08T06:21:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/08/v-estonii-otsenili-veroyatnost-napadeniya-rossii-na-nato/",
+          "image": "https://icdn.lenta.ru/images/2026/08/08/13/20260808130127894/pic_171f17acc9b26afc509380911f0a22fb.jpg",
+          "publishedAt": "2026-08-08T10:12:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1786169760000",
-          "title": "В Минобороны раскрыли число сбитых за утро украинских БПЛА",
+          "id": "politics-1-1786183827000",
+          "title": "Илья Лагутенко отправился на гастроли ради ремонта сгоревшего дома в США",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/v-minoborony-raskryli-chislo-sbityh-za-utro-ukrainskih-bpla/",
-          "image": "https://icdn.lenta.ru/images/2026/08/08/09/20260808091403116/pic_6c2301d8840075eb164a80599357b677.jpg",
-          "publishedAt": "2026-08-08T06:16:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/08/lagutenko-tur/",
+          "image": "https://icdn.lenta.ru/images/2026/08/08/11/20260808111338288/pic_c19da0ea80cbc021cece6458b0767a13.jpg",
+          "publishedAt": "2026-08-08T10:10:27.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1786168889000",
-          "title": "Названо последствие приема «Оземпика» для похудения через 20 лет",
+          "id": "politics-2-1786183800000",
+          "title": "Россия ударила «Искандерами» по Киеву, поражены два важных объекта. Зеленский выступил с заявлением",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/after/",
-          "image": "https://icdn.lenta.ru/images/2026/08/03/15/20260803155012456/pic_69c52fda3ceb683223f28abeca9835d4.jpg",
-          "publishedAt": "2026-08-08T06:01:29.000Z",
+          "url": "https://lenta.ru/news/2026/08/08/long-rossiya-udarila-iskanderami-po-kievu-porazheny-dva-vazhnyh-ob-ekta-zelenskiy-vystupil-s-zayavleniem/",
+          "image": "https://icdn.lenta.ru/images/2026/08/08/11/20260808114426224/pic_0fff24a4511f5aa9d5f9b9d91565991a.jpg",
+          "publishedAt": "2026-08-08T10:10:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1786168317000",
-          "title": "На Аляске произошло землетрясение",
+          "id": "politics-3-1786183200000",
+          "title": "Азиатская страна начала массового проверять россиян на наркотики",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/na-alyaske-proizoshlo-zemletryasenie/",
-          "image": "https://icdn.lenta.ru/images/2026/08/08/08/20260808085159668/pic_e7dd1e342e01c1a91f0d976da7eb9e53.jpg",
-          "publishedAt": "2026-08-08T05:51:57.000Z",
+          "url": "https://lenta.ru/news/2026/08/08/aziatskaya-strana-nachala-massovogo-proveryat-rossiyan-na-narkotiki/",
+          "image": "https://icdn.lenta.ru/images/2026/08/08/12/20260808125739580/pic_0b64cc574c56b948b471c0145dd83bda.jpg",
+          "publishedAt": "2026-08-08T10:00:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1786168014000",
-          "title": "Внук де Голля восхитился русской душой",
+          "id": "politics-4-1786183200000",
+          "title": "Названо неприятное для Пашиняна последствие сближения с Евросоюзом",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/vnuk-de-gollya-voshitilsya-russkoy-dushoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/08/08/20260808084657125/pic_8f88a48fafac24c3fba3f9444d4ffc0a.jpg",
-          "publishedAt": "2026-08-08T05:46:54.000Z",
+          "url": "https://lenta.ru/news/2026/08/08/nepriyatnoe/",
+          "image": "https://icdn.lenta.ru/images/2026/08/07/17/20260807175828545/pic_9b4fbf832eb8b33e4e6a8dd6d74af801.jpg",
+          "publishedAt": "2026-08-08T10:00:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
