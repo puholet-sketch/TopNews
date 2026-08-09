@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-08-09T03:23:10.535Z",
+  "updatedAt": "2026-08-09T04:54:01.307Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
     "ai",
     "cybersecurity",
     "business",
@@ -12,22 +20,14 @@
     "automotive",
     "sports",
     "politics",
-    "law"
-  ],
-  "skippedNow": [
-    "it",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-09T00:46:00.199Z",
+      "lastFetchAt": "2026-08-09T04:53:49.029Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-09T00:46:05.025Z",
+      "lastFetchAt": "2026-08-09T04:53:50.765Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -315,12 +315,12 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1786114091000",
-          "title": "Netflix установил в Голливуде билборд с «комнатой» и на время «запер» там живого актёра — к выходу фильма «Последний дом»",
-          "summary": "Он общается с прохожими с помощью табличек и ест хлопья на подоконнике.",
-          "url": "https://vc.ru/marketing/3067839-netflix-bilbord-aktjor-v-gollivude-film-poslednij-dom?from=rss",
-          "image": "https://leonardo.osnova.io/7f73d371-d6e0-51ef-aa7a-66bbac1b79f7/-/resize/1300/",
-          "publishedAt": "2026-08-07T14:48:11.000Z",
+          "id": "startups-0-1786210260000",
+          "title": "День 1627: Wildberries включил риски из-за атак беспилотников в страхование заказов на периоды доставки и хранения в ПВЗ",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/marketplace/3068904-wildberries-vklyuchil-riski-atak-bespilotnikov-v-strahovanie-zakazov?from=rss",
+          "image": "https://leonardo.osnova.io/64676e6c-81a9-5c28-98a8-eb5f314213fb/",
+          "publishedAt": "2026-08-08T17:31:00.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -339,12 +339,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786210260000",
-          "title": "День 1627: Wildberries включил риски из-за атак беспилотников в страхование заказов на периоды доставки и хранения в ПВЗ",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/marketplace/3068904-wildberries-vklyuchil-riski-atak-bespilotnikov-v-strahovanie-zakazov?from=rss",
-          "image": "https://leonardo.osnova.io/64676e6c-81a9-5c28-98a8-eb5f314213fb/",
-          "publishedAt": "2026-08-08T17:31:00.000Z",
+          "id": "startups-2-1786114091000",
+          "title": "Netflix установил в Голливуде билборд с «комнатой» и на время «запер» там живого актёра — к выходу фильма «Последний дом»",
+          "summary": "Он общается с прохожими с помощью табличек и ест хлопья на подоконнике.",
+          "url": "https://vc.ru/marketing/3067839-netflix-bilbord-aktjor-v-gollivude-film-poslednij-dom?from=rss",
+          "image": "https://leonardo.osnova.io/7f73d371-d6e0-51ef-aa7a-66bbac1b79f7/-/resize/1300/",
+          "publishedAt": "2026-08-07T14:48:11.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-09T00:46:10.247Z",
+      "lastFetchAt": "2026-08-09T04:53:55.324Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-09T00:46:11.179Z",
+      "lastFetchAt": "2026-08-09T04:53:55.918Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-09T00:46:13.019Z",
+      "lastFetchAt": "2026-08-09T04:53:58.258Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-09T00:46:17.293Z",
+      "lastFetchAt": "2026-08-09T04:54:01.306Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -879,7 +879,7 @@
           "title": "У берегов Сицилии обнаружили затонувшее античное судно с сотнями амфор",
           "summary": "Итальянские карабинеры совместно с Управлением морского культурного наследия Сицилии нашли у побережья Мадзара-дель-Валло затонувшее древнеримское судно с сотнями амфор. Обнаружение произошло на глубине 46 м, примерно в ",
           "url": "https://www.kommersant.ru/doc/8875576",
-          "image": "https://im2.kommersant.ru/SocialPics/8875576_49_3178767_461760337",
+          "image": "https://iv.kommersant.ru/SocialPics/8875576_49_3178767_461760337",
           "publishedAt": "2026-08-08T13:36:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -891,7 +891,7 @@
           "title": "В поисках утраченной веры // Уникальные церкви России и кто их сохраняет",
           "summary": "В начале августа в ярославском селе Курба во второй раз прошел фестиваль «А Курба будет жить!» — вокруг единственного в мире 16-лепесткового Казанского храма, который десять лет возрождает фонд «Белый Ирис». Древних и не",
           "url": "https://www.kommersant.ru/doc/8864372",
-          "image": "https://im2.kommersant.ru/SocialPics/8864372_49_3178148_1400400419",
+          "image": "https://iv.kommersant.ru/SocialPics/8864372_49_3178148_1400400419",
           "publishedAt": "2026-08-08T11:00:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
