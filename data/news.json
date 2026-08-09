@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-08T22:15:50.359Z",
+  "updatedAt": "2026-08-09T00:46:22.067Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
     "business",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
     "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
+    "politics"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
-    "law"
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-08T20:15:29.089Z",
+      "lastFetchAt": "2026-08-09T00:46:00.199Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-08T22:15:44.477Z",
+      "lastFetchAt": "2026-08-09T00:46:03.388Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-08T20:15:32.435Z",
+      "lastFetchAt": "2026-08-09T00:46:05.025Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-08T20:15:36.245Z",
+      "lastFetchAt": "2026-08-09T00:46:10.247Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-08T20:15:39.020Z",
+      "lastFetchAt": "2026-08-09T00:46:11.179Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-08T20:15:46.461Z",
+      "lastFetchAt": "2026-08-09T00:46:13.019Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-08T20:15:47.617Z",
+      "lastFetchAt": "2026-08-09T00:46:17.293Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -891,7 +891,7 @@
           "title": "В поисках утраченной веры // Уникальные церкви России и кто их сохраняет",
           "summary": "В начале августа в ярославском селе Курба во второй раз прошел фестиваль «А Курба будет жить!» — вокруг единственного в мире 16-лепесткового Казанского храма, который десять лет возрождает фонд «Белый Ирис». Древних и не",
           "url": "https://www.kommersant.ru/doc/8864372",
-          "image": "https://iv.kommersant.ru/SocialPics/8864372_49_3178148_1400400419",
+          "image": "https://im2.kommersant.ru/SocialPics/8864372_49_3178148_1400400419",
           "publishedAt": "2026-08-08T11:00:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -915,7 +915,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
           "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
           "url": "https://www.kommersant.ru/doc/8875048",
-          "image": "https://iv.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
+          "image": "https://im2.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
           "publishedAt": "2026-08-07T16:06:48.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -937,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-08T22:15:46.623Z",
+      "lastFetchAt": "2026-08-09T00:46:20.232Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1007,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-08T22:15:47.730Z",
+      "lastFetchAt": "2026-08-09T00:46:22.067Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1015,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1786226940000",
-          "title": "ВСУ атаковали Белгород",
+          "id": "politics-0-1786235580000",
+          "title": "Зеленского предупредили о потере Одессы",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/09/vsu-atakovali-belgorod/",
-          "image": "https://icdn.lenta.ru/images/2026/08/09/01/20260809011233077/pic_12795a4a89ba383b1d0aef5767330065.jpg",
-          "publishedAt": "2026-08-08T22:09:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/09/zelenskogo-predupredili-o-potere-odessy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/09/03/20260809033512991/pic_54e182bb90025d42f7d70173ea1e7148.jpg",
+          "publishedAt": "2026-08-09T00:33:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1786226777000",
-          "title": "Российской армии предрекли взятие одного населенного пункта",
+          "id": "politics-1-1786234980000",
+          "title": "Вице-президент США сделал заявление о переговорах с Ираном",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/09/rossiyskoy-armii-predrekli-vzyatie-odnogo-naselennogo-punkta/",
-          "image": "https://icdn.lenta.ru/images/2026/08/09/01/20260809010628318/pic_9d4993539538a0226970095ca86f01f7.jpg",
-          "publishedAt": "2026-08-08T22:06:17.000Z",
+          "url": "https://lenta.ru/news/2026/08/09/vitse-prezident-ssha-sdelal-zayavlenie-o-peregovorah-s-iranom/",
+          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
+          "publishedAt": "2026-08-09T00:23:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1786226280000",
-          "title": "Блэкаут произошел на севере Украины",
+          "id": "politics-2-1786234842000",
+          "title": "Японию предупредили о последствиях отказа от безъядерного статуса",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/09/blekaut-proizoshel-na-severe-ukrainy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/09/01/20260809010724841/pic_696d0444dfdec9fb014aa15f927d1a8c.jpg",
-          "publishedAt": "2026-08-08T21:58:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/09/yaponiyu-predupredili-o-posledstviyah-otkaza-ot-bez-yadernogo-statusa/",
+          "image": "https://icdn.lenta.ru/images/2026/08/09/03/20260809032037842/pic_6a845fc08828a538ac0236cc7b2b3c4c.jpg",
+          "publishedAt": "2026-08-09T00:20:42.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1786224720000",
-          "title": "Четверо пострадавших и нарушения строительных норм. В многоквартирном доме в Махачкале рухнул лифт. Что известно?",
+          "id": "politics-3-1786234680000",
+          "title": "В МИД раскрыли коварный план НАТО",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/08/long-chetvero-postradavshih-i-narusheniya-stroitelnyh-norm-v-dagestane-s-chetvertogo-etazha-ruhnul-lift-chto-izvestno/",
-          "image": "https://icdn.lenta.ru/images/2026/08/09/00/20260809002112172/pic_739b95515bb3b31f20afcfd906481362.jpg",
-          "publishedAt": "2026-08-08T21:32:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/09/v-mid-raskryli-kovarnyy-plan-nato/",
+          "image": "https://icdn.lenta.ru/images/2026/08/09/03/20260809032025570/pic_5db25b0e5a3bb5c8243fedbde679877d.jpg",
+          "publishedAt": "2026-08-09T00:18:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1786224280000",
-          "title": "Появились подробности о состоянии пассажиров упавшего лифта",
+          "id": "politics-4-1786234430000",
+          "title": "Дроны ВСУ атаковали Белгород. Есть пострадавшие, в том числе дети. Что еще известно?",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/09/poyavilis-podrobnosti-o-sostoyanii-passazhirov-upavshego-lifta/",
-          "image": "https://icdn.lenta.ru/images/2026/08/09/00/20260809002427690/pic_8fb6a74598653c23f473e2f6b72c9776.jpg",
-          "publishedAt": "2026-08-08T21:24:40.000Z",
+          "url": "https://lenta.ru/news/2026/08/09/long-belgorod/",
+          "image": "https://icdn.lenta.ru/images/2026/08/09/03/20260809030253875/pic_9a57ff3d4de64256ebe5270f8024acd5.jpg",
+          "publishedAt": "2026-08-09T00:13:50.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
