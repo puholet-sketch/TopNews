@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-09T12:23:30.506Z",
+  "updatedAt": "2026-08-09T14:23:04.190Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-09T10:20:53.694Z",
+      "lastFetchAt": "2026-08-09T14:22:42.480Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786208712000",
+          "id": "it-0-1786281942000",
+          "title": "База по системному дизайну для начинающих разработчиков ПО. Часть 0. Сбор и анализ требований, инструменты визуализации",
+          "summary": "Эта статья прежде всего будет полезна студентам и начинающим специалистам. В отрасли разработки программного обеспечения под системным дизайном (System Design) понимают процесс проектирования архитектуры, компонентов, ба",
+          "url": "https://habr.com/ru/articles/1068382/?utm_campaign=1068382&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1068382/94f6e57c3870f0ae8487b7f64b98d5c1/",
+          "publishedAt": "2026-08-09T13:25:42.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786278110000",
+          "title": "Разделение ответственности между Claude и Codex: как я перестал выбирать одну нейросеть и усилил сразу две",
+          "summary": "Я Go-разработчик, но у меня есть собственный проект — и это значит, что Go только часть работы. В обычную неделю я переключаюсь между Go-бэкендом, SQL, React и TypeScript, дизайном API, архитектурой, Docker, CI/CD, инфра",
+          "url": "https://habr.com/ru/articles/1068372/?utm_campaign=1068372&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/def/559/8bd/def5598bd5fadef98d6627923ac7c649.png",
+          "publishedAt": "2026-08-09T12:21:50.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786208712000",
           "title": "Патчим Codex: управляемая амнезия без потери контекста",
           "summary": "Я дал модели (в codex) возможность самостоятельно решать, когда нужен compact, и обязал её объяснять причину и строить план на будущее. Зачем? компакт посреди правки большого связного куска проекта вызывает некие сомнени",
           "url": "https://habr.com/ru/articles/1068252/?utm_campaign=1068252&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786206153000",
+          "id": "it-3-1786206153000",
           "title": "24 главы, два языка и живой Event Loop: как я собрал с Codex лабораторию по backend-разработке",
           "summary": "В 2026 году AI-агенты уже неплохо пишут прикладной код. Но если просто принимать готовые реализации, проект развивается быстрее, а разработчик — не обязательно. Поэтому я собрал с Codex open-source лабораторию, в которой",
           "url": "https://habr.com/ru/articles/1068238/?utm_campaign=1068238&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786191339000",
+          "id": "it-4-1786191339000",
           "title": "Побеждаем OOM в PyTorch: как обучать гигантские графы на обычной видеокарте",
           "summary": "При обучении графных нейросетей и гигантских эмбеддингов на миллионы узлов стандартный torch.optim.SparseAdam в PyTorch моментально забивает RAM и VRAM, вызывая ошибку CUDA out of memory (OOM). В этой статье разбираем, к",
           "url": "https://habr.com/ru/articles/1068202/?utm_campaign=1068202&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/601/0b0/e4b/6010b0e4b738f61262a907dcccfb071c.png",
           "publishedAt": "2026-08-08T12:15:39.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786185978000",
-          "title": "[Перевод] Победить Hibernate в тестах. Возможно?",
-          "summary": "Победить Hibernate в тестах. Сможем? Всем, привет! На связи Михаил Поливаха, технический лидер Open Source проекта Axelix (проект, посвященный помочь вам идентифицировать частые проблемы в Java server-side приложениях, в",
-          "url": "https://habr.com/ru/companies/spring_aio/articles/1068176/?utm_campaign=1068176&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/db9/a98/561/db9a985613e4dd7eaa56d917bd4ff71a.png",
-          "publishedAt": "2026-08-08T10:46:18.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786175868000",
-          "title": "Записки нейроманта #0 — Claude Code вчера получил лучшее обновление года",
-          "summary": "У меня всегда крутится несколько Claude Code. Вчера заметил странное: два агента, работавшие над одной проблемой, сами обменялись сообщениями через сокет uds:/tmp/cc-socks/769334.sock. Раньше такого не было. Оказалось, в",
-          "url": "https://habr.com/ru/articles/1068106/?utm_campaign=1068106&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/8f0/304/cb7/8f0304cb784e76f7a62d615c307ce77e.jpg",
-          "publishedAt": "2026-08-08T07:57:48.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-09T10:20:59.357Z",
+      "lastFetchAt": "2026-08-09T14:22:44.159Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-09T10:21:03.552Z",
+      "lastFetchAt": "2026-08-09T14:22:48.781Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-09T10:21:05.897Z",
+      "lastFetchAt": "2026-08-09T14:22:49.383Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-09T10:21:12.048Z",
+      "lastFetchAt": "2026-08-09T14:22:51.150Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786176010000",
+          "id": "gaming-0-1786284307000",
+          "title": "Starship Troopers 2005 vs Ultimate Bug War: разбор двух главных шутеров по культовой франшизе",
+          "summary": "‎Ладно, шучу, это не вся заметка. Просто недавно франшиза «Звездный десант» пополнилась добротным бумер-шутером Starship Troopers: Ultimate Bug War!. Игра сама по себе хороша, но дело в том, что это не первый шутер от пе",
+          "url": "https://habr.com/ru/companies/timeweb/articles/1068386/?utm_campaign=1068386&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f55/4d5/627/f554d5627b3d8247ac9c129516948a18.jpeg",
+          "publishedAt": "2026-08-09T14:05:07.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786176010000",
           "title": "Погружение в создание приставки для Microsoft MakeCode Arcade",
           "summary": "В прошлой статье я рассказывал, как делал Arduboy WOW с применением модулей, но помимо Arduboy мне еще почти также сильно интересовала платформа Microsoft MakeCode Arcade и мне захотелось повторить тоже самое, но с ней. ",
           "url": "https://habr.com/ru/articles/1056210/?utm_campaign=1056210&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786172705000",
+          "id": "gaming-2-1786172705000",
           "title": "Они все испортили. Как Nintendo Switch и Steam Deck убили индустрию портативных консолей, и всем с этим нормально",
           "summary": "Нет, это не кликбейт. Да, я вполне серьезно и без шуток так считаю, и нет, я не какой-то там заядлый фанат портативок или ретро-гейминга в принципе. Статья ниже — исключительно мой личный взгляд на то, во что превратился",
           "url": "https://habr.com/ru/companies/timeweb/articles/1066592/?utm_campaign=1066592&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786094912000",
+          "id": "gaming-3-1786094912000",
           "title": "Невиноватая игра: почему видеоигры — не враг, а зеркало",
           "summary": "Мое знакомство с видеоиграми начиналось заочно – в детстве я видел компьютер однажды в гостях, а о приставках узнавал из рекламных передач по телевизору. Со временем и у меня, и у моих сверстников появились и то, и друго",
           "url": "https://habr.com/ru/articles/1067832/?utm_campaign=1067832&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1785925410000",
+          "id": "gaming-4-1785925410000",
           "title": "Обзор PUBG Mobile в 2026 году: стоит ли возвращаться, и какие режимы актуальны",
           "summary": "PUBG Mobile была и остается одним из самых популярных шутеров в жанре королевской битвы. За последние годы игра приросла новыми форматами и свежим контентом, однако меняющийся с обновлениями интерфейс, множество загрузок",
           "url": "https://habr.com/ru/companies/ggsel/articles/1066962/?utm_campaign=1066962&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1785917111000",
-          "title": "Как сделать игру для ZX Spectrum в 2026 (и зачем)",
-          "summary": "Идея заняться этим возникла после участия в качестве члена жюри последнего Технотекста (я оценивал статьи из хаба DIY и научпоп). Поначалу для меня было удивительно, зачем тратить столько времени на (казалось бы) странны",
-          "url": "https://habr.com/ru/companies/timeweb/articles/1061328/?utm_campaign=1061328&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c32/34b/d63/c3234bd63273461c788cd8ee1fee6833.png",
-          "publishedAt": "2026-08-05T08:05:11.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-09T10:21:13.787Z",
+      "lastFetchAt": "2026-08-09T14:23:04.189Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,7 +875,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786196204000",
+          "id": "entertainment-0-1786277288000",
+          "title": "Стеклянный павильон выходит непрозрачным // В Париже возмущены пристройкой к парламенту",
+          "summary": "Французский парламент оказался в центре архитектурного скандала. Вместо того чтобы спорить о бюджете, миграции или внешней политике, депутаты вынуждены обсуждать вестибюль. Речь идет о проекте нового входного павильона Н",
+          "url": "https://www.kommersant.ru/doc/8875764",
+          "image": "https://im2.kommersant.ru/Issues.photo2/CORP/2026/08/09/KMO_209085_00004_1_t219_145217.jpg",
+          "publishedAt": "2026-08-09T12:08:08.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786196204000",
           "title": "У берегов Сицилии обнаружили затонувшее античное судно с сотнями амфор",
           "summary": "Итальянские карабинеры совместно с Управлением морского культурного наследия Сицилии нашли у побережья Мадзара-дель-Валло затонувшее древнеримское судно с сотнями амфор. Обнаружение произошло на глубине 46 м, примерно в ",
           "url": "https://www.kommersant.ru/doc/8875576",
@@ -887,7 +899,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786186800000",
+          "id": "entertainment-2-1786186800000",
           "title": "В поисках утраченной веры // Уникальные церкви России и кто их сохраняет",
           "summary": "В начале августа в ярославском селе Курба во второй раз прошел фестиваль «А Курба будет жить!» — вокруг единственного в мире 16-лепесткового Казанского храма, который десять лет возрождает фонд «Белый Ирис». Древних и не",
           "url": "https://www.kommersant.ru/doc/8864372",
@@ -899,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786132699000",
+          "id": "entertainment-3-1786132699000",
           "title": "Сборы «Одиссеи» в мировом прокате превысили $1 млрд",
           "summary": "Кассовые сборы «Одиссеи» Кристофера Нолана превысили $1 млрд в мировом прокате спустя три недели после выхода фильма. Об этом сообщила The Variety.",
           "url": "https://www.kommersant.ru/doc/8875180",
@@ -911,24 +923,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1786118808000",
+          "id": "entertainment-4-1786118808000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 8–9 августа",
           "summary": "6 августа в прокат вышел ряд фильмов, среди которых польский психологический хоррор о старости «Лабиринт чудовищ» и французская драма с участием Ксавье Долана «Большая арка». Что посмотреть в кино на выходных — в материа",
           "url": "https://www.kommersant.ru/doc/8875048",
           "image": "https://im2.kommersant.ru/SocialPics/8875048_49_3178377_772606594",
           "publishedAt": "2026-08-07T16:06:48.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786108533000",
-          "title": "Вернер Херцог получит почетную награду Кинофестиваля в Сан-Себастьяне",
-          "summary": "Немецкий режиссер Вернер Херцог получит почетную премию «Доностия» Международного кинофестиваля в Сан-Себастьяне. Как сообщила пресс-служба фестиваля, 83-летнего режиссера наградят на гала-вечере открытия после показа ег",
-          "url": "https://www.kommersant.ru/doc/8874972",
-          "image": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/08/07/KMO_171037_00132_1_t219_161313.jpg",
-          "publishedAt": "2026-08-07T13:15:33.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
