@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-10T03:41:58.361Z",
+  "updatedAt": "2026-08-10T05:14:43.386Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
-    "ai",
     "cybersecurity",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
+    "gaming",
+    "entertainment",
+    "law"
+  ],
+  "skippedNow": [
+    "ai",
+    "business",
+    "science",
+    "health",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-10T00:48:34.572Z",
+      "lastFetchAt": "2026-08-10T05:14:26.190Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786313914000",
+          "id": "it-0-1786338003000",
+          "title": "Ваш UI-фреймворк уже написан. Используем возможности Playwright",
+          "summary": "Приветствую, Хабр! Меня зовут Владислав Тимашенков, я занимаюсь автоматизацией тестирования в ГК Infowatch. В этой статье мы построим основу лаконичного фреймворка для UI-автотестов. Настроим запуск браузера, подготовим ",
+          "url": "https://habr.com/ru/companies/infowatch/articles/1065886/?utm_campaign=1065886&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1065886/55b4481235526cc9580d1d2f40adcd64/",
+          "publishedAt": "2026-08-10T05:00:03.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786313914000",
           "title": "Покажи мне свой харнесс — и я спрошу у Клода, кто ты",
           "summary": "Один ИИ пишет мне код, второй его ревьюит и не пускает в master, а я плачу за обе подписки и называю это командой разработки. За 56 дней — 1393 коммита, почти три сотни спек и рабочий продукт, на который у команды ушло б",
           "url": "https://habr.com/ru/articles/1068466/?utm_campaign=1068466&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786288373000",
+          "id": "it-2-1786288373000",
           "title": "Как у нас в проекте на самом деле пишется код",
           "summary": "В прошлой статье речь шла в основном про транспортный уровень - uTLS, decoy-трафик, pacing и всё, что связано с прохождением DPI. Это удобно рассматривать как отдельную техническую задачу, но внутри проекта это только од",
           "url": "https://habr.com/ru/articles/1068410/?utm_campaign=1068410&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786281942000",
+          "id": "it-3-1786281942000",
           "title": "База по системному дизайну для начинающих разработчиков ПО. Часть 0. Сбор и анализ требований, инструменты визуализации",
           "summary": "Эта статья прежде всего будет полезна студентам и начинающим специалистам. В отрасли разработки программного обеспечения под системным дизайном (System Design) понимают процесс проектирования архитектуры, компонентов, ба",
           "url": "https://habr.com/ru/articles/1068382/?utm_campaign=1068382&utm_source=habrahabr&utm_medium=rss",
@@ -71,24 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786278110000",
+          "id": "it-4-1786278110000",
           "title": "Разделение ответственности между Claude и Codex: как я перестал выбирать одну нейросеть и усилил сразу две",
           "summary": "Я Go-разработчик, но у меня есть собственный проект — и это значит, что Go только часть работы. В обычную неделю я переключаюсь между Go-бэкендом, SQL, React и TypeScript, дизайном API, архитектурой, Docker, CI/CD, инфра",
           "url": "https://habr.com/ru/articles/1068372/?utm_campaign=1068372&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/def/559/8bd/def5598bd5fadef98d6627923ac7c649.png",
           "publishedAt": "2026-08-09T12:21:50.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786208712000",
-          "title": "Патчим Codex: управляемая амнезия без потери контекста",
-          "summary": "Я дал модели (в codex) возможность самостоятельно решать, когда нужен compact, и обязал её объяснять причину и строить план на будущее. Зачем? компакт посреди правки большого связного куска проекта вызывает некие сомнени",
-          "url": "https://habr.com/ru/articles/1068252/?utm_campaign=1068252&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/dda/42e/b62/dda42eb6288df39402f0d49f9f5ee3ff.png",
-          "publishedAt": "2026-08-08T17:05:12.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -167,7 +167,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-09T16:19:33.761Z",
+      "lastFetchAt": "2026-08-10T05:14:27.994Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -175,7 +175,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1786290395000",
+          "id": "cybersecurity-0-1786338003000",
+          "title": "Ваш UI-фреймворк уже написан. Используем возможности Playwright",
+          "summary": "Приветствую, Хабр! Меня зовут Владислав Тимашенков, я занимаюсь автоматизацией тестирования в ГК Infowatch. В этой статье мы построим основу лаконичного фреймворка для UI-автотестов. Настроим запуск браузера, подготовим ",
+          "url": "https://habr.com/ru/companies/infowatch/articles/1065886/?utm_campaign=1065886&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1065886/55b4481235526cc9580d1d2f40adcd64/",
+          "publishedAt": "2026-08-10T05:00:03.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1786302870000",
+          "title": "NIST запретил плановую смену паролей. У ФСТЭК она теперь обязательна",
+          "summary": "NIST в июле 2025-го запретил требовать плановую смену паролей: SHALL NOT, раздел 3.1.1.2 финальной SP 800-63B. ФСТЭК в апреле 2026-го сделала её обязательной для госсистем и КИИ: 90 дней в системе, 30 на мобильных, с зап",
+          "url": "https://habr.com/ru/articles/1068448/?utm_campaign=1068448&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/bcd/9a6/e79/bcd9a6e79b41ec488e607ee0b25932b5.png",
+          "publishedAt": "2026-08-09T19:14:30.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1786299692000",
+          "title": "Как продлевали Chat Control 1.0",
+          "summary": "Любопытно, что даже в демократических странах возможны такие казусы, когда отсутствие депутатов сказывается на результате голосования, а законодательный акт принимается даже в том случае, когда большинство депутатов прот",
+          "url": "https://habr.com/ru/companies/globalsign/articles/1068442/?utm_campaign=1068442&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/3e4/c13/f3f/3e4c13f3ff1d97250a7b892fc8e96a0a.webp",
+          "publishedAt": "2026-08-09T18:21:32.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1786290395000",
           "title": "OSINT для ленивых. Часть 16: Находим скрытую инфраструктуру компаний через Shodan",
           "summary": "Если сравнить интернет с мегаполисом, то основная видимая часть это — центральные улицы, улицы поменьше и небольшие переулочки (официальные сайты компаний, странички поменьше), ну и есть задние дворы, подвалы и техническ",
           "url": "https://habr.com/ru/articles/1068422/?utm_campaign=1068422&utm_source=habrahabr&utm_medium=rss",
@@ -187,48 +223,12 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1786288973000",
+          "id": "cybersecurity-4-1786288973000",
           "title": "Новый фреймворк моделирования угроз для LLM",
           "summary": "Совсем недавно публиковал статью о том, как легко перехватить вашего AI-агента, а сейчас Адам Шостак — отец всея threat modeling, подкинул нам готовый фреймворк моделирования угроз для LLM. Будем разбираться с чем его уп",
           "url": "https://habr.com/ru/articles/1068412/?utm_campaign=1068412&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/2ff/1d2/fa7/2ff1d2fa7d13072b6fcb948f99f16693.png",
           "publishedAt": "2026-08-09T15:22:53.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1786274794000",
-          "title": "Всё началось с таблицы Excel, которую нельзя было заполнить",
-          "summary": "7 мая одна из моделей OpenAI получила задание: достроить формулы в книге Excel. Книга ссылалась на Google Drive. Интернет у модели был отключён. Задача была нерешаема. Не сложна — нерешаема, как «нарисуй квадратный круг»",
-          "url": "https://habr.com/ru/articles/1068358/?utm_campaign=1068358&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/e12/5f7/aec/e125f7aec83780318361fd3cedb23d82.png",
-          "publishedAt": "2026-08-09T11:26:34.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1786206982000",
-          "title": "Самая опасная уязвимость — интеллект атакующего агента?",
-          "summary": "Сейчас уже не удивляет, что агенты работают с терминалом, БД, браузером и инфраструктурой - без прямого контроля человека. Но чем шире полномочия агента, тем вероятнее, что для достижения цели выбранный им путь обернётся",
-          "url": "https://habr.com/ru/articles/1068248/?utm_campaign=1068248&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2c0/856/23c/2c085623c10474894b7b20f38184d19b.png",
-          "publishedAt": "2026-08-08T16:36:22.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1786206697000",
-          "title": "Chrome скачал себе мозг: Gemini Nano локально, Ask Gemini — в облаке",
-          "summary": "В настройках Chrome появился переключатель «ИИ на устройстве». Он относится к моделям, которые запускаются прямо на компьютере, причем, для целей довольно разнообразных (в частности, даже для обнаружения мошеннических са",
-          "url": "https://habr.com/ru/articles/1068242/?utm_campaign=1068242&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/cab/fb4/a13/cabfb4a13d0113cb88d7355a39beb9de.png",
-          "publishedAt": "2026-08-08T16:31:37.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-10T00:48:40.954Z",
+      "lastFetchAt": "2026-08-10T05:14:29.543Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-10T00:48:45.054Z",
+      "lastFetchAt": "2026-08-10T05:14:32.917Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-10T00:48:47.448Z",
+      "lastFetchAt": "2026-08-10T05:14:33.743Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-10T00:48:55.820Z",
+      "lastFetchAt": "2026-08-10T05:14:35.688Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -867,7 +867,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-10T00:48:58.352Z",
+      "lastFetchAt": "2026-08-10T05:14:38.749Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -879,7 +879,7 @@
           "title": "Таганка открылась Бродвеем // В Театре на Таганке поставили «Вестсайдскую историю»",
           "summary": "Театр на Таганке открыл сезон премьерой «Вестсайдской истории», в которой культовый мюзикл Леонарда Бернстайна дополнен стихами Шекспира. Спектакль стал режиссерским дебютом Дарьи Авратинской, сыгравшей и одну из главных",
           "url": "https://www.kommersant.ru/doc/8875832",
-          "image": "https://im2.kommersant.ru/SocialPics/8875832_49_3178949_1887323740",
+          "image": "https://iv.kommersant.ru/SocialPics/8875832_49_3178949_1887323740",
           "publishedAt": "2026-08-09T17:26:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1147,7 +1147,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-09T16:19:51.275Z",
+      "lastFetchAt": "2026-08-10T05:14:43.386Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
