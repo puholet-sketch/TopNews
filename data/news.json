@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-11T06:43:47.456Z",
+  "updatedAt": "2026-08-11T08:42:04.028Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "cybersecurity",
-    "business",
-    "sports",
-    "politics",
-    "law"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
-    "startups",
+    "cybersecurity",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
+    "politics",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-11T03:24:55.876Z",
+      "lastFetchAt": "2026-08-11T08:41:49.000Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786397588000",
+          "id": "it-0-1786433195000",
+          "title": "Как мы заменили Oracle WebLogic в банке из топ-3: опыт внедрения единой платформы управления Java-приложениями",
+          "summary": "Импортозамещение сервера приложений – это не только перенос Java-систем в новую среду. Нужно сохранить привычные сценарии эксплуатации, централизовать управление и встроить решение в существующий технологический ландшафт",
+          "url": "https://habr.com/ru/companies/diasoft_company/articles/1069102/?utm_campaign=1069102&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/b14/76a/753/b1476a7530102d884940a8c2369c3287.png",
+          "publishedAt": "2026-08-11T07:26:35.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786431675000",
+          "title": "Стек отвечает «где упало», а вопрос был «что случилось»",
+          "summary": "В моей старой системе учёта валютной позиции больше двадцати лет стоял коммерческий инструмент трассировки от конторы, которая делала SoftICE. Он работал исправно, о каждой ошибке присылал письмо со стеком вызовов — и не",
+          "url": "https://habr.com/ru/articles/1068856/?utm_campaign=1068856&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f3f/be1/01d/f3fbe101d11626ccd932fc89646951ac.png",
+          "publishedAt": "2026-08-11T07:01:15.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786397588000",
           "title": "Что консоли подарили разработчикам",
           "summary": "В истории консолей были не только битвы за терафлопсы и священные войны фанатов у кого спрайты квадратнее, но еще и подарки для индустрии разработки, самим фанатам, и отдельно разработчикам, которые сначала выглядели как",
           "url": "https://habr.com/ru/articles/1062040/?utm_campaign=1062040&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786393521000",
+          "id": "it-3-1786393521000",
           "title": "RSS вырос до 3 ГБ, а tracemalloc показывает 180 МБ: как найти остальные 2,8",
           "summary": "RSS растёт к лимиту контейнера, tracemalloc показывает прежние 180 МБ, а gc.collect() ничего не меняет. Разберём, как в такой ситуации отделить утечку Python-объектов от нативных аллокаций и удержания памяти системным ал",
           "url": "https://habr.com/ru/companies/otus/articles/1068476/?utm_campaign=1068476&utm_source=habrahabr&utm_medium=rss",
@@ -59,36 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786383350000",
+          "id": "it-4-1786383350000",
           "title": "Пятнадцать месяцев финтеха агентами: кривая качества по всей истории проекта",
           "summary": "У меня 12 лет опыта в Go. И я больше не имею права назвать себя программистом: мой код не пройдёт ту планку качества, которую я выставил для своих агентов. Хотя честнее так: они сами её выставили, я лишь ставил цели. Зая",
           "url": "https://habr.com/ru/articles/1068920/?utm_campaign=1068920&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/f73/de5/9b2/f73de59b28cf3db4f20e43ae10d99435.png",
           "publishedAt": "2026-08-10T17:35:50.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786366830000",
-          "title": "Платформа — не самоцель: когда ML-разработку стоит унифицировать, а когда лучше остановиться, обсудили на «ИТ-Пикнике»",
-          "summary": "Машинное обучение часто воспринимают как работу над моделью: есть данные, алгоритм, обучение и результат. В крупных компаниях основная сложность постепенно перемещается в другое место. Одни и те же данные приходится гото",
-          "url": "https://habr.com/ru/companies/ru_mts/articles/1068756/?utm_campaign=1068756&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/283/675/c08/283675c08115074d4032c2e0f6033860.png",
-          "publishedAt": "2026-08-10T13:00:30.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786364268000",
-          "title": "Костыль на костыле: как я больше двадцати лет лечил остатки вместо того, чтобы найти причину",
-          "summary": "В любой системе, где есть остаток, счётчик или итог, рано или поздно встаёт один и тот же выбор. Либо считать величину заново при каждом обращении к ней, либо хранить готовой и подправлять при каждом изменении исходных д",
-          "url": "https://habr.com/ru/articles/1068786/?utm_campaign=1068786&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/49f/c22/b96/49fc22b9674a8769e410ec555b7e8054.png",
-          "publishedAt": "2026-08-10T12:17:48.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-11T03:24:59.076Z",
+      "lastFetchAt": "2026-08-11T08:41:52.284Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -315,7 +315,31 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1786375176000",
+          "id": "startups-0-1786430226000",
+          "title": "Wildberries сообщил об атаке беспилотников на склад в Воронежской области",
+          "summary": "По словам компании, пожар в здании «ликвидирован», а товары «преимущественно не пострадали».",
+          "url": "https://vc.ru/money/3072526-wildberries-ataka-na-sklad-v-voronezhskoj-oblasti?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3072526/1786437711/cover.jpg",
+          "publishedAt": "2026-08-11T06:37:06.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1786430682000",
+          "title": "YouTube вдвое увеличил требования к количеству просмотров для подключения монетизации",
+          "summary": "Правила начнут действовать с 1 февраля 2027 года, но не затронут действующих участников программы.",
+          "url": "https://vc.ru/services/3072500-youtube-uvelichil-trebovaniya-dlya-monetizatsii?from=rss",
+          "image": "https://leonardo.osnova.io/b2583844-22e3-5cf2-b9e1-eab286fcd216/",
+          "publishedAt": "2026-08-11T06:44:42.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1786375176000",
           "title": "«Дикий Запад» соцсетей: кто и зачем покупает и перепродаёт аккаунты",
           "summary": "Учётные записи в TikTok, на YouTube и других платформах выставляют на специальных маркетплейсах и закрытых форумах за тысячи долларов, рассказывает колумнист Financial Times Мадлен Райт.",
           "url": "https://vc.ru/social/3070987-pereprodazha-akkauntov-v-sotssetyakh?from=rss",
@@ -327,48 +351,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786374548000",
-          "title": "НСПК предупредила о «сложностях» при оплате картами Visa и Mastercard на российских сайтах и порекомендовала заменить их на карты «Мир»",
-          "summary": "Из-за перехода на российские сертификаты безопасности для сайтов и сервисов НСПК.",
-          "url": "https://vc.ru/money/3071780-nspk-predupredila-o-slozhnostyakh-s-visa-i-mastercard?from=rss",
-          "image": "https://leonardo.osnova.io/fe6a12e8-d8ea-5b55-9873-748379346d25/",
-          "publishedAt": "2026-08-10T15:09:08.000Z",
+          "id": "startups-3-1786434132000",
+          "title": "Отчёт «Т-Технологий» за квартал: выручка — 216,8 млрд рублей, операционная чистая прибыль — 52,1 млрд рублей",
+          "summary": "Компания представила финансовые результаты за второй квартал 2026 года.",
+          "url": "https://vc.ru/money/3072591-finansovye-rezultaty-t-tehnologiy?from=rss",
+          "image": "https://leonardo.osnova.io/1bdbf039-ccae-5762-b5d7-39f1234f0e76/",
+          "publishedAt": "2026-08-11T07:42:12.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786363527000",
-          "title": "Специалист по безопасности разработал узоры, «невидимые» для камер с системами распознавания",
-          "summary": "Их можно использовать в одежде или для окраски машин.",
-          "url": "https://vc.ru/services/3071307-uzory-dlya-odezhdy-i-avtomobiley-nevidimye-dlya-kamer-raspoznavaniya?from=rss",
-          "image": "https://leonardo.osnova.io/0d119060-3a03-5f36-92aa-e9f1dae7cb72/",
-          "publishedAt": "2026-08-10T12:05:27.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1786370288000",
+          "id": "startups-4-1786370288000",
           "title": "Федеральное управление гражданской авиации США в апреле 2026 запустило направленную на геймеров рекламу для набора авиадиспетчеров — за несколько месяцев наём закрыли на 94%",
           "summary": "Всего наняли 2000 человек.",
           "url": "https://vc.ru/marketing/3071525-faa-reklama-dlya-gejmerov-nabor-aviadispetcherov?from=rss",
           "image": "https://leonardo.osnova.io/5aa3d735-e68f-56aa-9241-2f5f26f3e835/-/resize/1300/",
           "publishedAt": "2026-08-10T13:58:08.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786339800000",
-          "title": "День 1629: оборот рублёвого стейблкоина А7А5 достиг почти $140 млрд",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/money/3070647-oborot-rublevogo-stejblkoyna-a7a5?from=rss",
-          "image": "https://leonardo.osnova.io/bb2d432c-4736-5b1d-9f0d-7008074b6a90/",
-          "publishedAt": "2026-08-10T05:30:00.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-11T03:25:03.098Z",
+      "lastFetchAt": "2026-08-11T08:41:56.126Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-11T03:25:04.085Z",
+      "lastFetchAt": "2026-08-11T08:41:56.720Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +595,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1786388400000",
+          "id": "environment-0-1786433520000",
+          "title": "Воздействие фталатов связали с повышением артериального давления у беременных",
+          "summary": "Воздействие фталатов связали с повышением артериального давления у беременных",
+          "url": "https://nplus1.ru/news/2026/08/11/phtalates-pressure",
+          "image": "https://minio.nplus1.ru/app-images/1128082/conversions/6a7a311265b65_cover-share.png",
+          "publishedAt": "2026-08-11T07:32:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1786388400000",
           "title": "Тетрафторид углерода в дыхательной смеси снизил тяжесть кессонной болезни у свиней",
           "summary": "Тетрафторид углерода в дыхательной смеси снизил тяжесть кессонной болезни у свиней",
           "url": "https://nplus1.ru/news/2026/08/10/carbon-tetrafluoride",
@@ -607,7 +619,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1786374000000",
+          "id": "environment-2-1786374000000",
           "title": "Карта щекотки не совпала с картами боли, прикосновения и удовольствия",
           "summary": "Карта щекотки не совпала с картами боли, прикосновения и удовольствия",
           "url": "https://nplus1.ru/news/2026/08/10/ticklishness-common",
@@ -619,7 +631,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1786367160000",
+          "id": "environment-3-1786367160000",
           "title": "Журавлиный ястреб достал семь воробьиных гнезд из уличных фонарей",
           "summary": "Журавлиный ястреб достал семь воробьиных гнезд из уличных фонарей",
           "url": "https://nplus1.ru/news/2026/08/10/geranospiza-caerulescens",
@@ -631,24 +643,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1786364040000",
+          "id": "environment-4-1786364040000",
           "title": "Кандидат в рекордно далекую галактику оказался очень холодным коричневым карликом",
           "summary": "Кандидат в рекордно далекую галактику оказался очень холодным коричневым карликом",
           "url": "https://nplus1.ru/news/2026/08/10/capotauro-not-galaxy",
           "image": "https://minio.nplus1.ru/app-images/1127977/conversions/6a79aef940fd6_cover-share.png",
           "publishedAt": "2026-08-10T12:14:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1786359780000",
-          "title": "Песни амадин подчинились закону Ципфа",
-          "summary": "Песни амадин подчинились закону Ципфа",
-          "url": "https://nplus1.ru/news/2026/08/10/zipfian-distribution-in-birdsong",
-          "image": "https://minio.nplus1.ru/app-images/1127861/conversions/6a7998753232d_cover-share.png",
-          "publishedAt": "2026-08-10T11:03:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -797,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-11T03:25:05.951Z",
+      "lastFetchAt": "2026-08-11T08:41:58.334Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786397588000",
+          "id": "gaming-0-1786435280000",
+          "title": "Что происходит с игрой, пока идет «Сохранение...»",
+          "summary": "Сохранение в играх — настолько привычная и базовая вещь, что многие воспринимают ее как нечто само собой разумеющееся и не особо хитрое. Открыли сундук, сменили локацию, вышли из дома персонажа, победили босса — и в углу",
+          "url": "https://habr.com/ru/companies/selectel/articles/1068642/?utm_campaign=1068642&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/560/90d/0a5/56090d0a5ade945d5d496a05fd7562e8.png",
+          "publishedAt": "2026-08-11T08:01:20.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786397588000",
           "title": "Что консоли подарили разработчикам",
           "summary": "В истории консолей были не только битвы за терафлопсы и священные войны фанатов у кого спрайты квадратнее, но еще и подарки для индустрии разработки, самим фанатам, и отдельно разработчикам, которые сначала выглядели как",
           "url": "https://habr.com/ru/articles/1062040/?utm_campaign=1062040&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786383937000",
+          "id": "gaming-2-1786383937000",
           "title": "Как мой младший сын сломал мою настолку четырьмя кибер-полицейскими",
           "summary": "Мой младший сын кидает кубик. В пятый раз подряд. На поле — четыре фишки «Кибер-полицейский». Они уже лежат там, занимают клетки, перекрывают проходы. Он не сжимает их в руке — они часть игрового пространства. Но именно ",
           "url": "https://habr.com/ru/articles/1068930/?utm_campaign=1068930&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786369298000",
+          "id": "gaming-3-1786369298000",
           "title": "Как слить GTA 6 глазами безопасника. Часть 1",
           "summary": "Привет! В сентябре 2022 года в сеть попали 90 видеороликов ранней GTA VI. Разбираем громкую утечку Rockstar Games как детектив: как это стало возможным, почему атака сработала и какие выводы из этой истории можно сделать",
           "url": "https://habr.com/ru/articles/1068828/?utm_campaign=1068828&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1786284307000",
+          "id": "gaming-4-1786284307000",
           "title": "Starship Troopers 2005 vs Ultimate Bug War: разбор двух главных шутеров по культовой франшизе",
           "summary": "‎Ладно, шучу, это не вся заметка. Просто недавно франшиза «Звездный десант» пополнилась добротным бумер-шутером Starship Troopers: Ultimate Bug War!. Игра сама по себе хороша, но дело в том, что это не первый шутер от пе",
           "url": "https://habr.com/ru/companies/timeweb/articles/1068386/?utm_campaign=1068386&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1786176010000",
-          "title": "Погружение в создание приставки для Microsoft MakeCode Arcade",
-          "summary": "В прошлой статье я рассказывал, как делал Arduboy WOW с применением модулей, но помимо Arduboy мне еще почти также сильно интересовала платформа Microsoft MakeCode Arcade и мне захотелось повторить тоже самое, но с ней. ",
-          "url": "https://habr.com/ru/articles/1056210/?utm_campaign=1056210&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/6f5/468/ef2/6f5468ef2391ec4303fa2b9b597a87b0.jpg",
-          "publishedAt": "2026-08-08T08:00:10.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-11T03:25:08.659Z",
+      "lastFetchAt": "2026-08-11T08:42:04.028Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,9 +875,21 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786406427000",
+          "id": "entertainment-0-1786436459000",
+          "title": "Актриса из «31 июня» Наталья Трубникова умерла в возрасте 71 года",
+          "summary": "Балерина и актриса Наталья Трубникова умерла на 72-м году жизни. Об этом сообщает «Пятый канал» со ссылкой на источники.",
+          "url": "https://www.kommersant.ru/doc/8877003",
+          "image": "https://im2.kommersant.ru/SocialPics/8877003_49_3180031_1709408321",
+          "publishedAt": "2026-08-11T08:20:59.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786406427000",
           "title": "ТАСС узнал о трех кандидатах на должность ректора ГИТИС",
-          "summary": "На должность ректора Российского института театрального искусства — ГИТИС рассматриваются три кандидата, сообщает ТАСС со ссылкой на источник в театральных кругах. По информации агентства, главными претендентами стали: х",
+          "summary": "На должность ректора Российского института театрального искусства (ГИТИС) рассматриваются три кандидата, сообщает ТАСС со ссылкой на источник в театральных кругах. По информации агентства, главными претендентами стали: х",
           "url": "https://www.kommersant.ru/doc/8876773",
           "image": "https://im2.kommersant.ru/SocialPics/8876773_49_0_1018021573",
           "publishedAt": "2026-08-11T00:00:27.000Z",
@@ -887,7 +899,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786373222000",
+          "id": "entertainment-2-1786373222000",
           "title": "Черным по черному // Продолжается кинофестиваль в Локарно",
           "summary": "В швейцарском Локарно идут просмотры конкурсной программы 79-го Международного кинофестиваля. Впечатлениями от увиденных фильмов, в которых много убийств и совсем немного света, делится Андрей Плахов.",
           "url": "https://www.kommersant.ru/doc/8876554",
@@ -899,11 +911,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786365898000",
+          "id": "entertainment-3-1786365898000",
           "title": "Яблочный спазм // В Инсбруке восстановили самую грандиозную оперу XVII века",
           "summary": "Инсбрукский фестиваль «Недели старинной музыки» (Festwochen der Alten Musik), один из главных мировых форумов соответствующего профиля, отмечает 50-летие. В честь юбилея фестиваль затеял максимально амбициозный проект: п",
           "url": "https://www.kommersant.ru/doc/8876404",
-          "image": "https://im2.kommersant.ru/SocialPics/8876404_49_3179554_1598441700",
+          "image": "https://iv.kommersant.ru/SocialPics/8876404_49_3179554_1598441700",
           "publishedAt": "2026-08-10T12:44:58.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -911,24 +923,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1786363343000",
+          "id": "entertainment-4-1786363343000",
           "title": "В Лас-Вегасе начинается суд по делу об убийстве Тупака Шакура",
           "summary": "В Лас-Вегасе начинается судебный процесс по делу об убийстве рэпера Тупака Шакура. Как сообщает The Guardian, суд продлится около месяца и может закончиться к 30-й годовщине убийства музыканта — в него стреляли 7 сентябр",
           "url": "https://www.kommersant.ru/doc/8876405",
-          "image": "https://im2.kommersant.ru/SocialPics/8876405_49_3179526_1863207910",
+          "image": "https://iv.kommersant.ru/SocialPics/8876405_49_3179526_1863207910",
           "publishedAt": "2026-08-10T12:02:23.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786339410000",
-          "title": "«Одиссея» стала самым кассовым фильмом Кристофера Нолана",
-          "summary": "Фильм «Одиссея» заработал в мировом прокате $1,104 млрд. Кинолента стала самым кассовым фильмом Кристофера Нолана, сообщает The Guardian.",
-          "url": "https://www.kommersant.ru/doc/8876005",
-          "image": "https://im2.kommersant.ru/SocialPics/8876005_49_0_1662040505",
-          "publishedAt": "2026-08-10T05:23:30.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
