@@ -4,10 +4,17 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import type { SourceCategory } from "@/lib/types";
+import { getCategoryColor, getFreshnessLabel } from "@/lib/news";
 
-export function Header({ sources }: { sources: SourceCategory[] }) {
+interface HeaderProps {
+  sources: SourceCategory[];
+  updatedAt: string | null;
+}
+
+export function Header({ sources, updatedAt }: HeaderProps) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const freshness = getFreshnessLabel(updatedAt);
 
   return (
     <header className="site-header">
@@ -18,6 +25,11 @@ export function Header({ sources }: { sources: SourceCategory[] }) {
           </span>
           <span className="brand-tag">20 тем · топ-5</span>
         </Link>
+
+        <div className="header-status" title={updatedAt ? new Date(updatedAt).toLocaleString("ru-RU") : ""}>
+          <span className={`status-dot ${freshness === "обновлено недавно" ? "live" : ""}`} />
+          {freshness}
+        </div>
 
         <button
           className="menu-toggle"
@@ -49,7 +61,9 @@ export function Header({ sources }: { sources: SourceCategory[] }) {
                 href={href}
                 className={`topic-link ${active ? "active" : ""}`}
                 onClick={() => setOpen(false)}
+                style={{ "--cat-accent": getCategoryColor(s.slug) } as React.CSSProperties}
               >
+                <span className="topic-dot" aria-hidden="true" />
                 {s.name}
               </Link>
             );

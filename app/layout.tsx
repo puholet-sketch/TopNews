@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { getSources } from "@/lib/news";
+import { getNewsData, getSources } from "@/lib/news";
 
 export const metadata: Metadata = {
   title: {
@@ -21,11 +21,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const sources = getSources();
+  const data = getNewsData();
 
   return (
     <html lang="ru">
       <body>
-        <Header sources={sources} />
+        <Header sources={sources} updatedAt={data.updatedAt} />
         <main id="content">{children}</main>
         <Footer />
       </body>

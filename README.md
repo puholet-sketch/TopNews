@@ -1,32 +1,23 @@
 # TopNews
 
-Автоагрегатор топ-новостей на **русском**: **20 тем × 5 новостей**.
-
 **Сайт:** https://puholet-sketch.github.io/TopNews/
 
-## Почему не было картинок
+## Почему «ломалась» сборка
 
-RSS многих источников (МедРоссия, агентства) не отдают `media:`/`enclosure`. Теперь сборщик:
-1. берёт картинку из RSS;
-2. если нет — парсит `og:image` / `twitter:image` со страницы;
-3. в UI есть SVG-fallback, чтобы сетка не ломалась.
+1. **Сайт не обновлялся** — `collect-news` коммитил `data/news.json`, но коммиты от `GITHUB_TOKEN` не запускают другие workflow. Деплой последний раз был 26 июля, хотя новости в репозитории обновлялись каждые 2 часа.
+2. **Исправление** — `collect-news.yml` теперь собирает новости, коммитит и **сразу деплоит** на GitHub Pages в одном workflow.
 
 ## Запуск
 
 ```bash
-cd D:\TopNews
 npm install
 npm run collect:force
 npm run dev
 ```
 
-## Автономность
+## Workflows
 
-| Workflow | Расписание | Действие |
-|----------|------------|----------|
-| `collect-news.yml` | каждые 2 часа | обновляет `data/news.json` |
-| `deploy.yml` | push в `main` | collect:force → build → GitHub Pages |
-
-## UI
-
-Редакционная витрина (BBC / Reuters / The Verge): светлая палитра, serif-заголовки, lead + side stack, тематические блоки, мобильное меню, relative time.
+| Workflow | Когда | Что делает |
+|----------|-------|------------|
+| `collect-news.yml` | каждые 2 ч | collect → commit → build → deploy |
+| `deploy.yml` | push в main | collect:force → build → deploy (при изменениях кода) |

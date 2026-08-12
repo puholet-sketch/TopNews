@@ -67,6 +67,41 @@ export function formatRelative(dateStr: string): string {
   return formatDate(dateStr);
 }
 
+const CATEGORY_COLORS: Record<string, string> = {
+  it: "#2563eb",
+  ai: "#7c3aed",
+  cybersecurity: "#dc2626",
+  business: "#059669",
+  startups: "#d97706",
+  science: "#0891b2",
+  medicine: "#e11d48",
+  health: "#db2777",
+  environment: "#16a34a",
+  energy: "#ca8a04",
+  space: "#4338ca",
+  automotive: "#475569",
+  gaming: "#9333ea",
+  entertainment: "#f97316",
+  sports: "#0284c7",
+  politics: "#991b1b",
+  education: "#0d9488",
+  law: "#57534e",
+  realestate: "#854d0e",
+  travel: "#0369a1",
+};
+
+export function getCategoryColor(slug: string): string {
+  return CATEGORY_COLORS[slug] || "#0b5fff";
+}
+
+export function getFreshnessLabel(updatedAt: string | null): string {
+  if (!updatedAt) return "данные не загружены";
+  const hours = (Date.now() - new Date(updatedAt).getTime()) / 3600000;
+  if (hours < 3) return "обновлено недавно";
+  if (hours < 12) return "данные актуальны";
+  return "требуется обновление";
+}
+
 export function imageFallback(seed: string): string {
   const palette = ["1a365d", "234e52", "744210", "553c9a", "9b2c2c", "276749"];
   let hash = 0;

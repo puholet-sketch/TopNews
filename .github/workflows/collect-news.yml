@@ -7,10 +7,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: news-and-pages
+  cancel-in-progress: false
 
 jobs:
-  collect:
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -22,7 +31,19 @@ jobs:
       - run: npm ci
       - run: npm run collect
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - id: auto-commit
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update news feed"
           file_pattern: data/news.json
+
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /TopNews
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

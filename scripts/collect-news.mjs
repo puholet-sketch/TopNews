@@ -17,7 +17,7 @@ const HEADERS = {
 };
 
 const parser = new Parser({
-  requestOptions: { headers: HEADERS, timeout: 25000 },
+  requestOptions: { headers: HEADERS, timeout: 45000 },
   customFields: {
     item: [
       ["media:content", "mediaContent", { keepArray: true }],
@@ -177,7 +177,7 @@ async function fetchCategory(category) {
         const filtered = items.filter((item) =>
           matchesKeywords(item, category.keywordFilter)
         );
-        items = filtered.length > 0 ? filtered : items;
+        items = filtered.length >= Math.min(3, category.topCount) ? filtered : items;
       }
 
       items = items.slice(0, category.topCount);

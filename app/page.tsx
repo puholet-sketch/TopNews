@@ -22,11 +22,11 @@ export default function HomePage() {
     <>
       <section className="hero">
         <div className="container">
-          <p className="hero-kicker">Live news desk</p>
-          <h1>TopNews</h1>
+          <p className="hero-kicker">Автоагрегатор · 20 тем</p>
+          <h1>Свежие новости на русском</h1>
           <p className="hero-lead">
-            Топ-5 свежих материалов по 20 темам — от IT и науки до медицины и
-            спорта. Только русскоязычные источники, автосбор по расписанию.
+            Топ-5 материалов по каждой теме — IT, медицина, наука, спорт и ещё 16
+            направлений. Сбор каждые 2–12 часов, публикация автоматически.
           </p>
           <div className="hero-meta">
             <span className="meta-pill">{articles.length} материалов</span>
