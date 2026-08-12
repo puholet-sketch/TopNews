@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-08-12T18:44:39.845Z",
+  "updatedAt": "2026-08-12T20:30:03.678Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "politics"
+    "education",
+    "realestate",
+    "travel"
   ],
   "skippedNow": [
     "it",
+    "ai",
     "cybersecurity",
+    "business",
     "startups",
+    "science",
     "medicine",
+    "health",
     "environment",
+    "energy",
+    "space",
+    "automotive",
     "gaming",
     "entertainment",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "sports",
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
@@ -1147,7 +1147,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-12T12:02:25.732Z",
+      "lastFetchAt": "2026-08-12T20:30:01.371Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1155,7 +1155,19 @@
       "slug": "education",
       "articles": [
         {
-          "id": "education-0-1786528763000",
+          "id": "education-0-1786554838000",
+          "title": "Google представила смартфоны Pixel 11, 11 Pro, 11 Pro XL и «раскладушку» Pixel 11 Pro Fold",
+          "summary": "На чипе Tensor G6 и со световым индикатором HiLight возле блока камер.",
+          "url": "https://vc.ru/tech/3075232-google-predstavila-smartfony-pixel-11-i-pixel-11-pro-fold?from=rss",
+          "image": "https://leonardo.osnova.io/25a3e078-0694-59ed-bcf6-7bb9dad8954c/",
+          "publishedAt": "2026-08-12T17:13:58.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-1-1786528763000",
           "title": "Приложение «Ozon Банка» пропало из Google Play",
           "summary": "Накануне из App Store удалили «Яндекс Пэй».",
           "url": "https://vc.ru/money/3074941-prilozhenie-ozon-bank-propalo-iz-google-play?from=rss",
@@ -1167,48 +1179,36 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1786534517000",
-          "title": "Oracle запланировала новый раунд сокращений на фоне роста расходов на инфраструктуру для ИИ — Business Insider",
-          "summary": "Весной 2026 года компания уволила около 30 тысяч сотрудников.",
-          "url": "https://vc.ru/hr/3075108-oracle-zaplanirovala-novyi-raund-sokrashenii-na-fone-rosta-rashodov-na-infrastrukturu-dlya-ii-business-insider?from=rss",
-          "image": "https://leonardo.osnova.io/b0cd9c87-26ea-506d-92df-92e097d40f1a/",
-          "publishedAt": "2026-08-12T11:35:17.000Z",
+          "id": "education-2-1786557967000",
+          "title": "Google официально представила маячок Pixel Tag — аналог AirTag",
+          "summary": "В продажу поступит в ноябре 2026 года по цене $29.",
+          "url": "https://vc.ru/tech/3075802-google-predstavila-pixel-tag?from=rss",
+          "image": "https://leonardo.osnova.io/5f28b46b-cba8-5368-a37b-6530f79462e9/",
+          "publishedAt": "2026-08-12T18:06:07.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-2-1786527752000",
-          "title": "«VK Видео» изменит правила подключения к монетизации — нужны 1000 подписчиков и 500 часов просмотра за 90 дней",
-          "summary": "Раньше требовалось 5000 подписчиков.",
-          "url": "https://vc.ru/services/3074858-vk-video-izmenenie-pravil-monetizatsii?from=rss",
-          "image": "https://leonardo.osnova.io/16c1dff4-17f0-5be3-ab5c-c5faa405d95c/",
-          "publishedAt": "2026-08-12T09:42:32.000Z",
+          "id": "education-3-1786542083000",
+          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
+          "summary": "Продаётся пока лишь в Китае.",
+          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
+          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
+          "publishedAt": "2026-08-12T13:41:23.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1786492120000",
-          "title": "Приложение «Яндекс Пэй» удалили из App Store",
-          "summary": "Оно продолжает работать как раньше, но обновить его «пока не получится».",
-          "url": "https://vc.ru/money/3074227-udaleniye-prilozheniya-yandeks-pay-iz-app-store?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3074227/1786536142/cover.jpg",
-          "publishedAt": "2026-08-11T23:48:40.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-4-1786451190000",
-          "title": "«Сбер» отменил комиссии за переводы между клиентами банка — раньше действовал безлимит в 50 тысяч рублей",
-          "summary": "Отменить комиссии банк призывали в ЦБ.",
-          "url": "https://vc.ru/money/3073279-sber-otmenil-komissii-za-perevody-mezhdu-klientami-banka?from=rss",
-          "image": "https://leonardo.osnova.io/068686e8-b216-5bcd-b46f-c4ce26d72439/",
-          "publishedAt": "2026-08-11T12:26:30.000Z",
+          "id": "education-4-1786540574000",
+          "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
+          "summary": "Акции на премаркете растут почти на 17%.",
+          "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
+          "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
+          "publishedAt": "2026-08-12T13:16:14.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1287,7 +1287,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-12T12:02:26.751Z",
+      "lastFetchAt": "2026-08-12T20:30:02.948Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1357,7 +1357,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-12T12:02:26.864Z",
+      "lastFetchAt": "2026-08-12T20:30:03.678Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1365,7 +1365,31 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1786529945000",
+          "id": "travel-0-1786545964000",
+          "title": "Российский синхронист завоевал золото на Чемпионате Европы",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/12/1220704-sinhronist-zavoeval-zoloto",
+          "image": "https://cdn.vdmsti.ru/image/2026/68/121e3p/normal-1daq.png",
+          "publishedAt": "2026-08-12T14:46:04.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1786535051000",
+          "title": "В России запустили опен-колл для писателей на тему «Ненужные люди»",
+          "summary": "Авторам предложат переосмыслить образ «маленького человека» в литературе",
+          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/12/1220621-open-koll-pisatelei",
+          "image": "https://cdn.vdmsti.ru/image/2026/68/vf1na/normal-14pv.jpg",
+          "publishedAt": "2026-08-12T11:44:11.000Z",
+          "source": "Ведомости",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1786529945000",
           "title": "Инстасамка опровергла свой переезд и уход с российской сцены",
           "summary": "",
           "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/12/1220577-instasamka-oprovergla",
@@ -1377,7 +1401,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1786469747000",
+          "id": "travel-3-1786469747000",
           "title": "Российский пловец занял второе место на стометровке на чемпионате Европы",
           "summary": "",
           "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/11/1220428-plovets-zanyal-vtoroe-mesto",
@@ -1389,36 +1413,12 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1786458751000",
+          "id": "travel-4-1786458751000",
           "title": "Инстасамка заявила, что покидает российский шоу-бизнес и Россию",
           "summary": "Она не планирует возвращаться и будет делать музыку на английском языке",
           "url": "https://www.vedomosti.ru/society/news/2026/08/11/1220380-instasamka-pokidaet-rossiyu",
           "image": "https://cdn.vdmsti.ru/image/2026/67/11hf7s/normal-1ckv.png",
           "publishedAt": "2026-08-11T14:32:31.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1786435156000",
-          "title": "Трамп выступил против отставки главы ФИФА Инфантино",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/11/1220241-tramp-infantino",
-          "image": "https://cdn.vdmsti.ru/image/2026/67/nczbv/normal-u9x.jpg",
-          "publishedAt": "2026-08-11T07:59:16.000Z",
-          "source": "Ведомости",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1786384002000",
-          "title": "Россиянин Бородин выиграл золото чемпионата Европы по плаванию",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/lifestyle/news/2026/08/10/1220137-borodin-viigral-zoloto",
-          "image": "https://cdn.vdmsti.ru/image/2026/66/18he6m/normal-1lne.png",
-          "publishedAt": "2026-08-10T17:46:42.000Z",
           "source": "Ведомости",
           "categoryId": "travel",
           "categoryName": "Путешествия",
