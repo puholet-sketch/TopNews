@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-12T14:49:20.507Z",
+  "updatedAt": "2026-08-12T16:45:00.984Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-12T12:02:18.655Z",
+      "lastFetchAt": "2026-08-12T16:43:50.310Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786535977000",
+          "id": "it-0-1786542150000",
+          "title": "Заметки о том, как я писал SFU на Rust (2 часть)",
+          "summary": "Продолжаем изучать, как устроен SFU изнутри: добавляем simulcast, ice restart и мониторинг сети. Дневник разработки на Rust. Читать далее",
+          "url": "https://habr.com/ru/articles/1060434/?utm_campaign=1060434&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/b25/8cd/70b/b258cd70ba66cc6f21cc2331227f47fa.jpg",
+          "publishedAt": "2026-08-12T13:42:30.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786535977000",
           "title": "[Перевод] wake up: демо в 16 байтах",
           "summary": "В детстве я учился программированию на старом IBM PC с монохромным зелёным монитором, поэтому давно хотел создать программу для этой системы. За последние пятнадцать лет я написал более чем сотню небольших интро. В после",
           "url": "https://habr.com/ru/articles/1067818/?utm_campaign=1067818&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786530739000",
+          "id": "it-2-1786530739000",
           "title": "[Перевод] Чему мы научились, написав на Rust среду выполнения для TypeScript",
           "summary": "Encore зародился как фреймворк на Go, и на Go там были написаны среда выполнения, интерфейс командной строки (CLI), парсер и компилятор. Когда мы решили поддерживать TypeScript, логичнее всего было бы написать на TypeScr",
           "url": "https://habr.com/ru/articles/1069636/?utm_campaign=1069636&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786529157000",
+          "id": "it-3-1786529157000",
           "title": "Async на Rust завис: как понять, где именно, когда паники нет и стек молчит",
           "summary": "Сервис жив, CPU в норме, паники нет — а часть запросов зависает на минуты. В async‑Rust привычный стек часто мало помогает: задача могла застрять на блокирующем вызове, мьютексе или просто перестать получать пробуждения.",
           "url": "https://habr.com/ru/companies/otus/articles/1065590/?utm_campaign=1065590&utm_source=habrahabr&utm_medium=rss",
@@ -71,24 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786525552000",
+          "id": "it-4-1786525552000",
           "title": "Куда на самом деле попадает секрет при сборке Docker-образа: разбираем 8 способов",
           "summary": "Секрет попал в Dockerfile, разработчик спохватился и добавил RUN rm. Файла в контейнере больше нет — значит, всё в порядке? Нет: строку по-прежнему можно достать из образа, даже не запуская контейнер. Я собрала восемь об",
           "url": "https://habr.com/ru/companies/first/articles/1068864/?utm_campaign=1068864&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/cfb/256/79a/cfb25679a3fba53d8342a86ce755ae0d.png",
           "publishedAt": "2026-08-12T09:05:52.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786525165000",
-          "title": "Как я индексировал экосистему MCP: 9 источников, 80 000 серверов и куча нюансов",
-          "summary": "Полтора года назад MCP-серверов были десятки, сейчас десятки тысяч. Найти нужный стало отдельной задачей: официальный реестр хранит голые метаданные, awesome-списки устаревают за неделю, а у большинства каталогов нет гла",
-          "url": "https://habr.com/ru/articles/1069588/?utm_campaign=1069588&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c0c/8da/3af/c0c8da3affe22023453b67d552b5a7d6.png",
-          "publishedAt": "2026-08-12T08:59:25.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-12T12:02:21.517Z",
+      "lastFetchAt": "2026-08-12T16:43:52.006Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,10 +327,34 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786534517000",
+          "id": "startups-1-1786540574000",
+          "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
+          "summary": "Акции на премаркете растут почти на 17%.",
+          "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
+          "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
+          "publishedAt": "2026-08-12T13:16:14.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1786542083000",
+          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
+          "summary": "Продаётся пока лишь в Китае.",
+          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
+          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
+          "publishedAt": "2026-08-12T13:41:23.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1786534517000",
           "title": "Oracle запланировала новый раунд сокращений на фоне роста расходов на инфраструктуру для ИИ — Business Insider",
           "summary": "Весной 2026 года компания уволила около 30 тысяч сотрудников.",
-          "url": "https://vc.ru/hr/3075108-oracle-zaplanirovala-novyi-raund-sokrashenii-na-fone-rosta-rashodov-na-infrastrukturu-dlya-ii-business-insider?from=rss",
+          "url": "https://vc.ru/hr/3075108-oracle-planiruet-novye-sokrashcheniya-na-fone-rosta-raskhodov-na-ii?from=rss",
           "image": "https://leonardo.osnova.io/b0cd9c87-26ea-506d-92df-92e097d40f1a/",
           "publishedAt": "2026-08-12T11:35:17.000Z",
           "source": "VC.ru",
@@ -339,36 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786527752000",
+          "id": "startups-4-1786527752000",
           "title": "«VK Видео» изменит правила подключения к монетизации — нужны 1000 подписчиков и 500 часов просмотра за 90 дней",
           "summary": "Раньше требовалось 5000 подписчиков.",
           "url": "https://vc.ru/services/3074858-vk-video-izmenenie-pravil-monetizatsii?from=rss",
           "image": "https://leonardo.osnova.io/16c1dff4-17f0-5be3-ab5c-c5faa405d95c/",
           "publishedAt": "2026-08-12T09:42:32.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1786492120000",
-          "title": "Приложение «Яндекс Пэй» удалили из App Store",
-          "summary": "Оно продолжает работать как раньше, но обновить его «пока не получится».",
-          "url": "https://vc.ru/money/3074227-udaleniye-prilozheniya-yandeks-pay-iz-app-store?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3074227/1786536138/cover.jpg",
-          "publishedAt": "2026-08-11T23:48:40.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786451190000",
-          "title": "«Сбер» отменил комиссии за переводы между клиентами банка — раньше действовал безлимит в 50 тысяч рублей",
-          "summary": "Отменить комиссии банк призывали в ЦБ.",
-          "url": "https://vc.ru/money/3073279-sber-otmenil-komissii-za-perevody-mezhdu-klientami-banka?from=rss",
-          "image": "https://leonardo.osnova.io/068686e8-b216-5bcd-b46f-c4ce26d72439/",
-          "publishedAt": "2026-08-11T12:26:30.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-12T12:02:21.825Z",
+      "lastFetchAt": "2026-08-12T16:43:53.830Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -455,7 +455,43 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786531702000",
+          "id": "medicine-0-1786548600000",
+          "title": "Врач предупредила о скрытых провокаторах рака легких",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/12/vrach-predupredila-o-skrytyh-provokatorah-raka-legkih/",
+          "image": "https://icdn.lenta.ru/images/2026/08/12/15/20260812150731019/pic_5139e5f08919fe68927ab0a48ac39932.jpg",
+          "publishedAt": "2026-08-12T15:30:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786544994000",
+          "title": "Лекарства призвали не хранить в двух комнатах",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/12/lekarstva-prizvali-ne-hranit-v-dvuh-komnatah/",
+          "image": "https://icdn.lenta.ru/images/2026/08/11/11/20260811111330395/pic_e520684f4e20141df28cc09fb59981ae.jpg",
+          "publishedAt": "2026-08-12T14:29:54.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-2-1786542720000",
+          "title": "Врач объяснила изменения во внешности Пугачевой на фото с фестиваля в Юрмале",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/12/vrach-ob-yasnila-izmeneniya-vo-vneshnosti-pugachevoy-na-foto-s-festivalya-v-yurmale/",
+          "image": "https://icdn.lenta.ru/images/2026/08/12/14/20260812143540230/pic_e7e7ebb19c7b1f89f07b537407547689.jpg",
+          "publishedAt": "2026-08-12T13:52:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-3-1786531702000",
           "title": "Врач назвал здоровый способ перестать клевать носом в три часа дня",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/12/vrach-nazval-zdorovyy-sposob-perestat-klevat-nosom-v-tri-chasa-dnya/",
@@ -467,48 +503,12 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786530960000",
+          "id": "medicine-4-1786530960000",
           "title": "Оглашен приговор по скандальному делу о фальшивых аккредитациях врачей России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/12/oglashen-prigovor-po-skandalnomu-delu-o-falshivyh-akkreditatsiyah-vrachey-rossii/",
           "image": "https://icdn.lenta.ru/images/2026/08/12/13/20260812133429414/pic_9e2a0aeb041210d9120b024f2864bd74.jpg",
           "publishedAt": "2026-08-12T10:36:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-2-1786518720000",
-          "title": "Победившая рак ведущая рассказала о «15 днях мучений» из-за неверного диагноза",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/pobedivshaya-rak-veduschaya-rasskazala-o-15-dnyah-mucheniy-iz-za-nevernogo-diagnoza/",
-          "image": "https://icdn.lenta.ru/images/2026/08/11/12/20260811123334833/pic_1c83f312a10538e2bab5e62b73ecaee3.jpg",
-          "publishedAt": "2026-08-12T07:12:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-3-1786516320000",
-          "title": "Женщина нашла прыщ на груди и оказалась в больнице",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/zhenschina-nashla-prysch-na-grudi-i-okazalas-v-bolnitse/",
-          "image": "https://icdn.lenta.ru/images/2026/08/11/11/20260811115656396/pic_4f6da21b6e5e42ac67b38aa88f522656.jpg",
-          "publishedAt": "2026-08-12T06:32:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786513907000",
-          "title": "Российские выпускницы искупались в бассейне и попали в больницу",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/rossiyskie-vypusknitsy-iskupalis-v-basseyne-i-popali-v-bolnitsu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/08/20260812084943934/pic_d98cbf61607d28c9ac70fe5aeacff5f8.jpg",
-          "publishedAt": "2026-08-12T05:51:47.000Z",
           "source": "Lenta.ru",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-12T12:02:22.567Z",
+      "lastFetchAt": "2026-08-12T16:44:55.833Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,60 +595,60 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1786524660000",
-          "title": "Замена 15 минут сна или сидения в сутки движением снизила риск онкозаболеваний",
-          "summary": "Замена 15 минут сна или сидения в сутки движением снизила риск онкозаболеваний",
-          "url": "https://nplus1.ru/news/2026/08/12/move-do-not-sit",
-          "image": "https://minio.nplus1.ru/app-images/1128453/conversions/6a7b8ea5de8e9_cover-share.png",
-          "publishedAt": "2026-08-12T08:51:00.000Z",
+          "id": "environment-0-1786551060000",
+          "title": "Тенсегрити-робот прыгнул со скалы",
+          "summary": "Тенсегрити-робот прыгнул со скалы",
+          "url": "https://nplus1.ru/news/2026/08/12/impact-resistant-tensegrity-robot",
+          "image": "https://minio.nplus1.ru/app-images/1128712/conversions/6a7c90d93c835_cover-share.png",
+          "publishedAt": "2026-08-12T16:11:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1786523940000",
-          "title": "Ученые нашли связь между составом микробиоты и психопатическими чертами",
-          "summary": "Ученые нашли связь между составом микробиоты и психопатическими чертами",
-          "url": "https://nplus1.ru/news/2026/08/12/psycho-microbiome",
-          "image": "https://minio.nplus1.ru/app-images/1128481/conversions/6a7b92225fa4d_cover-share.png",
-          "publishedAt": "2026-08-12T08:39:00.000Z",
+          "id": "environment-1-1786546800000",
+          "title": "Юная черная дыра из ранней Вселенной спряталась в газовом коконе",
+          "summary": "Юная черная дыра из ранней Вселенной спряталась в газовом коконе",
+          "url": "https://nplus1.ru/news/2026/08/12/mom-bh-1",
+          "image": null,
+          "publishedAt": "2026-08-12T15:00:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1786522800000",
-          "title": "Число подтвержденных жертв лихорадки Эбола в Конго превысило две тысячи",
-          "summary": "Число подтвержденных жертв лихорадки Эбола в Конго превысило две тысячи",
-          "url": "https://nplus1.ru/news/2026/08/12/ebola-2000-deaths",
-          "image": "https://minio.nplus1.ru/app-images/1128412/conversions/6a7b8d21d7265_cover-share.png",
-          "publishedAt": "2026-08-12T08:20:00.000Z",
+          "id": "environment-2-1786546800000",
+          "title": "Внутривенная анестезия не повлияла на выживаемость после крупных внесердечных операций",
+          "summary": "Внутривенная анестезия не повлияла на выживаемость после крупных внесердечных операций",
+          "url": "https://nplus1.ru/news/2026/08/12/intravenous-inhalational-anesthesia",
+          "image": "https://minio.nplus1.ru/app-images/1128041/conversions/6a79e538bdf42_cover-share.png",
+          "publishedAt": "2026-08-12T15:00:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1786517820000",
-          "title": "Палеобиологи выявили бедренную и большеберцовую кости денисовцев",
-          "summary": "Палеобиологи впервые представили доказанные длинные кости денисовцев. Ученые рассказали о находках из Тайваньского пролива, где достаточно давно нашли фрагменты бедренной и большеберцовой костей ископаемых гоминин. Судя ",
-          "url": "https://nplus1.ru/news/2026/08/12/new-denisovans-from-taiwan",
-          "image": "https://minio.nplus1.ru/app-images/1128545/conversions/6a7c0de2b86d5_cover-share.png",
-          "publishedAt": "2026-08-12T06:57:00.000Z",
+          "id": "environment-3-1786546200000",
+          "title": "Инфекционные заболевания в детстве повысили риск развития атопического дерматита",
+          "summary": "Инфекционные заболевания в детстве повысили риск развития атопического дерматита",
+          "url": "https://nplus1.ru/news/2026/08/12/infection-atopic-dermatitis",
+          "image": "https://minio.nplus1.ru/app-images/1128695/conversions/6a7c81d424703_cover-share.png",
+          "publishedAt": "2026-08-12T14:50:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1786466280000",
-          "title": "Марсианский метеорит из Алжира оказался шерготтитом редкого типа",
-          "summary": "Марсианский метеорит из Алжира оказался шерготтитом редкого типа",
-          "url": "https://nplus1.ru/news/2026/08/11/nwa-13441",
-          "image": "https://minio.nplus1.ru/app-images/1128371/conversions/6a7b4f6f567dd_cover-share.png",
-          "publishedAt": "2026-08-11T16:38:00.000Z",
+          "id": "environment-4-1786538280000",
+          "title": "Анализ семи полных геномов рассказал о родственных связях кабанов из Японии и с островов Рюкю",
+          "summary": "Анализ семи полных геномов рассказал о родственных связях кабанов из Японии и с островов Рюкю",
+          "url": "https://nplus1.ru/news/2026/08/12/sus-scrofa-leucomystax-riukiuanus",
+          "image": "https://minio.nplus1.ru/app-images/1128568/conversions/6a7c1b721e9a1_cover-share.png",
+          "publishedAt": "2026-08-12T12:38:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -867,7 +867,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-12T12:02:23.706Z",
+      "lastFetchAt": "2026-08-12T16:44:57.504Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -875,7 +875,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786524272000",
+          "id": "gaming-0-1786548645000",
+          "title": "Плоть слаба: как я писал свой Wine для браузера",
+          "summary": "Каждый год на новогодних каникулах у меня просыпается ностальгия, хочется перепройти что‑то из детства, типа «Harry Potter and the Philosopher’s Stone» от KnowWonder. И если с консольными играми всё просто (эмуляторы тип",
+          "url": "https://habr.com/ru/articles/1060010/?utm_campaign=1060010&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/425/242/e5d/425242e5de674cf42f87d7441bb85739.png",
+          "publishedAt": "2026-08-12T15:30:45.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786524272000",
           "title": "Игра-головоломка «Прогулка по подземельям»",
           "summary": "Прогулка по подземельям — это минималистичная, но при этом очень интересная и сложная головоломка из игры MIT Mystery Hunt 2014 года. Она представляла собой видеоигру со множеством уровней, каждый из которых был подземел",
           "url": "https://habr.com/ru/articles/1069568/?utm_campaign=1069568&utm_source=habrahabr&utm_medium=rss",
@@ -887,7 +899,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786447615000",
+          "id": "gaming-2-1786447615000",
           "title": "Как DLSS 5 меняет графику в играх и где тут подвох",
           "summary": "В марте Nvidia показала DLSS 5 и получила такую волну критики, какой у зеленых не было довольно давно. Сейчас, спустя несколько месяцев, компания дала повод снова о ней поговорить. Она просто вышла и показала то, что сто",
           "url": "https://habr.com/ru/companies/x-com/articles/1069250/?utm_campaign=1069250&utm_source=habrahabr&utm_medium=rss",
@@ -899,7 +911,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786435280000",
+          "id": "gaming-3-1786435280000",
           "title": "Что происходит с игрой, пока идет «Сохранение...»",
           "summary": "Сохранение в играх — настолько привычная и базовая вещь, что многие воспринимают ее как нечто само собой разумеющееся и не особо хитрое. Открыли сундук, сменили локацию, вышли из дома персонажа, победили босса — и в углу",
           "url": "https://habr.com/ru/companies/selectel/articles/1068642/?utm_campaign=1068642&utm_source=habrahabr&utm_medium=rss",
@@ -911,7 +923,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1786397588000",
+          "id": "gaming-4-1786397588000",
           "title": "Что консоли подарили разработчикам",
           "summary": "В истории консолей были не только битвы за терафлопсы и священные войны фанатов у кого спрайты квадратнее, но еще и подарки для индустрии разработки, самим фанатам, и отдельно разработчикам, которые сначала выглядели как",
           "url": "https://habr.com/ru/articles/1062040/?utm_campaign=1062040&utm_source=habrahabr&utm_medium=rss",
@@ -921,23 +933,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1786383937000",
-          "title": "Как мой младший сын сломал мою настолку четырьмя кибер-полицейскими",
-          "summary": "Мой младший сын кидает кубик. В пятый раз подряд. На поле — четыре фишки «Кибер-полицейский». Они уже лежат там, занимают клетки, перекрывают проходы. Он не сжимает их в руке — они часть игрового пространства. Но именно ",
-          "url": "https://habr.com/ru/articles/1068930/?utm_campaign=1068930&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/362/7ca/ea4/3627caea4ba9a198e055045a4a7cdb95.jpg",
-          "publishedAt": "2026-08-10T17:45:37.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-12T12:02:23.904Z",
+      "lastFetchAt": "2026-08-12T16:45:00.983Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -945,7 +945,43 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786525501000",
+          "id": "entertainment-0-1786547550000",
+          "title": "Петербургское долголетие // «Пикник» выпустил новый альбом",
+          "summary": "Санкт-петербургская группа «Пикник» выпустила 25-й альбом «Вечное движение», отметив таким образом 45-летие своей творческой деятельности с Эдмундом Шклярским во главе. Игорь Гаврилов, не стыдясь сентиментальности, просл",
+          "url": "https://www.kommersant.ru/doc/8878247",
+          "image": "https://im2.kommersant.ru/SocialPics/8878247_49_3181318_1742102285",
+          "publishedAt": "2026-08-12T15:12:30.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786542611000",
+          "title": "Путин наградил Аллу Сурикову орденом «За заслуги в культуре и искусстве»",
+          "summary": "Президент РФ Владимир Путин наградил режиссера, члена Союза кинематографистов России Аллу Сурикову орденом «За заслуги в культуре и искусстве». Это следует из указа главы государства.",
+          "url": "https://www.kommersant.ru/doc/8878179",
+          "image": "https://im2.kommersant.ru/SocialPics/8878179_49_0_651331083",
+          "publishedAt": "2026-08-12T13:50:11.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1786537395000",
+          "title": "Отцы, дети и сексуально одаренные хирурги // Фильмы «Кеттиче», «Блуждающие деревья» и «Объект а» на фестивале в Локарно",
+          "summary": "На фестивале в Локарно показали уже половину конкурсной программы. В центре многих фильмов — отношения поколений внутри семьи. На эти и другие тематические лейтмотивы обратил внимание Андрей Плахов.",
+          "url": "https://www.kommersant.ru/doc/8878055",
+          "image": "https://im2.kommersant.ru/SocialPics/8878055_49_3181278_1173955936",
+          "publishedAt": "2026-08-12T12:23:15.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-3-1786525501000",
           "title": "Певец шансона Михаил Гулько умер в возрасте 95 лет",
           "summary": "Певец русского шансона, советский и американский артист Михаил Гулько умер на 96-м году жизни. Об этом сообщает Радио Шансон.",
           "url": "https://www.kommersant.ru/doc/8877855",
@@ -957,48 +993,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786517599000",
+          "id": "entertainment-4-1786517599000",
           "title": "Николас Холт сыграет Златопуста Локонса во втором сезоне «Гарри Поттера»",
           "summary": "Британский актер Николас Холт, известный по подростковой драме Skins («Молокососы»), сыграет профессора Златопуста Локонса в сериале «Гарри Поттер» от HBO. Он появится во втором сезоне, который основан на второй книге ци",
           "url": "https://www.kommersant.ru/doc/8877715",
           "image": "https://im2.kommersant.ru/SocialPics/8877715_49_0_1615403793",
           "publishedAt": "2026-08-12T06:53:19.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-2-1786474882000",
-          "title": "Кассовые сборы в США во второй раз с пандемии достигли $4 млрд",
-          "summary": "В США зафиксировали самые крупные кассовые сборы за летний сезон с начала пандемии COVID-19 -- $4 млрд, сообщает Variety. По данным издания, таких показателей удалось достичь благодаря выходу в прокат «Одессеи», нового «",
-          "url": "https://www.kommersant.ru/doc/8877516",
-          "image": "https://im2.kommersant.ru/SocialPics/8877516_49_0_403685432",
-          "publishedAt": "2026-08-11T19:01:22.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1786465828000",
-          "title": "Судьба-читальня // Как фотофестиваль в Арле перечитывает мир",
-          "summary": "Во французском Арле проходит ежегодный фестиваль фотографии «Встречи в Арле» — один из самых значительных форумов фотохудожников в мире. В нынешнем году организаторы выбрали для него слоган «Перечитывая миры». Эсфирь Ште",
-          "url": "https://www.kommersant.ru/doc/8877416",
-          "image": "https://im2.kommersant.ru/SocialPics/8877416_49_3180530_1182218916",
-          "publishedAt": "2026-08-11T16:30:28.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786460010000",
-          "title": "Ни в зуб душой // Выходит в прокат хоррор Дэйва Бойла «Демонолог»",
-          "summary": "На экраны выходит японо-американский фильм ужасов Дэйва Бойла «Демонолог» (Never After Dark). Михаил Трофименков в очередной раз убедился в том, что западным варварам не суждено постичь загадочную японскую душу.",
-          "url": "https://www.kommersant.ru/doc/8877354",
-          "image": "https://im2.kommersant.ru/SocialPics/8877354_49_3180436_1223002526",
-          "publishedAt": "2026-08-11T14:53:30.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
