@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-08-13T07:08:13.884Z",
+  "updatedAt": "2026-08-13T09:00:29.810Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
     "ai",
+    "cybersecurity",
     "business",
     "science",
     "health",
@@ -10,16 +19,7 @@
     "space",
     "automotive",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-13T03:57:25.018Z",
+      "lastFetchAt": "2026-08-13T09:00:21.740Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786575578000",
+          "id": "it-0-1786604471000",
+          "title": "Мой наивный робот: как я оцифровал дилерские рефлексы на VB6",
+          "summary": "В 2020 году я написал робота, который закрывал за меня клиентские валютные сделки на Мосбирже. Схема оценки рынка у него была, прямо скажем, наивная: восемь метрик, пять состояний и лестница if-ов. Эта схема два года зар",
+          "url": "https://habr.com/ru/articles/1069546/?utm_campaign=1069546&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/4cb/adc/37b/4cbadc37b5e626240d9ace3eab89ade0.png",
+          "publishedAt": "2026-08-13T07:01:11.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786575578000",
           "title": "Синдром ИИ-самозванца у программистов",
           "summary": "Вайбкодинг — главный мем и одновременно главный тренд в разработке последних лет. Благодаря нейросетям порог входа в профессию размывается все сильнее: любой джуниор может собирать работающие приложения параллельно с про",
           "url": "https://habr.com/ru/companies/ispsystem/articles/1069898/?utm_campaign=1069898&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786542150000",
+          "id": "it-2-1786542150000",
           "title": "Заметки о том, как я писал SFU на Rust (2 часть)",
           "summary": "Продолжаем изучать, как устроен SFU изнутри: добавляем simulcast, ice restart и мониторинг сети. Дневник разработки на Rust. Читать далее",
           "url": "https://habr.com/ru/articles/1060434/?utm_campaign=1060434&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786535977000",
+          "id": "it-3-1786535977000",
           "title": "[Перевод] wake up: демо в 16 байтах",
           "summary": "В детстве я учился программированию на старом IBM PC с монохромным зелёным монитором, поэтому давно хотел создать программу для этой системы. За последние пятнадцать лет я написал более чем сотню небольших интро. В после",
           "url": "https://habr.com/ru/articles/1067818/?utm_campaign=1067818&utm_source=habrahabr&utm_medium=rss",
@@ -71,24 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786530739000",
+          "id": "it-4-1786530739000",
           "title": "[Перевод] Чему мы научились, написав на Rust среду выполнения для TypeScript",
           "summary": "Encore зародился как фреймворк на Go, и на Go там были написаны среда выполнения, интерфейс командной строки (CLI), парсер и компилятор. Когда мы решили поддерживать TypeScript, логичнее всего было бы написать на TypeScr",
           "url": "https://habr.com/ru/articles/1069636/?utm_campaign=1069636&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habr.com/share/publication/1069636/202374536ec3e3b11853738e2d05342f/",
           "publishedAt": "2026-08-12T10:32:19.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786529157000",
-          "title": "Async на Rust завис: как понять, где именно, когда паники нет и стек молчит",
-          "summary": "Сервис жив, CPU в норме, паники нет — а часть запросов зависает на минуты. В async‑Rust привычный стек часто мало помогает: задача могла застрять на блокирующем вызове, мьютексе или просто перестать получать пробуждения.",
-          "url": "https://habr.com/ru/companies/otus/articles/1065590/?utm_campaign=1065590&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c13/6d2/02c/c136d202cd9a8c0341a4080542e2ec71.png",
-          "publishedAt": "2026-08-12T10:05:57.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-13T03:57:28.611Z",
+      "lastFetchAt": "2026-08-13T09:00:23.233Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -315,7 +315,19 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1786554838000",
+          "id": "startups-0-1786598480000",
+          "title": "День 1632: Росстат оценил годовой рост ВВП во втором квартале 2026 года в 1,3% — выше ЦБ и Минэкономразвития",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3076127-rost-vvp-v-rossii-otsenka-rosstata?from=rss",
+          "image": "https://leonardo.osnova.io/235f118f-1518-5b09-b058-82eb4cfa4d93/",
+          "publishedAt": "2026-08-13T05:21:20.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1786554838000",
           "title": "Google представила смартфоны Pixel 11, 11 Pro, 11 Pro XL и «раскладушку» Pixel 11 Pro Fold",
           "summary": "На чипе Tensor G6 и со световым индикатором HiLight возле блока камер.",
           "url": "https://vc.ru/tech/3075232-google-predstavila-smartfony-pixel-11-i-pixel-11-pro-fold?from=rss",
@@ -327,19 +339,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786528763000",
-          "title": "Приложение «Ozon Банка» пропало из Google Play",
-          "summary": "Накануне из App Store удалили «Яндекс Пэй».",
-          "url": "https://vc.ru/money/3074941-prilozhenie-ozon-bank-propalo-iz-google-play?from=rss",
-          "image": "https://leonardo.osnova.io/7a26c51f-d290-525d-9145-cfccd10d339e/",
-          "publishedAt": "2026-08-12T09:59:23.000Z",
+          "id": "startups-2-1786602458000",
+          "title": "Twitch разрешит Amazon обучать ИИ на записях стримов",
+          "summary": "Чтобы отказаться, авторам нужно вручную отключить согласие в настройках профиля — по умолчанию оно включено.",
+          "url": "https://vc.ru/services/3076188-twitch-i-amazon-ii-budet-obuchatsya-na-zapisyakh-streamov?from=rss",
+          "image": "https://leonardo.osnova.io/cbd21ea3-6cc9-5aec-b31b-42ba7a4c4e86/",
+          "publishedAt": "2026-08-13T06:27:38.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786557967000",
+          "id": "startups-3-1786557967000",
           "title": "Google официально представила маячок Pixel Tag — аналог AirTag",
           "summary": "В продажу поступит в ноябре 2026 года по цене $29.",
           "url": "https://vc.ru/tech/3075802-google-predstavila-pixel-tag?from=rss",
@@ -351,24 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786540574000",
-          "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
-          "summary": "Акции на премаркете растут почти на 17%.",
-          "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
-          "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
-          "publishedAt": "2026-08-12T13:16:14.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786542083000",
-          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
-          "summary": "Продаётся пока лишь в Китае.",
-          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
-          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
-          "publishedAt": "2026-08-12T13:41:23.000Z",
+          "id": "startups-4-1786609724000",
+          "title": "Сервис краткосрочной аренды жилья Keygo начнёт работать в Санкт-Петербурге — до этого он был доступен только в Москве и Армении",
+          "summary": "Keygo приобрела операционный бизнес компании «Душевно».",
+          "url": "https://vc.ru/services/3076377-servis-arendy-zhilya-keygo-sankt-peterburg?from=rss",
+          "image": "https://leonardo.osnova.io/fa843c73-c775-5a61-a22e-49341ee79b02/",
+          "publishedAt": "2026-08-13T08:28:44.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-13T03:57:30.315Z",
+      "lastFetchAt": "2026-08-13T09:00:24.259Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -455,60 +455,36 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786574788000",
+          "id": "medicine-0-1786608900000",
+          "title": "Раненому бойцу СВО отказывали в выплате из-за волокиты с медицинскими документами",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/13/ranenomu-boytsu-svo-otkazyvali-v-vyplatah-iz-za-volokity-s-meditsinskimi-dokumentami/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/11/20260813111543978/pic_744f34aeab39be751aa5a78143861489.jpg",
+          "publishedAt": "2026-08-13T08:15:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786602660000",
+          "title": "Врач решила есть один овощ каждый день и удивилась результатам",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/13/vrach-reshila-est-odin-ovosch-kazhdyy-den-i-udivilas-rezultatam/",
+          "image": "https://icdn.lenta.ru/images/2026/08/12/11/20260812114703639/pic_0869e5e76c6d3494b6a1726428674f0d.jpg",
+          "publishedAt": "2026-08-13T06:31:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-2-1786574788000",
           "title": "В России объяснили неспособность Каллас разглядеть нарушения прав человека в ЕС диагнозом",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/13/v-rossii-ob-yasnili-nesposobnost-kallas-razglyadet-narusheniya-prav-cheloveka-v-es-diagnozom/",
           "image": "https://icdn.lenta.ru/images/2026/08/13/01/20260813014635549/pic_3b169dc0f59ca19b439e401f48bcf72e.jpg",
           "publishedAt": "2026-08-12T22:46:28.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-1-1786565690000",
-          "title": "Раскрыты последствия атаки БПЛА ВСУ на больницу в Донецке",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/raskryty-posledstviya-ataki-bpla-vsu-na-bolnitsu-v-donetske/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/23/20260812231432593/pic_6050a0f951a9f4491e4970501b285a63.jpg",
-          "publishedAt": "2026-08-12T20:14:50.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-2-1786558680000",
-          "title": "ВСУ попытались атаковать больницу в Донецке",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/vsu-popytalis-atakovat-bolnitsu-v-donetske/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/21/20260812211715396/pic_082bdf436648003af69dcf6353965143.jpg",
-          "publishedAt": "2026-08-12T18:18:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-3-1786555560000",
-          "title": "Врач подсказал способы пережить диарею без последствий для здоровья",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/vrach-podskazal-sposoby-perezhit-diareyu-bez-posledstviy-dlya-zdorovya/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/12/20260812122541628/pic_7f77cd9a8fec0e92ba3f9d210d4cbb7e.jpg",
-          "publishedAt": "2026-08-12T17:26:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786548600000",
-          "title": "Врач предупредила о скрытых провокаторах рака легких",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/vrach-predupredila-o-skrytyh-provokatorah-raka-legkih/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/15/20260812150731019/pic_5139e5f08919fe68927ab0a48ac39932.jpg",
-          "publishedAt": "2026-08-12T15:30:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -587,7 +563,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-13T03:57:30.809Z",
+      "lastFetchAt": "2026-08-13T09:00:24.671Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -595,7 +571,31 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1786568400000",
+          "id": "environment-0-1786604040000",
+          "title": "Физики получили двумерный сверхпроводящий купрат с единственной плоскостью CuO&lt;sub&gt;2&lt;/sub&gt;",
+          "summary": "Физики получили двумерный сверхпроводящий купрат с единственной плоскостью CuO2",
+          "url": "https://nplus1.ru/news/2026/08/13/plane-cuo2",
+          "image": "https://minio.nplus1.ru/app-images/1128999/conversions/6a7cf9e400ae1_cover-share.png",
+          "publishedAt": "2026-08-13T06:54:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1786597680000",
+          "title": "В Швеции обнаружили захоронение беременной женщины эпохи мезолита",
+          "summary": "Археологи обнаружили на небольшом шведском острове крайне редкое захоронение для каменного века. Они раскопали кости, которые, похоже, принадлежали молодой женщине, скончавшейся примерно на 32–34 недели беременности. Как",
+          "url": "https://nplus1.ru/news/2026/08/13/stone-age-mother-and-child",
+          "image": "https://minio.nplus1.ru/app-images/1129030/conversions/6a7d4b2064823_cover-share.png",
+          "publishedAt": "2026-08-13T05:08:00.000Z",
+          "source": "N+1",
+          "categoryId": "environment",
+          "categoryName": "Экология и климат",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1786568400000",
           "title": "Трансгенные Т-клетки с Т-клеточными рецепторами помогли пациенту с нефробластомой и метастазами",
           "summary": "Трансгенные Т-клетки с Т-клеточными рецепторами помогли пациенту с нефробластомой и метастазами",
           "url": "https://nplus1.ru/news/2026/08/13/tcr-t-in-nephroblastoma",
@@ -607,7 +607,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1786568400000",
+          "id": "environment-3-1786568400000",
           "title": "Плесень убила японца после химиотерапии лейкоза",
           "summary": "Плесень убила японца после химиотерапии лейкоза",
           "url": "https://nplus1.ru/news/2026/08/13/disseminated-fusariosis",
@@ -619,36 +619,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1786557600000",
+          "id": "environment-4-1786557600000",
           "title": "Бег с детской коляской оказался потенциально безопасным",
           "summary": "Бег с детской коляской оказался потенциально безопасным",
           "url": "https://nplus1.ru/news/2026/08/12/running-stroller",
           "image": "https://minio.nplus1.ru/app-images/1128326/conversions/6a7b379d5ee77_cover-share.png",
           "publishedAt": "2026-08-12T18:00:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-3-1786553220000",
-          "title": "Найденные учеными пики возрастных изменений назвали возможным артефактом обработки данных",
-          "summary": "Найденные учеными пики возрастных изменений назвали возможным артефактом обработки данных",
-          "url": "https://nplus1.ru/news/2026/08/12/age-in-waves-or-not",
-          "image": "https://minio.nplus1.ru/app-images/1128781/conversions/6a7c9e4fadb8e_cover-share.png",
-          "publishedAt": "2026-08-12T16:47:00.000Z",
-          "source": "N+1",
-          "categoryId": "environment",
-          "categoryName": "Экология и климат",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-4-1786551060000",
-          "title": "Тенсегрити-робот прыгнул со скалы",
-          "summary": "Тенсегрити-робот прыгнул со скалы",
-          "url": "https://nplus1.ru/news/2026/08/12/impact-resistant-tensegrity-robot",
-          "image": "https://minio.nplus1.ru/app-images/1128712/conversions/6a7c90d93c835_cover-share.png",
-          "publishedAt": "2026-08-12T16:11:00.000Z",
           "source": "N+1",
           "categoryId": "environment",
           "categoryName": "Экология и климат",
@@ -867,7 +843,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-13T03:57:33.181Z",
+      "lastFetchAt": "2026-08-13T09:00:26.304Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -937,7 +913,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-13T03:57:36.200Z",
+      "lastFetchAt": "2026-08-13T09:00:29.809Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -945,7 +921,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786562891000",
+          "id": "entertainment-0-1786574774000",
+          "title": "Странам в зоне конфликтов запретят принимать «Евровидение»",
+          "summary": "Странам-победителям «Евровидения» автоматически запретят принимать конкурс, если государство находится в вооруженном конфликте или в «чувствительной геополитической ситуации», влияющей на безопасность. Об этом сообщает S",
+          "url": "https://www.kommersant.ru/doc/8878395",
+          "image": "https://iv.kommersant.ru/SocialPics/8878395_49_0_267525099",
+          "publishedAt": "2026-08-12T22:46:14.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786562891000",
           "title": "Путин выразил соболезнования родным актрисы Трубниковой",
           "summary": "Президент России Владимир Путин выразил соболезнования родным и близким актрисы, балерины Натальи Трубниковой. Телеграмму российского лидера опубликовали на сайте Кремля.",
           "url": "https://www.kommersant.ru/doc/8878371",
@@ -957,11 +945,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786547550000",
+          "id": "entertainment-2-1786547550000",
           "title": "Петербургское долголетие // «Пикник» выпустил новый альбом",
           "summary": "Санкт-петербургская группа «Пикник» выпустила 25-й альбом «Вечное движение», отметив таким образом 45-летие своей творческой деятельности с Эдмундом Шклярским во главе. Игорь Гаврилов, не стыдясь сентиментальности, просл",
           "url": "https://www.kommersant.ru/doc/8878247",
-          "image": "https://im2.kommersant.ru/SocialPics/8878247_49_3181318_1742102285",
+          "image": "https://iv.kommersant.ru/SocialPics/8878247_49_3181318_1742102285",
           "publishedAt": "2026-08-12T15:12:30.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -969,7 +957,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786542611000",
+          "id": "entertainment-3-1786542611000",
           "title": "Путин наградил Аллу Сурикову орденом «За заслуги в культуре и искусстве»",
           "summary": "Президент РФ Владимир Путин наградил режиссера, члена Союза кинематографистов России Аллу Сурикову орденом «За заслуги в культуре и искусстве». Это следует из указа главы государства.",
           "url": "https://www.kommersant.ru/doc/8878179",
@@ -981,24 +969,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1786537395000",
+          "id": "entertainment-4-1786537395000",
           "title": "Отцы, дети и сексуально одаренные хирурги // Фильмы «Кеттиче», «Блуждающие деревья» и «Объект а» на фестивале в Локарно",
           "summary": "На фестивале в Локарно показали уже половину конкурсной программы. В центре многих фильмов — отношения поколений внутри семьи. На эти и другие тематические лейтмотивы обратил внимание Андрей Плахов.",
           "url": "https://www.kommersant.ru/doc/8878055",
-          "image": "https://iv.kommersant.ru/SocialPics/8878055_49_3181278_1173955936",
+          "image": "https://im2.kommersant.ru/SocialPics/8878055_49_3181278_1173955936",
           "publishedAt": "2026-08-12T12:23:15.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786525501000",
-          "title": "Певец шансона Михаил Гулько умер в возрасте 95 лет",
-          "summary": "Певец русского шансона, советский и американский артист Михаил Гулько умер на 96-м году жизни. Об этом сообщает Радио Шансон.",
-          "url": "https://www.kommersant.ru/doc/8877855",
-          "image": "https://im2.kommersant.ru/SocialPics/8877855_49_3180965_1940836506",
-          "publishedAt": "2026-08-12T09:05:01.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
