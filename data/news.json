@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-08-13T03:57:40.756Z",
+  "updatedAt": "2026-08-13T05:28:46.321Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "it",
-    "business",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "sports",
-    "politics"
+    "education",
+    "realestate",
+    "travel"
   ],
   "skippedNow": [
+    "it",
     "ai",
     "cybersecurity",
+    "business",
+    "startups",
     "science",
+    "medicine",
     "health",
+    "environment",
     "energy",
     "space",
     "automotive",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "gaming",
+    "entertainment",
+    "sports",
+    "politics",
+    "law"
   ],
   "categories": {
     "it": {
@@ -1147,7 +1147,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-12T20:30:01.371Z",
+      "lastFetchAt": "2026-08-13T05:28:45.019Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1167,19 +1167,7 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-1-1786528763000",
-          "title": "Приложение «Ozon Банка» пропало из Google Play",
-          "summary": "Накануне из App Store удалили «Яндекс Пэй».",
-          "url": "https://vc.ru/money/3074941-prilozhenie-ozon-bank-propalo-iz-google-play?from=rss",
-          "image": "https://leonardo.osnova.io/7a26c51f-d290-525d-9145-cfccd10d339e/",
-          "publishedAt": "2026-08-12T09:59:23.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        },
-        {
-          "id": "education-2-1786557967000",
+          "id": "education-1-1786557967000",
           "title": "Google официально представила маячок Pixel Tag — аналог AirTag",
           "summary": "В продажу поступит в ноябре 2026 года по цене $29.",
           "url": "https://vc.ru/tech/3075802-google-predstavila-pixel-tag?from=rss",
@@ -1191,24 +1179,36 @@
           "categorySlug": "education"
         },
         {
-          "id": "education-3-1786542083000",
-          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
-          "summary": "Продаётся пока лишь в Китае.",
-          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
-          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
-          "publishedAt": "2026-08-12T13:41:23.000Z",
+          "id": "education-2-1786528763000",
+          "title": "Приложение «Ozon Банка» пропало из Google Play",
+          "summary": "Накануне из App Store удалили «Яндекс Пэй».",
+          "url": "https://vc.ru/money/3074941-prilozhenie-ozon-bank-propalo-iz-google-play?from=rss",
+          "image": "https://leonardo.osnova.io/7a26c51f-d290-525d-9145-cfccd10d339e/",
+          "publishedAt": "2026-08-12T09:59:23.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
           "categorySlug": "education"
         },
         {
-          "id": "education-4-1786540574000",
+          "id": "education-3-1786540574000",
           "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
           "summary": "Акции на премаркете растут почти на 17%.",
           "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
           "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
           "publishedAt": "2026-08-12T13:16:14.000Z",
+          "source": "VC.ru",
+          "categoryId": "education",
+          "categoryName": "Образование",
+          "categorySlug": "education"
+        },
+        {
+          "id": "education-4-1786542083000",
+          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
+          "summary": "Продаётся пока лишь в Китае.",
+          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
+          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
+          "publishedAt": "2026-08-12T13:41:23.000Z",
           "source": "VC.ru",
           "categoryId": "education",
           "categoryName": "Образование",
@@ -1287,7 +1287,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-12T20:30:02.948Z",
+      "lastFetchAt": "2026-08-13T05:28:46.033Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1295,7 +1295,31 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1786399622000",
+          "id": "realestate-0-1786569145000",
+          "title": "В Москве пустует каждое шестое рабочее место в коворкингах",
+          "summary": "Вакансия в сегменте гибких офисов за год выросла более чем в 3 раза",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/08/13/1220765-v-moskve-pustuet-kazhdoe-shestoe-rabochee-mesto-v-kovorkingah",
+          "image": "https://cdn.vdmsti.ru/image/2026/68/1cceup/normal-1qnk.jpg",
+          "publishedAt": "2026-08-12T21:12:25.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1786483219000",
+          "title": "Рядом с Белорусским вокзалом может появиться еще один офисный комплекс",
+          "summary": "«Ростех» начал искать покупателя на имущество концерна «Созвездие» на Ленинградском проспекте",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/08/12/1220445-ryadom-s-belorusskim-vokzalom-mozhet-poyavitsya-ofisnii-kompleks",
+          "image": "https://cdn.vdmsti.ru/image/2026/67/1cl6k8/normal-1qyx.jpg",
+          "publishedAt": "2026-08-11T21:20:19.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-2-1786399622000",
           "title": "У девелоперов растет доля непроданного жилья в новостройках",
           "summary": "Это результат резкого снижения спроса на квартиры в первой половине этого года",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/11/1220169-u-developerov-rastet-dolya-neprodannogo-zhilya",
@@ -1307,7 +1331,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1786397372000",
+          "id": "realestate-3-1786397372000",
           "title": "Появление у группы «Самолет» нового инвестора привело к росту стоимости ее акций",
           "summary": "Казахстанский фонд выкупил крупную долю в компании у наследников Михаила Кенина",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/11/1220164-poyavlenie-u-gruppi-samolet-novogo-investora-privelo-k-rostu-stoimosti-aktsii",
@@ -1319,7 +1343,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1786310283000",
+          "id": "realestate-4-1786310283000",
           "title": "«Вим сбережения» закрыли одну из крупнейших в этом году сделок с офисами",
           "summary": "Их фонд приобрел штаб-квартиру коммуникационной группы Okkam в башне «Империя» в «Москва-сити»",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/10/1219874-vim-sberezheniya-zakrili-odnu-iz-sdelok-s-ofisami",
@@ -1329,35 +1353,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-3-1786051718000",
-          "title": "Инвестиции в жилье окупаются в три раза дольше, чем в коммерческую недвижимость",
-          "summary": "Это уже привело к перетоку спроса в склады, офисы и ритейл",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/08/07/1219452-investitsii-v-zhile",
-          "image": "https://cdn.vdmsti.ru/image/2026/62/1cimxd/normal-1qvn.jpg",
-          "publishedAt": "2026-08-06T21:28:38.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1785964020000",
-          "title": "В Московском регионе растет число доступных для аренды элитных коттеджей",
-          "summary": "Это уже привело к увеличению объема сделок более чем на четверть",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/08/06/1219139-v-moskovskom-regione-rastet-chislo-dostupnih-dlya-arendi-elitnih-kottedzhei",
-          "image": "https://cdn.vdmsti.ru/image/2026/61/1cq9th/normal-1r5j.jpg",
-          "publishedAt": "2026-08-05T21:07:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-12T20:30:03.678Z",
+      "lastFetchAt": "2026-08-13T05:28:46.321Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
