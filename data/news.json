@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-08-13T00:57:01.294Z",
+  "updatedAt": "2026-08-13T03:57:40.756Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "cybersecurity",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "politics",
-    "law"
-  ],
-  "skippedNow": [
     "it",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-12T22:28:00.699Z",
+      "lastFetchAt": "2026-08-13T03:57:25.018Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786542150000",
+          "id": "it-0-1786575578000",
+          "title": "Синдром ИИ-самозванца у программистов",
+          "summary": "Вайбкодинг — главный мем и одновременно главный тренд в разработке последних лет. Благодаря нейросетям порог входа в профессию размывается все сильнее: любой джуниор может собирать работающие приложения параллельно с про",
+          "url": "https://habr.com/ru/companies/ispsystem/articles/1069898/?utm_campaign=1069898&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/8f5/742/33e/8f574233eb7b5b99890d5ce99ce13d0e.png",
+          "publishedAt": "2026-08-12T22:59:38.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786542150000",
           "title": "Заметки о том, как я писал SFU на Rust (2 часть)",
           "summary": "Продолжаем изучать, как устроен SFU изнутри: добавляем simulcast, ice restart и мониторинг сети. Дневник разработки на Rust. Читать далее",
           "url": "https://habr.com/ru/articles/1060434/?utm_campaign=1060434&utm_source=habrahabr&utm_medium=rss",
@@ -47,7 +59,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786535977000",
+          "id": "it-2-1786535977000",
           "title": "[Перевод] wake up: демо в 16 байтах",
           "summary": "В детстве я учился программированию на старом IBM PC с монохромным зелёным монитором, поэтому давно хотел создать программу для этой системы. За последние пятнадцать лет я написал более чем сотню небольших интро. В после",
           "url": "https://habr.com/ru/articles/1067818/?utm_campaign=1067818&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786530739000",
+          "id": "it-3-1786530739000",
           "title": "[Перевод] Чему мы научились, написав на Rust среду выполнения для TypeScript",
           "summary": "Encore зародился как фреймворк на Go, и на Go там были написаны среда выполнения, интерфейс командной строки (CLI), парсер и компилятор. Когда мы решили поддерживать TypeScript, логичнее всего было бы написать на TypeScr",
           "url": "https://habr.com/ru/articles/1069636/?utm_campaign=1069636&utm_source=habrahabr&utm_medium=rss",
@@ -71,24 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786529157000",
+          "id": "it-4-1786529157000",
           "title": "Async на Rust завис: как понять, где именно, когда паники нет и стек молчит",
           "summary": "Сервис жив, CPU в норме, паники нет — а часть запросов зависает на минуты. В async‑Rust привычный стек часто мало помогает: задача могла застрять на блокирующем вызове, мьютексе или просто перестать получать пробуждения.",
           "url": "https://habr.com/ru/companies/otus/articles/1065590/?utm_campaign=1065590&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/c13/6d2/02c/c136d202cd9a8c0341a4080542e2ec71.png",
           "publishedAt": "2026-08-12T10:05:57.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786525552000",
-          "title": "Куда на самом деле попадает секрет при сборке Docker-образа: разбираем 8 способов",
-          "summary": "Секрет попал в Dockerfile, разработчик спохватился и добавил RUN rm. Файла в контейнере больше нет — значит, всё в порядке? Нет: строку по-прежнему можно достать из образа, даже не запуская контейнер. Я собрала восемь об",
-          "url": "https://habr.com/ru/companies/first/articles/1068864/?utm_campaign=1068864&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/cfb/256/79a/cfb25679a3fba53d8342a86ce755ae0d.png",
-          "publishedAt": "2026-08-12T09:05:52.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-13T00:56:43.507Z",
+      "lastFetchAt": "2026-08-13T03:57:26.543Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-12T22:28:03.316Z",
+      "lastFetchAt": "2026-08-13T03:57:28.611Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -351,24 +351,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786542083000",
-          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
-          "summary": "Продаётся пока лишь в Китае.",
-          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
-          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
-          "publishedAt": "2026-08-12T13:41:23.000Z",
+          "id": "startups-3-1786540574000",
+          "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
+          "summary": "Акции на премаркете растут почти на 17%.",
+          "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
+          "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
+          "publishedAt": "2026-08-12T13:16:14.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1786540574000",
-          "title": "Nebius Аркадия Воложа отчиталась за второй квартал: выручка выросла на 454% год к году, до $582,3 млн",
-          "summary": "Акции на премаркете растут почти на 17%.",
-          "url": "https://vc.ru/money/3075317-nebius-otchitalas-o-roste-vyruchki-i-uspehakh-v-oblachnom-biznese?from=rss",
-          "image": "https://leonardo.osnova.io/8cc13efd-bf56-50e8-8ee4-b14327bcbdae/",
-          "publishedAt": "2026-08-12T13:16:14.000Z",
+          "id": "startups-4-1786542083000",
+          "title": "Honor официально представила Robot Phone — смартфон с подвижной камерой-«компаньоном»",
+          "summary": "Продаётся пока лишь в Китае.",
+          "url": "https://vc.ru/tech/3075366-honor-predstavila-robot-phone-smartfon-s-podvizhnoy-kameroy?from=rss",
+          "image": "https://leonardo.osnova.io/f58329a8-e63a-55f5-96d1-55fc22a2268b/",
+          "publishedAt": "2026-08-12T13:41:23.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-12T22:28:05.020Z",
+      "lastFetchAt": "2026-08-13T03:57:30.315Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -455,7 +455,19 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786565690000",
+          "id": "medicine-0-1786574788000",
+          "title": "В России объяснили неспособность Каллас разглядеть нарушения прав человека в ЕС диагнозом",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/13/v-rossii-ob-yasnili-nesposobnost-kallas-razglyadet-narusheniya-prav-cheloveka-v-es-diagnozom/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/01/20260813014635549/pic_3b169dc0f59ca19b439e401f48bcf72e.jpg",
+          "publishedAt": "2026-08-12T22:46:28.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786565690000",
           "title": "Раскрыты последствия атаки БПЛА ВСУ на больницу в Донецке",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/13/raskryty-posledstviya-ataki-bpla-vsu-na-bolnitsu-v-donetske/",
@@ -467,7 +479,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786558680000",
+          "id": "medicine-2-1786558680000",
           "title": "ВСУ попытались атаковать больницу в Донецке",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/13/vsu-popytalis-atakovat-bolnitsu-v-donetske/",
@@ -479,7 +491,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1786555560000",
+          "id": "medicine-3-1786555560000",
           "title": "Врач подсказал способы пережить диарею без последствий для здоровья",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/12/vrach-podskazal-sposoby-perezhit-diareyu-bez-posledstviy-dlya-zdorovya/",
@@ -491,24 +503,12 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1786548600000",
+          "id": "medicine-4-1786548600000",
           "title": "Врач предупредила о скрытых провокаторах рака легких",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/12/vrach-predupredila-o-skrytyh-provokatorah-raka-legkih/",
           "image": "https://icdn.lenta.ru/images/2026/08/12/15/20260812150731019/pic_5139e5f08919fe68927ab0a48ac39932.jpg",
           "publishedAt": "2026-08-12T15:30:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786544994000",
-          "title": "Лекарства призвали не хранить в двух комнатах",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/12/lekarstva-prizvali-ne-hranit-v-dvuh-komnatah/",
-          "image": "https://icdn.lenta.ru/images/2026/08/11/11/20260811111330395/pic_e520684f4e20141df28cc09fb59981ae.jpg",
-          "publishedAt": "2026-08-12T14:29:54.000Z",
           "source": "Lenta.ru",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-12T22:28:05.892Z",
+      "lastFetchAt": "2026-08-13T03:57:30.809Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -867,7 +867,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-12T22:28:07.956Z",
+      "lastFetchAt": "2026-08-13T03:57:33.181Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -937,7 +937,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-12T22:28:11.582Z",
+      "lastFetchAt": "2026-08-13T03:57:36.200Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -985,7 +985,7 @@
           "title": "Отцы, дети и сексуально одаренные хирурги // Фильмы «Кеттиче», «Блуждающие деревья» и «Объект а» на фестивале в Локарно",
           "summary": "На фестивале в Локарно показали уже половину конкурсной программы. В центре многих фильмов — отношения поколений внутри семьи. На эти и другие тематические лейтмотивы обратил внимание Андрей Плахов.",
           "url": "https://www.kommersant.ru/doc/8878055",
-          "image": "https://im2.kommersant.ru/SocialPics/8878055_49_3181278_1173955936",
+          "image": "https://iv.kommersant.ru/SocialPics/8878055_49_3181278_1173955936",
           "publishedAt": "2026-08-12T12:23:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1007,7 +1007,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-13T00:56:56.049Z",
+      "lastFetchAt": "2026-08-13T03:57:39.336Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1015,60 +1015,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1786581720000",
-          "title": "«Уверен, что Лусиано начнет забивать. Не назвал бы ошибкой его трансфер». Корнеев о форварде ЦСКА",
-          "summary": "Бывший спортивный директор «Зенита» Игорь Корнеев высказался касательно результативности Лусиано Гонду в ЦСКА. Нападающий забил 1 гол в 12 матчах в общей сложности за клуб в рамках РПЛ . – Какие позиции необходимо усилит",
-          "url": "https://www.sports.ru/football/1117332189-uveren-chto-lusiano-nachnet-zabivat-ne-nazval-by-oshibkoj-ego-transfer.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/218/9/share/265c3d_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-13T00:42:00.000Z",
+          "id": "sports-0-1786593000000",
+          "title": "Коваленко о Кузнецове: «Сибирь» вытащила счастливый билет, клуб сделал беспроигрышный ход. Приглашение такого мастера сработает на перспективу»",
+          "summary": "Олимпийский чемпион Андрей Коваленко прокомментировал переход нападающего Евгения Кузнецова в « Сибирь ». – Событие недели – переход Евгения Кузнецова в «Сибирь». Что о нем думаете? – Считаю, что «Сибирь» вытащила счастл",
+          "url": "https://www.sports.ru/hockey/1117332222-kovalenko-o-kuzneczove-sibir-vytashhila-schastlivyj-bilet-klub-sdelal-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/222/2/share/f44dd3_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-13T03:50:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1786580880000",
-          "title": "Энрике выиграл Суперкубок Европы в 3-й раз. Больше побед только у Гвардиолы (4) и Анчелотти (5)",
-          "summary": "Луис Энрике выиграл Суперкубок Европы в третий раз. «ПСЖ» под руководством испанского специалиста обыграл «Астон Виллу» (2:1). Энрике вместе с парижанами выиграл трофей в 2025 году, а также стал обладателем титула в 2015",
-          "url": "https://www.sports.ru/football/1117332186-enrike-vyigral-tretij-superkubok-evropy-v-karere-bolshe-pobed-tolko-u-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/218/6/share/b423f0_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-13T00:28:00.000Z",
+          "id": "sports-1-1786591800000",
+          "title": "Семак о поражении от «Родины»: «Это больше вопрос психологического характера. Когда в 1-м тайме складывается все слишком легко, 2-й немножко расхолаживает»",
+          "summary": "Главный тренер « Зенита » Сергей Семак поделился мыслями по поводу реакции команды на поражение от « Родины » (1:2) в матче 3-го тура Альфа-Банк РПЛ. – Сергей Богданович, как команда отреагировала на поражение в предыдущ",
+          "url": "https://www.sports.ru/football/1117332217-semak-o-porazhenii-ot-rodiny-eto-bolshe-vopros-psixologicheskogo.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/221/7/share/36ec6a_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-13T03:30:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1786580580000",
-          "title": "Торонто (WTA). 1/2 финала. Швентек борется со Свитолиной, Рыбакина сыграет с Гауфф",
-          "summary": "Елена Рыбакина сыграет с Коко Гауфф в полуфинале тысячника в Торонто. Ига Швентек борется с Элиной Свитолиной. Сетка турнира здесь . National Bank Open presented by Rogers Торонто, Канада 2 – 13 августа 2026 WTA 1000 При",
-          "url": "https://www.sports.ru/tennis/1117331243-toronto-wta-2026-rezultaty-1-2-finala.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/124/3/share/ee3f25_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-13T00:23:00.000Z",
+          "id": "sports-2-1786590840000",
+          "title": "Сафонов получил 7 за матч с «Астон Виллой» от L’Equipe – лучшая оценка в «ПСЖ». Столько же у Маркиньоса, Хвичи и Дуэ",
+          "summary": "Голкипер «ПСЖ» Матвей Сафонов получил 7 баллов от L’Equipe по итогам матча за Суперкубок Европы против « Астон Виллы » (2:1). Российский вратарь отразил три удара соперника. Также 7 баллов заработали Маркиньос , Хвича Кв",
+          "url": "https://www.sports.ru/football/1117332215-safonov-poluchil-7-za-match-s-aston-villoj-ot-l-equipe-luchshaya-oczen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/221/5/share/81d3ba_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-13T03:14:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1786580460000",
-          "title": "Накашима в Монреале вышел в крупнейший финал в карьере",
-          "summary": "Брэндон Накашима обыграл Рафаэля Ходара в полуфинале «Мастерса» в Монреале – 7:6(3), 6:4. 25-летний американец впервые вышел в финал на таком уровне. В целом он пятый раз сыграет за титул на уровне ATP . Три из четырех п",
-          "url": "https://www.sports.ru/tennis/1117332185-nakashima-v-monreale-vyshel-v-krupnejshij-final-v-karere.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/218/5/share/fbfb57_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-13T00:21:00.000Z",
+          "id": "sports-3-1786590060000",
+          "title": "Дмитрий Булыкин: «Галатасарай» – хороший вариант для Батракова и «Локомотива». Клуб с удовольствием продаст Алексея, чтобы получить за него хорошие деньги»",
+          "summary": "Бывший нападающий «Локомотива» Дмитрий Булыкин высказался касательно возможного перехода полузащитника Алексея Батракова в « Галатасарай ». «Клуб с удовольствием продаст Батракова, чтобы получить за него хорошие деньги. ",
+          "url": "https://www.sports.ru/football/1117332214-dmitrij-bulykin-galatasaraj-xoroshij-variant-dlya-batrakova.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/221/4/share/33cf73_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-13T03:01:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1786580160000",
-          "title": "Монреаль (ATP). 1/2 финала. Шелтон борется с Тьеном, Накашима выбил Ходара",
-          "summary": "Рафаэль Ходар проиграл Брэндону Накашиме в полуфинале «Мастерса» в Монреале. Действующий чемпион Бен Шелтон борется с Лернером Тьеном. Сетка турнира здесь . National Bank Open presented by Rogers Монреаль, Канада 2 – 13 ",
-          "url": "https://www.sports.ru/tennis/1117331250-monreal-atp-2026-rezultaty-1-2-finala.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/125/0/share/4bb2ef_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-13T00:16:00.000Z",
+          "id": "sports-4-1786589340000",
+          "title": "Саудовский клуб предложил 60 млн евро за хавбека «Ман Сити» Рейндерса (Ягыз Сабунджуоглу)",
+          "summary": "Клуб из Саудовской Аравии предложил 60 миллионов евро за полузащитника « Манчестер Сити » Тиджани Рейндерса . Об этом сообщил журналист Ягыз Сабунджуоглу. Ранее появлялась информация о том, что нидерландец может перейти ",
+          "url": "https://www.sports.ru/football/1117332213-saudovskij-klub-predlozhil-60-mln-evro-za-xavbeka-man-siti-rejndersa.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/221/3/share/7ea2f4_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-13T02:49:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1077,7 +1077,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-13T00:56:57.322Z",
+      "lastFetchAt": "2026-08-13T03:57:40.756Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1085,60 +1085,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1786582090000",
-          "title": "Бывший помощник Буша высказался о снятии санкций против России",
+          "id": "politics-0-1786592724000",
+          "title": "На Украине пожаловались на стремительно падающий экспорт зерна на фоне морской блокады",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/byvshiy-pomoschnik-busha-vyskazalsya-o-snyatii-sanktsiy-protiv-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/13/03/20260813034801331/pic_885fc13ffae24f5684620ab4651605b2.jpg",
-          "publishedAt": "2026-08-13T00:48:10.000Z",
+          "url": "https://lenta.ru/news/2026/08/13/na-ukraine-pozhalovalis-na-stremitelno-padayuschiy-eksport-zerna-na-fone-morskoy-blokady/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/06/20260813062109542/pic_da38f04261e6c6040588e6b00a2820d4.jpg",
+          "publishedAt": "2026-08-13T03:45:24.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1786581842000",
-          "title": "В России разработают «умный прицел» с ИИ",
+          "id": "politics-1-1786592714000",
+          "title": "Алаудинов назвал предстоящие бои за Славянск и Краматорск «очень тяжелой работой»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/v-rossii-razrabotayut-umnyy-pritsel-s-ii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/13/03/20260813034331792/pic_d73bab022cd11035aaed9fe69fe1c418.jpg",
-          "publishedAt": "2026-08-13T00:44:02.000Z",
+          "url": "https://lenta.ru/news/2026/08/13/alaudinov-nazval-predstoyaschie-boi-za-slavyansk-i-kramatorsk-ochen-tyazheloy-rabotoy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/06/20260813063711307/pic_b0a9b98cc6e104c84fd8c15ee0c9fa46.jpg",
+          "publishedAt": "2026-08-13T03:45:14.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1786581629000",
-          "title": "НАСА опубликовало карту затмения с российским Крымом",
+          "id": "politics-2-1786592520000",
+          "title": "В России определили условия учебы во вторую смену в школах",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/nasa-opublikovalo-kartu-zatmeniya-s-rossiyskim-krymom/",
-          "image": "https://icdn.lenta.ru/images/2026/08/13/03/20260813034028608/pic_f8db23319bb809622435c7afd794f4e7.jpg",
-          "publishedAt": "2026-08-13T00:40:29.000Z",
+          "url": "https://lenta.ru/news/2026/08/13/v-rossii-opredelili-usloviya-ucheby-vo-vtoruyu-smenu-v-shkolah/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/06/20260813062026632/pic_c4ae26bbef547aa803969ebfe6215e02.jpg",
+          "publishedAt": "2026-08-13T03:42:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1786581217000",
-          "title": "Алаудинов оценил границы буферной зоны на территории Украины",
+          "id": "politics-3-1786591811000",
+          "title": "Россиянам раскрыли плюсы и минусы основных вариантов вложений",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/alaudinov-otsenil-granitsy-bufernoy-zony-na-territorii-ukrainy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/13/03/20260813033405384/pic_60491f2ef39955220010556e10e199cf.jpg",
-          "publishedAt": "2026-08-13T00:33:37.000Z",
+          "url": "https://lenta.ru/news/2026/08/13/rossiyanam-raskryli-plyusy-i-minusy-osnovnyh-variantov-vlozheniy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/12/17/20260812172608783/pic_6db68b50c745118c2f36a207aae962c5.jpg",
+          "publishedAt": "2026-08-13T03:30:11.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1786581008000",
-          "title": "Россиянин описал американок словами «отказывают мужчинам в близости»",
+          "id": "politics-4-1786591809000",
+          "title": "В Турции оценили перспективы прекращения огня в Черном море",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/rossiyanin-opisal-amerikanok-slovami-otkazyvayut-muzhchinam-v-blizosti/",
-          "image": "https://icdn.lenta.ru/images/2026/08/12/14/20260812142212928/pic_693b27081d57dcc543ab1b91a3cb06d5.jpg",
-          "publishedAt": "2026-08-13T00:30:08.000Z",
+          "url": "https://lenta.ru/news/2026/08/13/v-turtsii-otsenili-perspektivy-prekrascheniya-ognya-v-chernom-more/",
+          "image": "https://icdn.lenta.ru/images/2026/08/12/15/20260812152309329/pic_21364b4af9857509ce22c611042dc2a9.jpg",
+          "publishedAt": "2026-08-13T03:30:09.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
