@@ -1,14 +1,7 @@
 {
-  "updatedAt": "2026-08-14T03:54:05.667Z",
+  "updatedAt": "2026-08-14T05:23:32.464Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "cybersecurity",
-    "business",
-    "sports",
-    "politics",
-    "law"
-  ],
-  "skippedNow": [
     "it",
     "ai",
     "startups",
@@ -20,14 +13,21 @@
     "space",
     "automotive",
     "gaming",
-    "entertainment",
+    "entertainment"
+  ],
+  "skippedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "politics",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-14T00:56:03.762Z",
+      "lastFetchAt": "2026-08-14T05:23:09.461Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-13T22:29:03.733Z",
+      "lastFetchAt": "2026-08-14T05:23:11.551Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-14T00:56:06.429Z",
+      "lastFetchAt": "2026-08-14T05:23:13.184Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -351,19 +351,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786613669000",
-          "title": "Производитель чипов CXMT обошёл Tencent по рыночной капитализации и стал самой дорогой компанией Китая",
-          "summary": "В июле 2026 года CXMT вышла на биржу.",
-          "url": "https://vc.ru/money/3076528-cxmt-oboshla-tencent-i-stala-samoy-dorogoy-kompaniey-kitaya?from=rss",
-          "image": "https://leonardo.osnova.io/2003ae25-ef62-523d-8bf8-56869ee2211b/",
-          "publishedAt": "2026-08-13T09:34:29.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786640681000",
+          "id": "startups-3-1786640681000",
           "title": "Сервис для анализа данных Databricks привлёк $5 млрд при оценке в $190 млрд",
           "summary": "В начале 2026-го оценка составляла $134 млрд.",
           "url": "https://vc.ru/services/3077221-databricks-privlek-5-mlrd-ocenka-190-mlrd?from=rss",
@@ -373,11 +361,23 @@
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1786613669000",
+          "title": "Производитель чипов CXMT обошёл Tencent по рыночной капитализации и стал самой дорогой компанией Китая",
+          "summary": "В июле 2026 года CXMT вышла на биржу.",
+          "url": "https://vc.ru/money/3076528-cxmt-oboshla-tencent-i-stala-samoy-dorogoy-kompaniey-kitaya?from=rss",
+          "image": "https://leonardo.osnova.io/2003ae25-ef62-523d-8bf8-56869ee2211b/",
+          "publishedAt": "2026-08-13T09:34:29.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
         }
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-13T22:29:05.189Z",
+      "lastFetchAt": "2026-08-14T05:23:14.103Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-14T00:56:08.098Z",
+      "lastFetchAt": "2026-08-14T05:23:15.772Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -501,23 +501,11 @@
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786631340000",
-          "title": "Врач поставил точку в споре о самом полезном летнем продукте",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/13/vrach-postavil-tochku-v-spore-o-samom-poleznom-letnem-produkte/",
-          "image": "https://icdn.lenta.ru/images/2026/08/13/11/20260813111307381/pic_83866dcc257e69c0f35c258d01f11a95.jpg",
-          "publishedAt": "2026-08-13T14:29:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
         }
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-13T22:29:08.463Z",
+      "lastFetchAt": "2026-08-14T05:23:21.048Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +575,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-14T00:56:09.119Z",
+      "lastFetchAt": "2026-08-14T05:23:21.850Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -657,7 +645,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-13T22:29:12.327Z",
+      "lastFetchAt": "2026-08-14T05:23:25.247Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -665,60 +653,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786659869000",
-          "title": "ЦБ будет отслеживать мисселинг при продаже криптовалют",
-          "summary": "Банк России будет наблюдать за практиками мисселинга при продаже криптовалют и цифровых инструментов, сообщил зампред регулятора Михаил Мамута. «Регулирование цифровых валют новое, и оно только вводится.",
-          "url": "https://www.kommersant.ru/doc/8879142",
-          "image": "https://im2.kommersant.ru/SocialPics/8879142_49_0_764434762",
-          "publishedAt": "2026-08-13T22:24:29.000Z",
+          "id": "energy-0-1786684344000",
+          "title": "В Тверской области обломками БПЛА поврежден склад Wildberries",
+          "summary": "Обломками сбитого БПЛА повреждена стена складского помещения Wildberries в тверском поселке Эммаусс. Об этом сообщил врио губернатора Тверской области Виталий Королев.",
+          "url": "https://www.kommersant.ru/doc/8879208",
+          "image": "https://im2.kommersant.ru/SocialPics/8879208_49_0_1959642267",
+          "publishedAt": "2026-08-14T05:12:24.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786657533000",
-          "title": "Трамп ввел пошлины на импорт БПЛА и их компонентов",
-          "summary": "Президент США Дональд Трамп ввел пошлины на импорт беспилотников и их компонентов. Решение принято для укрепления нацбезопасности.",
-          "url": "https://www.kommersant.ru/doc/8879141",
-          "image": "https://im2.kommersant.ru/SocialPics/8879141_49_0_680053175",
-          "publishedAt": "2026-08-13T21:45:33.000Z",
+          "id": "energy-1-1786684095000",
+          "title": "В Донецке почти 30 тысяч человек остались без света",
+          "summary": "В трех районах Донецка аварийно отключилось электричество. Без света остались более 29,6 тыс. человек, сообщил мэр города Алексей Кулемзин.",
+          "url": "https://www.kommersant.ru/doc/8879204",
+          "image": "https://im2.kommersant.ru/SocialPics/8879204_49_0_1730449178",
+          "publishedAt": "2026-08-14T05:08:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786656388000",
-          "title": "Два судна нефтяной компании Абу-Даби были атакованы в Ормузском проливе",
-          "summary": "Два судна Национальной нефтяной компании Абу-Даби (ADNOC) подверглись нападению в Ормузском проливе. Пострадавших нет, сообщает агентство WAM.",
-          "url": "https://www.kommersant.ru/doc/8879140",
-          "image": "https://im2.kommersant.ru/SocialPics/8879140_49_0_1476815949",
-          "publishedAt": "2026-08-13T21:26:28.000Z",
+          "id": "energy-2-1786683342000",
+          "title": "Стубб призвал наладить отношения с Россией в течение двух месяцев",
+          "summary": "Президент Финляндии Александр Стубб считает нужным наладить отношения с Россией. Он рассчитывает добиться этого в течение двух месяцев.",
+          "url": "https://www.kommersant.ru/doc/8879194",
+          "image": "https://im2.kommersant.ru/SocialPics/8879194_49_3182242_1926431177",
+          "publishedAt": "2026-08-14T04:55:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786654842000",
-          "title": "Клиентская база факторинговых компаний по итогам полугодия сократилась на 5%",
-          "summary": "По итогам первой половины 2026 года 15,78 тыс. клиентов получали в факторинговых компаниях финансирование под залог краткосрочной задолженности. Таким образом, клиентская база рынка снизилась на 5% по сравнению с аналоги",
-          "url": "https://www.kommersant.ru/doc/8879100",
-          "image": "https://im2.kommersant.ru/SocialPics/8879100_49_0_585664741",
-          "publishedAt": "2026-08-13T21:00:42.000Z",
+          "id": "energy-3-1786681854000",
+          "title": "Спрос россиян на недвижимость в Таиланде вырос на 46,4%",
+          "summary": "Среди российских покупателей зарубежной недвижимости в первой половине 2026 года особой популярностью стал пользоваться Таиланд. В январе—июне 2026 года россияне приобрели 820 объектов недвижимости в Таиланде, что на 46,",
+          "url": "https://www.kommersant.ru/doc/8879173",
+          "image": "https://im2.kommersant.ru/SocialPics/8879173_49_0_1673983522",
+          "publishedAt": "2026-08-14T04:30:54.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786654004000",
-          "title": "На пути к Москве сбиты два БПЛА",
-          "summary": "Силы ПВО сбили два беспилотника на пути к Москве, сообщил мэр столицы Сергей Собянин в «Максе». На месте работают экстренные службы.",
-          "url": "https://www.kommersant.ru/doc/8879124",
-          "image": "https://im2.kommersant.ru/SocialPics/8879124_49_0_476428431",
-          "publishedAt": "2026-08-13T20:46:44.000Z",
+          "id": "energy-4-1786681655000",
+          "title": "Голикова назвала непростой демографическую ситуацию в России",
+          "summary": "В России сложилась «непростая» демографическая ситуация, но власти ее контролируют, заявила вице-премьер Татьяна Голикова. Она назвала увеличение населения одной из главных национальных целей, поставленных президентом.",
+          "url": "https://www.kommersant.ru/doc/8879181",
+          "image": "https://im2.kommersant.ru/SocialPics/8879181_49_3182240_29176570",
+          "publishedAt": "2026-08-14T04:27:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -727,7 +715,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-13T22:29:13.186Z",
+      "lastFetchAt": "2026-08-14T05:23:26.761Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -797,7 +785,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-13T22:29:15.212Z",
+      "lastFetchAt": "2026-08-14T05:23:29.392Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -867,7 +855,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-14T00:56:11.203Z",
+      "lastFetchAt": "2026-08-14T05:23:31.224Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -937,7 +925,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-14T00:56:12.821Z",
+      "lastFetchAt": "2026-08-14T05:23:32.464Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -961,7 +949,7 @@
           "title": "Директором Театра Сатиры назначена Екатерина Сироткина",
           "summary": "Директором Московского академического театра сатиры назначена Екатерина Сироткина. Об этом сообщили в пресс-службе столичного департамента культуры.",
           "url": "https://www.kommersant.ru/doc/8878965",
-          "image": "https://iv.kommersant.ru/SocialPics/8878965_49_0_296410125",
+          "image": "https://im2.kommersant.ru/SocialPics/8878965_49_0_296410125",
           "publishedAt": "2026-08-13T14:20:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -973,7 +961,7 @@
           "title": "Умерла британская актриса сериалов Шерил Холл",
           "summary": "Британская актриса Шерил Холл умерла в возрасте 76 лет. Об этом в соцсети Х сообщил актер Робин Асквит, с которым актриса встречалась в 1970-х годах.",
           "url": "https://www.kommersant.ru/doc/8878877",
-          "image": "https://im2.kommersant.ru/SocialPics/8878877_49_3181881_1067550462",
+          "image": "https://iv.kommersant.ru/SocialPics/8878877_49_3181881_1067550462",
           "publishedAt": "2026-08-13T12:41:25.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
