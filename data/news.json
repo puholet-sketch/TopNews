@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-08-15T06:17:47.586Z",
+  "updatedAt": "2026-08-15T08:14:14.769Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
+    "ai",
     "cybersecurity",
     "business",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "sports",
     "politics",
     "education",
@@ -11,23 +25,9 @@
     "realestate",
     "travel"
   ],
-  "skippedNow": [
-    "it",
-    "ai",
-    "startups",
-    "science",
-    "medicine",
-    "health",
-    "environment",
-    "energy",
-    "space",
-    "automotive",
-    "gaming",
-    "entertainment"
-  ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-15T02:42:45.180Z",
+      "lastFetchAt": "2026-08-15T08:13:53.825Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -35,7 +35,43 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786741666000",
+          "id": "it-0-1786781380000",
+          "title": "Как я делал компактную библиотеку для создания приложений с графическим интерфейсом на языке C++. Часть 4",
+          "summary": "Это четвертая статья из цикла статей о создании компактной кросс‑платформенной библиотеки для разработки приложений с графическим интерфейсом на языке C++ — Frenchie. Для тех, кто привык изучать исходный код самостоятель",
+          "url": "https://habr.com/ru/articles/1070740/?utm_campaign=1070740&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/51c/60e/54f/51c60e54fa96bccacb35c552ba3d8048.png",
+          "publishedAt": "2026-08-15T08:09:40.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786776300000",
+          "title": "Спустя 5 лет я снова пишу Всерос — часть 1",
+          "summary": "Привет, Хабр! На связи финалист ICPC и гроссмейстер codeforces MachineSolution. В прошлой своей статье я писал о том, как подготовиться к соревнованию. Но что делать, если время подготовки прошло, как писать саму олимпиа",
+          "url": "https://habr.com/ru/articles/1065810/?utm_campaign=1065810&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c9a/cdb/5e4/c9acdb5e4027e21ec5216a1432e2a148.png",
+          "publishedAt": "2026-08-15T06:45:00.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1786770667000",
+          "title": "Протестировал Vibecraft от Яндекса. Один вопрос остался без ответа",
+          "summary": "Всем привет. На связи Сергей Игнатенко, основатель ИИ-платформы VibePilot. C недавнего времени партнер Яндекс, у меня грант AI Studio Boost, платформа работает на их моделях. Недавно мне пришло письмо от Yandex Cloud о т",
+          "url": "https://habr.com/ru/articles/1070724/?utm_campaign=1070724&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f41/a16/28d/f41a1628d259146333d33b3c51786591.jpeg",
+          "publishedAt": "2026-08-15T05:11:07.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-3-1786741666000",
           "title": "Заметки как чаты: почему я перестал искать папку и начал искать сообщение",
           "summary": "Всем привет я Артур Валиев, пятничная статья, поехали. Я каждый день кидаю заметки не в специальное приложение, а в Избранное в Telegram — просто потому, что там приятнее писать: пружинный отскок сообщения, ноль лагов, м",
           "url": "https://habr.com/ru/articles/1070702/?utm_campaign=1070702&utm_source=habrahabr&utm_medium=rss",
@@ -47,48 +83,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786725946000",
+          "id": "it-4-1786725946000",
           "title": "Как мы перенесли ответственность за поддержку мапперов моделей на KSP",
           "summary": "Каждый разработчик, работавший с проектом, где одни модели мапятся в другие, знает эту боль: добавил поле в модель и пошёл обновлять десятки мапперов вручную. Переименовал параметр - компилятор взрывается ошибками, и ты ",
           "url": "https://habr.com/ru/articles/1069866/?utm_campaign=1069866&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habr.com/share/publication/1069866/f6d52bcf02ae785625244a39779af29b/",
           "publishedAt": "2026-08-14T16:45:46.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-2-1786724313000",
-          "title": "Генерация кода: сокращаем рутину в разработке",
-          "summary": "Привет, Хабр! Меня зовут Иван, я DevOps‑инженер в ИТ‑холдинге Т1. В современной разработке автоматизация — это давно не «роскошь», а «базовый минимум». Однако многие команды до сих пор ограничиваются лишь простыми возмож",
-          "url": "https://habr.com/ru/companies/T1Holding/articles/1070586/?utm_campaign=1070586&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/6b3/b5b/e30/6b3b5be3043aaa322d2053d6ec4e9e0e.jpg",
-          "publishedAt": "2026-08-14T16:18:33.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1786721037000",
-          "title": "Имитационное моделирование: что это такое и с чем его едят",
-          "summary": "Моя Roadmap разработчика имитационных моделей в AnyLogic породила в моём канале больше вопросов, чем ответов. Суммируя которые можно прийти к медианному:: «А что это вообще за зверь?». Поэтому к вашему вниманию новая ста",
-          "url": "https://habr.com/ru/articles/1070648/?utm_campaign=1070648&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c51/798/6ae/c517986ae194efc495488403f5a407f4.png",
-          "publishedAt": "2026-08-14T15:23:57.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786713136000",
-          "title": "Предзаказ книги «Предметно-ориентированное проектирование. Модернизация легаси-систем и снижение рисков с помощью DDD»",
-          "summary": "Привет, Хаброжители! «Все счастливые семьи похожи друг на друга, каждая несчастливая семья несчастлива по-своему». Этот принцип, сформулированный в «Анне Карениной», применим не только к семьям, но и к командам, работающ",
-          "url": "https://habr.com/ru/companies/piter/articles/1070426/?utm_campaign=1070426&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/8b0/922/fa4/8b0922fa4341ce85e388bef373e326dd.jpg",
-          "publishedAt": "2026-08-14T13:12:16.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-15T02:42:48.816Z",
+      "lastFetchAt": "2026-08-15T08:13:55.470Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -363,12 +363,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1786713950000",
-          "title": "В некоторых регионах Казахстана, Кыргызстана, Таджикистана и Узбекистана произошло отключение электроэнергии",
-          "summary": "Причина — «срабатывание защитной автоматики при резком изменении перетока электроэнергии со стороны энергосистемы Центральной Азии».",
-          "url": "https://vc.ru/offline/3078888-otklyucheniye-elektrichestva-v-tsentralnoy-azii?from=rss",
-          "image": "https://leonardo.osnova.io/ca2749d8-be98-5df2-bd92-9dbc6571f235/",
-          "publishedAt": "2026-08-14T13:25:50.000Z",
+          "id": "startups-4-1786751561000",
+          "title": "Приложения Ozon, Ozon Travel и других сервисов компании стали недоступны в Google Play",
+          "summary": "Вслед за приложением «Ozon Банка».",
+          "url": "https://vc.ru/services/3079409-nedostupnost-prilozhenij-ozon-v-google-play?from=rss",
+          "image": "https://leonardo.osnova.io/6193e8d6-3df9-596d-9db9-9ac4411e0346/",
+          "publishedAt": "2026-08-14T23:52:41.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-15T02:42:50.235Z",
+      "lastFetchAt": "2026-08-15T08:13:56.878Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -455,7 +455,19 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786730460000",
+          "id": "medicine-0-1786779000000",
+          "title": "Врач назвала доступный каждому россиянину продукт для профилактики запоров",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/15/produkt-dlya-borby-s-zaporami/",
+          "image": "https://icdn.lenta.ru/images/2026/08/06/12/20260806120744630/pic_b036e1c313f179b525de7ef7f8e1707c.jpg",
+          "publishedAt": "2026-08-15T07:30:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786730460000",
           "title": "Врач назвал возраст появления более тяжелого похмелья",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/14/vrach-nazval-vozrast-poyavleniya-bolee-tyazhelogo-pohmelya/",
@@ -467,7 +479,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786728418000",
+          "id": "medicine-2-1786728418000",
           "title": "Врач объяснил внезапную тягу к алкоголю у непьющих людей",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/14/vrach-ob-yasnil-vnezapnuyu-tyagu-k-alkogolyu-u-nepyuschih-lyudey/",
@@ -479,7 +491,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1786727640000",
+          "id": "medicine-3-1786727640000",
           "title": "В московской клинике калечили детей за деньги их родителей",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/14/v-moskovskoy-klinike-kalechili-detey-za-dengi-ih-roditeley/",
@@ -491,7 +503,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1786724968000",
+          "id": "medicine-4-1786724968000",
           "title": "Врач раскрыла способ быстро избавиться от зуда при комарином укусе",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/14/vrach-raskryla-sposob-bystro-izbavitsya-ot-zuda-pri-komarinom-ukuse/",
@@ -575,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-15T02:42:54.006Z",
+      "lastFetchAt": "2026-08-15T08:13:57.359Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -855,7 +867,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-15T02:43:01.990Z",
+      "lastFetchAt": "2026-08-15T08:13:58.834Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -863,7 +875,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786751042000",
+          "id": "gaming-0-1786781489000",
+          "title": "Как я HDMI-порт в PlayStation 4 Fat менял. Странная история со счастливым концом",
+          "summary": "Я пару лет назад купил по случаю, очень недорого PS4 Fat. Приобрел как нерабочую — по словам предыдущего владельца, она не давала изображение на экран. Получив девайс, я первым делом проинспектировал HDMI-порт. И точно, ",
+          "url": "https://habr.com/ru/companies/ru_mts/articles/1069974/?utm_campaign=1069974&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/e16/b56/702/e16b56702a46231b2c6952a95014b40e.png",
+          "publishedAt": "2026-08-15T08:11:29.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786751042000",
           "title": "10 моих любимых игр",
           "summary": "Эта статья вряд-ли принесет кому-нибудь хоть какую-то пользу, потому что мой топ будет состоять исключительно из тех игр, которые нравятся мне (на самом деле тут вы увидите единственное верное мнение). На мою любовь к эт",
           "url": "https://habr.com/ru/articles/1070710/?utm_campaign=1070710&utm_source=habrahabr&utm_medium=rss",
@@ -875,7 +899,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786713716000",
+          "id": "gaming-2-1786713716000",
           "title": "Как я написал OpenGL 3.3 рендерер с поддержкой Normal Map для Unreal Tournament 2004, не зная C++ и без исходников игры",
           "summary": "Unreal Tournament 2004 — безусловная классика, но графически она застряла в эпохе Direct3D 8 и Fixed‑Function Pipeline. Три месяца реверс‑инжиниринга, сотни падений с Access Violation и ни строчки C++ в голове — под като",
           "url": "https://habr.com/ru/articles/1070592/?utm_campaign=1070592&utm_source=habrahabr&utm_medium=rss",
@@ -887,7 +911,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786704116000",
+          "id": "gaming-3-1786704116000",
           "title": "Что важнее для игр: частота памяти, тайминги или процессор",
           "summary": "Когда начинаешь выбирать оперативную память, сразу бросаются в глаза две главные цифры. Производители даже в маркировку обычно выносят тип-частоту и тайминги. Обычно это цифры вроде DDR5-6000 и CL30. Споры о том, что из ",
           "url": "https://habr.com/ru/companies/x-com/articles/1070492/?utm_campaign=1070492&utm_source=habrahabr&utm_medium=rss",
@@ -899,7 +923,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1786659121000",
+          "id": "gaming-4-1786659121000",
           "title": "Вышел Duskfade: стимпанк и платформинг",
           "summary": "В стиме релизнулась игра Duskfade. Разработчиками выступила студия Weird Beluga, это их дебютный проект. Издает игру Fireshine Games, они же недавно выпустили получившую громкую огласку и множество положительных реакций ",
           "url": "https://habr.com/ru/articles/1070344/?utm_campaign=1070344&utm_source=habrahabr&utm_medium=rss",
@@ -909,23 +933,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1786554557000",
-          "title": "Помните «Шарарам»? Я перенёс его с Flash на Ruffle, и он перестал лагать",
-          "summary": "«Шарарам» – это старая, но до сих пор живая MMORPG по «Смешарикам». Огромный срез моего поколения, родившегося в нулевых, нашёл там первых друзей и приобрёл первые социальные навыки. Я до сих пор, в свои 23 года, возвращ",
-          "url": "https://habr.com/ru/articles/1069452/?utm_campaign=1069452&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/981/050/51a/98105051a05748509411808743f2c006.webp",
-          "publishedAt": "2026-08-12T17:09:17.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-15T02:43:03.379Z",
+      "lastFetchAt": "2026-08-15T08:14:14.769Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -933,11 +945,35 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786728744000",
+          "id": "entertainment-0-1786780654000",
+          "title": "Disney анонсировала «Зверополис 3»",
+          "summary": "Walt Disney Animation Studios официально анонсировала третью часть анимационного фильма «Зверополис». Представители студии показали тизер картины во время презентации на фестивале D23 в Анахайме.",
+          "url": "https://www.kommersant.ru/doc/8890434",
+          "image": "https://im2.kommersant.ru/SocialPics/8890434_49_0_1499394966",
+          "publishedAt": "2026-08-15T07:57:34.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786778306000",
+          "title": "Софья Митрофанова назначена и. о. ректора МГИК",
+          "summary": "Исполняющим обязанности ректора Московского государственного института культуры назначена Софья Митрофанова. Об этом сообщила министр культуры России Ольга Любимова.",
+          "url": "https://www.kommersant.ru/doc/8890427",
+          "image": "https://iv.kommersant.ru/SocialPics/8890427_49_3182995_729327719",
+          "publishedAt": "2026-08-15T07:18:26.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1786728744000",
           "title": "Концерт Канье Уэста в Алматы перенесли на день из-за блэкаута",
           "summary": "Концерт американского рэпера Канье Уэста (также известен как Йе Йе) в Алматы 14 августа не состоится. Мероприятие пройдет 15 августа, сообщил музыкант в своих соцсетях.",
           "url": "https://www.kommersant.ru/doc/8890092",
-          "image": "https://iv.kommersant.ru/SocialPics/8890092_49_3182891_284981746",
+          "image": "https://im2.kommersant.ru/SocialPics/8890092_49_3182891_284981746",
           "publishedAt": "2026-08-14T17:32:24.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -945,11 +981,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786726971000",
+          "id": "entertainment-3-1786726971000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 15–16 августа",
           "summary": "13 августа в прокат вышел ряд фильмов, среди которых японский хоррор «Демонолог» и исторический детектив «Самурай и пленник». Что посмотреть в кино на выходных — в материале «Ъ».",
           "url": "https://www.kommersant.ru/doc/8877938",
-          "image": "https://iv.kommersant.ru/SocialPics/8877938_49_3181827_772606594",
+          "image": "https://im2.kommersant.ru/SocialPics/8877938_49_3181827_772606594",
           "publishedAt": "2026-08-14T17:02:51.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -957,36 +993,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786725001000",
+          "id": "entertainment-4-1786725001000",
           "title": "«Человек-паук: Новый день» быстрее всех собрал $700 млн в прокате в США",
           "summary": "«Человек-паук: Новый день» от Sony Pictures и Marvel Studios пересек в домашнем прокате рубеж в $700 млн за рекордные 13 дней, быстрее всех в истории, сообщает Deadline. Предыдущий рекорд, установленный фильмами «Звездны",
           "url": "https://www.kommersant.ru/doc/8890052",
           "image": "https://im2.kommersant.ru/SocialPics/8890052_49_0_1282507879",
           "publishedAt": "2026-08-14T16:30:01.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1786716695000",
-          "title": "Итальянские карабинеры нашли украденные картины Матисса, Ренуара и Сезанна",
-          "summary": "Карабинеры в Италии обнаружили картины Пьера Огюста Ренуара, Анри Матисса и Поля Сезанна, украденные из частного музея в марте. Расследование по делу продолжается, сообщили в правоохранительных органах.",
-          "url": "https://www.kommersant.ru/doc/8889989",
-          "image": "https://im2.kommersant.ru/SocialPics/8889989_49_3182755_2038703467",
-          "publishedAt": "2026-08-14T14:11:35.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786712734000",
-          "title": "Теория малых радостей // Фильмы Хон Сан Су и Дени Коте в Локарно",
-          "summary": "Накануне объявления победителей фестиваля в Локарно, которое состоится в 15 августа вечером, Андрей Плахов рассказывает о двух важных фильмах-участниках, художественная ценность которых неразрывна с жизненным опытом их с",
-          "url": "https://www.kommersant.ru/doc/8889910",
-          "image": "https://im2.kommersant.ru/SocialPics/8889910_49_3182659_1846974912",
-          "publishedAt": "2026-08-14T13:05:34.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
