@@ -1,18 +1,10 @@
 {
-  "updatedAt": "2026-08-15T16:10:04.504Z",
+  "updatedAt": "2026-08-15T18:11:50.902Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -23,11 +15,19 @@
     "automotive",
     "gaming",
     "entertainment",
-    "law"
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-15T14:10:50.074Z",
+      "lastFetchAt": "2026-08-15T18:11:13.324Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-15T10:11:09.534Z",
+      "lastFetchAt": "2026-08-15T18:11:14.725Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,60 +105,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1786787543000",
-          "title": "У нового клиента нет эмоций? Рассмотрим перспективы маркетинга на 2027-2028 год",
-          "summary": "Я занимаюсь маркетингом и политическими технологиями достаточно долго, чтобы пережить несколько обещанных концов профессии: наружную рекламу хоронили после появления интернета, телевидение — после таргета, таргет — после",
-          "url": "https://habr.com/ru/articles/1070762/?utm_campaign=1070762&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1070762/a54cb4c1ad3f8cace2d4aec3ba5acef1/",
-          "publishedAt": "2026-08-15T09:52:23.000Z",
+          "id": "ai-0-1786812434000",
+          "title": "Антропик устроил войну 3 ИИ-агентов за сервер",
+          "summary": "Только недавно компания Антропик развлекла нас всех удивительным рассказом о штурме гипотезы Римана с получением математических результатов с помощью мультиагентного пайплайна https://habr.com/ru/articles/1069480/ . И во",
+          "url": "https://habr.com/ru/articles/1070818/?utm_campaign=1070818&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/908/4ca/779/9084ca7796c51f08182ef6a414aaed3b.webp",
+          "publishedAt": "2026-08-15T16:47:14.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1786780888000",
-          "title": "3 бита вместо 16: разбираем TurboQuant и когда его реально стоит включать",
-          "summary": "В марте 2026 года Google публикует пост про алгоритм сжатия памяти для языковых моделей. Звучит скучно, правда? Но акции Micron, SanDisk, Samsung, SK Hynix и других производителей памяти за неделю теряют суммарно почти $",
-          "url": "https://habr.com/ru/companies/selectel/articles/1022312/?utm_campaign=1022312&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/aaf/d43/5ae/aafd435ae172e2ab90143397a2415fcc.jpg",
-          "publishedAt": "2026-08-15T08:01:28.000Z",
+          "id": "ai-1-1786802875000",
+          "title": "8 агентов, 12 волн, 4 дня: как ИИ в одиночку взломал правительство Тайваня",
+          "summary": "Израильская компания Dream занималась рутиной — отслеживала активность в среде киберпреступников. В очередном улове оказался открытый архив на 160 мегабайт. Внутри лежали 1395 файлов: отчеты, логи, выгрузки. Это был не н",
+          "url": "https://habr.com/ru/articles/1070800/?utm_campaign=1070800&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/08c/fcf/527/08cfcf52757e5cce41a61c730400ba3a.jpg",
+          "publishedAt": "2026-08-15T14:07:55.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1786770667000",
-          "title": "Протестировал Vibecraft от Яндекса. Один вопрос остался без ответа",
-          "summary": "Всем привет. На связи Сергей Игнатенко, основатель ИИ-платформы VibePilot. C недавнего времени партнер Яндекс, у меня грант AI Studio Boost, платформа работает на их моделях. Недавно мне пришло письмо от Yandex Cloud о т",
-          "url": "https://habr.com/ru/articles/1070724/?utm_campaign=1070724&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f41/a16/28d/f41a1628d259146333d33b3c51786591.jpeg",
-          "publishedAt": "2026-08-15T05:11:07.000Z",
+          "id": "ai-2-1786801010000",
+          "title": "«Автомойка в 50 метрах от дома. Пойдем пешком?» Как простая загадка вызвала грандиозный философский спор о будущем ИИ",
+          "summary": "Автомойка в 50 метрах от дома. Как доберетесь — на машине или пешком? Если вы ответили «конечно, пешком, отчего не прогуляться» — поздравляем. Вы угодили в старую как мир ловушку здравого смысла. Но не расстраивайтесь! С",
+          "url": "https://habr.com/ru/articles/1070798/?utm_campaign=1070798&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/018/856/5b2/0188565b2d6cf1ba574d810905784ffe.jpg",
+          "publishedAt": "2026-08-15T13:36:50.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1786763390000",
-          "title": "Деплой-платформа для MCP-серверов и сайтов, встроенная в каталог",
-          "summary": "Недавно я писал на Хабре, как собрал каталог MCP-серверов: 80 тысяч записей из девяти источников в одном индексе. В комментариях и в личке быстро всплыл вопрос, который я сам не до конца продумал, когда делал каталог: «н",
-          "url": "https://habr.com/ru/articles/1070718/?utm_campaign=1070718&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/deb/e22/4d2/debe224d2d9499095d7f68e9d6fb37ce.png",
-          "publishedAt": "2026-08-15T03:09:50.000Z",
+          "id": "ai-3-1786791942000",
+          "title": "ИИ‑прогноз погоды на своём железе: запускаем AIFS 2.0 от ECMWF",
+          "summary": "Открытые веса модели мало помогают, если для её запуска нужен конкретный GPU и непростое окружение. Разберём, как запустить AIFS Single 2.0 от ECMWF через Hugging Face Jobs или локально, обойти зависимость от flash-attn ",
+          "url": "https://habr.com/ru/companies/otus/articles/1069812/?utm_campaign=1069812&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/233/5f2/05e/2335f205ea2e338f6fefa97439946d3f.png",
+          "publishedAt": "2026-08-15T11:05:42.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-4-1786736555000",
-          "title": "Вышла новая модель: Qwen 3.8 27B",
-          "summary": "https://huggingface.co/Qwen/Qwen3.8-27B Вышла модель Qwen3.8-27B, которая по бенчмаркам лучше чем Opus 4.6 Читать далее",
-          "url": "https://habr.com/ru/articles/1070694/?utm_campaign=1070694&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/1af/5a9/d23/1af5a9d23bb6e69dae45ebafc9023973.png",
-          "publishedAt": "2026-08-14T19:42:35.000Z",
+          "id": "ai-4-1786790423000",
+          "title": "[Перевод] Что я узнал, поместив GitHub Copilot за MITM‑прокси",
+          "summary": "За последнюю пару лет появилось множество приложений на основе ИИ и ИИ‑функций. Чем больше появляется таких приложений, тем любопытнее мне становится изучить их внутреннюю работу. Надеюсь, мне удастся узнать что‑то новое",
+          "url": "https://habr.com/ru/articles/1070652/?utm_campaign=1070652&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/916/48d/bd3/91648dbd3ff030f4d268169e6b695d1f.jpeg",
+          "publishedAt": "2026-08-15T10:40:23.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-15T16:09:49.799Z",
+      "lastFetchAt": "2026-08-15T18:11:16.361Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-15T14:10:51.713Z",
+      "lastFetchAt": "2026-08-15T18:11:23.040Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -339,7 +339,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786700565000",
+          "id": "startups-2-1786802681000",
+          "title": "День 1634: индекс Мосбиржи пережил сильнейшее внутридневное падение с сентября 2022 года",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3080373-indeks-mosbirzhi-upal-na-silneyshoe-vnutridnevnoe-padenie?from=rss",
+          "image": "https://leonardo.osnova.io/ab6a6e8c-36af-5819-9a7c-360645dd84a3/",
+          "publishedAt": "2026-08-15T14:04:41.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1786700565000",
           "title": "Сеть доставки суши и роллов «Ёбидоёби» переименуется в «Ё»",
           "summary": "Компания говорит, что ребрендинг связан с «новой стратегией развития бизнеса».",
           "url": "https://vc.ru/food/3078384-set-dostavki-sushi-ebidoebi-pereimenovana-v-e?from=rss",
@@ -351,7 +363,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1786751561000",
+          "id": "startups-4-1786751561000",
           "title": "Приложения Ozon, Ozon Travel и других сервисов компании стали недоступны в Google Play",
           "summary": "Вслед за приложением «Ozon Банка».",
           "url": "https://vc.ru/services/3079409-nedostupnost-prilozhenij-ozon-v-google-play?from=rss",
@@ -361,23 +373,11 @@
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1786685983000",
-          "title": "День 1633: объём венчурных инвестиций в мире за первую половину 2026 года вырос в 2,2 раза, а в России — сократился на 48%",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/money/3077972-venchurnye-investitsii-v-mire-i-rossii?from=rss",
-          "image": "https://leonardo.osnova.io/2e35c8af-c17d-55a3-bed0-95ee93ecb214/",
-          "publishedAt": "2026-08-14T05:39:43.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
         }
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-15T10:11:12.883Z",
+      "lastFetchAt": "2026-08-15T18:11:23.830Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-15T14:10:53.105Z",
+      "lastFetchAt": "2026-08-15T18:11:24.833Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -455,7 +455,19 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786793400000",
+          "id": "medicine-0-1786805910000",
+          "title": "В Москве арестовали директора клиники для детей с аутизмом",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/15/v-moskve-arestovali-direktora-kliniki-dlya-detey-s-autizmom/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/17/20260815175246007/pic_2727f7a916bbda8429217b247dcfe74d.jpg",
+          "publishedAt": "2026-08-15T14:58:30.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1786793400000",
           "title": "Врач предупредил россиян об опасности чая в пакетиках для суставов",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/15/vrach-predupredil-rossiyan-ob-opasnosti-chaya-v-paketikah-dlya-sustavov/",
@@ -467,7 +479,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786787460000",
+          "id": "medicine-2-1786787460000",
           "title": "Главврача московской клиники задержали после жалоб родителей на искалеченных детей",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/15/glavvracha-moskovskoy-kliniki-zaderzhali-posle-zhalob-roditeley-na-iskalechennyh-detey/",
@@ -479,7 +491,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1786779000000",
+          "id": "medicine-3-1786779000000",
           "title": "Врач назвала доступный каждому россиянину продукт для профилактики запоров",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/15/produkt-dlya-borby-s-zaporami/",
@@ -493,7 +505,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-15T10:11:15.611Z",
+      "lastFetchAt": "2026-08-15T18:11:28.892Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -563,7 +575,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-15T14:10:53.906Z",
+      "lastFetchAt": "2026-08-15T18:11:29.143Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -633,7 +645,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-15T10:11:19.071Z",
+      "lastFetchAt": "2026-08-15T18:11:41.657Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -641,60 +653,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786788132000",
-          "title": "МИД Ирана обвинил США во лжи и процитировал «Братьев Карамазовых» Достоевского",
-          "summary": "Официальный представитель МИД Ирана Исмаил Багаи в соцсети X обвинил внешнюю политику США в отношении Исламской Республики и Ближнего Востока в «крайней зависимости от лжи». Для иллюстрации своих слов дипломат процитиров",
-          "url": "https://www.kommersant.ru/doc/8890478",
-          "image": "https://im2.kommersant.ru/SocialPics/8890478_49_0_631694591",
-          "publishedAt": "2026-08-15T10:02:12.000Z",
+          "id": "energy-0-1786816975000",
+          "title": "Средства ПВО уничтожили 180 беспилотников ВСУ над регионами России",
+          "summary": "С 8.00 до 20.00 мск 15 августа силы ПВО перехватили и уничтожили 180 беспилотников над 11 регионами России. Об этом сообщает пресс-служба Минобороны.",
+          "url": "https://www.kommersant.ru/doc/8890560",
+          "image": "https://im2.kommersant.ru/SocialPics/8890560_49_0_45884887",
+          "publishedAt": "2026-08-15T18:02:55.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786787191000",
-          "title": "Российская команда Team Spirit первой вышла в плей-офф чемпионата по Dota 2",
-          "summary": "Команда Team Vision победила Team Spirit со счетом 2–0 в четвертом раунде группового этапа The International 2026 — киберспортивного турнира по Dota 2. За обе команды играли по четверо россиян и по одному украинцу.",
-          "url": "https://www.kommersant.ru/doc/8890470",
-          "image": "https://im2.kommersant.ru/SocialPics/8890470_49_0_482487337",
-          "publishedAt": "2026-08-15T09:46:31.000Z",
+          "id": "energy-1-1786816595000",
+          "title": "Йеменский порт в Мохе приостановил работу из-за атак хуситов",
+          "summary": "Руководство морского порта в Мохе временно не будет принимать и отправлять грузы, передает «Аль-Арабия». Решение принято из-за участившихся атак хуситов на порт.",
+          "url": "https://www.kommersant.ru/doc/8890559",
+          "image": "https://im2.kommersant.ru/SocialPics/8890559_49_0_878822755",
+          "publishedAt": "2026-08-15T17:56:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786785572000",
-          "title": "Минобороны сообщило об уничтожении 1328 беспилотников за сутки",
-          "summary": "Российские средства противовоздушной обороны за минувшие сутки уничтожили 1328 беспилотников ВСУ самолетного типа. Кроме того, были перехвачены 17 крылатых ракет большой дальности «Фламинго», сообщило Минобороны России.",
-          "url": "https://www.kommersant.ru/doc/8890467",
-          "image": "https://im2.kommersant.ru/SocialPics/8890467_49_0_1152161793",
-          "publishedAt": "2026-08-15T09:19:32.000Z",
+          "id": "energy-2-1786816231000",
+          "title": "Немец Йоханнес Либман побил мировой рекорд в плавании на 1500 м вольным стилем",
+          "summary": "19-летний немецкий пловец Йоханнес Либман установил новый мировой рекорд в дисциплине 1500 м вольным стилем. В финальном заплыве на парижском чемпионате Европы он преодолел дистанцию за 14 минут 26,79 секунды.",
+          "url": "https://www.kommersant.ru/doc/8890558",
+          "image": "https://im2.kommersant.ru/SocialPics/8890558_49_0_2111501153",
+          "publishedAt": "2026-08-15T17:50:31.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786785206000",
-          "title": "Во Вьетнаме российский турист погиб в ДТП с экскурсионным автобусом",
-          "summary": "Во вьетнамской провинции Ламдонг при столкновении экскурсионного автобуса с грузовиком погиб российский турист. Об этом сообщили в пресс-службе Российского союза туриндустрии (РСТ).",
-          "url": "https://www.kommersant.ru/doc/8890462",
-          "image": "https://im2.kommersant.ru/SocialPics/8890462_49_0_359793167",
-          "publishedAt": "2026-08-15T09:13:26.000Z",
+          "id": "energy-3-1786815013000",
+          "title": "Два человека пострадали в Белгородской области при атаках ВСУ",
+          "summary": "Вооруженные силы Украины атаковали территорию Белгородской области 15 августа. Пострадали двое мужчин в Белгородском округе, сообщает оперативный штаб региона.",
+          "url": "https://www.kommersant.ru/doc/8890557",
+          "image": "https://im2.kommersant.ru/SocialPics/8890557_49_0_373611160",
+          "publishedAt": "2026-08-15T17:30:13.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786785150000",
-          "title": "Состояние пострадавшего при атаке БПЛА в Подмосковье мальчика стабилизировали",
-          "summary": "Состояние девятилетнего мальчика, пострадавшего при атаке беспилотника на подмосковную Шатуру, стабилизировали. Угрозы его жизни сейчас нет, сообщил губернатор Московской области Андрей Воробьев в «Максе».",
-          "url": "https://www.kommersant.ru/doc/8890463",
-          "image": "https://im2.kommersant.ru/SocialPics/8890463_49_0_895518282",
-          "publishedAt": "2026-08-15T09:12:30.000Z",
+          "id": "energy-4-1786814045000",
+          "title": "Обломки БПЛА нашли на побережье Черного моря в Турции",
+          "summary": "Обломки неопознанного беспилотника нашли в турецкой провинции Дюздже, расположенной на побережье Черного моря к востоку от Стамбула. Местная прокуратура начала расследование.",
+          "url": "https://www.kommersant.ru/doc/8890554",
+          "image": "https://iv.kommersant.ru/SocialPics/8890554_49_0_2017403559",
+          "publishedAt": "2026-08-15T17:14:05.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -703,7 +715,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-15T10:11:19.656Z",
+      "lastFetchAt": "2026-08-15T18:11:42.057Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -773,7 +785,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-15T10:11:21.674Z",
+      "lastFetchAt": "2026-08-15T18:11:43.891Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -781,7 +793,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1786786652000",
+          "id": "automotive-0-1786811269000",
+          "title": "Aston Martin создал самый мощный автомобиль с V12 в своей истории",
+          "summary": "Британская марка представила суперкар Valen, который стал самым мощным переднемоторным автомобилем с V12 в ее истории. Новинка дебютировала в рамках калифорнийской Monterey Car Week. Все 150 экземпляров уже распроданы, н",
+          "url": "https://motor.ru/news/aston-martin-sozdal-samyi-moshnyi-avtomobil-s-v12-v-svoei-istorii-15-08-2026.htm",
+          "image": "https://motor.ru/imgs/2026/08/15/16/6997424/3ad5a927fc7359b2cc023b004925855fe1766b28.jpg",
+          "publishedAt": "2026-08-15T16:27:49.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1786786652000",
           "title": "Toyota закрепила за собой в России права на модели Hilux и Sequoia",
           "summary": "Японский автоконцерн Toyota, приостановивший официальные продажи и производство в России в 2022 году, зарегистрировал в Роспатенте товарные знаки на два популярных автомобиля — пикап Hilux и полноразмерный кроссовер Sequ",
           "url": "https://motor.ru/news/toyota-zakrepila-za-soboi-v-rossii-prava-na-modeli-hilux-i-sequoia-15-08-2026.htm",
@@ -793,7 +817,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1786782271000",
+          "id": "automotive-2-1786782271000",
           "title": "Гоночный Land Rover Defender после победы на «Дакаре» выпустят на дороги",
           "summary": "Land Rover представил дорожную версию своего раллийного внедорожника Defender D7X-R, одержавшего победу на ралли-рейде «Дакар» 2026 года в категории серийных автомобилей. Первый старт команды Defender Rally на «Дакаре» с",
           "url": "https://motor.ru/news/gonochnyi-land-rover-defender-posle-pobedy-na-dakare-vypustyat-na-dorogi-15-08-2026.htm",
@@ -805,7 +829,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1786713633000",
+          "id": "automotive-3-1786713633000",
           "title": "На автодроме «Игора Драйв» пройдет финальный этап Кубка Санкт-Петербурга по дрифту",
           "summary": "Завершающий этап соревнований сезона 2026 года состоится 29 и 30 августа, лучшие дрифтеры Северо-Запада вновь соберутся в «бетонном Колизее». На первом этапе кубка доминировали пилоты на BMW, на втором им ярко ответили у",
           "url": "https://motor.ru/news/na-avtodrome-igora-draiv-proidet-finalnyi-etap-kubka-sankt-peterburga-po-driftu-14-08-2026.htm",
@@ -817,7 +841,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1786709695000",
+          "id": "automotive-4-1786709695000",
           "title": "Ferrari замаскировала под Kia суперкар SF90",
           "summary": "Подразделение Ferrari Special Projects представило уникальный суперкар CZ26, построенный в единственном экземпляре для заказчика из Америки. Новинка стала 26-м проектом в рамках этой программы. Суперкар построен на базе ",
           "url": "https://motor.ru/news/ferrari-zamaskirovala-pod-kia-superkar-sf90-14-08-2026.htm",
@@ -827,23 +851,11 @@
           "categoryId": "automotive",
           "categoryName": "Авто",
           "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1786705837000",
-          "title": "Концепт Acura Nexera Vision: эффектное купе с дверями-бабочками и штурвалом вместо руля",
-          "summary": "На автосалоне в Монтерее в рамках празднования 40-летия бренда Acura представила эффектное двухместное купе Nexera Vision. Однако поклонникам марки стоит сразу остыть: концепт не предназначен для серийного производства. ",
-          "url": "https://motor.ru/news/koncept-acura-nexera-vision-effektnoe-kupe-s-dveryami-babochkami-i-shturvalom-vmesto-rulya-14-08-2026.htm",
-          "image": "https://motor.ru/imgs/2026/08/14/10/6997131/75f23351d08ec056b901951572f6efd550fc65a9.webp",
-          "publishedAt": "2026-08-14T11:10:37.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
         }
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-15T14:10:55.495Z",
+      "lastFetchAt": "2026-08-15T18:11:45.253Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -913,7 +925,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-15T14:10:58.294Z",
+      "lastFetchAt": "2026-08-15T18:11:47.598Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -921,7 +933,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1786791605000",
+          "id": "entertainment-0-1786811264000",
+          "title": "Marvel представила актерский состав «Людей Икс»",
+          "summary": "Исполнительный директор кинокомпании Marvel Studios Кевин Файги объявил актерский состав новой части фильма «Люди Икс» на выставке D23. Главные роли сыграют Адам Драйвер (мистер Синистер), Сэди Синк (Джин Грэй), Кит Конн",
+          "url": "https://www.kommersant.ru/doc/8890550",
+          "image": "https://im2.kommersant.ru/SocialPics/8890550_49_3183127_1061261048",
+          "publishedAt": "2026-08-15T16:27:44.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1786791605000",
           "title": "«Археология — не просто история, вооруженная лопатой» // Руководитель Боспорской археологической экспедиции Денис Журавлев — о древних греках и современных успехах",
           "summary": "15 августа отмечается День археолога. В честь праздника «Ъ» расспросил хранителя античной коллекции Государственного исторического музея кандидата исторических наук Дениса Журавлева о работе его экспедиции, которая уже 2",
           "url": "https://www.kommersant.ru/doc/8864263",
@@ -933,7 +957,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1786780654000",
+          "id": "entertainment-2-1786780654000",
           "title": "Disney анонсировала «Зверополис 3»",
           "summary": "Walt Disney Animation Studios официально анонсировала третью часть анимационного фильма «Зверополис». Представители студии показали тизер картины во время презентации на фестивале D23 в Анахайме.",
           "url": "https://www.kommersant.ru/doc/8890434",
@@ -945,7 +969,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1786778306000",
+          "id": "entertainment-3-1786778306000",
           "title": "Софья Митрофанова назначена и. о. ректора МГИК",
           "summary": "Исполняющим обязанности ректора Московского государственного института культуры назначена Софья Митрофанова. Об этом сообщила министр культуры России Ольга Любимова.",
           "url": "https://www.kommersant.ru/doc/8890427",
@@ -957,7 +981,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1786728744000",
+          "id": "entertainment-4-1786728744000",
           "title": "Концерт Канье Уэста в Алматы перенесли на день из-за блэкаута",
           "summary": "Концерт американского рэпера Канье Уэста (также известен как Йе Йе) в Алматы 14 августа не состоится. Мероприятие пройдет 15 августа, сообщил музыкант в своих соцсетях.",
           "url": "https://www.kommersant.ru/doc/8890092",
@@ -967,23 +991,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1786726971000",
-          "title": "Прокатная десятка // Что посмотреть в кино на выходных 15–16 августа",
-          "summary": "13 августа в прокат вышел ряд фильмов, среди которых японский хоррор «Демонолог» и исторический детектив «Самурай и пленник». Что посмотреть в кино на выходных — в материале «Ъ».",
-          "url": "https://www.kommersant.ru/doc/8877938",
-          "image": "https://im2.kommersant.ru/SocialPics/8877938_49_3181827_772606594",
-          "publishedAt": "2026-08-14T17:02:51.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-15T16:10:00.547Z",
+      "lastFetchAt": "2026-08-15T18:11:49.831Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -991,60 +1003,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1786809844000",
-          "title": "Фрозиноне – Юве Стабия – во сколько и где смотреть трансляцию матча, Кубок Италии, 16 августа 2026",
-          "summary": "Во воскресенье, 16 августа, сыграют Фрозиноне и Юве Стабия в матче 1-го раунда Кубка Италии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 19:00 по московскому времени. Где смотреть ма",
-          "url": "https://www.sports.ru/football/1117335162-frozinone-yuve-stabiya-vo-skolko-i-gde-smotret-translyacziyu-matcha-ku.html",
-          "image": null,
-          "publishedAt": "2026-08-15T16:04:04.000Z",
+          "id": "sports-0-1786817044000",
+          "title": "Пумас – Керетаро – во сколько и где смотреть трансляцию матча, Высшая лига Мексика, 16 августа 2026",
+          "summary": "Во воскресенье, 16 августа, сыграют Пумас и Керетаро в рамках высшей лиги Мексики. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 21:00 по московскому времени. Где смотреть матч Пумас –",
+          "url": "https://www.sports.ru/football/1117335316-pumas-keretaro-vo-skolko-i-gde-smotret-translyacziyu-matcha-vysshaya-l.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/531/6/share/740976_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T18:04:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1786809844000",
-          "title": "Истанбул – Коджаелиспор – во сколько и где смотреть трансляцию матча, Высшая лига Турция, 1 тур, 16 августа 2026",
-          "summary": "Во воскресенье, 16 августа, сыграют Истанбул и Коджаелиспор в матче 1-го тура высшей лиги Турции. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 19:00 по московскому времени. Где смотре",
-          "url": "https://www.sports.ru/football/1117335160-istanbul-kodzhaelispor-vo-skolko-i-gde-smotret-translyacziyu-matcha-vy.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/516/0/share/59fa27_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-15T16:04:04.000Z",
+          "id": "sports-1-1786816924000",
+          "title": "Риу Аве  Порту: смотреть онлайн прямую трансляцию матча, 15 августа 2026",
+          "summary": "В субботу, 15 августа, сыграют Риу Аве и Порту в матче 2-го тура высшей лиги Португалии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 22:30 по московскому времени. Где смотреть матч Р",
+          "url": "https://www.sports.ru/football/1117335314-riu-ave-portu-smotret-onlajn-pryamuyu-translyacziyu-matcha-15-avgusta-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/531/4/share/ea4095_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T18:02:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1786809840000",
-          "title": "Из-за угрозы атаки БПЛА игра «Сочи» – «Волга» отложена. Мэр Прошунин заявил: «Все силы и средства работают на защиту города»",
-          "summary": "Матч «Сочи» против ульяновской « Волги » в 6-м туре Лиги PARI начнется на час позже запланированного. «Внимание! Угроза атаки БПЛА в Сочи. Все силы и средства работают на защиту города. Укройтесь в безопасном месте, сохр",
-          "url": "https://www.sports.ru/football/1117335113-igra-sochi-volga-otlozhena-na-chas-iz-za-ugrozy-ataki-bpla.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/511/3/share/021700_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-15T16:04:00.000Z",
+          "id": "sports-2-1786816924000",
+          "title": "Севилья  Райо Вальекано: смотреть онлайн прямую трансляцию матча, 15 августа 2026",
+          "summary": "В субботу, 15 августа, сыграют Севилья и Райо Вальекано в матче 1-го тура Ла Лиги. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 22:30 по московскому времени. Где смотреть матч Севилья",
+          "url": "https://www.sports.ru/football/1117335313-sevilya-rajo-valekano-smotret-onlajn-pryamuyu-translyacziyu-matcha-15-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/531/3/share/ad8819_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T18:02:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1786809724000",
-          "title": "Интер  Бетис: смотреть онлайн прямую трансляцию матча, 15 августа 2026",
-          "summary": "В субботу, 15 августа, сыграют Интер и Бетис в рамках товарищеских матчей. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 20:30 по московскому времени. Где смотреть матч Интер — Бетис И",
-          "url": "https://www.sports.ru/football/1117335158-inter-betis-smotret-onlajn-pryamuyu-translyacziyu-matcha-15-avgusta-20.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/515/8/share/c9531e_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-15T16:02:04.000Z",
+          "id": "sports-3-1786816860000",
+          "title": "Чемпионат Саудовской Аравии стартовал! «Аль-Наср» Роналду сыграет с «Аль-Фатехом», «Аль-Иттихад» Фабиньо – с «Аль-Холудом»",
+          "summary": "В 1-м туре чемпионата Саудовской Аравии в четверг « Аль-Кадисия » Начо Фернандеса в гостях обыграла « Аль-Шабаб » Янника Феррейры Карраско (3:1), « Аль-Ахли » благодаря голу Эдуарда Сперцяна победил «Аль-Дирию» (1:0). В ",
+          "url": "https://www.sports.ru/football/1117332827-chempionat-saudovskoj-aravii-startuet-al-axli-sperczyana-v-gostyax-u-a.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/282/7/share/889e52_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T18:01:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1786809724000",
-          "title": "Алавес  Хетафе: смотреть онлайн прямую трансляцию матча, 15 августа 2026",
-          "summary": "В субботу, 15 августа, сыграют Алавес и Хетафе в матче 1-го тура Ла Лиги. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 20:30 по московскому времени. Где смотреть матч Алавес — Хетафе ",
-          "url": "https://www.sports.ru/football/1117335157-alaves-xetafe-smotret-onlajn-pryamuyu-translyacziyu-matcha-15-avgusta-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/515/7/share/6e613a_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-15T16:02:04.000Z",
+          "id": "sports-4-1786816800000",
+          "title": "Цинциннати (WTA). Калинская играет с Макнелли, Шнайдер встретится с Марией, Носкова – с Болтер, Пегула – с Вальтерт, Анисимова, Эала вышли в 3-й круг",
+          "summary": "Диана Шнайдер сыграет с Татьяной Марией во втором круге тысячника в Цинциннати. Анна Калинская играет с Кэти Макнелли. Сетка турнира здесь . Cincinnati Open Цинциннати, США 13 – 23 августа 2026 WTA 1000 Призовой фонд – 7",
+          "url": "https://www.sports.ru/tennis/1117334676-czinczinnati-wta-2026-rezultaty-vtorogo-kruga.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/467/6/share/107ea3_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T18:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1053,7 +1065,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-15T16:10:01.837Z",
+      "lastFetchAt": "2026-08-15T18:11:50.902Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1061,60 +1073,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1786809889000",
-          "title": "Отлетевшее колесо сбило российского дорожника и попало на видео",
+          "id": "politics-0-1786817197000",
+          "title": "Губернатор рассказал об атаке ВСУ на Калужскую область",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/otletevshee-koleso-sbilo-rossiyskogo-dorozhnika-i-popalo-na-video/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/18/20260815185610937/pic_4407bbf4df22485934949d3718ecf187.jpg",
-          "publishedAt": "2026-08-15T16:04:49.000Z",
+          "url": "https://lenta.ru/news/2026/08/16/gubernator-rasskazal-ob-atake-vsu-na-kaluzhskuyu-oblast/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/21/20260815210603676/pic_c641aa2ae42db24f8d562e292e79305d.jpg",
+          "publishedAt": "2026-08-15T18:06:37.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1786809841000",
-          "title": "В Минобороны прокомментировали удары «Геранями» по объектам на Украине одной фразой",
+          "id": "politics-1-1786816860000",
+          "title": "В Германии заявили об отчаянии Зеленского из-за ситуации с Patriot",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/v-minoborony-prokommentirovali-udary-geranyami-po-ob-ektam-na-ukraine-odnoy-frazoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/19/20260815190505232/pic_77bb3862f07d6a59412d0c67cbd2fb0c.jpg",
-          "publishedAt": "2026-08-15T16:04:01.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/zelensky-despair/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/21/20260815210138375/pic_f2cb97c3367dce78eeab0f2c51f3d06c.jpg",
+          "publishedAt": "2026-08-15T18:01:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1786809780000",
-          "title": "Мельниковой запретили обниматься с соперницами на пьедестале почета",
+          "id": "politics-2-1786816560000",
+          "title": "Россиянка искупалась в одном из чистейших озер страны и покрылась сыпью",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/melnikovoy-zapretili-obnimatsya-s-sopernitsami-na-piedestale-pocheta/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/17/20260815175051637/pic_bf1469868d8e01c335d36529380b59d4.jpg",
-          "publishedAt": "2026-08-15T16:03:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/rossiyanka-iskupalas-v-odnom-iz-chisteyshih-ozer-strany-i-pokrylas-sypyu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/20/20260815205816445/pic_ebde0ed6614bd8174127d26f0e2d3d72.jpg",
+          "publishedAt": "2026-08-15T17:56:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1786809660000",
-          "title": "У аэропорта на пляже в Турции нашли беспилотник",
+          "id": "politics-3-1786816320000",
+          "title": "В Минобороны сообщили о 12-часовой массированной атаке на регионы России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/bespilotnik/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/18/20260815185917050/pic_fcbd195f0a9c739a5774b6f12ada6044.jpg",
-          "publishedAt": "2026-08-15T16:01:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/v-minoborony-soobschili-o-12-chasovoy-massirovannoy-atake-na-regiony-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/20/20260815205711110/pic_56062a16e02851c52f9aa034f6d306eb.jpg",
+          "publishedAt": "2026-08-15T17:52:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1786808202000",
-          "title": "Упавшего в реку на юге России ребенка нашли без признаков жизни",
+          "id": "politics-4-1786816249000",
+          "title": "Стало известно о ликвидации в зоне СВО колумбийского наемника",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/upavshego-v-reku-na-yuge-rossii-rebenka-nashli-bez-priznakov-zhizni/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/18/20260815184434736/pic_4e5b00b5db1a04a9ee45ce2e8abdc057.jpg",
-          "publishedAt": "2026-08-15T15:36:42.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/stalo-izvestno-o-likvidatsii-v-zone-svo-kolumbiyskogo-naemnika/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/20/20260815205605536/pic_eaf4e8ae78f399adfd1c6fdb1fbfc880.jpg",
+          "publishedAt": "2026-08-15T17:50:49.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
