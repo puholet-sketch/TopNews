@@ -1,7 +1,11 @@
 {
-  "updatedAt": "2026-08-15T18:11:50.902Z",
+  "updatedAt": "2026-08-15T20:09:14.125Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "cybersecurity",
+    "law"
+  ],
+  "skippedNow": [
     "it",
     "ai",
     "business",
@@ -16,12 +20,8 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "cybersecurity",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
@@ -167,7 +167,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-15T06:17:36.871Z",
+      "lastFetchAt": "2026-08-15T20:09:10.265Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -175,60 +175,60 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1786724136000",
+          "id": "cybersecurity-0-1786802875000",
+          "title": "8 агентов, 12 волн, 4 дня: как ИИ в одиночку взломал правительство Тайваня",
+          "summary": "Израильская компания Dream занималась рутиной — отслеживала активность в среде киберпреступников. В очередном улове оказался открытый архив на 160 мегабайт. Внутри лежали 1395 файлов: отчеты, логи, выгрузки. Это был не н",
+          "url": "https://habr.com/ru/articles/1070800/?utm_campaign=1070800&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/08c/fcf/527/08cfcf52757e5cce41a61c730400ba3a.jpg",
+          "publishedAt": "2026-08-15T14:07:55.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1786798910000",
+          "title": "Как подать документы в онлайн-магистратуру через Госуслуги: инструкция",
+          "summary": "Привет, это команда Яндекс Практикума! Напоминаем, что приёмная кампания на программы онлайн-магистратур совсем скоро закончится — осталось меньше месяца. Делимся с вами инструкцией, как подать документы в онлайн-магистр",
+          "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1070574/?utm_campaign=1070574&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c30/4c5/b01/c304c5b017b97f813dd509a2f4d46226.png",
+          "publishedAt": "2026-08-15T13:01:50.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1786790423000",
+          "title": "[Перевод] Что я узнал, поместив GitHub Copilot за MITM‑прокси",
+          "summary": "За последнюю пару лет появилось множество приложений на основе ИИ и ИИ‑функций. Чем больше появляется таких приложений, тем любопытнее мне становится изучить их внутреннюю работу. Надеюсь, мне удастся узнать что‑то новое",
+          "url": "https://habr.com/ru/articles/1070652/?utm_campaign=1070652&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/916/48d/bd3/91648dbd3ff030f4d268169e6b695d1f.jpeg",
+          "publishedAt": "2026-08-15T10:40:23.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1786778535000",
+          "title": "Обход блокировок, приватность и анонимность — это разные задачи",
+          "summary": "В прошлом посте мы рассказали, почему при живых VPN-сервисах и AmneziaWG всё равно есть смысл строить отдельную децентрализованную сеть. Но у любого подобного инструмента - нашего или чужого - имеет смысл сразу проговари",
+          "url": "https://habr.com/ru/articles/1070732/?utm_campaign=1070732&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/718/eb8/496/718eb8496e97f37d615de68af4dca682.jpg",
+          "publishedAt": "2026-08-15T07:22:15.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-4-1786724136000",
           "title": "Anthropic пометила текст Claude невидимым клеймом. Опенсорс-сообщество попыталось взломать уже через 48 часов",
           "summary": "2.08.2026 года, в день когда в ЕС реально завелась статья 50 AI Act, Anthropic сделала ход конём: с этого дня каждый текст, который выдаёт свеженькая модель Claude, тащит в себе невидимую метку. (Не пиксель или строчку м",
           "url": "https://habr.com/ru/companies/gptunnel/articles/1070666/?utm_campaign=1070666&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/adf/ff3/785/adfff3785392d4fc8065a514891a2a32.jpg",
           "publishedAt": "2026-08-14T16:15:36.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-1-1786710472000",
-          "title": "Ruthenium: Chromium для Android с поддержкой сертификата Минцифры",
-          "summary": "Некоторые банки и государственные сервисы используют TLS-цепочки, которые заканчиваются корнем Russian Trusted Root CA. Яндекс Браузер и Атом умеют работать с такими цепочками. Chrome для Android показывает NET::ERR_CERT",
-          "url": "https://habr.com/ru/articles/1070548/?utm_campaign=1070548&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/93d/0f6/30d/93d0f630d42d6a599f25f84a6f21f72f.png",
-          "publishedAt": "2026-08-14T12:27:52.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1786702499000",
-          "title": "Чужой код, свои патчи. Зачем компании инвестируют в open source",
-          "summary": "Open source компонент редко остается неизменным после того, как попадает в большой продукт. Если команде не хватает нужной функции, библиотека плохо стыкуется с внутренней системой или выпуск обновления безопасности не у",
-          "url": "https://habr.com/ru/companies/codescoring/articles/1070474/?utm_campaign=1070474&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/1a2/ee7/44e/1a2ee744e2190132d154c3072d160f98.jpeg",
-          "publishedAt": "2026-08-14T10:14:59.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1786697576000",
-          "title": "Как не сломать LLM, пока защищаешь данные: под капотом Guardrails Filter",
-          "summary": "В прошлый раз я рассказывал, как работает Guardrails Filter: зачем вообще понадобился отдельный слой защиты данных при работе с LLM и какие задачи он решает. В этот раз хочу обсудить то, какие подводные камни могут оказа",
-          "url": "https://habr.com/ru/companies/cloud_ru/articles/1068710/?utm_campaign=1068710&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0b1/bf5/934/0b1bf593421973fa32f0770c0c782664.png",
-          "publishedAt": "2026-08-14T08:52:56.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1786694452000",
-          "title": "Wazuh без ограничений дашборда: работаем напрямую с индексами",
-          "summary": "На связи Андрей, руководитель направления безопасности облака в Selectel. В статье расскажу, как работать с индексами Wazuh напрямую через OpenSearch. Такой подход пригодится, когда встроенных возможностей Wazuh уже не х",
-          "url": "https://habr.com/ru/companies/selectel/articles/1069688/?utm_campaign=1069688&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/143/78c/009/14378c0091ee16b53ce3f66e16a5dbd8.jpg",
-          "publishedAt": "2026-08-14T08:00:52.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -1205,7 +1205,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-15T06:17:46.599Z",
+      "lastFetchAt": "2026-08-15T20:09:14.124Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
