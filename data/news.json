@@ -1,15 +1,10 @@
 {
-  "updatedAt": "2026-08-15T00:32:15.134Z",
+  "updatedAt": "2026-08-15T02:43:06.907Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -20,6 +15,11 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
     "education",
     "law",
     "realestate",
@@ -27,7 +27,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-14T22:10:38.095Z",
+      "lastFetchAt": "2026-08-15T02:42:45.180Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-14T18:38:30.568Z",
+      "lastFetchAt": "2026-08-15T02:42:46.421Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -105,7 +105,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1786724479000",
+          "id": "ai-0-1786736555000",
+          "title": "Вышла новая модель: Qwen 3.8 27B",
+          "summary": "https://huggingface.co/Qwen/Qwen3.8-27B Вышла модель Qwen3.8-27B, которая по бенчмаркам лучше чем Opus 4.6 Читать далее",
+          "url": "https://habr.com/ru/articles/1070694/?utm_campaign=1070694&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/1af/5a9/d23/1af5a9d23bb6e69dae45ebafc9023973.png",
+          "publishedAt": "2026-08-14T19:42:35.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1786724479000",
           "title": "VIVI: попытка вырастить когнитивный интеллект, а не обучить его",
           "summary": "Большинство современных ИИ-систем получают знания «готовыми». Их учат на огромных корпусах, а потом донастраивают. Результат впечатляет, но внутри почти всегда лежит одна и та же идея: интеллект — это следствие заранее в",
           "url": "https://habr.com/ru/articles/1070670/?utm_campaign=1070670&utm_source=habrahabr&utm_medium=rss",
@@ -117,7 +129,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1786724313000",
+          "id": "ai-2-1786724313000",
           "title": "Генерация кода: сокращаем рутину в разработке",
           "summary": "Привет, Хабр! Меня зовут Иван, я DevOps‑инженер в ИТ‑холдинге Т1. В современной разработке автоматизация — это давно не «роскошь», а «базовый минимум». Однако многие команды до сих пор ограничиваются лишь простыми возмож",
           "url": "https://habr.com/ru/companies/T1Holding/articles/1070586/?utm_campaign=1070586&utm_source=habrahabr&utm_medium=rss",
@@ -129,7 +141,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1786724136000",
+          "id": "ai-3-1786724136000",
           "title": "Anthropic пометила текст Claude невидимым клеймом. Опенсорс-сообщество попыталось взломать уже через 48 часов",
           "summary": "2.08.2026 года, в день когда в ЕС реально завелась статья 50 AI Act, Anthropic сделала ход конём: с этого дня каждый текст, который выдаёт свеженькая модель Claude, тащит в себе невидимую метку. (Не пиксель или строчку м",
           "url": "https://habr.com/ru/companies/gptunnel/articles/1070666/?utm_campaign=1070666&utm_source=habrahabr&utm_medium=rss",
@@ -141,24 +153,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1786723605000",
+          "id": "ai-4-1786723605000",
           "title": "Строим RAG вручную: как это работает под капотом",
           "summary": "Имея некоторый опыт в построении классических ML и CV-проектов, я решил разобраться в NLP (Natural Language Processing) и собрать свою RAG-систему без использования сторонних RAG-фреймворков (LangChain, LlamaIndex и т.п.",
           "url": "https://habr.com/ru/articles/1070662/?utm_campaign=1070662&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/79c/f1f/311/79cf1f3112a8eec00b791b70d7ba526d.png",
           "publishedAt": "2026-08-14T16:06:45.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1786721007000",
-          "title": "Как искать живой спрос в шумных городских Telegram-чатах",
-          "summary": "Городские Telegram-чаты похожи на непрерывный поток логов без схемы. В одном сообщении человек ищет квартиру, в следующем агент публикует двадцатую копию объявления, затем идут курс валют, потерянный телефон, рекомендаци",
-          "url": "https://habr.com/ru/articles/1070646/?utm_campaign=1070646&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a37/2c6/ab3/a372c6ab34ef6eefb003b171a34a0f08.jpg",
-          "publishedAt": "2026-08-14T15:23:27.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -237,7 +237,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-15T00:32:10.628Z",
+      "lastFetchAt": "2026-08-15T02:42:47.176Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -307,7 +307,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-14T22:10:41.772Z",
+      "lastFetchAt": "2026-08-15T02:42:48.816Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-14T18:38:32.101Z",
+      "lastFetchAt": "2026-08-15T02:42:49.087Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -447,7 +447,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-14T22:10:42.902Z",
+      "lastFetchAt": "2026-08-15T02:42:50.235Z",
       "intervalHours": 4,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -505,7 +505,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-14T18:38:35.989Z",
+      "lastFetchAt": "2026-08-15T02:42:53.769Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -575,7 +575,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-14T22:10:43.295Z",
+      "lastFetchAt": "2026-08-15T02:42:54.006Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -645,7 +645,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-14T18:38:42.501Z",
+      "lastFetchAt": "2026-08-15T02:42:58.022Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -653,60 +653,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786731733000",
-          "title": "Трамп обратился в Верховный суд с просьбой разрешить строительство бального зала",
-          "summary": "Администрация Трампа обратилась в Верховный суд с просьбой разрешить строительство нового бального зала стоимостью $400 млн на месте снесенного Восточного крыла Белого дома, сообщает CNN. В своем обращении администрация ",
-          "url": "https://www.kommersant.ru/doc/8890104",
-          "image": "https://im2.kommersant.ru/SocialPics/8890104_49_3182897_1605295971",
-          "publishedAt": "2026-08-14T18:22:13.000Z",
+          "id": "energy-0-1786760855000",
+          "title": "За ночь рядом с Москвой сбили 12 БПЛА",
+          "summary": "Рядом с Москвой сбили еще пять украинских БПЛА, сообщил мэр города Сергей Собянин. На месте падения обломков работают специалисты экстренных служб.",
+          "url": "https://www.kommersant.ru/doc/8890389",
+          "image": "https://im2.kommersant.ru/SocialPics/8890389_49_0_720566994",
+          "publishedAt": "2026-08-15T02:27:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786731470000",
-          "title": "В Курске осенью откроют памятник военнослужащим России и КНДР",
-          "summary": "Осенью в Курске откроют памятник в честь северокорейских и российских военнослужащих, которые участвовали в освобождении Курской области от ВСУ. Об этом сообщил министр обороны России Андрей Белоусов.",
-          "url": "https://www.kommersant.ru/doc/8890105",
-          "image": "https://iv.kommersant.ru/SocialPics/8890105_49_0_594454107",
-          "publishedAt": "2026-08-14T18:17:50.000Z",
+          "id": "energy-1-1786758904000",
+          "title": "Reuters: США потребуют десятки стран выбрать сторону в ИИ-гонке с Китаем",
+          "summary": "Вашингтон готовится выдвинуть требование к десяткам стран сделать выбор между американской коалицией в сфере искусственного интеллекта и аналогичной инициативой Китая, сообщает Reuters со ссылкой на проект письма Госдепа",
+          "url": "https://www.kommersant.ru/doc/8890388",
+          "image": null,
+          "publishedAt": "2026-08-15T01:55:04.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786731177000",
-          "title": "В Госдуме предложили расширить практику сбора подписей через «Госуслуги»",
-          "summary": "Депутат Госдумы Станислав Наумов (ЛДПР) предложил разрешить самовыдвиженцам на выборах в Госдуму собирать половину необходимых для регистрации подписей избирателей в электронном виде. Соответствующий законопроект парламе",
-          "url": "https://www.kommersant.ru/doc/8890101",
-          "image": "https://im2.kommersant.ru/SocialPics/8890101_49_0_1758190379",
-          "publishedAt": "2026-08-14T18:12:57.000Z",
+          "id": "energy-2-1786756837000",
+          "title": "В Белом доме ответили на жалобы Украины о нехватке снарядов",
+          "summary": "Власти США сейчас заняты восстановлением своего арсенала, заявила пресс-секретарь Белого дома Кэролайн Левитт. Так она ответила на вопрос, как американский президент отреагировал на недавние заявления властей Украины о н",
+          "url": "https://www.kommersant.ru/doc/8890387",
+          "image": "https://im2.kommersant.ru/SocialPics/8890387_49_0_371950312",
+          "publishedAt": "2026-08-15T01:20:37.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786730980000",
-          "title": "Хуситы заявили об ударе по объекту Saudi Aramco",
-          "summary": "Йеменское движение «Ансар Аллах» (хуситы) заявило, что нанесло удар по инфраструктуре саудовской нефтяной компании Saudi Aramco в Наджране. Пресс-релиз цитирует йеменское государственное информагентство Saba.",
-          "url": "https://www.kommersant.ru/doc/8890103",
-          "image": "https://im2.kommersant.ru/SocialPics/8890103_49_0_867534361",
-          "publishedAt": "2026-08-14T18:09:40.000Z",
+          "id": "energy-3-1786754852000",
+          "title": "МВД Армении: армяне слишком просто получают гражданство республики",
+          "summary": "МВД Армении наблюдает рекордный рост числа заявок на получение гражданства. Об этом исполняющий обязанности заместителя министра внутренних дел республики Армен Казарян.",
+          "url": "https://www.kommersant.ru/doc/8890385",
+          "image": "https://im2.kommersant.ru/SocialPics/8890385_49_0_2017248776",
+          "publishedAt": "2026-08-15T00:47:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786730732000",
-          "title": "Базовый набор подготовки к школе подорожал до 19 тыс. рублей",
-          "summary": "Средняя стоимость базового набора подготовки к школе в России за год увеличилась на 11%. Это следует из данных «Платформы ОФД».",
-          "url": "https://www.kommersant.ru/doc/8890051",
-          "image": "https://iv.kommersant.ru/SocialPics/8890051_49_0_1685368357",
-          "publishedAt": "2026-08-14T18:05:32.000Z",
+          "id": "energy-4-1786752562000",
+          "title": "Рядом с Москвой сбили семь беспилотников",
+          "summary": "Силы ПВО отразили атаку семи беспилотников, которые летели на Москву. Об этом сообщил мэр столицы Сергей Собянин.",
+          "url": "https://www.kommersant.ru/doc/8890383",
+          "image": "https://im2.kommersant.ru/SocialPics/8890383_49_0_1195595831",
+          "publishedAt": "2026-08-15T00:09:22.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -715,7 +715,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-14T18:38:43.057Z",
+      "lastFetchAt": "2026-08-15T02:42:58.566Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -785,7 +785,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-14T18:38:45.040Z",
+      "lastFetchAt": "2026-08-15T02:43:00.418Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -855,7 +855,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-14T22:10:44.443Z",
+      "lastFetchAt": "2026-08-15T02:43:01.990Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -863,7 +863,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786713716000",
+          "id": "gaming-0-1786751042000",
+          "title": "10 моих любимых игр",
+          "summary": "Эта статья вряд-ли принесет кому-нибудь хоть какую-то пользу, потому что мой топ будет состоять исключительно из тех игр, которые нравятся мне (на самом деле тут вы увидите единственное верное мнение). На мою любовь к эт",
+          "url": "https://habr.com/ru/articles/1070710/?utm_campaign=1070710&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fc4/4a0/4fc/fc44a04fc10b555debc747c71fd0da47.webp",
+          "publishedAt": "2026-08-14T23:44:02.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786713716000",
           "title": "Как я написал OpenGL 3.3 рендерер с поддержкой Normal Map для Unreal Tournament 2004, не зная C++ и без исходников игры",
           "summary": "Unreal Tournament 2004 — безусловная классика, но графически она застряла в эпохе Direct3D 8 и Fixed‑Function Pipeline. Три месяца реверс‑инжиниринга, сотни падений с Access Violation и ни строчки C++ в голове — под като",
           "url": "https://habr.com/ru/articles/1070592/?utm_campaign=1070592&utm_source=habrahabr&utm_medium=rss",
@@ -875,7 +887,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786704116000",
+          "id": "gaming-2-1786704116000",
           "title": "Что важнее для игр: частота памяти, тайминги или процессор",
           "summary": "Когда начинаешь выбирать оперативную память, сразу бросаются в глаза две главные цифры. Производители даже в маркировку обычно выносят тип-частоту и тайминги. Обычно это цифры вроде DDR5-6000 и CL30. Споры о том, что из ",
           "url": "https://habr.com/ru/companies/x-com/articles/1070492/?utm_campaign=1070492&utm_source=habrahabr&utm_medium=rss",
@@ -887,7 +899,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786659121000",
+          "id": "gaming-3-1786659121000",
           "title": "Вышел Duskfade: стимпанк и платформинг",
           "summary": "В стиме релизнулась игра Duskfade. Разработчиками выступила студия Weird Beluga, это их дебютный проект. Издает игру Fireshine Games, они же недавно выпустили получившую громкую огласку и множество положительных реакций ",
           "url": "https://habr.com/ru/articles/1070344/?utm_campaign=1070344&utm_source=habrahabr&utm_medium=rss",
@@ -899,7 +911,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1786554557000",
+          "id": "gaming-4-1786554557000",
           "title": "Помните «Шарарам»? Я перенёс его с Flash на Ruffle, и он перестал лагать",
           "summary": "«Шарарам» – это старая, но до сих пор живая MMORPG по «Смешарикам». Огромный срез моего поколения, родившегося в нулевых, нашёл там первых друзей и приобрёл первые социальные навыки. Я до сих пор, в свои 23 года, возвращ",
           "url": "https://habr.com/ru/articles/1069452/?utm_campaign=1069452&utm_source=habrahabr&utm_medium=rss",
@@ -909,23 +921,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1786548645000",
-          "title": "Плоть слаба: как я писал свой Wine для браузера",
-          "summary": "Каждый год на новогодних каникулах у меня просыпается ностальгия, хочется перепройти что‑то из детства, типа «Harry Potter and the Philosopher’s Stone» от KnowWonder. И если с консольными играми всё просто (эмуляторы тип",
-          "url": "https://habr.com/ru/articles/1060010/?utm_campaign=1060010&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/425/242/e5d/425242e5de674cf42f87d7441bb85739.png",
-          "publishedAt": "2026-08-12T15:30:45.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-14T22:10:49.870Z",
+      "lastFetchAt": "2026-08-15T02:43:03.379Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -937,7 +937,7 @@
           "title": "Концерт Канье Уэста в Алматы перенесли на день из-за блэкаута",
           "summary": "Концерт американского рэпера Канье Уэста (также известен как Йе Йе) в Алматы 14 августа не состоится. Мероприятие пройдет 15 августа, сообщил музыкант в своих соцсетях.",
           "url": "https://www.kommersant.ru/doc/8890092",
-          "image": "https://im2.kommersant.ru/SocialPics/8890092_49_3182891_284981746",
+          "image": "https://iv.kommersant.ru/SocialPics/8890092_49_3182891_284981746",
           "publishedAt": "2026-08-14T17:32:24.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -949,7 +949,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 15–16 августа",
           "summary": "13 августа в прокат вышел ряд фильмов, среди которых японский хоррор «Демонолог» и исторический детектив «Самурай и пленник». Что посмотреть в кино на выходных — в материале «Ъ».",
           "url": "https://www.kommersant.ru/doc/8877938",
-          "image": "https://im2.kommersant.ru/SocialPics/8877938_49_3181827_772606594",
+          "image": "https://iv.kommersant.ru/SocialPics/8877938_49_3181827_772606594",
           "publishedAt": "2026-08-14T17:02:51.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -985,7 +985,7 @@
           "title": "Теория малых радостей // Фильмы Хон Сан Су и Дени Коте в Локарно",
           "summary": "Накануне объявления победителей фестиваля в Локарно, которое состоится в 15 августа вечером, Андрей Плахов рассказывает о двух важных фильмах-участниках, художественная ценность которых неразрывна с жизненным опытом их с",
           "url": "https://www.kommersant.ru/doc/8889910",
-          "image": "https://iv.kommersant.ru/SocialPics/8889910_49_3182659_1846974912",
+          "image": "https://im2.kommersant.ru/SocialPics/8889910_49_3182659_1846974912",
           "publishedAt": "2026-08-14T13:05:34.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -995,7 +995,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-15T00:32:13.652Z",
+      "lastFetchAt": "2026-08-15T02:43:05.727Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1003,60 +1003,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1786745940000",
-          "title": "Ямаль показал кадры с «розовой вечеринки» в честь дня рождения. Ламин и его девушка подобрали наряды в тон: розовое поло и короткое платье",
-          "summary": "Вингер «Барселоны» Ламин Ямаль опубликовал фото и видео с «розовой вечеринки» по случаю его 19-летия. День рождения футболиста был 13 июля, когда он находился в расположении сборной Испании на ЧМ-2026 . Поэтому Ламин орг",
-          "url": "https://www.sports.ru/football/1117334279-yamal-pokazal-novye-kadry-s-rozovoj-vecherinki-v-chest-dnya-rozhdeniya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/427/9/share/46bde0_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-14T22:19:00.000Z",
+          "id": "sports-0-1786761480000",
+          "title": "Форвард «Родины» Гарибян про 2:1 с «Зенитом»: «Было ощущение, что игра пойдет. Они создали небольшое преимущество и подумали, что этого хватит для победы»",
+          "summary": "Нападающий «Родины» Артур Гарибян, автор дубля в матче Альфа-Банк РПЛ с «Зенитом» (2:1), высказался о победе. — Твой первый гол в ворота «Зенита» рассматривали минут 10. Не переживал, что отменят из-за офсайда? — Просто ",
+          "url": "https://www.sports.ru/football/1117334387-forvard-rodiny-garibyan-pro-21-s-zenitom-bylo-oshhushhenie-chto-igra-p.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/438/7/share/4b97bf_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T02:38:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1786744740000",
-          "title": "Стрепетов о «Зените»: «Семака нельзя трогать ни в коем случае. И не хочется, чтобы следующим тренером был иностранец. Зырянов и Кержаков – был бы мощный дуэт, а Аршавин им бы помог»",
-          "summary": "Алексей Стрепетов хотел бы, чтобы Константин Зырянов потренировал «Зенит». «Сейчас ни в коем случае нельзя трогать Сергея Семака. Но если смотреть в будущее, то не хочется, чтобы следующим тренером «Зенита» был иностране",
-          "url": "https://www.sports.ru/football/1117334311-strepetov-o-zenite-semaka-nelzya-trogat-ni-v-koem-sluchae-i-ne-xochets.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/431/1/share/a78210_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-14T21:59:00.000Z",
+          "id": "sports-1-1786760760000",
+          "title": "«Потолок этого «Локомотива»  8-е место. Нужно усиление». Смородская о железнодорожниках",
+          "summary": "Экс-президент « Локомот ива» Ольга Смородская оценила перспективы железнодорожников в текущем сезоне Альфа-Банк РПЛ. После 4 матчей «Локо» с 3 очками занимает в таблице 12-е место. — Усиление нужно, если они хотят бороть",
+          "url": "https://www.sports.ru/football/1117334382-potolok-etogo-lokomotiva-8-e-mesto-nuzhno-usilenie-smorodskaya-o-zhele.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/438/2/share/b2aaff_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T02:26:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1786744740000",
-          "title": "Экс-форвард «Спартака» Понсе покинул «Хьюстон Динамо» и вернулся в «Эльче»",
-          "summary": "Бывший нападающий « Спартака » Эсекиэль Понсе вернулся в «Эльче». Испанский клуб объявил о трансфере 29-летнего аргентинца из « Хьюстон Динамо ». Понсе подписал контракт до июня 2027 года. Соглашение может быть продлено ",
-          "url": "https://www.sports.ru/football/1117334317-byvshij-forvard-spartaka-ponse-pokinul-xyuston-dinamo-i-vernulsya-v-el.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/431/7/share/134b67_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-14T21:59:00.000Z",
+          "id": "sports-2-1786760040000",
+          "title": "Ферран и Годтс прибыли в Париж для медосмотра в «ПСЖ»",
+          "summary": "Форвард «Барселоны» Ферран Торрес и вингер « Аякса » Мика Годтс близки к переходам в «ПСЖ». Оба футболиста прибыли в Париж для прохождения медосмотра во французском клубе, сообщает инсайдер Фабрицио Романо. Ранее стало и",
+          "url": "https://www.sports.ru/football/1117334378-ferran-i-godts-pribyli-v-parizh-dlya-medosmotra-v-pszh.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/437/8/share/362680_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T02:14:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1786744080000",
-          "title": "Гакпо согласовал контракт с «Тоттенхэмом». Лондонцы начали переговоры с «Ливерпулем», но пока не сделали предложение (Voetbal International)",
-          "summary": "Нападающий « Ливерпуля » Коди Гакпо согласовал условия контракта с « Тоттенхэмом ». По данным Voetbal International, лондонский клуб активизировал работу над трансфером и уже связался с «Ливерпулем». При этом официальног",
-          "url": "https://www.sports.ru/football/1117334310-gakpo-soglasoval-kontrakt-s-tottenxemom-londonczy-nachali-peregovory-s.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/431/0/share/475c72_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-14T21:48:00.000Z",
+          "id": "sports-3-1786759080000",
+          "title": "Глава РПЛ Алаев о Дзюбе: «Лицо лиги. Хотел бы, чтобы Артем остался как минимум на этот сезон. Он не сказал последнего слова»",
+          "summary": "Президент Альфа-Банк РПЛ Александр Алаев надеется, что 37-летний нападающий Артем Дзюба продолжит карьеру в лиге. — Дзюба неоднократно уже говорил, что хочет зациклить свою карьеру: в « Спартаке » начал, там же хочет и з",
+          "url": "https://www.sports.ru/football/1117334376-glava-rpl-alaev-o-dzyube-liczo-ligi-xotel-by-chtoby-artem-ostalsya-kak.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/437/6/share/c1df9b_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T01:58:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1786743600000",
-          "title": "Артета о продлении контракта с «Арсеналом»: «Не стоит беспокоиться, я хочу остаться, решим этот вопрос, как будет время. Все происходит естественным образом»",
-          "summary": "Микель Артета подчеркнул, что настроен продлить контракт с «Арсеналом». «Не стоит об этом беспокоиться, потому что я хочу остаться здесь, я чрезвычайно счастлив и благодарен за возможность работать с теми, с кем я работа",
-          "url": "https://www.sports.ru/football/1117334307-arteta-o-prodlenii-kontrakta-s-arsenalom-ne-stoit-bespokoitsya-ya-xoch.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/430/7/share/df1da1_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-14T21:40:00.000Z",
+          "id": "sports-4-1786758360000",
+          "title": "Мудрик о дисквалификации: «Это было сродни 18-месячной предсезонке. Тренировался шесть дней в неделю, соблюдая режим»",
+          "summary": "Вингер « Челси » Михаил Мудрик высказался о своем допуске к турнирам после дисквалификации. 25-летний украинец пропустил 1,5 года за нарушение антидопинговых правил. «Конечно, я очень рад. Прошло много времени, поэтому с",
+          "url": "https://www.sports.ru/football/1117334372-mudrik-o-diskvalifikaczii-eto-bylo-srodni-18-mesyachnoj-predsezonke-tr.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/437/2/share/46488b_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-15T01:46:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1065,7 +1065,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-15T00:32:15.134Z",
+      "lastFetchAt": "2026-08-15T02:43:06.907Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1073,60 +1073,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1786753320000",
-          "title": "Губернатор Севастополя рассказал об атаке БПЛА на город",
+          "id": "politics-0-1786761604000",
+          "title": "Оператор БПЛА поразил группу бойцов ВСУ через дымоход",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/gubernator-sevastopolya-rasskazal-ob-atake-bpla-na-gorod/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/03/20260815032709303/pic_cbc62adf8aa195889accef67dbea0613.jpg",
-          "publishedAt": "2026-08-15T00:22:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/operator-bpla-porazil-gruppu-boytsov-vsu-cherez-dymohod/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/05/20260815054010711/pic_50712a161cd5fd5d5e2389e508d95ff8.jpg",
+          "publishedAt": "2026-08-15T02:40:04.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1786752358000",
-          "title": "Новак потребовал нарастить поставки топлива в уязвимые регионы",
+          "id": "politics-1-1786760121000",
+          "title": "Россиянам захотели платить за долгий брак",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/novak-potreboval-narastit-postavki-topliva-v-uyazvimye-regiony/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-15T00:05:58.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/rossiyanam-zahoteli-platit-za-dolgiy-brak/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/05/20260815051508405/pic_f2a68877169280e73ade4bdbf9ee61e4.jpg",
+          "publishedAt": "2026-08-15T02:15:21.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1786751405000",
-          "title": "В МИД России назвали деталь переговоров с Украиной",
+          "id": "politics-2-1786758600000",
+          "title": "В ЕС предрекли проблемы экономике Украины из-за одного решения России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/v-mid-rossii-nazvali-detal-peregovorov-s-ukrainoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/02/20260815025006878/pic_27d854a8435918238e8c2c99f2605b64.jpg",
-          "publishedAt": "2026-08-14T23:50:05.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/v-es-predupredili-ukrainu-o-prigovore-iz-za-odnogo-resheniya-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/04/20260815045357562/pic_45406237422df419762e61f7f906f2d6.jpg",
+          "publishedAt": "2026-08-15T01:50:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1786751160000",
-          "title": "БПЛА атаковали сельхозпредприятие в российском регионе",
+          "id": "politics-3-1786758180000",
+          "title": "В заявлении Китая после поездки Путина на Курилы увидели сигнал для России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/bpla-atakovali/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/02/20260815025648414/pic_e5619e88c2c6918b2cd52ef4f8a20b08.jpg",
-          "publishedAt": "2026-08-14T23:46:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/iz-rossii-postroili-most-v-severnuyu-koreyu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/04/20260815045452330/pic_044a9e44c90b1879cfab874d8f7dc82d.jpg",
+          "publishedAt": "2026-08-15T01:43:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1786750238000",
-          "title": "Трамп припомнил НАТО отсутствие поддержки в войне с Ираном",
+          "id": "politics-4-1786757283000",
+          "title": "На востоке России решили перенять опыт Крыма",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/15/tramp-pripomnil-nato-otsutstvie-podderzhki-v-voyne-s-iranom/",
-          "image": "https://icdn.lenta.ru/images/2026/08/15/02/20260815023042709/pic_bb100267a0482f852170986d6ef95d37.jpg",
-          "publishedAt": "2026-08-14T23:30:38.000Z",
+          "url": "https://lenta.ru/news/2026/08/15/na-vostoke-rossii-reshili-perenyat-opyt-kryma/",
+          "image": "https://icdn.lenta.ru/images/2026/08/15/04/20260815042758225/pic_d9620e5cfbc658949a696e27256949c5.jpg",
+          "publishedAt": "2026-08-15T01:28:03.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
