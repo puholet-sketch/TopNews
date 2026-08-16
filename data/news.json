@@ -1,7 +1,17 @@
 {
-  "updatedAt": "2026-08-16T06:19:43.977Z",
+  "updatedAt": "2026-08-16T08:14:51.504Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "law"
+  ],
+  "skippedNow": [
     "it",
     "business",
     "startups",
@@ -10,18 +20,8 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
@@ -97,7 +97,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-16T00:34:07.163Z",
+      "lastFetchAt": "2026-08-16T08:14:36.555Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -167,7 +167,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-15T20:09:10.265Z",
+      "lastFetchAt": "2026-08-16T08:14:37.814Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -377,7 +377,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-16T00:34:13.205Z",
+      "lastFetchAt": "2026-08-16T08:14:38.328Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -493,7 +493,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-16T00:34:18.352Z",
+      "lastFetchAt": "2026-08-16T08:14:40.999Z",
       "intervalHours": 6,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -633,7 +633,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-16T00:34:21.715Z",
+      "lastFetchAt": "2026-08-16T08:14:43.889Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -641,60 +641,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1786838201000",
-          "title": "Из Дамаска в Москву отправили первый рейс после падения режима Башара Асада",
-          "summary": "Из Дамаска в Москву вылетел самолет авиакомпании Syrian Airlines, следует из данных сервиса Flightradar. Это первый рейс возобновленного сегодня авиасообщения между столицами России и Сирии, которое было прервано в декаб",
-          "url": "https://www.kommersant.ru/doc/8890581",
-          "image": "https://im2.kommersant.ru/SocialPics/8890581_49_0_1738238184",
-          "publishedAt": "2026-08-15T23:56:41.000Z",
+          "id": "energy-0-1786867581000",
+          "title": "На трассе М-5 в ДТП с грузовиком пострадали семь человек",
+          "summary": "При столкновении четырех машин на трассе около подмосковной Коломны получили травмы семь человек, включая одного несовершеннолетнего. Об этом сообщила пресс-служба управления МЧС России по Подмосковью.",
+          "url": "https://www.kommersant.ru/doc/8890660",
+          "image": "https://iv.kommersant.ru/SocialPics/8890660_49_0_1986291136",
+          "publishedAt": "2026-08-16T08:06:21.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1786836271000",
-          "title": "Мареска: Холанд может не стать капитаном «Манчестер Сити», потому что забивает слишком много голов // Мареска назвал фаворита на роль капитана «Манчестер Сити»",
-          "summary": "Новый главный тренер «Манчестер Сити» Энцо Мареска еще не выбрал новый капитанский состав после ухода Бернарду Силвы в мадридский «Реал». Пока что из прежнего лидерского состава, входившего в «совет капитанов», претенден",
-          "url": "https://www.kommersant.ru/doc/8890580",
-          "image": "https://im2.kommersant.ru/SocialPics/8890580_49_0_1678312127",
-          "publishedAt": "2026-08-15T23:24:31.000Z",
+          "id": "energy-1-1786867141000",
+          "title": "Россиянка Мишарина вышла в финал чемпионата Европы на 400 м вольным стилем",
+          "summary": "Российская пловчиха Ксения Мишарина квалифицировалась в финал заплыва на 400 м вольным стилем на чемпионате Европы по водным видам спорта в Париже. В полуфинале она показала шестой результат — 4 минуты 9,78 секунды.",
+          "url": "https://www.kommersant.ru/doc/8890659",
+          "image": "https://im2.kommersant.ru/SocialPics/8890659_49_0_743716595",
+          "publishedAt": "2026-08-16T07:59:01.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786834019000",
-          "title": "Компания из Китая запустила первый регулярный рейс в Европу по Севморпути",
-          "summary": "Китайская компания Sea Legend Shipping запустила первый регулярный рейс из Китая в Европу по Северному морскому пути, сообщает «Синьхуа». Ее контейнеровоз Dubai Tower стартовал из китайского порта Нинбо-Чжоушань и зайдет",
-          "url": "https://www.kommersant.ru/doc/8890579",
-          "image": "https://im2.kommersant.ru/SocialPics/8890579_49_0_48817129",
-          "publishedAt": "2026-08-15T22:46:59.000Z",
+          "id": "energy-2-1786866639000",
+          "title": "Дуглас второй раз за день обновила мировой рекорд в плавании на 50 метров кролем",
+          "summary": "Американская пловчиха Кейт Дуглас установила новый мировой рекорд на дистанции 50 метров вольным стилем, обновив его дважды за один день на чемпионате Тихоокеанского региона в Ирвайне. В субботнем предварительном заплыве",
+          "url": "https://www.kommersant.ru/doc/8890657",
+          "image": "https://im2.kommersant.ru/SocialPics/8890657_49_0_83579122",
+          "publishedAt": "2026-08-16T07:50:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786831945000",
-          "title": "В Москве ввели ограничения для аэропорта Домодедово",
-          "summary": "Росавиация сообщила о введении ограничений для аэропорта Домодедово. Сейчас он принимает и выпускает самолеты по согласованию «с соответствующими органами».",
-          "url": "https://www.kommersant.ru/doc/8890578",
-          "image": "https://im2.kommersant.ru/SocialPics/8890578_49_0_1552581003",
-          "publishedAt": "2026-08-15T22:12:25.000Z",
+          "id": "energy-3-1786866105000",
+          "title": "Пожар на складе Wildberries в Подольске тушат 56 пожарных // К тушению пожара на складе WB в Подольске привлекли 56 пожарных и 14 автоцистерн",
+          "summary": "К тушению возгорания на территории логистического комплекса Wildberries в подмосковном Подольске привлекли 56 пожарных и 14 автоцистерн. Об этом рассказал глава городского округа Григорий Артамонов в Telegram.",
+          "url": "https://www.kommersant.ru/doc/8890654",
+          "image": "https://im2.kommersant.ru/SocialPics/8890654_49_0_1881686743",
+          "publishedAt": "2026-08-16T07:41:45.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786829894000",
-          "title": "Шнайдер и Калинская вышли в третий круг турнира WTA 1000 в Цинциннати",
-          "summary": "Российские теннисистки Диана Шнайдер (14-я ракетка мира) и Анна Калинская (21-я ракетка) вышли в третий круг турнира категории WTA 1000 в Цинциннати. 22-летняя Шнайдер одолела немку Татьяну Марию, занимающую в мировом ре",
-          "url": "https://www.kommersant.ru/doc/8890576",
-          "image": "https://im2.kommersant.ru/SocialPics/8890576_49_0_1437488137",
-          "publishedAt": "2026-08-15T21:38:14.000Z",
+          "id": "energy-4-1786866094000",
+          "title": "Первый за полтора года пассажирский рейс из Дамаска прибыл в Москву",
+          "summary": "Первый более чем за полтора года пассажирский рейс из Дамаска прибыл в Москву. Самолет авиакомпании Syrian Airlines приземлился в аэропорту Шереметьево, следует из данных онлайн-табло воздушной гавани.",
+          "url": "https://www.kommersant.ru/doc/8890656",
+          "image": "https://im2.kommersant.ru/SocialPics/8890656_49_0_1217488804",
+          "publishedAt": "2026-08-16T07:41:34.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -703,7 +703,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-16T00:34:22.225Z",
+      "lastFetchAt": "2026-08-16T08:14:45.023Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -773,7 +773,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-16T00:34:24.642Z",
+      "lastFetchAt": "2026-08-16T08:14:46.683Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1193,7 +1193,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-15T20:09:14.124Z",
+      "lastFetchAt": "2026-08-16T08:14:51.504Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
