@@ -64,24 +64,23 @@
       "id": "medicine",
       "name": "Медицина",
       "slug": "medicine",
-      "source": "Lenta.ru",
-      "siteUrl": "https://lenta.ru",
-      "feedUrl": "https://lenta.ru/rss/news",
+      "source": "МедРоссия",
+      "siteUrl": "https://medrussia.org",
+      "feedUrl": "https://medrussia.org/rss/",
       "intervalHours": 4,
-      "topCount": 5,
-      "keywordFilter": ["медицин", "врач", "больниц", "пациент", "клиник", "лекарств", "хирург", "диагноз"]
+      "topCount": 5
     },
     {
       "id": "health",
       "name": "Здоровье",
       "slug": "health",
-      "source": "МедРоссия",
-      "siteUrl": "https://medrussia.org",
-      "feedUrl": "https://medrussia.org/rss/",
-      "fallbackFeedUrl": "https://lenta.ru/rss/news",
-      "fallbackKeywordFilter": ["здоров", "медицин", "врач", "пациент", "больниц", "лекарств", "вакцин"],
+      "source": "Lenta.ru",
+      "siteUrl": "https://lenta.ru",
+      "feedUrl": "https://lenta.ru/rss/news",
+      "fallbackFeedUrl": "https://medrussia.org/rss/",
       "intervalHours": 6,
-      "topCount": 5
+      "topCount": 5,
+      "keywordFilter": ["здоров", "медицин", "врач", "больниц", "пациент", "клиник", "лекарств", "вакцин", "вирус", "хирург"]
     },
     {
       "id": "environment",
@@ -91,7 +90,8 @@
       "siteUrl": "https://nplus1.ru",
       "feedUrl": "https://nplus1.ru/rss",
       "intervalHours": 4,
-      "topCount": 5
+      "topCount": 5,
+      "keywordFilter": ["климат", "эколог", "углерод", "загрязн", "природ", "выброс", "ледник", "погод"]
     },
     {
       "id": "energy",

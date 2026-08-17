@@ -21,8 +21,8 @@ export function getAllArticles(): NewsArticle[] {
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     )
     .filter((article) => {
-      const key = (article.url || article.title).split("?")[0].toLowerCase();
-      if (seen.has(key)) return false;
+      const key = (article.url || "").replace(/[?&]utm_[^&]+/g, "");
+      if (!key || seen.has(key)) return false;
       seen.add(key);
       return true;
     });

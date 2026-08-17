@@ -86,6 +86,21 @@ export async function buildHealth() {
     issues.push(`Мало картинок: ${totalImages}/${totalArticles}`);
   }
 
+  const duplicateUrls = [];
+  const seenUrls = new Set();
+  for (const report of categoryReports) {
+    const bucket = news.categories?.[report.id];
+    for (const article of bucket?.articles ?? []) {
+      const url = article.url;
+      if (!url) continue;
+      if (seenUrls.has(url)) duplicateUrls.push(`${report.name}: ${article.title}`);
+      seenUrls.add(url);
+    }
+  }
+  if (duplicateUrls.length) {
+    warnings.push(`Дубли между рубриками: ${duplicateUrls.length}`);
+  }
+
   const ok = issues.length === 0;
   const health = {
     checkedAt: new Date().toISOString(),

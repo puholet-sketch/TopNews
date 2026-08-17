@@ -108,17 +108,6 @@ function matchesKeywords(item, keywords) {
   return keywords.some((kw) => haystack.includes(kw.toLowerCase()));
 }
 
-function normalizeUrl(url = "") {
-  try {
-    const parsed = new URL(url);
-    parsed.hash = "";
-    parsed.search = "";
-    return parsed.toString().replace(/\/+$/, "").toLowerCase();
-  } catch {
-    return url.split("?")[0].replace(/\/+$/, "").toLowerCase();
-  }
-}
-
 function shouldFetch(category, existing) {
   if (FORCE) return true;
   const lastFetch = existing?.lastFetchAt;
@@ -201,10 +190,6 @@ async function fetchCategory(category) {
           items = items.filter((item) => matchesKeywords(item, keywords));
         }
 
-        if (items.length === 0) {
-          throw new Error("в ленте нет материалов по теме");
-        }
-
         items = items.slice(0, category.topCount);
 
         const articles = await mapWithConcurrency(items, 3, async (item, index) => {
@@ -243,31 +228,45 @@ async function fetchCategory(category) {
   throw lastError;
 }
 
-function articleMatchesKeywords(article, keywords) {
-  if (!keywords?.length) return true;
-  const haystack = `${article.title || ""} ${article.summary || ""}`.toLowerCase();
-  return keywords.some((kw) => haystack.includes(kw.toLowerCase()));
+function canonicalUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (key.toLowerCase().startsWith("utm_")) parsed.searchParams.delete(key);
+    }
+    return parsed.toString();
+  } catch {
+    return url;
+  }
 }
 
-function scrubCrossCategoryDuplicates(results, sources) {
-  for (const source of sources.categories) {
-    const bucket = results[source.id];
-    if (!bucket?.articles || !source.keywordFilter?.length) continue;
-    bucket.articles = bucket.articles.filter((article) =>
-      articleMatchesKeywords(article, source.keywordFilter)
-    );
+function dedupeAcrossCategories(results, sourceList) {
+  const byFeed = new Map();
+  for (const source of sourceList) {
+    const key = source.feedUrl;
+    if (!byFeed.has(key)) byFeed.set(key, []);
+    byFeed.get(key).push(source);
   }
 
-  const claimed = new Set();
-  for (const source of sources.categories) {
-    const bucket = results[source.id];
-    if (!bucket?.articles) continue;
-    bucket.articles = bucket.articles.filter((article) => {
-      const key = normalizeUrl(article.url);
-      if (!key || claimed.has(key)) return false;
-      claimed.add(key);
-      return true;
+  for (const group of byFeed.values()) {
+    if (group.length < 2) continue;
+    const seen = new Set();
+    const ordered = [...group].sort((a, b) => {
+      const score = (c) => (c.id === "politics" ? 2 : c.keywordFilter?.length ? 0 : 1);
+      return score(a) - score(b);
     });
+
+    for (const source of ordered) {
+      const bucket = results[source.id];
+      if (!bucket?.articles) continue;
+      bucket.articles = bucket.articles.filter((article) => {
+        const key = canonicalUrl(article.url);
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }
   }
 }
 
@@ -281,38 +280,21 @@ async function main() {
   }
 
   const results = FORCE ? {} : { ...existing.categories };
-  if (!FORCE) {
-    scrubCrossCategoryDuplicates(results, sources);
-  }
   const fetched = [];
   const skipped = [];
   const failed = [];
-  const seenUrls = new Set();
   const dueCount = sources.categories.filter((category) =>
     shouldFetch(category, existing.categories?.[category.id])
   ).length;
 
   for (const category of sources.categories) {
     if (!shouldFetch(category, existing.categories?.[category.id])) {
-      for (const article of existing.categories?.[category.id]?.articles ?? []) {
-        if (article.url) seenUrls.add(normalizeUrl(article.url));
-      }
       skipped.push(category.id);
       continue;
     }
 
     try {
-      let articles = await fetchCategory(category);
-      articles = articles.filter((article) => {
-        const key = normalizeUrl(article.url);
-        if (!key || seenUrls.has(key)) return false;
-        seenUrls.add(key);
-        return true;
-      });
-
-      if (articles.length === 0) {
-        throw new Error("после фильтра темы и дедупликации не осталось новостей");
-      }
+      const articles = await fetchCategory(category);
       const withImages = articles.filter((a) => a.image).length;
       results[category.id] = {
         lastFetchAt: new Date().toISOString(),
@@ -332,7 +314,7 @@ async function main() {
   }
 
   const changed = fetched.length > 0;
-  scrubCrossCategoryDuplicates(results, sources);
+  dedupeAcrossCategories(results, sources.categories);
   const output = {
     updatedAt: changed ? new Date().toISOString() : existing.updatedAt,
     lastRunAt: new Date().toISOString(),
