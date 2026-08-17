@@ -23,8 +23,29 @@ export interface CategoryNews {
 
 export interface NewsData {
   updatedAt: string | null;
+  lastRunAt?: string | null;
   totalCategories: number;
+  fetchedNow?: string[];
+  skippedNow?: string[];
+  failedNow?: Array<{ id: string; error: string }>;
   categories: Record<string, CategoryNews>;
+}
+
+export interface HealthReport {
+  checkedAt: string;
+  ok: boolean;
+  status: "ok" | "warn" | "fail";
+  issues: string[];
+  warnings: string[];
+  stats: {
+    categories: number;
+    articles: number;
+    expected: number;
+    withImages: number;
+    emptyCategories: number;
+    overdueCategories: number;
+    newsUpdatedAt: string | null;
+  };
 }
 
 export interface SourceCategory {
@@ -37,4 +58,6 @@ export interface SourceCategory {
   intervalHours: number;
   topCount: number;
   keywordFilter?: string[];
+  fallbackFeedUrl?: string;
+  fallbackKeywordFilter?: string[];
 }

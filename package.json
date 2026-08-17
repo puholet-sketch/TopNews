@@ -8,6 +8,8 @@
     "start": "next start",
     "collect": "node scripts/collect-news.mjs",
     "collect:force": "node scripts/collect-news.mjs --force",
+    "health": "node scripts/health-check.mjs",
+    "health:strict": "node scripts/health-check.mjs --strict",
     "lint": "next lint"
   },
   "dependencies": {

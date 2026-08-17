@@ -1,10 +1,19 @@
-import { getNewsData } from "@/lib/news";
+import { getHealth, getNewsData } from "@/lib/news";
 
 export function Footer() {
   const data = getNewsData();
+  const health = getHealth();
   const updated = data.updatedAt
     ? new Date(data.updatedAt).toLocaleString("ru-RU")
     : "ещё не обновлялось";
+  const healthLabel =
+    health?.status === "ok"
+      ? "диагностика: ок"
+      : health?.status === "warn"
+        ? `диагностика: ${health.warnings.length} предупр.`
+        : health?.status === "fail"
+          ? `диагностика: ${health.issues.length} проблем`
+          : "диагностика: нет данных";
 
   return (
     <footer className="site-footer">
@@ -16,8 +25,8 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <div>Последнее обновление: {updated}</div>
-          <div style={{ marginTop: "0.35rem" }}>Источники указаны у каждой новости</div>
+          <div>Последнее обновление ленты: {updated}</div>
+          <div style={{ marginTop: "0.35rem" }}>{healthLabel}</div>
         </div>
       </div>
     </footer>

@@ -78,6 +78,7 @@
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
       "feedUrl": "https://medrussia.org/rss/",
+      "fallbackFeedUrl": "https://lenta.ru/rss/news",
       "intervalHours": 6,
       "topCount": 5
     },
@@ -118,6 +119,8 @@
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
       "feedUrl": "https://motor.ru/exports/rss.xml",
+      "fallbackFeedUrl": "https://lenta.ru/rss/news",
+      "fallbackKeywordFilter": ["авто", "машин", "электрокар", "Tesla", "водитель", "дорожн"],
       "intervalHours": 6,
       "topCount": 5
     },
@@ -196,11 +199,13 @@
       "id": "travel",
       "name": "Путешествия",
       "slug": "travel",
-      "source": "Ведомости",
-      "siteUrl": "https://www.vedomosti.ru",
-      "feedUrl": "https://www.vedomosti.ru/rss/rubric/lifestyle",
+      "source": "Lenta.ru",
+      "siteUrl": "https://lenta.ru",
+      "feedUrl": "https://lenta.ru/rss/news",
+      "fallbackFeedUrl": "https://www.kommersant.ru/RSS/news.xml",
       "intervalHours": 8,
-      "topCount": 5
+      "topCount": 5,
+      "keywordFilter": ["путешеств", "туризм", "турист", "отпуск", "авиакомпан", "отель", "курорт"]
     }
   ]
 }

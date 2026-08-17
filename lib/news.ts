@@ -1,6 +1,7 @@
 import newsData from "@/data/news.json";
 import sourcesData from "@/data/sources.json";
-import type { CategoryNews, NewsArticle, NewsData, SourceCategory } from "./types";
+import healthData from "@/data/health.json";
+import type { CategoryNews, HealthReport, NewsArticle, NewsData, SourceCategory } from "./types";
 
 export function getNewsData(): NewsData {
   return newsData as NewsData;
@@ -94,7 +95,13 @@ export function getCategoryColor(slug: string): string {
   return CATEGORY_COLORS[slug] || "#0b5fff";
 }
 
+export function getHealth(): HealthReport | null {
+  return (healthData as HealthReport) ?? null;
+}
+
 export function getFreshnessLabel(updatedAt: string | null): string {
+  const health = getHealth();
+  if (health?.status === "fail") return "сбой сбора";
   if (!updatedAt) return "данные не загружены";
   const hours = (Date.now() - new Date(updatedAt).getTime()) / 3600000;
   if (hours < 3) return "обновлено недавно";

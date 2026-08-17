@@ -11,15 +11,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: news-and-pages
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  collect:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,13 +27,29 @@ jobs:
 
       - run: npm ci
       - run: npm run collect
+      - run: npm run health:strict
 
-      - id: auto-commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update news feed"
-          file_pattern: data/news.json
+          file_pattern: data/news.json data/health.json
 
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /TopNews
@@ -45,5 +58,23 @@ jobs:
         with:
           path: out
 
+      - id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before Pages retry
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 25
+
+      - id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before last Pages retry
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 40
+
       - id: deployment
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
         uses: actions/deploy-pages@v4

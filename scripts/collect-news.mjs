@@ -166,48 +166,71 @@ async function mapWithConcurrency(items, limit, mapper) {
   return results;
 }
 
+async function loadFeedItems(feedUrl) {
+  const feed = await parser.parseURL(feedUrl);
+  return feed.items || [];
+}
+
 async function fetchCategory(category) {
+  const urls = [category.feedUrl, category.fallbackFeedUrl].filter(Boolean);
   let lastError;
-  for (let attempt = 1; attempt <= 2; attempt++) {
-    try {
-      const feed = await parser.parseURL(category.feedUrl);
-      let items = feed.items || [];
+  let usedFallback = false;
 
-      if (category.keywordFilter?.length) {
-        const filtered = items.filter((item) =>
-          matchesKeywords(item, category.keywordFilter)
-        );
-        items = filtered.length >= Math.min(3, category.topCount) ? filtered : items;
-      }
+  for (let urlIndex = 0; urlIndex < urls.length; urlIndex++) {
+    const feedUrl = urls[urlIndex];
+    usedFallback = urlIndex > 0;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        let items = await loadFeedItems(feedUrl);
+        const keywords = usedFallback
+          ? category.fallbackKeywordFilter || category.keywordFilter
+          : category.keywordFilter;
 
-      items = items.slice(0, category.topCount);
-
-      return mapWithConcurrency(items, 3, async (item, index) => {
-        let image = extractImage(item);
-        if (!image && item.link) {
-          image = await fetchOgImage(item.link);
+        if (keywords?.length) {
+          const filtered = items.filter((item) => matchesKeywords(item, keywords));
+          if (filtered.length >= category.topCount) {
+            items = filtered;
+          } else if (filtered.length > 0) {
+            const rest = items.filter((item) => !filtered.includes(item));
+            items = [...filtered, ...rest];
+          }
         }
 
-        return {
-          id: `${category.id}-${index}-${Date.parse(item.isoDate || item.pubDate || "") || Date.now()}`,
-          title: (item.title || "Без заголовка").trim(),
-          summary: stripHtml(
-            item.contentSnippet || item.summary || item.contentEncoded || ""
-          ),
-          url: item.link || category.siteUrl,
-          image,
-          publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
-          source: category.source,
-          categoryId: category.id,
-          categoryName: category.name,
-          categorySlug: category.slug,
-        };
-      });
-    } catch (error) {
-      lastError = error;
-      await new Promise((r) => setTimeout(r, 1500 * attempt));
+        items = items.slice(0, category.topCount);
+
+        const articles = await mapWithConcurrency(items, 3, async (item, index) => {
+          let image = extractImage(item);
+          if (!image && item.link) {
+            image = await fetchOgImage(item.link);
+          }
+
+          return {
+            id: `${category.id}-${index}-${Date.parse(item.isoDate || item.pubDate || "") || Date.now()}`,
+            title: (item.title || "Без заголовка").trim(),
+            summary: stripHtml(
+              item.contentSnippet || item.summary || item.contentEncoded || ""
+            ),
+            url: item.link || category.siteUrl,
+            image,
+            publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
+            source: usedFallback ? `${category.source} (резерв)` : category.source,
+            categoryId: category.id,
+            categoryName: category.name,
+            categorySlug: category.slug,
+          };
+        });
+
+        return articles;
+      } catch (error) {
+        lastError = error;
+        await new Promise((r) => setTimeout(r, 1200 * attempt));
+      }
+    }
+    if (urlIndex < urls.length - 1) {
+      console.warn(`  ↺ ${category.name}: основной RSS недоступен, пробую резерв`);
     }
   }
+
   throw lastError;
 }
 
@@ -223,6 +246,10 @@ async function main() {
   const results = FORCE ? {} : { ...existing.categories };
   const fetched = [];
   const skipped = [];
+  const failed = [];
+  const dueCount = sources.categories.filter((category) =>
+    shouldFetch(category, existing.categories?.[category.id])
+  ).length;
 
   for (const category of sources.categories) {
     if (!shouldFetch(category, existing.categories?.[category.id])) {
@@ -245,20 +272,31 @@ async function main() {
       fetched.push(category.id);
       console.log(`✓ ${category.name}: ${articles.length} новостей (${withImages} с фото)`);
     } catch (error) {
+      failed.push({ id: category.id, error: error.message });
       console.error(`✗ ${category.name}: ${error.message}`);
     }
   }
 
+  const changed = fetched.length > 0;
   const output = {
-    updatedAt: new Date().toISOString(),
+    updatedAt: changed ? new Date().toISOString() : existing.updatedAt,
+    lastRunAt: new Date().toISOString(),
     totalCategories: sources.categories.length,
     fetchedNow: fetched,
     skippedNow: skipped,
+    failedNow: failed,
     categories: results,
   };
 
   await fs.writeFile(NEWS_PATH, JSON.stringify(output, null, 2), "utf-8");
-  console.log(`\nГотово. Обновлено: ${fetched.length}, пропущено: ${skipped.length}${FORCE ? " (force)" : ""}`);
+  console.log(
+    `\nГотово. Обновлено: ${fetched.length}, пропущено: ${skipped.length}, ошибок: ${failed.length}${FORCE ? " (force)" : ""}`
+  );
+
+  if (dueCount > 0 && fetched.length === 0 && failed.length === dueCount) {
+    console.error("Критично: все категории, которые пора было обновить, упали.");
+    process.exit(1);
+  }
 }
 
 main().catch((error) => {
