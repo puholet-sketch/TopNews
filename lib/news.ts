@@ -13,12 +13,19 @@ export function getSources(): SourceCategory[] {
 
 export function getAllArticles(): NewsArticle[] {
   const data = getNewsData();
+  const seen = new Set<string>();
   return Object.values(data.categories)
     .flatMap((category) => category.articles)
     .sort(
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    );
+    )
+    .filter((article) => {
+      const key = (article.url || article.title).split("?")[0].toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 }
 
 export function getArticlesByCategory(slug: string): NewsArticle[] {

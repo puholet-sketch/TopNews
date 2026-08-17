@@ -108,6 +108,17 @@ function matchesKeywords(item, keywords) {
   return keywords.some((kw) => haystack.includes(kw.toLowerCase()));
 }
 
+function normalizeUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    parsed.search = "";
+    return parsed.toString().replace(/\/+$/, "").toLowerCase();
+  } catch {
+    return url.split("?")[0].replace(/\/+$/, "").toLowerCase();
+  }
+}
+
 function shouldFetch(category, existing) {
   if (FORCE) return true;
   const lastFetch = existing?.lastFetchAt;
@@ -187,13 +198,11 @@ async function fetchCategory(category) {
           : category.keywordFilter;
 
         if (keywords?.length) {
-          const filtered = items.filter((item) => matchesKeywords(item, keywords));
-          if (filtered.length >= category.topCount) {
-            items = filtered;
-          } else if (filtered.length > 0) {
-            const rest = items.filter((item) => !filtered.includes(item));
-            items = [...filtered, ...rest];
-          }
+          items = items.filter((item) => matchesKeywords(item, keywords));
+        }
+
+        if (items.length === 0) {
+          throw new Error("в ленте нет материалов по теме");
         }
 
         items = items.slice(0, category.topCount);
@@ -234,6 +243,34 @@ async function fetchCategory(category) {
   throw lastError;
 }
 
+function articleMatchesKeywords(article, keywords) {
+  if (!keywords?.length) return true;
+  const haystack = `${article.title || ""} ${article.summary || ""}`.toLowerCase();
+  return keywords.some((kw) => haystack.includes(kw.toLowerCase()));
+}
+
+function scrubCrossCategoryDuplicates(results, sources) {
+  for (const source of sources.categories) {
+    const bucket = results[source.id];
+    if (!bucket?.articles || !source.keywordFilter?.length) continue;
+    bucket.articles = bucket.articles.filter((article) =>
+      articleMatchesKeywords(article, source.keywordFilter)
+    );
+  }
+
+  const claimed = new Set();
+  for (const source of sources.categories) {
+    const bucket = results[source.id];
+    if (!bucket?.articles) continue;
+    bucket.articles = bucket.articles.filter((article) => {
+      const key = normalizeUrl(article.url);
+      if (!key || claimed.has(key)) return false;
+      claimed.add(key);
+      return true;
+    });
+  }
+}
+
 async function main() {
   const sources = JSON.parse(await fs.readFile(SOURCES_PATH, "utf-8"));
   let existing = { updatedAt: null, categories: {} };
@@ -244,21 +281,38 @@ async function main() {
   }
 
   const results = FORCE ? {} : { ...existing.categories };
+  if (!FORCE) {
+    scrubCrossCategoryDuplicates(results, sources);
+  }
   const fetched = [];
   const skipped = [];
   const failed = [];
+  const seenUrls = new Set();
   const dueCount = sources.categories.filter((category) =>
     shouldFetch(category, existing.categories?.[category.id])
   ).length;
 
   for (const category of sources.categories) {
     if (!shouldFetch(category, existing.categories?.[category.id])) {
+      for (const article of existing.categories?.[category.id]?.articles ?? []) {
+        if (article.url) seenUrls.add(normalizeUrl(article.url));
+      }
       skipped.push(category.id);
       continue;
     }
 
     try {
-      const articles = await fetchCategory(category);
+      let articles = await fetchCategory(category);
+      articles = articles.filter((article) => {
+        const key = normalizeUrl(article.url);
+        if (!key || seenUrls.has(key)) return false;
+        seenUrls.add(key);
+        return true;
+      });
+
+      if (articles.length === 0) {
+        throw new Error("после фильтра темы и дедупликации не осталось новостей");
+      }
       const withImages = articles.filter((a) => a.image).length;
       results[category.id] = {
         lastFetchAt: new Date().toISOString(),
@@ -278,6 +332,7 @@ async function main() {
   }
 
   const changed = fetched.length > 0;
+  scrubCrossCategoryDuplicates(results, sources);
   const output = {
     updatedAt: changed ? new Date().toISOString() : existing.updatedAt,
     lastRunAt: new Date().toISOString(),
