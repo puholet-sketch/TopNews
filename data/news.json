@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-08-18T02:46:10.877Z",
-  "lastRunAt": "2026-08-18T02:46:10.877Z",
+  "updatedAt": "2026-08-18T04:23:42.218Z",
+  "lastRunAt": "2026-08-18T04:23:42.218Z",
   "totalCategories": 20,
   "fetchedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive"
+  ],
+  "skippedNow": [
     "it",
+    "cybersecurity",
     "business",
     "startups",
     "medicine",
@@ -11,16 +20,7 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
+    "politics",
     "education",
     "law",
     "realestate",
@@ -99,7 +99,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-17T21:39:14.547Z",
+      "lastFetchAt": "2026-08-18T04:23:33.262Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -367,7 +367,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-17T21:39:17.155Z",
+      "lastFetchAt": "2026-08-18T04:23:33.817Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -507,7 +507,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-17T21:39:19.330Z",
+      "lastFetchAt": "2026-08-18T04:23:35.973Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -515,7 +515,31 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1786987740000",
+          "id": "health-0-1787024043000",
+          "title": "Врач раскрыл особенности исследования уровня «гормона стресса»",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/18/vrach-raskryl-osobennosti-issledovaniya-urovnya-gormona-stressa/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/14/20260813144817712/pic_cc01a1ce3c208016c056a05841b07d23.jpg",
+          "publishedAt": "2026-08-18T03:34:03.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-1-1787014986000",
+          "title": "Девушка приняла лекарство и начала потеть, плеваться и плакать одновременно",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/18/devushka-prinyala-lekarstvo-i-nachala-potet-plevatsya-i-plakat-odnovremenno/",
+          "image": "https://icdn.lenta.ru/images/2026/08/17/16/20260817160958521/pic_aa9c932fa7afe8be9f0e38a1fe6dfb6e.jpg",
+          "publishedAt": "2026-08-18T01:03:06.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-2-1786987740000",
           "title": "Врач предупредила об опасности популярного у зумеров средства от бессонницы",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/17/vrach-predupredila-ob-opasnosti-populyarnogo-u-zumerov-sredstva-ot-bessonnitsy/",
@@ -527,48 +551,12 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1786984219000",
+          "id": "health-3-1786984219000",
           "title": "Врач развеял миф о безопасности популярной замены сигарет",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/17/vrach-razveyal-mif-o-bezopasnosti-populyarnoy-zameny-sigaret/",
           "image": "https://icdn.lenta.ru/images/2026/08/14/13/20260814131111342/pic_dc36b5d283d1b3920780578e13c88927.jpg",
           "publishedAt": "2026-08-17T16:30:19.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-2-1786978080000",
-          "title": "Россиян предупредили о неожиданной опасности для здоровья дома",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/17/rossiyan-predupredili-o-neozhidannoy-opasnosti-dlya-zdorovya-doma/",
-          "image": "https://icdn.lenta.ru/images/2026/08/17/15/20260817154610329/pic_35463d72b11f3b4a316e7b596c9179e5.jpg",
-          "publishedAt": "2026-08-17T14:48:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-3-1786976580000",
-          "title": "В России объяснили свободные бюджетные места в медицинских вузах",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/17/v-rossii-ob-yasnili-svobodnye-byudzhetnye-mesta-v-meditsinskih-vuzah/",
-          "image": "https://icdn.lenta.ru/images/2026/08/17/17/20260817171434826/pic_873672dd85a4ad40d054e06bed6a217f.jpg",
-          "publishedAt": "2026-08-17T14:23:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-4-1786973549000",
-          "title": "Назван простой фактор крепкого физического и психического здоровья",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/17/nazvan-prostoy-faktor-krepkogo-fizicheskogo-i-psihicheskogo-zdorovya/",
-          "image": "https://icdn.lenta.ru/images/2026/08/17/12/20260817125443369/pic_284ebb3fd4b21e471599919942e89549.jpg",
-          "publishedAt": "2026-08-17T13:32:29.000Z",
           "source": "Lenta.ru",
           "categoryId": "health",
           "categoryName": "Здоровье",
@@ -599,7 +587,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-17T21:39:19.883Z",
+      "lastFetchAt": "2026-08-18T04:23:39.237Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -607,60 +595,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1787000797000",
-          "title": "Топ-менеджера FIFA Кевина Ламура уволили после критики Инфантино",
-          "summary": "Операционный директор FIFA Кевин Ламур был уволен после того, как публично раскритиковал план президента федерации Джанни Инфантино по продаже части чемпионата мира частным инвесторам. Об этом сообщает The Guardian со сс",
-          "url": "https://www.kommersant.ru/doc/8891644",
-          "image": "https://im2.kommersant.ru/SocialPics/8891644_49_0_633473328",
-          "publishedAt": "2026-08-17T21:06:37.000Z",
+          "id": "energy-0-1787025932000",
+          "title": "Главные новости к утру 18 августа",
+          "summary": "Ночная атака беспилотников на Москву стала самой крупной за два года, сообщил ТАСС. При налете БПЛА на Подмосковье пострадал 10-летний ребенок, загорелись многоквартирный дом и склад Wildberries.",
+          "url": "https://www.kommersant.ru/doc/8891695",
+          "image": "https://iv.kommersant.ru/SocialPics/8891695_49_0_1867309975",
+          "publishedAt": "2026-08-18T04:05:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1787029200000",
-          "title": "Доля нелегального оборота сигарет в России снизилась до 9,4%",
-          "summary": "Доля незаконного оборота табачной продукции (сигарет) в России во втором квартале 2026 года составила 9,4% в пересчете на курящее население страны, снизившись с 9,5% во втором квартале 2025 года. Об этом говорится в X Вс",
-          "url": "https://www.kommersant.ru/doc/8891470",
-          "image": "https://im2.kommersant.ru/SocialPics/8891470_49_0_1729998225",
-          "publishedAt": "2026-08-18T05:00:00.000Z",
+          "id": "energy-1-1787024767000",
+          "title": "В Подмосковье загорелись многоквартирный дом и склад Wildberries при атаке БПЛА",
+          "summary": "В нескольких городах Московской области произошли пожары во время ночной атаки БПЛА. Об этом сообщил губернатор Андрей Воробьев в Telegram.",
+          "url": "https://www.kommersant.ru/doc/8891688",
+          "image": "https://iv.kommersant.ru/SocialPics/8891688_49_0_1252214886",
+          "publishedAt": "2026-08-18T03:46:07.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1786998820000",
-          "title": "Президент Финляндии допустил возобновление диалога ЕС и РФ из-за политики США // Стубб: соседние с Россией страны могут сыграть важную роль в диалоге Москвы и ЕС",
-          "summary": "Президент Финляндии Александр Стубб заявил, что Европе необходимо сохранять и в определенный момент открыть каналы связи с Россией. Европе они пригодятся, если сегодняшний внешнеполитический курс США перестанет соответст",
-          "url": "https://www.kommersant.ru/doc/8891642",
-          "image": "https://im2.kommersant.ru/SocialPics/8891642_49_0_1636671578",
-          "publishedAt": "2026-08-17T20:33:40.000Z",
+          "id": "energy-2-1787024033000",
+          "title": "При налете БПЛА на Подмосковье пострадал 10-летний ребенок",
+          "summary": "Сегодня в Московской области силы ПВО уничтожили более 150 БПЛА, сообщил губернатор региона Андрей Воробьев в Telegram. При ударах в разных городах пострадали несколько человек, в том числе 10-летняя девочка в Раменском ",
+          "url": "https://www.kommersant.ru/doc/8891683",
+          "image": "https://im2.kommersant.ru/SocialPics/8891683_49_0_294225687",
+          "publishedAt": "2026-08-18T03:33:53.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1786997851000",
-          "title": "ТАСС: Фидан обсудил с Арагчи открытие Ормузского пролива",
-          "summary": "Глава МИД Турции Хакан Фидан обсудил во время телефонного звонка с иранским коллегой Аббасом Арагчи переговоры по открытию Ормузского пролива. Об этом сообщает ТАСС со ссылкой на источник в турецком МИДе.",
-          "url": "https://www.kommersant.ru/doc/8891639",
-          "image": "https://im2.kommersant.ru/SocialPics/8891639_49_0_1985890900",
-          "publishedAt": "2026-08-17T20:17:31.000Z",
+          "id": "energy-3-1787023702000",
+          "title": "В Европе заявили о катастрофическом неурожае из-за жары и засухи",
+          "summary": "Производители овощей и зерновых культур во Франции, Италии и Испании заявили о «катастрофически низких урожаях» из-за продолжительной и рекордной жары, сопровождаемой засухой, сообщает The Guardian. Во Франции, крупнейше",
+          "url": "https://www.kommersant.ru/doc/8891682",
+          "image": "https://iv.kommersant.ru/SocialPics/8891682_49_0_722268968",
+          "publishedAt": "2026-08-18T03:28:22.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1786996421000",
-          "title": "Бывший музыкант группы Стаса Намина «Цветы» Владислав Петровский погиб в ДТП",
-          "summary": "Бывший клавишник группы Стаса Намина «Цветы» Владислав Петровский погиб в возрасте 74 лет. Об этом сообщила ТАСС вдова музыканта.",
-          "url": "https://www.kommersant.ru/doc/8891636",
-          "image": "https://im2.kommersant.ru/SocialPics/8891636_49_0_1629426775",
-          "publishedAt": "2026-08-17T19:53:41.000Z",
+          "id": "energy-4-1787022028000",
+          "title": "На подлете к Москве сбили еще семь беспилотников",
+          "summary": "Силы ПВО сбили еще семь украинских дронов, которые летели на Москву. О произошедшем сообщил мэр столицы Сергей Собянин.",
+          "url": "https://www.kommersant.ru/doc/8891680",
+          "image": "https://iv.kommersant.ru/SocialPics/8891680_49_0_627928225",
+          "publishedAt": "2026-08-18T03:00:28.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -669,7 +657,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-17T21:39:20.038Z",
+      "lastFetchAt": "2026-08-18T04:23:39.851Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -739,7 +727,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-17T21:39:20.180Z",
+      "lastFetchAt": "2026-08-18T04:23:42.217Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
