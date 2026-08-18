@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-18T06:22:11.372Z",
-  "lastRunAt": "2026-08-18T06:22:11.372Z",
+  "updatedAt": "2026-08-18T08:21:13.327Z",
+  "lastRunAt": "2026-08-18T08:21:13.327Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
-    "law"
+    "sports",
+    "politics",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-18T02:45:51.067Z",
+      "lastFetchAt": "2026-08-18T08:21:03.715Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -37,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1786981411000",
+          "id": "it-0-1787040530000",
+          "title": "Память агента без вектор-БД: 363 markdown-файла вместо эмбеддингов",
+          "summary": "У меня восемь агентов с постоянной памятью: больше 360 файлов, около 1,4 МБ текста. Векторной базы нет ни одной, эмбеддинги я не считаю вообще. И это не “руки не дошли”: вопрос про вектор-БД я поднимал трижды, каждый раз",
+          "url": "https://habr.com/ru/articles/1071530/?utm_campaign=1071530&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/43d/49d/1cb/43d49d1cb67f5bfb04f2840a0caae9b2.jpg",
+          "publishedAt": "2026-08-18T08:08:50.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1786981411000",
           "title": "Как PHP превратился в героя мемов и пережил все свои «похороны»",
           "summary": "Если бы в интернете вручали премию за количество мемов, в финал наверняка вышли бы Леонардо ДиКаприо, коты с осуждающим взглядом и язык PHP. Над последним разработчики шутят уже столько лет, что фразу «я пишу на PHP» луч",
           "url": "https://habr.com/ru/articles/1071378/?utm_campaign=1071378&utm_source=habrahabr&utm_medium=rss",
@@ -49,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1786979891000",
+          "id": "it-2-1786979891000",
           "title": "Что настоящего осталось в программисте?",
           "summary": "А вот реально, что настоящего осталось в программисте когда вокруг llm ? Где его суть и индивидуальность, где теперь его ценность ? Читать далее",
           "url": "https://habr.com/ru/articles/1070746/?utm_campaign=1070746&utm_source=habrahabr&utm_medium=rss",
@@ -61,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1786977270000",
+          "id": "it-3-1786977270000",
           "title": "[Перевод] Пересекая реку Стикс: Spring Boot 3.5 и проблема зомби-зависимостей",
           "summary": "Недавно я разбирал истории CVE, связанные с завершением поддержки Tomcat 8.5, и решил посмотреть на Spring Boot 3.5. Я задался тем же вопросом применительно к Spring Boot: что происходит с уровнем защищённости приложения",
           "url": "https://habr.com/ru/companies/axiomjdk/articles/1071344/?utm_campaign=1071344&utm_source=habrahabr&utm_medium=rss",
@@ -73,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1786968055000",
+          "id": "it-4-1786968055000",
           "title": "Чему меня научили дети, пока я пытался научить их программированию",
           "summary": "Полтора месяца ушло на то, чтобы среди кучи вакансий, не стыкующихся с моей учебой в универе, найти этот бриллиант. Вернулся я однажды с пар, сижу на бирже труда — и нахожу объявление: «Учитель информатики для детей, без",
           "url": "https://habr.com/ru/companies/selectel/articles/1063372/?utm_campaign=1063372&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/c09/b29/af7/c09b29af7a82160c019f1bd5e04cf249.png",
           "publishedAt": "2026-08-17T12:00:55.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1786966191000",
-          "title": "Бенчмаркая try/finally: один finally — и метод в 6,45 раза медленнее",
-          "summary": "Один try/finally внутри метода — и он работает в разы медленнее. Сам блок тут ни при чём, он не выполняет ни одной лишней инструкции. Причина в решении JIT. В .NET 10 его поменяли — но не для всех методов и не при любых ",
-          "url": "https://habr.com/ru/articles/1071238/?utm_campaign=1071238&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/87c/ea8/42d/87cea842d5cc3bd644c037160785bf21.png",
-          "publishedAt": "2026-08-17T11:29:51.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -309,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-18T02:45:55.041Z",
+      "lastFetchAt": "2026-08-18T08:21:05.373Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -317,7 +317,19 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1786977247000",
+          "id": "startups-0-1787036835000",
+          "title": "«2ГИС» начал рассчитывать рейтинг заведений на основе отзывов пользователей, чей визит подтверждён геопозицией или платежом",
+          "summary": "Чтобы повысить достоверность оценок.",
+          "url": "https://vc.ru/services/3084168-reiting-zavedenij-v-2gis-na-osnove-podtverzhdennyh-otzyvov?from=rss",
+          "image": "https://leonardo.osnova.io/61905001-fa92-5111-98f5-04bddc841f48/",
+          "publishedAt": "2026-08-18T07:07:15.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1786977247000",
           "title": "Фитнес-тренажёры и Starlink на яхтах вместо дорогого алкоголя и икры: привычки новоиспечённых миллиардеров из ИИ-компаний меняют рынок услуг для сверхбогатых",
           "summary": "О тенденции рассказало издание Financial Times.",
           "url": "https://vc.ru/money/3083006-novye-privychki-milliarderov-iz-ii-fitness-na-yakhtakh-i-starlink?from=rss",
@@ -329,7 +341,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1786956763000",
+          "id": "startups-2-1786956763000",
           "title": "Суд заочно приговорил основателя автодилера «Рольф» Сергея Петрова к девяти годам колонии",
           "summary": "Сейчас Петров находится за пределами России.",
           "url": "https://vc.ru/legal/3082350-sud-prigovoril-sergeya-petrova-osnovatelya-avtodilera-rolf-k-kolonii?from=rss",
@@ -341,24 +353,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1786963594000",
-          "title": "Девять крупнейших американских ИТ-компаний накопили около $3 трлн обязательств, которые пока не отражены на их балансах — WSJ",
-          "summary": "Большая часть расходов связана с финансированием ИИ-инфраструктуры.",
-          "url": "https://vc.ru/money/3082662-krupneishie-it-kompanii-ssha-nakopili-obiazatelstva-po-ii?from=rss",
-          "image": "https://leonardo.osnova.io/0dd8a535-d836-54af-85c2-96951633542d/",
-          "publishedAt": "2026-08-17T10:46:34.000Z",
+          "id": "startups-3-1786995070000",
+          "title": "YouTube начнёт засчитывать просмотры видео любых форматов с момента их запуска",
+          "summary": "Чтобы сделать метрики прозрачнее для авторов.",
+          "url": "https://vc.ru/services/3083676-youtube-nachnyot-zaschityvat-prosmotry-s-pervogo-kadra-video?from=rss",
+          "image": "https://leonardo.osnova.io/68f567c5-57c3-534a-a422-b048863fc4df/",
+          "publishedAt": "2026-08-17T19:31:10.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1786960906000",
-          "title": "«Яндекс Go» начал тестировать в Подмосковье проверку возраста через Госуслуги для аренды электросамокатов",
-          "summary": "К 30 сентября 2026 года делать это должны будут все кикшеринги в Московской области.",
-          "url": "https://vc.ru/transport/3082610-yandeks-go-proverka-vozrasta-gosuslugi-samokaty?from=rss",
-          "image": "https://leonardo.osnova.io/39c44900-3b99-5ce0-8b72-b443cbeea1c2/",
-          "publishedAt": "2026-08-17T10:01:46.000Z",
+          "id": "startups-4-1787030260000",
+          "title": "День 1637: крупные банки в первой половине 2026 года нарастили выдачу автокредитов на 35-40%",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3083998-krupnye-banki-uvelichili-vydachu-avtokreditov?from=rss",
+          "image": "https://leonardo.osnova.io/fc1dfa84-e821-51f6-97c1-aebc60313538/",
+          "publishedAt": "2026-08-18T05:17:40.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -437,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-18T02:45:59.740Z",
+      "lastFetchAt": "2026-08-18T08:21:07.915Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -565,7 +577,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-18T02:46:00.271Z",
+      "lastFetchAt": "2026-08-18T08:21:08.584Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -797,7 +809,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-18T02:46:02.508Z",
+      "lastFetchAt": "2026-08-18T08:21:10.380Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -805,7 +817,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1786957301000",
+          "id": "gaming-0-1787027595000",
+          "title": "Sunarius: Battle Brothers встречает Fallout в постапокалиптической пустоши",
+          "summary": "Если описать Sunarius одной фразой, получится примерно так: отряд из Battle Brothers отправили путешествовать по миру классического Fallout на мобильном телефоне (андроид) Именно на эти две легендарные игры Sunarius опир",
+          "url": "https://habr.com/ru/articles/1071448/?utm_campaign=1071448&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/15a/515/432/15a5154327ee6da56f523baa0ab129f7.png",
+          "publishedAt": "2026-08-18T04:33:15.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1786957301000",
           "title": "Press «Revive»: восставшие из пепла серии японских RPG",
           "summary": "В своём блоге я часто пишу о японских RPG. Какие-то элементы этих порой странных, громоздких игр заставляют возвращаться к жанру снова и снова, несмотря на их частую репетативность и времязатратность. Разработчики из Стр",
           "url": "https://habr.com/ru/companies/ruvds/articles/1069698/?utm_campaign=1069698&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1786867503000",
+          "id": "gaming-2-1786867503000",
           "title": "«Они явно что-то знали»: пророческие видеоигры из прошлого",
           "summary": "Не так давно мы вспоминали про игры, которым вот вроде и лет много, но они всё еще топ даже сейчас, и был там один пример в лице Metal Gear Solid 2: Sons of Liberty. При подготовке этого материала я лично перепроходил иг",
           "url": "https://habr.com/ru/companies/timeweb/articles/1069324/?utm_campaign=1069324&utm_source=habrahabr&utm_medium=rss",
@@ -829,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1786795726000",
+          "id": "gaming-3-1786795726000",
           "title": "Моды, которые превращают ванильный Fallout 4 в современную игру. Часть 2",
           "summary": "Привет, Хабр! В первой части я старался держаться в рамках оригинального Fallout 4. Мы исправили проблемы движка, убрали подергивания, обновили текстуры, погоду, воду и растительность. В результате игра стала выглядеть и",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1070542/?utm_campaign=1070542&utm_source=habrahabr&utm_medium=rss",
@@ -841,7 +865,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1786781489000",
+          "id": "gaming-4-1786781489000",
           "title": "Как я HDMI-порт в PlayStation 4 Fat менял. Странная история со счастливым концом",
           "summary": "Я пару лет назад купил по случаю, очень недорого PS4 Fat. Приобрел как нерабочую — по словам предыдущего владельца, она не давала изображение на экран. Получив девайс, я первым делом проинспектировал HDMI-порт. И точно, ",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1069974/?utm_campaign=1069974&utm_source=habrahabr&utm_medium=rss",
@@ -851,23 +875,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1786751042000",
-          "title": "10 моих любимых игр",
-          "summary": "Эта статья вряд‑ли принесет кому‑нибудь хоть какую‑то пользу, потому что мой топ будет состоять исключительно из тех игр, которые нравятся мне (на самом деле тут вы увидите единственное верное мнение). На мою любовь к эт",
-          "url": "https://habr.com/ru/articles/1070710/?utm_campaign=1070710&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/fc4/4a0/4fc/fc44a04fc10b555debc747c71fd0da47.webp",
-          "publishedAt": "2026-08-14T23:44:02.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-18T02:46:05.716Z",
+      "lastFetchAt": "2026-08-18T08:21:13.326Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -875,12 +887,12 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1787015106000",
-          "title": "В Лас-Вегасе начался суд по делу об убийстве Тупака Шакура",
-          "summary": "В суде Лас-Вегаса проходит слушание по делу об убийстве рэпера Тупака Шакура. Сейчас на скамье подсудимых — Дуэйн Дэвис, бывший лидер банды «Крипс», которого обвиняют в организации расправы над музыкантом.",
-          "url": "https://www.kommersant.ru/doc/8891672",
-          "image": "https://im2.kommersant.ru/SocialPics/8891672_49_0_746066929",
-          "publishedAt": "2026-08-18T01:05:06.000Z",
+          "id": "entertainment-0-1787024952000",
+          "title": "Йе чем удивить // Как Канье Уэст дошел до первого концерта в России",
+          "summary": "Американский рэпер Канье Уэст, с 2021 года официально носящий имя Йе, впервые должен выступить в России с публичными сольными концертами. Организаторы из Say Agency объявили в понедельник, 17 августа, сразу о двух шоу: 1",
+          "url": "https://www.kommersant.ru/doc/8891604",
+          "image": "https://iv.kommersant.ru/SocialPics/8891604_49_3184254_503751041",
+          "publishedAt": "2026-08-18T03:49:12.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -903,7 +915,7 @@
           "title": "Музыкальный продюсер Канье Уэста подтвердил его выступление в России",
           "summary": "Музыкальный продюсер Джозеф Карре, с чьим лейблом ML1 Records сотрудничает Канье Уэст, подтвердил, что рэпер даст концерт в России. В соцсети X он опубликовал пост с анонсом шоу на «Газпром Арене» 10 и 11 октября.",
           "url": "https://www.kommersant.ru/doc/8891565",
-          "image": "https://im2.kommersant.ru/SocialPics/8891565_49_0_1799005708",
+          "image": "https://iv.kommersant.ru/SocialPics/8891565_49_0_1799005708",
           "publishedAt": "2026-08-17T17:00:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -915,7 +927,7 @@
           "title": "Соло в моно // Вышел новый альбом Андрея Заблудовского",
           "summary": "Экс-гитарист бит-квартета «Секрет» Андрей Заблудовский выпустил сольный альбом «Zabl Mono», который, с точки зрения Игоря Гаврилова, лучше всего вписывается в понятие «авторская песня».",
           "url": "https://www.kommersant.ru/doc/8891483",
-          "image": "https://im2.kommersant.ru/SocialPics/8891483_49_3184135_100304019",
+          "image": "https://iv.kommersant.ru/SocialPics/8891483_49_3184135_100304019",
           "publishedAt": "2026-08-17T15:30:20.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -927,7 +939,7 @@
           "title": "Билеты на концерт Канье Уэста в Петербурге по 9 тыс. руб. раскупили за час",
           "summary": "Билеты на концерт американского рэпера Канье Уэста в категории по 9 тыс. руб. были полностью раскуплены за час, передает ТАСС. Мероприятие состоится 10 и 11 октября на стадионе «Газпром Арена» в Санкт-Петербурге.",
           "url": "https://www.kommersant.ru/doc/8891487",
-          "image": "https://im2.kommersant.ru/SocialPics/8891487_49_3184082_21093336",
+          "image": "https://iv.kommersant.ru/SocialPics/8891487_49_3184082_21093336",
           "publishedAt": "2026-08-17T14:57:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
