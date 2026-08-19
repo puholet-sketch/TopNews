@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-18T22:10:03.498Z",
-  "lastRunAt": "2026-08-18T22:10:03.498Z",
+  "updatedAt": "2026-08-19T00:33:04.676Z",
+  "lastRunAt": "2026-08-19T00:33:04.676Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
-    "ai",
     "cybersecurity",
+    "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "education",
     "law",
     "realestate",
     "travel"
   ],
+  "skippedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive"
+  ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-18T20:10:02.631Z",
+      "lastFetchAt": "2026-08-19T00:32:30.965Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -169,7 +169,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-18T10:15:52.297Z",
+      "lastFetchAt": "2026-08-19T00:32:32.983Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -177,7 +177,55 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1787047914000",
+          "id": "cybersecurity-0-1787065294000",
+          "title": "Странность августовского обновления Макса",
+          "summary": "Делюсь наблюдением о несовпадающем сертификате издателя в десктопном клиенте мессенджера под Windows. Читать далее",
+          "url": "https://habr.com/ru/articles/1071784/?utm_campaign=1071784&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/750/761/4a7/7507614a7f4083647535b1ab45e24bba.png",
+          "publishedAt": "2026-08-18T15:01:34.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1787058850000",
+          "title": "Зрелость внедрения ИИ и зрелость информационной безопасности ИИ",
+          "summary": "Две зрелости – внедрения ИИ и его защиты – почти никогда не совпадают, и именно зазор между ними даёт большинство инцидентов и претензий регулятора. В статье приведём обе оси к единой шкале CMMI, покажем, как организации",
+          "url": "https://habr.com/ru/companies/infera_security/articles/1071720/?utm_campaign=1071720&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/e0e/734/6c4/e0e7346c44565434a06fd116a5253114.png",
+          "publishedAt": "2026-08-18T13:14:10.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1787056364000",
+          "title": "Я хотел понять, где создана AI‑картинка. В итоге разобрался, что на самом деле проверяет C2PA",
+          "summary": "13 августа Google выложила Credentio — C++ библиотеку для проверки C2PA Content Credentials. Я решил собрать её и сделать простой тест: кидаешь картинку и смотришь, можно ли понять, камера это, генератор или редактор. Сп",
+          "url": "https://habr.com/ru/articles/1071706/?utm_campaign=1071706&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/13c/206/b67/13c206b67e5063316f54f7bc5866e357.jpeg",
+          "publishedAt": "2026-08-18T12:32:44.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1787048908000",
+          "title": "[Перевод] Деградация безопасности при итеративной генерации кода с помощью ИИ (краткое изложение исследования)",
+          "summary": "Что будет, если навайбкодить всякое, а потом внимательно посмотреть, что это мы натворили и насколько оно ужасно? Пора ли увольнять мясных программистов, или пора отменять подписку и нанимать мясных, чтобы они все исправ",
+          "url": "https://habr.com/ru/articles/1071632/?utm_campaign=1071632&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1071632/34a88aab28db97135ebf3f4bc5aaecb5/",
+          "publishedAt": "2026-08-18T10:28:28.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-4-1787047914000",
           "title": "Сказ про домен AD, ДНС, сетевого инженера и архитектора",
           "summary": "В некотором царстве, в некотором государстве… Историю расскажу, как сказочку, из тех соображений, что в сказочника камней не кидают, аллергия на камни :) Ибо, ну что с него взять? Он же сказочник! Так вот. Жила была комп",
           "url": "https://habr.com/ru/articles/1071614/?utm_campaign=1071614&utm_source=habrahabr&utm_medium=rss",
@@ -187,59 +235,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-1-1787046761000",
-          "title": "Телеметрия выключена. Кто еще ходит в сеть из вашей IDE",
-          "summary": "Настройка telemetry.telemetryLevel=off отключает телеметрию платформы, но не обновления, Git, синхронизацию, расширения и запросы к AI-провайдеру. Разбираю, какие данные могут уходить по каждому каналу, что реально видно",
-          "url": "https://habr.com/ru/articles/1071602/?utm_campaign=1071602&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/888/cf3/1de/888cf31de8b902418410386ca751045c.png",
-          "publishedAt": "2026-08-18T09:52:41.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1787042863000",
-          "title": "[Перевод] Как дырявый Shareware‑диск позволил спиратить Quake",
-          "summary": "В середине 90-х самым крутым, что можно купить для PC, если не считать невероятно дорогой Intel Pentium, был привод CD-ROM. Благодаря ёмкости дисков в 640 МиБ (в три раза больше, чем жёсткий диск PC на то время), CD позв",
-          "url": "https://habr.com/ru/articles/1071562/?utm_campaign=1071562&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/b1c/928/4cd/b1c9284cd4d6b05763cac164231b0652.jpg",
-          "publishedAt": "2026-08-18T08:47:43.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1787042704000",
-          "title": "GOFFEE навынос: разбираем новые техники шпионской группировки",
-          "summary": "Специалисты Лаборатории цифровой криминалистики и исследования вредоносного кода компании F6, российского разработчика технологий для борьбы с киберугрозами, представили исследование атак, техник и инструментов APT-групп",
-          "url": "https://habr.com/ru/companies/F6/articles/1071560/?utm_campaign=1071560&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/86d/501/9d0/86d5019d002636efbf71843dd84bdd46.png",
-          "publishedAt": "2026-08-18T08:45:04.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1787041917000",
-          "title": "Президент OpenAI попросил ChatGPT проверить свой сайт. Модель нашла 13 дыр за 15 минут",
-          "summary": "Президент и сооснователь OpenAI Грег Брокман попросил ChatGPT проверить безопасность собственного сайта — и получил список из 13 проблем за четверть часа. Сайт при этом самый скучный из возможных: статичная страница на A",
-          "url": "https://habr.com/ru/articles/1071554/?utm_campaign=1071554&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/530/18b/849/53018b8494c402b787113c52a7701449.jpeg",
-          "publishedAt": "2026-08-18T08:31:57.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-18T22:10:00.017Z",
+      "lastFetchAt": "2026-08-19T00:32:34.220Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -309,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-18T20:10:07.502Z",
+      "lastFetchAt": "2026-08-19T00:32:36.111Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -329,24 +329,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1787036835000",
-          "title": "«2ГИС» начал рассчитывать рейтинг заведений на основе отзывов пользователей, чей визит подтверждён геопозицией или платежом",
-          "summary": "Чтобы повысить достоверность оценок.",
-          "url": "https://vc.ru/services/3084168-reiting-zavedenij-v-2gis-na-osnove-podtverzhdennyh-otzyvov?from=rss",
-          "image": "https://leonardo.osnova.io/61905001-fa92-5111-98f5-04bddc841f48/",
-          "publishedAt": "2026-08-18T07:07:15.000Z",
+          "id": "startups-1-1787069185000",
+          "title": "Нидерландская Fairphone представила смартфон Fairphone 6+, который можно разобрать для ремонта за несколько минут, и официально вышла на рынок США",
+          "summary": "Устройство будут продавать за $649.",
+          "url": "https://vc.ru/tech/3085506-fairphone-6-modulnyj-smartfon-s-remontom-v-ssha?from=rss",
+          "image": "https://leonardo.osnova.io/2cdd8586-72e7-5b79-aa41-9834ee702fc7/",
+          "publishedAt": "2026-08-18T16:06:25.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1787069185000",
-          "title": "Нидерландская Fairphone представила смартфон Fairphone 6+, который можно разобрать для ремонта за несколько минут, и официально вышла на рынок США",
-          "summary": "Устройство будут продавать за $649.",
-          "url": "https://vc.ru/tech/3085506-fairphone-6-modulnyj-smartfon-s-remontom-v-ssha?from=rss",
-          "image": "https://leonardo.osnova.io/2cdd8586-72e7-5b79-aa41-9834ee702fc7/",
-          "publishedAt": "2026-08-18T16:06:25.000Z",
+          "id": "startups-2-1787036835000",
+          "title": "«2ГИС» начал рассчитывать рейтинг заведений на основе отзывов пользователей, чей визит подтверждён геопозицией или платежом",
+          "summary": "Чтобы повысить достоверность оценок.",
+          "url": "https://vc.ru/services/3084168-reiting-zavedenij-v-2gis-na-osnove-podtverzhdennyh-otzyvov?from=rss",
+          "image": "https://leonardo.osnova.io/61905001-fa92-5111-98f5-04bddc841f48/",
+          "publishedAt": "2026-08-18T07:07:15.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -449,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-18T20:10:10.960Z",
+      "lastFetchAt": "2026-08-19T00:32:38.735Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -589,7 +589,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-18T20:10:12.490Z",
+      "lastFetchAt": "2026-08-19T00:32:39.128Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -808,7 +808,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-18T20:10:21.341Z",
+      "lastFetchAt": "2026-08-19T00:32:41.454Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -878,7 +878,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-18T20:10:22.558Z",
+      "lastFetchAt": "2026-08-19T00:32:46.572Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -886,7 +886,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1787072588000",
+          "id": "entertainment-0-1787087552000",
+          "title": "Умер барабанщик ZZ Top Фрэнк Бирд",
+          "summary": "Умер барабанщик американской рок-группы ZZ Top Фрэнк Бирд. Как сообщил его пресс-секретарь Боб Мерлис, 77-летний музыкант умер на своем ранчо в Техасе, в окружении семьи.",
+          "url": "https://www.kommersant.ru/doc/8892444",
+          "image": "https://im2.kommersant.ru/SocialPics/8892444_49_0_647560300",
+          "publishedAt": "2026-08-18T21:12:32.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1787072588000",
           "title": "Deadline: «Амедиатека» стала сопродюсером сериала BBC «Министерство времени»",
           "summary": "Российская стриминговая платформа «Амедиатека» стала сопродюсером сериала «Министерство времени», который разрабатывают британская компания BBC и американская студия A24. Об этом сообщает Deadline со ссылкой на источники",
           "url": "https://www.kommersant.ru/doc/8892352",
@@ -898,11 +910,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1787070639000",
+          "id": "entertainment-2-1787070639000",
           "title": "Напротив течения // Пушкинский музей представил выставку Фабрицио Плесси",
           "summary": "В Пушкинском музее открылся проект «Вертикальные моря» одного из пионеров видео-арта, итальянца Фабрицио Плесси. В 2018 году музей показал большую выставку Плесси, но именно эта инсталляция в нее не входила. Масштабы нын",
           "url": "https://www.kommersant.ru/doc/8892311",
-          "image": "https://im2.kommersant.ru/SocialPics/8892311_49_3184897_275077971",
+          "image": "https://iv.kommersant.ru/SocialPics/8892311_49_3184897_275077971",
           "publishedAt": "2026-08-18T16:30:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -910,11 +922,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1787063466000",
+          "id": "entertainment-3-1787063466000",
           "title": "Умерла актриса московского театра «Ромэн» Наталья Бизева",
           "summary": "Актриса московского цыганского театра «Ромэн» Наталья Бизева умерла 16 августа на 82-м году жизни. Об этом сообщил ТАСС художественный руководитель театра Николай Сергиенко.",
           "url": "https://www.kommersant.ru/doc/8892249",
-          "image": "https://iv.kommersant.ru/SocialPics/8892249_49_0_1538166058",
+          "image": "https://im2.kommersant.ru/SocialPics/8892249_49_0_1538166058",
           "publishedAt": "2026-08-18T14:31:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -922,24 +934,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1787062414000",
+          "id": "entertainment-4-1787062414000",
           "title": "Смерть в вулканической лаже // На экраны выходит фильм «Жертва обстоятельств»",
           "summary": "В кинотеатрах начинают показывать фильм Ромена Гавраса «Жертва обстоятельств» (Sacrifice). Михаилу Трофименкову не было скучно на просмотре этой безалаберной пустышки.",
           "url": "https://www.kommersant.ru/doc/8892200",
-          "image": "https://im2.kommersant.ru/SocialPics/8892200_49_3184802_475584837",
+          "image": "https://iv.kommersant.ru/SocialPics/8892200_49_3184802_475584837",
           "publishedAt": "2026-08-18T14:13:34.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787059473000",
-          "title": "Владимир Хотиненко назначен ректором Высших курсов сценаристов и режиссеров",
-          "summary": "Режиссер Владимир Хотиненко назначен ректором Высших курсов сценаристов и режиссеров (ВКСР), одной из старейших киношкол в России. Решение принял совет учредителей организации еще 17 июля, сообщил Союз кинематографистов ",
-          "url": "https://www.kommersant.ru/doc/8892183",
-          "image": "https://im2.kommersant.ru/SocialPics/8892183_49_3184740_1825408115",
-          "publishedAt": "2026-08-18T13:24:33.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -948,7 +948,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-18T22:10:02.362Z",
+      "lastFetchAt": "2026-08-19T00:32:49.026Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1018,7 +1018,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-18T22:10:03.496Z",
+      "lastFetchAt": "2026-08-19T00:32:50.040Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1026,60 +1026,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787090763000",
-          "title": "Смертельные случаи холеры зафиксировали в Харьковской области",
+          "id": "politics-0-1787099473000",
+          "title": "Раскрыт размер средней пенсии по инвалидности",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/smertelnye-sluchai-holery-zafiksirovali-v-harkovskoy-oblasti/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/01/20260819010725192/pic_eb3a303255b7ba040fe2472e76e66794.jpg",
-          "publishedAt": "2026-08-18T22:06:03.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/raskryt-razmer-sredney-pensii-po-invalidnosti/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/03/20260819033049776/pic_e84b8275cfb461c69e32f010d2a7986e.jpg",
+          "publishedAt": "2026-08-19T00:31:13.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787090627000",
-          "title": "В Иране сообщили об отсутствии выплат от Киева за удар по судну",
+          "id": "politics-1-1787099425000",
+          "title": "Тигр-людоед растерзал мужчину",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/v-irane-soobschili-ob-otsutstvii-vyplat-ot-kieva-za-udar-po-sudnu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/01/20260819010131836/pic_fa14cd2dea922a738f039f70975c0555.jpg",
-          "publishedAt": "2026-08-18T22:03:47.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/tigr-rasterzal-muzhchinu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/18/16/20260818164924728/pic_5badd9d7e14087a15ca1ad361a5946bb.jpg",
+          "publishedAt": "2026-08-19T00:30:25.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787090412000",
-          "title": "Врач объяснил причины уменьшения пениса после физических нагрузок",
+          "id": "politics-2-1787099420000",
+          "title": "Россиянка описала женщин в Белизе фразой «не сидят целыми днями у кастрюли»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/vrach-ob-yasnil-prichiny-umensheniya-penisa-posle-fizicheskih-nagruzok/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/13/20260818132153710/pic_7347ce382252af22807f73b696a78cf3.jpg",
-          "publishedAt": "2026-08-18T22:00:12.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/rossiyanka-opisala-zhenschin-v-belize-frazoy-ne-sidyat-tselymi-dnyami-u-kastryuli/",
+          "image": "https://icdn.lenta.ru/images/2026/08/18/15/20260818151220621/pic_0c311354b099bd783324ce7c789975d8.jpg",
+          "publishedAt": "2026-08-19T00:30:20.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787090018000",
-          "title": "Стало известно об отказе США от переговоров с Ираном",
+          "id": "politics-3-1787099145000",
+          "title": "На подлете к Москве сбили еще десять беспилотников",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/stalo-izvestno-ob-otkaze-ssha-ot-peregovorov-s-iranom/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/00/20260819005318099/pic_74236adf9bc8677cbd1bb6f18bf5e556.jpg",
-          "publishedAt": "2026-08-18T21:53:38.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/na-podlete-k-moskve-sbili-esche-desyat-bespilotnikov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/03/20260819032609723/pic_ed5dc697a5d58a69257f36a8bf31d520.jpg",
+          "publishedAt": "2026-08-19T00:25:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787089706000",
-          "title": "Адаптацию европейских установок под снаряды США связали с поставками Киеву",
+          "id": "politics-4-1787099021000",
+          "title": "Названы главные «поставщики» наемников для ВСУ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/adaptatsiyu-evropeyskih-ustanovok-pod-snaryady-ssha-svyazali-s-postavkami-kievu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/00/20260819004618884/pic_9d8139d305853415dfdfa44812d3369c.jpg",
-          "publishedAt": "2026-08-18T21:48:26.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/nazvany-glavnye-postavschiki-naemnikov-dlya-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/03/20260819032315811/pic_8c2ac76ed8df2bb1a58260b82648ed09.jpg",
+          "publishedAt": "2026-08-19T00:23:41.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1088,29 +1088,16 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-18T16:17:26.172Z",
+      "lastFetchAt": "2026-08-19T00:32:51.751Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
       "name": "Образование",
       "slug": "education",
-      "articles": [
-        {
-          "id": "education-0-1786972035000",
-          "title": "Курс евро на межбанковском рынке превысил 99 рублей впервые с марта 2026 года",
-          "summary": "Доллар на межбанке — почти 85 рублей.",
-          "url": "https://vc.ru/money/3075891-kurs-evro-na-mezhbanke-prevysil-99-rubley?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3075891/1787069845/cover.jpg",
-          "publishedAt": "2026-08-17T13:07:15.000Z",
-          "source": "VC.ru",
-          "categoryId": "education",
-          "categoryName": "Образование",
-          "categorySlug": "education"
-        }
-      ]
+      "articles": []
     },
     "law": {
-      "lastFetchAt": "2026-08-18T10:16:09.774Z",
+      "lastFetchAt": "2026-08-19T00:33:02.601Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1118,60 +1105,60 @@
       "slug": "law",
       "articles": [
         {
-          "id": "law-0-1787044262000",
-          "title": "Минпромторг оценил расходы бизнеса на техсбор в 136 млрд руб.",
-          "summary": "Ведомство разработало правила, по которым будут взымать технологический сбор, и указало на риски нововведения.",
-          "url": "https://pravo.ru/news/265340/",
+          "id": "law-0-1787068196000",
+          "title": "ВККС открыла пять новых вакансий",
+          "summary": "Квалифколлегия ищет зампреда в Верховный суд Крыма, судей в арбитражный суд и КСОЮ, а также председателя и зампреда в военные суды.",
+          "url": "https://pravo.ru/news/265358/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-08-18T09:11:02.000Z",
+          "publishedAt": "2026-08-18T15:49:56.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
           "categorySlug": "law"
         },
         {
-          "id": "law-1-1787039356000",
-          "title": "ВККС разрешила арестовать двух ростовских судей",
-          "summary": "Следствие связывает уголовные дела в отношении судей с расследованием коррупции в Советском райсуде Ростова-на-Дону, по которому ранее осудили его экс-председателя Елену Коблеву.",
-          "url": "https://pravo.ru/news/265338/",
+          "id": "law-1-1787065987000",
+          "title": "ВС подтвердил прекращение отставки мирового судьи из Башкирии",
+          "summary": "Основанием для прекращения отставки стало внепроцессуальное общение судьи с участниками административных дел.",
+          "url": "https://pravo.ru/news/265357/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-08-18T07:49:16.000Z",
+          "publishedAt": "2026-08-18T15:13:07.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
           "categorySlug": "law"
         },
         {
-          "id": "law-2-1787039156000",
-          "title": "СИП подтвердил общеизвестность «Старейшины»",
-          "summary": "Суд отменил решение Роспатента, указав на недопустимость требования от потребителей знания точного юридического наименования правообладателя для признания знака общеизвестным.",
-          "url": "https://pravo.ru/news/265337/",
+          "id": "law-2-1787063684000",
+          "title": "В Госдуму внесли законопроект о «промышленном туризме»",
+          "summary": "Инициатива поможет сформировать позитивный имидж российских производителей и отечественных промышленных товаров.",
+          "url": "https://pravo.ru/news/265351/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-08-18T07:45:56.000Z",
+          "publishedAt": "2026-08-18T14:34:44.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
           "categorySlug": "law"
         },
         {
-          "id": "law-3-1787038733000",
-          "title": "Ставка арендной платы за землю признана недействительной: кто выиграет от этого преимущества",
-          "summary": "Любое землепользование в России платное. Нормативно предусмотрены две формы платы за землю: земельный налог и арендная плата. Ставки арендной платы устанавливаются законодательным актом субъекта РФ и, как правило, сущест",
-          "url": "https://pravo.ru/opinion/265327/",
-          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-08-18T07:38:53.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-4-1787038318000",
-          "title": "Особенности экспертизы Роспатента обозначений на китайском языке",
-          "summary": "В последние годы российские заявители и иностранные компании все чаще подают заявки на регистрацию товарных знаков, содержащих китайские иероглифы, — это обусловлено установлением тесных экономических связей с Китаем. Ро",
-          "url": "https://300.pravo.ru/opinion/265320/",
+          "id": "law-3-1787063789000",
+          "title": "Экс-владельцы ПСБ Ананьевы получили 8 лет колонии",
+          "summary": "Братьев Алексея и Дмитрия Ананьевых признали виновными в хищении 39 млрд руб.",
+          "url": "https://pravo.ru/news/265355/",
           "image": null,
-          "publishedAt": "2026-08-18T07:31:58.000Z",
+          "publishedAt": "2026-08-18T14:36:29.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-4-1787061964000",
+          "title": "Минюст предлагает упростить подачу документов на экзамен для нотариусов",
+          "summary": "Ведомство также уточняет порядок работы квалификационных комиссий и вводит новые правила для ее членов.",
+          "url": "https://pravo.ru/news/265354/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-08-18T14:06:04.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
@@ -1180,7 +1167,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-18T16:17:26.920Z",
+      "lastFetchAt": "2026-08-19T00:33:03.534Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1188,7 +1175,31 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1787001650000",
+          "id": "realestate-0-1787089557000",
+          "title": "Владелец Azimut Hotels Клячин вернул себе гостиницу на Варшавском шоссе",
+          "summary": "Ранее этот отель вместе с кварталом «Даниловская мануфактура» был продан на торгах",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/08/19/1222092-vladelets-azimut-hotels-vernul-sebe-gostinitsu",
+          "image": "https://cdn.vdmsti.ru/image/2026/6e/1c3ez1/normal-1qbx.jpg",
+          "publishedAt": "2026-08-18T21:45:57.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1787089472000",
+          "title": "Спрос на готовое жилье в Москве вырос почти на 10%",
+          "summary": "Квартиры на «вторичке» популярнее новостроек в том числе и из-за более низких цен",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/08/19/1222091-spros-na-gotovoe-zhile-v-moskve-viros",
+          "image": "https://cdn.vdmsti.ru/image/2026/6e/1c4vlx/normal-1qdt.jpg",
+          "publishedAt": "2026-08-18T21:44:32.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-2-1787001650000",
           "title": "BG Logistic закрыла сделку по аренде крупного логопарка на Симферопольском шоссе",
           "summary": "Склады, несмотря на снижение активности на рынке, продолжают пользоваться спросом у логистических компаний",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/18/1221809-bg-logistic-zakrila-sdelku-po-arende-logoparka",
@@ -1200,7 +1211,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1787001329000",
+          "id": "realestate-3-1787001329000",
           "title": "Новостройки старой Москвы за последний месяц подорожали на 6%",
           "summary": "Это связано с увеличением числа сделок с элитными объектами",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/18/1221799-novostroiki-staroi-moskvi-podorozhali",
@@ -1212,7 +1223,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1787000074000",
+          "id": "realestate-4-1787000074000",
           "title": "Владелец челябинского отеля Radisson Blu выкупает торговые центры «Макфы»",
           "summary": "Эти активы достанутся ему за полцены",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/17/1221818-vladelets-otelya-vikupaet-tsentri",
@@ -1222,35 +1233,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-3-1786982950000",
-          "title": "«Брусника» увеличила объем размещаемого выпуска облигаций до 3 млрд рублей",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/investments/news/2026/08/17/1221757-brusnika-uvelichila",
-          "image": "https://cdn.vdmsti.ru/image/2026/6d/14wjnz/normal-1h0h.png",
-          "publishedAt": "2026-08-17T16:09:10.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1786914720000",
-          "title": "«Юнифрост» закроет одну из крупнейших в этом году сделок на рынке коворкингов",
-          "summary": "Поставщик рыбы договорился об аренде рабочих мест в гибком офисе рядом с Кремлем",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/08/17/1221506-yunifrost-zakroet-odnu-iz-krupneishih-sdelok",
-          "image": "https://cdn.vdmsti.ru/image/2026/6c/1bkeeg/normal-1pn9.jpg",
-          "publishedAt": "2026-08-16T21:12:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-18T16:17:28.315Z",
+      "lastFetchAt": "2026-08-19T00:33:04.675Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1258,48 +1245,36 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1787068920000",
+          "id": "travel-0-1787072700000",
+          "title": "Мужчина изнасиловал двух туристок в Европе и подвергся нападению матери одной из них",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/18/muzhchina-iznasiloval-dvuh-turistok-v-evrope-i-podvergsya-napadeniyu-materi-odnoy-iz-nih/",
+          "image": "https://icdn.lenta.ru/images/2026/08/18/16/20260818165702035/pic_2390ae253d85d2ae0c3863d426ef2586.jpg",
+          "publishedAt": "2026-08-18T17:05:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1787070300000",
+          "title": "Молодожены отправились в свадебное путешествие на вертолете и не выжили",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/18/molodozheny-otpravilis-v-svadebnoe-puteshestvie-na-vertolete-i-ne-vyzhili/",
+          "image": "https://icdn.lenta.ru/images/2026/08/18/15/20260818152413551/pic_7873b9914ac8f888c429407b372eb050.jpg",
+          "publishedAt": "2026-08-18T16:25:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1787068920000",
           "title": "Восемь туристок изнасиловали на популярном курорте Греции за две недели",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/18/vosem-turistok-iznasilovali-na-populyarnom-kurorte-gretsii-za-dve-nedeli/",
           "image": "https://icdn.lenta.ru/images/2026/08/18/16/20260818164008342/pic_024ec64b549c8a6e0c404ac4699a35eb.jpg",
           "publishedAt": "2026-08-18T16:02:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-1-1787061720000",
-          "title": "Мусор на пляже популярного курорта Турции попал на видео",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/18/musor-na-plyazhe-populyarnogo-kurorta-turtsii-popal-na-video/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/13/20260818135246834/pic_d908f378599c1255c8e9de5630179092.jpg",
-          "publishedAt": "2026-08-18T14:02:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-2-1787059860000",
-          "title": "Морской угорь прокусил ногу россиянки на роскошном курорте Египта",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/18/morskoy-ugor-prokusil-nogu-rossiyanki-na-roskoshnom-kurorte-egipta/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/15/20260818153258921/pic_1cd15e922c7f120057410d8487be8eff.jpg",
-          "publishedAt": "2026-08-18T13:31:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1787056740000",
-          "title": "«Совсем не ожидали, что нас придут спасать». Пропавших на Эльбрусе туристов нашли. Что им пришлось пережить?",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/18/long-sovsem-ne-ozhidali-chto-nas-pridut-spasat-propavshih-na-elbruse-turistov-nashli-i-spustili-s-gory/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/14/20260818143304811/pic_729803aacc50e9139681ac22ab778a28.jpg",
-          "publishedAt": "2026-08-18T12:39:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
