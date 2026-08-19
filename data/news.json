@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2026-08-19T02:48:06.645Z",
-  "lastRunAt": "2026-08-19T04:24:59.242Z",
+  "updatedAt": "2026-08-19T06:23:13.472Z",
+  "lastRunAt": "2026-08-19T06:23:13.472Z",
   "totalCategories": 20,
-  "fetchedNow": [],
-  "skippedNow": [
+  "fetchedNow": [
     "it",
-    "ai",
-    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
-    "politics",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
     "law",
     "realestate",
@@ -28,7 +29,7 @@
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-19T00:32:30.965Z",
+      "lastFetchAt": "2026-08-19T06:22:59.790Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -36,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1787074201000",
+          "id": "it-0-1787119248000",
+          "title": "Второй фактор, который жил в чужой странице: как я выбросил WebAuthn из своего сервиса ключей",
+          "summary": "Мы храним зашифрованные данные, и рядом с ними лежат ключи, которые к этим данным не подходят. Выглядит как расстройство для взломщика. Это описание того, что я хотел построить, и оно же оказалось единственной формулиров",
+          "url": "https://habr.com/ru/articles/1070614/?utm_campaign=1070614&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/27d/447/5bf/27d4475bf229a7fb9b62edcd0760b3c0.png",
+          "publishedAt": "2026-08-19T06:00:48.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1787074201000",
           "title": "[Перевод] Три месяца с Claude: хороший ассистент, плохой программист",
           "summary": "LLM всё чаще становятся частью рабочего процесса разработчика, но вместе с ускорением приносят новую проблему: как понять, где ассистент действительно помогает, а где уверенно ведёт по ложному следу. В статье разобрали о",
           "url": "https://habr.com/ru/companies/otus/articles/1069740/?utm_campaign=1069740&utm_source=habrahabr&utm_medium=rss",
@@ -48,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1787071728000",
+          "id": "it-2-1787071728000",
           "title": "Семантического поиска оказалось мало. Как я научил Obsidian находить похожие заметки",
           "summary": "В прошлой статье я рассказывал, как добавил в Obsidian локальный семантический индекс. Сам проект развивается открыто, код лежит здесь: GitHub: https://github.com/zinverno/obsidian-ai-hub С тех пор semantic-слой заметно ",
           "url": "https://habr.com/ru/articles/1071832/?utm_campaign=1071832&utm_source=habrahabr&utm_medium=rss",
@@ -60,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1787069456000",
+          "id": "it-3-1787069456000",
           "title": "Ни строчки руками: как я вайбкодил AI-мастера D&amp;D и что показали два месяца открытой беты",
           "summary": "За полгода я не написал руками ни одной строчки кода. При этом в проде — почти тысяча пользователей и первые 50 тысяч рублей. Днём я геймдизайнер в мобильной игре, вечером сажусь оперировать фермой агентов, которые пишут",
           "url": "https://habr.com/ru/articles/1071434/?utm_campaign=1071434&utm_source=habrahabr&utm_medium=rss",
@@ -72,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1787068855000",
+          "id": "it-4-1787068855000",
           "title": "Как совмещать работу и учёбу: кейс студентки онлайн-магистратуры ИТМО в партнёрстве с Яндексом",
           "summary": "Привет, меня зовут Кристина Меликова, я учусь в онлайн-магистратуре ИТМО в партнёрстве с Яндексом на программе «Фронтенд и бэкенд-разработка» и работаю бэкенд-разработчиком в компании YADRO. До того, как пойти в сферу IT",
           "url": "https://habr.com/ru/companies/yandex_praktikum/articles/1071312/?utm_campaign=1071312&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/609/265/daf/609265daf123924a6b36785555083252.png",
           "publishedAt": "2026-08-18T16:00:55.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787048908000",
-          "title": "[Перевод] Деградация безопасности при итеративной генерации кода с помощью ИИ (краткое изложение исследования)",
-          "summary": "Что будет, если навайбкодить всякое, а потом внимательно посмотреть, что это мы натворили и насколько оно ужасно? Пора ли увольнять мясных программистов, или пора отменять подписку и нанимать мясных, чтобы они все исправ",
-          "url": "https://habr.com/ru/articles/1071632/?utm_campaign=1071632&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1071632/34a88aab28db97135ebf3f4bc5aaecb5/",
-          "publishedAt": "2026-08-18T10:28:28.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -238,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-19T02:47:51.885Z",
+      "lastFetchAt": "2026-08-19T06:23:00.402Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -308,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-19T00:32:36.111Z",
+      "lastFetchAt": "2026-08-19T06:23:02.733Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -340,7 +341,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1787036835000",
+          "id": "startups-2-1787117411000",
+          "title": "День 1638: доля валюты на вкладах россиян достигла рекордно низкого уровня в 4,5%",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3086142-dola-valyuty-na-vkladah-rossiyan-sznizilas?from=rss",
+          "image": "https://leonardo.osnova.io/d6ddf038-00b3-51af-a5e1-4e18cc880d12/",
+          "publishedAt": "2026-08-19T05:30:11.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1787036835000",
           "title": "«2ГИС» начал рассчитывать рейтинг заведений на основе отзывов пользователей, чей визит подтверждён геопозицией или платежом",
           "summary": "Чтобы повысить достоверность оценок.",
           "url": "https://vc.ru/services/3084168-reiting-zavedenij-v-2gis-na-osnove-podtverzhdennyh-otzyvov?from=rss",
@@ -352,24 +365,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1787061240000",
-          "title": "Google к 2027 году перенесёт из Китая производство смартфонов Pixel, беспроводных наушников и «умных» часов — Nikkei",
-          "summary": "Выпускать устройства планируют в Индии и Вьетнаме.",
-          "url": "https://vc.ru/tech/3085223-google-perenosit-proizvodstvo-smartfonov-pixel?from=rss",
-          "image": "https://leonardo.osnova.io/3515e9a1-5e38-56fc-9916-591c4fb8d146/",
-          "publishedAt": "2026-08-18T13:54:00.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1787030260000",
-          "title": "День 1637: крупные банки в первой половине 2026 года нарастили выдачу автокредитов на 35-40%",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/money/3083998-krupnye-banki-uvelichili-vydachu-avtokreditov?from=rss",
-          "image": "https://leonardo.osnova.io/fc1dfa84-e821-51f6-97c1-aebc60313538/",
-          "publishedAt": "2026-08-18T05:17:40.000Z",
+          "id": "startups-4-1787071561000",
+          "title": "В мессенджере Max начали тестировать внутреннюю статистику каналов",
+          "summary": "Можно посмотреть динамику подписок и отписок, количество просмотров и другие данные.",
+          "url": "https://vc.ru/services/3085640-v-messendzhere-max-testiruyut-vnutrennyuyu-statistiku-kanalov?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3085640/1787120582/cover.jpg",
+          "publishedAt": "2026-08-18T16:46:01.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -448,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-19T00:32:38.735Z",
+      "lastFetchAt": "2026-08-19T06:23:05.445Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -588,7 +589,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-19T00:32:39.128Z",
+      "lastFetchAt": "2026-08-19T06:23:05.719Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -807,7 +808,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-19T00:32:41.454Z",
+      "lastFetchAt": "2026-08-19T06:23:07.520Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -877,7 +878,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-19T00:32:46.572Z",
+      "lastFetchAt": "2026-08-19T06:23:09.118Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -885,11 +886,35 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1787087552000",
+          "id": "entertainment-0-1787118239000",
+          "title": "Умер режиссер сериала «Шпион, выйди вон!» Джон Ирвин",
+          "summary": "В возрасте 86 лет умер британский режиссер Джон Ирвин, известный по мини-сериалу «Шпион, выйди вон!» (1979 года). Об этом сообщает Variety со ссылкой на продюсеров режиссера.",
+          "url": "https://www.kommersant.ru/doc/8892565",
+          "image": "https://iv.kommersant.ru/SocialPics/8892565_49_3185105_93936505",
+          "publishedAt": "2026-08-19T05:43:59.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1787116512000",
+          "title": "Композитор Studio Ghibli Дзё Хисаиси установил три мировых рекорда Гиннесса",
+          "summary": "Японский композитор и дирижер Дзё Хисаиси, известный своими партитурами к анимационным фильмам Studio Ghibli, попал в Книгу рекордов Гиннесса сразу с тремя мировыми достижениями. Об этом сообщает агентство Kyodo News.",
+          "url": "https://www.kommersant.ru/doc/8892544",
+          "image": "https://im2.kommersant.ru/SocialPics/8892544_49_0_1641836463",
+          "publishedAt": "2026-08-19T05:15:12.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1787087552000",
           "title": "Умер барабанщик ZZ Top Фрэнк Бирд",
           "summary": "Умер барабанщик американской рок-группы ZZ Top Фрэнк Бирд. Как сообщил его пресс-секретарь Боб Мерлис, 77-летний музыкант умер на своем ранчо в Техасе, в окружении семьи.",
           "url": "https://www.kommersant.ru/doc/8892444",
-          "image": "https://im2.kommersant.ru/SocialPics/8892444_49_0_647560300",
+          "image": "https://iv.kommersant.ru/SocialPics/8892444_49_0_647560300",
           "publishedAt": "2026-08-18T21:12:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -897,7 +922,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1787072588000",
+          "id": "entertainment-3-1787072588000",
           "title": "Deadline: «Амедиатека» стала сопродюсером сериала BBC «Министерство времени»",
           "summary": "Российская стриминговая платформа «Амедиатека» стала сопродюсером сериала «Министерство времени», который разрабатывают британская компания BBC и американская студия A24. Об этом сообщает Deadline со ссылкой на источники",
           "url": "https://www.kommersant.ru/doc/8892352",
@@ -909,7 +934,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1787070639000",
+          "id": "entertainment-4-1787070639000",
           "title": "Напротив течения // Пушкинский музей представил выставку Фабрицио Плесси",
           "summary": "В Пушкинском музее открылся проект «Вертикальные моря» одного из пионеров видео-арта, итальянца Фабрицио Плесси. В 2018 году музей показал большую выставку Плесси, но именно эта инсталляция в нее не входила. Масштабы нын",
           "url": "https://www.kommersant.ru/doc/8892311",
@@ -919,35 +944,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1787063466000",
-          "title": "Умерла актриса московского театра «Ромэн» Наталья Бизева",
-          "summary": "Актриса московского цыганского театра «Ромэн» Наталья Бизева умерла 16 августа на 82-м году жизни. Об этом сообщил ТАСС художественный руководитель театра Николай Сергиенко.",
-          "url": "https://www.kommersant.ru/doc/8892249",
-          "image": "https://im2.kommersant.ru/SocialPics/8892249_49_0_1538166058",
-          "publishedAt": "2026-08-18T14:31:06.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787062414000",
-          "title": "Смерть в вулканической лаже // На экраны выходит фильм «Жертва обстоятельств»",
-          "summary": "В кинотеатрах начинают показывать фильм Ромена Гавраса «Жертва обстоятельств» (Sacrifice). Михаилу Трофименкову не было скучно на просмотре этой безалаберной пустышки.",
-          "url": "https://www.kommersant.ru/doc/8892200",
-          "image": "https://iv.kommersant.ru/SocialPics/8892200_49_3184802_475584837",
-          "publishedAt": "2026-08-18T14:13:34.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-19T02:48:05.083Z",
+      "lastFetchAt": "2026-08-19T06:23:12.273Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -955,60 +956,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787107260000",
-          "title": "Оздоев о «Краснодаре»: «Командная игра, сбалансированность, хороший подбор футболистов. Будем бороться за чемпионство каждый год»",
-          "summary": "Полузащитник « Краснодара » Магомед Оздоев назвал сильные качества «быков». — Какое на вас впечатление производит «Краснодар»? За полтора месяца поняли, за счет чего ему в прошлом году удалось отобрать чемпионство у «Зен",
-          "url": "https://www.sports.ru/football/1117338916-ozdoev-o-krasnodare-komandnaya-igra-sbalansirovannost-xoroshij-podbor-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/891/6/share/bf6773_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-19T02:41:00.000Z",
+          "id": "sports-0-1787119800000",
+          "title": "Родри перешел в «Барсу», поражения ЦСКА и «Локомотива», «Динамо» идет в ЭСК, Мусиала снова потерял сознание, Израиль отозвал поддержку Инфантино и другие новости",
+          "summary": "1. ЦСКА проиграл «Акрону» в 2-м туре Фонбет Кубка России дома – 0:1. Аревало забил и получил красную, гол Кисляка на 85-й отменили из-за офсайда. «Локомотив» уступил «Ростову» (0:1), пропустив с пенальти на 94-й минуте. ",
+          "url": "https://www.sports.ru/football/1117338470-utrennij-dajdzhest.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/847/0/share/f759ab_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-19T06:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787106540000",
-          "title": "«Ювентус» и Артур обсуждают расторжение контракта по инициативе клуба. Последние 4 года хавбек был в арендах",
-          "summary": "«Ювентус» предложил хавбеку Артуру расторгнуть контракт по взаимному согласию. Соглашение 30-летнего бразильца с клубом рассчитано до июня 2027 года. Стороны уже обсуждают детали расторжения договора, сообщает инсайдер Ф",
-          "url": "https://www.sports.ru/football/1117338915-yuventus-i-artur-obsuzhdayut-rastorzhenie-kontrakta-po-inicziative-klu.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/891/5/share/cc4497_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-19T02:29:00.000Z",
+          "id": "sports-1-1787119740000",
+          "title": "Андреева уступает Костюк в личке перед четвертым кругом в Цинциннати",
+          "summary": "Мирра Андреева сыграет с Мартой Костюк в 1/8 финала турнира в Цинциннати. Их счет в личке 2:1 в пользу украинки (1:0 – на харде). Все матчи при этом состоялись в этом сезоне. Костюк выиграла 25 из 28 последних матчей. Вс",
+          "url": "https://www.sports.ru/tennis/1117338986-andreeva-ustupaet-kostyuk-v-lichke-pered-chetvertym-krugom-v-czinczinn.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/898/6/share/057406_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-19T06:09:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787105460000",
-          "title": "Корнеев о Батракове: «Из «Галатасарая» открыт переход в еще более именитые клубы. Турки умеют продавать»",
-          "summary": "Игорь Корнеев высказался о предстоящем переходе полузащитника «Локомотива» Алексея Батракова в «Галатасарай». «На 95% трансфер состоится. Это очень хороший трансфер. Из «Галатасарая» открыт переход в еще более именитые к",
-          "url": "https://www.sports.ru/football/1117338914-korneev-o-batrakove-iz-galatasaraya-otkryt-perexod-v-eshhe-bolee-imeni.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/891/4/share/962116_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-19T02:11:00.000Z",
+          "id": "sports-2-1787119320000",
+          "title": "Гауфф одержала 21-ю в сезоне победу на тысячниках. Больше только у Рыбакиной",
+          "summary": "Коко Гауфф победила Энн Ли в третьем круге в Цинциннати – 6:1, 7:6(3). Американка шестой раз в сезоне вышла в 1/8 финала на уровне WTA 1000. У нее 21 победа на тысячниках в 2026-м – больше только у Елены Рыбакиной (24). ",
+          "url": "https://www.sports.ru/tennis/1117338983-gauff-oderzhala-21-yu-v-sezone-pobedu-na-tysyachnikax-bolshe-tolko-u-r.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/898/3/share/b34b15_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-19T06:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787104740000",
-          "title": "«Кристал Пэлас» купил 19-летнего вингера «Реал Солт Лейк» и США U23 Гозо за 15 млн долларов",
-          "summary": "« Кристал Пэлас » объявил о переходе вингера « Реал Солт Лейк » Завьера Гозо. Лондонцы подписали с 19-летним игроком олимпийской сборной США U23 5-летний контракт. По данным BBC, «Пэлас» купил Гозо за 15 млн долларов. Фу",
-          "url": "https://www.sports.ru/football/1117338912-kristal-pelas-kupil-19-letnego-vingera-real-solt-lejk-i-ssha-u23-gozo-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/891/2/share/bf8481_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-19T01:59:00.000Z",
+          "id": "sports-3-1787118960000",
+          "title": "ЧЕ-2026. Девушки (U16). 1/4 финала. Турция встретится со Словенией, Сербия сыграет с Испанией и другие матчи",
+          "summary": "Победитель прошлого турнира Испания сыграет с Сербией, другой финалист Словения встретится с Турцией. Чемпионат Европы Питешти, Румыния Девушки (U16) 1/4 финала Турция – Словения 19 августа. 13:00 Франция – Германия 19 а",
+          "url": "https://www.sports.ru/basketball/1117338975-che-2025-devushki-u16-1-4-finala-turcziya-vstretitsya-so-sloveniej-ser.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/897/5/share/8a1660_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-19T05:56:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787103600000",
-          "title": "Альба про 1:0 с «Локо»: «Ростов» показал то же, что и в чемпионате. Главное, что на поле было то, что тренируем»",
-          "summary": "Тренер «Ростова» Джонатан Альба оценил победу над «Локомотивом» (1:0) в 2-м туре Фонбет Кубка России в Пути РПЛ. — Игры «Ростова» в Кубке обнадеживают. Это говорит о том, что ребята, которым вы дали шанс, оправдывают ваш",
-          "url": "https://www.sports.ru/football/1117338911-alba-pro-10-s-loko-rostov-pokazal-to-zhe-chto-i-v-chempionate-glavnoe-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/891/1/share/eff736_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-19T01:40:00.000Z",
+          "id": "sports-4-1787118900000",
+          "title": "«Спартак» сыграет в гостях с «Рубином» в 2-м туре Кубка России. Начало игры – в 18:30",
+          "summary": "«Спартак» сыграет в гостях с «Рубином» в матче 2-го тура Фонбет Кубка России в Пути РПЛ. Таблицы Кубка России Статистика Кубка России",
+          "url": "https://www.sports.ru/football/1117338982-spartak-sygraet-v-gostyax-s-rubinom-v-2-m-ture-kubka-rossii-nachalo-ig.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/898/2/share/c6c9f5_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-19T05:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1017,7 +1018,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-19T02:48:06.644Z",
+      "lastFetchAt": "2026-08-19T06:23:13.471Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1025,48 +1026,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787107535000",
-          "title": "Раскрыта роль российских роботов в зоне СВО",
+          "id": "politics-0-1787120323000",
+          "title": "Вероятность обильных дождей осенью в Москве оценили",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/raskryta-rol-rossiyskih-robotov-v-zone-svo/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/18/20260818182512906/pic_e17467107b7e7b8c0ccb8ad0430707ac.jpg",
-          "publishedAt": "2026-08-19T02:45:35.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/osen-msk/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/09/20260819090052780/pic_7085f755f897ff60b4333b4091000fca.jpg",
+          "publishedAt": "2026-08-19T06:18:43.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787107514000",
-          "title": "Тегеран счел терактом атаку Украины на иранское судно",
+          "id": "politics-1-1787120148000",
+          "title": "Внешность 73-летнего Пирса Броснана и его жены восхитила фанатов на фото папарацци",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/tegeran-schel-teraktom-ataku-ukrainy-na-iranskoe-sudno/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/05/20260819054442807/pic_6f0c0988665d95697663e252e2270be1.jpg",
-          "publishedAt": "2026-08-19T02:45:14.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/vneshnost-73-letnego-pirsa-brosnana-i-ego-zheny-voshitila-fanatov-na-foto-paparatstsi/",
+          "image": "https://icdn.lenta.ru/images/2026/08/18/16/20260818163200894/pic_8d23e8de58195e79216330bff15bce95.jpg",
+          "publishedAt": "2026-08-19T06:15:48.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787107372000",
-          "title": "В США заявили о разрушении Украины",
+          "id": "politics-2-1787120133000",
+          "title": "В США оценили последствия российских ударов по Одессе",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/v-ssha-zayavili-o-razrushenii-ukrainy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/05/20260819054129268/pic_ec82d355410de80b3ce5f58f52c4e88a.jpg",
-          "publishedAt": "2026-08-19T02:42:52.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/v-ssha-otsenili-posledstviya-rossiyskih-udarov-po-odesse/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/09/20260819090717556/pic_7dd6544a71d61dcf801830fd4711a0b4.jpg",
+          "publishedAt": "2026-08-19T06:15:33.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787106883000",
-          "title": "Военный эксперт рассказал о «машине апокалипсиса» ВСУ",
+          "id": "politics-3-1787120100000",
+          "title": "Россия ударила по порту под Одессой",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/19/voennyy-ekspert-rasskazal-o-mashine-apokalipsisa-vsu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/20/20260818202910703/pic_15550ca5e1d9b5a3a8a0f52e90e38215.jpg",
-          "publishedAt": "2026-08-19T02:34:43.000Z",
+          "url": "https://lenta.ru/news/2026/08/19/rossiyskie-voennye-porazili-rezervuary-s-goryuchim-dlya-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/09/20260819091719457/pic_ff7c3f4dbb2c4359882f8d5b7f1d59bb.jpg",
+          "publishedAt": "2026-08-19T06:15:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1787120086000",
+          "title": "«Меня оглушило, ребенок начал кричать». ВСУ атаковали российский город-миллионник в 1400 километрах от границы. Что известно?",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/19/long-menya-oglushilo-rebenok-nachal-krichat-vsu-atakovali-rossiyskiy-gorod-millionnik-v-1400-kilometrah-ot-granitsy-chto-izvestno/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/08/20260819084906956/pic_6a943df8bba870e7ece88544b79745e0.jpg",
+          "publishedAt": "2026-08-19T06:14:46.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
