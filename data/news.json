@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-20T04:24:47.516Z",
-  "lastRunAt": "2026-08-20T04:24:47.516Z",
+  "updatedAt": "2026-08-20T06:23:37.148Z",
+  "lastRunAt": "2026-08-20T06:23:37.148Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "education",
-    "realestate",
-    "travel"
-  ],
-  "skippedNow": [
     "it",
-    "ai",
-    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
-    "politics",
-    "law"
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-20T00:32:42.484Z",
+      "lastFetchAt": "2026-08-20T06:23:15.375Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -37,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1787180370000",
+          "id": "it-0-1787200221000",
+          "title": "ИИ-продакт — следующий уровень автономности или избыточная бюрократия?",
+          "summary": "Я построил автономную систему с ИИ-продактом и командой агентов-исполнителей, которая круглосуточно в несколько потоков закрывает задачи продуктового бэклога. Делюсь опытом, как я пришёл к такой схеме, что из этого получ",
+          "url": "https://habr.com/ru/articles/1072310/?utm_campaign=1072310&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/1e2/4d3/e5e/1e24d3e5e051f641ee593ab88009340e.jpg",
+          "publishedAt": "2026-08-20T04:30:21.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1787180370000",
           "title": "Мой опыт переноса интерпретатора «Эллочка» из DOS в Windows на Zig",
           "summary": "Две недели назад в комментариях к моей статье про скриптовый язык для Wiremock со мной связался автор языка «Эллочка» — Эрих Генрихович Гаузер, создавший этот интерпретатор ещё в 1999 году для DOS. Мне стало дико интерес",
           "url": "https://habr.com/ru/articles/1072306/?utm_campaign=1072306&utm_source=habrahabr&utm_medium=rss",
@@ -49,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1787172065000",
+          "id": "it-2-1787172065000",
           "title": "По заветам Макконнела",
           "summary": "Если вы начинающий программист и у Вас нет машины, то лучшее решение - машина Тьюринга (МТ)! Я в этом вам помогу, а еще Макконнел. Но и не только он один. Первая моя статья на Хабре о машинах Тьюринга это про тяжелый гру",
           "url": "https://habr.com/ru/articles/1072292/?utm_campaign=1072292&utm_source=habrahabr&utm_medium=rss",
@@ -61,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1787160567000",
+          "id": "it-3-1787160567000",
           "title": "Go 1.27: generic-методы, которых не видит reflect",
           "summary": "Go 1.27 (на момент написания rc3, финал обещают в августе) приносит generic-методы: метод наконец может объявить собственный тип-параметр. Взял golang:1.27rc3 в Docker и проверил, где у фичи границы. reflect новый метод ",
           "url": "https://habr.com/ru/articles/1072194/?utm_campaign=1072194&utm_source=habrahabr&utm_medium=rss",
@@ -73,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1787160024000",
+          "id": "it-4-1787160024000",
           "title": "Опухший C++ код",
           "summary": "Есть такая старая программистская байка, что нельзя платить программистам за строки кода, так как тогда они будут писать длинный бестолковый код и любить метод copy-paste. Будущее наступило. Только теперь этими “программ",
           "url": "https://habr.com/ru/companies/pvs-studio/articles/1072264/?utm_campaign=1072264&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/c40/88c/058/c4088c058f6d7df9f2c4a3d1302181b9.png",
           "publishedAt": "2026-08-19T17:20:24.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787158719000",
-          "title": "Ананкастное расстройство личности — проклятье и сила программиста",
-          "summary": "У каждого есть навык или черта, которые его выделяют среди других, определяют многое в его поведении и в том числе то почему он занимается тем делом, которым занимается. Есть подтип программистов, которым присуща педанти",
-          "url": "https://habr.com/ru/articles/1072088/?utm_campaign=1072088&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c49/0a5/626/c490a5626e3dfeb724b8e665eeb0f068.jpg",
-          "publishedAt": "2026-08-19T16:58:39.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -239,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-20T02:46:48.407Z",
+      "lastFetchAt": "2026-08-20T06:23:16.889Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -247,7 +247,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1787175536000",
+          "id": "business-0-1787175596000",
+          "title": "Правительство разработает программу восстановления пострадавших от атак складов",
+          "summary": "Она, скорее всего, будет включать льготные кредиты и компенсацию затрат на ремонт и строительство новых объектов",
+          "url": "https://www.vedomosti.ru/business/articles/2026/08/20/1222385-pravitelstvo-razrabotaet-programmu-vosstanovleniya-postradavshih-ot-atak-skladov",
+          "image": "https://cdn.vdmsti.ru/image/2026/6f/1cfong/normal-1qru.jpg",
+          "publishedAt": "2026-08-19T21:39:56.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1787175536000",
           "title": "Экспорт угля из России в январе– июле вырос на 7%",
           "summary": "Увеличению поставок способствуют улучшение ценовой конъюнктуры и высокий спрос в Индии и ЮВА",
           "url": "https://www.vedomosti.ru/business/articles/2026/08/20/1222381-eksport-uglya-iz-rossii-viros",
@@ -259,7 +271,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1787170616000",
+          "id": "business-2-1787170616000",
           "title": "АЭС «Пакш» может возобновить работу на полную мощность на следующей неделе",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/19/1222389-aes-paksh",
@@ -271,7 +283,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1787161186000",
+          "id": "business-3-1787161186000",
           "title": "Минздрав одобрил новый препарат «Арейма» для лечения рака груди",
           "summary": "",
           "url": "https://www.vedomosti.ru/society/news/2026/08/19/1222356-preparat-areima",
@@ -283,7 +295,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1787157698000",
+          "id": "business-4-1787157698000",
           "title": "ФАС обязала ГАП «Ресурс» вывести на биржу 10% продукции",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/19/1222347-gap-resurs",
@@ -293,23 +305,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1787156270000",
-          "title": "Бензин в России подорожал на 0,5% за неделю",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/08/19/1222343-benzin-podorozhal",
-          "image": "https://cdn.vdmsti.ru/image/2026/6f/14tcqd/normal-1gwc.png",
-          "publishedAt": "2026-08-19T16:17:50.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-20T00:32:48.475Z",
+      "lastFetchAt": "2026-08-20T06:23:19.349Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -317,7 +317,19 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1787134157000",
+          "id": "startups-0-1787203248000",
+          "title": "День 1639: в июле 2026 года банки выдали физлицам рекордный с начала 2025-го объём кредитов наличными — 487,04 млрд рублей",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3088011-banki-vidali-rekordnyi-obem-kreditov-nalichnymi-fizlicam?from=rss",
+          "image": "https://leonardo.osnova.io/13c2e332-2459-5c82-9a15-6da5f8062f9a/",
+          "publishedAt": "2026-08-20T05:20:48.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1787134157000",
           "title": "«Продукты были сожжены и переписаны заново»: глава F6 — о перестройке компании и отличиях от F.A.C.C.T. и Group-IB",
           "summary": "Сейчас компания готовится и ждёт «удобного окна» для выхода на биржу. Выжимка материала РБК.",
           "url": "https://vc.ru/services/3086530-perestroika-kompanii-f6-otlichiya-ot-facc-t-i-group-ib?from=rss",
@@ -329,7 +341,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1787150441000",
+          "id": "startups-2-1787140629000",
+          "title": "В ЦБ заявили о готовности всех крупных банков к запуску цифрового рубля с 1 сентября 2026 года, россияне смогут открыть кошельки в их приложениях",
+          "summary": "Регулятор введёт лимит на пополнение кошельков, операции для граждан будут бесплатные.",
+          "url": "https://vc.ru/money/3086911-tsifrovoy-rubl-v-rossii-banki-gotovy-k-zapusku?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3086911/1787206999/cover.jpg",
+          "publishedAt": "2026-08-19T11:57:09.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1787150441000",
           "title": "Кликнуть мышкой, чтобы босс встал на колени: работники в Китае начали делать «ИИ-питомцев» для рабочего стола по фотографиям начальников",
           "summary": "Они помогают «выплеснуть негатив», рассказывают в соцсетях.",
           "url": "https://vc.ru/social/3086847-rabota-s-ii-pitomtsami-na-rabochem-stole?from=rss",
@@ -341,36 +365,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1787140629000",
-          "title": "В ЦБ заявили о готовности всех крупных банков к запуску цифрового рубля с 1 сентября 2026 года, россияне смогут открыть кошельки в их приложениях",
-          "summary": "Регулятор введёт лимит на пополнение кошельков, операции для граждан будут бесплатные.",
-          "url": "https://vc.ru/money/3086911-tsifrovoy-rubl-v-rossii-banki-gotovy-k-zapusku?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3086911/1787185968/cover.jpg",
-          "publishedAt": "2026-08-19T11:57:09.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1787128013000",
+          "id": "startups-4-1787128013000",
           "title": "Общественники попросили Минэкономразвития обязать китайский туристический сервис Trip.com локализоваться в России — сейчас к нему невозможно подать претензии из-за отсутствия представительства в стране",
           "summary": "Просьбу обосновывают большим количеством жалоб от пользователей.",
           "url": "https://vc.ru/legal/3086395-obshchestvenniki-trebuet-ot-tripcom-lokalizatsii-v-rossii?from=rss",
           "image": "https://leonardo.osnova.io/47c3570e-5d79-5659-926c-459d61d25ea4/",
           "publishedAt": "2026-08-19T08:26:53.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1787135366000",
-          "title": "Венчурный фонд Николая Сторонского с системой ИИ-оценки стартапов собрал $500 млн",
-          "summary": "В рамках первого раунда в 2025 году QuantumLight привлёк $250 млн.",
-          "url": "https://vc.ru/money/3086634-venchurnyi-fond-quantumlight-storonskogo?from=rss",
-          "image": "https://leonardo.osnova.io/530d2163-3047-59bb-9032-5c27a3357419/",
-          "publishedAt": "2026-08-19T10:29:26.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -449,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-20T00:32:52.390Z",
+      "lastFetchAt": "2026-08-20T06:23:23.644Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -457,60 +457,60 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1786782725000",
-          "title": "Пациентка пожаловалась на высказывания нейрохирурга в московской больнице",
-          "summary": "В Москве пациентка пожаловалась на нейрохирурга ГКБ № 15 имени О. М. Филатова Ивана Димитрова. По ее словам, врач допустил оскорбительные и циничные высказывания во время обращения в больницу. Как сообщает «Кровавая бары",
-          "url": "https://medrussia.org/63373-patsientka-pozhalovalas-na-vyskazyvaniya-neyrohirurga-v-moskovskoy-bolnitse/",
+          "id": "medicine-0-1787206562000",
+          "title": "Суд обязал больницу в Белгородской области восстановить заведующую отделением",
+          "summary": "В Алексеевке Белгородской области суд признал незаконным приказ о прекращении исполнения обязанностей заведующего отделением и обязал медучреждение восстановить врача в должности. После этого судебные приставы предупреди",
+          "url": "https://medrussia.org/63387-sud-obyazal-bolnicu-v-belgorodskoj-oblasti-vosstanovit-zaveduyushchuyu-otdeleniem/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/call_gfbkr4zhhv8trodpaocdrbwy.jpg",
+          "publishedAt": "2026-08-20T06:16:02.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1787204779000",
+          "title": "В Ростове задержали психиатра по делу о взятках у пациентов",
+          "summary": "Сотрудники УФСБ по Ростовской области задержали 43-летнюю Наталью Клименко, врача ГБУ РО «Психиатрическая больница». Её подозревают в систематическом получении взяток от пациентов за содействие в оформлении медицинских д",
+          "url": "https://medrussia.org/63385-v-rostove-zaderzhali-psihiatra-po-delu-o-vzyatkah-u-pacientov/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/call_9avsh05fim2uqwyjewgfjahz.jpg",
+          "publishedAt": "2026-08-20T05:46:19.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-2-1787203029000",
+          "title": "НАУЗ потребовала убрать выпуск «Нового Ревизорро» после сюжета о стоматологической клинике",
+          "summary": "Национальная ассоциация управленцев сферы здравоохранения (НАУЗ) потребовала от телеканала «Пятница!» удалить из эфира и с цифровых площадок выпуск программы «Новый Ревизорро», посвящённый стоматологической клинике «Спас",
+          "url": "https://medrussia.org/63383-nauz-potrebovala-ubrat-vypusk-novogo-revizorro-posle-syuzheta-o-stomatologicheskoy-klinike/",
           "image": "https://medrussia.org/wp-content/uploads/2026/08/featured-illustration.jpg",
-          "publishedAt": "2026-08-15T08:32:05.000Z",
+          "publishedAt": "2026-08-20T05:17:09.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1786724081000",
-          "title": "В Подмосковье врачи 41 день лечили пациентку после отравления листьями ревеня",
-          "summary": "В Пушкинской клинической больнице имени профессора В. Н. Розанова врачи 41 день лечили пациентку, которая впала в кому после употребления компота из листьев ревеня. После стабилизации её перевели в терапевтическое отделе",
-          "url": "https://medrussia.org/63369-v-podmoskove-vrachi-41-den-lechili-pacientku-posle-otravleniya-listyami-revenya/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/mediamedics-15396.jpg",
-          "publishedAt": "2026-08-14T16:14:41.000Z",
+          "id": "medicine-3-1787201198000",
+          "title": "Книга Игоря Артюхова «Психотомия» появилась в предзаказе на Ozon",
+          "summary": "Книга «Психотомия» главного редактора «Медицинской России» Игоря Артюхова появилась в предзаказе на Ozon. Ее выпускает АСТ; ранее она уже была доступна на «Буквоеде» и «Читай-городе». О чем книга В сообщении «Психотомию»",
+          "url": "https://medrussia.org/63381-kniga-igorya-artyukhova-psihotomiya-poyavilas-v-predzakaze-na-ozon/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/mediamedics-15401.jpg",
+          "publishedAt": "2026-08-20T04:46:38.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1786720510000",
-          "title": "Главврача на Чукотке будут судить по делу о выплатах за четыре должности",
-          "summary": "Прокуратура Чукотского автономного округа утвердила обвинительное заключение в отношении руководителя районной больницы. Уголовное дело направлено в суд. Обвинение связано с четырьмя должностями По версии следствия, руко",
-          "url": "https://medrussia.org/63367-glavvracha-na-chukotke-budut-sudit-po-delu-o-vyplatah-za-chetyre-dolzhnosti/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/featured-illustration.jpg",
-          "publishedAt": "2026-08-14T15:15:10.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-3-1786712367000",
-          "title": "В Москве будут судить стоматологов по делу о мошенничестве с ОМС на 97 млн рублей",
-          "summary": "Уголовное дело о мошенничестве при оплате стоматологических услуг по ОМС направили в суд Москвы. По данным следствия, ущерб по делу превысил 97 млн рублей. В чём обвиняют фигурантов Обвиняемыми по делу проходят четыре че",
-          "url": "https://medrussia.org/63365-v-moskve-budut-sudit-stomatologov-po-delu-o-moshennichestve-s-oms/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/1309471937-15393-featured.jpg",
-          "publishedAt": "2026-08-14T12:59:27.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1786705886000",
-          "title": "Московские врачи удалили 49 миом, сохранив возможность беременности",
-          "summary": "В Юсуповской больнице в Москве пациентке с множественной миомой матки удалили 49 миоматозных узлов. В учреждении сообщили, что операция позволила сохранить матку и возможность беременности. Органосохраняющее вмешательств",
-          "url": "https://medrussia.org/63363-moskovskie-vrachi-udalili-49-miom-sohraniv-vozmozhnost-beremennosti/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/08/mediamedics-15388.jpg",
-          "publishedAt": "2026-08-14T11:11:26.000Z",
+          "id": "medicine-4-1787199297000",
+          "title": "Крупные медвузы и федеральные центры недобрали сотни мест в ординатуре",
+          "summary": "Крупные медицинские вузы и федеральные центры недобрали сотни мест в ординатуре. Чтобы закрыть вакансии, приёмную кампанию продлили до конца августа. По данным портала Ordinatura.org, в Москве свободны 198 мест в Сеченов",
+          "url": "https://medrussia.org/63379-krupnye-medvuzy-i-federalnye-tsentry-nedobrali-sotni-mest-v-ordinature/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/08/call_artcuzqpirywgsny7myhaio7.jpg",
+          "publishedAt": "2026-08-20T04:14:57.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -589,7 +589,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-20T00:32:54.297Z",
+      "lastFetchAt": "2026-08-20T06:23:24.373Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -808,7 +808,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-20T00:33:11.865Z",
+      "lastFetchAt": "2026-08-20T06:23:26.822Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -878,7 +878,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-20T00:33:13.634Z",
+      "lastFetchAt": "2026-08-20T06:23:33.386Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -886,7 +886,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1787148552000",
+          "id": "entertainment-0-1787203788000",
+          "title": "ABC: наркополиция США ведет расследование смерти актрисы Хайден Панеттьери",
+          "summary": "К расследованию смерти американской актрисы Хайден Панеттьери присоединилось Управление по борьбе с наркотиками США, сообщает ABC News со ссылкой на источники. При этом ведущим следственным органом остался департамент по",
+          "url": "https://www.kommersant.ru/doc/8893400",
+          "image": "https://im2.kommersant.ru/SocialPics/8893400_49_0_860898405",
+          "publishedAt": "2026-08-20T05:29:48.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1787148552000",
           "title": "Блюз 200 // В прокат выходит фильм «Мотор сити»",
           "summary": "В российских кинотеатрах начинают показывать виртуозный, как цирковой фокус, неонуар Потси Пончиролли «Мотор Сити» (Motor City). Михаила Трофименкова он затянул как своего рода черная кинодыра в жанровой вселенной.",
           "url": "https://www.kommersant.ru/doc/8893037",
@@ -898,7 +910,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1787145435000",
+          "id": "entertainment-2-1787145435000",
           "title": "Умерла режиссер кукольных мультфильмов про муми-троллей и Незнайку Нина Шорина",
           "summary": "Советская и российская актриса, режиссер и сценарист Нина Шорина умерла на 84-м году жизни. Об этом сообщил шеф-редактор киностудии «Союзмультфильм» Сергей Капков в Facebook (принадлежит Meta, признанной экстремистской и",
           "url": "https://www.kommersant.ru/doc/8893018",
@@ -910,11 +922,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1787139124000",
+          "id": "entertainment-3-1787139124000",
           "title": "Цыганка не прогадала // Теодор Курентзис представил в Зальцбурге новую «Кармен»",
           "summary": "На Зальцбургском фестивале идут показы «Кармен» Жоржа Бизе. Один из вечнозеленых оперных шлягеров, в Зальцбурге при этом исполняющийся редко, в этом году поставили хореограф Габриэла Карризо (соосновательница знаменитой ",
           "url": "https://www.kommersant.ru/doc/8892879",
-          "image": "https://iv.kommersant.ru/SocialPics/8892879_49_3185428_991382172",
+          "image": "https://im2.kommersant.ru/SocialPics/8892879_49_3185428_991382172",
           "publishedAt": "2026-08-19T11:32:04.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -922,24 +934,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1787118239000",
+          "id": "entertainment-4-1787118239000",
           "title": "Умер режиссер сериала «Шпион, выйди вон!» Джон Ирвин",
           "summary": "В возрасте 86 лет умер британский режиссер Джон Ирвин, известный по мини-сериалу «Шпион, выйди вон!» (1979 года). Об этом сообщает Variety со ссылкой на продюсеров режиссера.",
           "url": "https://www.kommersant.ru/doc/8892565",
-          "image": "https://im2.kommersant.ru/SocialPics/8892565_49_3185105_93936505",
+          "image": "https://iv.kommersant.ru/SocialPics/8892565_49_3185105_93936505",
           "publishedAt": "2026-08-19T05:43:59.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787116512000",
-          "title": "Композитор Studio Ghibli Дзё Хисаиси установил три мировых рекорда Гиннесса",
-          "summary": "Японский композитор и дирижер Дзё Хисаиси, написавший музыку к анимационным фильмам Studio Ghibli, попал в Книгу рекордов Гиннесса сразу с тремя мировыми достижениями. Об этом сообщает агентство Kyodo News.",
-          "url": "https://www.kommersant.ru/doc/8892544",
-          "image": "https://im2.kommersant.ru/SocialPics/8892544_49_0_1641836463",
-          "publishedAt": "2026-08-19T05:15:12.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -948,7 +948,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-20T02:46:51.186Z",
+      "lastFetchAt": "2026-08-20T06:23:35.551Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -956,60 +956,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787193300000",
-          "title": "МЛС. «Интер Майами» Месси сыграл 2:2 с «Филадельфией» в гостях, «Канзас Сити» Шапи поделил очки с «Сент-Луисом», «Атланта» Миранчука обыграла «Миннесоту»",
-          "summary": "В регулярном чемпионате МЛС в ночь на четверг « Интер Майами » Лионеля Месси сыграл вничью с «Филадельфией» (2:2) в гостях, «Канзас Сити» Магомеда-Шапи Сулейманова поделил очки с «Сент-Луисом» (1:1), « Атланта » Алексея ",
-          "url": "https://www.sports.ru/football/1117339025-mls-inter-majami-messi-v-gostyax-u-filadelfii-kanzas-siti-shapi-primet.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/902/5/share/e2643a_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-20T02:35:00.000Z",
+          "id": "sports-0-1787206200000",
+          "title": "Поражение «Спартака», победы «Зенита» и «Краснодара», Мирра проиграла Костюк, серебро Духно, «Монако» и Погба расторгли контракт, положительный тест Кириоса и другие новости",
+          "summary": "1. «Спартак» по пенальти проиграл «Рубину» в гостях в 2-м туре Фонбет Кубка России – 3:5. В послематчевой серии Нигматуллин перевел удар Умярова в штангу. «Краснодар» обыграл «Динамо» (1:0), Мукаилов забил на 44-й минуте",
+          "url": "https://www.sports.ru/football/1117339554-utrennij-dajdzhest.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/733/955/4/share/d36013_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-20T06:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787192520000",
-          "title": "«Тюкавину надо перестать думать о переходах и начать забивать. У «Зенита» и так хватает игроков». Погребняк о форварде «Динамо»",
-          "summary": "Бывший нападающий « Зенита » Павел Погребняк высказался по поводу форварда « Динамо » Константина Тюкавина . В этом сезоне футболист ни разу не забил в 4 матчах Альфа-Банк РПЛ . «Количество нападающих в «Зените» не безгр",
-          "url": "https://www.sports.ru/football/1117340087-tyukavinu-nado-perestat-dumat-o-perexodax-i-nachat-zabivat-u-zenita-i-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/008/7/share/ba4741_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-20T02:22:00.000Z",
+          "id": "sports-1-1787206020000",
+          "title": "Лука Гарза о Маззулле: «Один из тех тренеров, за которыми ты готов идти в огонь и в воду»",
+          "summary": "Центровой «Селтикс» Лука Гарза рассказал о своей преданности главному тренеру Джо Маззулле , который прилетел в его баскетбольный лагерь в Индианаполисе. Гарзу спросили о недавнем видео с участием Маззуллы, который заним",
+          "url": "https://www.sports.ru/basketball/1117340177-luka-garza-o-mazzulle-odin-iz-tex-trenerov-za-kotorymi-ty-gotov-idti-v.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/017/7/share/bcff07_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-20T06:07:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787191800000",
-          "title": "Керимов считает, что «Зенит» был бы в топ-3 чемпионата Турции: «Не думаю, что «Трабзонспор» сильнее. «Галатасарай» посильнее. В лиге мало игрового времени, много пауз»",
-          "summary": "Комментатор Эльвин Керимов поделился мыслями о вероятном трансфере полузащитника « Локомотива » Алексея Батракова в «Галатасарай». – «Галатасарай» заплатит за Батракова 25+4 миллионов евро. Не слишком ли дорогой для туро",
-          "url": "https://www.sports.ru/football/1117340086-kerimov-schitaet-chto-zenit-byl-by-v-top-3-chempionata-turczii-ne-duma.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/008/6/share/b8d9ce_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-20T02:10:00.000Z",
+          "id": "sports-2-1787205540000",
+          "title": "Марко Симонович и Артурс Страутиньш присоединились к «Риму»",
+          "summary": "Итальянский проект Луки Дончича – «Рим» – пополнился защитником Артурсом Страутиньшем (27 лет, 198 см) и бигменом Марко Симоновичем (26 лет, 211 см). Страутиньш в прошедшем сезоне выступал за «Дертону» и набирал 10,8 очк",
+          "url": "https://www.sports.ru/basketball/1117340171-marko-simonovich-i-arturs-strautinsh-prisoedinilis-k-rimu.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/017/1/share/6a5b4a_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-20T05:59:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787190960000",
-          "title": "«Интер Майами» Месси не выигрывает 4 матча подряд – 1 ничья и 3 поражения. Команда идет 2-й в таблице Восточной конференции",
-          "summary": "« Интер Майами » сыграл вничью с « Филадельфия Юнион » (2:2) на выезде в матче регулярного чемпионата МЛС. Таким образом, у команды тренера Гильермо Ойоса до четырех игр продлилась серия без побед. До этого клуб из Флори",
-          "url": "https://www.sports.ru/football/1117340084-inter-majami-messi-ne-vyigryvaet-4-matcha-podryad-1-nichya-i-3-porazhe.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/008/4/share/02205d_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-20T01:56:00.000Z",
+          "id": "sports-3-1787205300000",
+          "title": "Джош Харт о беспокойстве фаната: «Я просто не люблю выкладывать эти фотографии, но сам-то уже в зале»",
+          "summary": "Защитник «Никс» Джош Харт успокоил болельщика, который опасался, что он расслабился после победы в чемпионате. В сети появились фотографии и видео с тренировки обновленных «Сиксерс» с участием Леброна Джеймса, Джейлена Б",
+          "url": "https://www.sports.ru/basketball/1117340170-dzhosh-xart-o-bespokojstve-fanatov-ya-prosto-ne-lyublyu-vykladyvat-eti.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/017/0/share/ac9174_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-20T05:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787190000000",
-          "title": "Гран-при среди юниоров. Фефелова и Валов, Кэлхун и Желтышев, Хомик и Бюлоу, Инь и Янг выступят с ритм-танцами",
-          "summary": "20 августа на этапе Гран-при среди юниоров в Сиане танцевальные дуэты представят ритм-танцы. Россияне Мария Фефелова и Артем Валов выступят во второй разминке. Гран-при среди юниоров 1-й этап Сиань, Китай Танцы на льду Р",
-          "url": "https://www.sports.ru/figure-skating/1117339046-gran-pri-sredi-yuniorov-fefelova-i-valov-vystupyat-s-ritm-tanczem.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/733/904/6/share/562459_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-20T01:40:00.000Z",
+          "id": "sports-4-1787205300000",
+          "title": "Лига Европы. Раунд плей-офф. «Кайрат» примет «Андерлехт», «Трабзонспор» против «Ференцвароша», «Бешикташ» сыграет с «Жальгирисом», «Бенфика» – с «Орхусом»",
+          "summary": "« Кайрат » сыграет с « Андерлехтом » в первом матче квалификационного раунда плей-офф Лиги Европы . « Трабзонспор » примет « Ференцварош », « Бешикташ » встретится с « Жальгирисом », « Бенфика » примет « Орхус ». Лига Ев",
+          "url": "https://www.sports.ru/football/1117340164-liga-evropy-raund-plej-off-kajrat-anderlext-trabzonspor-ferenczvarosh.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/016/4/share/144066_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-20T05:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1018,7 +1018,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-20T02:46:52.871Z",
+      "lastFetchAt": "2026-08-20T06:23:37.145Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1026,60 +1026,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787193660000",
-          "title": "Польша экстренно подняла в воздух военную авиацию из-за России",
+          "id": "politics-0-1787206818000",
+          "title": "Бывший футболист сборной России удивился зарплатам сотрудников силовых ведомств",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/polsha-ekstrenno-podnyala-v-vozduh-voennuyu-aviatsiyu-iz-za-rossii/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/05/20260820054139449/pic_274f60f9b601f97c10eb277b255bcec0.jpg",
-          "publishedAt": "2026-08-20T02:41:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/20/byvshiy-futbolist-sbornoy-rossii-udivilsya-zarplatam-sotrudnikov-silovyh-vedomstv/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/09/20260820091650154/pic_af67a64ce041f1599e2f89a4b419dc24.jpg",
+          "publishedAt": "2026-08-20T06:20:18.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787193027000",
-          "title": "Названы главные тренды осени 2026 года",
+          "id": "politics-1-1787206443000",
+          "title": "Россияне взяли рекордный объем кредитов наличными",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/nazvany-glavnye-trendy-oseni-2026-goda/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/18/20260819182501339/pic_6eebb98604bcd6ca73d192851441a441.jpg",
-          "publishedAt": "2026-08-20T02:30:27.000Z",
+          "url": "https://lenta.ru/news/2026/08/20/rossiyane-vzyali-rekordnyy-ob-em-kreditov-nalichnymi/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/09/20260820090407279/pic_0fc1c32489a27ae9384a708d043119e1.jpg",
+          "publishedAt": "2026-08-20T06:14:03.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787193025000",
-          "title": "Россиянка описала несколько мест в Стамбуле словами «местные обходят стороной»",
+          "id": "politics-2-1787205997000",
+          "title": "Принц Гарри положил конец вражде с королем и вернется в Великобританию навсегда",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/rossiyanka-opisala-neskolko-mest-v-stambule-slovami-mestnye-obhodyat-storonoy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/15/20260819150646992/pic_5591e6180a6df0098e89bedff05534b8.jpg",
-          "publishedAt": "2026-08-20T02:30:25.000Z",
+          "url": "https://lenta.ru/news/2026/08/20/prints-garri-polozhil-konets-vrazhde-s-korolem-i-vernetsya-v-velikobritaniyu-navsegda/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/08/20260820085922408/pic_0ccd79c6323c602570300a3858f920fd.jpg",
+          "publishedAt": "2026-08-20T06:06:37.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787193024000",
-          "title": "В США назвали приближающее поражение Украины решение",
+          "id": "politics-3-1787205994000",
+          "title": "Живущий в Европе комик-иноагент рассказал о доводящей до слез особенности эмиграции",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/v-ssha-nazvali-priblizhayuschee-porazhenie-ukrainy-reshenie/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/05/20260820053141879/pic_a74fb61a76a93451bf7b88657abc35db.jpg",
-          "publishedAt": "2026-08-20T02:30:24.000Z",
+          "url": "https://lenta.ru/news/2026/08/20/komik-inoagent-rasskazal-o-dovodyaschey-do-slez-osobennosti-emigratsii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/19/10/20260819100535838/pic_e9f673eea6f0046454e3c2c45bc10d81.jpg",
+          "publishedAt": "2026-08-20T06:06:34.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787193024000",
-          "title": "В России предложили пересмотреть запрет на съемку гражданских объектов после атак",
+          "id": "politics-4-1787205965000",
+          "title": "Массированную атаку БПЛА отразили в расположенном в 1200 километрах от Украины городе",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/v-rossii-predlozhili-peresmotret-zapret-na-s-emku-grazhdanskih-ob-ektov-posle-atak/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-20T02:30:24.000Z",
+          "url": "https://lenta.ru/news/2026/08/20/massirovannuyu-ataku-bpla-otrazili-v-raspolozhennom-v-1200/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/09/20260820090150210/pic_130ebc147a655c0e43583b5d9032d379.jpg",
+          "publishedAt": "2026-08-20T06:06:05.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
