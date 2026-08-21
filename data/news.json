@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-08-21T04:27:18.450Z",
-  "lastRunAt": "2026-08-21T04:27:18.450Z",
+  "updatedAt": "2026-08-21T06:24:32.801Z",
+  "lastRunAt": "2026-08-21T06:24:32.801Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "law"
-  ],
-  "skippedNow": [
     "it",
     "business",
     "startups",
@@ -21,15 +11,25 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-21T00:34:44.999Z",
+      "lastFetchAt": "2026-08-21T06:24:05.924Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -37,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1787250226000",
+          "id": "it-0-1787279437000",
+          "title": "Мой опыт с Hermes Agent — ненависть, любовь, ненависть, любовь",
+          "summary": "Началось все с установки. Я пошёл почти по самому простому пути - установил его на Mac, в Docker. Потому что это агент, который работает автономно и так же автономно может сделать атата: выполнить rm -rf или выбраться из",
+          "url": "https://habr.com/ru/articles/1072770/?utm_campaign=1072770&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fcb/e7d/81c/fcbe7d81cf6711120c5f1217d30d2d2f.png",
+          "publishedAt": "2026-08-21T02:30:37.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1787250226000",
           "title": "Почему O(1) проигрывает O(n): структуры данных в Go на реальном железе",
           "summary": "Объясню структуры данных через очередь в поликлинике, а потом покажу, где эта аналогия ломается: почему связный список с «вставкой за O(1)» в прикладном Go обычно проигрывает обычному массиву. Спойлер: асимптотика здесь ",
           "url": "https://habr.com/ru/articles/1072720/?utm_campaign=1072720&utm_source=habrahabr&utm_medium=rss",
@@ -49,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1787247604000",
+          "id": "it-2-1787247604000",
           "title": "Скрипт деплоя отчитался об успехе, а на сервере осталась старая версия: 5 ошибок в bash, которые допускают новички",
           "summary": "Зелёный пайплайн ещё не означает, что деплой прошёл как надо. В Bash хватает ситуаций, где ошибка теряется, код возврата маскируется, а скрипт спокойно идёт дальше. Разберём типичные ловушки и способы сделать такие сцена",
           "url": "https://habr.com/ru/companies/otus/articles/1068482/?utm_campaign=1068482&utm_source=habrahabr&utm_medium=rss",
@@ -61,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1787242565000",
+          "id": "it-3-1787242565000",
           "title": "Не крутил с агентом циклы — жизни не видал",
           "summary": "Привет, Хабр! Меня зовут Альберт, и я программист слоператор. Пятнадцать лет почти без единой строчки кода — а прошлой осенью сорвался, и похоже, что на этот раз серьёзно. Внутри: агентский цикл на пальцах и в пяти строк",
           "url": "https://habr.com/ru/articles/1072668/?utm_campaign=1072668&utm_source=habrahabr&utm_medium=rss",
@@ -73,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1787234458000",
+          "id": "it-4-1787234458000",
           "title": "[Перевод] Что находится внутри файла PowerPoint?",
           "summary": "Переименуйте любой .pptx в .zip, распакуйте – и увидите ZIP-архив, набитый XML-файлами. Внутри спрятана вся ваша презентация: слайды, темы, встроенные таблицы Excel, картинки. Разбираемся, как этот формат устроен на само",
           "url": "https://habr.com/ru/companies/cloud4y/articles/1072624/?utm_campaign=1072624&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/ad2/15e/f5c/ad215ef5c4f6651a18024d2f73c0b3d9.png",
           "publishedAt": "2026-08-20T14:00:58.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787230830000",
-          "title": "Самое интересное в новой версии Go — 1.27",
-          "summary": "Всем привет! Меня зовут Паша Агалецкий, я техлид команды платформы разработки Авито. В этой статье я расскажу о новой версии Go — 1.27. Я выбрал для вас самые интересные фичи — те, что влияют на код или дают новые по-нас",
-          "url": "https://habr.com/ru/companies/avito/articles/1072472/?utm_campaign=1072472&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/036/001/403/03600140365237f9edc16d72ec8d561c.jpg",
-          "publishedAt": "2026-08-20T13:00:30.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -239,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-21T02:53:30.880Z",
+      "lastFetchAt": "2026-08-21T06:24:06.730Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -309,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-21T00:34:47.831Z",
+      "lastFetchAt": "2026-08-21T06:24:08.723Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -449,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-21T00:34:49.981Z",
+      "lastFetchAt": "2026-08-21T06:24:11.382Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -565,7 +565,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-21T00:34:50.570Z",
+      "lastFetchAt": "2026-08-21T06:24:12.303Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -784,7 +784,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-21T00:34:52.946Z",
+      "lastFetchAt": "2026-08-21T06:24:14.968Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -854,7 +854,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-21T00:34:57.560Z",
+      "lastFetchAt": "2026-08-21T06:24:18.881Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -878,7 +878,7 @@
           "title": "Умер создатель «Лепры» Йован Савович",
           "summary": "Создатель коллективных блогов «Лепрозорий» («Лепра») и dirty.ru, веб-дизайнер Йован Савович скончался в возрасте 43 лет. Об этом сообщили его близкие.",
           "url": "https://www.kommersant.ru/doc/8894117",
-          "image": "https://im2.kommersant.ru/SocialPics/8894117_49_3186690_710133322",
+          "image": "https://iv.kommersant.ru/SocialPics/8894117_49_3186690_710133322",
           "publishedAt": "2026-08-20T18:38:37.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -924,7 +924,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-21T02:53:33.914Z",
+      "lastFetchAt": "2026-08-21T06:24:31.235Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -932,60 +932,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787280300000",
-          "title": "Президент «Галатасарая»: «Верим, что Батраков внесет большой вклад в наши успехи, особенно в Лиге чемпионов, и будет служить клубу долгие годы»",
-          "summary": "Президент « Галатасарая » Дурсун Озбек высказался о переходе хавбека «Локомотива» Алексея Батракова в стамбульский клуб. «С сегодняшнего дня Алексей продолжит карьеру в футболке «Галатасарая». Верим, что он укрепит «Гала",
-          "url": "https://www.sports.ru/football/1117341190-prezident-galatasaraya-verim-chto-batrakov-vneset-bolshoj-vklad-v-nash.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/119/0/share/1094f1_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-21T02:45:00.000Z",
+          "id": "sports-0-1787293140000",
+          "title": "«Так и не услышал адекватного объяснения». Билл Симмонс назвал три вещи по ситуации Кавая Ленарда, которые вызывают наибольшие вопросы",
+          "summary": "Известный журналист Билл Симмонс поделился мнением о ситуации Кавая Ленарда . НБА заявила, что владелец « Клипперс » Стив Балмер не осуществлял скрытые выплаты форварду в обход потолка зарплат, но продолжает расследовани",
+          "url": "https://www.sports.ru/basketball/1117341280-tak-i-ne-uslyshal-adekvatnogo-obyasneniya-bill-simmons-nazval-tri-vesh.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/128/0/share/e28e4e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-21T06:19:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787279220000",
-          "title": "Фетисов о погоне Овечкина за рекордом Гретцки: «Сказал Саше: «Вторых обычно жалеют. Давай нацеливаться выше»",
-          "summary": "Вячеслав Фетисов рассказал, как убеждал форварда «Вашингтона» Александра Овечкина продолжить погоню за рекордом Уэйна Гретцки. Овечкин – лучший снайпер в истории регулярных чемпионатов НХЛ. С учетом плей-офф он забил 100",
-          "url": "https://www.sports.ru/hockey/1117341187-fetisov-o-pogone-ovechkina-za-rekordom-gretczki-skazal-sashe-vtoryx-ob.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/118/7/share/46ee74_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-21T02:27:00.000Z",
+          "id": "sports-1-1787293080000",
+          "title": "Келси Митчелл провела 21-ю игру подряд с 20+ очками – новый рекорд женской НБА",
+          "summary": "Звездная защитница « Индианы » Келси Митчелл установила рекорд женской НБА, проведя 21-й матч подряд с как минимум 20 набранными очками. Она повторила свой лучший показатель результативности сезона, набрав 37 очков, одна",
+          "url": "https://www.sports.ru/basketball/1117341271-kelsi-mitchell-provela-21-yu-igru-podryad-s-20-ochkami-novyj-rekord-zh.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/127/1/share/45a1eb_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-21T06:18:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787278260000",
-          "title": "Комтуа о переходе в «Спартак»: «Рад остаться в Москве. Даже не пришлось далеко переезжать  живу через дорогу, в том же районе»",
-          "summary": "Форвард Максим Комтуа рад, что после перехода из «Динамо» в «Спартак» остался жить в Москве. — Насколько для вас было важно остаться в Москве и не менять город? — Честно говоря, это не было каким‑то принципиальным момент",
-          "url": "https://www.sports.ru/hockey/1117341185-komtua-o-perexode-v-spartak-rad-ostatsya-v-moskve-dazhe-ne-prishlos-da.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/118/5/share/b638b2_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-21T02:11:00.000Z",
+          "id": "sports-2-1787293080000",
+          "title": "Фис третий раз в сезоне вышел в полуфинал «Мастерса»",
+          "summary": "Артур Фис вышел в полуфинал «Мастерса» в Цинциннати. Он обыграл Тиаго Тиранте со счетом 6:3, 6:2. Это его 30-я победа в сезоне и седьмая в восьми последних матчах. Фис вышел в третий полуфинал «Мастерса» в сезоне и карье",
+          "url": "https://www.sports.ru/tennis/1117341284-fis-tretij-raz-v-sezone-vyshel-v-polufinal-mastersa.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/128/4/share/75c38a_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-21T06:18:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787278200000",
-          "title": "Гран-при среди юниоров. Лазарев, Эбихара, Блэкуэлл, Яньхао Ли, Оказаки, Лонг, Бороховский представят короткие программы",
-          "summary": "21 августа на этапе Гран-при среди юниоров в Сиане юноши представят короткие программы. Выступит российский фигурист Лев Лазарев. Гран-при среди юниоров 1-й этап Сиань, Китай Юноши Короткая программа Начало – 5:15 по мос",
-          "url": "https://www.sports.ru/figure-skating/1117340836-gran-pri-sredi-yuniorov-lazarev-ebixara-blekuell-yanxao-li-okazaki-lon.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/083/6/share/ffef77_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-21T02:10:00.000Z",
+          "id": "sports-3-1787292780000",
+          "title": "Гончаренко о том, почему ЦСКА 10 лет не может выиграть РПЛ: «Конкуренция возросла. Очень силен «Зенит», грамотная работа «Краснодара»",
+          "summary": "Виктор Гончаренко рассказал, почему ЦСКА не может выиграть РПЛ. Последний раз армейцы становились чемпионами России в 2016 году. «Первый момент — очень силен «Зенит». Второй — грамотная работа «Краснодара», который парал",
+          "url": "https://www.sports.ru/football/1117341283-goncharenko-o-tom-pochemu-czska-10-let-ne-mozhet-vyigrat-rpl-konkurenc.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/128/3/share/17a1a7_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-21T06:13:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787277420000",
-          "title": "Евсеев о поражении от «Балтики» по пенальти: «Махачкала» очень качественный футбол показывает. Если бы Сердеров еще забил, это был бы шедевр»",
-          "summary": "Тренер махачкалинского « Динамо » Вадим Евсеев оценил поражение от «Балтики» (1:1, 4:5 по пен.) в 2-м туре FONBET Кубка России в Пути РПЛ. «Я очень доволен. Сам поражаюсь, как ребята играли. Если бы Сердеров еще забил мя",
-          "url": "https://www.sports.ru/football/1117341183-evseev-o-porazhenii-ot-baltiki-po-penalti-maxachkala-ochen-kachestvenn.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/118/3/share/f95288_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-21T01:57:00.000Z",
+          "id": "sports-4-1787292600000",
+          "title": "Батраков перешел в «Галатасарай», новые контракты Ферстаппена и Хардена, возвращение Алькараса и другие новости",
+          "summary": "1. Алексей Батраков перешел из «Локомотива» в «Галатасарай» за 25+4 миллиона евро, итоговая сумма трансфера может достичь 33,35 млн . Зарплата 21-летнего хавбека сборной России по контракту до лета 2031 года – 3,25 млн е",
+          "url": "https://www.sports.ru/football/1117341155-batrakov-pereshel-v-galatasaraj-novye-kontrakty-ferstappena-i-xardena-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/115/5/share/7d0f9e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-21T06:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -994,7 +994,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-21T02:53:35.799Z",
+      "lastFetchAt": "2026-08-21T06:24:32.800Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1002,48 +1002,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787280399000",
-          "title": "На Западе подвели итоги борьбы экс-министра обороны Украины Федорова с Зеленским",
+          "id": "politics-0-1787293268000",
+          "title": "Россия атаковала порт под Одессой",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/na-zapade-podveli-itogi-borby-eks-ministra-oborony-ukrainy-fedorova-s-zelenskim/",
-          "image": "https://icdn.lenta.ru/images/2026/08/21/05/20260821054959000/pic_aef8352571a497ac4400624e0e74aa4a.jpg",
-          "publishedAt": "2026-08-21T02:46:39.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/rossiya-atakovala-port-pod-odessoy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/09/20260821091854999/pic_8e1bfb7d320c1ccfe5041cccc1468a17.jpg",
+          "publishedAt": "2026-08-21T06:21:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787279433000",
-          "title": "Россиянка описала Пхукет словами «к русскоязычным относятся спокойно»",
+          "id": "politics-1-1787293260000",
+          "title": "Ликвидирован сообщник рэпера при подготовке атаки на оборонное предприятие под Москвой",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/rossiyanka-opisala-phuket-slovami-k-russkoyazychnym-otnosyatsya-spokoyno/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/13/20260820133627521/pic_b4224772073c02b3226b34f67f669d13.jpg",
-          "publishedAt": "2026-08-21T02:30:33.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/likvidirovan-soobschnik-repera-pri-podgotovki-ataki-na-oboronnoe-predpriyatie-pod-moskvoy/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/09/20260821092106713/pic_812080a39299f14b2d52327fed0198b7.jpg",
+          "publishedAt": "2026-08-21T06:21:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787278179000",
-          "title": "Женщин предупредили об опасной причине неприятного запаха из интимной зоны",
+          "id": "politics-2-1787293240000",
+          "title": "Президент «Галатасарая» высказался о переходе Батракова",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/zhenschin-predupredili-ob-opasnoy-prichine-nepriyatnogo-zapaha-iz-intimnoy-zony/",
-          "image": "https://icdn.lenta.ru/images/2026/08/19/12/20260819121423784/pic_5c941b8b5952340c92d8730a6d5c07e9.jpg",
-          "publishedAt": "2026-08-21T02:09:39.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/prezident-galatasaraya-vyskazalsya-o-perehode-batrakova/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/09/20260821091157671/pic_07aa564e8e74d17867267bd10ec057d9.jpg",
+          "publishedAt": "2026-08-21T06:20:40.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787277345000",
-          "title": "Евросюз отказался отдать Украине сотни миллионов евро из-за блокады портов",
+          "id": "politics-3-1787293229000",
+          "title": "Задержанный за подготовку теракта в Москве иностранец искал цистерны с нефтью",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/evrosyuz-otkazalsya-otdat-ukraine-sotni-millionov-evro-iz-za-blokady-portov/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-21T01:55:45.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/zaderzhannyy-za-podgotovku-terakta-v-moskve-inostranets-iskal-tsisterny-s-nefteproduktami/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/09/20260821091722649/pic_e0fedb1694d4cdcf988691bba7dee4ca.jpg",
+          "publishedAt": "2026-08-21T06:20:29.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1787293107000",
+          "title": "В МИД озвучили опасения перед выборами в Госдуму",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/21/v-mid-ozvuchili-opaseniya-pered-vyborami-v-gosdumu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/09/20260821091338280/pic_bda864912b6c387543d5b4686167436d.jpg",
+          "publishedAt": "2026-08-21T06:18:27.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
