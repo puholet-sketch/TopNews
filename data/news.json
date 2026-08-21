@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-21T02:53:35.800Z",
-  "lastRunAt": "2026-08-21T02:53:35.800Z",
+  "updatedAt": "2026-08-21T04:27:18.450Z",
+  "lastRunAt": "2026-08-21T04:27:18.450Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
+    "law"
+  ],
+  "skippedNow": [
+    "it",
+    "business",
+    "startups",
+    "medicine",
+    "environment",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
@@ -99,7 +99,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-20T22:14:39.697Z",
+      "lastFetchAt": "2026-08-21T04:27:01.389Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -107,11 +107,23 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1787256170000",
-          "title": "Корпоративный мозг на одной видеокарте: что на самом деле умеет локальная модель",
+          "id": "ai-0-1787279437000",
+          "title": "Мой опыт с Hermes Agent — ненависть, любовь, ненависть, любовь",
+          "summary": "Началось все с установки. Я пошёл почти по самому простому пути - установил его на Mac, в Docker. Потому что это агент, который работает автономно и так же автономно может сделать атата: выполнить rm -rf или выбраться из",
+          "url": "https://habr.com/ru/articles/1072770/?utm_campaign=1072770&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fcb/e7d/81c/fcbe7d81cf6711120c5f1217d30d2d2f.png",
+          "publishedAt": "2026-08-21T02:30:37.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1787256170000",
+          "title": "Корпоративный мозг на одной видеокарте: что на самом деле умеет локальная модель",
           "summary": "Есть компании, где вопрос «какую модель выбрать» отходит на второй план, а первым встаёт другой: выйдут ли данные за периметр. Банк, госкорпорация, оборонный подрядчик, медицинский холдинг. И если ответ «выйдут, но мы вс",
           "url": "https://habr.com/ru/articles/1072746/?utm_campaign=1072746&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1072746/838e823b5ee2d104bcc903729fa6b586/",
+          "image": "https://habr.com/share/publication/1072746/e371fca38785bb9a2aa420dac217ac52/",
           "publishedAt": "2026-08-20T20:02:50.000Z",
           "source": "Хабр",
           "categoryId": "ai",
@@ -119,8 +131,8 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1787252971000",
-          "title": "Нарисованный очаг LLM: почему красивые схемы без предметной модели не греют",
+          "id": "ai-2-1787252971000",
+          "title": "Нарисованный очаг LLM: почему красивые схемы без предметной модели не греют",
           "summary": "У Алексея Толстого в «Золотом ключике, или Приключениях Буратино» есть сцена, которая неожиданно хорошо описывает значительную часть того, что сегодня происходит вокруг больших языковых моделей. В каморке папы Карло виси",
           "url": "https://habr.com/ru/articles/1072730/?utm_campaign=1072730&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/522/81d/f45/52281df457d6277b4c63eb3c3ed39bdd.jpg",
@@ -131,8 +143,8 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1787247502000",
-          "title": "Claude вскрыл 16 SAML-проектов за месяц вечеров. Чинить их оказалось некому",
+          "id": "ai-3-1787247502000",
+          "title": "Claude вскрыл 16 SAML‑проектов за месяц вечеров. Чинить их оказалось некому",
           "summary": "Об одной и той же уязвимости в Authentik — популярной опенсорсной системе корпоративного входа — независимо и почти одновременно сообщили восемь исследователей. Уязвимость (CVE-2026-57580) позволяла вставить в поле с иде",
           "url": "https://habr.com/ru/articles/1072702/?utm_campaign=1072702&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/21c/68d/71e/21c68d71e6bc1ca596f1b57f97f28bc6.jpg",
@@ -143,7 +155,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1787244669000",
+          "id": "ai-4-1787244669000",
           "title": "Как подобрать цвета в проекте: от теории до промптов",
           "summary": "Подбор идеальной палитры — одна из самых сложных задач для начинающего дизайнера, фотографа, нейронщика — в общем, любого, кто работает с визуалом. В этой статье я разбираю весь путь: от базовых вопросов и свойств цвета ",
           "url": "https://habr.com/ru/articles/1072688/?utm_campaign=1072688&utm_source=habrahabr&utm_medium=rss",
@@ -153,23 +165,11 @@
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1787243827000",
-          "title": "Gemini 3.7 Flash: это снова не та модель, которую все ждали",
-          "summary": "Наверняка вы уже видели заголовок «Google выпустила новую Gemini» примерно миллион раз за последний год. 13 августа 2026 года это случилось снова: на сцену вышла Gemini 3.7 Flash. Pro-модели снова нет. Опять Flash. Трети",
-          "url": "https://habr.com/ru/companies/gptunnel/articles/1072680/?utm_campaign=1072680&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f8e/e35/926/f8ee3592692aabee5b8950c3d81f9fca.jpg",
-          "publishedAt": "2026-08-20T16:37:07.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
         }
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-20T16:20:09.861Z",
+      "lastFetchAt": "2026-08-21T04:27:03.207Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -177,7 +177,31 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1787242387000",
+          "id": "cybersecurity-0-1787249990000",
+          "title": "Капча, которую рисуют: drop‑in альтернатива reCAPTCHA на динамике жеста",
+          "summary": "Почему мы классифицируем движение руки, а не картинки со светофорами — и как встроить это в форму двумя строками Картиночные капчи в 2026-м решаются моделями компьютерного зрения за миллисекунды, а каждый ваш клик по «вы",
+          "url": "https://habr.com/ru/articles/1072718/?utm_campaign=1072718&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/dfe/4c0/ed0/dfe4c0ed0c51d34324dc6604af34925b.png",
+          "publishedAt": "2026-08-20T18:19:50.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1787247502000",
+          "title": "Claude вскрыл 16 SAML‑проектов за месяц вечеров. Чинить их оказалось некому",
+          "summary": "Об одной и той же уязвимости в Authentik — популярной опенсорсной системе корпоративного входа — независимо и почти одновременно сообщили восемь исследователей. Уязвимость (CVE-2026-57580) позволяла вставить в поле с иде",
+          "url": "https://habr.com/ru/articles/1072702/?utm_campaign=1072702&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/21c/68d/71e/21c68d71e6bc1ca596f1b57f97f28bc6.jpg",
+          "publishedAt": "2026-08-20T17:38:22.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1787242387000",
           "title": "Как они провели этим летом",
           "summary": "Завершилась третья смена Positive Hack Camp: познать русский кибербез и прокачать свои скиллы приехали в Москву более 80 начинающих специалистов из 20 стран. Прилетели они за свой счет — а с нашей стороны были мощная экс",
           "url": "https://habr.com/ru/companies/pt/articles/1072666/?utm_campaign=1072666&utm_source=habrahabr&utm_medium=rss",
@@ -189,7 +213,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1787234228000",
+          "id": "cybersecurity-3-1787234228000",
           "title": "Как контроль Shadow AI связан с контролем ИИ‑агентов",
           "summary": "«У нас ИИ нет, мы только планируем внедрение» – самый обманчивый ответ. На практике это почти всегда означает: инвентаризации нет, видимости нет, политик нет. При этом сотрудники уже используют публичные модели, IDE-аген",
           "url": "https://habr.com/ru/companies/infera_security/articles/1072622/?utm_campaign=1072622&utm_source=habrahabr&utm_medium=rss",
@@ -201,36 +225,12 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1787231863000",
+          "id": "cybersecurity-4-1787231863000",
           "title": "Списки исключений в системе управления инцидентами (SIEM): простой способ обнаружить сложные атаки",
           "summary": "Кибератаки часто проявляются через отклонения от нормального поведения пользователей, устройств и инфраструктуры – например, нетипичные права, пустые поля в системных отчетах, подозрительные адреса. Чтобы выявлять их, в ",
           "url": "https://habr.com/ru/companies/searchinform/articles/1072588/?utm_campaign=1072588&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/96a/17b/895/96a17b89513bb62a547555e0484bb935.png",
           "publishedAt": "2026-08-20T13:17:43.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1787231787000",
-          "title": "Совместное применение 802.1x и NAC. Как контролировать неуправляемые устройства в корпоративной сети",
-          "summary": "Я Станислав Калабин, инженер-архитектор компании Axel PRO. Если постараться найти открытую информацию про 802.1x на популярных видеохостингах, презентациях или рекламных материалах, то все выглядит идеально, но в реально",
-          "url": "https://habr.com/ru/companies/axel_pro/articles/1072586/?utm_campaign=1072586&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/9e3/ba5/b3c/9e3ba5b3cdcfb8aea14f4afee0109452.png",
-          "publishedAt": "2026-08-20T13:16:27.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1787229218000",
-          "title": "librats: Выпуск версии 2.1.x (библиотека для распределённых P2P-приложений). Так же релиз rats-search 2.2.2 и rasync",
-          "summary": "Всем привет! Я продолжаю развивать свою библиотеку для создания распределённых приложений. Она уже легла в основу новой версии rats-search (распределённый торрент-поисковик) и rasync (синхронизация папок, файлов и исходн",
-          "url": "https://habr.com/ru/articles/1072550/?utm_campaign=1072550&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/04e/23f/3d5/04e23f3d5d680a647b16c2da7a320eb6.jpg",
-          "publishedAt": "2026-08-20T12:33:38.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -379,7 +379,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-20T22:14:40.823Z",
+      "lastFetchAt": "2026-08-21T04:27:03.805Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -519,7 +519,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-20T22:14:41.954Z",
+      "lastFetchAt": "2026-08-21T04:27:05.250Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -527,7 +527,19 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1787249100000",
+          "id": "health-0-1787280157000",
+          "title": "Врач предупредила о грядущей активизации кровососущей мухи",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/21/vrach-predupredila-o-gryaduschey-aktivizatsii-krovososuschey-muhi/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/05/20260821054234234/pic_47973095a4aa75d7d7d4d13123b5aa7b.jpg",
+          "publishedAt": "2026-08-21T02:42:37.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-1-1787249100000",
           "title": "Врач назвал отвращение к кофе симптомом нескольких заболеваний",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/20/vrach-nazval-otvraschenie-k-kofe-simptomom-neskolkih-zabolevaniy/",
@@ -539,48 +551,12 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1787239740000",
+          "id": "health-2-1787239740000",
           "title": "Россиянам рассказали о требующей помощи врача головной боли при магнитной буре",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/20/rossiyanam-rasskazali-o-trebuyuschey-pomoschi-vracha-golovnoy-boli-pri-magnitnoy-bure/",
           "image": "https://icdn.lenta.ru/images/2026/08/20/12/20260820120242623/pic_12084b43560dc98e1650d85d32560e6d.jpg",
           "publishedAt": "2026-08-20T15:29:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-2-1787236560000",
-          "title": "Врач разрешила есть один вид шаурмы каждый день",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/vrach-razreshila-est-odin-vid-shaurmy-kazhdyy-den/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/12/20260820120541543/pic_9de4d9da95652a48d7c06d1def7d885b.jpg",
-          "publishedAt": "2026-08-20T14:36:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-3-1787235900000",
-          "title": "Врач рассказала о болезни найденного с отрубленной рукой бас-гитариста «Кукрыниксов»",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/vrach-rasskazala-o-bolezni-naydennogo-s-otrublennoy-rukoy-bas-gitarista-kukryniksov/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/17/20260820171740541/pic_feb93db50d3a3c587661760741805ec8.jpg",
-          "publishedAt": "2026-08-20T14:25:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-4-1787232600000",
-          "title": "Врач раскрыла причины тумана в голове у молодых людей",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/vrach-raskryla-prichiny-tumana-v-golove-u-molodyh-lyudey/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/14/20260818145811658/pic_412a4e21c0c002bf99193f0d379b4f3d.jpg",
-          "publishedAt": "2026-08-20T13:30:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "health",
           "categoryName": "Здоровье",
@@ -598,7 +574,7 @@
       "articles": []
     },
     "energy": {
-      "lastFetchAt": "2026-08-20T22:14:45.828Z",
+      "lastFetchAt": "2026-08-21T04:27:09.071Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -606,60 +582,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1787262869000",
-          "title": "Небензя: России не нужна массовая мобилизация",
-          "summary": "Постпред России при ООН Василий Небензя сообщил, что, по его информации, власти страны не планируют проводить массовую мобилизацию. «На данный момент массовая мобилизация нам не нужна, и, насколько мне известно, она не п",
-          "url": "https://www.kommersant.ru/doc/8894156",
-          "image": "https://im2.kommersant.ru/SocialPics/8894156_49_0_1785038717",
-          "publishedAt": "2026-08-20T21:54:29.000Z",
+          "id": "energy-0-1787285501000",
+          "title": "Паводок затронул 18 населенных пунктов в Хабаровском крае",
+          "summary": "Подтопления в Хабаровском крае распространились на новую местность после смещения паводка на реках Амур и Уссури. Об этом сообщает региональное управление МЧС России в «Максе».",
+          "url": "https://www.kommersant.ru/doc/8894183",
+          "image": "https://im2.kommersant.ru/SocialPics/8894183_49_0_81614780",
+          "publishedAt": "2026-08-21T04:11:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1787261837000",
-          "title": "Небензя призвал нового генсека ООН активнее содействовать урегулированию на Украине",
-          "summary": "Россия хочет видеть в следующем генсеке ООН большую вовлеченность в вопросе урегулирования российско-украинского конфликта, сообщил постпред России при организации Василий Небензя. «Мы хотим, чтобы он или она были более ",
-          "url": "https://www.kommersant.ru/doc/8894145",
-          "image": "https://im2.kommersant.ru/SocialPics/8894145_49_0_1129207093",
-          "publishedAt": "2026-08-20T21:37:17.000Z",
+          "id": "energy-1-1787285034000",
+          "title": "В Домодедово и Жуковском ввели временные ограничения",
+          "summary": "Московские аэропорты Жуковский и Домодедово временно не принимают и не отправляют самолеты. Об этом сообщила пресс-служба Росавиации.",
+          "url": "https://www.kommersant.ru/doc/8894190",
+          "image": "https://im2.kommersant.ru/SocialPics/8894190_49_0_323369047",
+          "publishedAt": "2026-08-21T04:03:54.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1787260659000",
-          "title": "Самый дорогой футболиcт РПЛ Батраков перешел в турецкий «Галатасарай»",
-          "summary": "Полузащитник «Локомотива» Алексей Батраков перешел в турецкий «Галатасарай». Стоимость сделки составила €25 млн.",
-          "url": "https://www.kommersant.ru/doc/8894144",
-          "image": "https://im2.kommersant.ru/SocialPics/8894144_49_0_460698548",
-          "publishedAt": "2026-08-20T21:17:39.000Z",
+          "id": "energy-2-1787284832000",
+          "title": "Главные новости к утру 21 августа",
+          "summary": "Постпред России при ООН Василий Небензя сообщил, что, по его информации, власти страны не планируют проводить массовую мобилизацию. На Сахалине самолет АН-3 загорелся после аварийной посадки.",
+          "url": "https://www.kommersant.ru/doc/8894185",
+          "image": "https://im2.kommersant.ru/SocialPics/8894185_49_0_789955333",
+          "publishedAt": "2026-08-21T04:00:32.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1787258837000",
-          "title": "Захарова назвала Россию единственным гарантом суверенитета Украины",
-          "summary": "Представитель МИД России Мария Захарова заявила, что никто, кроме России, не может быть гарантом суверенитета и территориальной целостности Украины. «Украина не нужна Западу ни как независимое, ни как процветающее госуда",
-          "url": "https://www.kommersant.ru/doc/8894143",
-          "image": "https://iv.kommersant.ru/SocialPics/8894143_49_0_766838241",
-          "publishedAt": "2026-08-20T20:47:17.000Z",
+          "id": "energy-3-1787283879000",
+          "title": "Трамп связал сложности со сделкой с Ираном с гибелью его руководства",
+          "summary": "Президент США Дональд Трамп связал сложности в достижении мирного соглашения с Ираном с потерями среди иранского высокопоставленного руководства. Он также добавил, что цель Вашингтона — не позволить Тегерану получить яде",
+          "url": "https://www.kommersant.ru/doc/8894179",
+          "image": "https://im2.kommersant.ru/SocialPics/8894179_49_0_1622390673",
+          "publishedAt": "2026-08-21T03:44:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1787257751000",
-          "title": "От ударов по складам Wildberries пострадали более 100 компаний из Петербурга",
-          "summary": "Более 100 производственных компаний из Санкт-Петербурга пострадали из-за ударов беспилотников по логистическим объектам Wildberries, сообщил вице-губернатор города Кирилл Поляков. «Мы на сегодняшний день имеем сведения о",
-          "url": "https://www.kommersant.ru/doc/8894141",
-          "image": "https://im2.kommersant.ru/SocialPics/8894141_49_0_1520995758",
-          "publishedAt": "2026-08-20T20:29:11.000Z",
+          "id": "energy-4-1787282862000",
+          "title": "В Португалии запретили ношение бурок",
+          "summary": "Президент Португалии Антониу Жозе Сегуро подписал закон, который запрещает ношение в общественных местах одежды, полностью закрывающей лицо. Инициативу, принятую парламентом в июле, в местных СМИ называют «законом о бурк",
+          "url": "https://www.kommersant.ru/doc/8894178",
+          "image": "https://im2.kommersant.ru/SocialPics/8894178_49_0_28468914",
+          "publishedAt": "2026-08-21T03:27:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -668,7 +644,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-20T22:14:46.377Z",
+      "lastFetchAt": "2026-08-21T04:27:10.015Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -676,7 +652,19 @@
       "slug": "space",
       "articles": [
         {
-          "id": "space-0-1787204460000",
+          "id": "space-0-1787281140000",
+          "title": "Учёные обнаружили, что микробы с Земли могут выживать на Луне",
+          "summary": "Результаты нового исследования предполагают, что земные микробы могут выжить на суровой поверхности Луны, хотя и в состоянии анабиоза. Об этом пишет портал Space.com со ссылкой на работу, опубликованную 19 августа в журн",
+          "url": "https://3dnews.ru/1147196",
+          "image": "https://3dnews.ru/assets/external/illustrations/2026/08/20/1147196/ekrvBpVyhGr6fp.jpg",
+          "publishedAt": "2026-08-21T02:59:00.000Z",
+          "source": "3DNews",
+          "categoryId": "space",
+          "categoryName": "Космос",
+          "categorySlug": "space"
+        },
+        {
+          "id": "space-1-1787204460000",
           "title": "Открыта звезда, ближайшая к сверхмассивной чёрной дыре в центре Млечного пути",
           "summary": "Учёные обнаружили звезду, которая по чрезвычайно вытянутой орбите вращается вокруг сверхмассивной чёрной дыры Стрелец A*, расположенной в центре нашей галактики Млечный путь. Звезда подходит к чёрной дыре на расстояние б",
           "url": "https://3dnews.ru/1147126",
@@ -688,7 +676,7 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-1-1787105460000",
+          "id": "space-2-1787105460000",
           "title": "Уцелевший после приводнения в Индийском океане Starship добуксировали до Острова Рождества",
           "summary": "Уцелевшую после 13-го испытательного полёта верхнюю ступень ракеты Starship компании SpaceX добуксировали до Острова Рождества спустя 24 дня дрейфа в Индийском океане. Прогнозы о вероятном затоплении ступени не оправдали",
           "url": "https://3dnews.ru/1147047",
@@ -700,7 +688,7 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-2-1786898880000",
+          "id": "space-3-1786898880000",
           "title": "SpaceX запустила две ракеты Falcon 9 с интервалом всего 38 минут — новый рекорд",
           "summary": "Компания SpaceX, лидирующая по числу запуску ракет в космос, установила ещё один рекорд — по самому короткому интервалу между орбитальными запусками, запустив в субботу, 15 августа, две ракеты Falcon 9 с интервалом всего",
           "url": "https://3dnews.ru/1146917",
@@ -712,7 +700,7 @@
           "categorySlug": "space"
         },
         {
-          "id": "space-3-1786600680000",
+          "id": "space-4-1786600680000",
           "title": "Virgin Galactic сорвала начало космо-туристического сезона в 2026 году — к полётам она вернётся к весне 2027 года",
           "summary": "Virgin Galactic в очередной раз перенесла возвращение к коммерческим суборбитальным полётам. Первый коммерческий рейс нового ракетоплана Delta теперь назначен на февраль 2027 года, хотя ещё весной компания рассчитывала н",
           "url": "https://3dnews.ru/1146740",
@@ -722,23 +710,11 @@
           "categoryId": "space",
           "categoryName": "Космос",
           "categorySlug": "space"
-        },
-        {
-          "id": "space-4-1786526040000",
-          "title": "Южная Корея официально утвердила план высадки на Луну к 2030 году",
-          "summary": "Южная Корея представила амбициозную технологическую стратегию Seven Major SEED, основанную на реализации семи проектов, охватывающих широкий спектр направлений — от ядерной энергетики и квантовых вычислений до космоса и ",
-          "url": "https://3dnews.ru/1146682",
-          "image": "https://3dnews.ru/assets/external/illustrations/2026/08/12/1146682/daniel-bernard-qjsmpf0aO48-unsplash.jpg",
-          "publishedAt": "2026-08-12T09:14:00.000Z",
-          "source": "3DNews",
-          "categoryId": "space",
-          "categoryName": "Космос",
-          "categorySlug": "space"
         }
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-20T22:14:47.978Z",
+      "lastFetchAt": "2026-08-21T04:27:12.508Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1038,18 +1014,6 @@
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787280157000",
-          "title": "Врач предупредила о грядущей активизации кровососущей мухи",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/vrach-predupredila-o-gryaduschey-aktivizatsii-krovososuschey-muhi/",
-          "image": "https://icdn.lenta.ru/images/2026/08/21/05/20260821054234234/pic_47973095a4aa75d7d7d4d13123b5aa7b.jpg",
-          "publishedAt": "2026-08-21T02:42:37.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
           "id": "politics-2-1787279433000",
           "title": "Россиянка описала Пхукет словами «к русскоязычным относятся спокойно»",
           "summary": "",
@@ -1097,7 +1061,7 @@
       "articles": []
     },
     "law": {
-      "lastFetchAt": "2026-08-20T16:20:14.000Z",
+      "lastFetchAt": "2026-08-21T04:27:18.449Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1105,7 +1069,19 @@
       "slug": "law",
       "articles": [
         {
-          "id": "law-0-1787242066000",
+          "id": "law-0-1787242848000",
+          "title": "СИП отказал в продлении принудительной лицензии на разработки Vertex",
+          "summary": "«Медицинская исследовательская компания» добивалась права использовать разработки американского производителя до окончания срока их патентной охраны.",
+          "url": "https://pravo.ru/news/265415/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-08-20T16:20:48.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-1-1787242066000",
           "title": "ЦБ попросил брокеров вести коммуникацию с клиентами адресно",
           "summary": "Теперь брокеры должны будут вести коммуникацию по участию в сделках по обмену заблокированными активами по-другому.",
           "url": "https://pravo.ru/news/265414/",
@@ -1117,7 +1093,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-1-1787238333000",
+          "id": "law-2-1787238333000",
           "title": "В Госдуму внесли законопроект о смягчении правил блокировки счетов для бизнеса",
           "summary": "Полную заморозку счетов за несвоевременную сдачу отчетности депутаты признали несоразмерным наказанием.",
           "url": "https://pravo.ru/news/265413/",
@@ -1129,7 +1105,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-2-1787237888000",
+          "id": "law-3-1787237888000",
           "title": "«WB Банк» отменил владельцам ПВЗ комиссии за переводы",
           "summary": "Льгота начнет действовать автоматически с 20 августа для новых и действующих владельцев пунктов выдачи заказов.",
           "url": "https://pravo.ru/news/265409/",
@@ -1141,24 +1117,12 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-3-1787235982000",
+          "id": "law-4-1787235982000",
           "title": "Главный специалист по национализации активов вернулся в Генпрокуратуру",
           "summary": "По данным СМИ, увольнение начальника главного гражданско-судебного управления отменил Владимир Путин.",
           "url": "https://pravo.ru/news/265412/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
           "publishedAt": "2026-08-20T14:26:22.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-4-1787235426000",
-          "title": "V Юбилейный Казанский международный юридический форум пройдет в Казани",
-          "summary": "Этой осенью в Казани состоится V юбилейный Казанский международный юридический форум (КМЮФ) — ежегодная площадка, которая объединяет профессиональное юридическое сообщество из России и других стран.",
-          "url": "https://pravo.ru/company_news/265394/?erid=2VfnxvLwPby",
-          "image": "https://storage.pravo.ru/image/343/171657.webp?v=1787235463",
-          "publishedAt": "2026-08-20T14:17:06.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
