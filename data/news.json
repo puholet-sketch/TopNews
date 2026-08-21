@@ -1,16 +1,17 @@
 {
-  "updatedAt": "2026-08-21T08:24:45.273Z",
-  "lastRunAt": "2026-08-21T08:24:45.273Z",
+  "updatedAt": "2026-08-21T10:17:59.057Z",
+  "lastRunAt": "2026-08-21T10:17:59.057Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
+    "education",
+    "realestate",
+    "travel"
   ],
   "skippedNow": [
     "it",
     "ai",
     "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -21,10 +22,9 @@
     "automotive",
     "gaming",
     "entertainment",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "sports",
+    "politics",
+    "law"
   ],
   "failedNow": [],
   "categories": {
@@ -1064,7 +1064,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-21T00:35:03.987Z",
+      "lastFetchAt": "2026-08-21T10:17:56.526Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1143,7 +1143,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-21T00:35:05.036Z",
+      "lastFetchAt": "2026-08-21T10:17:57.573Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1213,7 +1213,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-21T00:35:05.714Z",
+      "lastFetchAt": "2026-08-21T10:17:59.056Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1221,60 +1221,48 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1787272303000",
-          "title": "Блогерша описала одну привычку туристов словами «чувствительная тема на Кавказе»",
+          "id": "travel-0-1787305886000",
+          "title": "Гиды бросили российского туриста с пробитой головой после экскурсии во Вьетнаме",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/21/blogersha-opisala-odnu-privychku-turistov-slovami-chuvstvitelnaya-tema-na-kavkaze/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/13/20260820131451948/pic_be7658805d2a896bcee88d2084388870.jpg",
-          "publishedAt": "2026-08-21T00:31:43.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/gidy-brosili-rossiyskogo-turista-s-probitoy-golovoy-posle-ekskursii-vo-vietname/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/12/20260821123041469/pic_9e52a63f356c37352d2eed0ae5f9017a.jpg",
+          "publishedAt": "2026-08-21T09:51:26.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1787245860000",
-          "title": "Туриста на Бали приговорили к тюрьме из-за публикации в соцсети",
+          "id": "travel-1-1787293868000",
+          "title": "Россияне рассказали о самых необычных чаевых в путешествиях",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/turista-na-bali-prigovorili-k-tyurme-iz-za-publikatsii-v-sotsseti/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/17/20260820170239952/pic_c9287d751a25583e44c113c3e4826ca8.jpg",
-          "publishedAt": "2026-08-20T17:11:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/rossiyane-rasskazali-o-samyh-neobychnyh-chaevyh-v-puteshestviyah/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/15/20260820155028170/pic_d65e55b7ad0c0d8becb37b9056deaa29.jpg",
+          "publishedAt": "2026-08-21T06:31:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1787245140000",
-          "title": "Появились подробности о «потерявшемся» самолете с российскими туристами",
+          "id": "travel-2-1787288400000",
+          "title": "Консульство Италии забрало загранпаспорта на все лето у туристок из России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/poyavilis-podrobnosti-o-poteryavshimsya-samolete-s-rossiyskimi-turistami/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/19/20260820195439026/pic_8a9a7d875fbaef2f3fe3bef92246e294.jpg",
-          "publishedAt": "2026-08-20T16:59:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/konsulstvo-italii-zabralo-zagranpasporta-na-vse-leto-u-turistok-iz-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/20/17/20260820171038594/pic_48c4a26ffda71d5239c5c6aa7951ea56.jpg",
+          "publishedAt": "2026-08-21T05:00:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-3-1787242800000",
-          "title": "Таксист изнасиловал туристку в Европе и поплатился спустя несколько лет",
+          "id": "travel-3-1787281920000",
+          "title": "На Алтае после нападения на туристку ликвидировали несколько медведей",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/taksist-iznasiloval-turistku-v-evrope-i-poplatilsya-spustya-neskolko-let/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/15/20260820154442418/pic_b922f24a2b28f6a121b65136e72d7dd1.jpg",
-          "publishedAt": "2026-08-20T16:20:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1787241695000",
-          "title": "Турист сорвался с горы в Альпах на глазах у спутников и не выжил",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/20/turist-sorvalsya-s-gory-v-alpah-na-glazah-u-sputnikov-i-ne-vyzhil/",
-          "image": "https://icdn.lenta.ru/images/2026/08/20/16/20260820165829934/pic_57bae80cbe00855cab4eb85fbbaebf38.jpg",
-          "publishedAt": "2026-08-20T16:01:35.000Z",
+          "url": "https://lenta.ru/news/2026/08/21/na-altae-posle-napadeniya-na-turistku-likvidirovali-neskolko-medvedey/",
+          "image": "https://icdn.lenta.ru/images/2026/08/21/06/20260821061251176/pic_022a1074a2fd4fcf2f8887439861f6df.jpg",
+          "publishedAt": "2026-08-21T03:12:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
