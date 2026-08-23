@@ -1,34 +1,35 @@
 {
-  "updatedAt": "2026-08-23T02:53:19.085Z",
-  "lastRunAt": "2026-08-23T04:25:23.583Z",
+  "updatedAt": "2026-08-23T06:20:27.642Z",
+  "lastRunAt": "2026-08-23T06:20:27.642Z",
   "totalCategories": 20,
-  "fetchedNow": [],
-  "skippedNow": [
+  "fetchedNow": [
     "it",
-    "ai",
-    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
     "politics",
     "education",
-    "law",
     "realestate",
     "travel"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "law"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-23T00:34:56.401Z",
+      "lastFetchAt": "2026-08-23T06:20:05.380Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -36,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1787435046000",
+          "id": "it-0-1787464750000",
+          "title": "Только 5% детей уходят из школы по здоровью. Кто и зачем уходит на самом деле",
+          "summary": "В комментариях к моей статье про уход сына из школы половина спора шла о том, что такое семейное образование вообще, а вторая половина — об уверенности, что так поступают семьи с проблемами. Я полез в данные. Здоровье ка",
+          "url": "https://habr.com/ru/articles/1073384/?utm_campaign=1073384&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/376/935/2b5/3769352b5b8079eda5ed23bc703cb513.png",
+          "publishedAt": "2026-08-23T05:59:10.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1787435046000",
           "title": "System Design на практике: создаем микросервис генерации уникальных идентификаторов",
           "summary": "Это вторая статья серии, посвященной проектированию системы сокращения ссылок. В предыдущей мы спроектировали архитектуру сервиса, разделил систему на микросервисы, определили зоны ответственности и описали взаимодействи",
           "url": "https://habr.com/ru/articles/1068960/?utm_campaign=1068960&utm_source=habrahabr&utm_medium=rss",
@@ -48,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1787429847000",
+          "id": "it-2-1787429847000",
           "title": "От героев былых времен",
           "summary": "Машина Тьюринга (МТ) не сферический конь в вакууме программистского бытия. Она не про «единички-нолики» и елозанье вдоль ленты, а про гимнастику мозгов для программистов. Продолжим тему МТ, начатую в [1]. Ее программиров",
           "url": "https://habr.com/ru/articles/1073364/?utm_campaign=1073364&utm_source=habrahabr&utm_medium=rss",
@@ -60,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1787417587000",
+          "id": "it-3-1787417587000",
           "title": "Что вы увидели на картинке первым? Спрашиваем трансформер",
           "summary": "Что видит трансформер: крокодила, лодку или силуэт человека? Проверяем BLIP на визуальных иллюзиях. Наверняка многие видели картинки‑тесты, которые предлагают по тому, что первым бросилось в глаза определить характер, ка",
           "url": "https://habr.com/ru/articles/1073336/?utm_campaign=1073336&utm_source=habrahabr&utm_medium=rss",
@@ -72,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1787403640000",
+          "id": "it-4-1787403640000",
           "title": "(Не)видимая цена интеллекта: почему экономия на LLM убивает ваши агентные системы",
           "summary": "Разработчики агентных систем оказались в странной ситуации. Модели становятся дешевле, но задачи решают хуже. Провайдеры соревнуются в снижении цены за токен, а команды радостно переходят на облегчённые версии, экономя н",
           "url": "https://habr.com/ru/companies/bothub/articles/1073292/?utm_campaign=1073292&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/214/297/b45/214297b459bd5ab80812759465b01ea4.jpeg",
           "publishedAt": "2026-08-22T13:00:40.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787402222000",
-          "title": "Бенчмаркая LINQ: подстава с OrderBy — одно условие и полная сортировка",
-          "summary": "Одни вызовы после OrderBy проходят набор один раз, другие приводят к полной сортировке. По коду разницы не видно. Давайте проверим счётчиком обращений к компаратору — на четырёх машинах и четырёх рантаймах. Читать далее",
-          "url": "https://habr.com/ru/articles/1073310/?utm_campaign=1073310&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/8c0/c9f/dc2/8c0c9fdc25bbbf02360a9568bedf6176.png",
-          "publishedAt": "2026-08-22T12:37:02.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -238,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-23T02:53:14.650Z",
+      "lastFetchAt": "2026-08-23T06:20:07.142Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -308,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-23T00:35:03.889Z",
+      "lastFetchAt": "2026-08-23T06:20:08.551Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -346,18 +347,6 @@
           "url": "https://vc.ru/legal/3089994-vk-podala-isk-protiv-apple-iz-za-udaleniya-prilozheniy?from=rss",
           "image": "https://leonardo.osnova.io/54d4196a-7f41-5303-9db5-6b60435c8ee4/",
           "publishedAt": "2026-08-21T07:30:39.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-3-1787402995000",
-          "title": "Робот производителя смартфонов Honor «побил» мировой рекорд Усэйна Болта на стометровке",
-          "summary": "Официальным роборекорд, конечно, не считается.",
-          "url": "https://vc.ru/future/3092053-robot-honor-pobil-rekord-usejna-bolta-na-stometrovke?from=rss",
-          "image": "https://leonardo.osnova.io/2a4dea20-79d2-5a27-a457-5f6fcb1dfe06/-/resize/1300/",
-          "publishedAt": "2026-08-22T12:49:55.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -436,7 +425,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-23T00:35:08.992Z",
+      "lastFetchAt": "2026-08-23T06:20:15.795Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -576,7 +565,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-23T00:35:10.793Z",
+      "lastFetchAt": "2026-08-23T06:20:16.324Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -808,7 +797,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-23T00:35:21.198Z",
+      "lastFetchAt": "2026-08-23T06:20:18.018Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -816,7 +805,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1787389223000",
+          "id": "gaming-0-1787461240000",
+          "title": "Что получится, если смешать Fallout 2 и Battle Brothers в одной огромной CRPG, да ещё и на Android? Sunarius",
+          "summary": "Сравнивать свою игру с Fallout 2 и Battle Brothers довольно опасно. У обеих игр слишком много игроков, которые помнят их лучше, чем собственный пароль от почты (я люблю так шутить). Один скажет, что Fallout 2 это прежде ",
+          "url": "https://habr.com/ru/articles/1073356/?utm_campaign=1073356&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/47b/747/d18/47b747d188dd3fa046578a510efec1de.png",
+          "publishedAt": "2026-08-23T05:00:40.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1787389223000",
           "title": "Моды, которые превращают ванильный Fallout 4 в современную игру: оружие, одежда и кое-что еще. Часть 3",
           "summary": "Ну что, вот и третья часть серии материалов про изменение ванильной Fallout 4. Первую можно почитать тут, вторую здесь. В прошлых частях этой серии я уже разбирался с графикой, производительностью, поселениями и прочим. ",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1073080/?utm_campaign=1073080&utm_source=habrahabr&utm_medium=rss",
@@ -828,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1787379854000",
+          "id": "gaming-2-1787379854000",
           "title": "Реинкарнация проекта через cursor",
           "summary": "В далеком 2010 году я решил вступить в партию GameDev ибо на рынке было глухо средь космических стратегий. Знаменитый СтарКвейк на стратегию никак не тянул, в сети главенствовал Огейм и его бесчисленные клоны. Но три иск",
           "url": "https://habr.com/ru/articles/1073004/?utm_campaign=1073004&utm_source=habrahabr&utm_medium=rss",
@@ -840,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1787323033000",
+          "id": "gaming-3-1787323033000",
           "title": "Как увеличить длительность игровой сессии в играх для бизнеса",
           "summary": "Одна из основных задач игры внутри продукта — превратить игрока в активного пользователя. Для этого игровая система предлагает ему совершать целевые действия: сделать покупку, воспользоваться новой функцией, подключить п",
           "url": "https://habr.com/ru/articles/1073110/?utm_campaign=1073110&utm_source=habrahabr&utm_medium=rss",
@@ -852,7 +853,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1787295716000",
+          "id": "gaming-4-1787295716000",
           "title": "Платформер в стиле DOOM: портируем старую курсовую на чистый JavaScript",
           "summary": "Несколько лет назад у нас с одногруппником был зачёт по C++, и вместо того чтобы сделать что-то скромное (например, «Калькулятор» или «Генератор паролей»), мы, конечно же, решили замахнуться на какую-то игру, и тогда нам",
           "url": "https://habr.com/ru/companies/ruvds/articles/1071376/?utm_campaign=1071376&utm_source=habrahabr&utm_medium=rss",
@@ -862,23 +863,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1787230904000",
-          "title": "Компьютеры и консоли: раскол и слияние миров",
-          "summary": "С самого начала времён любители развлечений на светящемся экране разделились на два лагеря: тех, кто предпочитает использовать для этого полноценные компьютеры, и тех, кому больше по душе специализированные устройства — ",
-          "url": "https://habr.com/ru/companies/ruvds/articles/1071196/?utm_campaign=1071196&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/48f/072/ba5/48f072ba5817e85fefc54d18165bc6ff.jpg",
-          "publishedAt": "2026-08-20T13:01:44.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-23T00:35:22.610Z",
+      "lastFetchAt": "2026-08-23T06:20:21.834Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -914,7 +903,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 22–23 августа",
           "summary": "20 августа в прокат вышел ряд фильмов, среди которых сатирический триллер со звездным кастом «Жертва обстоятельств» и боевик без лишних слов «Мотор Сити». Что посмотреть в кино на выходных — в материале «Ъ».",
           "url": "https://www.kommersant.ru/doc/8893980",
-          "image": "https://iv.kommersant.ru/SocialPics/8893980_49_3187298_772606594",
+          "image": "https://im2.kommersant.ru/SocialPics/8893980_49_3187298_772606594",
           "publishedAt": "2026-08-21T16:00:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -926,7 +915,7 @@
           "title": "Самый сильный красно-синий // «Человек-паук: Новый день» предлагает зрителю возвращение старого",
           "summary": "До российского параллельного проката добралась долгожданная премьера — «Человек-паук: Новый день» Дэниела Дестина Креттона, 38-й фильм киновселенной «Марвел» (MCU). Еще до своего выхода он успел из кино превратиться в пр",
           "url": "https://www.kommersant.ru/doc/8905729",
-          "image": "https://im2.kommersant.ru/SocialPics/8905729_49_3187313_1383197748",
+          "image": "https://iv.kommersant.ru/SocialPics/8905729_49_3187313_1383197748",
           "publishedAt": "2026-08-21T15:09:56.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -938,7 +927,7 @@
           "title": "Как тебе такое, Илон Вакх? // Зальцбургский фестиваль отправил «Ариадну на Наксосе» на Марс",
           "summary": "Одной из премьер нынешнего Зальцбургского фестиваля стала «Ариадна на Наксосе» Рихарда Штрауса. Постановщиком выступил немец с турецкими корнями Эрсан Мондтаг — входящий в моду режиссер и художник интердисциплинарного то",
           "url": "https://www.kommersant.ru/doc/8905678",
-          "image": "https://im2.kommersant.ru/SocialPics/8905678_49_3187280_1407339340",
+          "image": "https://iv.kommersant.ru/SocialPics/8905678_49_3187280_1407339340",
           "publishedAt": "2026-08-21T14:03:27.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -948,7 +937,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-23T02:53:17.436Z",
+      "lastFetchAt": "2026-08-23T06:20:23.879Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -956,60 +945,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787453160000",
-          "title": "Ахметзянов после 0:0 с «Факелом» в жару: «Такие матчи нужно назначать на более позднее время, чтобы футболисты могли показать максимум, на что способны»",
-          "summary": "Тренер « Оренбурга » Ильдар Ахметзянов после гостевой ничьей с « Факелом » (0:0) в 5-м туре РПЛ выразил недовольство ранним временем проведения матча. «Сколько болельщиков сегодня пришло? Восемь тысяч. Ну, у вас классный",
-          "url": "https://www.sports.ru/football/1117343854-axmetzyanov-posle-00-s-fakelom-v-zharu-takie-matchi-nuzhno-naznachat-n.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/385/4/share/1e6393_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T02:46:00.000Z",
+          "id": "sports-0-1787465700000",
+          "title": "Замула о матче НХЛ на открытом воздухе: «Трибуны были забиты, 80-90 тысяч человек. Но атмосфера, как в России, не чувствовалась. У нас самые лучшие болельщики»",
+          "summary": "Защитник ЦСКА Егор Замула сказал, что в России хоккейные болельщики более эмоциональные, чем в Северной Америке. «В Северной Америке я научился многому в плане быта. Был там один, без семьи. Учился готовить, изучал англи",
+          "url": "https://www.sports.ru/hockey/1117343943-zamula-o-matche-nxl-na-otkrytom-vozduxe-tribuny-byli-zabity-80-90-tysy.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/394/3/share/5f1175_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T06:15:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787452200000",
-          "title": "Аллегри про 2:0: «Дженоа» хорошо смотрелась в первые 25-30 минут. По ходу матча «Наполи» стал больше контролировать игру»",
-          "summary": "Тренер «Наполи» Массимилиано Аллегри оценил победу над «Дженоа» (2:0) в 1-м туре Серии А. «Первая игра всегда немного загадка, когда знаком с командой всего шесть недель и не знаешь, кто из игроков лучше других проявит с",
-          "url": "https://www.sports.ru/football/1117343853-allegri-pro-20-dzhenoa-xorosho-smotrelas-v-pervye-25-30-minut-po-xodu-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/385/3/share/4af3b5_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T02:30:00.000Z",
+          "id": "sports-1-1787465400000",
+          "title": "«Локо» в зоне стыков после поражения от ЦСКА, провалы «МЮ» и «Тоттенхэма», успехи российских фигуристов и гимнастов, «Бавария» выиграла Суперкубок, победа «Реала» и другие новости",
+          "summary": "1. ЦСКА победил «Локомотив» в матче 5-го Альфа-Банк РПЛ – 3:2. У Гонду и Пиняева по голу, Данилов забил со штрафного, Баринов травмировался через 6 минут после выхода на замену. «Локомотив» повторил свой худший старт в ч",
+          "url": "https://www.sports.ru/football/1117343186-utrennij-dajdzhest.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/318/6/share/b2dd54_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T06:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787450880000",
-          "title": "Мостовой о поздравлениях с днем рождения: «Спасибо всем за теплые слова и добрые желания. Сердечно вас благодарю, друзья. Спасибо за внимание»",
-          "summary": "Александр Мостовой отреагировал в стихах на поздравления с днем рождения. 22 августа бывшему игроку сборной России исполнилось 58 лет. «Спасибо всем за теплые слова и добрые желания. Сердечно вас благодарю, друзья. Спаси",
-          "url": "https://www.sports.ru/football/1117343849-mostovoj-o-pozdravleniyax-s-dnem-rozhdeniya-spasibo-vsem-za-teplye-slo.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/384/9/share/1def92_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T02:08:00.000Z",
+          "id": "sports-2-1787464920000",
+          "title": "Чемпионат Англии стартовал! «Ман Сити» сыграет с «Борнмутом», «Ливерпуль» в гостях у «Ньюкасла»",
+          "summary": "21 августа « Арсенал » разгромил « Ковентри » (3:0) в первом матче нового сезона АПЛ. 22 августа « Халл » дома выиграл у « Манчестер Юнайтед » (2:0), « Брентфорд » разгромил « Тоттенхэм » (3:0). 23 августа « Манчестер Си",
+          "url": "https://www.sports.ru/football/1117341433-chempionat-anglii-arsenal-primet-koventri.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/143/3/share/662b05_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T06:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787450040000",
-          "title": "Месси забил «Торонто». У форварда «Интер Майами» 14+8 в 18 матчах сезона МЛС",
-          "summary": "Нападающий « Интер Майами » Лионель Месси забил гол в матче с « Торонто » (1:2). 39-летний аргентинец продлил результативную серию (2 мяча + 1 ассист) в МЛС до 3 игр. Всего в 18 матчах сезона в лиге на счету Месси 14 гол",
-          "url": "https://www.sports.ru/football/1117343847-messi-zabil-gol-toronto-u-forvarda-inter-majami-148-v-18-matchax-sezon.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/384/7/share/75ee39_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T01:54:00.000Z",
+          "id": "sports-3-1787464680000",
+          "title": "«Манчестер Сити» примет «Борнмут» в 1-м туре АПЛ. Матч начнется в 16:00",
+          "summary": "« Манчестер Сити » примет « Борнмут » в матче 1-го тура АПЛ. Таблица АПЛ Статистика АПЛ",
+          "url": "https://www.sports.ru/football/1117343934-manchester-siti-primet-bornmut-v-1-m-ture-apl-match-nachnetsya-v-1600.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/393/4/share/f667b7_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T05:58:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787449320000",
-          "title": "МЛС. «Интер Майами» Месси уступил «Торонто», «Атланта» Миранчука примет «Канзас-Сити» Шапи в ночь на понедельник",
-          "summary": "« Интер Майами », несмотря на гол Лионеля Месси, уступил « Торонто » (1:2) в матче регулярного чемпионата МЛС. В ночь на 24 августа « Атланта » Алексея Миранчука встретится с «Канзас-Сити» Магомеда-Шапи Сулейманова. МЛС ",
-          "url": "https://www.sports.ru/football/1117342713-mls-inter-majami-sygraet-s-toronto-atlanta-protiv-kanzas-siti.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/271/3/share/adfa34_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T01:42:00.000Z",
+          "id": "sports-4-1787464680000",
+          "title": "Шакил ОНил о звездах, которые игнорируют конкурс данков: «Они неженки и просто боятся»",
+          "summary": "Член Зала славы Шакил О ′Нил предложил свою версию объяснения того, почему звезды НБА не участвуют в конкурсе по броскам сверху. «Как бы это назвать... неженки? Можете так им и передать, это мои слова. Они неженки и прос",
+          "url": "https://www.sports.ru/basketball/1117343928-shakil-onil-o-zvezdax-kotorye-ignoriruyut-konkurs-dankov-oni-nezhenki-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/392/8/share/22b94c_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T05:58:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1018,7 +1007,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-23T02:53:19.084Z",
+      "lastFetchAt": "2026-08-23T06:20:24.928Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1026,60 +1015,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787452999000",
-          "title": "В МИД назвали страны с высокой явкой на выборах в Госдуму",
+          "id": "politics-0-1787463600000",
+          "title": "Экс-премьер Украины назвал способную решить судьбу Зеленского страну",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/v-mid-nazvali-strany-s-vysokoy-yavkoy-na-vyborah-v-gosdumu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/05/20260823054246079/pic_28efa0c58c00e3dfb66be749cd77e032.jpg",
-          "publishedAt": "2026-08-23T02:43:19.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/eks-premier-ukrainy-nazval-sposobnuyu-reshit-sudbu-zelenskogo-stranu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823082910253/pic_229455c2caf80cbaa3922100483e5708.jpg",
+          "publishedAt": "2026-08-23T05:40:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787452989000",
-          "title": "Мендель нашла объяснение убийству сотрудника ТЦК во Львове",
+          "id": "politics-1-1787463120000",
+          "title": "Минобороны выпустило заявление после массированной атаки беспилотников на Россию",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/mendel-prokommentirovala-ubiystvo-sotrudnika-ttsk-vo-lvove/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/05/20260823054007638/pic_c5b4382d21f80136bf446373ff37c34b.jpg",
-          "publishedAt": "2026-08-23T02:43:09.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/minoborony-vypustilo-zayavlenie-posle-massirovannoy-ataki-bespilotnikov-na-rossiyu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823083223482/pic_9d1b6bbdc5a39c16b8fe73de2d9a6b0d.jpg",
+          "publishedAt": "2026-08-23T05:32:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787452535000",
-          "title": "Раскрыто отношение к новому министру обороны Украины на ЛБС",
+          "id": "politics-2-1787462283000",
+          "title": "Российские бойцы переоделись в форму ВСУ и уничтожили противников",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/raskryto-otnoshenie-k-novomu-ministru-oborony-ukrainy-na-lbs/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/05/20260823053605956/pic_636bf70dfdefa4e422bc51d12b5b3e65.jpg",
-          "publishedAt": "2026-08-23T02:35:35.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/rossiyskie-boytsy-pereodelis-v-formu-vsu-i-unichtozhili-protivnikov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823081442333/pic_3c4b0405e2e2fad896262391281efb39.jpg",
+          "publishedAt": "2026-08-23T05:18:03.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787450400000",
-          "title": "Иран пригрозил атаковать любые маршруты экспорта нефти из региона",
+          "id": "politics-3-1787462100000",
+          "title": "Обломки беспилотника упали на логистический комплекс маркетплейса в Оренбурге",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/iran-prigrozil-atakovat-lyubye-marshruty-eksporta-nefti-iz-regiona/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/04/20260823040914358/pic_681f6df04e3b5898501fbe0e8ce1d546.jpg",
-          "publishedAt": "2026-08-23T02:00:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/oblomki-bespilotnika-upali-na-logisticheskiy-kompleks-marketpleysa-v-orenburge/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/08/20260823081738902/pic_d3b05acfc466ee4acf92dd38671a6822.jpg",
+          "publishedAt": "2026-08-23T05:15:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787449500000",
-          "title": "Названа вызывающая недовольство Запада черта Зеленского",
+          "id": "politics-4-1787461222000",
+          "title": "Россиянам раскрыли способ вылечить кариес без сверления зубов",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/nazvana-vyzyvayuschaya-nedovolstvo-zapada-cherta-zelenskogo/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/04/20260823044524231/pic_229455c2caf80cbaa3922100483e5708.jpg",
-          "publishedAt": "2026-08-23T01:45:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/rossiyanam-raskryli-sposob-vylechit-karies-bez-sverleniya-zubov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/22/20/20260822201745245/pic_ac1dcd564f0c53a2b7876cb4e2f9e2be.jpg",
+          "publishedAt": "2026-08-23T05:00:22.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1088,7 +1077,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-22T22:09:31.811Z",
+      "lastFetchAt": "2026-08-23T06:20:26.319Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1180,7 +1169,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-22T22:09:37.393Z",
+      "lastFetchAt": "2026-08-23T06:20:27.136Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1250,7 +1239,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-22T22:09:38.403Z",
+      "lastFetchAt": "2026-08-23T06:20:27.641Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1258,7 +1247,19 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1787410260000",
+          "id": "travel-0-1787456280000",
+          "title": "Спасатели начали эвакуацию застрявших на Камчатке туристов",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/23/spasateli-nachali-evakuatsiyu-zastryavshih-na-kamchatke-turistov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/06/20260823064247401/pic_6eb21aae97888721fc8025ddc500a754.jpg",
+          "publishedAt": "2026-08-23T03:38:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1787410260000",
           "title": "Канцлера Германии освистали в первый рабочий день после отпуска",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/22/kantslera-germanii-osvistali-v-pervyy-rabochiy-den-posle-otpuska/",
@@ -1270,7 +1271,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1787409000000",
+          "id": "travel-2-1787409000000",
           "title": "Россиянин описал курорт Грузии фразой «набережная — как в Майами»",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/22/rossiyanin-opisal-kurort-gruzii-frazoy-naberezhnaya-kak-v-mayami/",
@@ -1282,7 +1283,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1787395739000",
+          "id": "travel-3-1787395739000",
           "title": "Около сотни туристов застряли на одном из вулканов Камчатки",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/22/okolo-sotni-turistov-zastryali-na-odnom-iz-vulkanov-kamchatki/",
