@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-23T16:11:39.588Z",
-  "lastRunAt": "2026-08-23T16:11:39.588Z",
+  "updatedAt": "2026-08-23T18:12:56.437Z",
+  "lastRunAt": "2026-08-23T18:12:56.437Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
-  ],
-  "skippedNow": [
     "it",
-    "cybersecurity",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
-    "law"
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-23T12:15:35.793Z",
+      "lastFetchAt": "2026-08-23T18:12:24.723Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -239,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-23T16:11:16.985Z",
+      "lastFetchAt": "2026-08-23T18:12:36.190Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -247,11 +247,23 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1787499746000",
+          "id": "business-0-1787500631000",
+          "title": "Иран объявил об открытии крупного месторождения газа в провинции Фарс",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223101-iran-ob-otkritii",
+          "image": "https://sharing.vedomosti.ru/1787500631/vedomosti.ru/business/news/2026/08/23/1223101-iran-ob-otkritii.jpg",
+          "publishedAt": "2026-08-23T15:57:11.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1787499746000",
           "title": "Bloomberg предупредил о надвигающемся дефиците качественного кофе",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223099-bloomberg-predupredil",
-          "image": "https://sharing.vedomosti.ru/1787499746/vedomosti.ru/business/news/2026/08/23/1223099-bloomberg-predupredil.jpg",
+          "image": "https://sharing.vedomosti.ru/1787505646/vedomosti.ru/business/news/2026/08/23/1223099-bloomberg-predupredil.jpg",
           "publishedAt": "2026-08-23T15:42:26.000Z",
           "source": "Ведомости",
           "categoryId": "business",
@@ -259,7 +271,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1787484325000",
+          "id": "business-2-1787484325000",
           "title": "Путин: проблемы на топливном рынке еще есть, но их решают",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223075-putin-problemi-na-toplivnom",
@@ -271,7 +283,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1787477921000",
+          "id": "business-3-1787477921000",
           "title": "Новак: защита российских НПЗ постоянно усиливается",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223062-novak-zaschita-rossiiskih",
@@ -283,7 +295,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1787477115000",
+          "id": "business-4-1787477115000",
           "title": "В России с 1 сентября отменят обязательные столовые и медпункты на автовокзалах",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223061-rossii-s-1-sentyabrya",
@@ -293,23 +305,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1787473189000",
-          "title": "В июле вторичный рынок электрокаров в России вырос почти в 3 раза",
-          "summary": "Nissan Leaf обеспечил треть всего спроса на электрокары",
-          "url": "https://www.vedomosti.ru/business/news/2026/08/23/1223056-iyule-vtorichnii",
-          "image": "https://cdn.vdmsti.ru/image/2026/6j/o9vn5/normal-vgj.png",
-          "publishedAt": "2026-08-23T08:19:49.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-23T12:15:41.621Z",
+      "lastFetchAt": "2026-08-23T18:12:37.788Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -329,36 +329,48 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1787411241000",
+          "id": "startups-1-1787501045000",
+          "title": "Бывшие инженеры SpaceX взялись за воскрешение заброшенного атомного проекта, чтобы питать дата-центры, — эксперты ставят на очередной провал",
+          "summary": "Для США это примерно пятый «атомный ренессанс», но обещания прорыва всё никак не сбудутся.",
+          "url": "https://vc.ru/future/3093103-spacex-inzheneri-vozrozhdayut-zabroshennyi-yadernoi-proiekt-dlya-data-tsentrov?from=rss",
+          "image": "https://leonardo.osnova.io/f984d836-eaf9-5356-b02e-1e0a2b5bc5ca/-/resize/1300/",
+          "publishedAt": "2026-08-23T16:04:05.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1787481941000",
+          "title": "LinkedIn поделился данными о жалобах на нейрослоп — за две недели на соответствующую кнопку нажало более 1 млн пользователей",
+          "summary": "Но часть аудитории относится к ней неоднозначно.",
+          "url": "https://vc.ru/social/3092888-linkedin-dobavil-knopu-dlya-zhalob-na-neuroslop?from=rss",
+          "image": "https://leonardo.osnova.io/b15995c0-fb74-5bf9-b934-e74fba2ec68b/",
+          "publishedAt": "2026-08-23T10:45:41.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1787488307000",
+          "title": "«Робот протягивает руку и просит оставить чаевые. Ваши действия?»",
+          "summary": "От них, скорее всего, и будет зависеть практика, пишет BBC.",
+          "url": "https://vc.ru/future/3093030-chaevi-robotam-kak-ostavlyat-i-komu-oni-idut?from=rss",
+          "image": "https://leonardo.osnova.io/e21bf893-e2f2-5320-aae3-8ae33edef6d7/",
+          "publishedAt": "2026-08-23T12:31:47.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1787411241000",
           "title": "Суд в США отменил приостановку выдачи иммиграционных виз гражданам 75 стран, включая Россию",
           "summary": "Её ввёл Госдеп США в январе 2026 года.",
           "url": "https://vc.ru/migration/3092201-sud-v-ssha-otmenil-priostanovku-viz?from=rss",
           "image": "https://leonardo.osnova.io/b7a74ea0-87df-5ecc-b8a9-ca3837dea9cd/",
           "publishedAt": "2026-08-22T15:07:21.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-2-1787382051000",
-          "title": "Ozon сообщил об атаке беспилотников на склад в Самарской области — товары оттуда сняли с онлайн-витрины",
-          "summary": "Размер ущерба пока неизвестен.",
-          "url": "https://vc.ru/marketplace/3091703-ataka-bespilotnikov-na-sklad-ozon-v-samarskoy-oblasti?from=rss",
-          "image": "https://leonardo.osnova.io/f8325c6a-9333-5aaf-a85b-a81acde618d6/",
-          "publishedAt": "2026-08-22T07:00:51.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1787402995000",
-          "title": "Робот производителя смартфонов Honor «побил» мировой рекорд Усэйна Болта на стометровке",
-          "summary": "Официальным роборекорд, конечно, не считается.",
-          "url": "https://vc.ru/future/3092053-robot-honor-pobil-rekord-usejna-bolta-na-stometrovke?from=rss",
-          "image": "https://leonardo.osnova.io/2a4dea20-79d2-5a27-a457-5f6fcb1dfe06/-/resize/1300/",
-          "publishedAt": "2026-08-22T12:49:55.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -425,7 +437,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-23T12:15:45.440Z",
+      "lastFetchAt": "2026-08-23T18:12:43.338Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -541,7 +553,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-23T12:15:46.024Z",
+      "lastFetchAt": "2026-08-23T18:12:44.166Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -773,7 +785,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-23T12:15:48.583Z",
+      "lastFetchAt": "2026-08-23T18:12:46.160Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -781,7 +793,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1787475657000",
+          "id": "gaming-0-1787497673000",
+          "title": "Очень кратко о Mortal Shell 2",
+          "summary": "Буквально в паре предложений расскажу о своих впечатлениях после прохождения Mortal Shell 2. Полноценный обзор я писать не собираюсь, так как об игре мне сказать особо нечего. Перед нами типичный, но при этом добротно сд",
+          "url": "https://habr.com/ru/articles/1073482/?utm_campaign=1073482&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/9ea/8ab/551/9ea8ab55161a87038dc9d0cee7038909.jpg",
+          "publishedAt": "2026-08-23T15:07:53.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1787475657000",
           "title": "Королевская награда за ум: история King's Bounty",
           "summary": "Диск лежал на полке рядом с десятком других коробок — 2008 год, обычный магазин с играми, ничем не примечательная витрина. На обложке три персонажа: воин, паладин и маг. Строгие лица, никакого намека на юмор. Выглядит ка",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1072482/?utm_campaign=1072482&utm_source=habrahabr&utm_medium=rss",
@@ -793,7 +817,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1787472353000",
+          "id": "gaming-2-1787472353000",
           "title": "GTA VI не за горами. Разбираемся, как к ней подготовиться, чтобы получить максимум кайфа",
           "summary": "Весь интернет и геймерское сообщество замерло в ожидании, ведь до главного релиза десятилетия осталось каких-то два с лишним месяца. Омрачает эту ситуацию два факта: Rockstar не изменяют своим традициям, и GTA VI — это к",
           "url": "https://habr.com/ru/companies/timeweb/articles/1072128/?utm_campaign=1072128&utm_source=habrahabr&utm_medium=rss",
@@ -805,7 +829,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1787461240000",
+          "id": "gaming-3-1787461240000",
           "title": "Что получится, если смешать Fallout 2 и Battle Brothers в одной огромной CRPG, да ещё и на Android? Sunarius",
           "summary": "Сравнивать свою игру с Fallout 2 и Battle Brothers довольно опасно. У обеих игр слишком много игроков, которые помнят их лучше, чем собственный пароль от почты (я люблю так шутить). Один скажет, что Fallout 2 это прежде ",
           "url": "https://habr.com/ru/articles/1073356/?utm_campaign=1073356&utm_source=habrahabr&utm_medium=rss",
@@ -817,7 +841,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1787389223000",
+          "id": "gaming-4-1787389223000",
           "title": "Моды, которые превращают ванильный Fallout 4 в современную игру: оружие, одежда и кое-что еще. Часть 3",
           "summary": "Ну что, вот и третья часть серии материалов про изменение ванильной Fallout 4. Первую можно почитать тут, вторую здесь. В прошлых частях этой серии я уже разбирался с графикой, производительностью, поселениями и прочим. ",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1073080/?utm_campaign=1073080&utm_source=habrahabr&utm_medium=rss",
@@ -827,23 +851,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1787379854000",
-          "title": "Реинкарнация проекта через cursor",
-          "summary": "В далеком 2010 году я решил вступить в партию GameDev ибо на рынке было глухо средь космических стратегий. Знаменитый СтарКвейк на стратегию никак не тянул, в сети главенствовал Огейм и его бесчисленные клоны. Но три иск",
-          "url": "https://habr.com/ru/articles/1073004/?utm_campaign=1073004&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/698/531/e44/698531e44b84899df0a43bf18a7a8b5a.png",
-          "publishedAt": "2026-08-22T06:24:14.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-23T12:15:53.295Z",
+      "lastFetchAt": "2026-08-23T18:12:51.345Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -851,7 +863,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1787401731000",
+          "id": "entertainment-0-1787500366000",
+          "title": "Пуд Будд // Пушкинский музей впервые показывает буддийские сокровища",
+          "summary": "В Пушкинском музее проходит выставка «Алмазная колесница. Буддийское искусство России». Поражающий масштабами проект — а всего здесь более 700 экспонатов — знакомит с раритетами из коллекций самого ГМИИ и Музея Востока, ",
+          "url": "https://www.kommersant.ru/doc/8906539",
+          "image": "https://im2.kommersant.ru/SocialPics/8906539_49_3188000_1391132288",
+          "publishedAt": "2026-08-23T15:52:46.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1787401731000",
           "title": "Прощание с музыкантом «Кукрыниксов» Дмитрием Оганяном пройдет 24 августа",
           "summary": "Прощание с музыкантом «Кукрыниксов» Дмитрием Оганяном состоится в Санкт-Петербурге 24 августа. Об этом сообщила «Ъ» представительница группы «Кселен» Елена Степанова.",
           "url": "https://www.kommersant.ru/doc/8906250",
@@ -863,7 +887,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1787356405000",
+          "id": "entertainment-2-1787356405000",
           "title": "Меган Маркл может вернуться к актерской карьере",
           "summary": "Герцогиня Сассекская Меган Маркл ведет переговоры о возможном участии в третьем сезоне сериала Гая Ричи «Джентльмены». В 2018 году, за месяц до свадьбы с принцем Гарри, герцогом Сассекским, она объявила о завершении акте",
           "url": "https://www.kommersant.ru/doc/8906099",
@@ -875,7 +899,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1787328000000",
+          "id": "entertainment-3-1787328000000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 22–23 августа",
           "summary": "20 августа в прокат вышел ряд фильмов, среди которых сатирический триллер со звездным кастом «Жертва обстоятельств» и боевик без лишних слов «Мотор Сити». Что посмотреть в кино на выходных — в материале «Ъ».",
           "url": "https://www.kommersant.ru/doc/8893980",
@@ -887,7 +911,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1787324996000",
+          "id": "entertainment-4-1787324996000",
           "title": "Самый сильный красно-синий // «Человек-паук: Новый день» предлагает зрителю возвращение старого",
           "summary": "До российского параллельного проката добралась долгожданная премьера — «Человек-паук: Новый день» Дэниела Дестина Креттона, 38-й фильм киновселенной «Марвел» (MCU). Еще до своего выхода он успел из кино превратиться в пр",
           "url": "https://www.kommersant.ru/doc/8905729",
@@ -897,23 +921,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787321007000",
-          "title": "Как тебе такое, Илон Вакх? // Зальцбургский фестиваль отправил «Ариадну на Наксосе» на Марс",
-          "summary": "Одной из премьер нынешнего Зальцбургского фестиваля стала «Ариадна на Наксосе» Рихарда Штрауса. Постановщиком выступил немец с турецкими корнями Эрсан Мондтаг — входящий в моду режиссер и художник интердисциплинарного то",
-          "url": "https://www.kommersant.ru/doc/8905678",
-          "image": "https://im2.kommersant.ru/SocialPics/8905678_49_3187280_1407339340",
-          "publishedAt": "2026-08-21T14:03:27.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-23T16:11:32.415Z",
+      "lastFetchAt": "2026-08-23T18:12:54.734Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -921,60 +933,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787501100000",
-          "title": "Адам Сильвер может помочь урегулировать конфликт семьи Басс вокруг «Лейкерс»",
-          "summary": "Ситуация вокруг « Лейкерс » остается неоднозначной. По информации Sports Business Journal, комиссионер НБА Адам Сильвер, который всегда поддерживал тесные отношения с Джини Басс, может попытаться помочь сгладить конфликт",
-          "url": "https://www.sports.ru/basketball/1117344618-adam-silver-mozhet-pomoch-uregulirovat-konflikt-semi-bass-vokrug-lejke.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/461/8/share/78b921_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T16:05:00.000Z",
+          "id": "sports-0-1787508360000",
+          "title": "«Ренн» – «ПСЖ». Сафонов и Хвича ирают. Онлайн-трансляция начнется в 21:45",
+          "summary": "«ПСЖ » сыграет в гостях с « Ренном » в матче 1-го тура Лиги 1. Встреча пройдет на стадионе «Роазон Парк» в Ренне. Спортс’‘ проведет текстовую онлайн-трансляцию игры. Начало – в 21:45 по московскому времени. Игру в прямом",
+          "url": "https://www.sports.ru/football/1117344740-milan-renn-onlajn-translyacziya-nachnetsya-v-2145.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/474/0/share/4767ce_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T18:06:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787501045000",
-          "title": "Вюрцбургер Киккерс – Кельн – во сколько и где смотреть трансляцию матча, Кубок Германии, 24 августа 2026",
-          "summary": "В понедельник, 24 августа, сыграют Вюрцбургер Киккерс и Кельн в матче 1-го раунда Кубка Германии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 19:00 по московскому времени. Где смотре",
-          "url": "https://www.sports.ru/football/1117344660-vyurczburger-kikkers-keln-vo-skolko-i-gde-smotret-translyacziyu-matcha.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/466/0/share/e905b2_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T16:04:05.000Z",
+          "id": "sports-1-1787508124000",
+          "title": "Порту  Арука: смотреть онлайн прямую трансляцию матча, 23 августа 2026",
+          "summary": "Во воскресенье, 23 августа, сыграют Порту и Арука в матче 3-го тура высшей лиги Португалии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 22:30 по московскому времени. Где смотреть мат",
+          "url": "https://www.sports.ru/football/1117344863-portu-aruka-smotret-onlajn-pryamuyu-translyacziyu-matcha-23-avgusta-20.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/486/3/share/d8d781_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T18:02:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787501045000",
-          "title": "Альтглинике – Вольфсбург – во сколько и где смотреть трансляцию матча, Кубок Германии, 24 августа 2026",
-          "summary": "В понедельник, 24 августа, сыграют Альтглинике и Вольфсбург в матче 1-го раунда Кубка Германии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 19:00 по московскому времени. Где смотреть",
-          "url": "https://www.sports.ru/football/1117344659-altglinike-volfsburg-vo-skolko-i-gde-smotret-translyacziyu-matcha-kubo.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/465/9/share/c2247f_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T16:04:05.000Z",
+          "id": "sports-2-1787508124000",
+          "title": "Эльче  Барселона: смотреть онлайн прямую трансляцию матча, 23 августа 2026",
+          "summary": "Во воскресенье, 23 августа, сыграют Эльче и Барселона в матче 2-го тура Ла Лиги. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 22:30 по московскому времени. Где смотреть матч Эльче — Б",
+          "url": "https://www.sports.ru/football/1117344862-elche-barselona-smotret-onlajn-pryamuyu-translyacziyu-matcha-23-avgust.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/486/2/share/f01d12_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T18:02:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787501044000",
-          "title": "Ферль – Гамбург – во сколько и где смотреть трансляцию матча, Кубок Германии, 24 августа 2026",
-          "summary": "В понедельник, 24 августа, сыграют Ферль и Гамбург в матче 1-го раунда Кубка Германии. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 19:00 по московскому времени. Где смотреть матч Фер",
-          "url": "https://www.sports.ru/football/1117344658-ferl-gamburg-vo-skolko-i-gde-smotret-translyacziyu-matcha-kubok-german.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/465/8/share/1caf7f_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T16:04:04.000Z",
+          "id": "sports-3-1787508120000",
+          "title": "Джордж Расселл: «Мой лучший уик-энд за долгое время»",
+          "summary": "Пилот « Мерседеса » Джордж Расселл поделился эмоциями после того, как занял третье место на Гран-при Нидерландов , уступив напарнику Андреа Кими Антонелли. «Эмоции… Да нормальные, честно. В целом я доволен. Это мой лучши",
+          "url": "https://www.sports.ru/automoto/1117344854-dzhordzh-rassell-moj-luchshij-uik-end-za-dolgoe-vremya.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/485/4/share/086903_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T18:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787500923000",
-          "title": "Хетафе  Расинг: смотреть онлайн прямую трансляцию матча, 23 августа 2026",
-          "summary": "Во воскресенье, 23 августа, сыграют Хетафе и Расинг в матче 2-го тура Ла Лиги. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 20:30 по московскому времени. Где смотреть матч Хетафе — Ра",
-          "url": "https://www.sports.ru/football/1117344652-xetafe-rasing-smotret-onlajn-pryamuyu-translyacziyu-matcha-23-avgusta-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/465/2/share/ae25f2_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-23T16:02:03.000Z",
+          "id": "sports-4-1787508000000",
+          "title": "Инфантино о турнире U14, который президент КОНКАКАФ просил его не посещать: «Мы полностью привержены нашей работе: развитию футбола во всех уголках мира»",
+          "summary": "Президент ФИФА Джанни Инфантино высказался о посещении юношеского турнира Карибского футбольного союза U14 в Доминиканской Республике. Ранее президент КОНКАКАФ Виктор Монтальяни в письме Инфантино попросил его пересмотре",
+          "url": "https://www.sports.ru/football/1117344765-infantino-o-turnire-u14-kotoryj-prezident-konkakaf-prosil-ego-ne-poses.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/476/5/share/5ec6cb_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-23T18:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -983,7 +995,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-23T16:11:33.851Z",
+      "lastFetchAt": "2026-08-23T18:12:56.436Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -991,60 +1003,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787501068000",
-          "title": "«Динамо» обыграло «Родину» в московском дерби",
+          "id": "politics-0-1787507282000",
+          "title": "Ибрагимович оценил смену имиджа Холанда фразой «заблокируй меня»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/dinamo-obygralo-rodinu-v-moskovskom-derbi/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-23T16:04:28.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/ibragimovich-otsenil-smenu-imidzha-holanda-frazoy-zablokiruy-menya/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/19/20260823194753498/pic_10407806b84279e33d5dbca1cbb393ba.jpg",
+          "publishedAt": "2026-08-23T17:48:02.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787499974000",
-          "title": "Фигурист Гуменник представит программу под Юру Борисова",
+          "id": "politics-1-1787507220000",
+          "title": "В США предрекли переход значительной части Украины к России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/figurist-gumennik-predstavit-programmu-pod-yuru-borisova/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/18/20260823180250715/pic_a63b5a908d7faab3405030375d7504b1.jpg",
-          "publishedAt": "2026-08-23T15:46:14.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/v-ssha-predrekli-perehod-znachitelnoy-chasti-ukrainy-k-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/20/20260823205007212/pic_ade7caf636125e1f5564b41b4301e594.jpg",
+          "publishedAt": "2026-08-23T17:47:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787499960000",
-          "title": "Зеленский высказался о причастности Украины к подрывам «Северных потоков»",
+          "id": "politics-2-1787507100000",
+          "title": "Подростки в Москве забрались под купол Живописного моста и попали в полицию",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/zelenskiy-vyskazalsya-o-prichastnosti-ukrainy-k-podryvam-severnyh-potokov/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/18/20260823184742390/pic_a8c2ca90e3cd27bcd41f8d21088700d6.jpg",
-          "publishedAt": "2026-08-23T15:46:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/podrostki-v-moskve-zabralis-pod-kupol-zhivopisnogo-mosta-i-popali-v-politsiyu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/20/20260823202513921/pic_6180afbd13ef8a30406c2af1b89595ba.jpg",
+          "publishedAt": "2026-08-23T17:45:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787499634000",
-          "title": "Кандидат в президенты США призвала к сотрудничеству с Россией",
+          "id": "politics-3-1787506737000",
+          "title": "Над регионами России и акваторией Черного моря за день сбили 269 украинских БПЛА",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/kandidat-v-prezidenty-ssha-prizvala-k-sotrudnichestvu-s-rossiey/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/18/20260823184143084/pic_750727a2dc8a64f192d89e827f3f5a2c.jpg",
-          "publishedAt": "2026-08-23T15:40:34.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/nad-regionami-rossii-i-akvatoriey-chernogo-morya-za-den-sbili-269-ukrainskih-bpla/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/20/20260823204049813/pic_2428446697107e954da9a5be9dcb33bd.jpg",
+          "publishedAt": "2026-08-23T17:38:57.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787499540000",
-          "title": "Назван тип атаковавших собор в Горловке БПЛА ВСУ",
+          "id": "politics-4-1787506620000",
+          "title": "Российского хореографа нашли мертвым после обвинений в изнасиловании",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/23/nazvan-tip-atakovavshih-sobor-v-gorlovke-bpla-vsu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/23/18/20260823183545397/pic_130ebc147a655c0e43583b5d9032d379.jpg",
-          "publishedAt": "2026-08-23T15:39:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/23/rossiyskogo-horeografa-nashli-mertvym-posle-obvineniy-v-iznasilovanii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/23/20/20260823203700403/pic_9bdd032abaf40761b1531addb10aea6f.jpg",
+          "publishedAt": "2026-08-23T17:37:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
