@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2026-08-25T02:49:29.691Z",
-  "lastRunAt": "2026-08-25T04:27:08.197Z",
+  "updatedAt": "2026-08-25T06:24:06.649Z",
+  "lastRunAt": "2026-08-25T06:24:06.649Z",
   "totalCategories": 20,
-  "fetchedNow": [],
-  "skippedNow": [
+  "fetchedNow": [
     "it",
-    "ai",
-    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
-    "politics",
+    "politics"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
     "law",
     "realestate",
@@ -28,7 +29,7 @@
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-25T00:33:25.880Z",
+      "lastFetchAt": "2026-08-25T06:23:46.686Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -36,7 +37,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1787591824000",
+          "id": "it-0-1787634436000",
+          "title": "Проблему репетиторства сформулировали в 1984 году. Ответа до сих пор нет",
+          "summary": "В 1984 году Бенджамин Блум доказал: ученик, занимающийся с репетитором один на один, обходит 98% обычного класса. Казалось бы, вывод очевиден. Но сам Блум написал, что это слишком дорого для общества, и поставил вопрос —",
+          "url": "https://habr.com/ru/articles/1074020/?utm_campaign=1074020&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/085/40c/3bd/08540c3bd2a50be3e2a14dd4e88a9dd8.png",
+          "publishedAt": "2026-08-25T05:07:16.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1787591824000",
           "title": "[Перевод] Структуры данных на практике. Глава 19: Управление памятью в прошивках",
           "summary": "«Управление сложностью — сама суть программирования компьютеров.» — Брайан Керниган Стадия финального тестирования Мы находились на этапе финального тестирования проекта IoT‑датчика — устройства для умного дома с 128 КБ ",
           "url": "https://habr.com/ru/articles/1068876/?utm_campaign=1068876&utm_source=habrahabr&utm_medium=rss",
@@ -48,7 +61,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1787584286000",
+          "id": "it-2-1787584286000",
           "title": "Генератор трафика как инструмент RnD: от концепции до метрик",
           "summary": "На мероприятиях по сетевой безопасности всё чаще обсуждают, как правильно соотносить показатели производительности сетевых средств защиты информации (СЗИ) с потребностями организации. Новые функции и продукты в условиях ",
           "url": "https://habr.com/ru/companies/infotecs_tech/articles/1073878/?utm_campaign=1073878&utm_source=habrahabr&utm_medium=rss",
@@ -60,7 +73,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1787580320000",
+          "id": "it-3-1787580320000",
           "title": "[Перевод] Глубокое погружение в React Fiber",
           "summary": "Задумывались ли вы когда-нибудь о том, что на самом деле происходит под капотом, когда вы рендерите приложение React? Мы знаем, что React строит дерево DOM и отображает UI на экране, но как React конструирует это дерево ",
           "url": "https://habr.com/ru/companies/timeweb/articles/1068626/?utm_campaign=1068626&utm_source=habrahabr&utm_medium=rss",
@@ -72,24 +85,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1787577897000",
+          "id": "it-4-1787577897000",
           "title": "Делаем пост‑квантовый протокол удобным, не ломая шифрование на TypeScript. Обновленная и гибкая библиотека",
           "summary": "Как я улучшил гибридный квантово-устройчивый протокол шифрования за 4 месяца экспериментов. Разбор различных методов ротации ключей, NTT и других нюансов проектирования протоколов шифрования с объяснением. Читать далее",
           "url": "https://habr.com/ru/articles/1073836/?utm_campaign=1073836&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/5a6/4b3/aae/5a64b3aaebd616603f588a451f757e1f.png",
           "publishedAt": "2026-08-24T13:24:57.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787577290000",
-          "title": "[Перевод] Четыре столпа производительности ЦП",
-          "summary": "Здравствуйте, уважаемые читатели. В мае мы выпустили 2-е издание (на русском языке - первое) фундаментальной книги Дениса Бахвалова \"Оптимизация производительности современных процессоров\". Денис Бахвалов, легендарный в ",
-          "url": "https://habr.com/ru/companies/bhv_publishing/articles/1073826/?utm_campaign=1073826&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/6b1/7b6/8ae/6b17b68aeb3ffced8bd4ae9484fe846e.jpg",
-          "publishedAt": "2026-08-24T13:14:50.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -238,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-25T02:49:17.028Z",
+      "lastFetchAt": "2026-08-25T06:23:48.244Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -246,7 +247,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1787605380000",
+          "id": "business-0-1787637522000",
+          "title": "Продажу алкоголя ограничат в 60 регионах на 1 сентября",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/business/news/2026/08/25/1223442-prodazhu-alkogolya",
+          "image": "https://cdn.vdmsti.ru/image/2026/6l/iejlv/normal-nun.jpg",
+          "publishedAt": "2026-08-25T05:58:42.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1787605380000",
           "title": "Владимир Балтер: «Для нас IPO – не самоцель, а показатель зрелости»",
           "summary": "Новый генеральный директор «Росагролизинга» о донастройке модели управления компанией, новых бизнесах и планах IPO",
           "url": "https://www.vedomosti.ru/business/characters/2026/08/25/1223415-vladimir-balter-dlya-nas-ipo-ne-samotsel",
@@ -258,11 +271,11 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1787605200000",
+          "id": "business-2-1787605200000",
           "title": "А сам не плошай",
           "summary": "Почему бизнесу стоит не забывать о комплексных мерах по защите своих объектов",
           "url": "https://www.vedomosti.ru/opinion/columns/2026/08/25/1223397-a-sam-ne-ploshai",
-          "image": "https://cdn.vdmsti.ru/image/2026/6k/1cdnd6/normal-1qp6.jpg",
+          "image": "https://cdn.vdmsti.ru/image/2026/6l/4nnaj/normal-619.jpg",
           "publishedAt": "2026-08-24T21:00:00.000Z",
           "source": "Ведомости",
           "categoryId": "business",
@@ -270,7 +283,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1787602553000",
+          "id": "business-3-1787602553000",
           "title": "Источники «Ведомостей»: экспорт зерна может стать беспошлинным до конца года",
           "summary": "Мораторий прорабатывается на фоне сложностей с вывозом сельхозпродукции через порты Азово-Черноморского бассейна",
           "url": "https://www.vedomosti.ru/business/articles/2026/08/24/1223409-eksport-zerna-mozhet",
@@ -282,7 +295,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1787593502000",
+          "id": "business-4-1787593502000",
           "title": "Ozon рассказал о мерах поддержки пострадавших от атак БПЛА продавцов",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/24/1223385-ozon-rasskazal-o-merah",
@@ -292,23 +305,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1787580062000",
-          "title": "Мяч, которым Марадона забил гол «рукой Бога», продали за $3,35 млн",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/08/24/1223330-myach-maradona-prodali",
-          "image": "https://cdn.vdmsti.ru/image/2026/6k/zu9s3/normal-1ag6.png",
-          "publishedAt": "2026-08-24T14:01:02.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-25T00:33:33.177Z",
+      "lastFetchAt": "2026-08-25T06:23:50.936Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -328,24 +329,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1787550467000",
-          "title": "Ozon сообщил об атаке беспилотников на склады в Краснодаре, Невинномысске, Адыгейске и Махачкале",
-          "summary": "На объектах в Краснодаре и Махачкале возникли пожары.",
-          "url": "https://vc.ru/marketplace/3093688-ozon-ataka-bespilotnikov-sklady-krasnodar-mahachkala?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3093688/1787618012/cover.jpg",
-          "publishedAt": "2026-08-24T05:47:47.000Z",
+          "id": "startups-1-1787595409000",
+          "title": "Отключение повторной продажи FBS-товаров со складов и бесплатная перевозка товаров с закрытых объектов на другие: Ozon рассказал о мерах поддержки пострадавших продавцов",
+          "summary": "За три дня атаковали шесть объектов маркетплейса.",
+          "url": "https://vc.ru/marketplace/3095203-podderzhka-prodavtsov-ozon-posle-atak-na-sklady?from=rss",
+          "image": "https://leonardo.osnova.io/aaa92f4a-0bde-52da-8483-635051c2375b/",
+          "publishedAt": "2026-08-24T18:16:49.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1787595409000",
-          "title": "Отключение повторной продажи FBS-товаров со складов и бесплатная перевозка товаров с закрытых объектов на другие: Ozon рассказал о мерах поддержки пострадавших продавцов",
-          "summary": "За три дня атаковали шесть объектов маркетплейса.",
-          "url": "https://vc.ru/marketplace/3095203-podderzhka-prodavtsov-ozon-posle-atak-na-sklady?from=rss",
-          "image": "https://leonardo.osnova.io/aaa92f4a-0bde-52da-8483-635051c2375b/",
-          "publishedAt": "2026-08-24T18:16:49.000Z",
+          "id": "startups-2-1787550467000",
+          "title": "Ozon сообщил об атаке беспилотников на склады в Краснодаре, Невинномысске, Адыгейске и Махачкале",
+          "summary": "На объектах в Краснодаре и Махачкале возникли пожары.",
+          "url": "https://vc.ru/marketplace/3093688-ozon-ataka-bespilotnikov-sklady-krasnodar-mahachkala?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3093688/1787639030/cover.jpg",
+          "publishedAt": "2026-08-24T05:47:47.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -448,7 +449,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-25T00:33:37.208Z",
+      "lastFetchAt": "2026-08-25T06:23:56.299Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -576,7 +577,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-25T00:33:39.126Z",
+      "lastFetchAt": "2026-08-25T06:23:56.984Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -795,7 +796,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-25T00:33:49.031Z",
+      "lastFetchAt": "2026-08-25T06:23:59.318Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -865,7 +866,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-25T00:33:50.753Z",
+      "lastFetchAt": "2026-08-25T06:24:01.857Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -877,7 +878,7 @@
           "title": "Кит Харингтон сыграет Златопуста Локонса во втором сезоне «Гарри Поттера»",
           "summary": "Британский актер Кит Харингтон, известный по роли Джона Сноу в «Игре престолов», сыграет Златопуста Локонса во втором сезоне сериала HBO «Гарри Поттер». Он заменит Николаса Холта, который, по данным Variety, покинул прое",
           "url": "https://www.kommersant.ru/doc/8907385",
-          "image": "https://iv.kommersant.ru/SocialPics/8907385_49_3188816_680636826",
+          "image": "https://im2.kommersant.ru/SocialPics/8907385_49_3188816_680636826",
           "publishedAt": "2026-08-24T17:32:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -925,7 +926,7 @@
           "title": "Путин наградил орденом оперную певицу Хиблу Герзмаву",
           "summary": "Президент России Владимир Путин удостоил ордена «За заслуги в культуре и искусстве» оперную певицу Хиблу Герзмаву. Указ размещен на сайте опубликования правовых актов.",
           "url": "https://www.kommersant.ru/doc/8907245",
-          "image": "https://iv.kommersant.ru/SocialPics/8907245_49_3188647_1113335321",
+          "image": "https://im2.kommersant.ru/SocialPics/8907245_49_3188647_1113335321",
           "publishedAt": "2026-08-24T14:17:31.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -935,7 +936,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-25T02:49:19.473Z",
+      "lastFetchAt": "2026-08-25T06:24:05.031Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -943,60 +944,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787625360000",
-          "title": "«Челси» нужно решить проблему с вратарем – она снова даст о себе знать, как в матче с «Фулхэмом». Каррагер об ошибках Санчеса",
-          "summary": "Джейми Каррагер раскритиковал игру вратаря «Челси» Роберта Санчеса в матче 1-го тура АПЛ с « Фулхэмом » (3:2). «Были опасения по поводу игры [« Челси »] в обороне. Они пропустили пару голов, и можно пенять на вратаря, но",
-          "url": "https://www.sports.ru/football/1117346204-chelsi-nuzhno-reshit-problemu-s-vratarem-ona-snova-dast-o-sebe-znat-ka.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/620/4/share/6e1185_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-25T02:36:00.000Z",
+          "id": "sports-0-1787638680000",
+          "title": "Энджел Риз установила два рекорда женской НБА: по подборам за матч (26) и за сезон (458)",
+          "summary": "Звездный форвард « Атланты » Энджел Риз собрала 26 подборов в победном матче против «Лос-Анджелеса» (78:71). 24-летняя баскетболистка оформила новый рекорд лиги, превзойдя результат Чамик Холдскло, которая в 2003 году за",
+          "url": "https://www.sports.ru/basketball/1117346275-endzhel-riz-ustanovila-rekord-zhenskoj-nba-sobrav-26-podborov.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/627/5/share/dd0530_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-25T06:18:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787624280000",
-          "title": "Артига об аутах Бевеева: «Исполнение хорошее, но неплохо бы применить правило, чтобы вброс происходил из‑за, а не из пределов поля»",
-          "summary": "Тренер « Рубина » Франк Артига после ничьей с «Балтикой» (1:1) в РПЛ высказался о вбросах аута в исполнении защитника калининградцев Мингияна Бевеева . — «Рубин» активно мешал аутам Бевеева. Как вы к этому пришли? — Мы з",
-          "url": "https://www.sports.ru/football/1117346202-artiga-ob-autax-beveeva-ispolnenie-xoroshee-no-neploxo-by-primenit-pra.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/620/2/share/17d559_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-25T02:18:00.000Z",
+          "id": "sports-1-1787638680000",
+          "title": "Лига чемпионов. Раунд плей-офф. «Буде-Глимт» Хайкина примет НЕК, «Селтик» в гостях у ЛАСК, «Лион» сыграет с «Фенербахче» в среду",
+          "summary": "Во вторник в ответных матчах раунда плей-офф Лиги чемпионов « Буде-Глимт » Никиты Хайкина примет НЕК , « Селтик » сыграет в гостях с ЛАСК . В среду « Лион » проведет домашний матч с « Фенербахче ». Победители раунда плей",
+          "url": "https://www.sports.ru/football/1117346277-liga-chempionov-raund-plej-off-bude-glimt-xajkina-primet-nek-seltik-v-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/627/7/share/5ab3b9_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-25T06:18:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787623200000",
-          "title": "Черчесов о будущем Дзюбы: «Тикают часы спортивные. У «Ахмата» три нападающих, места заняты»",
-          "summary": "Тренер « Ахмата » Станислав Черчесов высказался о будущем Артема Дзюбы . Последние два сезона 38-летний форвард провел в «Акроне», а теперь находится в статусе свободного агента. — Куда бы вы посоветовали перейти Дзюбе? ",
-          "url": "https://www.sports.ru/football/1117346199-cherchesov-o-budushhem-dzyuby-tikayut-chasy-sportivnye-u-axmata-tri-na.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/619/9/share/c73eab_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-25T02:00:00.000Z",
+          "id": "sports-2-1787638500000",
+          "title": "Толчинский о «Металлурге»: «У Разина рисуют, куда надо ехать, когда ты без шайбы в атаке. В моих прошлых командах рисовали, где ты в обороне. Другой акцент»",
+          "summary": "Форвард « Металлурга » Сергей Толчинский рассказал о требованиях главного тренера команды Андрея Разина . – Что нового увидели за год работы с Разиным? Многие говорят, что у него особые требования в плане скорости. – Не ",
+          "url": "https://www.sports.ru/hockey/1117346276-tolchinskij-o-metallurge-v-proshlyx-komandax-risovali-kuda-exat-bez-sh.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/627/6/share/3b929e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-25T06:15:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1787622420000",
-          "title": "Алонсо про 1+1 Палмера: «Он играл ответственно, зрело и непринужденно. Если хотим хороший «Челси», нужен великолепный Коул»",
-          "summary": "Тренер «Челси» Хаби Алонсо доволен игрой Коула Палмера в матче с «Фулхэмом» (3:2) в 1-м туре АПЛ. На счету хавбека «синих» победный гол и результативная передача в этой игре. «Голы были великолепны: отличные комбинации, ",
-          "url": "https://www.sports.ru/football/1117346197-alonso-pro-11-palmera-on-igral-otvetstvenno-zrelo-i-neprinuzhdenno-esl.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/619/7/share/45ba51_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-25T01:47:00.000Z",
+          "id": "sports-3-1787638260000",
+          "title": "Монтеррей (WTA). Таусон, Тьен, Паркс вышли во 2-й круг, Векич, Таггер выбыли",
+          "summary": "Лилли Таггер уступила Юлии Стародубцевой в первом круге пятисотника в Монтеррее. Cетка турнира здесь . Abierto GNP Seguros Монтеррей, Мексика 23 – 29 августа 2026 WTA 500 Призовой фонд – 1 206 446 долларов Открытые корты",
+          "url": "https://www.sports.ru/tennis/1117345086-monterrej-wta-2026-rezultaty-pervogo-kruga.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/508/6/share/bcaa2a_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-25T06:11:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1787621280000",
-          "title": "Евсеев о возможном уходе Аззи: «У «Динамо» Махачкала есть Сандрачук»",
-          "summary": "Тренер «Динамо» Махачкала Вадим Евсеев высказался о возможном уходе защитника Мохамеда Аззи. – Сейчас много разговоров про возможный уход Аззи. Что делать? – Это футбол, это жизнь. Хорошо играете – будут предложения. Пло",
-          "url": "https://www.sports.ru/football/1117346195-evseev-o-vozmozhnom-uxode-azzi-u-dinamo-maxachkala-est-sandrachuk.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/619/5/share/24c3e8_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-25T01:28:00.000Z",
+          "id": "sports-4-1787638200000",
+          "title": "Концерты Канье Уэста на «Газпром Арене» под угрозой срыва, Литвинов выбыл на месяц, первая победа «Челси» при Алонсо, Россию не допустили до шахматной Олимпиады и другие новости",
+          "summary": "1. Концерты Канье Уэста на стадионе «Зенита» могут не состояться: «Газпром Арена» объявила , что не подписывала договоров на выступления. В то же время организатор утверждает , что концерты пока не отменены. Есть информа",
+          "url": "https://www.sports.ru/football/1117345721-utrennij-dajdzhest.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/572/1/share/25fcf1_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-25T06:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1005,7 +1006,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-25T02:49:20.866Z",
+      "lastFetchAt": "2026-08-25T06:24:06.648Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1013,48 +1014,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787625824000",
-          "title": "Раскрыта стоимость уклонения от мобилизации на Украине",
+          "id": "politics-0-1787638872000",
+          "title": "Бывшая жена Гуфа назвала Канье Уэста психически больным",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/raskryta-stoimost-ukloneniya-ot-mobilizatsii-na-ukraine/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/05/20260825054337586/pic_015c3cf469f1d7a6c966f0d352af1929.jpg",
-          "publishedAt": "2026-08-25T02:43:44.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/byvshaya-zhena-gufa-nazvala-kanie-uesta-psihicheski-bolnym/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/09/20260825091852617/pic_ef932e87dff4be3a822e5072712aa46d.jpg",
+          "publishedAt": "2026-08-25T06:21:12.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787625533000",
-          "title": "Назван сорвавший переговоры США и Канады чиновник",
+          "id": "politics-1-1787638500000",
+          "title": "Тревога из-за ракет и дронов прозвучала в 14 регионах России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/nazvan-sorvavshiy-peregovory-ssha-i-kanady-chinovnik/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/05/20260825053628801/pic_90f5f915050efc58d3b782dc1ade1b49.jpg",
-          "publishedAt": "2026-08-25T02:38:53.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/trevoga-iz-za-raket-i-dronov-prozvuchala-v-14-regionah-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/08/20260825085123609/pic_d312e83616380dc77b8f2190acc2233a.jpg",
+          "publishedAt": "2026-08-25T06:15:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787625435000",
-          "title": "Пленный рассказал о стрельбе украинских солдат друг в друга",
+          "id": "politics-2-1787638361000",
+          "title": "На Западе поразились словам Стубба об ударах ВСУ по складам Wildberries",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/plennyy-rasskazal-o-strelbe-ukrainskih-soldat-drug-v-druga/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/05/20260825053708731/pic_8c2ac76ed8df2bb1a58260b82648ed09.jpg",
-          "publishedAt": "2026-08-25T02:37:15.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/na-zapade-porazilis-slovam-stubba-ob-udarah-vsu-po-skladam-wildberries/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/09/20260825091158133/pic_f7e4c76a5314d920cdc0d992946feff2.jpg",
+          "publishedAt": "2026-08-25T06:12:41.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1787623860000",
-          "title": "В ЛНР раскрыли цели кадровых перестановок на Украине",
+          "id": "politics-3-1787638080000",
+          "title": "У дружившей с детьми короля Карла III аристократки-убийцы появился шанс выйти на свободу",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/v-lnr-raskryli-tseli-kadrovyh-perestanovok-na-ukraine/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/05/20260825051316064/pic_80ceeab0a86ec39c2929ca8d60741d11.jpg",
-          "publishedAt": "2026-08-25T02:11:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/u-druzhivshey-s-detmi-korolya-karla-iii-aristokratki-ubiytsy-poyavilsya-shans-vyyti-na-svobodu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/14/20260824143705907/pic_2dd621322399a19d4b237f02aec141d5.jpg",
+          "publishedAt": "2026-08-25T06:08:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1787637988000",
+          "title": "Внешность 62-летней Лолиты без фильтров и макияжа обсудили в сети",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/25/vneshnost-62-letney-lolity-bez-filtrov-i-makiyazha-obsudili-v-seti/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/16/20260824162102453/pic_4ec45c10cdae1284afa18ceec0f9a9e2.jpg",
+          "publishedAt": "2026-08-25T06:06:28.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
