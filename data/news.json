@@ -1,16 +1,11 @@
 {
-  "updatedAt": "2026-08-24T22:13:29.579Z",
-  "lastRunAt": "2026-08-24T22:13:29.579Z",
+  "updatedAt": "2026-08-25T00:33:55.718Z",
+  "lastRunAt": "2026-08-25T00:33:55.718Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics"
-  ],
-  "skippedNow": [
     "it",
     "ai",
-    "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -21,6 +16,11 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics"
+  ],
+  "skippedNow": [
+    "cybersecurity",
     "education",
     "law",
     "realestate",
@@ -29,7 +29,7 @@
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-24T18:21:47.116Z",
+      "lastFetchAt": "2026-08-25T00:33:25.880Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -99,7 +99,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-24T16:21:53.926Z",
+      "lastFetchAt": "2026-08-25T00:33:28.918Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -107,7 +107,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1787585903000",
+          "id": "ai-0-1787599893000",
+          "title": "Половину работы, ради которой я стала программистом, теперь делает агент. Что дальше?",
+          "summary": "Профессия меняется на глазах: часть работы, ради которой мы когда-то пришли в код и которая была удовольствием, переезжает под ответственность LLM. Мы всё ещё инженеры — читаем код, держим архитектуру, — но, давайте чест",
+          "url": "https://habr.com/ru/articles/1073990/?utm_campaign=1073990&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/888/858/eed/888858eed16d95b4ebb90b66446cbdc1.jpg",
+          "publishedAt": "2026-08-24T19:31:33.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1787585903000",
           "title": "«Один нип осторожно замифрил», или как лингвисты разбирают язык внутри LLM",
           "summary": "Неважно, что делает LLM. Задача все равно приходит словами, и одно пропущенное не может испортить уже вполне материальное действие. Смотрю на LLM глазами лингвиста и разбираюсь, как языковед проверяет LLM от токенизации ",
           "url": "https://habr.com/ru/companies/bothub/articles/1073936/?utm_campaign=1073936&utm_source=habrahabr&utm_medium=rss",
@@ -119,7 +131,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1787584457000",
+          "id": "ai-2-1787584457000",
           "title": "Приложение упало в закрытом контуре: скрытые загрузки в Python‑библиотеках для ML",
           "summary": "Меня зовут Павел, я разработчик в R77.AI. В статье расскажу, почему Python-библиотеки для ML могут незаметно ходить в интернет, как находить такие скрытые загрузки и что с ними делать в закрытом контуре. Читать далее",
           "url": "https://habr.com/ru/articles/1073918/?utm_campaign=1073918&utm_source=habrahabr&utm_medium=rss",
@@ -131,7 +143,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1787583925000",
+          "id": "ai-3-1787583925000",
           "title": "Сергей Брин: от московского эмигранта до создателя Google",
           "summary": "В пятницу, 21 августа, миллиардеру Сергею Брину исполнилось 53 года. Он известен как сооснователь компании Google. По данным Forbes, в 2026 году состояние Брина оценивается в $260 млрд, что делает его четвёртым богатейши",
           "url": "https://habr.com/ru/companies/finam_broker/articles/1073908/?utm_campaign=1073908&utm_source=habrahabr&utm_medium=rss",
@@ -143,24 +155,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1787580500000",
+          "id": "ai-4-1787580500000",
           "title": "«Он 10 из 10, но… »: обсудили грабли внедрения ИИ-агентов на фестивале True Tech Friends",
           "summary": "Сегодня компании все чаще используют нейросети не только для отдельных запросов, но и для выполнения целых цепочек задач. ИИ-агент может самостоятельно найти информацию, написать код, обратиться к внутренней системе и по",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1073872/?utm_campaign=1073872&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/0e4/813/35d/0e481335d20cbc6adf4d5b42f52259f4.jpeg",
           "publishedAt": "2026-08-24T14:08:20.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1787578254000",
-          "title": "Вы внедряете AI неправильно и что такое контекстный долг",
-          "summary": "AI-агента сегодня можно собрать за несколько часов. Но это не значит, что бизнес понимает, где его действительно стоит внедрять. Компании часто начинают с Build: выбирают модель, подключают Jira, GitHub, MCP, собирают wo",
-          "url": "https://habr.com/ru/articles/1073842/?utm_campaign=1073842&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/c6a/3d0/396/c6a3d0396869684a7cb7289f24a9f92f.png",
-          "publishedAt": "2026-08-24T13:30:54.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -239,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-24T22:13:24.672Z",
+      "lastFetchAt": "2026-08-25T00:33:30.712Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -247,7 +247,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1787605200000",
+          "id": "business-0-1787605380000",
+          "title": "Владимир Балтер: «Для нас IPO – не самоцель, а показатель зрелости»",
+          "summary": "Новый генеральный директор «Росагролизинга» о донастройке модели управления компанией, новых бизнесах и планах IPO",
+          "url": "https://www.vedomosti.ru/business/characters/2026/08/25/1223415-vladimir-balter-dlya-nas-ipo-ne-samotsel",
+          "image": "https://cdn.vdmsti.ru/image/2026/6k/1cr1mo/normal-1r6k.jpg",
+          "publishedAt": "2026-08-24T21:03:00.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1787605200000",
           "title": "А сам не плошай",
           "summary": "Почему бизнесу стоит не забывать о комплексных мерах по защите своих объектов",
           "url": "https://www.vedomosti.ru/opinion/columns/2026/08/25/1223397-a-sam-ne-ploshai",
@@ -259,7 +271,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1787602553000",
+          "id": "business-2-1787602553000",
           "title": "Источники «Ведомостей»: экспорт зерна может стать беспошлинным до конца года",
           "summary": "Мораторий прорабатывается на фоне сложностей с вывозом сельхозпродукции через порты Азово-Черноморского бассейна",
           "url": "https://www.vedomosti.ru/business/articles/2026/08/24/1223409-eksport-zerna-mozhet",
@@ -271,7 +283,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1787593502000",
+          "id": "business-3-1787593502000",
           "title": "Ozon рассказал о мерах поддержки пострадавших от атак БПЛА продавцов",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/24/1223385-ozon-rasskazal-o-merah",
@@ -283,7 +295,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1787580062000",
+          "id": "business-4-1787580062000",
           "title": "Мяч, которым Марадона забил гол «рукой Бога», продали за $3,35 млн",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/24/1223330-myach-maradona-prodali",
@@ -293,23 +305,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1787576353000",
-          "title": "Группа «Аэрофлот» перевезла с начала года 31,7 млн пассажиров",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/08/24/1223316-gruppa-aeroflot-perevezla",
-          "image": "https://cdn.vdmsti.ru/image/2026/6k/y6oae/normal-18az.jpg",
-          "publishedAt": "2026-08-24T12:59:13.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-24T18:21:50.158Z",
+      "lastFetchAt": "2026-08-25T00:33:33.177Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -317,31 +317,7 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1787550467000",
-          "title": "Ozon сообщил об атаке беспилотников на склады в Краснодаре, Невинномысске, Адыгейске и Махачкале",
-          "summary": "На объектах в Краснодаре и Махачкале возникли пожары.",
-          "url": "https://vc.ru/marketplace/3093688-ozon-ataka-bespilotnikov-sklady-krasnodar-mahachkala?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3093688/1787595709/cover.jpg",
-          "publishedAt": "2026-08-24T05:47:47.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-1-1787556335000",
-          "title": "Оформить доставку, которая никогда не приедет",
-          "summary": "Как FakeHaul, FoodNeverComes, Sajasaja и Dopamine Shop «продают» ощущение покупки.",
-          "url": "https://vc.ru/services/3090466-kak-sayty-fakehaul-i-foodnevercomes-sozdayut-illyuziyu-pokupok?from=rss",
-          "image": "https://leonardo.osnova.io/42b44dbd-afdd-518d-8838-1cb83bdb0fe9/-/resize/1300/",
-          "publishedAt": "2026-08-24T07:25:35.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-2-1787590492000",
+          "id": "startups-0-1787590492000",
           "title": "«Перелом, сопоставимый с появлением iPhone, впереди»: Сэм Альтман — о том, почему пользуется компьютером по старинке, хочет строить платформенную компанию и ценит «нелинейных» людей",
           "summary": "Несколько фрагментов из разговора главы OpenAI с автором предпринимательского подкаста Founders Дэвидом Сенрой.",
           "url": "https://vc.ru/story/3093338-sem-altman-o-budushchem-tekhnologiy-i-platformennykh-kompaniyakh?from=rss",
@@ -353,7 +329,43 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1787574502000",
+          "id": "startups-1-1787550467000",
+          "title": "Ozon сообщил об атаке беспилотников на склады в Краснодаре, Невинномысске, Адыгейске и Махачкале",
+          "summary": "На объектах в Краснодаре и Махачкале возникли пожары.",
+          "url": "https://vc.ru/marketplace/3093688-ozon-ataka-bespilotnikov-sklady-krasnodar-mahachkala?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3093688/1787618012/cover.jpg",
+          "publishedAt": "2026-08-24T05:47:47.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1787595409000",
+          "title": "Отключение повторной продажи FBS-товаров со складов и бесплатная перевозка товаров с закрытых объектов на другие: Ozon рассказал о мерах поддержки пострадавших продавцов",
+          "summary": "За три дня атаковали шесть объектов маркетплейса.",
+          "url": "https://vc.ru/marketplace/3095203-podderzhka-prodavtsov-ozon-posle-atak-na-sklady?from=rss",
+          "image": "https://leonardo.osnova.io/aaa92f4a-0bde-52da-8483-635051c2375b/",
+          "publishedAt": "2026-08-24T18:16:49.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1787556335000",
+          "title": "Оформить доставку, которая никогда не приедет",
+          "summary": "Как FakeHaul, FoodNeverComes, Sajasaja и Dopamine Shop «продают» ощущение покупки.",
+          "url": "https://vc.ru/services/3090466-kak-sayty-fakehaul-i-foodnevercomes-sozdayut-illyuziyu-pokupok?from=rss",
+          "image": "https://leonardo.osnova.io/42b44dbd-afdd-518d-8838-1cb83bdb0fe9/-/resize/1300/",
+          "publishedAt": "2026-08-24T07:25:35.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-4-1787574502000",
           "title": "Основатели сервиса доставки готовой еды «Много лосося» покинули проект",
           "summary": "В 2021 году сервис выкупил владелец «Перекрёстка» и «Пятёрочки», но предприниматели продолжали развивать его внутри группы.",
           "url": "https://vc.ru/food/3094615-osnovateli-mnogo-lososya-pokinu-proekt?from=rss",
@@ -363,23 +375,11 @@
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1787570387000",
-          "title": "Некоторые продавцы маркетплейса «М.Видео» пожаловались на задержки выплат — в компании говорят, что отдельные задержки связаны с «дополнительными сверками»",
-          "summary": "Сколько партнёров затронула проблема, не ясно.",
-          "url": "https://vc.ru/marketplace/3094424-zaderzhki-vyplat-dlya-prodavtsov-marketpleysa-mvideo?from=rss",
-          "image": "https://leonardo.osnova.io/c0868bbc-0a2a-5755-adf9-857cda8b1a90/",
-          "publishedAt": "2026-08-24T11:19:47.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
         }
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-24T16:21:54.763Z",
+      "lastFetchAt": "2026-08-25T00:33:34.166Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -387,7 +387,55 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1787583600000",
+          "id": "science-0-1787589660000",
+          "title": "В 2023 году от кардио-рено-гепато-метаболического синдрома пострадали почти 133 миллиона человек",
+          "summary": "В 2023 году от кардио-рено-гепато-метаболического синдрома пострадали почти 133 миллиона человек",
+          "url": "https://nplus1.ru/news/2026/08/24/cklm-burden",
+          "image": "https://minio.nplus1.ru/app-images/1131735/conversions/6a8c4b4c810ef_cover-share.png",
+          "publishedAt": "2026-08-24T16:41:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1787589000000",
+          "title": "Китай отложил запуск лунной миссии «Чанъэ-7» на неопределенный срок",
+          "summary": "Китай отложил запуск лунной миссии «Чанъэ-7» на неопределенный срок",
+          "url": "https://nplus1.ru/news/2026/08/24/change-7-delay",
+          "image": "https://minio.nplus1.ru/app-images/1131766/conversions/6a8c6c316c558_cover-share.png",
+          "publishedAt": "2026-08-24T16:30:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-2-1787587440000",
+          "title": "Писк и ультразвуковые вокализации мышей активировали разные группы нейронов",
+          "summary": "Писк и ультразвуковые вокализации мышей активировали разные группы нейронов",
+          "url": "https://nplus1.ru/news/2026/08/24/mouse-vocalizations",
+          "image": "https://minio.nplus1.ru/app-images/1131712/conversions/6a8c455bb2f5a_cover-share.png",
+          "publishedAt": "2026-08-24T16:04:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-3-1787585700000",
+          "title": "Новый вид змей с Новой Гвинеи назвали в честь гитариста Guns N&amp;#146; Roses Слэша",
+          "summary": "Новый вид змей с Новой Гвинеи назвали в честь гитариста Guns N’ Roses Слэша",
+          "url": "https://nplus1.ru/news/2026/08/24/lielaphis-slashi",
+          "image": "https://minio.nplus1.ru/app-images/1131618/conversions/6a8c00b678ba7_cover-share.png",
+          "publishedAt": "2026-08-24T15:35:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-4-1787583600000",
           "title": "Реклама алкоголя повысила риск его употребления у подростков",
           "summary": "Реклама алкоголя повысила риск его употребления у подростков",
           "url": "https://nplus1.ru/news/2026/08/24/alcohol-marketing-youth",
@@ -397,59 +445,11 @@
           "categoryId": "science",
           "categoryName": "Наука",
           "categorySlug": "science"
-        },
-        {
-          "id": "science-1-1787583600000",
-          "title": "Воздействие фосфорорганических соединений в пренатальном периоде не повлияло на риск аутистических симптомов",
-          "summary": "Воздействие фосфорорганических соединений в пренатальном периоде не повлияло на риск аутистических симптомов",
-          "url": "https://nplus1.ru/news/2026/08/24/organophosphate-exposure-autism",
-          "image": "https://minio.nplus1.ru/app-images/1131686/conversions/6a8c31ee13be7_cover-share.png",
-          "publishedAt": "2026-08-24T15:00:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-2-1787571900000",
-          "title": "Высокие дозы селена и химиотерапия излечили пациентку с рецидивирующим раком легкого",
-          "summary": "Высокие дозы селена и химиотерапия излечили пациентку с рецидивирующим раком легкого",
-          "url": "https://nplus1.ru/news/2026/08/24/curative-selenite",
-          "image": "https://minio.nplus1.ru/app-images/1131493/conversions/6a88c48c9f17c_cover-share.png",
-          "publishedAt": "2026-08-24T11:45:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-3-1787567220000",
-          "title": "Натуфийцы съели ящериц и змей",
-          "summary": "Израильские исследователи проанализировали остатки пресмыкающихся, которые археологи раскопали на натуфийском памятнике Эль-Вад. Ученые обнаружили, что охотники-собиратели эпохи эпипалеолита, по всей видимости, активно у",
-          "url": "https://nplus1.ru/news/2026/08/24/lizard-and-snake",
-          "image": "https://minio.nplus1.ru/app-images/1131646/conversions/6a8c03cbb9f13_cover-share.png",
-          "publishedAt": "2026-08-24T10:27:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1787565060000",
-          "title": "Цинк снизил частоту инфекций у детей с серповидноклеточной анемией",
-          "summary": "Цинк снизил частоту инфекций у детей с серповидноклеточной анемией",
-          "url": "https://nplus1.ru/news/2026/08/24/sickle-zinc",
-          "image": "https://minio.nplus1.ru/app-images/1131435/conversions/6a88c068c1b79_cover-share.png",
-          "publishedAt": "2026-08-24T09:51:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
         }
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-24T18:21:53.732Z",
+      "lastFetchAt": "2026-08-25T00:33:37.208Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -519,7 +519,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-24T16:21:56.455Z",
+      "lastFetchAt": "2026-08-25T00:33:38.755Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -527,24 +527,48 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1787578236000",
-          "title": "Врач раскрыл быстрый пищевой тест для проверки работы ЖКТ",
+          "id": "health-0-1787616360000",
+          "title": "В России с 1 сентября начнут действовать новые правила оказания платных медицинских услуг",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/24/vrach-raskryl-bystryy-pischevoy-test-dlya-proverki-raboty-zhkt/",
-          "image": "https://icdn.lenta.ru/images/2026/08/21/13/20260821132854888/pic_8c5f39e60004077592169c1f7855dd41.jpg",
-          "publishedAt": "2026-08-24T13:30:36.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/v-rossii-s-1-sentyabrya-nachnut-deystvovat-novye-pravila-okazaniya-platnyh-meditsinskih-uslug/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/03/20260825030759240/pic_1d855f58ec4138805623a95200ce22d5.jpg",
+          "publishedAt": "2026-08-25T00:06:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "health",
           "categoryName": "Здоровье",
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1787574900000",
-          "title": "Российские врачи спасли бегуна прямо во время полумарафона",
+          "id": "health-1-1787616010000",
+          "title": "Врач опроверг популярный миф о долгом сне",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/24/rossiyskie-vrachi-spasli-beguna-pryamo-vo-vremya-polumarafona/",
-          "image": "https://icdn.lenta.ru/images/2026/08/24/15/20260824154348019/pic_74c878bfd50b288547e50b938aa1e22e.jpg",
-          "publishedAt": "2026-08-24T12:35:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/vrach-oproverg-populyarnyy-mif-o-dolgom-sne/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/12/20260824121113452/pic_6b5d674124face111d53000e8e9abdd8.jpg",
+          "publishedAt": "2026-08-25T00:00:10.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-2-1787592660000",
+          "title": "Врач предупредил о последствиях скопления грязи в пупке",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/24/vrach-predupredil-o-posledstviyah-skopleniya-gryazi-v-pupke/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/11/20260824110750235/pic_7c0f0e9a735f9f4b04372f728e45b0eb.jpg",
+          "publishedAt": "2026-08-24T17:31:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-3-1787588812000",
+          "title": "Врач назвал «лютым бредом» чистку сосудов с помощью одного продукта",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/24/vrach-nazval-lyutym-bredom-chistku-sosudov-s-pomoschyu-odnogo-produkta/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/12/20260824120857173/pic_c4c839015b4598821ad2e04ad6a1337b.jpg",
+          "publishedAt": "2026-08-24T16:26:52.000Z",
           "source": "Lenta.ru",
           "categoryId": "health",
           "categoryName": "Здоровье",
@@ -553,7 +577,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-24T18:21:54.564Z",
+      "lastFetchAt": "2026-08-25T00:33:39.126Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -562,7 +586,7 @@
       "articles": []
     },
     "energy": {
-      "lastFetchAt": "2026-08-24T16:22:00.977Z",
+      "lastFetchAt": "2026-08-25T00:33:42.222Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -570,60 +594,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1787588237000",
-          "title": "Более 113 тыс. человек пересекли границу через Верхний Ларс за неделю",
-          "summary": "Через автомобильный контрольно-пропускной пункт «Верхний Ларс» на российско-грузинской границе за прошедшую неделю прошли более 113 тыс. человек. Об этом сообщила пресс-служба главы Северной Осетии.",
-          "url": "https://www.kommersant.ru/doc/8907344",
-          "image": "https://im2.kommersant.ru/SocialPics/8907344_49_0_1496807513",
-          "publishedAt": "2026-08-24T16:17:17.000Z",
+          "id": "energy-0-1787617497000",
+          "title": "В Ормузском проливе подбили танкер недалеко от Омана",
+          "summary": "Неизвестный снаряд попал в нефтяной танкер, проходивший в Ормузском проливе в 9 морских милях к северо-востоку от оманского населенного пункта Эш-Шиша. Машинное отделение было повреждено, судно потеряло ход, сообщили в У",
+          "url": "https://www.kommersant.ru/doc/8907482",
+          "image": "https://im2.kommersant.ru/SocialPics/8907482_49_0_1521139578",
+          "publishedAt": "2026-08-25T00:24:57.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1787588113000",
-          "title": "Ромео Кастеллуччи поставил «Святого Франциска Ассизского» Мессиана в Зальцбурге",
-          "summary": "Самым масштабным событием нынешнего Зальцбургского фестиваля стала опера Оливье Мессиана (1908–1992) «Святой Франциск Ассизский». Исполинскую мистерию, один из самых больших и самых сложных сценических опусов ХХ века, по",
-          "url": "https://www.kommersant.ru/doc/8907346",
-          "image": "https://im2.kommersant.ru/SocialPics/8907346_49_0_1133097125",
-          "publishedAt": "2026-08-24T16:15:13.000Z",
+          "id": "energy-1-1787615489000",
+          "title": "Премьер Британии собирается убедить Трампа отправить Украине ракеты Patriot",
+          "summary": "Премьер-министр Великобритании Энди Бернем в следующем месяце собирается обсудить с президентом США Дональдом Трампом поставки зенитных ракет Patriot для Украины. О планах убедить главу Белого дома поделиться с Киевом ар",
+          "url": "https://www.kommersant.ru/doc/8907477",
+          "image": "https://im2.kommersant.ru/SocialPics/8907477_49_0_1269093925",
+          "publishedAt": "2026-08-24T23:51:29.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1787587757000",
-          "title": "Чистая прибыль B2B-РТС по МСФО выросла более чем на 9% в первом полугодии",
-          "summary": "Чистая прибыль B2B-РТС по МСФО составила 1,99 млрд руб. по итогам первого полугодия. Это на 9,4% больше аналогичного показателя прошлого года, указано в отчетности компании.",
-          "url": "https://www.kommersant.ru/doc/8907335",
-          "image": "https://im2.kommersant.ru/SocialPics/8907335_49_0_952221497",
-          "publishedAt": "2026-08-24T16:09:17.000Z",
+          "id": "energy-2-1787613517000",
+          "title": "США продлили на год торговое эмбарго против Кубы",
+          "summary": "Президент США Дональд Трамп подписал распоряжение о продлении торговых ограничений в отношении Кубы еще на один год — до 14 сентября 2027 года. Документ размещен в американском Федеральном реестре.",
+          "url": "https://www.kommersant.ru/doc/8907475",
+          "image": "https://im2.kommersant.ru/SocialPics/8907475_49_0_158233235",
+          "publishedAt": "2026-08-24T23:18:37.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1787587650000",
-          "title": "Пожарные ликвидировали открытое горение на складе Ozon в Адыгее",
-          "summary": "Открытое горение на атакованном БПЛА складе Ozon в Тахтамукайском районе Адыгеи ликвидировано. Об этом сообщает пресс-служба правительства региона в Telegram-канале.",
-          "url": "https://www.kommersant.ru/doc/8907338",
-          "image": "https://im2.kommersant.ru/SocialPics/8907338_49_0_1961487666",
-          "publishedAt": "2026-08-24T16:07:30.000Z",
+          "id": "energy-3-1787611639000",
+          "title": "США не присоединились к совместному заявлению с осуждением России в ООН",
+          "summary": "Группа из 50 государств выступила на площадке ООН с совместным заявлением, в котором они осудили удары России по Украине. Страны призвали немедленно остановить боевые действия, а также потребовали вернуть всех депортиров",
+          "url": "https://www.kommersant.ru/doc/8907472",
+          "image": "https://im2.kommersant.ru/SocialPics/8907472_49_0_117170434",
+          "publishedAt": "2026-08-24T22:47:19.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1787587290000",
-          "title": "Chosun: Южная Корея отказалась поставлять ПВО Украине из-за КНДР и России",
-          "summary": "Президент Украины Владимир Зеленский, его советник Александр Камышин и глава МИД страны Андрей Сибига просили власти Южной Кореи поставить ракеты-перехватчики Patriot Advanced Capability-3 (PAC-3), сообщает Chosun со ссы",
-          "url": "https://www.kommersant.ru/doc/8907333",
-          "image": "https://iv.kommersant.ru/SocialPics/8907333_49_3188752_827291881",
-          "publishedAt": "2026-08-24T16:01:30.000Z",
+          "id": "energy-4-1787609755000",
+          "title": "В Госдуму внесли законопроект о семейном предпринимательстве",
+          "summary": "Группа сенаторов разработала и внесла в Госдуму законопроект о закреплении в законе понятия «семейное предпринимательство». К этой категории планируют отнести микропредприятия с выручкой до 120 млн руб. и штатом до 15 че",
+          "url": "https://www.kommersant.ru/doc/8907471",
+          "image": "https://im2.kommersant.ru/SocialPics/8907471_49_0_1048812339",
+          "publishedAt": "2026-08-24T22:15:55.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -632,7 +656,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-24T16:22:02.411Z",
+      "lastFetchAt": "2026-08-25T00:33:42.828Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -702,7 +726,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-24T16:22:04.889Z",
+      "lastFetchAt": "2026-08-25T00:33:44.989Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -772,7 +796,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-24T18:21:55.994Z",
+      "lastFetchAt": "2026-08-25T00:33:49.031Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -842,7 +866,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-24T18:21:58.837Z",
+      "lastFetchAt": "2026-08-25T00:33:50.753Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -854,7 +878,7 @@
           "title": "Кит Харингтон сыграет Златопуста Локонса во втором сезоне «Гарри Поттера»",
           "summary": "Британский актер Кит Харингтон, известный по роли Джона Сноу в «Игре престолов», сыграет Златопуста Локонса во втором сезоне сериала HBO «Гарри Поттер». Он заменит Николаса Холта, который, по данным Variety, покинул прое",
           "url": "https://www.kommersant.ru/doc/8907385",
-          "image": "https://im2.kommersant.ru/SocialPics/8907385_49_3188816_680636826",
+          "image": "https://iv.kommersant.ru/SocialPics/8907385_49_3188816_680636826",
           "publishedAt": "2026-08-24T17:32:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -902,7 +926,7 @@
           "title": "Путин наградил орденом оперную певицу Хиблу Герзмаву",
           "summary": "Президент России Владимир Путин удостоил ордена «За заслуги в культуре и искусстве» оперную певицу Хиблу Герзмаву. Указ размещен на сайте опубликования правовых актов.",
           "url": "https://www.kommersant.ru/doc/8907245",
-          "image": "https://im2.kommersant.ru/SocialPics/8907245_49_3188647_1113335321",
+          "image": "https://iv.kommersant.ru/SocialPics/8907245_49_3188647_1113335321",
           "publishedAt": "2026-08-24T14:17:31.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -912,7 +936,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-24T22:13:27.923Z",
+      "lastFetchAt": "2026-08-25T00:33:54.289Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -920,7 +944,31 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1787608800000",
+          "id": "sports-0-1787610480000",
+          "title": "Тестовые матчи. «Лайонс» сыграют с Новой Зеландией и другие встречи",
+          "summary": "25 и 29 августа пройдут тестовые матчи сборных по регби. Тестовые матчи 25 августа Лайонс (ЮАР) – Новая Зеландия – 20.00 29 августа ЮАР – Новая Зеландия – 17.05 Аргентина – Австралия – 22.00 ПРИМЕЧАНИЕ: время начала матч",
+          "url": "https://www.sports.ru/rugby/1117345282-testovye-matchi-lvy-sygrayut-s-novoj-zelandiej-i-drugie-vstrechi.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/528/2/share/ff3f98_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-24T22:28:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1787609460000",
+          "title": "«Вуэльта». 4-й этап. Гонщики проедут 104,8 км по маршруту с четырьмя категорийными подъемами",
+          "summary": "25 августа пройдет четвертый этап веломногодневки «Вуэльта Испании». «Вуэльта Испании-2026» 4-й этап Андорра-ла-Велья – Андорра-ла-Велья 104,8 км Профиль / Карта Начало – 15:49 по московскому времени, прямая трансляция –",
+          "url": "https://www.sports.ru/cycle-racing/1117346177-vuelta-4-j-etap-gonshhiki-proedut-104-8-km-po-marshrutu-s-chetyrmya-ka.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/734/617/7/share/815738_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-24T22:11:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1787608800000",
           "title": "Чемпионат Европы по волейболу (жен). Польша сыграет со Словенией, Италия встретится со Словакией, другие матчи",
           "summary": "25 августа пройдут матчи предварительного раунда чемпионата Европы по волейболу среди женщин. Чемпионат Европы по волейболу-2026 Женщины Предварительный раунд Группа A Венгрия – Германия – 16.00 Польша – Словения – 19.00",
           "url": "https://www.sports.ru/volleyball/1117346175-chempionat-evropy-po-volejbolu-zhen-polsha-sygraet-so-sloveniej-italiy.html",
@@ -932,7 +980,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1787608560000",
+          "id": "sports-3-1787608560000",
           "title": "«Гамбург» за 2+0,5 млн евро купил Моффи у «Ниццы». Форвард не играл за французскую команду после нападения фанатов",
           "summary": "Терем Моффи перешел из «Ниццы» в « Гамбург ». Немецкий клуб объявил о трансфере 27-летнего нападающего. Стороны заключили контракт на 3 года. По информации журналиста RMC Sport Фабриса Хокинса, сумма сделки составила 2 м",
           "url": "https://www.sports.ru/football/1117346171-gamburg-za-20-5-mln-evro-kupil-moffi-u-niczczy-forvard-ne-igral-za-fra.html",
@@ -944,7 +992,7 @@
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1787608560000",
+          "id": "sports-4-1787608560000",
           "title": "«Астон Вилла» ведет переговоры по Леау. Рафаэл ближе к уходу из «Милана», чем когда-либо",
           "summary": "Рафаэл Леау в ближайшие дни может перейти в Премьер-лигу . Как сообщает журналист Джанлука Ди Марцио , переговоры о трансфере вингера сборной Португалии ведет « Астон Вилла ». Сейчас бирмингемцы пытаются договориться с «",
           "url": "https://www.sports.ru/football/1117346172-aston-villa-vedet-peregovory-po-leau-rafaeel-blizhe-k-uxodu-iz-milana-.html",
@@ -954,35 +1002,11 @@
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1787607960000",
-          "title": "Вадим Евсеев: «Кривцов технически и физически на том уровне, что может спокойно играть в Европе. Мышечная масса намного мощнее, чем у Сперцяна»",
-          "summary": "Вадим Евсеев описал уровень полузащитника « Краснодара » Никиты Кривцова . – Насколько «Динамо» помогло, что не играл Кривцов? – Мы зависим от одного игрока? Мы весной играли – Кривцов и Сперцян тоже. – У всех было ощуще",
-          "url": "https://www.sports.ru/football/1117346170-vadim-evseev-krivczov-texnicheski-i-fizicheski-na-tom-urovne-chto-mozh.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/617/0/share/73e256_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-24T21:46:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1787607540000",
-          "title": "Андрей Канчельскис: «Батраков не провалится в Турции как Дзюба. Артем туда уезжал на пенсию, а Алексей голоден до побед. Он едет доказывать, что может играть в Европе»",
-          "summary": "Бывший футболист сборной России Андрей Канчельскис сравнил трансфер Алексея Батракова в «Галатасарай» и переход Артема Дзюбы в «Адана Демирспор». «Батраков не провалится в Турции как Дзюба. Это два совершенно разных прим",
-          "url": "https://www.sports.ru/football/1117346167-andrej-kanchelskis-batrakov-ne-provalitsya-v-turczii-kak-dzyuba-artem-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/734/616/7/share/a0cadd_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-24T21:39:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
         }
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-24T22:13:29.578Z",
+      "lastFetchAt": "2026-08-25T00:33:55.717Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -990,60 +1014,48 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1787608954000",
-          "title": "В Харькове сообщили о попадании ракет в промышленную зону",
+          "id": "politics-0-1787617815000",
+          "title": "Репетитор месяц насиловала 15-летнего подростка и жаловалась ему на мужа",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/v-harkove-soobschili-o-popadanii-raket-v-promyshlennuyu-zonu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/01/20260825010456549/pic_25f952dc4939207ef267cc073d763817.jpg",
-          "publishedAt": "2026-08-24T22:02:34.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/repetitor-mesyats-nasilovala-15-letnego-podrostka-i-zhalovalas-emu-na-muzha/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/14/20260824143504665/pic_29f55b5cb55528cc69042d84045df86a.jpg",
+          "publishedAt": "2026-08-25T00:30:15.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1787608916000",
-          "title": "Московский аэропорт частично прекратил работу",
+          "id": "politics-1-1787617808000",
+          "title": "Россиянин описал Гватемалу словами «здесь женщины работают больше мужчин»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/moskovskiy-aeroport-chastichno-prekratil-rabotu/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/01/20260825010112961/pic_50df0db98896fa8bb7124f29eb8b063e.jpg",
-          "publishedAt": "2026-08-24T22:01:56.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/rossiyanin-opisal-gvatemalu-slovami-zdes-zhenschiny-rabotayut-bolshe-muzhchin/",
+          "image": "https://icdn.lenta.ru/images/2026/08/24/19/20260824194654773/pic_4791d4ea2fcbbebc791ca161491d6323.jpg",
+          "publishedAt": "2026-08-25T00:30:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1787608832000",
-          "title": "Сексолог раскрыла быстро достигающим оргазма мужчинам способы продлить половой акт",
+          "id": "politics-2-1787617260000",
+          "title": "Раскрыт размер августовских выплат Украины Международному валютному фонду",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/seksolog-raskryla-bystro-dostigayuschim-orgazma-muzhchinam-sposoby-prodlit-polovoy-akt/",
-          "image": "https://icdn.lenta.ru/images/2026/08/24/12/20260824122435307/pic_e7045f669cfacf8ff65501fb0095dd2c.jpg",
-          "publishedAt": "2026-08-24T22:00:32.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/raskryt-razmer-avgustovskih-vyplat-ukrainy-mezhdunarodnomu-valyutnomu-fondu/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/03/20260825032552324/pic_38619b49d698b9a0427d2179aabedd2b.jpg",
+          "publishedAt": "2026-08-25T00:21:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1787608820000",
-          "title": "В сети обсудили фигуру Дуа Липы в леопардовом бикини на фото папарацци",
+          "id": "politics-3-1787617175000",
+          "title": "Нетаньяху обвинил Иран в покушении на его сына",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/v-seti-obsudili-figuru-dua-lipy-v-leopardovom-bikini-na-foto-paparatstsi/",
-          "image": "https://icdn.lenta.ru/images/2026/08/21/18/20260821181451168/pic_86f29a6271eaeabb0be4c3833d4fb485.jpg",
-          "publishedAt": "2026-08-24T22:00:20.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1787608671000",
-          "title": "Украину предупредили о последствиях военной поддержки Запада",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/25/ukrainu-predupredili-o-posledstviyah-voennoy-podderzhki-zapada/",
-          "image": "https://icdn.lenta.ru/images/2026/08/25/00/20260825005015146/pic_a223695a610c98cb34d913bae3b826c9.jpg",
-          "publishedAt": "2026-08-24T21:57:51.000Z",
+          "url": "https://lenta.ru/news/2026/08/25/netanyahu-obvinil-iran-v-pokushenii-na-ego-syna/",
+          "image": "https://icdn.lenta.ru/images/2026/08/25/03/20260825031738770/pic_f64a322953ceca2272167a5a56cfed18.jpg",
+          "publishedAt": "2026-08-25T00:19:35.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
