@@ -23,7 +23,7 @@ export function Header({ sources, updatedAt }: HeaderProps) {
           <span className="brand-mark">
             Top<span>News</span>
           </span>
-          <span className="brand-tag">20 тем · топ-5</span>
+          <span className="brand-tag">{sources.length} тем · топ-5</span>
         </Link>
 
         <div className="header-status" title={updatedAt ? new Date(updatedAt).toLocaleString("ru-RU") : ""}>

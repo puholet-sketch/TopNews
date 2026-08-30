@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NewsImage } from "@/components/NewsImage";
 import type { NewsArticle } from "@/lib/types";
 import { formatRelative, getCategoryColor, imageFallback } from "@/lib/news";
 
@@ -8,7 +9,6 @@ interface NewsCardProps {
 }
 
 export function NewsCard({ article, variant = "card" }: NewsCardProps) {
-  const src = article.image || imageFallback(article.id + article.title);
   const isLead = variant === "lead";
   const accent = getCategoryColor(article.categorySlug);
 
@@ -24,12 +24,11 @@ export function NewsCard({ article, variant = "card" }: NewsCardProps) {
         className={`story-media ${isLead ? "lead" : ""}`}
         aria-label={article.title}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={src}
+        <NewsImage
+          src={article.image}
+          fallback={imageFallback(article.id + article.title)}
           alt={article.title}
-          loading="lazy"
-          decoding="async"
+          eager={isLead}
         />
       </Link>
       <div className="story-body">

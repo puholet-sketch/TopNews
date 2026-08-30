@@ -46,8 +46,9 @@ function pickUrl(candidate) {
 }
 
 function extractImage(item) {
+  const pageUrl = item.link || "";
   for (const enc of asArray(item.enclosure)) {
-    const url = pickUrl(enc);
+    const url = normalizeImage(pickUrl(enc), pageUrl);
     const type = enc?.type || enc?.$?.type || "";
     if (url && (!type || type.startsWith("image") || /\.(jpe?g|png|webp|gif|avif)(\?|$)/i.test(url))) {
       return url;
@@ -55,17 +56,17 @@ function extractImage(item) {
   }
 
   for (const media of asArray(item.mediaContent)) {
-    const url = pickUrl(media);
+    const url = normalizeImage(pickUrl(media), pageUrl);
     if (url) return url;
   }
 
   for (const thumb of asArray(item.mediaThumbnail)) {
-    const url = pickUrl(thumb);
+    const url = normalizeImage(pickUrl(thumb), pageUrl);
     if (url) return url;
   }
 
   if (item.itunesImage) {
-    const url = pickUrl(item.itunesImage) || item.itunesImage?.href;
+    const url = normalizeImage(pickUrl(item.itunesImage) || item.itunesImage?.href, pageUrl);
     if (url) return url;
   }
 
@@ -88,7 +89,7 @@ function extractImage(item) {
 
   for (const pattern of patterns) {
     const match = html.match(pattern);
-    if (match?.[1]) return match[1].replace(/&amp;/g, "&");
+    if (match?.[1]) return normalizeImage(match[1], pageUrl);
   }
 
   return null;
@@ -102,10 +103,32 @@ function stripHtml(html = "") {
     .slice(0, 220);
 }
 
-function matchesKeywords(item, keywords) {
+function itemHaystack(item) {
+  return `${item.title || ""} ${item.contentSnippet || ""} ${item.summary || ""} ${item.content || ""}`.toLowerCase();
+}
+
+function matchesKeywords(item, keywords, excludeKeywords) {
+  const haystack = itemHaystack(item);
+  if (excludeKeywords?.some((kw) => haystack.includes(kw.toLowerCase()))) return false;
   if (!keywords?.length) return true;
-  const haystack = `${item.title || ""} ${item.contentSnippet || ""} ${item.summary || ""}`.toLowerCase();
   return keywords.some((kw) => haystack.includes(kw.toLowerCase()));
+}
+
+function normalizeImage(url, pageUrl) {
+  if (!url) return null;
+  let image = String(url)
+    .replace(/&#0*38;/g, "&")
+    .replace(/&amp;/g, "&")
+    .trim();
+  if (image.startsWith("//")) image = `https:${image}`;
+  if (image.startsWith("/") && pageUrl) {
+    try {
+      return new URL(image, pageUrl).toString();
+    } catch {
+      return null;
+    }
+  }
+  return image.startsWith("http") ? image : null;
 }
 
 function shouldFetch(category, existing) {
@@ -141,8 +164,8 @@ async function fetchOgImage(url) {
     for (const pattern of patterns) {
       const match = html.match(pattern);
       if (match?.[1]) {
-        const image = match[1].replace(/&amp;/g, "&").trim();
-        if (image.startsWith("http")) return image;
+        const image = match[1].replace(/&#0*38;/g, "&").replace(/&amp;/g, "&").trim();
+        return normalizeImage(image, url);
       }
     }
   } catch {
@@ -171,57 +194,127 @@ async function loadFeedItems(feedUrl) {
   return feed.items || [];
 }
 
-async function fetchCategory(category) {
-  const urls = [category.feedUrl, category.fallbackFeedUrl].filter(Boolean);
+function itemTime(item) {
+  const raw = item.isoDate || item.pubDate;
+  const time = raw ? Date.parse(raw) : NaN;
+  return Number.isFinite(time) ? time : 0;
+}
+
+function normalizeFeeds(category) {
+  if (category.feeds?.length) {
+    return category.feeds.map((feed) => ({
+      url: feed.url,
+      source: feed.source || category.source,
+      keywordFilter: feed.keywordFilter,
+      excludeKeywords: feed.excludeKeywords || category.excludeKeywords,
+    }));
+  }
+
+  return [category.feedUrl, category.fallbackFeedUrl].filter(Boolean).map((url, index) => ({
+    url,
+    source: index > 0 ? `${category.source} (резерв)` : category.source,
+    keywordFilter:
+      index > 0 ? category.fallbackKeywordFilter || category.keywordFilter : category.keywordFilter,
+    excludeKeywords: category.excludeKeywords,
+  }));
+}
+
+async function toArticles(category, rows) {
+  return mapWithConcurrency(rows, 3, async (row, index) => {
+    const item = row.item;
+    let image = extractImage(item);
+    if (!image && item.link) {
+      image = await fetchOgImage(item.link);
+    }
+
+    return {
+      id: `${category.id}-${index}-${itemTime(item) || Date.now()}`,
+      title: (item.title || "Без заголовка").trim(),
+      summary: stripHtml(item.contentSnippet || item.summary || item.contentEncoded || ""),
+      url: item.link || category.siteUrl,
+      image,
+      publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
+      source: row.source,
+      categoryId: category.id,
+      categoryName: category.name,
+      categorySlug: category.slug,
+    };
+  });
+}
+
+async function loadFeedRows(feed) {
   let lastError;
-  let usedFallback = false;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      let items = await loadFeedItems(feed.url);
+      items = items.filter((item) =>
+        matchesKeywords(item, feed.keywordFilter, feed.excludeKeywords)
+      );
+      return items.map((item) => ({ item, source: feed.source, feedUrl: feed.url }));
+    } catch (error) {
+      lastError = error;
+      await new Promise((r) => setTimeout(r, 1200 * attempt));
+    }
+  }
+  throw lastError;
+}
 
-  for (let urlIndex = 0; urlIndex < urls.length; urlIndex++) {
-    const feedUrl = urls[urlIndex];
-    usedFallback = urlIndex > 0;
-    for (let attempt = 1; attempt <= 2; attempt++) {
+function dedupeRows(rows) {
+  const seen = new Set();
+  return rows.filter((row) => {
+    const key = canonicalUrl(row.item.link || "");
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+async function fetchCategory(category) {
+  const feeds = normalizeFeeds(category);
+  if (!feeds.length) throw new Error("нет RSS-источников");
+
+  if (category.feeds?.length) {
+    const collected = [];
+    let lastError;
+    for (const feed of feeds) {
       try {
-        let items = await loadFeedItems(feedUrl);
-        const keywords = usedFallback
-          ? category.fallbackKeywordFilter || category.keywordFilter
-          : category.keywordFilter;
-
-        if (keywords?.length) {
-          items = items.filter((item) => matchesKeywords(item, keywords));
-        }
-
-        items = items.slice(0, category.topCount);
-
-        const articles = await mapWithConcurrency(items, 3, async (item, index) => {
-          let image = extractImage(item);
-          if (!image && item.link) {
-            image = await fetchOgImage(item.link);
-          }
-
-          return {
-            id: `${category.id}-${index}-${Date.parse(item.isoDate || item.pubDate || "") || Date.now()}`,
-            title: (item.title || "Без заголовка").trim(),
-            summary: stripHtml(
-              item.contentSnippet || item.summary || item.contentEncoded || ""
-            ),
-            url: item.link || category.siteUrl,
-            image,
-            publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
-            source: usedFallback ? `${category.source} (резерв)` : category.source,
-            categoryId: category.id,
-            categoryName: category.name,
-            categorySlug: category.slug,
-          };
-        });
-
-        return articles;
+        const rows = await loadFeedRows(feed);
+        collected.push(...rows);
       } catch (error) {
         lastError = error;
-        await new Promise((r) => setTimeout(r, 1200 * attempt));
+        console.warn(`  ↺ ${category.name}: ${feed.source} недоступен`);
       }
     }
-    if (urlIndex < urls.length - 1) {
-      console.warn(`  ↺ ${category.name}: основной RSS недоступен, пробую резерв`);
+    if (!collected.length) throw lastError || new Error("все ленты недоступны");
+
+    let rows = collected.filter((row) =>
+      matchesKeywords(row.item, category.keywordFilter, category.excludeKeywords)
+    );
+    rows = dedupeRows(rows);
+    rows.sort((a, b) => {
+      if (category.preferRussian) {
+        const ru = (row) => (/[а-яё]/i.test(row.item.title || "") ? 1 : 0);
+        const diff = ru(b) - ru(a);
+        if (diff) return diff;
+      }
+      return itemTime(b.item) - itemTime(a.item);
+    });
+    rows = rows.slice(0, category.topCount);
+    return toArticles(category, rows);
+  }
+
+  let lastError;
+  for (let urlIndex = 0; urlIndex < feeds.length; urlIndex++) {
+    const feed = feeds[urlIndex];
+    try {
+      let rows = await loadFeedRows(feed);
+      rows = rows.slice(0, category.topCount);
+      return toArticles(category, rows);
+    } catch (error) {
+      lastError = error;
+      if (urlIndex < feeds.length - 1) {
+        console.warn(`  ↺ ${category.name}: основной RSS недоступен, пробую резерв`);
+      }
     }
   }
 
@@ -241,12 +334,18 @@ function canonicalUrl(url = "") {
   }
 }
 
+function categoryFeedUrls(source) {
+  if (source.feeds?.length) return source.feeds.map((feed) => feed.url).filter(Boolean);
+  return [source.feedUrl].filter(Boolean);
+}
+
 function dedupeAcrossCategories(results, sourceList) {
   const byFeed = new Map();
   for (const source of sourceList) {
-    const key = source.feedUrl;
-    if (!byFeed.has(key)) byFeed.set(key, []);
-    byFeed.get(key).push(source);
+    for (const key of categoryFeedUrls(source)) {
+      if (!byFeed.has(key)) byFeed.set(key, []);
+      byFeed.get(key).push(source);
+    }
   }
 
   for (const group of byFeed.values()) {
@@ -334,6 +433,7 @@ async function main() {
     console.error("Критично: все категории, которые пора было обновить, упали.");
     process.exit(1);
   }
+  process.exit(0);
 }
 
 main().catch((error) => {

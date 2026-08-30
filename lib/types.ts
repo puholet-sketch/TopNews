@@ -48,16 +48,26 @@ export interface HealthReport {
   };
 }
 
+export interface SourceFeed {
+  url: string;
+  source: string;
+  keywordFilter?: string[];
+  excludeKeywords?: string[];
+}
+
 export interface SourceCategory {
   id: string;
   name: string;
   slug: string;
   source: string;
   siteUrl: string;
-  feedUrl: string;
+  feedUrl?: string;
+  feeds?: SourceFeed[];
   intervalHours: number;
   topCount: number;
   keywordFilter?: string[];
+  excludeKeywords?: string[];
+  preferRussian?: boolean;
   fallbackFeedUrl?: string;
   fallbackKeywordFilter?: string[];
 }

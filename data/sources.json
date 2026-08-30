@@ -84,14 +84,37 @@
     },
     {
       "id": "environment",
-      "name": "Экология и климат",
+      "name": "Экология России",
       "slug": "environment",
-      "source": "N+1",
-      "siteUrl": "https://nplus1.ru",
-      "feedUrl": "https://nplus1.ru/rss",
+      "source": "Росгидромет, НИА Экология, РИА",
+      "siteUrl": "https://www.meteorf.gov.ru",
       "intervalHours": 4,
-      "topCount": 5,
-      "keywordFilter": ["климат", "эколог", "углерод", "загрязн", "природ", "выброс", "ледник", "погод"]
+      "topCount": 8,
+      "feeds": [
+        {
+          "url": "https://www.meteorf.gov.ru/press/news/rss/",
+          "source": "Росгидромет"
+        },
+        {
+          "url": "https://nia.eco/feed/",
+          "source": "НИА Экология"
+        },
+        {
+          "url": "https://ria.ru/export/rss2/archive/index.xml",
+          "source": "РИА Новости",
+          "keywordFilter": ["эколог", "климат", "природ", "загрязн", "выброс", "отход", "мусор", "углерод", "парников", "заповедн", "росприрод", "минприрод", "озон", "краснокнижн"]
+        },
+        {
+          "url": "https://nplus1.ru/rss",
+          "source": "N+1",
+          "keywordFilter": ["климат", "эколог", "углерод", "загрязн", "природ", "выброс", "ледник", "погод"]
+        },
+        {
+          "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss",
+          "source": "РБК",
+          "keywordFilter": ["эколог", "климат", "загрязн", "отход", "выброс", "росгидромет", "минприрод"]
+        }
+      ]
     },
     {
       "id": "energy",
@@ -154,6 +177,110 @@
       "feedUrl": "https://www.sports.ru/rss/all_news.xml",
       "intervalHours": 2,
       "topCount": 5
+    },
+    {
+      "id": "football-russia",
+      "name": "Футбол России",
+      "slug": "football-russia",
+      "source": "Спорт-Экспресс, Sports.ru",
+      "siteUrl": "https://www.sport-express.ru/football/",
+      "intervalHours": 24,
+      "topCount": 8,
+      "keywordFilter": [
+        "рпл",
+        "рфпл",
+        "премьер-лиг",
+        "премьер лиг",
+        "чемпионат россии",
+        "фонбет",
+        "спартак",
+        "зенит",
+        "цска",
+        "локомотив",
+        "динамо",
+        "краснодар",
+        "ростов",
+        "рубин",
+        "ахмат",
+        "оренбург",
+        "балтика",
+        "акрон",
+        "факел",
+        "крылья советов",
+        "пари нн",
+        "махачкал"
+      ],
+      "feeds": [
+        {
+          "url": "https://www.sport-express.ru/services/materials/news/football/se/",
+          "source": "Спорт-Экспресс"
+        },
+        {
+          "url": "https://www.sports.ru/rss/rubric.xml?id=208",
+          "source": "Sports.ru"
+        }
+      ]
+    },
+    {
+      "id": "skiing",
+      "name": "Беговые лыжи",
+      "slug": "skiing",
+      "source": "Sports.ru, Спорт-Экспресс",
+      "siteUrl": "https://www.sports.ru",
+      "intervalHours": 12,
+      "topCount": 6,
+      "keywordFilter": ["лыж", "лыжероллер", "биатлон", "tour de ski", "большунов", "непряева", "устюгов", "терентьев", "скиатлон"],
+      "feeds": [
+        {
+          "url": "https://www.sports.ru/rss/rubric.xml?id=224",
+          "source": "Sports.ru"
+        },
+        {
+          "url": "https://www.sport-express.ru/services/materials/news/se/",
+          "source": "Спорт-Экспресс",
+          "keywordFilter": ["лыжн", "беговые лыж", "лыжные гонк", "tour de ski", "большунов", "непряева", "устюгов", "терентьев", "скиатлон"]
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "name": "MMA",
+      "slug": "mma",
+      "source": "Sports.ru, MMA Fighting",
+      "siteUrl": "https://www.sports.ru",
+      "intervalHours": 6,
+      "topCount": 8,
+      "preferRussian": true,
+      "feeds": [
+        {
+          "url": "https://www.sports.ru/rss/rubric.xml?id=213",
+          "source": "Sports.ru",
+          "keywordFilter": [
+            "ufc",
+            "мма",
+            "mma",
+            "aca",
+            "pfl",
+            "bellator",
+            "кард",
+            "бойцовск",
+            "смешанн",
+            "нурмагомед",
+            "махачев",
+            "хабиб",
+            "царукян",
+            "петр ян",
+            "топурия",
+            "аспиналл",
+            "состоится бой",
+            "анонс"
+          ]
+        },
+        {
+          "url": "https://www.mmafighting.com/rss/current.xml",
+          "source": "MMA Fighting"
+        }
+      ]
     },
     {
       "id": "politics",

@@ -1,35 +1,37 @@
 {
-  "updatedAt": "2026-08-30T14:33:30.103Z",
-  "lastRunAt": "2026-08-30T14:33:30.103Z",
-  "totalCategories": 20,
+  "updatedAt": "2026-08-30T17:21:40.002Z",
+  "lastRunAt": "2026-08-30T17:21:40.002Z",
+  "totalCategories": 23,
   "fetchedNow": [
     "it",
+    "ai",
     "cybersecurity",
     "business",
     "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "sports",
-    "politics",
-    "law"
-  ],
-  "skippedNow": [
-    "ai",
     "science",
+    "medicine",
     "health",
+    "environment",
     "energy",
     "space",
     "automotive",
+    "gaming",
+    "entertainment",
+    "sports",
+    "football-russia",
+    "skiing",
+    "mma",
+    "politics",
     "education",
+    "law",
     "realestate",
     "travel"
   ],
+  "skippedNow": [],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-30T14:32:55.320Z",
+      "lastFetchAt": "2026-08-30T17:21:10.178Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -37,7 +39,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1788073605000",
+          "id": "it-0-1788103137000",
+          "title": "Долго запускается qt creator, долго переходит между вкладками (проект, отладка, редактор), не работает масштабирование",
+          "summary": "В этой статье рассматривается одна из причин такого поведения IDE Qt Creator и приводится решение этой проблемы. Актуальность: 1. В интернете нет описания и решения данной проблемы (я искал). 2. Некоторые решения данной ",
+          "url": "https://habr.com/ru/articles/1076390/?utm_campaign=1076390&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/672/2d4/dd6/6722d4dd694ea6740945edf8d4658dc3.png",
+          "publishedAt": "2026-08-30T15:18:57.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1788073605000",
           "title": "Создаём DSL на C#: LSP и поддержка в Visual Studio",
           "summary": "В шестой части цикла про создание DSL на C# добавляем Akbura полноценную поддержку IDE. Разберём Language Server Protocol, синхронизацию документов, immutable snapshots, MSBuild и semantic tokens. Затем посмотрим, почему",
           "url": "https://habr.com/ru/articles/1075978/?utm_campaign=1075978&utm_source=habrahabr&utm_medium=rss",
@@ -49,7 +63,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1788013871000",
+          "id": "it-2-1788013871000",
           "title": "Пишем свой React: Fiber, хуки и рендеринг под капотом",
           "summary": "Каждый день мы пишем JSX, используем хуки и стараемся не нарушать их строгие правила. Но как вся эта «магия» работает под капотом? Почему условный рендер ломает useState, а индексы массива в key приводят к багам? Зачем R",
           "url": "https://habr.com/ru/articles/1076158/?utm_campaign=1076158&utm_source=habrahabr&utm_medium=rss",
@@ -61,7 +75,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1788005651000",
+          "id": "it-3-1788005651000",
           "title": "Как не подарить полный продукт вузу, заводу без интернета и торренту",
           "summary": "Для примера будем использовать наш продукт для просмотра топологии и верификации(EDA) и расскажем, как мы построили его лицензирование. Каждый коммерческий продукт рано или поздно упирается в один вопрос: кому именно вы ",
           "url": "https://habr.com/ru/articles/1076122/?utm_campaign=1076122&utm_source=habrahabr&utm_medium=rss",
@@ -73,7 +87,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1788004778000",
+          "id": "it-4-1788004778000",
           "title": "Шесть миллиардов прогонов ради одной галочки: как устроено ревью научного софта на GitHub",
           "summary": "Последние месяцы я рецензирую научный софт для JOSS, Journal of Open Source Software. Это настоящий рецензируемый журнал с редколлегией, только статья в нём короткая, около тысячи слов, а главный объект ревью - репозитор",
           "url": "https://habr.com/ru/articles/1076116/?utm_campaign=1076116&utm_source=habrahabr&utm_medium=rss",
@@ -83,23 +97,11 @@
           "categoryId": "it",
           "categoryName": "IT и технологии",
           "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1787992610000",
-          "title": "Большая история крохотного BPMN",
-          "summary": "Что полезного может делать бизнес-процесс, в котором всего одна задача, и та пользовательская? Что можно рассказать про BPMN-схему, которая поместится на экране смартфона? Муки выбора, драма, предательство и обстоятельст",
-          "url": "https://habr.com/ru/articles/1076074/?utm_campaign=1076074&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/9bf/865/eef/9bf865eef158e513033513b843176a0d.jpg",
-          "publishedAt": "2026-08-29T08:36:50.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
         }
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-30T09:31:45.094Z",
+      "lastFetchAt": "2026-08-30T17:21:12.282Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -107,60 +109,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1788082202000",
-          "title": "Кот, ваза и три уровня причинности: что ИИ пока не умеет",
-          "summary": "Почему ИИ убирает неверно показывает результат действий кота и удаляет одну подушку? Причины кроются в обучении и интерпретации нашей реальности. Подробнее про причинно-следственную связь в нашем мире и о том, как ее \"пе",
-          "url": "https://habr.com/ru/articles/1076292/?utm_campaign=1076292&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/455/81a/baa/45581abaa5a68d792f94dd256d4523fa.png",
-          "publishedAt": "2026-08-30T09:30:02.000Z",
+          "id": "ai-0-1788106137000",
+          "title": "MarkMello v0.4.0: развитие MD-редактора",
+          "summary": "Всем привет! В мае я опубликовал на Хабре первую статью о MarkMello (легкий MD-просмотрщик). Изначальная задача была простой: сделать лёгкое приложение, которое быстро открывает локальный Markdown-файл сразу в режиме чте",
+          "url": "https://habr.com/ru/articles/1076414/?utm_campaign=1076414&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/2f1/007/8a4/2f10078a421091a1c76cbb4be87be80e.png",
+          "publishedAt": "2026-08-30T16:08:57.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1788081925000",
-          "title": "Букмарклет вычисляющий скорость gguf модели в llama.cpp на hf",
-          "summary": "С приходом нейросетей теперь можно решать задачи гораздо проще, правда и задачи бы такой не стояло не будь нейросетей и llama.cpp, и huggingface. В общем смысл статьи в том чтобы попытаться математически вычислить теорет",
-          "url": "https://habr.com/ru/articles/1076284/?utm_campaign=1076284&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/bc5/7c1/d89/bc57c1d893816e69905d41108a1ffdf3.PNG",
-          "publishedAt": "2026-08-30T09:25:25.000Z",
+          "id": "ai-1-1788104709000",
+          "title": "Трехфазная защита ваших ИИ-агентов от современных угроз с детальным разбором на базе модели безопасности OGL-Mini",
+          "summary": "LLM-бум породил не только новые возможности, но и новое поколение атак. За два года мы увидели реальные атаки на агенты: один вредоносный email и Copilot сливает платёжные данные клиентов, одно фальшивое GitHub issue и C",
+          "url": "https://habr.com/ru/articles/1076400/?utm_campaign=1076400&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/33b/b94/e6a/33bb94e6af2544e535c6ba5dfb3d95d3.jpg",
+          "publishedAt": "2026-08-30T15:45:09.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1788080448000",
-          "title": "Что внутри ANE на самом деле, или почему ЫЫ нельзя поручать reverse engineering",
-          "summary": "Нейронке сказали - “разберись как оно работает”. Пошевелив гигабайтами матриц, она полезла ковырять список классов в AppleNeuralEngine.framework - и нашла там то, что искала - “40+ private classes, including _ANEInMemory",
-          "url": "https://habr.com/ru/articles/1076240/?utm_campaign=1076240&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1076240/67af591d855e7d6fb878047c99083e29/",
-          "publishedAt": "2026-08-30T09:00:48.000Z",
+          "id": "ai-2-1788103433000",
+          "title": "Нейросети как дофаминовая яма для взрослых",
+          "summary": "Раньше существовал естественный барьер между «мне интересно» и «я пошёл это делать». Чтобы попробовать написать музыку, нужно было хотя бы немного разобраться в DAW. Чтобы полезть в SEO, требовалось прочитать документаци",
+          "url": "https://habr.com/ru/articles/1076396/?utm_campaign=1076396&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/452/46c/fb9/45246cfb9eeb5b7a45d4e0eaf0691b70.png",
+          "publishedAt": "2026-08-30T15:23:53.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1788076843000",
-          "title": "Снятся ли трансформерам электроовцы",
-          "summary": "В 2015 Google выкатила серию изображений, которые выглядели так, словно фотографию отдали на редактуру художнику, а потом забыли вовремя его остановить. На обычном пейзаже появлялись десятки глаз, в облаках начинали угад",
-          "url": "https://habr.com/ru/companies/selectel/articles/1074546/?utm_campaign=1074546&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/ab3/ab3/0cc/ab3ab30ccc191dc77ade95c21af14ddc.png",
-          "publishedAt": "2026-08-30T08:00:43.000Z",
+          "id": "ai-3-1788101994000",
+          "title": "Qwen4: Архитектура будущего",
+          "summary": "Тут надо сразу расставить точки, потому что вокруг названия путаница. Полноценного Qwen4 не существует. Есть Qwen3.8-Flash‑Next — модель, которую сама команда Qwen называет «экспериментальная версия архитектуры, которая ",
+          "url": "https://habr.com/ru/companies/gptunnel/articles/1076382/?utm_campaign=1076382&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c8f/30d/348/c8f30d348fb08448b50f09666820e9ff.jpg",
+          "publishedAt": "2026-08-30T14:59:54.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-4-1788073238000",
-          "title": "Четыре роли нейросетей в обработке фото",
-          "summary": "Словосочетание «Нейросетевая обработка фото» звучит красиво и технологично. А кое-кто от неё уже даже устал, ибо ассоциирует её с потоком нейрослопа. Но вот проблема. Что вообще значит обработать фото нейронкой? Слово «н",
-          "url": "https://habr.com/ru/companies/bothub/articles/1075920/?utm_campaign=1075920&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/af8/50f/5ca/af850f5caf520e1eb8d236a5c7e11953.png",
-          "publishedAt": "2026-08-30T07:00:38.000Z",
+          "id": "ai-4-1788085793000",
+          "title": "Налог на контекст: куда утекают токены",
+          "summary": "Когда ИИ-агент пишет код, почти все деньги уходят не на его «мысли» и не на ваш диалог с ним, а на многократную пересылку уже отправленного. Я измерил это на 40 реальных сессиях разработки в Claude Code и Codex — вот из ",
+          "url": "https://habr.com/ru/articles/1076312/?utm_campaign=1076312&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/0ab/0ff/092/0ab0ff0924ac6e43eaac7eb20ab7dfe7.jpg",
+          "publishedAt": "2026-08-30T10:29:53.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -169,7 +171,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-30T14:32:58.995Z",
+      "lastFetchAt": "2026-08-30T17:21:13.941Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -177,7 +179,31 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1788081098000",
+          "id": "cybersecurity-0-1788109140000",
+          "title": "«Будьте бдительны» — это не защита. Разбор того, что происходит с человеком в момент атаки",
+          "summary": "За годы в SOC и на пентестах я привык к неприятному распределению: самый дорогой периметр обходится не через уязвимость в коде, а через того, кто за этим периметром сидит. Файрвол не устаёт, не хочет помочь и не боится н",
+          "url": "https://habr.com/ru/articles/1076454/?utm_campaign=1076454&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1076454/de8daccb4cc8fc2c75c4aef23f7adeb1/",
+          "publishedAt": "2026-08-30T16:59:00.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1788104709000",
+          "title": "Трехфазная защита ваших ИИ-агентов от современных угроз с детальным разбором на базе модели безопасности OGL-Mini",
+          "summary": "LLM-бум породил не только новые возможности, но и новое поколение атак. За два года мы увидели реальные атаки на агенты: один вредоносный email и Copilot сливает платёжные данные клиентов, одно фальшивое GitHub issue и C",
+          "url": "https://habr.com/ru/articles/1076400/?utm_campaign=1076400&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/33b/b94/e6a/33bb94e6af2544e535c6ba5dfb3d95d3.jpg",
+          "publishedAt": "2026-08-30T15:45:09.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1788081098000",
           "title": "Ошибки ценою в миллионы: как не попасть под штраф за некорректную работу с персональными данными",
           "summary": "Прошел уже год, как начали действовать новые штрафы в области защиты персональных данных. Однако до сих пор я встречаю в своей практике нарушения у предпринимателей, которые могут повлечь за собой миллионные штрафы, если",
           "url": "https://habr.com/ru/articles/1076288/?utm_campaign=1076288&utm_source=habrahabr&utm_medium=rss",
@@ -189,7 +215,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1788080508000",
+          "id": "cybersecurity-3-1788080508000",
           "title": "Apple меняет домен Private Relay: почему Sign in with Apple нельзя строить вокруг email",
           "summary": "Apple меняет домен новых Private Relay адресов для Sign in with Apple. Внешне это похоже на небольшую правку allowlist, но на практике быстро выявляет хрупкую архитектуру, где email участвует в поиске аккаунта. На пример",
           "url": "https://habr.com/ru/articles/1076028/?utm_campaign=1076028&utm_source=habrahabr&utm_medium=rss",
@@ -201,7 +227,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1788080447000",
+          "id": "cybersecurity-4-1788080447000",
           "title": "Одну и ту же выгрузку получили сорок подрядчиков. Утекла одна копия. Определить источник можно точно",
           "summary": "Разбор, на который меня зовут регулярно, и заканчивается он почти всегда одинаково. База клиентов всплывает в продаже. Выгрузку за последний год получали десятки контрагентов — интеграторы, колл-центр, маркетинговое аген",
           "url": "https://habr.com/ru/articles/1075850/?utm_campaign=1075850&utm_source=habrahabr&utm_medium=rss",
@@ -211,35 +237,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1788026547000",
-          "title": "Я попросил ИИ-агента только описать топологию сети. Он сам взломал мой роутер за одну ночь и помог оформить CVE",
-          "summary": "Некоторое время назад я строил оркестратор своей домашней лаборатории. LLM-агент должен был облететь серверы, собрать метаданные и зафиксировать топологию сети в документации проекта. Разведочную, в общем-то, канцелярску",
-          "url": "https://habr.com/ru/articles/1076204/?utm_campaign=1076204&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/6cc/9c7/202/6cc9c7202e4172eed1f696f94328597c.png",
-          "publishedAt": "2026-08-29T18:02:27.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1788011423000",
-          "title": "AutoAddPolicy — это не удобство. Это выключенная проверка",
-          "summary": "У меня в проекте было четырнадцать копий одного IP‑адреса. По одной в каждом скрипте, который ходит на боевой сервер: деплой, перезапуск сервиса, правка DNS, диагностика почты. Классический копипаст, который живёт до пер",
-          "url": "https://habr.com/ru/articles/1076146/?utm_campaign=1076146&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/77c/58e/4da/77c58e4da4d5c513c4dd561e7ca3a024.png",
-          "publishedAt": "2026-08-29T13:50:23.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-30T14:33:01.933Z",
+      "lastFetchAt": "2026-08-30T17:21:15.612Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -247,7 +249,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1788074339000",
+          "id": "business-0-1788103993000",
+          "title": "Трамп: поставки нефти из Венесуэлы пополнят стратегический резерв США",
+          "summary": "Он назвал это «подарком» от Каракаса",
+          "url": "https://www.vedomosti.ru/business/news/2026/08/30/1224757-tramp-postavki-nefti",
+          "image": "https://cdn.vdmsti.ru/image/2026/6q/13m6lp/normal-1fcc.jpg",
+          "publishedAt": "2026-08-30T15:33:13.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1788074339000",
           "title": "«Автостат»: Kia и Hyundai могут первыми вернуться в Россию",
           "summary": "",
           "url": "https://www.vedomosti.ru/auto/news/2026/08/30/1224718-kia-hyundai-vernutsya",
@@ -259,7 +273,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1788069865000",
+          "id": "business-2-1788069865000",
           "title": "Минтранс хочет узаконить овербукинг на рейсах по России",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/30/1224712-mintrans-uzakonit-overbuking",
@@ -271,7 +285,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1788004450000",
+          "id": "business-3-1788004450000",
           "title": "The Guardian: запасы газа в хранилищах ЕС упали до рекордного минимума за 13 лет",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/29/1224669-the-guardian-zapasi-gaza",
@@ -283,7 +297,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1788003175000",
+          "id": "business-4-1788003175000",
           "title": "Запрет на экспорт дизтоплива продлили до 30 сентября",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/08/29/1224668-zapret-na-eksport",
@@ -293,23 +307,11 @@
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
           "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1787998308000",
-          "title": "Bloomberg: Турция теряет статус доступного туристического направления",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/08/29/1224661-bloomberg-turtsiya-teryaet",
-          "image": "https://sharing.vedomosti.ru/1787998308/vedomosti.ru/business/news/2026/08/29/1224661-bloomberg-turtsiya-teryaet.jpg",
-          "publishedAt": "2026-08-29T10:11:48.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
         }
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-30T14:33:04.154Z",
+      "lastFetchAt": "2026-08-30T17:21:17.075Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -367,7 +369,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-30T09:31:50.986Z",
+      "lastFetchAt": "2026-08-30T17:21:18.194Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -375,7 +377,19 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1788012360000",
+          "id": "science-0-1788094800000",
+          "title": "Телескоп Нэнси Роман начал перелет ко второй точке Лагранжа",
+          "summary": "Телескоп Нэнси Роман начал перелет ко второй точке Лагранжа",
+          "url": "https://nplus1.ru/news/2026/08/30/roman-go-to-space",
+          "image": "https://nplus1.ru/images-new/share_snippet.png",
+          "publishedAt": "2026-08-30T13:00:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1788012360000",
           "title": "«Имя раздора: политическое использование понятия &amp;#132;гражданская война&amp;#147; (1917&amp;#150;1918)»",
           "summary": "«Имя раздора: политическое использование понятия „гражданская война“ (1917–1918)»",
           "url": "https://nplus1.ru/blog/2026/08/29/political-usage-of-civil-war-term",
@@ -387,7 +401,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1787948160000",
+          "id": "science-2-1787948160000",
           "title": "Роман, Нэнси Роман",
           "summary": "Роман, Нэнси Роман",
           "url": "https://nplus1.ru/material/2026/08/28/roman-nancy-roman",
@@ -399,7 +413,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-2-1787935680000",
+          "id": "science-3-1787935680000",
           "title": "Повторяй за мной",
           "summary": "Повторяй за мной",
           "url": "https://nplus1.ru/blog/2026/08/28/larp-till-the-end",
@@ -411,7 +425,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-3-1787934000000",
+          "id": "science-4-1787934000000",
           "title": "Спонтанно заряженные капли пробили защитное покрытие и ускорили коррозию меди",
           "summary": "Спонтанно заряженные капли пробили защитное покрытие и ускорили коррозию меди",
           "url": "https://nplus1.ru/news/2026/08/28/killer-drops",
@@ -421,23 +435,11 @@
           "categoryId": "science",
           "categoryName": "Наука",
           "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1787931900000",
-          "title": "Между человеком и машиной",
-          "summary": "Между человеком и машиной",
-          "url": "https://nplus1.ru/blog/2026/08/28/deus-ex-part-ii",
-          "image": "https://minio.nplus1.ru/app-images/1133062/conversions/c9d9005101cf822e042a73496abd0d2f-share.png",
-          "publishedAt": "2026-08-28T15:45:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
         }
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-30T14:33:07.728Z",
+      "lastFetchAt": "2026-08-30T17:21:19.305Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -507,7 +509,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-30T09:31:58.045Z",
+      "lastFetchAt": "2026-08-30T17:21:20.140Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -515,7 +517,43 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1788078771000",
+          "id": "health-0-1788100338000",
+          "title": "Врач назвала четыре разрушающие здоровье повседневные привычки",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/vrach-nazvala-chetyre-razrushayuschie-zdorovie-povsednevnye-privychki/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/16/20260813164207266/pic_65220c3b901a90a0ebb2ae819e21b23c.jpg",
+          "publishedAt": "2026-08-30T14:32:18.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-1-1788093000000",
+          "title": "Врач оценила правдивость утверждения о связи кофе и высокого давления",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/vrach-otsenila-pravdivost-utverzhdeniya-o-svyazi-kofe-i-vysokogo-davleniya/",
+          "image": "https://icdn.lenta.ru/images/2026/08/13/12/20260813120606204/pic_52331688be72a52cbde96d05000d05e9.jpg",
+          "publishedAt": "2026-08-30T12:30:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-2-1788084840000",
+          "title": "Российский кардиохирург убил напавшего на него пасынка и получил шесть лет колонии",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/rossiyskiy-kardiohirurg-ubil-napavshego-na-nego-pasynka-i-poluchil-shest-let-kolonii/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/13/20260830130023201/pic_ee512c1f7d1f1e06879217673412e31e.jpg",
+          "publishedAt": "2026-08-30T10:14:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-3-1788078771000",
           "title": "Врач предупредил людей с запорами о риске «калового завала»",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/30/vrach-predupredil-lyudey-s-zaporami-o-riske-kalovogo-zavala/",
@@ -527,7 +565,7 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1788060060000",
+          "id": "health-4-1788060060000",
           "title": "Врач опроверг популярный миф о сахарном диабете",
           "summary": "",
           "url": "https://lenta.ru/news/2026/08/30/vrach-oproverg-populyarnyy-mif-o-saharnom-diabete/",
@@ -541,16 +579,113 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-30T14:33:08.378Z",
+      "lastFetchAt": "2026-08-30T17:21:26.230Z",
       "intervalHours": 4,
-      "source": "N+1",
-      "siteUrl": "https://nplus1.ru",
-      "name": "Экология и климат",
+      "source": "Росгидромет, НИА Экология, РИА",
+      "siteUrl": "https://www.meteorf.gov.ru",
+      "name": "Экология России",
       "slug": "environment",
-      "articles": []
+      "articles": [
+        {
+          "id": "environment-0-1788090368000",
+          "title": "В Москве обсудят новые правила обращения с животными",
+          "summary": "Второй Всероссийский форум пройдёт 25 сентября в Национальном центре «Россия». В программу вошли сессии о законодательстве, работе приютов, ветеринарной помощи, защите диких и сельскохозяйственных животных Сообщение В Мо",
+          "url": "https://nia.eco/2026/08/30/131228/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131228-84bb0cbe8e1b4152.jpg",
+          "publishedAt": "2026-08-30T11:46:08.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1788080618000",
+          "title": "В Тюменской области объем погибшей из-за паводка рыбы составил около 400 тонн",
+          "summary": "После гибели особи смогут стать кормовой базой Сообщение В Тюменской области объем погибшей из-за паводка рыбы составил около 400 тонн появились сначала на НИА \"Экология\".",
+          "url": "https://nia.eco/2026/08/30/131288/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131288-06ef5ff9d3cdd5d1.jpg",
+          "publishedAt": "2026-08-30T09:03:38.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-2-1788077663000",
+          "title": "Турция утвердила правила национальной торговли выбросами",
+          "summary": "В систему войдут промышленные предприятия с расчётными выбросами более 50 тыс. тонн CO₂-эквивалента в год. Сроки и состав участников пилотного этапа определит Совет по углеродному рынку Сообщение Турция утвердила правила",
+          "url": "https://nia.eco/2026/08/30/131202/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131202-9d70d3d50e929d31.jpg",
+          "publishedAt": "2026-08-30T08:14:23.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-3-1788072678000",
+          "title": "У тёплых границ ареалов птицы сильнее зависят от лесного покрова",
+          "summary": "Международная группа проанализировала данные о 2 262 видах птиц на 7 326 участках. Согласно расчётам, сокращение доли леса с 95 до 5% уменьшает температурный запас популяций в среднем на 4,2°C Сообщение У тёплых границ а",
+          "url": "https://nia.eco/2026/08/30/131187/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131187-f2e76d3d0119a529.jpg",
+          "publishedAt": "2026-08-30T06:51:18.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-4-1788069312000",
+          "title": "На Ямале собрали более 3,5 тысяч мешков мусора",
+          "summary": "За месяц волонтеры проекта «Экология внутри» очистили от мусора территорию площадью свыше 30 га Сообщение На Ямале собрали более 3,5 тысяч мешков мусора появились сначала на НИА \"Экология\".",
+          "url": "https://nia.eco/2026/08/30/131273/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131273-7c3aca66aefdc84e.jpg",
+          "publishedAt": "2026-08-30T05:55:12.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-5-1788068537000",
+          "title": "Паводок в Хабаровском крае затронул 36 населённых пунктов",
+          "summary": "Вода ушла из единственного подтопленного жилого дома. В регионе остаются затопленными 569 приусадебных и дачных участков и 27 участков дорог Сообщение Паводок в Хабаровском крае затронул 36 населённых пунктов появились с",
+          "url": "https://nia.eco/2026/08/30/131308/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131308-0715a663ca4b9721.jpg",
+          "publishedAt": "2026-08-30T05:42:17.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-6-1788015799000",
+          "title": "Отчёты об использовании лесов до 15 января примут по двум XSD-схемам",
+          "summary": "С 1 сентября в форму 1-ИЛ включаются сведения о лесных дорогах. На время переходного периода Рослесхоз разрешил использовать прежнюю и обновлённую структуры электронного файла Сообщение Отчёты об использовании лесов до 1",
+          "url": "https://nia.eco/2026/08/29/131197/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131197-5f5bd486abb875f1.jpg",
+          "publishedAt": "2026-08-29T15:03:19.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-7-1788009769000",
+          "title": "Дым от пожаров Ямала, Красноярского края и Якутии распространился по Сибири",
+          "summary": "На утро 29 августа в России тушат 111 лесных пожаров на площади 501,8 тыс. гектаров. Крупнейшие действующие очаги находятся на Ямале и в Якутии Сообщение Дым от пожаров Ямала, Красноярского края и Якутии распространился ",
+          "url": "https://nia.eco/2026/08/29/131183/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/131183-d952a88c44fb7c3e.jpg",
+          "publishedAt": "2026-08-29T13:22:49.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        }
+      ]
     },
     "energy": {
-      "lastFetchAt": "2026-08-30T09:32:05.750Z",
+      "lastFetchAt": "2026-08-30T17:21:27.477Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -558,60 +693,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1788081716000",
-          "title": "Путин ожидает от участников ВЭФ-2026 новых решений для бизнеса",
-          "summary": "Президент России Владимир Путин рассчитывает, что участники Восточного экономического форума 2026 года предложат решения, которые создадут новые возможности для бизнеса и будут способствовать развитию Дальнего Востока. П",
-          "url": "https://www.kommersant.ru/doc/8921687",
-          "image": "https://im2.kommersant.ru/SocialPics/8921687_49_0_321471564",
-          "publishedAt": "2026-08-30T09:21:56.000Z",
+          "id": "energy-0-1788109150000",
+          "title": "Экспорт пшеницы в сентябре может упасть до минимума с 2010 года",
+          "summary": "Российский экспорт пшеницы в сентябре этого года составил 1,8–2,3 млн тонн, сократившись на 52,1–62,5% к аналогичному периоду прошлого года. Такой предварительный прогноз приводит «Совэкон».",
+          "url": "https://www.kommersant.ru/doc/8921882",
+          "image": "https://im2.kommersant.ru/SocialPics/8921882_49_0_711186276",
+          "publishedAt": "2026-08-30T16:59:10.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1788080344000",
-          "title": "Россияне Петров и Штыль взяли золото на чемпионате мира в каноэ-двойках",
-          "summary": "Российские каноисты Захар Петров и Иван Штыль завоевали золото чемпионата мира в Познани в заезде двоек на дистанции 500 м. Для 24-летнего Петрова это шестой титул чемпиона мира.",
-          "url": "https://www.kommersant.ru/doc/8921681",
-          "image": "https://iv.kommersant.ru/SocialPics/8921681_49_3192977_2089532115",
-          "publishedAt": "2026-08-30T08:59:04.000Z",
+          "id": "energy-1-1788108503000",
+          "title": "«РИА Новости»: Эрдоган обсудит с Путиным посредничество Турции по Украине",
+          "summary": "На встрече с президентом России Владимиром Путиным турецкий президент Реджеп Тайип Эрдоган заявил о готовности Турции быть посредником в переговорах по Украине. Об этом сообщило «РИА Новости» со ссылкой на источник в пра",
+          "url": "https://www.kommersant.ru/doc/8921881",
+          "image": "https://iv.kommersant.ru/SocialPics/8921881_49_3193135_1043390315",
+          "publishedAt": "2026-08-30T16:48:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1788080004000",
-          "title": "Хаменеи призвал мусульман объединиться и распознать «истинного врага»",
-          "summary": "Верховный лидер Ирана Мотажба Хаменеи призвал к единству и взаимной обороне мусульманских стран, в первую очередь государств Персидского залива. Соответствующее заявление по случаю Недели исламского единства опубликовала",
-          "url": "https://www.kommersant.ru/doc/8921679",
-          "image": "https://im2.kommersant.ru/SocialPics/8921679_49_3192973_636385010",
-          "publishedAt": "2026-08-30T08:53:24.000Z",
+          "id": "energy-2-1788107780000",
+          "title": "В прокат вышел боевик «Мятеж» с Джейсоном Стейтемом",
+          "summary": "В прокат вышел фильм Жан-Франсуа Рише «Мятеж» (Mutiny) с Джейсоном Стейтемом в главной роли. Жан-Франсуа Рише, умеющий снимать богатые и сложные боевики («Враг государства №1», 2008; «Видок: Охотник на призраков», 2018),",
+          "url": "https://www.kommersant.ru/doc/8921875",
+          "image": "https://iv.kommersant.ru/SocialPics/8921875_49_0_939961531",
+          "publishedAt": "2026-08-30T16:36:20.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1788078871000",
-          "title": "В Дагестане 24 населенных пункта остались без электричества",
-          "summary": "Аварийные отключения электроэнергии произошли в 24 населенных пунктах Унцукульского, Хунзахского и Цумадинского районов Дагестана, а также частично в Избербаше. Без электричества остались более 32,9 тыс. человек, сообщил",
-          "url": "https://www.kommersant.ru/doc/8921677",
-          "image": "https://iv.kommersant.ru/SocialPics/8921677_49_0_847512177",
-          "publishedAt": "2026-08-30T08:34:31.000Z",
+          "id": "energy-3-1788107626000",
+          "title": "На Кипре после крушения парома задержали восемь человек",
+          "summary": "После крушения парома у берегов непризнанной Турецкой республики Северного Кипра (ТРСК) полиция задержала восемь человек, в том числе капитана судна. Об этом сообщил Kibris Postasi премьер-министр ТРСК Унал Устель.",
+          "url": "https://www.kommersant.ru/doc/8921876",
+          "image": "https://iv.kommersant.ru/SocialPics/8921876_49_0_1845976477",
+          "publishedAt": "2026-08-30T16:33:46.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1788078501000",
-          "title": "МВД: мошенники могут отправлять ссылку на сайт, имитирующий взлом «Госуслуг»",
-          "summary": "В МВД России сообщили о новой схеме мошенничества, связанной с поддельными сайтами, которые имитируют взлом учетной записи на портале «Госуслуг». Злоумышленники рассылают пользователям ссылки на фальшивые страницы, где п",
-          "url": "https://www.kommersant.ru/doc/8921673",
-          "image": "https://im2.kommersant.ru/SocialPics/8921673_49_0_1347653708",
-          "publishedAt": "2026-08-30T08:28:21.000Z",
+          "id": "energy-4-1788106528000",
+          "title": "Песков назвал договоренности по Украине сложным процессом",
+          "summary": "Договоренности по российско-украинскому конфликту не могут быть «примитивной сделкой», заявил пресс-секретарь президента РФ Дмитрий Песков. Он назвал процесс их достижения сложным, состоящим из большого количества детале",
+          "url": "https://www.kommersant.ru/doc/8921870",
+          "image": "https://iv.kommersant.ru/SocialPics/8921870_49_0_32643121",
+          "publishedAt": "2026-08-30T16:15:28.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -620,7 +755,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-30T09:32:06.526Z",
+      "lastFetchAt": "2026-08-30T17:21:27.860Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -690,7 +825,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-30T09:32:08.944Z",
+      "lastFetchAt": "2026-08-30T17:21:28.881Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -698,7 +833,19 @@
       "slug": "automotive",
       "articles": [
         {
-          "id": "automotive-0-1788075981000",
+          "id": "automotive-0-1788088349000",
+          "title": "На аукцион выставили прототип военного грузовика Ford с гребным винтом и алюминиевым кузовом",
+          "summary": "На аукционе Bring a Trailer выставлен на продажу редкий прототип военного грузовика Ford XM434E2 — полноприводный 6×6 с алюминиевым кузовом, разработанный в конце 50-х годов прошлого века для армии США, сообщает The Driv",
+          "url": "https://motor.ru/news/na-aukcion-vystavili-prototip-voennogo-gruzovika-ford-s-grebnym-vintom-i-alyuminievym-kuzovom-30-08-2026.htm",
+          "image": "https://motor.ru/imgs/2026/08/30/11/7000999/e04b918dfd27c1561b378d01069a885bd4c1948f.webp",
+          "publishedAt": "2026-08-30T11:12:29.000Z",
+          "source": "Motor.ru",
+          "categoryId": "automotive",
+          "categoryName": "Авто",
+          "categorySlug": "automotive"
+        },
+        {
+          "id": "automotive-1-1788075981000",
           "title": "Возрожденный сербский автобренд Yugo показал AI-концепт четырехдверного кабриолета",
           "summary": "Возрожденный бренд Yugo представил концепт четырехдверного кабриолета, созданный с помощью искусственного интеллекта, и сопровождает его серией самоироничных шуток в соцсетях. Как сообщает Carscoops, компания опубликовал",
           "url": "https://motor.ru/news/vozrozhdennyi-serbskii-avtobrend-yugo-pokazal-ai-koncept-chetyrekhdvernogo-kabrioleta-30-08-2026.htm",
@@ -710,7 +857,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-1-1788070613000",
+          "id": "automotive-2-1788070613000",
           "title": "Обновленный Toyota Land Cruiser 300 Hybrid стал самым мощным в истории модели",
           "summary": "Toyota официально представит обновленный Land Cruiser 300 для японского рынка 16 сентября, и главная сенсация — замена бензинового V6 на гибридную силовую установку, которая делает внедорожник самым мощным в истории моде",
           "url": "https://motor.ru/news/toyota-land-cruiser-300-hybrid-stal-samym-moshnym-v-istorii-modeli-30-08-2026.htm",
@@ -722,7 +869,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-2-1788018293000",
+          "id": "automotive-3-1788018293000",
           "title": "В Белоруссии стартовали продажи кроссовера FAW JoyEE S04 за 2 миллиона рублей",
           "summary": "В Белоруссию приехала первая партия нового компактного электрокроссовера FAW JoyEE S04. Модель с запасом хода до 565 км доставил официальный дистрибьютор китайского бренда, выяснил журнал Motor.",
           "url": "https://motor.ru/news/belorusam-stal-dostupen-170-silnyi-krossover-za-2-milliona-rublei-28-08-2026.htm",
@@ -734,7 +881,7 @@
           "categorySlug": "automotive"
         },
         {
-          "id": "automotive-3-1788016035000",
+          "id": "automotive-4-1788016035000",
           "title": "Motor перечислил минусы новых правил таксомоторных перевозок",
           "summary": "С 1 сентября 2026 года в Российской Федерации вводятся новые правила перевозки пассажиров и багажа в такси. Как выяснил журнал Motor, нормативный акт затрагивает порядок провоза животных, регулирование габаритов ручной к",
           "url": "https://motor.ru/news/rossiyanam-napomnili-pro-novye-pravila-ezdy-na-taksi-29-08-2026.htm",
@@ -744,23 +891,11 @@
           "categoryId": "automotive",
           "categoryName": "Авто",
           "categorySlug": "automotive"
-        },
-        {
-          "id": "automotive-4-1788013155000",
-          "title": "Путину представили новую модульную платформу для «Газелей»",
-          "summary": "В ходе рабочей поездки в Нижний Новгород президент России Владимир Путин посетил Горьковский автомобильный завод, где ему представили новейшую модульную платформу для лёгких коммерческих автомобилей будущего. Сотрудники ",
-          "url": "https://motor.ru/news/vladimir-putin-osmotrel-prototip-budushei-gazeli-3-29-08-2026.htm",
-          "image": "https://motor.ru/imgs/2026/08/29/14/7000888/606a3c8226aac6ba63e2156cb61514240477cb0d.jpg",
-          "publishedAt": "2026-08-29T14:19:15.000Z",
-          "source": "Motor.ru",
-          "categoryId": "automotive",
-          "categoryName": "Авто",
-          "categorySlug": "automotive"
         }
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-30T14:33:10.009Z",
+      "lastFetchAt": "2026-08-30T17:21:29.627Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -793,7 +928,7 @@
         },
         {
           "id": "gaming-2-1788080448000",
-          "title": "Команда-невидимка и святые вампиры: как Orbis переписал Civilization IV и уперся в тупик Civilization V",
+          "title": "Сокровище эпохи интернет-энтузиастов: как мод-мод Orbis переписал Civilization IV и уперся в тупик Civilization V",
           "summary": "В фэнтези-стратегиях экономику обычно задвигают на второй план и даже не пытаются ее совместить с магией. А вот создателям мода (точнее, даже мод-мода) Orbis для Civilization IV это удалось. По первому образованию я экон",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1075504/?utm_campaign=1075504&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/984/0ed/8b8/9840ed8b8fee7c9db5d324d9bf931aeb.jpg",
@@ -830,7 +965,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-30T14:33:18.436Z",
+      "lastFetchAt": "2026-08-30T17:21:31.048Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -838,7 +973,43 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1788090170000",
+          "id": "entertainment-0-1788107737000",
+          "title": "Чудесатый рейс // Вышел в прокат боевик «Мятеж» с Джейсоном Стейтемом",
+          "summary": "На экранах — фильм Жан-Франсуа Рише «Мятеж» (Mutiny) с Джейсоном Стейтемом в главной роли. Михаил Трофименков порадовался тому, что в эпоху искусственного интеллекта не умерло пацанское кино в лучших традициях Брюса Уилл",
+          "url": "https://www.kommersant.ru/doc/8921813",
+          "image": "https://im2.kommersant.ru/SocialPics/8921813_49_3193075_1019268289",
+          "publishedAt": "2026-08-30T16:35:37.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1788106303000",
+          "title": "Притяжение сил // Выставка в Литературном музее предлагает взглянуть на Салтыкова-Щедрина с разных сторон",
+          "summary": "В Государственном литературном музее проходит выставка «Писатель многосторонней силы», приуроченная к 200-летию со дня рождения Михаила Салтыкова-Щедрина. Она обещает показать классика не только едким сатириком, но и чел",
+          "url": "https://www.kommersant.ru/doc/8921820",
+          "image": "https://im2.kommersant.ru/SocialPics/8921820_49_3193079_943192633",
+          "publishedAt": "2026-08-30T16:11:43.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1788101057000",
+          "title": "Королю на обстановку // Версалю обещаны миллионы на покупку мебели",
+          "summary": "Во Франции обсуждают новость о наследстве Франсуазы Ламбер, умершей в возрасте 85 лет, которая оставила все свое состояние, деньги и коллекции Версальскому дворцу. Полная стоимость наследства пока не определена, но речь ",
+          "url": "https://www.kommersant.ru/doc/8921729",
+          "image": "https://iv.kommersant.ru/SocialPics/8921729_49_3193087_56098196",
+          "publishedAt": "2026-08-30T14:44:17.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-3-1788090170000",
           "title": "Венецианский кинофестиваль впервые отказался от пресс-конференции жюри",
           "summary": "Венецианский кинофестиваль отменил в этом году главную пресс-конференцию членов жюри премии. Об этом сообщает издание Deadline со ссылкой на оргкомитет фестиваля.",
           "url": "https://www.kommersant.ru/doc/8921735",
@@ -850,48 +1021,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1788084153000",
+          "id": "entertainment-4-1788084153000",
           "title": "Умер петербургский художник Владимир Снопов",
           "summary": "Художник Владимир Снопов скончался в возрасте 91 года. Об этом сообщила пресс-служба Санкт-Петербургского союза художников (СПбСХ).",
           "url": "https://www.kommersant.ru/doc/8921700",
-          "image": "https://im2.kommersant.ru/SocialPics/8921700_49_0_1268620747",
+          "image": "https://im2.kommersant.ru/SocialPics/8921700_49_3192998_1268620747",
           "publishedAt": "2026-08-30T10:02:33.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-2-1788066000000",
-          "title": "«Единственная, на кого я могу полностью положиться в этой жизни, — я сама» // Карьера Камерон Диас",
-          "summary": "30 августа 1972 года родилась Камерон Диас. Одна из самых привлекательных голливудских актрис, четырежды номинант на премию «Золотой глобус» — в фотогалерее «Ъ».",
-          "url": "https://www.kommersant.ru/doc/2799830",
-          "image": "https://im2.kommersant.ru/Issues.photo/CORP/2015/08/30/KMO_122956_00332_1_t219_124001.jpg",
-          "publishedAt": "2026-08-30T05:00:00.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1788015224000",
-          "title": "Умер актер Макс Максимов // Умер актер из «Обратной стороны Луны» и  «Доктора Живаго» Макс Максимов",
-          "summary": "Российский актер Макс Максимов (настоящее имя — Сергей Максимов) умер 29 августа в возрасте 80 лет. Об этом сообщила ТАСС его вдова.",
-          "url": "https://www.kommersant.ru/doc/8921540",
-          "image": "https://im2.kommersant.ru/SocialPics/8921540_49_3192868_2050965945",
-          "publishedAt": "2026-08-29T14:53:44.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787997173000",
-          "title": "Нижегородский губернатор не исключил переноса концерта Канье Уэста в Городец // Губернатор Никитин: в Нижегородской области допускают приезд Канье Уэста",
-          "summary": "Власти Нижегородской области готовы обсудить проведение в регионе концерта американского рэпера Канье Уэста. Об этом заявил губернатор области Глеб Никитин.",
-          "url": "https://www.kommersant.ru/doc/8921462",
-          "image": "https://im2.kommersant.ru/SocialPics/8921462_49_3192796_736512026",
-          "publishedAt": "2026-08-29T09:52:53.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -900,7 +1035,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-30T14:33:21.264Z",
+      "lastFetchAt": "2026-08-30T17:21:33.323Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -908,60 +1043,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788100080000",
-          "title": "«Реал» примет «Малагу» в 3-м туре Ла Лиги. Мбаппе, Винисиус, Беллингем и Кукурелья в старте, игра начнется в 18:00",
-          "summary": "« Реал » сыграет дома с «Малагой» в матче 3-го тура Ла Лиги. Календарь Ла Лиги Таблица Ла Лиги",
-          "url": "https://www.sports.ru/football/1117352125-real-primet-malagu-v-3-m-ture-la-ligi-igra-nachnetsya-v-1800.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/212/5/share/b04921_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T14:28:00.000Z",
+          "id": "sports-0-1788110100000",
+          "title": "В Смоленске появится профессиональная женская баскетбольная команда «Атом»",
+          "summary": "В Смоленске появится профессиональная женская баскетбольная команда. Об этом сообщил губернатор Смоленской области Василий Анохин. «Приняли решение о создании профессиональной женской баскетбольной команды, которая начне",
+          "url": "https://www.sports.ru/basketball/1117352908-v-smolenske-poyavitsya-professionalnaya-zhenskaya-basketbolnaya-komand.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/290/8/share/b88a24_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T17:15:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788099900000",
-          "title": "Денисенко о продлении контракта с «Ак Барсом»: «Были варианты в Швейцарии и Северной Америке, но я хотел остаться. Хорошо, что договорились»",
-          "summary": "Форвард « Ак Барса » Григорий Денисенко прокомментировал продление контракта с казанским клубом. В прошлом сезоне он набрал 28 (14+14) очков за 64 игры в регулярке, а также 2+2 за 20 игр в плей-офф. – Предсезонка нормаль",
-          "url": "https://www.sports.ru/hockey/1117352614-denisenko-o-prodlenii-kontrakta-s-ak-barsom-byli-varianty-v-shvejczari.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/261/4/share/f2b75e_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T14:25:00.000Z",
+          "id": "sports-1-1788109860000",
+          "title": "«Манчестер Юнайтед» играет дома с «Ипсвичем» в 2-м туре АПЛ. 5:2 – Акпом забил, Бруну сделал хет-трик и ассистировал Мбемо",
+          "summary": "« Манчестер Юнайтед » играет дома с « Ипсвичем » в матче 2-го тура АПЛ. Лейф Дэвис открыл счет на 29-й минуте. Бруну Фернандеш сравнял на 40-й. На 56-й мяч после удара Харри Магуайра зацепил Джейкоба Гривза и влетел в се",
+          "url": "https://www.sports.ru/football/1117352198-manchester-yunajted-sygraet-doma-s-ipsvichem-v-2-m-ture-apl-nachalo-ma.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/219/8/share/50581e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T17:11:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788099900000",
-          "title": "36-летний Балотелли не исключил возвращения в сборную Италии: «Если продолжу забивать – да»",
-          "summary": "Марио Балотелли допустил, что еще может вернуться в сборную Италии. 36-летний форвард сейчас выступает за «Аль-Иттифак» из ОАЭ. Он рассказал, что недавно переписывался с Роберто Манчини , который вновь возглавил национал",
-          "url": "https://www.sports.ru/football/1117352623-36-letnij-balotelli-ne-isklyuchil-vozvrashheniya-v-sbornuyu-italii-esl.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/262/3/share/ad88a8_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T14:25:00.000Z",
+          "id": "sports-2-1788109860000",
+          "title": "Даку о первом голе за «Спартак»: «Попросил Солари разрешить мне пробить пенальти – он отдал мяч, спасибо ему. Но итоговый счет на табло, нужно продолжать работать»",
+          "summary": "Нападающий « Спартака » Мирлинд Даку прокомментировал свой первый гол в составе красно-белых. Албанский форвард реализовал пенальти на 76-й минуте матча 6-го тура Альфа-Банк РПЛ против « Оренбурга » (1:1). – Расскажите о",
+          "url": "https://www.sports.ru/football/1117352901-daku-o-pervom-gole-za-spartak-poprosil-solari-razreshit-mne-probit-pen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/290/1/share/6f69eb_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T17:11:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1788099900000",
-          "title": "«Челси» принимает «Брайтон» в 2-м туре АПЛ. 3:2 – Лавия и Нету забили, у Жоао Педро гол и автогол, у Роджерса ассист",
-          "summary": "« Челси » играет дома с « Брайтоном » в матче 2-го тура АПЛ. Ромео Лавия открыл счет на 4-й минуте. Педру Нету забил на 14-й минуте с передачи Моргана Роджерса. Жоао Педро отличился на 32-й. Малик Ялькуйе отыграл один мя",
-          "url": "https://www.sports.ru/football/1117352090-chelsi-primet-brajton-v-2-m-ture-apl-igra-nachnetsya-v-1600.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/209/0/share/d249ab_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T14:25:00.000Z",
+          "id": "sports-3-1788109620000",
+          "title": "«Наполи» принимает «Комо» во 2-м туре Серии А. 1:2 – Дувикас забил",
+          "summary": "«Наполи» принимает «Комо» в рамках 2-го тура Серии А. Таблица Чемпионата Италии Статистика Чемпионата Италии",
+          "url": "https://www.sports.ru/football/1117352231-napoli-primet-komo-vo-2-m-ture-serii-a-match-nachnetsya-v-1900.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/223/1/share/7f7a85_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T17:07:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788099780000",
-          "title": "Марк Маркес сократил отставание от лидера MotoGP со 102 до 19 очков за 6 Гран-при",
-          "summary": "Пилот « Дукати » Марк Маркес продолжает приближаться к лидеру MotoGP. На Гран-при Арагона семикратный и действующий чемпион премьер-класса выиграл спринт и основную гонку. В конце апреля Маркес упал на домашнем Гран-при ",
-          "url": "https://www.sports.ru/automoto/1117352629-mark-markes-sokratil-otstavanie-ot-lidera-motogp-so-102-do-19-ochkov-z.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/262/9/share/de4b84_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T14:23:00.000Z",
+          "id": "sports-4-1788109620000",
+          "title": "US Open. Пегула играет с Рузе, Яценко – с Сарасуа, Александрова встретится с Кесслер, Уильямс-старшая – с Кенин, Паолини вышла во 2-й круг, Крейчикова выбыла",
+          "summary": "Екатерина Александрова встретится с Маккартни Кесслер в первом круге US Open. 46-летняя Винус Уильямс поборется с Софией Кенин. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шлема» Пр",
+          "url": "https://www.sports.ru/tennis/1117352196-us-open-2026-zhenshhiny-rezultaty-30-avgusta.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/219/6/share/32bf7d_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T17:07:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -969,8 +1104,302 @@
         }
       ]
     },
+    "football-russia": {
+      "lastFetchAt": "2026-08-30T17:21:34.682Z",
+      "intervalHours": 24,
+      "source": "Спорт-Экспресс, Sports.ru",
+      "siteUrl": "https://www.sport-express.ru/football/",
+      "name": "Футбол России",
+      "slug": "football-russia",
+      "articles": [
+        {
+          "id": "football-russia-0-1788109680000",
+          "title": "Тренер «Оренбурга» Ахметзянов: «Спартак» сегодня 9 раз просил пенальти. Когда столько просят, выглядит не очень»",
+          "summary": "Главный тренер «Оренбурга» Ильдар Ахметзянов поделился впечатлениями от ничьей со «Спартаком» (1:1) в матче 6-го тура РПЛ и раскритиковал манеру общения футболистов красно-белых с судьями.",
+          "url": "https://www.sport-express.ru/football/rfpl/news/glavnyy-trener-orenburga-ahmetzyanov-nedovolen-tem-chto-futbolisty-spartaka-mnogo-raz-trebovali-penalti-2451248/",
+          "image": "https://ss.sport-express.ru/userfiles/materials/222/2222432/1180x665.jpg",
+          "publishedAt": "2026-08-30T17:08:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-1-1788109320000",
+          "title": "«Мы видели судей вчера и сегодня. Разница большая». Кахигао о работе Чистякова на игре «Спартак» – «Оренбург»",
+          "summary": "Франсис Кахигао высказался о работе бригады Артема Чистякова на матче «Спартака» с «Оренбургом» в Альфа-Банк РПЛ.",
+          "url": "https://www.sports.ru/football/1117352883-my-videli-sudej-vchera-i-my-videli-sudyu-segodnya-raznicza-bolshaya-ka.html",
+          "image": "https://s5o.ru/storage/simple/04/04/41/2013.10.05.16.49.57.3040441.1.jpg",
+          "publishedAt": "2026-08-30T17:02:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-2-1788109320000",
+          "title": "Дьяков о Батракове: «Прекрасно дебютировал за «Галатасарай», отдал предголевую передачу. Хорошие предпосылки для успехов»",
+          "summary": "Бывший защитник «Ростова», «Динамо» и «БроукБойз» Виталий Дьяков высказался о дебюте Алексея Батракова за «Галатасарай».",
+          "url": "https://www.sports.ru/mediafootball/1117352633-dyakov-o-batrakove-prekrasno-debyutiroval-za-galatasaraj-otdal-predgol.html",
+          "image": "https://s5o.ru/storage/simple/04/28/46/2013.10.07.01.41.20.56042846.1.jpg",
+          "publishedAt": "2026-08-30T17:02:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-3-1788109320000",
+          "title": "«Рубин» играет дома с «Динамо» Махачкала в 6-м туре РПЛ. Сиве и Агаларов в старте",
+          "summary": "«Рубин» играет дома с «Динамо» Махачкала в матче 6-го тура Альфа-Банк РПЛ.",
+          "url": "https://www.sports.ru/football/1117352070-rubin-sygraet-doma-s-dinamo-maxachkala-v-6-m-ture-rpl-match-nachnetsya.html",
+          "image": "https://s5o.ru/storage/simple/13/12/69/2013.10.06.20.37.55.27131269.1.jpg",
+          "publishedAt": "2026-08-30T17:02:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-4-1788109200000",
+          "title": "Альфа-Банк РПЛ. «Спартак» сыграл вничью с «Оренбургом», «Рубин» против «Динамо» Махачкала, «Балтика» забила 3 гола «Родине»",
+          "summary": "6-й тур Альфа-Банк РПЛ стартовал в пятницу матчем «Акрон» – ЦСКА (2:2).",
+          "url": "https://www.sports.ru/football/1117349448-alfa-bank-rpl-czska-v-gostyax-u-akrona-dinamo-sygraet-s-lokomotivom-v-.html",
+          "image": "https://s5o.ru/storage/simple/04/04/41/2013.10.05.16.49.57.3040441.1.jpg",
+          "publishedAt": "2026-08-30T17:00:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-5-1788108900000",
+          "title": "Солари — о ничьей с «Оренбургом»: «Спартак потерял сегодня два очка»",
+          "summary": "Вингер «Спартака» Пабло Солари прокомментировал ничью с «Оренбургом» (1:1) в матче 6-го тура РПЛ.",
+          "url": "https://www.sport-express.ru/football/rfpl/news/spartak-orenburg-kommentariy-pablo-solari-po-itogu-matcha-6-go-tura-rpl-30-avgusta-2026-2451241/",
+          "image": "https://ss.sport-express.ru/img-gen/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB+%5C%5C+%D0%A0%D0%9F%D0%9B/%D0%A1%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA+%E2%80%94+%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%3A+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9+%D0%9F%D0%B0%D0%B1%D0%BB%D0%BE+%D0%A1%D0%BE%D0%BB%D0%B0%D1%80%D0%B8+%D0%BF%D0%BE+%D0%B8%D1%82%D0%BE%D0%B3%D1%83+%D0%BC%D0%B0%D1%82%D1%87%D0%B0+6-%D0%B3%D0%BE+%D1%82%D1%83%D1%80%D0%B0+%D0%A0%D0%9F%D0%9B+30+%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%D0%B0+2026.jpg?full",
+          "publishedAt": "2026-08-30T16:55:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-6-1788108840000",
+          "title": "Карседо о ничьей «Спартака» с «Оренбургом»: «Недовольны, но, в конце концов, мы не проиграли»",
+          "summary": "Главный тренер «Спартака» Хуан Карлос Карседо прокомментировал ничью с «Оренбургом» (1:1) в матче 6-го тура РПЛ.",
+          "url": "https://www.sport-express.ru/football/rfpl/news/glavnyy-trener-spartaka-karsedo-prokommentiroval-nichyu-s-orenburgom-2451244/",
+          "image": "https://ss.sport-express.ru/userfiles/materials/222/2222429/1180x665.jpg",
+          "publishedAt": "2026-08-30T16:54:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        },
+        {
+          "id": "football-russia-7-1788108540000",
+          "title": "«Оренбург» 29 раз сфолил на «Спартаке» – в РПЛ такого не было с 2019 года. Команда Ахметзянова забила единственным ударом в створ и не проиграла",
+          "summary": "В матче «Спартак» – «Оренбург» зафиксировано наибольшее количество фолов в РПЛ со стороны одного клуба в текущем десятилетии.",
+          "url": "https://www.sports.ru/football/1117352857-orenburg-29-raz-sfolil-na-spartake-v-rpl-takogo-ne-bylo-s-2019-goda-ko.html",
+          "image": "https://s5o.ru/storage/simple/04/04/41/2013.10.05.16.49.57.3040441.1.jpg",
+          "publishedAt": "2026-08-30T16:49:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "football-russia",
+          "categoryName": "Футбол России",
+          "categorySlug": "football-russia"
+        }
+      ]
+    },
+    "skiing": {
+      "lastFetchAt": "2026-08-30T17:21:35.377Z",
+      "intervalHours": 12,
+      "source": "Sports.ru, Спорт-Экспресс",
+      "siteUrl": "https://www.sports.ru",
+      "name": "Беговые лыжи",
+      "slug": "skiing",
+      "articles": [
+        {
+          "id": "skiing-0-1787950380000",
+          "title": "Лыжероллеры. Allianseloppet. Хагстрем и Гран выиграли коньковые спринты, Дель Рио и Корсат – 2-е",
+          "summary": "Йоханна Хагстрем и Антон Гран победили в спринтах свободным стилем на лыжероллерном турнире Allianseloppet.",
+          "url": "https://www.sports.ru/skiing/1117350643-lyzherollery-allianseloppet.html",
+          "image": "https://s5o.ru/storage/simple/00/76/45/2013.10.07.04.24.51.69007645.1.jpg",
+          "publishedAt": "2026-08-28T20:53:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-1-1787930940000",
+          "title": "Олимпийская чемпионка Юлия Ступак ждет второго ребенка",
+          "summary": "Российская лыжница Юлия Ступак сообщила, что ждет второго ребенка.",
+          "url": "https://www.sports.ru/skiing/1117350272-olimpijskaya-chempionka-yuliya-stupak-zhdet-vtorogo-rebenka.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-08-28T15:29:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-2-1787816460000",
+          "title": "Степанова о показе ЧМ-2027: «Участие российских спортсменов резко поднимет интерес к главному бизнес-проекту FIS в лыжах»",
+          "summary": "Олимпийская чемпионка по лыжам Вероника Степанова высказалась о ситуации с правами на показ чемпионата мира в Фалуне.",
+          "url": "https://www.sports.ru/skiing/1117348394-stepanova-o-pokaze-chm-2027-uchastie-rossijskix-sportsmenov-rezko-podn.html",
+          "image": "https://s5o.ru/storage/simple/90/26/66/2013.10.08.02.58.18.80902666.1.jpg",
+          "publishedAt": "2026-08-27T07:41:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-3-1787675760000",
+          "title": "Олимпийская чемпионка Сван о допуске россиян: «Грустно видеть, как организации меняют свое мнение. Могу только надеяться, что у нас такого не произойдет»",
+          "summary": "Олимпийская чемпионка шведка Линн Сван высказалась против возвращения российских лыжников на международные соревнования.",
+          "url": "https://www.sports.ru/skiing/1117346842-olimpijskaya-chempionka-svan-o-dopuske-rossiyan-grustno-videt-kak-orga.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-08-25T16:36:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-4-1787664480000",
+          "title": "Бородавко о сборе своей группы в Италии: «У всех визы получены, 28 августа вылетаем. В полном составе, в том числе Большунов»",
+          "summary": "Тренер Юрий Бородавко рассказал, что лыжники его группы получили визы и 28 августа отправятся на сбор в Италию.",
+          "url": "https://www.sports.ru/skiing/1117346648-borodavko-o-sbore-svoej-gruppy-v-italii-u-vsex-vizy-polucheny-28-avgus.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-08-25T13:28:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-5-1787642760000",
+          "title": "Вероника Степанова: «Ведущие спортсменки могут зарабатывать своими результатами деньги достаточные, чтобы не нуждаться ни в каких «добытчиках»",
+          "summary": "Олимпийская чемпионка по лыжам Вероника Степанова заявила, что ведущие спортсменки не нуждаются в обеспеченных партнерах.",
+          "url": "https://www.sports.ru/skiing/1117346322-veronika-stepanova-vedushhie-sportsmenki-mogut-zarabatyvat-svoimi-rezu.html",
+          "image": "https://s5o.ru/storage/simple/19/96/18/2013.10.07.05.15.45.69199618.1.jpg",
+          "publishedAt": "2026-08-25T07:26:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        }
+      ]
+    },
+    "mma": {
+      "lastFetchAt": "2026-08-30T17:21:36.197Z",
+      "intervalHours": 6,
+      "source": "Sports.ru, MMA Fighting",
+      "siteUrl": "https://www.sports.ru",
+      "name": "MMA",
+      "slug": "mma",
+      "articles": [
+        {
+          "id": "mma-0-1788104040000",
+          "title": "Тактаров предложил Умару Нурмагомедову взять псевдоним: «Думаю, на него давит эта история с фамилией»",
+          "summary": "Бывший чемпион UFC Олег Тактаров предложил Умару Нурмагомедову после поражения Суну Ядуну взять псевдоним.",
+          "url": "https://www.sports.ru/boxing/1117352758-taktarov-predlozhil-umaru-nurmagomedovu-vzyat-psevdonim-dumayu-na-nego.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T15:34:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-1-1788096600000",
+          "title": "Календарь боев в MMA и боксе в сентябре-2026",
+          "summary": "Спортс’’ ведет обновляемый календарь главных событий года в мире единоборств.",
+          "url": "https://www.sports.ru/boxing/1111478246-kalendar-boev-v-mma-i-bokse.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T13:30:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-2-1788094320000",
+          "title": "Гор Азизян: «Не думаю, что Царукяну интересен поединок с Усманом. Этот бой интересен только UFC. Усман – Хабиб, который еще и в стойке бьет»",
+          "summary": "Тренер Гор Азизян высказался о потенциальном противостоянии бойца UFC Армана Царукяна и чемпиона PFL Усмана Нурмагомедова.",
+          "url": "https://www.sports.ru/boxing/1117352503-gor-azizyan-ne-dumayu-chto-czarukyanu-interesen-poedinok-s-usmanom-eto.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T12:52:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-3-1788093420000",
+          "title": "Федор Емельяненко не хочет писать автобиографию: «Плохое писаться не хочется и не будется. А если это не писать, то получится однобоко»",
+          "summary": "Бывший боец MMA Федор Емельяненко объяснил, почему не хочет заниматься написанием автобиографии.",
+          "url": "https://www.sports.ru/boxing/1117352488-fedor-emelyanenko-ne-xochet-pisat-avtobiografiyu-ploxoe-pisatsya-ne-xo.html",
+          "image": "https://s5o.ru/storage/simple/15/01/31/2013.10.08.00.02.05.75150131.1.jpg",
+          "publishedAt": "2026-08-30T12:37:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-4-1788086100000",
+          "title": "Майк Перри проиграл сопернику, который вышел на 15-часовом уведомлении. В первом раунде он вывихнул плечо",
+          "summary": "Во Флориде прошел Duel Arena 1, который возглавил поединок с участием экс-бойца UFC Майка Перри.",
+          "url": "https://www.sports.ru/boxing/1117352353-majk-perri-proigral-soperniku-kotoryj-vyshel-na-15-chasovom-uvedomleni.html",
+          "image": "https://s5o.ru/storage/simple/15/01/31/2013.10.08.00.02.05.75150131.1.jpg",
+          "publishedAt": "2026-08-30T10:35:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-5-1788084000000",
+          "title": "Деметриус Джонсон – о нокауте Умара от Ядуна: «Очень-очень неприятная позиция. Отворачиваешься, не имея ни малейшего представления, что происходит»",
+          "summary": "Экс-чемпион UFC Деметриус Джонсон оценил эпизод с нокаутом Умара Нурмагомедова в бою против Суна Ядуна.",
+          "url": "https://www.sports.ru/boxing/1117352314-demetrius-dzhonson-o-nokaute-umara-ot-yaduna-ochen-ochen-nepriyatnaya-.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T10:00:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-6-1788082260000",
+          "title": "Умар Нурмагомедов – после поражения от Ядуна: «Братья, никто не умер. Ни капли сомнений, что вернусь и буду побеждать»",
+          "summary": "Боец легчайшего веса UFC Умар Нурмагомедов обратился к болельщикам после поражения от Суна Ядуна на турнире в Шанхае.",
+          "url": "https://www.sports.ru/boxing/1117352297-umar-nurmagomedov-posle-porazheniya-ot-yaduna-bratya-nikto-ne-umer-my-.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T09:31:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-7-1788075900000",
+          "title": "Дебютант UFC Магомед Саидов: «Меня не волнует беспроигрышная серия. Я в ММА, чтобы зарабатывать деньги. Равняться на Джонса, Хабиба или Федора неохота»",
+          "summary": "Полутяжеловес UFC Магомед Саидов рассказал о мотивации в спорте.",
+          "url": "https://www.sports.ru/boxing/1117352190-debyutant-ufc-magomed-saidov-menya-ne-volnuet-besproigryshnaya-seriya-.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-08-30T07:45:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        }
+      ]
+    },
     "politics": {
-      "lastFetchAt": "2026-08-30T14:33:23.039Z",
+      "lastFetchAt": "2026-08-30T17:21:36.484Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -978,60 +1407,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788100023000",
-          "title": "Детская игра закончилась дракой со стрельбой и уголовным делом",
+          "id": "politics-0-1788109949000",
+          "title": "В Турции обнаружили безэкипажный катер",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/v-altayskom-krae/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/16/20260830165836838/pic_547d380a53c2512faa072244b2718405.jpg",
-          "publishedAt": "2026-08-30T14:27:03.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/v-turtsii-obnaruzhili-bezekipazhnyy-kater/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/20/20260830200551668/pic_3d4d0d4566b08dbd01521a2b13eeb5ea.jpg",
+          "publishedAt": "2026-08-30T17:12:29.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1788099642000",
-          "title": "В Европе появится закон против популярной площадки для аренды жилья",
+          "id": "politics-1-1788109280000",
+          "title": "Чиновники захотели уйти из администрации США",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/v-evrope-poyavitsya-zakon-protiv-populyarnoy-ploschadki-dlya-arendy-zhilya/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/16/20260830165719182/pic_159374130befde2744b402664208d86e.jpg",
-          "publishedAt": "2026-08-30T14:20:42.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/chinovniki-zahoteli-uyti-iz-administratsii-ssha/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/19/20260830195431009/pic_1d77cc3d3a7f74ce1b0f4a6a6878464d.jpg",
+          "publishedAt": "2026-08-30T17:01:20.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1788099411000",
-          "title": "Мадуро сделал фотографии в тюрьме и отправил их внукам",
+          "id": "politics-2-1788108121000",
+          "title": "Песков описал поставки топлива из Белоруссии фразой «чутко реагируют на наши потребности»",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/maduro-sdelal-fotografii-v-tyurme-i-otpravil-ih-vnukam/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830170851486/pic_44e576b6e1e6059d0405bed20d74e969.jpg",
-          "publishedAt": "2026-08-30T14:16:51.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/peskov-opisal-postavki-topliva-iz-belorussii-frazoy-chutko-reagiruyut-na-nashi-potrebnosti/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/19/20260830194359314/pic_1cd49581f228ca95bf9052fbf031fa8e.jpg",
+          "publishedAt": "2026-08-30T16:42:01.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788099256000",
-          "title": "Синнер снялся с US Open из-за воспаления колена",
+          "id": "politics-3-1788108005000",
+          "title": "«Спартак» сыграл вничью с «Оренбургом» в матче РПЛ",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/sinner-snyalsya-s-us-open-iz-za-vospaleniya-kolena/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830172033165/pic_058dba1b33b34d2124247be3a92e07d4.jpg",
-          "publishedAt": "2026-08-30T14:14:16.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/spartak-sygral-vnichyu-s-orenburgom-v-matche-rpl/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/19/20260830192939738/pic_2bffc7d1b148992743629b3e833f0f25.jpg",
+          "publishedAt": "2026-08-30T16:40:05.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1788099179000",
-          "title": "Парри выиграла турнир в Монтеррее",
+          "id": "politics-4-1788107471000",
+          "title": "Бритни Спирс высказалась о 13-летней опеке отца на фото в белье",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/parri-vyigrala-turnir-v-monterree/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830171936819/pic_9cab790061c375646e88dee39f63a71f.jpg",
-          "publishedAt": "2026-08-30T14:12:59.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/britni-spirs-vyskazalas-o-13-letney-opeke-ottsa-na-foto-v-belie/",
+          "image": "https://icdn.lenta.ru/images/2026/08/28/18/20260828182642842/pic_73ece4a12f99d7533425cf7717f261b2.jpg",
+          "publishedAt": "2026-08-30T16:31:11.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1040,7 +1469,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-08-30T09:32:22.291Z",
+      "lastFetchAt": "2026-08-30T17:21:38.091Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1062,7 +1491,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-30T14:33:30.102Z",
+      "lastFetchAt": "2026-08-30T17:21:39.525Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1132,7 +1561,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-08-30T09:32:22.762Z",
+      "lastFetchAt": "2026-08-30T17:21:39.873Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1140,7 +1569,19 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1787931101000",
+          "id": "realestate-0-1788095941000",
+          "title": "ЕС готовит закон об ограничении работы платформ краткосрочной аренды жилья",
+          "summary": "В результате могут пострадать такие компании, как Airbnb",
+          "url": "https://www.vedomosti.ru/politics/news/2026/08/30/1224745-es-gotovit-zakon",
+          "image": "https://cdn.vdmsti.ru/image/2026/6q/yt0ki/normal-193x.png",
+          "publishedAt": "2026-08-30T13:19:01.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1787931101000",
           "title": "Сумма компенсаций за изъятие активов для нужд Москвы выросла почти на треть",
           "summary": "Их владельцы взыскали в судах со столичной мэрией почти 75 млрд рублей",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/28/1224518-summa-kompensatsii-virosla",
@@ -1152,7 +1593,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1787864743000",
+          "id": "realestate-2-1787864743000",
           "title": "Основатель маркетплейса Emex Кулябин может лишиться участка в новой Москве",
           "summary": "Столичная мэрия считает, что структура бизнесмена не использовала территорию по назначению",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/28/1224299-osnovatel-marketpleisa-emex-mozhet-lishitsya-uchastka",
@@ -1164,7 +1605,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1787778887000",
+          "id": "realestate-3-1787778887000",
           "title": "Бюджет сделок по продаже квартир в готовых элитных домах сократился на 10%",
           "summary": "Показатель упал, несмотря на рост цен и активизацию спроса",
           "url": "https://www.vedomosti.ru/realty/articles/2026/08/27/1224001-byudzhet-sdelok-po-prodazhe-kvartir-sokratilsya",
@@ -1176,7 +1617,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1787778000000",
+          "id": "realestate-4-1787778000000",
           "title": "Дороже некуда",
           "summary": "Снижение спроса пока не заставило столичных девелоперов снизить цены",
           "url": "https://www.vedomosti.ru/opinion/columns/2026/08/27/1223980-dorozhe-nekuda",
@@ -1186,23 +1627,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1787755415000",
-          "title": "Хуснуллин рассказал о планах по развитию индивидуального жилищного строительства",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/realty/news/2026/08/26/1223911-husnullin-rasskazal-o-planah",
-          "image": "https://cdn.vdmsti.ru/image/2026/6m/10gh2i/normal-1b8y.png",
-          "publishedAt": "2026-08-26T14:43:35.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-08-30T09:32:23.497Z",
+      "lastFetchAt": "2026-08-30T17:21:40.000Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1210,12 +1639,24 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1788021500000",
-          "title": "Российские туристы заметили акулу на пляже Египта и попали на видео",
+          "id": "travel-0-1788099000000",
+          "title": "За несколько дней до затопления парома туристы жаловались на сильную качку",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/29/rossiyskie-turisty-zametili-akulu-na-plyazhe-egipta-i-popali-na-video/",
-          "image": "https://icdn.lenta.ru/images/2026/08/29/19/20260829193025010/pic_bdd7bbf2815a3526cfb9ce89b5f18b5c.jpg",
-          "publishedAt": "2026-08-29T16:38:20.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/za-neskolko-dney-do-zatopleniya-paroma-turisty-zhalovalis-na-silnuyu-kachku/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830171653265/pic_d0ae64d0ba6e5d33f12b8180e4e4a787.jpg",
+          "publishedAt": "2026-08-30T14:10:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1788090480000",
+          "title": "В российском курортном городе вспыхнул крупный природный пожар",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/v-rossiyskom-kurortnom-gorode-vspyhnul-krupnyy-prirodnyy-pozhar/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/14/20260830144332219/pic_1be98efb2dc43f9ab504c3b19b74fc54.jpg",
+          "publishedAt": "2026-08-30T11:48:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
