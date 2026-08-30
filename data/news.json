@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-30T09:32:23.498Z",
-  "lastRunAt": "2026-08-30T09:32:23.498Z",
+  "updatedAt": "2026-08-30T14:33:30.103Z",
+  "lastRunAt": "2026-08-30T14:33:30.103Z",
   "totalCategories": 20,
   "fetchedNow": [
     "it",
-    "ai",
+    "cybersecurity",
     "business",
     "startups",
-    "science",
     "medicine",
-    "health",
     "environment",
-    "energy",
-    "space",
-    "automotive",
     "gaming",
     "entertainment",
     "sports",
     "politics",
+    "law"
+  ],
+  "skippedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
     "education",
     "realestate",
     "travel"
   ],
-  "skippedNow": [
-    "cybersecurity",
-    "law"
-  ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-30T09:31:41.300Z",
+      "lastFetchAt": "2026-08-30T14:32:55.320Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -169,7 +169,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-30T02:04:47.875Z",
+      "lastFetchAt": "2026-08-30T14:32:58.995Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -177,7 +177,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1788026547000",
+          "id": "cybersecurity-0-1788081098000",
+          "title": "Ошибки ценою в миллионы: как не попасть под штраф за некорректную работу с персональными данными",
+          "summary": "Прошел уже год, как начали действовать новые штрафы в области защиты персональных данных. Однако до сих пор я встречаю в своей практике нарушения у предпринимателей, которые могут повлечь за собой миллионные штрафы, если",
+          "url": "https://habr.com/ru/articles/1076288/?utm_campaign=1076288&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1076288/151762f7cf4fdc5d0f72fff8d13879b7/",
+          "publishedAt": "2026-08-30T09:11:38.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1788080508000",
+          "title": "Apple меняет домен Private Relay: почему Sign in with Apple нельзя строить вокруг email",
+          "summary": "Apple меняет домен новых Private Relay адресов для Sign in with Apple. Внешне это похоже на небольшую правку allowlist, но на практике быстро выявляет хрупкую архитектуру, где email участвует в поиске аккаунта. На пример",
+          "url": "https://habr.com/ru/articles/1076028/?utm_campaign=1076028&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/19a/867/b48/19a867b48de78d64bfc4bb4e5f79335b.png",
+          "publishedAt": "2026-08-30T09:01:48.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1788080447000",
+          "title": "Одну и ту же выгрузку получили сорок подрядчиков. Утекла одна копия. Определить источник можно точно",
+          "summary": "Разбор, на который меня зовут регулярно, и заканчивается он почти всегда одинаково. База клиентов всплывает в продаже. Выгрузку за последний год получали десятки контрагентов — интеграторы, колл-центр, маркетинговое аген",
+          "url": "https://habr.com/ru/articles/1075850/?utm_campaign=1075850&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1075850/23bd91a2dea1c025fdb521c818de553e/",
+          "publishedAt": "2026-08-30T09:00:47.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1788026547000",
           "title": "Я попросил ИИ-агента только описать топологию сети. Он сам взломал мой роутер за одну ночь и помог оформить CVE",
           "summary": "Некоторое время назад я строил оркестратор своей домашней лаборатории. LLM-агент должен был облететь серверы, собрать метаданные и зафиксировать топологию сети в документации проекта. Разведочную, в общем-то, канцелярску",
           "url": "https://habr.com/ru/articles/1076204/?utm_campaign=1076204&utm_source=habrahabr&utm_medium=rss",
@@ -189,7 +225,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1788011423000",
+          "id": "cybersecurity-4-1788011423000",
           "title": "AutoAddPolicy — это не удобство. Это выключенная проверка",
           "summary": "У меня в проекте было четырнадцать копий одного IP‑адреса. По одной в каждом скрипте, который ходит на боевой сервер: деплой, перезапуск сервиса, правка DNS, диагностика почты. Классический копипаст, который живёт до пер",
           "url": "https://habr.com/ru/articles/1076146/?utm_campaign=1076146&utm_source=habrahabr&utm_medium=rss",
@@ -199,47 +235,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1788010911000",
-          "title": "Уникальный отпечаток — плохой отпечаток: почему антифрод считает не уникальность, а согласованность",
-          "summary": "Вокруг браузерных отпечатков сложилось устойчивое заблуждение, которое кочует из статьи в статью. Звучит оно примерно так: чем уникальнее отпечаток, тем труднее связать сессии между собой, значит, надо максимально рандом",
-          "url": "https://habr.com/ru/articles/1076144/?utm_campaign=1076144&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1076144/12a4857d57a3000014ef88e62fada023/",
-          "publishedAt": "2026-08-29T13:41:51.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1788008114000",
-          "title": "GhostBusters — райтап простой машины от платформы Aclabs.pro",
-          "summary": "Данный таск был частью 7 сезона CTF, который проводился на платформе aclabs.pro. Любителям фильма «Охотники за приведениями» рекомендую ознакомиться. Это необычная тачка с двумя флагами user и root. В центре внимания буд",
-          "url": "https://habr.com/ru/articles/1076134/?utm_campaign=1076134&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a5d/d49/084/a5dd490847bfc721a0fafe47d3588d6e.png",
-          "publishedAt": "2026-08-29T12:55:14.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1788005651000",
-          "title": "Как не подарить полный продукт вузу, заводу без интернета и торренту",
-          "summary": "Для примера будем использовать наш продукт для просмотра топологии и верификации(EDA) и расскажем, как мы построили его лицензирование. Каждый коммерческий продукт рано или поздно упирается в один вопрос: кому именно вы ",
-          "url": "https://habr.com/ru/articles/1076122/?utm_campaign=1076122&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/796/a29/b2e/796a29b2e1d2d6b857563a746bf80305.png",
-          "publishedAt": "2026-08-29T12:14:11.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-30T09:31:48.222Z",
+      "lastFetchAt": "2026-08-30T14:33:01.933Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -309,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-30T09:31:49.996Z",
+      "lastFetchAt": "2026-08-30T14:33:04.154Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -329,7 +329,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1788003503000",
+          "id": "startups-1-1788085002000",
+          "title": "День 1649: в «Сбере» пока не видят «явного интереса» к цифровому рублю",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/money/3104576-tsifrovoy-rubl-sber-ne-vidit-interesa-na-rynke?from=rss",
+          "image": "https://leonardo.osnova.io/b0458f12-b4c4-5623-9d20-6beb9ec367f6/",
+          "publishedAt": "2026-08-30T10:16:42.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-3-1788003503000",
           "title": "День 1648: «Сбер» запустит международные расчёты в цифровых валютах для бизнеса до конца 2026 года",
           "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
           "url": "https://vc.ru/money/3103980-sber-zapustit-mezhdunarodnye-raschety-v-tsifrovykh-valyutakh-dlya-biznesa?from=rss",
@@ -341,24 +353,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1787898822000",
+          "id": "startups-4-1787898822000",
           "title": "«Ведомости»: владельцы iPhone не смогут воспользоваться цифровым рублём после его официального запуска 1 сентября 2026 года — банки не могут загрузить необходимые обновления в App Store",
           "summary": "В их коде есть маркеры, указывающие на связь с государственной финансовой инфраструктурой России.",
           "url": "https://vc.ru/money/3101926-tsifrovoy-rubl-v-rossii-vladeltsy-iphone-ne-smogut-polzovatsya?from=rss",
           "image": "https://leonardo.osnova.io/d9e1fabd-9d55-5c9c-9baf-1d4c414e5883/",
           "publishedAt": "2026-08-28T06:33:42.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1787905293000",
-          "title": "«Яндекс» запустил «Яндекс Сим» — собственного виртуального оператора связи с ИИ-помощником",
-          "summary": "Он работает на базе «Билайна».",
-          "url": "https://vc.ru/services/3102066-yandeks-sim-virtualnyy-operator-svyazi?from=rss",
-          "image": "https://leonardo.osnova.io/20adc1ad-402d-51de-ba7c-af0e466d8957/",
-          "publishedAt": "2026-08-28T08:21:33.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -437,7 +437,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-30T09:31:56.394Z",
+      "lastFetchAt": "2026-08-30T14:33:07.728Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -541,7 +541,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-08-30T09:31:58.814Z",
+      "lastFetchAt": "2026-08-30T14:33:08.378Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -760,7 +760,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-30T09:32:10.711Z",
+      "lastFetchAt": "2026-08-30T14:33:10.009Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -768,7 +768,31 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1788080448000",
+          "id": "gaming-0-1788093714000",
+          "title": "Влияние кэша L4 i7-5775C на производительность в Minecraft: Java Edition в воспроизводимых серверных тестах",
+          "summary": "Привет, читатель! Посмотрим, как древнючий Broadwell аж из 2015 года выжимает все соки из своей подсистемы памяти (напомню, что это 1150 сокет с DDR3 оперативной памятью), приближаясь по её латентности к более современны",
+          "url": "https://habr.com/ru/articles/1076340/?utm_campaign=1076340&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/abb/9a7/c09/abb9a7c0913a7e67a9275db4d809a7ae.png",
+          "publishedAt": "2026-08-30T12:41:54.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1788083805000",
+          "title": "Разработчик сделал игру про иголку в стоге сена, но забыл завести страницу. Когда опомнился, Steam заполонили ее клоны",
+          "summary": "Разработчик выложил видео геймплея своей игры в сеть. Задача — искать иголку среди 5 млн травинок, название — Needle In A Haystack Simulator. Абсурдный геймплей быстро привлек внимание пользователей: видео набрали миллио",
+          "url": "https://habr.com/ru/articles/1076302/?utm_campaign=1076302&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/cdf/df9/09d/cdfdf909d5c4975f46853533b7afb203.jpeg",
+          "publishedAt": "2026-08-30T09:56:45.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-2-1788080448000",
           "title": "Команда-невидимка и святые вампиры: как Orbis переписал Civilization IV и уперся в тупик Civilization V",
           "summary": "В фэнтези-стратегиях экономику обычно задвигают на второй план и даже не пытаются ее совместить с магией. А вот создателям мода (точнее, даже мод-мода) Orbis для Civilization IV это удалось. По первому образованию я экон",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1075504/?utm_campaign=1075504&utm_source=habrahabr&utm_medium=rss",
@@ -780,7 +804,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1788077203000",
+          "id": "gaming-3-1788077203000",
           "title": "Отличная игра — и точка: истории франшиз, оборвавшихся на первой части",
           "summary": "Индустрия за годы сформировала десятки франшиз, половина из которых зачастую старше современной целевой аудитории. Почувствуйте себя старыми — в следующем году серии Assassin’s Creed стукнет 20 лет, и столько же пройдет ",
           "url": "https://habr.com/ru/companies/timeweb/articles/1074972/?utm_campaign=1074972&utm_source=habrahabr&utm_medium=rss",
@@ -792,7 +816,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1788020694000",
+          "id": "gaming-4-1788020694000",
           "title": "Как Mojang кинула свою же игру?",
           "summary": "Здравствуйте! Игра Minecraft появилась ещё в далеком 2009 году, и по сей день как многие знают популярна. Единственное, Minecraft офицально был доступен лишь на ПК. И разумеется, студия Mojang делала порты и на другие ус",
           "url": "https://habr.com/ru/articles/1076186/?utm_campaign=1076186&utm_source=habrahabr&utm_medium=rss",
@@ -802,35 +826,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-3-1787994014000",
-          "title": "Игры для Sega Mega Drive, в которые я играю до сих пор",
-          "summary": "Приставка Sega Mega Drive появилась у меня в 11-м классе, в 90-е. Картриджи к ней я покупал на рынке, там же менял их на другие (вот это атмосфера была в этих точках силы!), плюс брал на несколько дней у друзей. Далеко н",
-          "url": "https://habr.com/ru/companies/ru_mts/articles/1075416/?utm_campaign=1075416&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/325/699/b4c/325699b4ca56dde6b666fa923ce322da.jpg",
-          "publishedAt": "2026-08-29T09:00:14.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1787986865000",
-          "title": "Превращаем сгенерированные ассеты в анимации часть 2",
-          "summary": "В предыдущей части мы сшивали разрезанные спрайты в анимации для ассетов вручную. Теперь попробуем сделать это же, но с помощью нейросети Seedance 2.0. Я выбрал несколько спрайтов в случайном порядке и использовал промт:",
-          "url": "https://habr.com/ru/companies/studyai/articles/1075932/?utm_campaign=1075932&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/583/2cd/058/5832cd058a57906cd88a40d84c3d8e33.png",
-          "publishedAt": "2026-08-29T07:01:05.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-30T09:32:16.071Z",
+      "lastFetchAt": "2026-08-30T14:33:18.436Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -838,7 +838,31 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1788066000000",
+          "id": "entertainment-0-1788090170000",
+          "title": "Венецианский кинофестиваль впервые отказался от пресс-конференции жюри",
+          "summary": "Венецианский кинофестиваль отменил в этом году главную пресс-конференцию членов жюри премии. Об этом сообщает издание Deadline со ссылкой на оргкомитет фестиваля.",
+          "url": "https://www.kommersant.ru/doc/8921735",
+          "image": "https://im2.kommersant.ru/SocialPics/8921735_49_0_1106905257",
+          "publishedAt": "2026-08-30T11:42:50.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1788084153000",
+          "title": "Умер петербургский художник Владимир Снопов",
+          "summary": "Художник Владимир Снопов скончался в возрасте 91 года. Об этом сообщила пресс-служба Санкт-Петербургского союза художников (СПбСХ).",
+          "url": "https://www.kommersant.ru/doc/8921700",
+          "image": "https://im2.kommersant.ru/SocialPics/8921700_49_0_1268620747",
+          "publishedAt": "2026-08-30T10:02:33.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1788066000000",
           "title": "«Единственная, на кого я могу полностью положиться в этой жизни, — я сама» // Карьера Камерон Диас",
           "summary": "30 августа 1972 года родилась Камерон Диас. Одна из самых привлекательных голливудских актрис, четырежды номинант на премию «Золотой глобус» — в фотогалерее «Ъ».",
           "url": "https://www.kommersant.ru/doc/2799830",
@@ -850,7 +874,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1788015224000",
+          "id": "entertainment-3-1788015224000",
           "title": "Умер актер Макс Максимов // Умер актер из «Обратной стороны Луны» и  «Доктора Живаго» Макс Максимов",
           "summary": "Российский актер Макс Максимов (настоящее имя — Сергей Максимов) умер 29 августа в возрасте 80 лет. Об этом сообщила ТАСС его вдова.",
           "url": "https://www.kommersant.ru/doc/8921540",
@@ -862,7 +886,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1787997173000",
+          "id": "entertainment-4-1787997173000",
           "title": "Нижегородский губернатор не исключил переноса концерта Канье Уэста в Городец // Губернатор Никитин: в Нижегородской области допускают приезд Канье Уэста",
           "summary": "Власти Нижегородской области готовы обсудить проведение в регионе концерта американского рэпера Канье Уэста. Об этом заявил губернатор области Глеб Никитин.",
           "url": "https://www.kommersant.ru/doc/8921462",
@@ -872,35 +896,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1787986853000",
-          "title": "«Мы подарили им рок-н-ролл» // Как мировые звезды давали концерты в России: от AC/DC до Билли Айлиш",
-          "summary": "Выступит ли в Санкт-Петербурге американский рэпер Канье Уэст, зрителям пока неясно. Организаторы на фоне новостей о возможной отмене выступления призывают купивших билеты не поддаваться панике. «Ъ» же по этому случаю реш",
-          "url": "https://www.kommersant.ru/doc/8910138",
-          "image": "https://im2.kommersant.ru/SocialPics/8910138_49_3192045_553161294",
-          "publishedAt": "2026-08-29T07:00:53.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1787946685000",
-          "title": "Режиссер М. Найт Шьямалан запустил YouTube-канал",
-          "summary": "Американский режиссер и сценарист Манодж Нелльятту (М. Найт) Шьямалан запустил канал на YouTube.",
-          "url": "https://www.kommersant.ru/doc/8921125",
-          "image": "https://iv.kommersant.ru/SocialPics/8921125_49_3192560_579296944",
-          "publishedAt": "2026-08-28T19:51:25.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-30T09:32:18.983Z",
+      "lastFetchAt": "2026-08-30T14:33:21.264Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -908,60 +908,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788082020000",
-          "title": "«Динамо» с караваем встретило Плату в аэропорту: «Встретили, по традиции, хлебом. Соль оставим для будущих соперников »",
-          "summary": "«Динамо» с караваем встретило Гонсало Плату в аэропорту. Вингер « Фламенго » прибыл в Москву для прохождения медосмотра для бело-голубых, которые заплатят за эквадорца 12 млн евро. «Добро пожаловать в Россию, Гонсало 💙.",
-          "url": "https://www.sports.ru/football/1117352279-dinamo-s-karavaem-vstretilo-platu-v-aeroportu-vstretili-po-tradiczii-x.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/227/9/share/b9827d_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T09:27:00.000Z",
+          "id": "sports-0-1788100080000",
+          "title": "«Реал» примет «Малагу» в 3-м туре Ла Лиги. Мбаппе, Винисиус, Беллингем и Кукурелья в старте, игра начнется в 18:00",
+          "summary": "« Реал » сыграет дома с «Малагой» в матче 3-го тура Ла Лиги. Календарь Ла Лиги Таблица Ла Лиги",
+          "url": "https://www.sports.ru/football/1117352125-real-primet-malagu-v-3-m-ture-la-ligi-igra-nachnetsya-v-1800.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/212/5/share/b04921_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T14:28:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788081900000",
-          "title": "Буше о большинстве «Авангарда»: «На создание химии понадобится время. В предыдущих сезонах мы находили сочетания – найдем и сейчас»",
-          "summary": "Главный тренер « Авангарда » Ги Буше поделился мнением об игре команды в большинстве. – Почему пока не получается большинство? Насколько сильно сказалось отсутствие Шарипзянова? – Большинство зависит от огромного количес",
-          "url": "https://www.sports.ru/hockey/1117352277-bushe-o-bolshinstve-avangarda-na-sozdanie-ximii-ponadobitsya-vremya-v-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/227/7/share/76c951_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T09:25:00.000Z",
+          "id": "sports-1-1788099900000",
+          "title": "Денисенко о продлении контракта с «Ак Барсом»: «Были варианты в Швейцарии и Северной Америке, но я хотел остаться. Хорошо, что договорились»",
+          "summary": "Форвард « Ак Барса » Григорий Денисенко прокомментировал продление контракта с казанским клубом. В прошлом сезоне он набрал 28 (14+14) очков за 64 игры в регулярке, а также 2+2 за 20 игр в плей-офф. – Предсезонка нормаль",
+          "url": "https://www.sports.ru/hockey/1117352614-denisenko-o-prodlenii-kontrakta-s-ak-barsom-byli-varianty-v-shvejczari.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/261/4/share/f2b75e_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T14:25:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788081720000",
-          "title": "Дмитрий Черышев: «У «Зенита» нет проблем, есть трудности. Состав великолепный – один из лучших в РПЛ»",
-          "summary": "Бывший нападающий сборной России Дмитрий Черышев оценил игру «Зенита» в текущем сезоне Альфа-Банка РПЛ. «Нет смысла говорить о проблемах «Зенита». У команды все в порядке. У «Зенита» нет проблем, у него есть трудности. С",
-          "url": "https://www.sports.ru/football/1117352283-dmitrij-cheryshev-u-zenita-net-problem-est-trudnosti-sostav-velikolepn.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/228/3/share/2b9f6f_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T09:22:00.000Z",
+          "id": "sports-2-1788099900000",
+          "title": "36-летний Балотелли не исключил возвращения в сборную Италии: «Если продолжу забивать – да»",
+          "summary": "Марио Балотелли допустил, что еще может вернуться в сборную Италии. 36-летний форвард сейчас выступает за «Аль-Иттифак» из ОАЭ. Он рассказал, что недавно переписывался с Роберто Манчини , который вновь возглавил национал",
+          "url": "https://www.sports.ru/football/1117352623-36-letnij-balotelli-ne-isklyuchil-vozvrashheniya-v-sbornuyu-italii-esl.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/262/3/share/ad88a8_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T14:25:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1788081360000",
-          "title": "Джеррард о «Ливерпуле»: «Они слишком мягкие, им не хватает разрушителя, отборов и побед в единоборствах. Ираола должен привить им злобу, иначе не будут претендовать на трофеи»",
-          "summary": "Экс-полузащитник «Ливерпуля» Стивен Джеррард критически оценил игру команда на старте сезона. В двух первых турах АПЛ «красные» сыграли вничью с « Ньюкаслом » (2:2) и «Ноттингем Форест» (2:2). «Я думаю, что эта команда «",
-          "url": "https://www.sports.ru/football/1117352268-dzherrard-o-liverpule-oni-slishkom-myagkie-im-ne-xvataet-razrushitelya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/226/8/share/feb545_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T09:16:00.000Z",
+          "id": "sports-3-1788099900000",
+          "title": "«Челси» принимает «Брайтон» в 2-м туре АПЛ. 3:2 – Лавия и Нету забили, у Жоао Педро гол и автогол, у Роджерса ассист",
+          "summary": "« Челси » играет дома с « Брайтоном » в матче 2-го тура АПЛ. Ромео Лавия открыл счет на 4-й минуте. Педру Нету забил на 14-й минуте с передачи Моргана Роджерса. Жоао Педро отличился на 32-й. Малик Ялькуйе отыграл один мя",
+          "url": "https://www.sports.ru/football/1117352090-chelsi-primet-brajton-v-2-m-ture-apl-igra-nachnetsya-v-1600.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/209/0/share/d249ab_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T14:25:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788081300000",
-          "title": "Женская НБА. «Атланта» примет «Миннесоту», «Портленд» сыграет с «Голден Стэйт» и другие матчи",
-          "summary": "В раннем матче «Атланта» встретится с «Миннесотой», «Портленд» примет «Голден Стэйт». Женская НБА Регулярный чемпионат Атланта – Миннесота 30 августа . 22.00 Сиэтл – Лос-Анджелес 31 августа . 00.00 Портленд – Голден Стэй",
-          "url": "https://www.sports.ru/basketball/1117352270-zhenskaya-nba-atlanta-primet-minnesotu-portlend-sygraet-s-golden-stejt.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/227/0/share/1a5c8f_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-30T09:15:00.000Z",
+          "id": "sports-4-1788099780000",
+          "title": "Марк Маркес сократил отставание от лидера MotoGP со 102 до 19 очков за 6 Гран-при",
+          "summary": "Пилот « Дукати » Марк Маркес продолжает приближаться к лидеру MotoGP. На Гран-при Арагона семикратный и действующий чемпион премьер-класса выиграл спринт и основную гонку. В конце апреля Маркес упал на домашнем Гран-при ",
+          "url": "https://www.sports.ru/automoto/1117352629-mark-markes-sokratil-otstavanie-ot-lidera-motogp-so-102-do-19-ochkov-z.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/262/9/share/de4b84_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T14:23:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -970,7 +970,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-30T09:32:20.631Z",
+      "lastFetchAt": "2026-08-30T14:33:23.039Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -978,60 +978,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788082218000",
-          "title": "Медведев сохранил восьмое место в рейтинге ATP",
+          "id": "politics-0-1788100023000",
+          "title": "Детская игра закончилась дракой со стрельбой и уголовным делом",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/medvedev-sohranil-vosmoe-mesto-v-reytinge-atp/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-30T09:30:18.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/v-altayskom-krae/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/16/20260830165836838/pic_547d380a53c2512faa072244b2718405.jpg",
+          "publishedAt": "2026-08-30T14:27:03.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1788081727000",
-          "title": "Российские военные рассказали о ситуации в перешедших под их контроль населенных пунктах",
+          "id": "politics-1-1788099642000",
+          "title": "В Европе появится закон против популярной площадки для аренды жилья",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/rossiyskie-voennye-rasskazali-o-situatsii-v-pereshedshih-pod-ih-kontrol-naselennyh-punktah/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/12/20260830122933615/pic_25c32f9eeea8781bad3f6fd4c24c19f2.jpg",
-          "publishedAt": "2026-08-30T09:22:07.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/v-evrope-poyavitsya-zakon-protiv-populyarnoy-ploschadki-dlya-arendy-zhilya/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/16/20260830165719182/pic_159374130befde2744b402664208d86e.jpg",
+          "publishedAt": "2026-08-30T14:20:42.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1788080640000",
-          "title": "Загитова открыла школу фигурного катания в Казани",
+          "id": "politics-2-1788099411000",
+          "title": "Мадуро сделал фотографии в тюрьме и отправил их внукам",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/zagitova-otkryla-shkolu-figurnogo-kataniya-v-kazani/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/12/20260830120727041/pic_8add89436698a643c5a42db837bd3bb3.jpg",
-          "publishedAt": "2026-08-30T09:04:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/maduro-sdelal-fotografii-v-tyurme-i-otpravil-ih-vnukam/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830170851486/pic_44e576b6e1e6059d0405bed20d74e969.jpg",
+          "publishedAt": "2026-08-30T14:16:51.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788080220000",
-          "title": "Полковник оценил эффект от продолжающейся почти 60 часов атаки на Киев и область",
+          "id": "politics-3-1788099256000",
+          "title": "Синнер снялся с US Open из-за воспаления колена",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/polkovnik-otsenil-effekt-ot-prodolzhayuscheysya-pochti-60-chasov-ataki-na-kiev-i-oblast/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/11/20260830113604637/pic_ceed1bbff78835ba5d7ea507fab93f19.jpg",
-          "publishedAt": "2026-08-30T08:57:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/sinner-snyalsya-s-us-open-iz-za-vospaleniya-kolena/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830172033165/pic_058dba1b33b34d2124247be3a92e07d4.jpg",
+          "publishedAt": "2026-08-30T14:14:16.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1788080160000",
-          "title": "В США спрогнозировали «рабочий блэкаут» из-за выхода игры GTA VI",
+          "id": "politics-4-1788099179000",
+          "title": "Парри выиграла турнир в Монтеррее",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/v-ssha-sprognozirovali-rabochiy-blekaut-iz-za-vyhoda-igry-gta-vi/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/11/20260830115926820/pic_f1c1d55c04530efecbd69bbf2b07ffff.jpg",
-          "publishedAt": "2026-08-30T08:56:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/parri-vyigrala-turnir-v-monterree/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/17/20260830171936819/pic_9cab790061c375646e88dee39f63a71f.jpg",
+          "publishedAt": "2026-08-30T14:12:59.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1062,7 +1062,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-30T02:05:26.754Z",
+      "lastFetchAt": "2026-08-30T14:33:30.102Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
