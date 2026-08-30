@@ -1,19 +1,12 @@
 {
-  "updatedAt": "2026-08-29T22:04:59.348Z",
-  "lastRunAt": "2026-08-29T22:04:59.348Z",
+  "updatedAt": "2026-08-30T02:05:26.755Z",
+  "lastRunAt": "2026-08-30T02:05:26.755Z",
   "totalCategories": 20,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "education",
-    "realestate",
-    "travel"
-  ],
-  "skippedNow": [
     "it",
     "ai",
     "cybersecurity",
+    "business",
     "startups",
     "science",
     "medicine",
@@ -24,12 +17,19 @@
     "automotive",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
     "law"
+  ],
+  "skippedNow": [
+    "education",
+    "realestate",
+    "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-08-29T18:57:44.235Z",
+      "lastFetchAt": "2026-08-30T02:04:43.191Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -99,7 +99,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-08-29T18:57:46.158Z",
+      "lastFetchAt": "2026-08-30T02:04:45.413Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -107,7 +107,19 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1788026631000",
+          "id": "ai-0-1788032092000",
+          "title": "Бенчмарк на AGI. Если ARC‑AGI-3 решён, есть ли у нас AGI?",
+          "summary": "Бенчмарки нужны для того, чтобы инженер мог проверить свой проект, посмотреть на конкурентов и сравнить себя с ними. У каждого бенчмарка своя цель. ARC-AGI-3 создан фондом ARC Prize Foundation, основатель Франсуа Шолле, ",
+          "url": "https://habr.com/ru/articles/1076218/?utm_campaign=1076218&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/cf2/c26/b09/cf2c26b0909a654295c12b3cf4279c39.jpg",
+          "publishedAt": "2026-08-29T19:34:52.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1788026631000",
           "title": "Увеличение контекста без регистрации и СМС",
           "summary": "В этой статье разберем, почему модель вообще не видит дальше обученного окна, как это чинится различными методами масштабирования (RoPE, NTK-aware, YaRN, LongRoPE/LongRoPE2) и как масштабирование влияет на скорость и точ",
           "url": "https://habr.com/ru/articles/1076196/?utm_campaign=1076196&utm_source=habrahabr&utm_medium=rss",
@@ -119,7 +131,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1788026547000",
+          "id": "ai-2-1788026547000",
           "title": "Я попросил ИИ-агента только описать топологию сети. Он сам взломал мой роутер за одну ночь и помог оформить CVE",
           "summary": "Некоторое время назад я строил оркестратор своей домашней лаборатории. LLM-агент должен был облететь серверы, собрать метаданные и зафиксировать топологию сети в документации проекта. Разведочную, в общем-то, канцелярску",
           "url": "https://habr.com/ru/articles/1076204/?utm_campaign=1076204&utm_source=habrahabr&utm_medium=rss",
@@ -131,7 +143,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1788022971000",
+          "id": "ai-3-1788022971000",
           "title": "Отличие языковой модели LLM от человека",
           "summary": "Не собирался писать статью — эту нишу уже отжали у людей орда всевозможных LLM. Но оставил коммент в статье Как ChatGPT создал Культ Роя для сотен AI‑нейросетей: вся правда про взлом Hugging Face. А потом написал ещё оди",
           "url": "https://habr.com/ru/articles/1076180/?utm_campaign=1076180&utm_source=habrahabr&utm_medium=rss",
@@ -143,7 +155,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1788013429000",
+          "id": "ai-4-1788013429000",
           "title": "Полмиллиона словоформ для ингушского языка, у которого не было ни анализатора, ни корпуса",
           "summary": "У ингушского глагола «деша» на нашей карточке 98 форм — от инфинитива до уступительного перфекта отрицательного, а всего по словарю их вышло полмиллиона. Строить пришлось с нуля: ни морфоанализатора, ни размеченного корп",
           "url": "https://habr.com/ru/articles/1076156/?utm_campaign=1076156&utm_source=habrahabr&utm_medium=rss",
@@ -153,23 +165,11 @@
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1788010652000",
-          "title": "Как дотащить вайбкод в прод и не упасть",
-          "summary": "Нам передали уже работающий сервис голосовых ИИ‑интервью со словами: «Надо только дотащить до прода». Внутри не было логирования, метрик и воспроизводимых тестов. Рассказываю, как работа с задержками и детектором голосов",
-          "url": "https://habr.com/ru/articles/1076140/?utm_campaign=1076140&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0e0/9a1/f38/0e09a1f3897db9b58a071f7458067fd0.jpg",
-          "publishedAt": "2026-08-29T13:37:32.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
         }
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-08-29T11:52:57.395Z",
+      "lastFetchAt": "2026-08-30T02:04:47.875Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -177,60 +177,60 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1787994074000",
-          "title": "Правило ловит 99% атак и ошибается в 1% случаев. На одну находку аналитик разберёт тысячу ложных",
-          "summary": "Характеристика, которую пишут в описании правила детектирования и произносят на защите архитектуры: обнаруживает 99% атак при доле ошибок в 1%. Звучит как хороший результат, и принимают её обычно без вопросов. А вопрос т",
-          "url": "https://habr.com/ru/articles/1075848/?utm_campaign=1075848&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/de4/990/64b/de499064bd68805a97968d2be59a8816.png",
-          "publishedAt": "2026-08-29T09:01:14.000Z",
+          "id": "cybersecurity-0-1788026547000",
+          "title": "Я попросил ИИ-агента только описать топологию сети. Он сам взломал мой роутер за одну ночь и помог оформить CVE",
+          "summary": "Некоторое время назад я строил оркестратор своей домашней лаборатории. LLM-агент должен был облететь серверы, собрать метаданные и зафиксировать топологию сети в документации проекта. Разведочную, в общем-то, канцелярску",
+          "url": "https://habr.com/ru/articles/1076204/?utm_campaign=1076204&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/6cc/9c7/202/6cc9c7202e4172eed1f696f94328597c.png",
+          "publishedAt": "2026-08-29T18:02:27.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1787950925000",
-          "title": "11 минут у Backblaze, и неделя бездействия у reg.ru: как компании обрубают инфраструктуру трояна в России и за рубежом",
-          "summary": "Привет, хабр. Если вы состоите в более‑менее крупных ТГ сообществах, то наверняка замечали, как время от времени в чатах мелькают боты с предложением установить сомнительный APK. Обычно их мгновенно банит антиспам или ад",
-          "url": "https://habr.com/ru/articles/1076024/?utm_campaign=1076024&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/22d/723/d5a/22d723d5a5032351a3ef3cd41ae5fa03.png",
-          "publishedAt": "2026-08-28T21:02:05.000Z",
+          "id": "cybersecurity-1-1788011423000",
+          "title": "AutoAddPolicy — это не удобство. Это выключенная проверка",
+          "summary": "У меня в проекте было четырнадцать копий одного IP‑адреса. По одной в каждом скрипте, который ходит на боевой сервер: деплой, перезапуск сервиса, правка DNS, диагностика почты. Классический копипаст, который живёт до пер",
+          "url": "https://habr.com/ru/articles/1076146/?utm_campaign=1076146&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/77c/58e/4da/77c58e4da4d5c513c4dd561e7ca3a024.png",
+          "publishedAt": "2026-08-29T13:50:23.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1787946162000",
-          "title": "redb 3.7: свой gRPC-протокол, отсечение props до агрегата и релиз, отозванный через день",
-          "summary": "Свой gRPC-wire в Route, отсечение props до агрегата в redb.Core, Tsak закрыт по умолчанию, второй фасад у Identity. И 3.7.0, отозванный через день. За три дня у экосистемы сменилось три номера: 3.7.0, 3.7.1 и 3.7.2. Перв",
-          "url": "https://habr.com/ru/articles/1076012/?utm_campaign=1076012&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/fb6/a20/6e6/fb6a206e6324a49b92ea7ea29353a6b9.png",
-          "publishedAt": "2026-08-28T19:42:42.000Z",
+          "id": "cybersecurity-2-1788010911000",
+          "title": "Уникальный отпечаток — плохой отпечаток: почему антифрод считает не уникальность, а согласованность",
+          "summary": "Вокруг браузерных отпечатков сложилось устойчивое заблуждение, которое кочует из статьи в статью. Звучит оно примерно так: чем уникальнее отпечаток, тем труднее связать сессии между собой, значит, надо максимально рандом",
+          "url": "https://habr.com/ru/articles/1076144/?utm_campaign=1076144&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1076144/12a4857d57a3000014ef88e62fada023/",
+          "publishedAt": "2026-08-29T13:41:51.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-3-1787937717000",
-          "title": "176 ботов, ИИ на чужом ключе и 334 статьи: как я за четыре месяца превратил todo-лист в продукт и разобрал его по швам",
-          "summary": "За две недели ко мне зарегистрировалось 176 ботов. Я полез разбираться, как они прошли мимо трёх уровней защиты, — и вылез с двенадцатью дырами, к ботам отношения не имевшими: хранимый XSS через JSON-LD, чужие задачи по ",
-          "url": "https://habr.com/ru/articles/1075986/?utm_campaign=1075986&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/a17/52c/1a9/a1752c1a9c8f92910e3f912cdce00dc0.jpg",
-          "publishedAt": "2026-08-28T17:21:57.000Z",
+          "id": "cybersecurity-3-1788008114000",
+          "title": "GhostBusters — райтап простой машины от платформы Aclabs.pro",
+          "summary": "Данный таск был частью 7 сезона CTF, который проводился на платформе aclabs.pro. Любителям фильма «Охотники за приведениями» рекомендую ознакомиться. Это необычная тачка с двумя флагами user и root. В центре внимания буд",
+          "url": "https://habr.com/ru/articles/1076134/?utm_campaign=1076134&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/a5d/d49/084/a5dd490847bfc721a0fafe47d3588d6e.png",
+          "publishedAt": "2026-08-29T12:55:14.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-4-1787930704000",
-          "title": "AI‑агент снёс прод и отчитался, что всё в порядке",
-          "summary": "AI‑агенты уже ускоряют написание кода, но вместе с этим растёт нагрузка на ревью, усложняется контроль изменений и появляется новый класс рисков — вплоть до доступа агента к продакшену. Разбираемся на реальных инцидентах",
-          "url": "https://habr.com/ru/companies/otus/articles/1067750/?utm_campaign=1067750&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/877/020/6b3/8770206b3892958e770f63f369a6cbb4.png",
-          "publishedAt": "2026-08-28T15:25:04.000Z",
+          "id": "cybersecurity-4-1788005651000",
+          "title": "Как не подарить полный продукт вузу, заводу без интернета и торренту",
+          "summary": "Для примера будем использовать наш продукт для просмотра топологии и верификации(EDA) и расскажем, как мы построили его лицензирование. Каждый коммерческий продукт рано или поздно упирается в один вопрос: кому именно вы ",
+          "url": "https://habr.com/ru/articles/1076122/?utm_campaign=1076122&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/796/a29/b2e/796a29b2e1d2d6b857563a746bf80305.png",
+          "publishedAt": "2026-08-29T12:14:11.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -239,7 +239,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-08-29T22:04:51.783Z",
+      "lastFetchAt": "2026-08-30T02:04:50.920Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -309,7 +309,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-08-29T18:57:51.485Z",
+      "lastFetchAt": "2026-08-30T02:04:52.454Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -353,12 +353,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1787993866000",
-          "title": "Ozon сообщил об атаке беспилотников на склад в Ростове-на-Дону — поставки временно не принимают",
-          "summary": "Возгорание потушили.",
-          "url": "https://vc.ru/marketplace/3103839-ozon-priostanovil-rabotu-sklada-v-rostove-na-donu?from=rss",
-          "image": "https://leonardo.osnova.io/3d6f4e8a-ae71-538a-8b13-32db74db8f32/",
-          "publishedAt": "2026-08-29T08:57:46.000Z",
+          "id": "startups-4-1787932708000",
+          "title": "Ozon начнёт размещать и продавать товары из пунктов выдачи заказов",
+          "summary": "Более 80 тысяч пунктов выдачи в России смогут работать как «небольшие логистические центры», говорят в компании.",
+          "url": "https://vc.ru/marketplace/3103071-ozon-nachnet-prodavat-tovary-iz-punktov-vydachi?from=rss",
+          "image": "https://leonardo.osnova.io/6e39d2cd-4a20-5e31-94ad-3883a396edef/",
+          "publishedAt": "2026-08-28T15:58:28.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -367,7 +367,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-08-29T18:57:52.128Z",
+      "lastFetchAt": "2026-08-30T02:04:53.051Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -437,7 +437,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-08-29T18:57:55.641Z",
+      "lastFetchAt": "2026-08-30T02:04:59.180Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -507,41 +507,16 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-08-29T18:57:57.196Z",
+      "lastFetchAt": "2026-08-30T02:05:00.831Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
       "name": "Здоровье",
       "slug": "health",
-      "articles": [
-        {
-          "id": "health-0-1787988673000",
-          "title": "Врач предупредила о появляющихся за несколько дней до инфаркта тревожных сигналах",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/29/vrach-predupredila-o-poyavlyayuschihsya-za-neskolko-dney-do-infarkta-trevozhnyh-signalah/",
-          "image": "https://icdn.lenta.ru/images/2026/08/18/14/20260818145139605/pic_fe1d655090d50b043cd06d19445a91a9.jpg",
-          "publishedAt": "2026-08-29T07:31:13.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-1-1787976076000",
-          "title": "Массовый недобор в российские медицинские вузы объяснили",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/29/nedobor/",
-          "image": "https://icdn.lenta.ru/images/2026/08/26/16/20260826164014464/pic_ec00f2f48d72681b243ac04fd64005ba.jpg",
-          "publishedAt": "2026-08-29T04:01:16.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        }
-      ]
+      "articles": []
     },
     "environment": {
-      "lastFetchAt": "2026-08-29T18:57:57.645Z",
+      "lastFetchAt": "2026-08-30T02:05:01.237Z",
       "intervalHours": 4,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -550,7 +525,7 @@
       "articles": []
     },
     "energy": {
-      "lastFetchAt": "2026-08-29T18:58:02.084Z",
+      "lastFetchAt": "2026-08-30T02:05:06.349Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -558,60 +533,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1788028778000",
-          "title": "В пруду в Ленинградской области нашли тело пропавшего ребенка",
-          "summary": "Спасатели обнаружили в пруду тело двухлетнего ребенка, пропавшего в деревне Надкопанье Ленинградской области. Об этом сообщает ТАСС со ссылкой на региональное управление МЧС.",
-          "url": "https://www.kommersant.ru/doc/8921572",
-          "image": "https://iv.kommersant.ru/SocialPics/8921572_49_0_278588387",
-          "publishedAt": "2026-08-29T18:39:38.000Z",
+          "id": "energy-0-1788055085000",
+          "title": "МИД России: США допускают возможность применения ядерного оружия в Европе",
+          "summary": "США всерьез рассматривают возможность применения ядерного оружия в Европе, считает посол по особым поручениям МИД России Андрей Белоусов. «Настойчивость, с которой Вашингтон пытается запустить на различных многосторонних",
+          "url": "https://www.kommersant.ru/doc/8921594",
+          "image": "https://im2.kommersant.ru/SocialPics/8921594_49_0_1601263524",
+          "publishedAt": "2026-08-30T01:58:05.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1788027757000",
-          "title": "Пять человек пострадали при ударах БПЛА в Белгородской области",
-          "summary": "При ударах беспилотников вооруженных сил Украины по Белгородской области пострадали пять человек. Среди них — двое сотрудников скорой помощи.",
-          "url": "https://www.kommersant.ru/doc/8921571",
-          "image": "https://im2.kommersant.ru/SocialPics/8921571_49_0_1120690710",
-          "publishedAt": "2026-08-29T18:22:37.000Z",
+          "id": "energy-1-1788053015000",
+          "title": "Над Ленинградской областью сбиты 30 беспилотников",
+          "summary": "Силы ПВО сбили над Ленинградской областью 30 беспилотников, сообщил губернатор Александр Дрозденко. Он уточнил, что работа сил ПВО продолжается.",
+          "url": "https://www.kommersant.ru/doc/8921593",
+          "image": "https://im2.kommersant.ru/SocialPics/8921593_49_0_2134992633",
+          "publishedAt": "2026-08-30T01:23:35.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1788026609000",
-          "title": "Премьер Словакии Фицо прокомментировал вопрос журналиста FAZ об убийстве русских",
-          "summary": "Вопрос журналиста газеты Frankfurter Allgemeine Zeitung (FAZ) Михаэля Мартенса об убийстве русских стал результатом формирования в Европе атмосферы ненависти к России, заявил премьер-министр Словакии Роберт Фицо. «Боюсь,",
-          "url": "https://www.kommersant.ru/doc/8921569",
-          "image": "https://im2.kommersant.ru/SocialPics/8921569_49_3192897_336057560",
-          "publishedAt": "2026-08-29T18:03:29.000Z",
+          "id": "energy-2-1788051606000",
+          "title": "Axios: глава ЦРУ предложил провести встречу президентов США, России и Украины",
+          "summary": "Директор ЦРУ Джон Рэтклифф во время визита в Москву предложил российской стороне провести трехстороннюю встречу президентов США, России и Украины, пишет Axios со ссылкой на источники. По информации издания, власти США пр",
+          "url": "https://www.kommersant.ru/doc/8921592",
+          "image": "https://iv.kommersant.ru/SocialPics/8921592_49_0_1733536039",
+          "publishedAt": "2026-08-30T01:00:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1788025326000",
-          "title": "Силы ПВО сбили 85 беспилотников над Россией за день",
-          "summary": "Средства ПВО уничтожили 85 беспилотников вооруженных сил Украины над российской территорией с 08:00 до 20:00 мск. Об этом сообщила пресс-служба Минобороны России.",
-          "url": "https://www.kommersant.ru/doc/8921566",
-          "image": "https://im2.kommersant.ru/SocialPics/8921566_49_0_63965614",
-          "publishedAt": "2026-08-29T17:42:06.000Z",
+          "id": "energy-3-1788050580000",
+          "title": "Вблизи Москвы сбиты 10 беспилотников",
+          "summary": "Силы ПВО сбили 10 беспилотников, летевших в направлении Москвы, сообщил мэр Сергей Собянин. Он уточнил, что на месте падения обломков БПЛА работают экстренные службы.",
+          "url": "https://www.kommersant.ru/doc/8921591",
+          "image": "https://im2.kommersant.ru/SocialPics/8921591_49_0_1859964663",
+          "publishedAt": "2026-08-30T00:43:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1788024262000",
-          "title": "В Бельгии отвергли новое предложение стран ЕС изъять российские активы // Глава Минобороны Бельгии Франкен: изъятие замороженных активов РФ не обсуждается",
-          "summary": "Министр обороны и внешней торговли Бельгии Тео Франкен исключил возможность использования замороженных активов России для помощи Украине. Так он прокомментировал обращение Швеции, Польши, Нидерландов и Испании в Еврокоми",
-          "url": "https://www.kommersant.ru/doc/8921564",
-          "image": "https://im2.kommersant.ru/SocialPics/8921564_49_3192893_326035479",
-          "publishedAt": "2026-08-29T17:24:22.000Z",
+          "id": "energy-4-1788049374000",
+          "title": "На ЗАЭС сочли некорректным заявление МАГАТЭ о рисках отключения электроснабжения",
+          "summary": "Утверждение о том, что Запорожской АЭС грозит полное отключение от энергоснабжения через 10 дней, некорректно, заявила директор по коммуникациям станции Евгения Яшина. «Имеющиеся запасы дизельного топлива не являются нео",
+          "url": "https://www.kommersant.ru/doc/8921590",
+          "image": "https://im2.kommersant.ru/SocialPics/8921590_49_0_1099679696",
+          "publishedAt": "2026-08-30T00:22:54.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -620,7 +595,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-08-29T18:58:02.985Z",
+      "lastFetchAt": "2026-08-30T02:05:07.123Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -690,7 +665,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-08-29T18:58:05.507Z",
+      "lastFetchAt": "2026-08-30T02:05:09.481Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -760,7 +735,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-08-29T18:58:09.350Z",
+      "lastFetchAt": "2026-08-30T02:05:12.158Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -830,7 +805,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-08-29T18:58:11.202Z",
+      "lastFetchAt": "2026-08-30T02:05:15.370Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -866,7 +841,7 @@
           "title": "«Мы подарили им рок-н-ролл» // Как мировые звезды давали концерты в России: от AC/DC до Билли Айлиш",
           "summary": "Выступит ли в Санкт-Петербурге американский рэпер Канье Уэст, зрителям пока неясно. Организаторы на фоне новостей о возможной отмене выступления призывают купивших билеты не поддаваться панике. «Ъ» же по этому случаю реш",
           "url": "https://www.kommersant.ru/doc/8910138",
-          "image": "https://im2.kommersant.ru/SocialPics/8910138_49_3192045_553161294",
+          "image": "https://iv.kommersant.ru/SocialPics/8910138_49_3192045_553161294",
           "publishedAt": "2026-08-29T07:00:53.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -900,7 +875,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-08-29T22:04:54.981Z",
+      "lastFetchAt": "2026-08-30T02:05:18.648Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -908,60 +883,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788040620000",
-          "title": "Гатиятулин о 2:1 со «Спартаком» в Кубке мэра Москвы: «Задача «Ак Барса» – найти оптимальные сочетания. Понимать, какие связки будут эффективными»",
-          "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин высказался после победы над «Спартаком» (2:1) в матче Кубка мэра Москвы. «Сегодня было больше остроты с нашей стороны. Правильно взаимодействовали – это нас порадовало. Победы в",
-          "url": "https://www.sports.ru/hockey/1117351967-gatiyatulin-o-pobede-nad-spartakom-v-matche-kubka-mera-moskvy.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/196/7/share/dd3dfc_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-29T21:57:00.000Z",
+          "id": "sports-0-1788055020000",
+          "title": "Каземиро забил 1-й гол за «Интер Майами» – в 9-м матче",
+          "summary": "Каземиро забил первый гол за « Интер Майами » Хавбек открыл счет в матче МЛС с «Монреалем» (7:1), отличившись в 9-й игре за флоридский клуб. Шесть матчей бразилец провел в МЛС , три – в Кубке лиг.",
+          "url": "https://www.sports.ru/football/1117352003-kazemiro-zabil-1-j-gol-za-inter-majami-v-9-m-matche.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/200/3/share/511d5f_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T01:57:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788040440000",
-          "title": "Спаллетти про 2:0 с «Пармой»: «Ювентус» не был достаточно точен, чтобы нанести более сокрушительный удар, но моментов было много. Если не забиваешь, все может пойти наперекосяк»",
-          "summary": "Лучано Спаллетти прокомментировал победу «Ювентуса» над «Пармой» (2:0) во 2-м туре Серии А. «Мы недостаточно хорошо использовали пространство, устраивали путаницу, не хватало ударов головой. Мы провели очень серьезный ма",
-          "url": "https://www.sports.ru/football/1117351964-spalletti-pro-20-s-parmoj-yuventus-ne-byl-dostatochno-tochen-chtoby-na.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/196/4/share/ad2da1_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-29T21:54:00.000Z",
+          "id": "sports-1-1788054124000",
+          "title": "Сантос Лагуна  Тигрес: смотреть онлайн прямую трансляцию матча, 30 августа 2026",
+          "summary": "Во воскресенье, 30 августа, сыграют Сантос Лагуна и Тигрес в рамках высшей лиги Мексики. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 06:10 по московскому времени. Где смотреть матч С",
+          "url": "https://www.sports.ru/football/1117352001-santos-laguna-tigres-smotret-onlajn-pryamuyu-translyacziyu-matcha-30-a.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/200/1/share/b58c2f_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T01:42:04.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788040200000",
-          "title": "Тимур Журавель: «Явный не пенальти «Зенита». ВАР настолько выложился с красной Дивееву, что на простой момент не хватило сил. Закончился рабочий день»",
-          "summary": "Комментатор « Матч ТВ » Тимур Журавель прокомментировал пенальти , назначенный в ворота « Факела » в матче против « Зенита » (0:1) за фол Равиля Нетфуллина . Главным арбитром на матче работал Антон Фролов , за ВАР на мат",
-          "url": "https://www.sports.ru/football/1117351965-zhuravel-o-penalti-zenita-var-nastolko-vylozhilsya-s-krasnoj-diveevu-c.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/196/5/share/60e1fa_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-29T21:50:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1788033720000",
-          "title": "МЛС. «Интер Майами» Месси примет «Монреаль», «Атланта» сыграет с «Шарлотт», «Канзас Сити» Шапи против «Ванкувера»",
-          "summary": "В регулярном чемпионате МЛС в ночь на воскресенье «Интер Майами» Лионеля Месси примет « Монреаль », « Атланта » Алексея Миранчука сыграет с «Шаролотт», «Канзас Сити» Магомеда-Шапи Сулейманова будет противостоять « Ванкув",
+          "id": "sports-2-1788054060000",
+          "title": "МЛС. «Интер Майами» Месси забил 7 голов «Монреалю», «Атланта» проиграла «Шарлотт», «Канзас Сити» Шапи против «Ванкувера»",
+          "summary": "В регулярном чемпионате МЛС в ночь на воскресенье «Интер Майами» Лионеля Месси разгромил « Монреаль » (7:1), « Атланта » Алексея Миранчука проиграла «Шаролотт» (0:2), «Канзас Сити» Магомеда-Шапи Сулейманова встречается с",
           "url": "https://www.sports.ru/football/1117351876-mls-inter-majami-messi-primet-monreal-atlanta-miranchuka-sygraet-s-sha.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/187/6/share/ef64c1_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-29T20:02:00.000Z",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/187/6/share/8544e5_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T01:41:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788039660000",
-          "title": "Савельев о «Динамо»: «Может пошуметь. Видна рука Тамбиева, ребята заряженные, мощно выглядят, начнут показывать доминантный хоккей»",
-          "summary": "Бывший генеральный менеджер немецкого «Крефельда» Сергей Савельев поделился мнением о перспективах «Динамо» под руководством Леонида Тамбиева в предстоящем сезоне КХЛ. «Видна рука нового главного тренера Леонида Тамбиева",
-          "url": "https://www.sports.ru/hockey/1117351960-savelev-o-dinamo-mozhet-poshumet-v-etom-sezone-kxl.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/196/0/share/b82b8a_no_logo_no_text.jpg",
-          "publishedAt": "2026-08-29T21:41:00.000Z",
+          "id": "sports-3-1788053340000",
+          "title": "Месси забил в 3-м матче подряд – хет-трик «Монреалю». У форварда «Интер Майами» 17+9 в 19 играх сезона МЛС",
+          "summary": "Форвард « Интер Майами » Лионель Месси сделал хет-трик и результативную передачу в матче МЛС с « Монреалем » (7:1). 39-летний аргентинец продлил голевую серию до 3 игр, результативную (5+2) – до 4. Всего в 19 матчах сезо",
+          "url": "https://www.sports.ru/football/1117352000-messi-zabil-v-3-m-matche-podryad-dubl-monrealyu-u-forvarda-inter-majam.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/200/0/share/9f5731_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T01:29:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-4-1788052440000",
+          "title": "Месси забил 924-й, 925-й и 926-й голы в карьере – в 1171-м матче. У Роналду 978 мячей в 1333 играх",
+          "summary": "Нападающий « Интер Майами » Лионель Месси забил 924-й, 925-й и 926-й голы в карьере. 39-летний аргентинец сделал хет-трик и результативную передачу в матче МЛС с «Монреалем» (7:1). Всего в 1171 игре за карьеру на счету М",
+          "url": "https://www.sports.ru/football/1117351999-messi-zabil-924-j-gol-v-karere-v-1171-m-matche-u-ronaldu-978-myachej-v.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/199/9/share/41f726_no_logo_no_text.jpg",
+          "publishedAt": "2026-08-30T01:14:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -970,7 +945,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-08-29T22:04:56.224Z",
+      "lastFetchAt": "2026-08-30T02:05:20.274Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -978,60 +953,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788040899000",
-          "title": "В России стартовало досрочное голосование на выборах в Госдуму",
+          "id": "politics-0-1788055507000",
+          "title": "Пожар произошел в промзоне в Ленобласти из-за атаки БПЛА",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/v-rossii-startovalo-dosrochnoe-golosovanie-na-vyborah-deputatov-gosdumy/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/01/20260830010147081/pic_2d3cc2a1b45179ba55dbe51e2444216d.jpg",
-          "publishedAt": "2026-08-29T22:01:39.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-1-1788040688000",
-          "title": "Российский посол сообщил о хитром плане Запада",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/rossiyskiy-posol-soobschil-o-hitrom-plane-zapada/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/00/20260830005944797/pic_89a49a735d7744994cb4092cdffd2aea.jpg",
-          "publishedAt": "2026-08-29T21:58:08.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-2-1788040500000",
-          "title": "Делавший ставки на выступления Трампа оператор телесуфлера понес наказание",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/08/29/delavshiy-stavki-na-vystupleniya-trampa-operator-telesuflera-pones-nakazanie/",
+          "url": "https://lenta.ru/news/2026/08/30/pozhar-proizoshel-v-promzone-v-lenoblasti-iz-za-ataki-bpla/",
           "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-08-29T21:55:00.000Z",
+          "publishedAt": "2026-08-30T02:05:07.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788039780000",
-          "title": "Украина попросила исключить ее из зоны действия российского аналога Starlink",
+          "id": "politics-1-1788055268000",
+          "title": "Юрист объяснила необходимость платить по чужим кредитам",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/29/ukraina-poprosila-isklyuchit-ee-iz-zony-deystviya-rossiyskogo-analoga-starlink/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/00/20260830004753739/pic_032de66bae3209588fc56a21064a833d.jpg",
-          "publishedAt": "2026-08-29T21:43:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/yurist-ob-yasnila-neobhodimost-platit-po-chuzhim-kreditam/",
+          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
+          "publishedAt": "2026-08-30T02:01:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1788038880000",
-          "title": "Взрыв на складе боеприпасов под Киевом сняли с нового ракурса",
+          "id": "politics-2-1788055151000",
+          "title": "Россиянку с необычным «живым багажом» задержали в Эквадоре",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/08/30/vzryv-na-sklade-boepripasov-snyali-s-novogo-rakursa/",
-          "image": "https://icdn.lenta.ru/images/2026/08/30/00/20260830002833726/pic_86170df1a65d76f132abada8c07f4e11.jpg",
-          "publishedAt": "2026-08-29T21:28:00.000Z",
+          "url": "https://lenta.ru/news/2026/08/30/rossiyanku-zaderzhali-v-ekvadore-s-neobychnym-zhivym-bagazhom/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/04/20260830045806958/pic_6bd90aba29fedc79cfb8e184da10d5ae.jpg",
+          "publishedAt": "2026-08-30T01:59:11.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-3-1788053849000",
+          "title": "Раскрыто число пропавших в результате оползня в Тибете иностранцев",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/raskryto-chislo-propavshih-v-rezultate-opolznya-v-tibete-inostrantsev/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/04/20260830043736930/pic_fae7fa2af6102b93b6528bc07e7abfc1.jpg",
+          "publishedAt": "2026-08-30T01:37:29.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1788053700000",
+          "title": "Стало известно о предложении главы ЦРУ Москве провести встречу трех лидеров",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/08/30/stalo-izvestno-o-predlozhenii-glavy-tsru-moskve-provesti-vstrechu-treh-liderov/",
+          "image": "https://icdn.lenta.ru/images/2026/08/30/04/20260830044133902/pic_7f180c7eee2322795428ed611a8bb9fa.jpg",
+          "publishedAt": "2026-08-30T01:35:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1062,7 +1037,7 @@
       ]
     },
     "law": {
-      "lastFetchAt": "2026-08-29T11:53:34.172Z",
+      "lastFetchAt": "2026-08-30T02:05:26.754Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
