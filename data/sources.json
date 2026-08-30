@@ -283,6 +283,25 @@
       ]
     },
     {
+      "id": "basketball",
+      "name": "Баскетбол",
+      "slug": "basketball",
+      "source": "Sports.ru, Спорт-Экспресс",
+      "siteUrl": "https://www.sports.ru",
+      "intervalHours": 6,
+      "topCount": 8,
+      "feeds": [
+        {
+          "url": "https://www.sports.ru/rss/rubric.xml?id=210",
+          "source": "Sports.ru"
+        },
+        {
+          "url": "https://www.sport-express.ru/services/materials/news/basketball/se/",
+          "source": "Спорт-Экспресс"
+        }
+      ]
+    },
+    {
       "id": "politics",
       "name": "Политика",
       "slug": "politics",
@@ -291,6 +310,113 @@
       "feedUrl": "https://lenta.ru/rss/news",
       "intervalHours": 2,
       "topCount": 5
+    },
+    {
+      "id": "svo",
+      "name": "СВО",
+      "slug": "svo",
+      "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
+      "siteUrl": "https://ria.ru",
+      "intervalHours": 2,
+      "topCount": 8,
+      "keywordFilter": [
+        "спецоперац",
+        "специальн военн",
+        "специальной военн",
+        "всу",
+        "донбасс",
+        "лнр",
+        "днр",
+        "запорожск",
+        "херсонск",
+        "авдеевк",
+        "бахмут",
+        "мариупол",
+        "беспилотник",
+        "бпла",
+        "удар всу",
+        "ракетн удар",
+        "пво сбил",
+        "курской област",
+        "белгородск"
+      ],
+      "feeds": [
+        {
+          "url": "https://ria.ru/export/rss2/archive/index.xml",
+          "source": "РИА Новости"
+        },
+        {
+          "url": "https://lenta.ru/rss/news",
+          "source": "Lenta.ru"
+        },
+        {
+          "url": "https://www.interfax.ru/rss.asp",
+          "source": "Интерфакс"
+        },
+        {
+          "url": "https://www.kommersant.ru/RSS/news.xml",
+          "source": "Коммерсантъ"
+        },
+        {
+          "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss",
+          "source": "РБК"
+        }
+      ]
+    },
+    {
+      "id": "security-services",
+      "name": "Минобороны и спецслужбы",
+      "slug": "security-services",
+      "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
+      "siteUrl": "https://ria.ru",
+      "intervalHours": 2,
+      "topCount": 8,
+      "keywordFilter": [
+        "минобороны",
+        "министерств обороны",
+        "министерство обороны",
+        "белоусов",
+        "шойгу",
+        "фсб",
+        "росгварди",
+        "служба внешней разведк",
+        "службы внешней разведк",
+        "главное разведуправлен",
+        "главного разведуправлен",
+        "военной разведк",
+        "военная разведк",
+        "гру россии",
+        "глава гру",
+        "начальник гру",
+        "свр",
+        "нарышкин",
+        "бортников",
+        "внутренние войск",
+        "внутренних войск",
+        "национальн гварди"
+      ],
+      "feeds": [
+        {
+          "url": "https://ria.ru/export/rss2/archive/index.xml",
+          "source": "РИА Новости"
+        },
+        {
+          "url": "https://lenta.ru/rss/news",
+          "source": "Lenta.ru"
+        },
+        {
+          "url": "https://www.interfax.ru/rss.asp",
+          "source": "Интерфакс"
+        },
+        {
+          "url": "https://www.kommersant.ru/RSS/news.xml",
+          "source": "Коммерсантъ"
+        },
+        {
+          "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss",
+          "source": "РБК"
+        }
+      ]
     },
     {
       "id": "education",
