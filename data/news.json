@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-09-02T23:40:54.304Z",
-  "lastRunAt": "2026-09-02T23:40:54.304Z",
+  "updatedAt": "2026-09-03T01:49:17.237Z",
+  "lastRunAt": "2026-09-03T01:49:17.237Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "it",
     "business",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
     "sports",
-    "football-russia",
     "politics",
     "svo",
-    "security-services",
-    "education",
-    "realestate",
-    "travel"
+    "security-services"
   ],
   "skippedNow": [
+    "it",
     "ai",
     "cybersecurity",
+    "startups",
     "science",
+    "medicine",
     "health",
+    "environment",
     "energy",
     "space",
     "automotive",
+    "gaming",
+    "entertainment",
+    "football-russia",
     "skiing",
     "mma",
     "basketball",
-    "law"
+    "education",
+    "law",
+    "realestate",
+    "travel"
   ],
   "failedNow": [],
   "categories": {
@@ -245,7 +245,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-02T23:39:48.667Z",
+      "lastFetchAt": "2026-09-03T01:48:56.497Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -253,7 +253,19 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1788384120000",
+          "id": "business-0-1788398303000",
+          "title": "Гуцан предложил меры поддержки бизнеса, пострадавшего от налетов ВСУ",
+          "summary": "",
+          "url": "https://www.vedomosti.ru/business/news/2026/09/03/1225876-rossii-predlozhili",
+          "image": "https://sharing.vedomosti.ru/1788398303/vedomosti.ru/business/news/2026/09/03/1225876-rossii-predlozhili.jpg",
+          "publishedAt": "2026-09-03T01:18:23.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1788384120000",
           "title": "На Камчатке хотят запустить производство рыбной продукции для детского питания",
           "summary": "Ее часто заменяют курицей из-за предпочтений школьников и желания сэкономить, говорят эксперты",
           "url": "https://www.vedomosti.ru/society/articles/2026/09/03/1225778-na-kamchatke-hotyat-zapustit-proizvodstvo-ribnoi-produktsii-dlya-detskogo-pitaniya",
@@ -265,7 +277,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1788383880000",
+          "id": "business-2-1788383880000",
           "title": "Путин посетил судостроительный комплекс «Звезда»",
           "summary": "Оператором и якорным заказчиком предприятия является «Роснефть»",
           "url": "https://www.vedomosti.ru/business/articles/2026/09/03/1225837-putin-posetil-sudostroitelnii-kompleks-zvezda",
@@ -277,7 +289,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1788383640000",
+          "id": "business-3-1788383640000",
           "title": "Структура «Магнита» займется выпуском средств контрацепции под собственным брендом",
           "summary": "Но занять существенную долю рынка компании вряд ли удастся из-за высокой конкуренции",
           "url": "https://www.vedomosti.ru/business/articles/2026/09/03/1225780-struktura-magnita-zaimetsya-vipuskom-sredstv-kontratseptsii",
@@ -289,24 +301,12 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-3-1788383580000",
+          "id": "business-4-1788383580000",
           "title": "Ставки перевалки угля в портах Балтики резко выросли",
           "summary": "Использование портовых мощностей в регионе увеличилось из-за сложностей с судоходством в Азово-Черноморском бассейне",
           "url": "https://www.vedomosti.ru/business/articles/2026/09/03/1225771-stavki-perevalki-uglya-v-portah-baltiki-rezko-virosli",
           "image": "https://cdn5.vedomosti.ru/image/2026/6t/12qnvj/normal-1e7j.jpg",
           "publishedAt": "2026-09-02T21:13:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1788383460000",
-          "title": "ОАК раскрыла планы по производству Ил-114",
-          "summary": "В течение 10 лет будет выпущено около 100 таких самолетов",
-          "url": "https://www.vedomosti.ru/business/articles/2026/09/03/1225769-oak-raskrila-plani-po-proizvodstvu-il-114",
-          "image": "https://cdn5.vedomosti.ru/image/2026/6t/12rrdl/normal-1e8w.jpg",
-          "publishedAt": "2026-09-02T21:11:00.000Z",
           "source": "Ведомости",
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
@@ -1027,7 +1027,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-02T23:40:20.227Z",
+      "lastFetchAt": "2026-09-03T01:48:59.264Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1035,60 +1035,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788388140000",
-          "title": "US Open. Калинская играет с Ван Синьюй, Александрова – с Биррелл, Яценко встретится с Соболенко, Шнайдер, Пегула, Мухова, Костюк, Паолини вышли в 3-й круг",
-          "summary": "Полина Яценко встретится с действующей чемпионкой Ариной Соболенко во втором круге US Open. Диана Шнайдер победила Каролину Плишкову. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шле",
+          "id": "sports-0-1788399540000",
+          "title": "Артига о победе над «Оренбургом» по пенальти: «Рубин» мог ставить точку в первом тайме – было 3-4 момента. Спасибо Нигматуллину, который вновь помог»",
+          "summary": "Тренер «Рубина» Франк Артига отметил вклад Артура Нигматуллина в победе над «Оренбургом» 1:1 (4:2 по пен.) в 3-м туре FONBET Кубка России в Пути РПЛ. Вратарь казанцев отразил два удара в послематчевой серии 11-метровых. ",
+          "url": "https://www.sports.ru/football/1117356701-artiga-o-pobede-nad-orenburgom-po-penalti-rubin-mog-stavit-tochku-v-pe.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/670/1/share/01bef3_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-03T01:39:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1788398700000",
+          "title": "Компани про 4:1: «Оснабрюк» забил великолепный гол в дебюте, но «Бавария» сохраняла спокойствие на протяжении всего матча»",
+          "summary": "Тренер «Баварии» Венсан Компани оценил разгром «Оснабрюка» (4:1) в 1-м раунде Кубка Германии. «Это был тяжелый кубковый матч против сложного соперника в гостях. Они забили великолепный гол в дебюте, но мы сохраняли споко",
+          "url": "https://www.sports.ru/football/1117356700-kompani-pro-41-osnabryuk-zabil-velikolepnyj-gol-v-debyute-no-bavariya-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/670/0/share/845b17_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-03T01:25:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1788397920000",
+          "title": "Талалаев о поражении от «Крыльев» по пенальти: «Не понравилось, что «Балтике» не хватало уверенности. До конца трансферного окна увидите выводы по этой игре»",
+          "summary": "Тренер «Балтики» Андрей Талалаев оценил поражение от «Крыльев Советов» (0:0, 3:5 по пен.) в 3-м туре FONBET Кубка России в Пути РПЛ. «В четверг вы увидите и услышите какие‑то новости до конца трансферного окна, какие‑то ",
+          "url": "https://www.sports.ru/football/1117356697-talalaev-o-porazhenii-ot-krylev-po-penalti-ne-ponravilos-chto-baltike-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/669/7/share/b90df8_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-03T01:12:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-3-1788394500000",
+          "title": "Соболенко выиграла 15-й матч подряд на US Open",
+          "summary": "Первая ракетка мира Арина Соболенко разгромила Полину Яценко (Q) во втором круге US Open – 6:1, 6:1. Белоруска выиграла все 13 матчей против квалифаеров или лаки-лузеров на турнирах «Большого шлема». Соболенко – действую",
+          "url": "https://www.sports.ru/tennis/1117356696-sobolenko-vyigrala-15-j-match-podryad-na-us-open.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/669/6/share/a3f88f_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-03T00:15:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-4-1788394200000",
+          "title": "US Open. Свитолина сыграет с Джойнт, Соболенко, Калинская, Александрова, Шнайдер, Пегула, Мухова, Костюк, Паолини вышли в 3-й круг",
+          "summary": "Полина Яценко уступила действующей чемпионке Арине Соболенко во втором круге US Open. Диана Шнайдер победила Каролину Плишкову. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шлема» Пр",
           "url": "https://www.sports.ru/tennis/1117355946-us-open-2026-zhenshhiny-rezultaty-2-sentyabrya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/594/6/share/0df6bc_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-02T22:29:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-1-1788389640000",
-          "title": "Бусе прошел круг на US Open спустя 68 лет после последней победы деда на этом турнире",
-          "summary": "30-я ракетка мира Игнасио Бусе обыграл Маркоса Гирона в первом круге US Open – 3:6, 6:3, 6:3, 6:7(6), 6:1. Бусе выиграл шестой матч подряд – на прошлой неделе он взял титул в Уинстон-Сейлеме. Перуанец провел и выиграл пе",
-          "url": "https://www.sports.ru/tennis/1117356683-buse-proshel-krug-na-us-open-spustya-68-let-posle-poslednej-pobedy-ded.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/668/3/share/d0f75f_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-02T22:54:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-2-1788387840000",
-          "title": "US Open. Йович играет с Фрех, Гауфф, Эала, Андреева, Рыбакина, Потапова вышли во 2-й круг, Касаткина, Корнеева, Бенчич, Остапенко выбыли",
-          "summary": "Мирра Андреева обыграла Джанис Тьен в первом круге US Open. Алина Корнеева уступила Мэдисон Киз. Вторая ракетка мира Елена Рыбакина победила Тею Фродин, чемпионка-2023 Коко Гауфф – Зейнеп Сенмез. Сетка здесь . US Open Нь",
-          "url": "https://www.sports.ru/tennis/1117354444-us-open-2026-zhenshhiny-rezultaty-1-sentyabrya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/444/4/share/e976de_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-02T22:24:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1788386640000",
-          "title": "Канчельскис о «Золотом мяче»: «Не думаю, что получит Хвича, у других шансов больше. Напоминает времена Беста – он был лучшим в клубе, но Северная Ирландия не играла на ЧМ»",
-          "summary": "Андрей Канчельскис отреагировал на слова Мишеля Платини о том, что «Золотой мяч» получит Хвича Кварацхелия . – Это его мнение, у каждого человека есть свое мнение. Спорить с Платини глупо, да и зачем? У каждого человека ",
-          "url": "https://www.sports.ru/football/1117356673-kanchelskis-o-zolotom-myache-ne-dumayu-chto-poluchit-xvicha-u-drugix-s.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/667/3/share/ad0d62_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-02T22:04:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1788386340000",
-          "title": "Третьяк о катках в России: «В пересчете на душу населения проигрываем чехам, финнам, шведам, американцам, канадцам. При этом, когда я возглавил ФХР, их было 140, а спустя 20 лет – более 800!»",
-          "summary": "Президент ФХР, депутат Госдумы Владислав Третьяк высказался о ситуации с катками в России. 12 марта 74-летнего Третьяка переизбрали на пост президента ФХР, он возглавляет федерацию с апреля 2006 года. – Как насчет катков",
-          "url": "https://www.sports.ru/hockey/1117356669-tretyak-o-katkax-v-rossii-v-pereschete-na-dushu-naseleniya-proigryvaem.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/666/9/share/95ec07_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-02T21:59:00.000Z",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/594/6/share/e88774_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-03T00:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1391,7 +1391,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-02T23:40:26.439Z",
+      "lastFetchAt": "2026-09-03T01:49:00.541Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1399,48 +1399,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788392163000",
-          "title": "Названа отрасль с зарплатой выше 250 тысяч рублей",
+          "id": "politics-0-1788399104000",
+          "title": "Неизлечимо больную Селин Дион вновь заметили на публике",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/nazvana-otrasl-s-zarplatoy-vyshe-250-tysyach-rubley/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/02/20260903023547929/pic_422407cc301b0f896b19ce9d42c1b65a.jpg",
-          "publishedAt": "2026-09-02T23:36:03.000Z",
+          "url": "https://lenta.ru/news/2026/09/03/neizlechimo-bolnuyu-selin-dion-vnov-zametili-na-publike/",
+          "image": "https://icdn.lenta.ru/images/2026/09/02/16/20260902165834077/pic_4a441eec7dc481d88fd31bb4ccd200e5.jpg",
+          "publishedAt": "2026-09-03T01:31:44.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1788391832000",
-          "title": "Мошенники начали открывать «турагентства»",
+          "id": "politics-1-1788397680000",
+          "title": "Стало известно о главном претенденте на должность министра армии США",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/moshenniki-nachali-otkryvat-turagentstva/",
-          "image": "https://icdn.lenta.ru/images/2026/09/02/17/20260902173827130/pic_fe77ce9dfd456fd2052ff40c3a290025.jpg",
-          "publishedAt": "2026-09-02T23:30:32.000Z",
+          "url": "https://lenta.ru/news/2026/09/03/stalo-izvestno-o-glavnom-pretendente-na-dolzhnost-ministra-armii-ssha/",
+          "image": "https://icdn.lenta.ru/images/2026/09/03/04/20260903041619810/pic_84bf327aa95571a82e9888823df98c1d.jpg",
+          "publishedAt": "2026-09-03T01:08:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788390809000",
-          "title": "Депутат обвинил власти Германии в использовании спецслужб против АдГ",
+          "id": "politics-2-1788397213000",
+          "title": "Обнаружен новый способ замедлить старение организма",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/deputat-obvinil-vlasti-germanii-v-ispolzovanii-spetssluzhb-protiv-adg/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/02/20260903021240730/pic_157f751b4fe40814805c879afe6115b1.jpg",
-          "publishedAt": "2026-09-02T23:13:29.000Z",
+          "url": "https://lenta.ru/news/2026/09/03/obnaruzhen-novyy-sposob-zamedlit-starenie-organizma/",
+          "image": "https://icdn.lenta.ru/images/2026/09/02/15/20260902152139412/pic_e48569128184478c2c6c2a3537518f94.jpg",
+          "publishedAt": "2026-09-03T01:00:13.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1788390660000",
-          "title": "Боец рассказал о маскировке российских штурмовиков под Рубежным",
+          "id": "politics-3-1788397209000",
+          "title": "Встреча с обнаженным незнакомцем обернулась для девушки стремительным бегством",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/rossiyskiy-boets-rasskazal-o-maskirovke-rossiyskih-shturmovikov-pod-rubezhnym/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/02/20260903021306363/pic_95b4d286a256a6e37aeaccf426a696e3.jpg",
-          "publishedAt": "2026-09-02T23:11:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/03/vstrecha-s-obnazhennym-neznakomtsem-obernulas-dlya-devushki-stremitelnym-begstvom/",
+          "image": "https://icdn.lenta.ru/images/2026/09/02/17/20260902175418168/pic_dcccbedf91f647b1534be4a019636579.jpg",
+          "publishedAt": "2026-09-03T01:00:09.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1788396428000",
+          "title": "«Документы не имеют юридической силы». Росавиация ответила на угрозы Киева российскому воздушному пространству",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/03/long-dokumenty-ne-imeyut-yuridicheskoy-sily-rosaviatsiya-otvetila-na-ugrozy-kieva-rossiyskomu-vozdushnomu-prostranstvu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/03/01/20260903012545442/pic_20f4955565280509e77c120977410c37.jpg",
+          "publishedAt": "2026-09-03T00:47:08.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1738,7 +1750,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-02T23:40:37.796Z",
+      "lastFetchAt": "2026-09-03T01:49:09.942Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1746,7 +1758,79 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1788391947000",
+          "id": "svo-0-1788399128000",
+          "title": "В МИД ответили на вызов послов из-за инцидента с БПЛА в Лейпциге",
+          "summary": "",
+          "url": "https://ria.ru/20260903/mid-2115032602.html",
+          "image": "https://cdnn21.img.ria.ru/images/152970/94/1529709421_0:350:3018:2048_650x0_80_0_0_cd2551f1fbaaacb27bcfdbbb6ac12bac.jpg",
+          "publishedAt": "2026-09-03T01:32:08.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1788396139000",
+          "title": "Гуцан предложил ввести мораторий на проверки бизнеса, попавшего под удары ВСУ // Гуцан предложил ввести мораторий на проверки пострадавшего от атак ВСУ бизнеса",
+          "summary": "Генпрокурор России Александр Гуцан предложил в 2027 году объявить мораторий на проведение проверок бизнеса, который понес ущерб от атак Вооруженных сил Украины. Он назвал это одним из эффективных инструментов поддержки м",
+          "url": "https://www.kommersant.ru/doc/8924615",
+          "image": "https://iv.kommersant.ru/SocialPics/8924615_49_0_1753178213",
+          "publishedAt": "2026-09-03T00:42:19.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1788395726000",
+          "title": "Генпрокурор предложил мораторий на проверки бизнеса, пострадавшего от ВСУ",
+          "summary": "",
+          "url": "https://ria.ru/20260903/genprokuror-2115027950.html",
+          "image": "https://cdnn21.img.ria.ru/images/07e9/09/12/2042653502_0:93:3128:1852_650x0_80_0_0_c596938660cce47ecb3ff045fccdd8fa.jpg",
+          "publishedAt": "2026-09-03T00:35:26.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1788394507000",
+          "title": "Генпрокурор России высказался о способах помочь пострадавшему от атак ВСУ бизнесу",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/03/genprokuror-rossii-vyskazalsya-o-sposobah-pomoch-postradavshemu-ot-atak-vsu-biznesu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/03/03/20260903031441677/pic_1d4a59f890cddd87a583400b5ce7a2a7.jpg",
+          "publishedAt": "2026-09-03T00:15:07.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1788394080000",
+          "title": "Гуцан предложил ввести в 2027 году мораторий на проверки бизнеса, пострадавшего из-за БПЛА",
+          "summary": "Генпрокурор РФ Александр Гуцан считает эффективной мерой поддержки малого и среднего бизнеса, пострадавшего от атак БПЛА, введение в 2027 году моратория на проверки со стороны надзорных органов.",
+          "url": "https://www.interfax.ru/russia/1112852",
+          "image": "https://www.interfax.ru/ftproot/textphotos/2026/09/03/guz1200.jpg",
+          "publishedAt": "2026-09-03T00:08:00.000Z",
+          "source": "Интерфакс",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-5-1788392833000",
+          "title": "В МИД России рассказали о наемниках в рядах ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/03/v-mid-rossii-rasskazali-o-naemnikah-v-ryadah-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/03/02/20260903024712257/pic_30a20c8156bd6782f39145ca273f1182.jpg",
+          "publishedAt": "2026-09-02T23:47:13.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-6-1788391947000",
           "title": "Мирошник рассказал, наемники из каких стран воюют на стороне ВСУ",
           "summary": "",
           "url": "https://ria.ru/20260903/miroshnik-2115023078.html",
@@ -1758,7 +1842,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1788391486000",
+          "id": "svo-7-1788391486000",
           "title": "ВСУ атаковали юг России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/03/vsu-atakovali-yug-rossii/",
@@ -1768,83 +1852,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-2-1788391400000",
-          "title": "Беженка из Родинского рассказала, как пряталась от дронов ВСУ в гараже",
-          "summary": "",
-          "url": "https://ria.ru/20260903/ukraina-2115022570.html",
-          "image": "https://cdnn21.img.ria.ru/images/sharing/article/2115022570.jpg?20106996251788391402",
-          "publishedAt": "2026-09-02T23:23:20.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-3-1788388917000",
-          "title": "При ударах беспилотников по ДНР погибли четыре человека",
-          "summary": "При ударах Вооруженных сил Украины по Донецкой народной республике (ДНР) погибли четыре человека, еще пять мирных жителей пострадали. Об этом сообщил глава региона Денис Пушилин.",
-          "url": "https://www.kommersant.ru/doc/8924598",
-          "image": "https://iv.kommersant.ru/SocialPics/8924598_49_0_1647335299",
-          "publishedAt": "2026-09-02T22:41:57.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1788387840000",
-          "title": "Армия США заключила первый контракт на лазерную систему против БПЛА",
-          "summary": "Армия США объявила о заключении первого контракта на производство высокоэнергетической лазерной системы вооружения для уничтожения беспилотных летательных аппаратов.",
-          "url": "https://www.interfax.ru/world/1112844",
-          "image": "https://www.interfax.ru/aspimg/1112844.jpg",
-          "publishedAt": "2026-09-02T22:24:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1788387216000",
-          "title": "Командующий Сухопутными войсками ВСУ привлекал женщин в свое соединение",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/komanduyuschiy-suhoputnymi-voyskami-vsu-privlekal-zhenschin-v-svoe-soedinenie/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/01/20260903012101118/pic_5f878a4441e1ba6f715a21d319c3f111.jpg",
-          "publishedAt": "2026-09-02T22:13:36.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1788387213000",
-          "title": "Раскрыта провальная тактика ВСУ при налетах на Россию",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/raskryta-provalnaya-taktika-vsu-pri-naletah-na-rossiyu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/01/20260903011322841/pic_b561cc7131867b7ad7470b5ec1abbb9d.jpg",
-          "publishedAt": "2026-09-02T22:13:33.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1788385719000",
-          "title": "Губернатор Херсонской области открыл печенье с предсказанием Жириновского на ВЭФ",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/03/gubernator-hersonskoy-oblasti-otkryl-pechenie-s-predskazaniem-zhirinovskogo-na-vef/",
-          "image": "https://icdn.lenta.ru/images/2026/09/03/00/20260903004443310/pic_3804976d260b07f8dff1f8837c0951cc.jpg",
-          "publishedAt": "2026-09-02T21:48:39.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-02T23:40:50.001Z",
+      "lastFetchAt": "2026-09-03T01:49:17.236Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1864,19 +1876,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-1-1788377880000",
-          "title": "Глава минобороны Эстонии уходит в отставку из-за скандала с закупкой снарядов для Украины",
-          "summary": "Министр обороны Эстонии Ханно Певкур заявил в среду вечером Эстонскому телевидению, что уходит в отставку в связи с возбуждением Государственной прокуратурой уголовного расследования о закупке снарядов для Украины.\"Сканд",
-          "url": "https://www.interfax.ru/world/1112829",
-          "image": "https://www.interfax.ru/aspimg/1112829.jpg",
-          "publishedAt": "2026-09-02T19:38:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-2-1788373405000",
+          "id": "security-services-1-1788373405000",
           "title": "За день над Россией сбили 238 беспилотников",
           "summary": "Силы ПВО с 8:00 до 20:00 мск сбили 238 беспилотников над российскими регионами. Об этом сообщила пресс-служба Минобороны.",
           "url": "https://www.kommersant.ru/doc/8924531",
@@ -1888,7 +1888,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1788370620000",
+          "id": "security-services-2-1788370620000",
           "title": "Минобороны выпустило заявление об атаке ВСУ на 15 регионов России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/02/minoborony-vypustilo-zayavlenie-ob-atake-vsu-na-15-regionov-rossii/",
@@ -1900,11 +1900,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1788360195000",
+          "id": "security-services-3-1788360195000",
           "title": "Минобороны сообщило об ударе по логистическому центру под Киевом",
           "summary": "ВС России нанесли удар по логистическому центру «Эридон» в городе Вишневое Киевской области, который использовался для хранения и распределения военных грузов. Об этом сообщили в Минобороны России.",
           "url": "https://www.kommersant.ru/doc/8924374",
-          "image": "https://iv.kommersant.ru/SocialPics/8924374_49_0_655929922",
+          "image": "https://im2.kommersant.ru/SocialPics/8924374_49_0_655929922",
           "publishedAt": "2026-09-02T14:43:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1912,11 +1912,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1788358119000",
+          "id": "security-services-4-1788358119000",
           "title": "Минобороны: ВС РФ поразили логистический центр «Чайки» в Киевской области",
           "summary": "Вооруженные силы России вечером 1 сентября ударными беспилотниками атаковали логистический центр «Чайки» компании «Альфа девелопмент групп» в Киевской области. Там хранились иностранные грузы двойного назначения, в том ч",
           "url": "https://www.kommersant.ru/doc/8924346",
-          "image": "https://im2.kommersant.ru/SocialPics/8924346_49_0_971802039",
+          "image": "https://iv.kommersant.ru/SocialPics/8924346_49_0_971802039",
           "publishedAt": "2026-09-02T14:08:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1924,7 +1924,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-6-1788357525000",
+          "id": "security-services-5-1788357525000",
           "title": "В Адыгее бывшего адвоката обвинили в обмане участников СВО",
           "summary": "Сотрудники управления ФСБ России по Республике Адыгея задержали жителя Майкопа, который ранее имел статус адвоката республиканской коллегии, сообщает пресс-служба УФСБ. Бывшему адвокату предъявлено обвинение в особо круп",
           "url": "https://www.kommersant.ru/doc/8924320",
@@ -1936,12 +1936,24 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-7-1788352842000",
+          "id": "security-services-6-1788352842000",
           "title": "Минобороны России отчиталось о применении «Герань-4 сикер» в Киеве и под Одессой // Минобороны: ВС РФ ударили дроном «Герань-4 сикер» по складу в Киеве",
           "summary": "Минобороны России сообщило об ударе по логистическому центру в Киеве с применением беспилотника «Герань-4 сикер». Ведомство опубликовало «кадры объективного контроля нанесения удара».",
           "url": "https://www.kommersant.ru/doc/8924252",
-          "image": "https://im2.kommersant.ru/SocialPics/8924252_49_0_1991166431",
+          "image": "https://iv.kommersant.ru/SocialPics/8924252_49_0_1991166431",
           "publishedAt": "2026-09-02T12:40:42.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-7-1788340421000",
+          "title": "Российские войска взяли Святогорск в ДНР и харьковскую Казачью Лопань",
+          "summary": "Российская армия взяла под контроль Святогорск в ДНР и Казачью Лопань в Харьковской области. Об этом сообщило Минобороны РФ.",
+          "url": "https://www.kommersant.ru/doc/8924006",
+          "image": "https://im2.kommersant.ru/SocialPics/8924006_49_0_856562899",
+          "publishedAt": "2026-09-02T09:13:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
