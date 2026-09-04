@@ -1,41 +1,41 @@
 {
-  "updatedAt": "2026-09-04T19:58:52.407Z",
-  "lastRunAt": "2026-09-04T19:58:52.407Z",
+  "updatedAt": "2026-09-04T22:06:33.590Z",
+  "lastRunAt": "2026-09-04T22:06:33.590Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "it",
     "business",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
     "sports",
     "politics",
     "svo",
-    "security-services"
+    "security-services",
+    "education",
+    "realestate",
+    "travel"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
     "football-russia",
     "skiing",
     "mma",
     "basketball",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "law"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-09-04T17:13:30.707Z",
+      "lastFetchAt": "2026-09-04T22:05:01.166Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -43,7 +43,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1788540413000",
+          "id": "it-0-1788552835000",
+          "title": "Ручного курьера приняли за чужого: почему ID оказался плохим признаком происхождения записи",
+          "summary": "04.09 в 09:06:45 UTC ночной опрос Fleet нашёл одного «нового» курьера. Дальше автоматика отработала без единой ошибки: new_ids: 1, dispatch_alerted: 1, sms_sent: 1. В Google Sheet появилась строка 1248, в служебную групп",
+          "url": "https://habr.com/ru/articles/1078708/?utm_campaign=1078708&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1078708/7ed56fe3ad5f527e74f8db52f2bc0650/",
+          "publishedAt": "2026-09-04T20:13:55.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1788540413000",
           "title": "Rust: Макетирование форм для Iced 14",
           "summary": "Привет, Хабр! Некоторое время назад у меня образовалось немного (вернее много) свободного времени, и я между моментами серфинга на известном сайте HH решил посмотреть в сторону освоения Rust. Кроме всего прочего мне очен",
           "url": "https://habr.com/ru/articles/1078674/?utm_campaign=1078674&utm_source=habrahabr&utm_medium=rss",
@@ -55,7 +67,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1788525140000",
+          "id": "it-2-1788525140000",
           "title": "Плагины в Picodata",
           "summary": "В каждой уважающей себя СУБД должна быть возможность программировать на тьюринг-полном языке программирования. Вот и у нас в Picodata есть возможность написать плагин на Rust, а как это делать — расскажу под катом. Читат",
           "url": "https://habr.com/ru/companies/arenadata/articles/1078252/?utm_campaign=1078252&utm_source=habrahabr&utm_medium=rss",
@@ -67,7 +79,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1788522345000",
+          "id": "it-3-1788522345000",
           "title": "[Перевод] Мутационное тестирование: прекрасная концепция, которой вы редко будете пользоваться на практике",
           "summary": "В новом переводе от команды Spring АйО на простом Java-примере показываем: – как работает мутационное тестирование с Pitest; – почему 100% покрытия недостаточно; – откуда берутся выжившие мутанты; – почему не стоит прого",
           "url": "https://habr.com/ru/companies/spring_aio/articles/1078564/?utm_campaign=1078564&utm_source=habrahabr&utm_medium=rss",
@@ -79,24 +91,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1788522314000",
+          "id": "it-4-1788522314000",
           "title": "Гонка за исключением или как один except Exception может лишить сна на неделю",
           "summary": "Сервис зависает, контейнер не отвечает, а в логах — только «обработанные» ошибки. Часто причина таких инцидентов скрывается в слишком широком except Exception, который мешает приложению корректно завершаться. Разберем, к",
           "url": "https://habr.com/ru/companies/otus/articles/1071382/?utm_campaign=1071382&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/bf3/891/328/bf3891328e6101eecf1ea5c62a30618e.png",
           "publishedAt": "2026-09-04T11:45:14.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1788517566000",
-          "title": "Гетерогенный lookup: как одна фича C++ сделала драйвер проще, чище и быстрее, чем на C",
-          "summary": "Нужен драйвер — пиши на C. Нужно что-то рядом с ядром — тем более пиши на C. В низкоуровневой разработке этот подход воспринимается почти как правило по умолчанию. Но иногда задача требует большей выразительности, больше",
-          "url": "https://habr.com/ru/companies/kaspersky/articles/1074722/?utm_campaign=1074722&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/ff7/b30/5d4/ff7b305d41de02d951523f0ff71dbf61.jpeg",
-          "publishedAt": "2026-09-04T10:26:06.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -245,7 +245,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-04T19:58:35.019Z",
+      "lastFetchAt": "2026-09-04T22:05:03.639Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -315,7 +315,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-09-04T17:13:40.704Z",
+      "lastFetchAt": "2026-09-04T22:05:06.417Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -335,24 +335,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1788516508000",
-          "title": "Timekettle представила наушники W4 Plus стоимостью от $299 — они могут переводить разговоры, звонки и видео и поддерживают 52 языка",
-          "summary": "Подписка на расширенные ИИ-функции стоит $14,99 в месяц.",
-          "url": "https://vc.ru/tech/3120825-naushniki-timekettle-w4-plus-perevod?from=rss",
-          "image": "https://leonardo.osnova.io/7eac3fba-d151-5fd5-904e-a1b9f82d45a1/",
-          "publishedAt": "2026-09-04T10:08:28.000Z",
+          "id": "startups-1-1788544917000",
+          "title": "Бывший министр связи Николай Никифоров стал фигурантом уголовного дела финансовой пирамиды Finiko — источники",
+          "summary": "В ближайшее время его объявят в розыск, говорят собеседники РБК.",
+          "url": "https://vc.ru/legal/3121686-nikolay-nikiforov-finansovaya-piramida-finiko?from=rss",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3121686/1788559506/cover.jpg",
+          "publishedAt": "2026-09-04T18:01:57.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1788435978000",
-          "title": "Ни один из 16 спутников, которые «Бюро 1440» запустило в июле 2026 года для российского аналога Starlink, не смог подняться на рабочую орбиту — Business Insider",
-          "summary": "Вместо запланированных 800 км они летают на высоте 300-400 км, где их постепенно тормозит атмосфера Земли.",
-          "url": "https://vc.ru/future/3119233-sputniky-byuro-1440-ne-dostigli-orbity?from=rss",
-          "image": "https://leonardo.osnova.io/e9ca5531-a5d0-56bf-807f-6bf29b7cffed/",
-          "publishedAt": "2026-09-03T11:46:18.000Z",
+          "id": "startups-2-1788516508000",
+          "title": "Timekettle представила наушники W4 Plus стоимостью от $299 — они могут переводить разговоры, звонки и видео и поддерживают 52 языка",
+          "summary": "Подписка на расширенные ИИ-функции стоит $14,99 в месяц.",
+          "url": "https://vc.ru/tech/3120825-naushniki-timekettle-w4-plus-perevod?from=rss",
+          "image": "https://leonardo.osnova.io/7eac3fba-d151-5fd5-904e-a1b9f82d45a1/",
+          "publishedAt": "2026-09-04T10:08:28.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -371,12 +371,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-4-1788533430000",
-          "title": "Производитель памяти Lexar представил портативный SSD толщиной 3,8 мм",
-          "summary": "Компания предлагает использовать его при мобильной съёмке или в дороге.",
-          "url": "https://vc.ru/tech/3121401-portativnyy-ssd-lexar-muse?from=rss",
-          "image": "https://leonardo.osnova.io/832a3a85-16a3-5b1a-ab17-a7852fb4e329/",
-          "publishedAt": "2026-09-04T14:50:30.000Z",
+          "id": "startups-4-1788540086000",
+          "title": "Верховный суд Марий Эл оправдал основателя edtech-компании iSpring Юрия Ускова по делу о мошенничестве",
+          "summary": "Летом 2026 года его приговорили к трём годам тюрьмы условно и штрафу в 500 тысяч рублей.",
+          "url": "https://vc.ru/legal/3121613-yuriy-uskov-opravdan-verhovnym-sudom-mariy-el?from=rss",
+          "image": "https://leonardo.osnova.io/32ae9eee-f08b-58ea-b811-4730144d265b/",
+          "publishedAt": "2026-09-04T16:41:26.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -455,7 +455,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-09-04T17:13:45.491Z",
+      "lastFetchAt": "2026-09-04T22:05:10.707Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -595,7 +595,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-09-04T17:13:59.373Z",
+      "lastFetchAt": "2026-09-04T22:05:57.897Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -899,7 +899,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-09-04T17:14:12.270Z",
+      "lastFetchAt": "2026-09-04T22:05:59.946Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -956,7 +956,7 @@
         },
         {
           "id": "gaming-4-1788435518000",
-          "title": "Делам динамические элементы игрового фона в Seedance",
+          "title": "Делаем динамические элементы игрового фона в Seedance",
           "summary": "Сегодня мы посмотрим как довольно бюджетная видео‑модель Seedance 2.0 справляется с оживлением статичных элементов фона в условной игре а‑ля «зомби‑выживач». Читать далее",
           "url": "https://habr.com/ru/companies/studyai/articles/1078114/?utm_campaign=1078114&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/73e/ed6/8a3/73eed68a3a5faecd48b0b2c7a12512db.png",
@@ -969,7 +969,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-09-04T17:14:14.073Z",
+      "lastFetchAt": "2026-09-04T22:06:04.749Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -977,7 +977,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1788541362000",
+          "id": "entertainment-0-1788545552000",
+          "title": "«Газпром Арена» исключила проведение концертов зарубежных исполнителей в октябре",
+          "summary": "В октябре на «Газпром Арене» не планируются концерты зарубежных исполнителей, заявила пресс-служба площадки в Telegram-канале. После этого агентство Say Agency опубликовало документы, на основании которых открыло в авгус",
+          "url": "https://www.kommersant.ru/doc/8936878",
+          "image": "https://im2.kommersant.ru/SocialPics/8936878_49_0_1561774722",
+          "publishedAt": "2026-09-04T18:12:32.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1788541362000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 5–6 сентября",
           "summary": "3 сентября в прокат вышел ряд фильмов, среди которых байпик о знаменитом шеф-поваре Энтони Бурдене «Тони», а также криминальная комедия от режиссера Сэмюэля Л. Джексона «Сыграть в ящик». Что посмотреть в кино на выходных",
           "url": "https://www.kommersant.ru/doc/8925441",
@@ -989,7 +1001,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1788539323000",
+          "id": "entertainment-2-1788539323000",
           "title": "От фэнтези до госуправления Китая // В «Гостином Дворе» открылась Московская международная книжная ярмарка",
           "summary": "Со 2 по 6 сентября в столице проходит 39-я Московская международная книжная ярмарка. В ней участвуют более 300 издательств из РФ и зарубежных стран, в том числе из Белоруссии, Индии, Ирана, Катара, КНДР, ОАЭ, Омана и Тур",
           "url": "https://www.kommersant.ru/doc/8925629",
@@ -1001,11 +1013,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1788533067000",
+          "id": "entertainment-3-1788533067000",
           "title": "Трудно быть доном // Стартовал сериал по повести братьев Стругацких",
           "summary": "На онлайн-платформе Wink начался показ сериала «Трудно быть богом» по мотивам повести братьев Стругацких, снятый при участии Института развития интернета (ИРИ) и телеканала НТВ. Юлия Шагельман посмотрела первые четыре се",
           "url": "https://www.kommersant.ru/doc/8936768",
-          "image": "https://iv.kommersant.ru/SocialPics/8936768_49_3197880_1080696713",
+          "image": "https://im2.kommersant.ru/SocialPics/8936768_49_3197880_1080696713",
           "publishedAt": "2026-09-04T14:44:27.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1013,7 +1025,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1788531200000",
+          "id": "entertainment-4-1788531200000",
           "title": "Из последних иллюзий // Фильмы Мартина Макдоны и Синъи Цукамото на Венецианском фестивале",
           "summary": "В Венеции продолжается кинофестиваль. О двух фильмах, резко поднявших планку международного конкурса, «Дикая лошадь» Мартина Макдоны и «Мистер Нельсон, вы убивали людей?» Синъи Цукамото, рассказывает Андрей Плахов.",
           "url": "https://www.kommersant.ru/doc/8936741",
@@ -1023,23 +1035,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1788527036000",
-          "title": "Бейонсе переизадала альбом B’Day в его 20-летний юбилей // Бейонсе выпустила юбилейное расширенное переиздание альбома B’Day",
-          "summary": "Вышло юбилейное расширенное переиздание второго студийного альбома Бейонсе B’Day. Альбому исполнилось 20 лет: он вышел в день рождения певицы в 2006 году.",
-          "url": "https://www.kommersant.ru/doc/8936664",
-          "image": "https://im2.kommersant.ru/SocialPics/8936664_49_3197796_2003762901",
-          "publishedAt": "2026-09-04T13:03:56.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-04T19:58:36.974Z",
+      "lastFetchAt": "2026-09-04T22:06:07.698Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1047,60 +1047,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788551580000",
-          "title": "Бублик по ходу матча с Полом: «Он может за идею отдаться? Может сказать: «#####, мне в ##### сегодня, вот именно сегодня, Саня нормальный пацан, #####?»",
-          "summary": "Александр Бублик обратился к своему тренеру во время матча с Томми Полом на US Open – 4:6, 6:3, 7:6(4), 1:6, идет решающий сет. Проигрывая в четвертом сете, казахстанец сказал: «Он может за идею отдаться? А может, типа, ",
-          "url": "https://www.sports.ru/tennis/1117358773-bublik-po-xodu-matcha-s-polom-on-mozhet-za-ideyu-otdatsya-mozhet-skaza.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/877/3/share/3cd595_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-04T19:53:00.000Z",
+          "id": "sports-0-1788559200000",
+          "title": "Бартра про пенальти в матче с «Реалом»: «Знакомый арбитр объяснил мне: если опорная нога в воздухе, то пенальти не перебивается. Если бы я задержался немного дольше, то оказался бы в штрафной»",
+          "summary": "Защитник « Бетиса » Марк Бартра прокомментировал эпизод в матче против « Реала » (1:0), в котором ВАР рассматривал необходимость перебить пенальти из-за забегания Бартры в штрафную. Главным арбитром на матче был Алехандр",
+          "url": "https://www.sports.ru/football/1117358897-bartra-pro-penalti-v-matche-s-realom-znakomyj-arbitr-obyasnil-mne-esli.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/889/7/share/e288d7_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-04T22:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788551520000",
-          "title": "Льюис Хэмилтон: «Были бы очень рады побороться за место на первом ряду стартовой решетки. Сможет ли «Феррари» это сделать – другой вопрос»",
-          "summary": "Пилот « Феррари » Льюис Хэмилтон подвел итоги пятничных свободных заездов перед Гран-при Италии , а также оценил шансы команды побороться за место на первом ряду стартовой решетки. «Борьба будет очень плотной. Нам предст",
-          "url": "https://www.sports.ru/automoto/1117358778-lyuis-xemilton-byli-by-ochen-rady-poborotsya-za-mesto-na-pervom-ryadu-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/877/8/share/b6ced7_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-04T19:52:00.000Z",
+          "id": "sports-1-1788559140000",
+          "title": "Андрей Никонов: «В детстве чуть-чуть занимался боксом. Всегда готов за партнеров постоять. Если кого-то встретили, травму нанесли. Это во всех командах приветствуют»",
+          "summary": "Нападающий московского «Динамо» Андрей Никонов рассказал, что всегда готов постоять за партнеров по команде. «Если надо, конечно, всегда готов за партнеров постоять. Если кого-то встретили, травму нанесли, то, думаю, это",
+          "url": "https://www.sports.ru/hockey/1117358893-andrej-nikonov-v-detstve-chut-chut-zanimalsya-boksom-vsegda-gotov-za-p.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/889/3/share/c41576_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-04T21:59:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788551040000",
-          "title": "Джордж Расселл: «Феррари», вероятно, остается фаворитом по скорости»",
-          "summary": "Пилот «Мерседеса» Джордж Расселл подвел итоги пятничных свободных заездов перед Гран-при Италии , поделившись мнением о текущем положении команды. «Пятница прошла позитивно. Мы выполнили большой объем работы. При этом у ",
-          "url": "https://www.sports.ru/automoto/1117358767-dzhordzh-rassell-ferrari-veroyatno-ostaetsya-favoritom-po-skorosti.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/876/7/share/58f3f7_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-04T19:44:00.000Z",
+          "id": "sports-2-1788559020000",
+          "title": "Моуринью про 0:1 с «Бетисом»: «Им повезло, они играли на ничью. Не понимаю, почему «Реал» проиграл – мы доминировали, создавали моменты, провели отличный матч»",
+          "summary": "Главный тренер «Реала» Жозе Моуринью высказался о поражении от «Бетиса» (0:1) в 4-м туре Ла Лиги . О спорных моментах матча «Я не видел этого подробно. Я не посмотрел их в раздевалке, я не могу комментировать». О первом ",
+          "url": "https://www.sports.ru/football/1117358885-mourinyu-pro-01-s-betisom-im-povezlo-oni-igrali-na-nichyu-ne-ponimayu-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/888/5/share/12df7c_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-04T21:57:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1788550920000",
-          "title": "Воробьев о предсезонных турнирах: «Не понравилось, что много ребят получили травмы. Может, стоит ограничиваться товарищескими играми или сократить предсезонку, как сделали в НХЛ»",
-          "summary": "Бывший главный тренер сборной России Илья Воробьев в блоге на Спортсе’’ высказался о ситуации с травмами на предсезонных турнирах. «Здорово, что у нас есть такие зрелищные предсезонные турниры. В Москве на Кубке мэра был",
-          "url": "https://www.sports.ru/hockey/1117358745-vorobev-o-predsezonnyx-turnirax-ne-ponravilos-chto-mnogo-rebyat-poluch.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/874/5/share/fa8c3b_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-04T19:42:00.000Z",
+          "id": "sports-3-1788558900000",
+          "title": "Тестовые матчи. Япония сыграет с Канадой, ЮАР встретится с Новой Зеландией, Аргентина против Австралии",
+          "summary": "5-6 сентября пройдут тестовые матчи по регби. Тестовые матчи 5 сентября Япония – Канада – 8.50 ЮАР – Новая Зеландия – 18.05 6 сентября Аргентина – Австралия – 0.00 ПРИМЕЧАНИЕ : время начала матчей – московское.",
+          "url": "https://www.sports.ru/rugby/1117358896-testovye-matchi-yaponiya-sygraet-s-kanadoj-yuar-vstretitsya-s-novoj-ze.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/889/6/share/14cf52_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-04T21:55:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788550920000",
-          "title": "Медведев о том, что дочь бросает ракетку на тренировке: «Тренер посмотрел на меня и сказал: «Даже не знаю, откуда она это взяла»",
-          "summary": "Даниил Медведев рассказал об отношениях с дочерью после победы над Артуром Риндеркнешем в третьем круге US Open – 6:4, 6:4, 6:4. – Вы ранее говорили, что одна из дочерей унаследовала ваш вспыльчивый характер. Что психоло",
-          "url": "https://www.sports.ru/tennis/1117358748-medvedev-o-tom-chto-doch-brosaet-raketku-na-trenirovke-trener-posmotre.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/735/874/8/share/bce241_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-04T19:42:00.000Z",
+          "id": "sports-4-1788558480000",
+          "title": "Ираола о 2:0 с «Ипсвичем»: «Ливерпулю» нужна была такая победа, мы не позволили сопернику создавать моменты. Не требую от Исака только голов, он может помогать команде в других ситуациях»",
+          "summary": "Главный тренер «Ливерпуля» Андони Ираола высказался о победе над «Ипсвичем» (2:0) в 3-м туре АПЛ. «Это приятно, нам была нужна такая победа. Особенно с учетом того, как мы сыграли: не дали забить сопернику, хорошо контро",
+          "url": "https://www.sports.ru/football/1117358890-iraola-o-20-s-ipsvichem-liverpulyu-nuzhna-byla-takaya-pobeda-my-ne-poz.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/735/889/0/share/6c77d3_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-04T21:48:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1403,7 +1403,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-04T19:58:38.004Z",
+      "lastFetchAt": "2026-09-04T22:06:09.376Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1411,60 +1411,36 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788551520000",
-          "title": "Трамп оценил шансы завершения конфликта на Украине",
+          "id": "politics-1-1788558057000",
+          "title": "Школьникам дали совет о правильном ношении рюкзака",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/tramp-otsenil-shansy-zaversheniya-konflikta-na-ukraine/",
+          "url": "https://lenta.ru/news/2026/09/05/shkolnikam-dali-sovet-o-pravilnom-noshenii-ryukzaka/",
+          "image": "https://icdn.lenta.ru/images/2026/09/05/00/20260905004050003/pic_d6ebfaa6f17478bf294a127c9f6fa248.jpg",
+          "publishedAt": "2026-09-04T21:40:57.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-2-1788558000000",
+          "title": "ФРГ отказала Швейцарии в одной услуге",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/05/frg-otkazali-shveytsarii-v-odnoy-usluge/",
           "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-09-04T19:52:00.000Z",
+          "publishedAt": "2026-09-04T21:40:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1788551477000",
-          "title": "Бывший капитан «Краснодара» снова забил в Саудовской Аравии",
+          "id": "politics-4-1788557774000",
+          "title": "Европейская страна продлила режим ЧС из-за угрозы нелегальной миграции",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/byvshiy-kapitan-krasnodara-snova-zabil-v-saudovskoy-aravii/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904224742380/pic_0eabf99f346fbc6be729e953bb628ce5.jpg",
-          "publishedAt": "2026-09-04T19:51:17.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-2-1788551340000",
-          "title": "Трамп анонсировал удар по одному объекту",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/tramp-anonsiroval-udar-po-odnomu-ob-ektu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904225028703/pic_bfb38eaf21c714287112626f8b41060f.jpg",
-          "publishedAt": "2026-09-04T19:49:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-3-1788551207000",
-          "title": "В Германии заявили о подготовке к длительному конфликту с Россией",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/v-germanii-zayavili-o-podgotovke-k-dlitelnomu-konfliktu-s-rossiey/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904224635548/pic_17e2a9a9dec2d68d0c0d7a802fa7a3bd.jpg",
-          "publishedAt": "2026-09-04T19:46:47.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1788550200000",
-          "title": "Захарова раскрыла реакцию ООН на угрозы Зеленского в адрес гражданской авиации",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/zaharova-raskryla-reaktsiyu-oon-na-ugrozy-zelenskogo-grazhdanskoy-aviatsii/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904223227401/pic_d6581e65410f7f1061208fb43ade6d0b.jpg",
-          "publishedAt": "2026-09-04T19:30:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/05/evropeyskaya-strana-prodlila-rezhim-chs-iz-za-ugrozy-nelegalnoy-migratsii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/05/00/20260905003714339/pic_3cb843ab5fd5b020f657148ce04400e4.jpg",
+          "publishedAt": "2026-09-04T21:36:14.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1473,7 +1449,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-09-04T12:20:18.629Z",
+      "lastFetchAt": "2026-09-04T22:06:30.696Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1552,7 +1528,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-09-04T12:20:19.094Z",
+      "lastFetchAt": "2026-09-04T22:06:32.242Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1622,7 +1598,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-09-04T12:20:20.979Z",
+      "lastFetchAt": "2026-09-04T22:06:33.589Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1630,48 +1606,24 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1788523681000",
-          "title": "Рейс российской авиакомпании задержался на 29 часов в аэропорту Сочи",
+          "id": "travel-0-1788541480000",
+          "title": "Покорившая гору мать-одиночка потеряла сознание на глазах у туристов и не пришла в себя",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/reys-rossiyskoy-aviakompanii-zaderzhalsya-na-29-chasov-v-aeroportu-sochi/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/11/20260904113657798/pic_1b66ddaec50dbb2324061460e209b1ea.jpg",
-          "publishedAt": "2026-09-04T12:08:01.000Z",
+          "url": "https://lenta.ru/news/2026/09/04/pokorivshaya-goru-mat-odinochka-poteryala-soznanie-na-glazah-u-turistov-i-ne-prishla-v-sebya/",
+          "image": "https://icdn.lenta.ru/images/2026/09/04/13/20260904135620573/pic_3380cffe48459f231ec865f81e53d2ed.jpg",
+          "publishedAt": "2026-09-04T17:04:40.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1788522650000",
-          "title": "Сильное землетрясение произошло в курортной стране",
+          "id": "travel-1-1788537900000",
+          "title": "Внедорожник с туристами рухнул в кишащую крокодилами реку и попал на видео",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/silnoe-zemletryasenie-proizoshlo-v-kurortnoy-strane/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/14/20260904144507451/pic_bac98b91c99c1e39f4cd0b680c56b30d.jpg",
-          "publishedAt": "2026-09-04T11:50:50.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1788518100000",
-          "title": "Россиянам напомнили об уважительных причинах вернуть деньги за отпуск",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/rossiyanam-napomnili-ob-uvazhitelnyh-prichinah-vernut-dengi-za-otpusk/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/13/20260904133725188/pic_d8c3dfc0486c860fa7fa68365f2992f1.jpg",
-          "publishedAt": "2026-09-04T10:35:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-4-1788507060000",
-          "title": "Африканская авиакомпания решила прекратить полеты в Москву",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/afrikanskaya-aviakompaniya-reshila-prekratit-polety-v-moskvu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/10/20260904101537380/pic_5f756ffd10be4cbf474a613431a26717.jpg",
-          "publishedAt": "2026-09-04T07:31:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/04/vnedorozhnik-s-turistami-ruhnul-v-kishaschuyu-krokodilami-reku-i-popal-na-video/",
+          "image": "https://icdn.lenta.ru/images/2026/09/04/16/20260904162939573/pic_f8508e790cc29953a6b69d8f72cc3a6e.jpg",
+          "publishedAt": "2026-09-04T16:05:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
@@ -1786,7 +1738,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-04T19:58:45.455Z",
+      "lastFetchAt": "2026-09-04T22:06:19.265Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1794,7 +1746,67 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1788551101000",
+          "id": "svo-0-1788558727000",
+          "title": "В Херсонской области после атаки БПЛА нарушена подача электроснабжения",
+          "summary": "В результате атаки беспилотников частично нарушена подача электроснабжения в нескольких округах Херсонской области, сообщил губернатор Владимир Сальдо. По его словам, в регионе сохраняется «высокая дроновая активность».",
+          "url": "https://www.kommersant.ru/doc/8937141",
+          "image": "https://iv.kommersant.ru/SocialPics/8937141_49_0_478173189",
+          "publishedAt": "2026-09-04T21:52:07.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1788558480000",
+          "title": "ВСУ получили приказ соблюдать режим тишины. Киев прекратит огонь на несколько дней. С чем связано это решение?",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/05/long-vsu-poluchili-prikaz-soblyudat-rezhim-tishiny-kiev-prekratit-ogon-na-neskolko-dney-s-chem-svyazno-reshenie-ukrainy/",
+          "image": "https://icdn.lenta.ru/images/2026/09/05/00/20260905004729454/pic_11f96519389d108fcfefc05b5bd6e279.jpg",
+          "publishedAt": "2026-09-04T21:48:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1788557903000",
+          "title": "В Херсонской области частично нарушено электроснабжение из-за атаки БПЛА",
+          "summary": "",
+          "url": "https://ria.ru/20260905/elektrosnabzhenie-2115585568.html",
+          "image": "https://cdnn21.img.ria.ru/images/07e9/04/01/2008676598_0:158:3077:1889_650x0_80_0_0_47a0c6392e5ce5df44e1feb2766bc7ab.jpg",
+          "publishedAt": "2026-09-04T21:38:23.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1788557820000",
+          "title": "В российском регионе нарушено электроснабжение из-за атаки ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/05/v-rossiyskom-regione-narusheno-elektrosnabzhenie-iz-za-ataki-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/05/00/20260905004130113/pic_794d48ecd81af961354cbb6d799b78b5.jpg",
+          "publishedAt": "2026-09-04T21:37:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1788554160000",
+          "title": "ВСУ получили приказ соблюдать режим тишины",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/04/vsu-poluchili-prikaz-o-rezhime-tishiny/",
+          "image": "https://icdn.lenta.ru/images/2026/09/04/23/20260904234047284/pic_f5ebfc8a5aa41e7207ea7fdfc4c58a17.jpg",
+          "publishedAt": "2026-09-04T20:36:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-5-1788551101000",
           "title": "Трамп: Россия не планирует атаковать НАТО",
           "summary": "Президент России Владимир Путин не планирует атаковать страны НАТО, заявил президент США Дональд Трамп. Так он ответил на вопрос журналиста, можно ли считать нападением на альянс инциденты с беспилотниками в Германии.",
           "url": "https://www.kommersant.ru/doc/8936895",
@@ -1806,7 +1818,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1788549836000",
+          "id": "svo-6-1788549836000",
           "title": "Главу Минэнерго Запорожской области и первого зама отправили в отставку",
           "summary": "Министра энергетики Запорожской области и его первого заместителя уволили на фоне перебоев с электроснабжением в регионе, сообщил губернатор Евгений Балицкий.",
           "url": "https://www.rbc.ru/rbcfreenews/6a9b102ea253bdbe3d3505dd",
@@ -1818,7 +1830,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1788549725000",
+          "id": "svo-7-1788549725000",
           "title": "В ДНР из-за атак ВСУ пострадали три мирных жителя",
           "summary": "",
           "url": "https://ria.ru/20260904/dnr-2115576971.html",
@@ -1828,71 +1840,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-3-1788549600000",
-          "title": "Мирные жители ДНР пострадали из-за ударов БПЛА ВСУ",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/mirnye-zhiteli-dnr-postradali-iz-za-udarov-bpla-vsu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904222010100/pic_b3fa005a48dcbad199d5862c613f7ecd.jpg",
-          "publishedAt": "2026-09-04T19:20:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1788548820000",
-          "title": "ВСУ обрекли колумбийских наемников на голодную смерть",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/vsu-obrekli-kolumbiyskih-naemnikov-na-golodnuyu-smert/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/22/20260904221006280/pic_d2f511ba92270b67e69ab523bf478e1f.jpg",
-          "publishedAt": "2026-09-04T19:07:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1788547920000",
-          "title": "Две женщины и подросток ранены при атаках дронов в Белгородской области",
-          "summary": "Три человека, в том числе подросток, пострадали в результате атаки дронов ВСУ в Белгородской области, сообщил региональный оперативный штаб в пятницу.\"В детскую областную клиническую больницу госпитализирована 14-летняя ",
-          "url": "https://www.interfax.ru/russia/1113292",
-          "image": "https://www.interfax.ru/aspimg/1113292.jpg",
-          "publishedAt": "2026-09-04T18:52:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1788547058000",
-          "title": "В Белгородской области три человека пострадали от атак ВСУ",
-          "summary": "",
-          "url": "https://ria.ru/20260904/chelovek-2115572079.html",
-          "image": "https://cdnn21.img.ria.ru/images/152244/92/1522449217_0:82:2000:1207_650x0_80_0_0_369e17ffb704694bcc8c0e5e05280cee.jpg",
-          "publishedAt": "2026-09-04T18:37:38.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1788547020000",
-          "title": "14-летняя россиянка пострадала из-за атаки ВСУ",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/04/14-letnyaya-rossiyanka-postradala-iz-za-ataki-vsu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/21/20260904213758055/pic_2e385de668fa37ed33b0bfed6052b050.jpg",
-          "publishedAt": "2026-09-04T18:37:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-04T19:58:52.406Z",
+      "lastFetchAt": "2026-09-04T22:06:29.242Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1940,7 +1892,7 @@
           "title": "Нарышкин не отрицает возможность полномасштабного конфликта в Евразии",
           "summary": "Глава российской внешней разведки Сергей Нарышкин не отрицает возможного начала полномасштабного конфликта на евразийском пространстве. По его словам, ЕС верит в контролируемую эскалацию конфликта, что создает неверное п",
           "url": "https://www.kommersant.ru/doc/8936756",
-          "image": "https://im2.kommersant.ru/SocialPics/8936756_49_3197927_1974121200",
+          "image": "https://iv.kommersant.ru/SocialPics/8936756_49_3197927_1974121200",
           "publishedAt": "2026-09-04T14:26:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1952,7 +1904,7 @@
           "title": "Минобороны сообщило об ударах по судам с грузами для ВСУ в Черном море",
           "summary": "Российские военные нанесли удары по трем судам, связанным с поставками военного имущества и компонентов для нужд ВСУ. Об этом заявили в Минобороны России.",
           "url": "https://www.kommersant.ru/doc/8936773",
-          "image": "https://im2.kommersant.ru/SocialPics/8936773_49_0_75857766",
+          "image": "https://iv.kommersant.ru/SocialPics/8936773_49_0_75857766",
           "publishedAt": "2026-09-04T14:17:02.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
