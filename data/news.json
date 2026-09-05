@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-09-05T17:46:56.628Z",
-  "lastRunAt": "2026-09-05T17:46:56.628Z",
+  "updatedAt": "2026-09-05T19:39:08.381Z",
+  "lastRunAt": "2026-09-05T19:39:08.381Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "cybersecurity",
+    "skiing",
+    "law"
+  ],
+  "skippedNow": [
     "it",
     "ai",
     "business",
@@ -17,6 +22,7 @@
     "gaming",
     "entertainment",
     "sports",
+    "football-russia",
     "mma",
     "basketball",
     "politics",
@@ -25,12 +31,6 @@
     "education",
     "realestate",
     "travel"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "football-russia",
-    "skiing",
-    "law"
   ],
   "failedNow": [],
   "categories": {
@@ -175,7 +175,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-09-05T06:25:42.359Z",
+      "lastFetchAt": "2026-09-05T19:38:58.525Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -183,60 +183,60 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1788581679000",
-          "title": "Найти ПДн, замаскировать, развернуть копию: большой разбор открытого pg_anon",
-          "summary": "pg_anon — полностью открытый инструмент для PostgreSQL, который ищет персональные данные по заданным правилам и выгружает копию базы уже замаскированной. За год проект заметно вырос: частичный дамп и восстановление, подд",
-          "url": "https://habr.com/ru/companies/tantor/articles/1078064/?utm_campaign=1078064&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/0d0/f98/aeb/0d0f98aeb1a297566885a18e1cea9410.png",
-          "publishedAt": "2026-09-05T04:14:39.000Z",
+          "id": "cybersecurity-0-1788630589000",
+          "title": "Нажали Approve на одно действие, а workflow попытался выполнить другое: разбор n8n + MCP + Bitrix24",
+          "summary": "Почему approved=true не связывает решение человека с фактическим вызовом — и как Action Envelope, свежая проверка исходного состояния и контрольная проверка после записи закрыли этот конкретный сценарий отказа. Я читаю Х",
+          "url": "https://habr.com/ru/articles/1078864/?utm_campaign=1078864&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/c13/421/cfe/c13421cfe3df67b811fda801f83edc41.png",
+          "publishedAt": "2026-09-05T17:49:49.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1788534926000",
-          "title": "23 урока для тех, кто отвечает за инфраструктуру: Linux, базы данных, CI/CD и безопасность",
-          "summary": "В этом дайджесте делимся подборкой бесплатных уроков сентября для инженеров инфраструктуры, DevOps и специалистов смежных направлений. В подборке — практические разборы Linux-серверов, PostgreSQL 18, отказоустойчивых кла",
-          "url": "https://habr.com/ru/companies/otus/articles/1078650/?utm_campaign=1078650&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/b6d/3ba/61e/b6d3ba61eb9e8152934abf838da357d4.jpg",
-          "publishedAt": "2026-09-04T15:15:26.000Z",
+          "id": "cybersecurity-1-1788629969000",
+          "title": "Защита сайта от ботов: 6 лет практики фильтрации трафика",
+          "summary": "Практический разбор шести лет работы с автоматизированным трафиком: от первых поведенческих ботов и ручных правил Cloudflare до собственной многоуровневой системы фильтрации и кластерной аналитики. Читать далее",
+          "url": "https://habr.com/ru/articles/1078860/?utm_campaign=1078860&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/834/170/598/834170598200e5ba36708318c242daab.jpg",
+          "publishedAt": "2026-09-05T17:39:29.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1788534003000",
-          "title": "Лендинг выключили три года назад. Запись в DNS осталась, и указывает она теперь на чужой проект",
-          "summary": "Маркетинг попросил вернуть старую промо-страницу - ту, что делали к акции три года назад. Открываю страницу по её адресу, чтобы посмотреть, что от неё осталось, и вижу чужой сайт. Домен наш, имя в адресной строке наше, з",
-          "url": "https://habr.com/ru/articles/1076428/?utm_campaign=1076428&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1076428/aee0bf51d00fbdf8b02d2f0445e12859/",
-          "publishedAt": "2026-09-04T15:00:03.000Z",
+          "id": "cybersecurity-2-1788620438000",
+          "title": "В логе адрес, с которого запрос не приходил. Его вписал сам клиент",
+          "summary": "Недавно разбирал блокировку у заказчика. Сработало правило «десять неудачных входов с одного адреса - бан». Забанило адрес, с которого никто ничего не делал. Через два часа забанило ещё один, потом ещё - и все из докумен",
+          "url": "https://habr.com/ru/articles/1076432/?utm_campaign=1076432&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1076432/cd637cd392af45a544897a42dc3ab106/",
+          "publishedAt": "2026-09-05T15:00:38.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-3-1788527734000",
-          "title": "Что умеет ассистент по умолчанию на Android — на примере Алисы AI",
-          "summary": "На устройствах под управлением ОС Android можно выбрать ассистента по умолчанию — почти так же, как браузер. Один раз выбираете в настройках — и дальше открываете его системным жестом поверх любого приложения. Удобно. Ка",
-          "url": "https://habr.com/ru/companies/yandex/articles/1078580/?utm_campaign=1078580&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/216/0a6/136/2160a61366e8240001059c381ccbc70c.png",
-          "publishedAt": "2026-09-04T13:15:34.000Z",
+          "id": "cybersecurity-3-1788619684000",
+          "title": "Заметки на полях. Поиск по имени/названию. Поисковики pro и contra",
+          "summary": "Довелось как-то заняться инструментами для проверки имен пользователей. Много чего было просмотрено. Как и ранее известных мне инструментов, таких как скрипты, сайты и все такое прочее. Так и пытаны коллеги, собрана неко",
+          "url": "https://habr.com/ru/articles/1078832/?utm_campaign=1078832&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/98c/c75/8ac/98cc758ace9c4493b2b51ffd8f37b2ec.jpeg",
+          "publishedAt": "2026-09-05T14:48:04.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-4-1788526969000",
-          "title": "Скажи «друг» и войди: ищем легко угадываемые пароли в Active Directory",
-          "summary": "«Ennyn Durin Aran Moria: pedo mellon a minno» — «Врата Дурина, Владыки Мории. Скажи „друг“ и войди». Самый известный пароль в литературе — эльфийское mellon, «друг» — открывал Западные врата Мории любому, кто удосужился ",
-          "url": "https://habr.com/ru/companies/infowatch/articles/1078436/?utm_campaign=1078436&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/724/38c/c3d/72438cc3df25ab728c80e74ee39a1175.png",
-          "publishedAt": "2026-09-04T13:02:49.000Z",
+          "id": "cybersecurity-4-1788618333000",
+          "title": "Как использовать облачные AI модели внутри контура компании и не получить по шее от ИБ?",
+          "summary": "Или пример того, что будет, если роль пакетного менеджера доверить AI. [ Перед прочтением ознакомьтесь с политикой безопасности в вашей компании ] Читать далее",
+          "url": "https://habr.com/ru/articles/1078824/?utm_campaign=1078824&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/415/69c/3d2/41569c3d2b710bc3380df881851afa4d.jpg",
+          "publishedAt": "2026-09-05T14:25:33.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -1215,7 +1215,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-09-05T06:26:17.408Z",
+      "lastFetchAt": "2026-09-05T19:39:01.825Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1223,7 +1223,43 @@
       "slug": "skiing",
       "articles": [
         {
-          "id": "skiing-0-1788529860000",
+          "id": "skiing-0-1788632520000",
+          "title": "Валнес о допуске российских лыжников: «Встретиться с ними на соревнованиях будет совершенно нормально. Нас больше волнует политический аспект вопроса»",
+          "summary": "Норвежский лыжник Эрик Валнес поделился мнением о допуске российских спортсменов в нейтральном статусе.",
+          "url": "https://www.sports.ru/skiing/1117360055-valnes-o-dopuske-rossijskix-lyzhnikov-vstretitsya-s-nimi-na-sorevnovan.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-05T18:22:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-1-1788621720000",
+          "title": "Норвежский лыжник Амундсен о допуске россиян: «Почти ничего не изменилось, но, очевидно, есть силы, которые пытаются продавить перемены»",
+          "summary": "Норвежский лыжник Харальд Амундсен высказался о допуске российских спортсменов в нейтральном статусе.",
+          "url": "https://www.sports.ru/skiing/1117359722-norvezhskij-lyzhnik-amundsen-o-dopuske-rossiyan-pochti-nichego-ne-izme.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-05T15:22:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-2-1788599220000",
+          "title": "Йоханнес Клэбо: «Чемпионат мира должен быть достаточно редким событием, чтобы иметь особое значение»",
+          "summary": "Норвежский лыжник Йоханнес Клэбо скептически относится к решению FIS проводить чемпионаты мира ежегодно.",
+          "url": "https://www.sports.ru/skiing/1117359160-joxannes-klebo-chtoby-imet-czennost-krupnoe-sobytie-dolzhno-ostavatsya.html",
+          "image": "https://s5o.ru/storage/simple/90/26/66/2013.10.08.02.58.18.80902666.1.jpg",
+          "publishedAt": "2026-09-05T09:07:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-3-1788529860000",
           "title": "Лыжник Клебо считает, что  ежегодное проведение чемпионата мира может обесценить турнир",
           "summary": "11-кратный олимпийский чемпион норвежский лыжник Йоханнес Клебо заявил, что скептически относится к инициативе совета Международной федерации лыжного спорта и сноуборда (FIS) увеличить частоту проведения чемпионатов мира",
           "url": "https://www.sport-express.ru/skiing/chempionat-mira/news/lyzhnik-klebo-schitaet-chto-ezhegodnoe-provedenie-chempionata-mira-mozhet-obescenit-turnir-2452527/",
@@ -1235,49 +1271,13 @@
           "categorySlug": "skiing"
         },
         {
-          "id": "skiing-1-1788527100000",
+          "id": "skiing-4-1788527100000",
           "title": "Совет FIS одобрил проведение чемпионатов мира в каждом сезоне начиная с 2032 года, за исключением олимпийского",
           "summary": "Совет Международной федерации лыжного спорта и сноуборда (FIS) принял решение увеличить частоту проведения чемпионатов мира в каждом сезоне, за исключением олимпийского.",
           "url": "https://www.sports.ru/skiing/1117358179-sovet-fis-odobril-uvelichenie-chastoty-provedeniya-chempionatov-mira-p.html",
           "image": "https://s5o.ru/storage/simple/90/26/66/2013.10.08.02.58.18.80902666.1.jpg",
           "publishedAt": "2026-09-04T13:05:00.000Z",
           "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-2-1788441600000",
-          "title": "Совет FIS одобрил увеличение частоты проведения чемпионатов мира по лыжным гонкам",
-          "summary": "Совет Международной федерации лыжного спорта и сноуборда (FIS) одобрил концепцию увеличения частоты проведения чемпионатов мира, сообщает пресс-служба организации.",
-          "url": "https://www.sport-express.ru/skiing/news/sovet-fis-odobril-uvelichenie-chastoty-provedeniya-chempionatov-mira-po-lyzhnym-gonkam-2452247/",
-          "image": null,
-          "publishedAt": "2026-09-03T13:20:00.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-3-1788431760000",
-          "title": "FIS повторно проверит спортсменов, которым отказали в получении нейтрального статуса",
-          "summary": "Международная федерация лыжного спорта и сноуборда (FIS) повторно проверит спортсменов, заявки которых на получение нейтрального статуса были отклонены ранее.",
-          "url": "https://www.sport-express.ru/skiing/news/fis-povtorno-proverit-sportsmenov-kotorym-otkazali-v-poluchenii-neytralnogo-statusa-2452184/",
-          "image": null,
-          "publishedAt": "2026-09-03T10:36:00.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-4-1788419280000",
-          "title": "Лыжница Степанова: «Я стану полностью довольна, когда мне вернут те же права, которые есть у Норвегии и Швеции»",
-          "summary": "Российская лыжница Вероника Степанова прокомментировала решение Международной федерации лыжного спорта и сноуборда (FIS) допустить российских спортсменов к международным соревнованиям в сезоне-2026/27 в нейтральном стату",
-          "url": "https://www.sport-express.ru/skiing/news/lyzhnica-stepanova-ya-stanu-polnostyu-dovolna-kogda-mne-vernut-te-zhe-prava-kotorye-est-u-norvegii-i-shvecii-2452135/",
-          "image": null,
-          "publishedAt": "2026-09-03T07:08:00.000Z",
-          "source": "Спорт-Экспресс",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
           "categorySlug": "skiing"
@@ -1458,7 +1458,7 @@
       "articles": []
     },
     "law": {
-      "lastFetchAt": "2026-09-05T06:26:51.386Z",
+      "lastFetchAt": "2026-09-05T19:39:08.380Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1466,7 +1466,19 @@
       "slug": "law",
       "articles": [
         {
-          "id": "law-0-1788537216000",
+          "id": "law-0-1788624346000",
+          "title": "Краснов предложил выработать этические нормы применения ИИ в правосудии",
+          "summary": "Председатель ВС выступил на форуме глав верховных судов БРИКС в Нью-Дели с инициативой создать общие этические принципы использования искусственного интеллекта в судебной деятельности.",
+          "url": "https://pravo.ru/news/265715/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-09-05T16:05:46.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-1-1788537216000",
           "title": "Суд разрешил физлицу без статуса ИП оспорить третейское решение в арбитраже",
           "summary": "Важна лишь коммерческая природа спора, а не наличие регистрации истца как ИП в России, указал суд.",
           "url": "https://pravo.ru/news/265711/",
@@ -1478,7 +1490,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-1-1788536911000",
+          "id": "law-2-1788536911000",
           "title": "ВС указал, что жертву мошенников нельзя автоматически освободить от кредита",
           "summary": "Суд отменил решения нижестоящих инстанций о признании недействительным кредитного договора, заключенного жертвой телефонных мошенников.",
           "url": "https://pravo.ru/news/265714/",
@@ -1490,7 +1502,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-2-1788536508000",
+          "id": "law-3-1788536508000",
           "title": "Росимущество выставило на торги национализированный «Салаватнефтемаш»",
           "summary": "Начальная цена лота составляет 1,9 млрд руб., заявки на участие в аукционе принимают до 5 октября.",
           "url": "https://pravo.ru/news/265713/",
@@ -1502,24 +1514,12 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-3-1788533136000",
+          "id": "law-4-1788533136000",
           "title": "Апелляция подтвердила требование «Интеркоммерца» к Иванову на 3,9 млрд руб.",
           "summary": "ПСБ ссылался на то, что долг подтвержден только приговором, который еще обжалуется в кассации, но суд не счел это препятствием для включения задолженности в реестр.",
           "url": "https://pravo.ru/news/265710/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
           "publishedAt": "2026-09-04T14:45:36.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-4-1788530173000",
-          "title": "Минсельхоз проработает вопрос о моратории на банкротство аграриев",
-          "summary": "Ведомство намерено поддержать фермеров, и некоторые свои инициативы оно уже направило правительству.",
-          "url": "https://pravo.ru/news/265706/",
-          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-09-04T13:56:13.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
