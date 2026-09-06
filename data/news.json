@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-06T21:49:15.672Z",
-  "lastRunAt": "2026-09-06T21:49:15.672Z",
+  "updatedAt": "2026-09-06T23:19:38.038Z",
+  "lastRunAt": "2026-09-06T23:19:38.038Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "business",
-    "sports",
-    "politics",
-    "svo",
-    "security-services"
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
   ],
   "skippedNow": [
-    "it",
     "ai",
     "cybersecurity",
-    "startups",
+    "business",
     "science",
-    "medicine",
     "health",
-    "environment",
     "energy",
     "space",
     "automotive",
-    "gaming",
-    "entertainment",
+    "sports",
     "football-russia",
     "skiing",
     "mma",
     "basketball",
+    "politics",
+    "svo",
+    "security-services",
     "education",
     "law",
     "realestate",
@@ -35,7 +35,7 @@
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-09-06T17:50:10.866Z",
+      "lastFetchAt": "2026-09-06T23:19:14.287Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -44,7 +44,7 @@
       "articles": [
         {
           "id": "it-0-1788714671000",
-          "title": "QML и CSS не нужны. Использование QStyle (QStyleFactory) для изменения дизайна Qt приложения с выбором для пользователя",
+          "title": "QML и CSS не нужны. Использование QStyle (QStyleFactory) для изменения дизайна Qt приложения с выбором для пользователя",
           "summary": "В статье рассказывается о функционале, о котором забыли даже разработчики Qt. Дело в том, что этот функционал даёт уникальные возможности стилизации. В отличие от QML и CSS, использование QStyleFactory позволяет предоста",
           "url": "https://habr.com/ru/articles/1078894/?utm_campaign=1078894&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/6af/757/94f/6af75794f1bcc04f3afb228308e927d0.webp",
@@ -315,7 +315,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-09-06T17:50:20.329Z",
+      "lastFetchAt": "2026-09-06T23:19:16.881Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -323,7 +323,19 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1788678404000",
+          "id": "startups-0-1788712423000",
+          "title": "День 1656: маркетплейсы потеряли 2% ассортимента из-за атак дронов — АКИТ",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/marketplace/3123630-marketpleysy-poteryali-assortiment?from=rss",
+          "image": "https://leonardo.osnova.io/e2c81a89-14e7-580e-9fbc-443e8a2dd0cc/",
+          "publishedAt": "2026-09-06T16:33:43.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1788678404000",
           "title": "«Кажется, её время прошло»: как Shein, бросавшая вызов Zara и H&amp;M, растеряла три четверти оценки по пути к IPO",
           "summary": "В 2022 году Shein оценивалась в $98 млрд и входила в тройку самых дорогих частных компаний мира. Когда четыре года спустя она наконец разместилась на бирже, её рост замедлился, конкуренция усилилась, а налоговые преимуще",
           "url": "https://vc.ru/marketplace/3115602-shein-teryaet-otsenku?from=rss",
@@ -335,24 +347,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1788688152000",
+          "id": "startups-2-1788688152000",
           "title": "Немецкий стартап Isar Aerospace запустил в космос первую коммерческую ракету-носитель с территории Европы",
           "summary": "С пятью спутниками.",
           "url": "https://vc.ru/future/3123203-zapusk-rakety-isar-aerospace-iz-evropy?from=rss",
           "image": "https://leonardo.osnova.io/dacaac4f-5edd-563f-8a7a-4d66de7c2355/",
           "publishedAt": "2026-09-06T09:49:12.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-2-1788712423000",
-          "title": "День 1656: маркетплейсы потеряли 2% ассортимента из-за атак дронов — АКИТ",
-          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
-          "url": "https://vc.ru/marketplace/3123630-marketpleysy-poteryali-assortiment?from=rss",
-          "image": "https://leonardo.osnova.io/e2c81a89-14e7-580e-9fbc-443e8a2dd0cc/",
-          "publishedAt": "2026-09-06T16:33:43.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -455,7 +455,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-09-06T17:50:25.553Z",
+      "lastFetchAt": "2026-09-06T23:19:20.541Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -595,7 +595,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-09-06T17:50:39.630Z",
+      "lastFetchAt": "2026-09-06T23:19:31.604Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -603,7 +603,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1788714556000",
+          "id": "environment-0-1788723638000",
+          "title": "После схода лавины в Кабардино-Балкарии эвакуировали трёх альпинистов",
+          "summary": "Двое участников группы погибли. По данным на вечер 6 сентября, судьба ещё десяти человек оставалась неизвестной Сообщение После схода лавины в Кабардино-Балкарии эвакуировали трёх альпинистов появились сначала на НИА \"Эк",
+          "url": "https://nia.eco/2026/09/06/133655/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/133655-38f25c4a16d478c2.jpg",
+          "publishedAt": "2026-09-06T19:40:38.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1788714556000",
           "title": "Нерпа Крошик проплыл 150 километров по Ладоге после десяти лет под опекой людей",
           "summary": "За три дня он добрался до окрестностей Стороженского маяка. Его перемещения отслеживают с помощью спутникового передатчика Сообщение Нерпа Крошик проплыл 150 километров по Ладоге после десяти лет под опекой людей появили",
           "url": "https://nia.eco/2026/09/06/133599/",
@@ -615,7 +627,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1788708932000",
+          "id": "environment-2-1788708932000",
           "title": "Жить по эко-Кодексу. Что изменил Китай и что обсуждает Россия",
           "summary": "Китай объединил природоохранные нормы в кодекс из 1 242 статей. В России к этой идее возвращаются десятилетиями, но спор касается не только сроков: какие проблемы решит единый акт и что можно изменить без него? Сообщение",
           "url": "https://nia.eco/2026/09/06/132870/",
@@ -627,7 +639,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1788704740000",
+          "id": "environment-3-1788704740000",
           "title": "Число погибших при сходе селя в китайской провинции Цзянси выросло до трёх",
           "summary": "Девять человек остаются пропавшими без вести. Поисковая операция продолжается Сообщение Число погибших при сходе селя в китайской провинции Цзянси выросло до трёх появились сначала на НИА \"Экология\".",
           "url": "https://nia.eco/2026/09/06/133565/",
@@ -639,7 +651,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1788702529000",
+          "id": "environment-4-1788702529000",
           "title": "Коралловый покров пережил крупнейшее годовое сокращение за время наблюдений",
           "summary": "В 2023–2024 годах показатель снизился на 8,9%. Глобальная оценка охватывает 21,1 млн наблюдений на рифах Сообщение Коралловый покров пережил крупнейшее годовое сокращение за время наблюдений появились сначала на НИА \"Эко",
           "url": "https://nia.eco/2026/09/06/133516/",
@@ -651,7 +663,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1788699381000",
+          "id": "environment-5-1788699381000",
           "title": "В Непале рабочего спасли из тоннеля ГЭС спустя десять дней после паводка",
           "summary": "За два дня спасатели нашли четырёх выживших. По сводке на 6 сентября, в Непале погибли 1344 человека, около 5 тыс. остаются пропавшими без вести Сообщение В Непале рабочего спасли из тоннеля ГЭС спустя десять дней после ",
           "url": "https://nia.eco/2026/09/06/133519/",
@@ -663,7 +675,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-5-1788694150000",
+          "id": "environment-6-1788694150000",
           "title": "Пепел Анак-Кракатау нарушил авиасообщение в Индонезии",
           "summary": "В аэропорту Джакарты ограничения затронули 301 рейс. Пепловое облако достигало высоты около 15 км Сообщение Пепел Анак-Кракатау нарушил авиасообщение в Индонезии появились сначала на НИА \"Экология\".",
           "url": "https://nia.eco/2026/09/06/133513/",
@@ -675,24 +687,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-6-1788690543000",
+          "id": "environment-7-1788690543000",
           "title": "Турция планирует привлечь €400 млн на борьбу с загрязнением Мраморного моря",
           "summary": "Первый пакет в рамках сотрудничества с Азиатским банком инфраструктурных инвестиций предполагает развитие глубокой биологической очистки сточных вод Сообщение Турция планирует привлечь €400 млн на борьбу с загрязнением М",
           "url": "https://nia.eco/2026/09/06/133507/",
           "image": "https://nia.eco/wp-content/uploads/nia-social-cards/133507-ff877302cdf7a8da.jpg",
           "publishedAt": "2026-09-06T10:29:03.000Z",
-          "source": "НИА Экология",
-          "categoryId": "environment",
-          "categoryName": "Экология России",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-7-1788678082000",
-          "title": "Испания предложила создать в ЕС фонд адаптации к изменению климата",
-          "summary": "Мадрид выступает за обязательные цели адаптации, регулярную оценку рисков и постоянную систему реагирования на климатические ЧС Сообщение Испания предложила создать в ЕС фонд адаптации к изменению климата появились снача",
-          "url": "https://nia.eco/2026/09/06/133454/",
-          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/133454-cd044b8d94e2b740.jpg",
-          "publishedAt": "2026-09-06T07:01:22.000Z",
           "source": "НИА Экология",
           "categoryId": "environment",
           "categoryName": "Экология России",
@@ -911,7 +911,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-09-06T17:50:51.945Z",
+      "lastFetchAt": "2026-09-06T23:19:34.143Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -981,7 +981,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-09-06T17:50:56.348Z",
+      "lastFetchAt": "2026-09-06T23:19:38.036Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -989,7 +989,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1788708277000",
+          "id": "entertainment-0-1788727159000",
+          "title": "В США отменены два концерта российского скрипача Вадима Репина",
+          "summary": "Аннаполисский симфонический оркестр (ASO) отменил два концерта российского скрипача Вадима Репина. Мероприятия должны были пройти 6 и 7 ноября в штате Мэриленд.",
+          "url": "https://www.kommersant.ru/doc/8937678",
+          "image": "https://im2.kommersant.ru/SocialPics/8937678_49_0_652468487",
+          "publishedAt": "2026-09-06T20:39:19.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1788708277000",
           "title": "Глаза боятся, а ноги делают // Вышел на экраны триллер «Бегущая» с Галь Гадот",
           "summary": "В прокате — экшен-триллер шотландского режиссера Кевина Макдональда «Бегущая», главную роль в котором сыграла израильская актриса Галь Гадот. Именно ее происхождению «Бегущая» обязана крайне низкими оценками западной кри",
           "url": "https://www.kommersant.ru/doc/8937577",
@@ -1001,11 +1013,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1788705302000",
+          "id": "entertainment-2-1788705302000",
           "title": "Алексей Учитель назвал Александра Сокурова единственным, кому доверил бы свой кинофестиваль",
           "summary": "Российский кинофестиваль документальных, анимационных и экспериментальных фильмов «Послание к человеку» в этом году получил заявки на участие из почти сотни стран. Об этом «Ъ» рассказал президент фестиваля, кинорежиссер ",
           "url": "https://www.kommersant.ru/doc/8937584",
-          "image": "https://iv.kommersant.ru/SocialPics/8937584_49_3198729_1928176636",
+          "image": "https://im2.kommersant.ru/SocialPics/8937584_49_3198729_1928176636",
           "publishedAt": "2026-09-06T14:35:02.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1013,11 +1025,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1788704144000",
+          "id": "entertainment-3-1788704144000",
           "title": "«Разве режиссура — это работа?» // Алексей Учитель о своем пути в кинематографе и новом фильме о Шостаковиче",
           "summary": "В этом году фестиваль актуального российского кино «Маяк» откроется «Шумом времени» — художественной картиной о Дмитрии Шостаковиче. Автор фильма, режиссер Алексей Учитель, недавно отметивший 75-летие, преподает во ВГИКе",
           "url": "https://www.kommersant.ru/doc/8937521",
-          "image": "https://im2.kommersant.ru/SocialPics/8937521_49_3198725_1552782033",
+          "image": "https://iv.kommersant.ru/SocialPics/8937521_49_3198725_1552782033",
           "publishedAt": "2026-09-06T14:15:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1025,24 +1037,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1788687358000",
+          "id": "entertainment-4-1788687358000",
           "title": "Умер актер Константин Сироткин // Актер из «Склифосовского» Константин Сироткин умер в возрасте 58 лет",
           "summary": "Российский актер Константин Сироткин умер на 59-м году жизни. Об этом в окружении артиста сообщили изданию «Аргументы и факты».",
           "url": "https://www.kommersant.ru/doc/8937472",
           "image": "https://im2.kommersant.ru/SocialPics/8937472_49_3198633_1148605687",
           "publishedAt": "2026-09-06T09:35:58.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1788617757000",
-          "title": "Путин присвоил Шуфутинскому звание народного артиста России",
-          "summary": "Президент Владимир Путин присвоил певцу Михаилу Шуфутинскому звание народного артиста России. Это следует из указа главы государства от 3 сентября.",
-          "url": "https://www.kommersant.ru/doc/8937331",
-          "image": "https://im2.kommersant.ru/SocialPics/8937331_49_3198420_1355254796",
-          "publishedAt": "2026-09-05T14:15:57.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
