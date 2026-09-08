@@ -1,41 +1,41 @@
 {
-  "updatedAt": "2026-09-07T22:21:58.556Z",
-  "lastRunAt": "2026-09-07T22:21:58.556Z",
+  "updatedAt": "2026-09-08T01:47:59.112Z",
+  "lastRunAt": "2026-09-08T01:47:59.112Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "mma",
-    "basketball",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
     "it",
     "cybersecurity",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
-    "football-russia",
+    "sports",
     "skiing",
+    "politics",
+    "svo",
+    "security-services",
+    "law"
+  ],
+  "skippedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "football-russia",
+    "mma",
+    "basketball",
     "education",
-    "law",
     "realestate",
     "travel"
   ],
   "failedNow": [],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-09-07T18:27:28.314Z",
+      "lastFetchAt": "2026-09-08T01:46:50.032Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -43,7 +43,31 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1788798665000",
+          "id": "it-0-1788818425000",
+          "title": "Эти пчелы делают неправильный с++",
+          "summary": "В 2016 году EA закрывает свой последний оплот разработки в Питере, и народ начал разбредаться по разным студиям и командам. Тогда мировой игрострой ещё благосклонно смотрел на обладателей красных паспортов, и несколько м",
+          "url": "https://habr.com/ru/articles/1068934/?utm_campaign=1068934&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/01f/a0d/30f/01fa0d30fd1f6e6aef982e2f35ef466d.png",
+          "publishedAt": "2026-09-07T22:00:25.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1788810282000",
+          "title": "«Я Сетунь 70». Эмулятор троичной ЭВМ на Rust",
+          "summary": "Здесь вас ждут код эмулятора и краткое описание архитектуры «Сетуни 70». Возможно вы слышали о троичных ЭВМ семейства «Сетунь», читали о них на Хабре или где-нибудь еще. Материал подавляющего большинство публикаций не от",
+          "url": "https://habr.com/ru/articles/1079308/?utm_campaign=1079308&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f84/ac8/86a/f84ac886a48fc75003e40dd291508005.png",
+          "publishedAt": "2026-09-07T19:44:42.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1788798665000",
           "title": "Сторис рендерились 1080×1920, а публиковались 1080×1350. Я два раза чинил не ту причину",
           "summary": "У нас есть конвейер, который раз в день собирает кадр для Stories в Instagram (фото + выжженная поверх подпись) и публикует его через Graph API на два бренд-аккаунта. 2 сентября в моей ленте всплыла своя же сторис, и под",
           "url": "https://habr.com/ru/articles/1079542/?utm_campaign=1079542&utm_source=habrahabr&utm_medium=rss",
@@ -55,8 +79,8 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1788795049000",
-          "title": "Сборщик мусора в Dart. Часть 3: старое поколение",
+          "id": "it-3-1788795049000",
+          "title": "Сборщик мусора в Dart. Часть 3: старое поколение",
           "summary": "В первой части мы разобрали, как Dart отличает число от объекта, а во второй – как убирается молодое поколение. Там все держалось на одном приеме: живых переносим в соседнее полупространство, а всю старую половину выбрас",
           "url": "https://habr.com/ru/articles/1079500/?utm_campaign=1079500&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/a55/056/292/a55056292ed7c195dd55786a7d4482f7.png",
@@ -67,36 +91,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1788792105000",
+          "id": "it-4-1788792105000",
           "title": "Задача взяла lock() и остановила весь рантайм: пять ошибок с блокировками в async Rust",
           "summary": "В async Rust одна неудачно взятая блокировка может остановить весь рантайм — вместе с таймерами и задачами, которые должны были её отпустить. Разберём пять типичных ловушек с Mutex и RwLock и посмотрим, почему привычки и",
           "url": "https://habr.com/ru/companies/otus/articles/1077262/?utm_campaign=1077262&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/0f9/645/09d/0f964509d12dd37c6161ac4f270a8f96.jpg",
           "publishedAt": "2026-09-07T14:41:45.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1788790187000",
-          "title": "Java Digest #39: 91 CVE в Spring, Value Objects в Java и AI-native разработка",
-          "summary": "У Spring за один день вышел 91 CVE — больше, чем за весь прошлый год, — и нашел их в основном AI-сканер. Oracle впервые за двадцать лет выпустила патч безопасности вне квартального цикла. А еще уже совсем скоро (15 сентя",
-          "url": "https://habr.com/ru/companies/tbank/articles/1079464/?utm_campaign=1079464&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/155/b51/f56/155b51f568e367fe245074b6de8af318.png",
-          "publishedAt": "2026-09-07T14:09:47.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1788786098000",
-          "title": "Один ИИ уже не справляется. Как работают ИИ‑оркестраторы",
-          "summary": "Представьте себе систему, которая позволят собрать разных ИИ‑агентов в команду и дать им задачу, над которой они будут работать вместе. Каждый агент будет делать то, в чем лучше всего разбирается. Это называется ИИ‑оркес",
-          "url": "https://habr.com/ru/companies/bothub/articles/1079108/?utm_campaign=1079108&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/4e0/b59/a50/4e0b59a5037992888206b5006041f5e3.jpg",
-          "publishedAt": "2026-09-07T13:01:38.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -175,7 +175,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-09-07T13:45:02.960Z",
+      "lastFetchAt": "2026-09-08T01:46:52.405Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -183,7 +183,55 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1788779130000",
+          "id": "cybersecurity-0-1788811305000",
+          "title": "Security Week 2637: взлом Dropbox через Lenovo ID",
+          "summary": "Как стало известно на прошлой неделе, несколько тысяч учетных записей в сервисе Dropbox были взломаны в период с 4 по 21 августа. Взлом стал возможен из-за некорректной авторизации при использовании стороннего идентифика",
+          "url": "https://habr.com/ru/companies/kaspersky/articles/1079346/?utm_campaign=1079346&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1079346/4030fbad2474b6ee1dbf9c73ed7a2665/",
+          "publishedAt": "2026-09-07T20:01:45.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1788792466000",
+          "title": "Взлом городского мессенджера: разбор цепочки атаки на машину Messenger на платформе Standoff 365",
+          "summary": "Статья рассчитана как на людей, близких к IT и ИБ, так и на тех, кто далек от этих областей. Автор постарался подробно разобрать каждый шаг: почему было принято то или иное решение, на какие признаки он опирался и где ис",
+          "url": "https://habr.com/ru/companies/pt/articles/1079424/?utm_campaign=1079424&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/8d0/0c4/35a/8d00c435a7352a52111465bf59e1cc49.png",
+          "publishedAt": "2026-09-07T14:47:46.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1788792105000",
+          "title": "Полтора месяца я учился закрашивать подписи. Рассказываю, что из этого не сработало",
+          "summary": "Документы надо отдать наружу, персональные данные из них убрать: фамилии, телефоны, адреса, подписи. Всё в закрытом контуре, без интернета, на одной машине с одной видеокартой. С фамилиями я разобрался за неделю. С подпи",
+          "url": "https://habr.com/ru/articles/1079484/?utm_campaign=1079484&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/4de/061/d9e/4de061d9e2356205b4ee3de0007f7b6c.jpg",
+          "publishedAt": "2026-09-07T14:41:45.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1788788935000",
+          "title": "Обратный прокси из KWTS: проверка входящего трафика на наличие «малвари»",
+          "summary": "В данной статье рассмотрим попытку использования решения Kaspersky Web Traffic Security (KWTS) в качестве обратного прокси (Reverse Proxy). Такой вариант использования не является стандартным и описанным в документации, ",
+          "url": "https://habr.com/ru/companies/icl_group/articles/1079436/?utm_campaign=1079436&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/ab1/b1c/440/ab1b1c440b98f2c9fea77a83775d7ba9.png",
+          "publishedAt": "2026-09-07T13:48:55.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-4-1788779130000",
           "title": "Как страны регулируют ИИ: от жёстких запретов до «гаваней без правил»",
           "summary": "Искусственный интеллект проник уже почти во все сферы деятельности человека, но вместе с этим в мире появляется всё больше запретов на его использование, в частности, когда речь идёт о молодом поколении. Многие страны на",
           "url": "https://habr.com/ru/companies/finam_broker/articles/1079334/?utm_campaign=1079334&utm_source=habrahabr&utm_medium=rss",
@@ -193,59 +241,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-1-1788770242000",
-          "title": "SCCM под угрозой: устраняем ошибки конфигурации",
-          "summary": "Привет! Меня зовут Александр Кузнецов, я специалист по проактивному выявлению угроз в BI.ZONE. В новой статье поговорим о менеджере конфигураций SCCM, который широко используется в российских компаниях. Ошибки в его наст",
-          "url": "https://habr.com/ru/companies/bizone/articles/1078144/?utm_campaign=1078144&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/62a/941/b2f/62a941b2fb90deba4bde4cf04f80a8ab.jpg",
-          "publishedAt": "2026-09-07T08:37:22.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1788766812000",
-          "title": "Устремления GOFFEE. Часть 2",
-          "summary": "Всем привет! И снова на связи отдел реагирования и цифровой криминалистики Angara MTDR. Продолжаем разбирать активность GOFFEE (Paper Werewolf). В ходе расследования компьютерного инцидента нам удалось получить не только",
-          "url": "https://habr.com/ru/companies/angarasecurity/articles/1078582/?utm_campaign=1078582&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/8aa/1ae/3e8/8aa1ae3e8d1ed8eeb58a45ba5ba549ff.png",
-          "publishedAt": "2026-09-07T07:40:12.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1788764609000",
-          "title": "Анти‑тест: сколько шагов сотруднику ИБ до нарушения УК РФ?",
-          "summary": "Всем привет! Это Катя Тьюринг. Вашему вниманию предлагается стресс‑тест для ИБ‑специалистов. Попробуйте ответить на вопросы прежде, чем перейдете к объяснениям, чтобы узнать, как хорошо вы разбираетесь в законности кибер",
-          "url": "https://habr.com/ru/articles/1079228/?utm_campaign=1079228&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/7b5/8c2/24c/7b58c224c411e7649dd09e3a76b95624.png",
-          "publishedAt": "2026-09-07T07:03:29.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1788764409000",
-          "title": "«Ссылка недействительна» с первой попытки: её открыли до пользователя",
-          "summary": "В нашем сервисе появились обращения, которые не складывались в картину: человек запрашивает сброс пароля, получает письмо, нажимает на ссылку и видит «ссылка недействительна или устарела». Запрашивает второй раз - то же ",
-          "url": "https://habr.com/ru/articles/1078134/?utm_campaign=1078134&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1078134/bd045042436a922cc9592e61c2f5ced9/",
-          "publishedAt": "2026-09-07T07:00:09.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-07T22:21:24.706Z",
+      "lastFetchAt": "2026-09-08T01:46:53.220Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -315,7 +315,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-09-07T18:27:31.013Z",
+      "lastFetchAt": "2026-09-08T01:46:56.101Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -335,24 +335,24 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1788784308000",
-          "title": "Huawei представила смартфон-«трикладушку» Mate XT 2 с изменённым механизмом складывания, более прочным корпусом и новым чипом Kirin",
-          "summary": "В Китае устройство будет продаваться по цене от 20 тысяч юаней.",
-          "url": "https://vc.ru/tech/3125007-huawei-mate-xt-2-novyy-skladnoy-smartfon?from=rss",
-          "image": "https://leonardo.osnova.io/b51219d5-1a54-54de-ba23-4abd349b9f60/",
-          "publishedAt": "2026-09-07T12:31:48.000Z",
+          "id": "startups-1-1788777832000",
+          "title": "Суд посчитал, что ООО «Пойзон» недобросовестно зарегистрировало товарные знаки китайского маркетплейса Poizon в России",
+          "summary": "Споры вокруг бренда продолжаются с 2024 года — Poizon пытается отменить регистрацию товарных знаков, которые российская компания начала использовать до официального выхода маркетплейса на местный рынок.",
+          "url": "https://vc.ru/legal/3124705-sud-priznal-registratsiyu-tovarnykh-znakov-oo-poizon-nedobrosovestnoi?from=rss",
+          "image": "https://leonardo.osnova.io/98498f44-360b-5e9c-a02d-5b662b116efc/",
+          "publishedAt": "2026-09-07T10:43:52.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1788777832000",
-          "title": "Суд посчитал, что ООО «Пойзон» недобросовестно зарегистрировало товарные знаки китайского маркетплейса Poizon в России",
-          "summary": "Споры вокруг бренда продолжаются с 2024 года — Poizon пытается отменить регистрацию товарных знаков, которые российская компания начала использовать до официального выхода маркетплейса на местный рынок.",
-          "url": "https://vc.ru/legal/3124705-sud-priznal-registratsiyu-tovarnykh-znakov-oo-poizon-nedobrosovestnoi?from=rss",
-          "image": "https://leonardo.osnova.io/98498f44-360b-5e9c-a02d-5b662b116efc/",
-          "publishedAt": "2026-09-07T10:43:52.000Z",
+          "id": "startups-2-1788784308000",
+          "title": "Huawei представила смартфон-«трикладушку» Mate XT 2 с изменённым механизмом складывания, более прочным корпусом и новым чипом Kirin",
+          "summary": "В Китае устройство будет продаваться по цене от 20 тысяч юаней.",
+          "url": "https://vc.ru/tech/3125007-huawei-mate-xt-2-novyy-skladnoy-smartfon?from=rss",
+          "image": "https://leonardo.osnova.io/b51219d5-1a54-54de-ba23-4abd349b9f60/",
+          "publishedAt": "2026-09-07T12:31:48.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -375,7 +375,7 @@
           "title": "«WB Банк» запустил сервис беспроцентного кредитного лимита «WB Кэш»",
           "summary": "Деньги можно использовать на любые цели, в том числе снятие наличных и переводы.",
           "url": "https://vc.ru/money/3124917-wb-bank-bezprocentnyj-kreditnyj-limit-wb-kesh?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3124917/1788805650/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3124917/1788832015/cover.jpg",
           "publishedAt": "2026-09-07T11:02:18.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -455,7 +455,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-09-07T18:27:35.618Z",
+      "lastFetchAt": "2026-09-08T01:47:01.547Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -571,7 +571,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-09-07T18:27:45.060Z",
+      "lastFetchAt": "2026-09-08T01:47:15.509Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -579,7 +579,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1788797950000",
+          "id": "environment-0-1788806002000",
+          "title": "Вспышка болезни скота под Иркутском охватила третью деревню",
+          "summary": "Число выявленных очагов узелкового дерматита выросло с восьми до 21. В неблагополучных хозяйствах учтены 146 животных Сообщение Вспышка болезни скота под Иркутском охватила третью деревню появились сначала на НИА \"Эколог",
+          "url": "https://nia.eco/2026/09/07/134490/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/134490-ea1de1deda8b505f.jpg",
+          "publishedAt": "2026-09-07T18:33:22.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1788797950000",
           "title": "CO₂ отправят под морское дно: в Нидерландах запустили крупнейший в Европе проект улавливания углерода",
           "summary": "Завод Yara сможет ежегодно передавать на хранение в Норвегию до 800 тыс. тонн углекислого газа, образующегося при производстве аммиака Сообщение CO₂ отправят под морское дно: в Нидерландах запустили крупнейший в Европе п",
           "url": "https://nia.eco/2026/09/07/134462/",
@@ -591,7 +603,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1788795724000",
+          "id": "environment-2-1788795724000",
           "title": "Бутылки без обязательного залога: Франция выбрала добровольную систему возврата",
           "summary": "Правительство оставит решение за местными властями, хотя стране предстоит довести сбор пластиковых бутылок до 90% к 2029 году Сообщение Бутылки без обязательного залога: Франция выбрала добровольную систему возврата появ",
           "url": "https://nia.eco/2026/09/07/134232/",
@@ -603,7 +615,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1788793946000",
+          "id": "environment-3-1788793946000",
           "title": "Львы ради кадра: организаторов «Империи львов» осудили за опасные фотосессии",
           "summary": "Хищников использовали для коммерческих съёмок без необходимой лицензии. После изъятия животных перевезли в Пермский зоопарк Сообщение Львы ради кадра: организаторов «Империи львов» осудили за опасные фотосессии появились",
           "url": "https://nia.eco/2026/09/07/134188/",
@@ -615,7 +627,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1788790911000",
+          "id": "environment-4-1788790911000",
           "title": "ЮНЕП оценила выгоду совместных мер для климата и чистого воздуха в 15 долларов на каждый вложенный",
           "summary": "Пакет из 25 решений может предотвратить 144 млн преждевременных смертей к 2050 году. Расчёты включают снижение заболеваемости, рост производительности и предотвращённый климатический ущерб Сообщение ЮНЕП оценила выгоду с",
           "url": "https://nia.eco/2026/09/07/134144/",
@@ -627,7 +639,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1788789613000",
+          "id": "environment-5-1788789613000",
           "title": "На Ямале занялись сохранением природного памятника «Харбейский»",
           "summary": "Участники проекта обследовали территории, составили карту с зонами риска и проложили экотропу Сообщение На Ямале занялись сохранением природного памятника «Харбейский» появились сначала на НИА \"Экология\".",
           "url": "https://nia.eco/2026/09/07/134321/",
@@ -639,7 +651,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-5-1788787900000",
+          "id": "environment-6-1788787900000",
           "title": "Нападения медведей в Сибири: погибший в Бурятии, раненый в Братске и закрытые заказники",
           "summary": "На 7 сентября власти сообщают о новых нападениях и расширяют ограничения. Хищников замечают возле жилья, туристических объектов и железнодорожного депо Сообщение Нападения медведей в Сибири: погибший в Бурятии, раненый в",
           "url": "https://nia.eco/2026/09/07/134053/",
@@ -651,24 +663,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-6-1788783910000",
+          "id": "environment-7-1788783910000",
           "title": "После схода лавины на Мижирги подтверждена гибель 11 человек",
           "summary": "Ещё шестерых альпинистов продолжают искать. К операции привлечено 56 человек, использование вертолётов зависит от погоды Сообщение После схода лавины на Мижирги подтверждена гибель 11 человек появились сначала на НИА \"Эк",
           "url": "https://nia.eco/2026/09/07/134142/",
           "image": "https://nia.eco/wp-content/uploads/nia-social-cards/134142-ec462a39ffbe9d8f.jpg",
           "publishedAt": "2026-09-07T12:25:10.000Z",
-          "source": "НИА Экология",
-          "categoryId": "environment",
-          "categoryName": "Экология России",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-7-1788781301000",
-          "title": "В Новосибирске стоки научились очищать с помощью папоротника",
-          "summary": "Водное растение очистило сточные воды без вреда для экосистем за 40 дней Сообщение В Новосибирске стоки научились очищать с помощью папоротника появились сначала на НИА \"Экология\".",
-          "url": "https://nia.eco/2026/09/07/134003/",
-          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/134003-ef0542ba4c918c95.jpg",
-          "publishedAt": "2026-09-07T11:41:41.000Z",
           "source": "НИА Экология",
           "categoryId": "environment",
           "categoryName": "Экология России",
@@ -887,7 +887,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-09-07T18:27:47.058Z",
+      "lastFetchAt": "2026-09-08T01:47:18.148Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -895,7 +895,19 @@
       "slug": "gaming",
       "articles": [
         {
-          "id": "gaming-0-1788771679000",
+          "id": "gaming-0-1788818425000",
+          "title": "Эти пчелы делают неправильный с++",
+          "summary": "В 2016 году EA закрывает свой последний оплот разработки в Питере, и народ начал разбредаться по разным студиям и командам. Тогда мировой игрострой ещё благосклонно смотрел на обладателей красных паспортов, и несколько м",
+          "url": "https://habr.com/ru/articles/1068934/?utm_campaign=1068934&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/01f/a0d/30f/01fa0d30fd1f6e6aef982e2f35ef466d.png",
+          "publishedAt": "2026-09-07T22:00:25.000Z",
+          "source": "Хабр",
+          "categoryId": "gaming",
+          "categoryName": "Игры",
+          "categorySlug": "gaming"
+        },
+        {
+          "id": "gaming-1-1788771679000",
           "title": "Я искренне беспокоюсь по поводу «GTA VI»",
           "summary": "Компании Rockstar Games и Take-Two Interactive — это явно не те люди, за судьбу чьего творения стоит переживать. Любое детище «Рок-звёзд» после «GTA III» автоматически заносится в стан культовых проектов индустрии (даже ",
           "url": "https://habr.com/ru/companies/ruvds/articles/1077968/?utm_campaign=1077968&utm_source=habrahabr&utm_medium=rss",
@@ -907,7 +919,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-1-1788689154000",
+          "id": "gaming-2-1788689154000",
           "title": "Gothic в 2026 году: гайд по запуску",
           "summary": "Максимально простой и в меру подробный гайд о том, как запускать и играть в игры серии Gothic. Решаем проблемы с запуском, даём полезные стартовые советы перед игрой — всё для максимально ленивых и не желающих долго ковы",
           "url": "https://habr.com/ru/companies/timeweb/articles/1076748/?utm_campaign=1076748&utm_source=habrahabr&utm_medium=rss",
@@ -919,7 +931,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-2-1788687050000",
+          "id": "gaming-3-1788687050000",
           "title": "Battletoads, Final Fantasy и танчики: проверяю игры с Dendy на играбельность в 2026 году",
           "summary": "Кто в детстве рубился в Dendy — страшный человек, который сейчас проходит все современные проекты на сложности ультра. У меня своей приставки, к сожалению, не было, поэтому тренированные друзья-счастливчики размазывали м",
           "url": "https://habr.com/ru/articles/1078962/?utm_campaign=1078962&utm_source=habrahabr&utm_medium=rss",
@@ -931,7 +943,7 @@
           "categorySlug": "gaming"
         },
         {
-          "id": "gaming-3-1788685249000",
+          "id": "gaming-4-1788685249000",
           "title": "Моды, которые превращают ванильный Fallout 4 в современную игру. Финал",
           "summary": "Ну что, продолжаем издеваться над Fallout 4. В предыдущих частях я уже разбирался с графикой и производительностью, крупными дополнениями, оружием и одеждой. В принципе, на этом можно было бы остановиться и спокойно игра",
           "url": "https://habr.com/ru/companies/ru_mts/articles/1078500/?utm_campaign=1078500&utm_source=habrahabr&utm_medium=rss",
@@ -941,23 +953,11 @@
           "categoryId": "gaming",
           "categoryName": "Игры",
           "categorySlug": "gaming"
-        },
-        {
-          "id": "gaming-4-1788532945000",
-          "title": "От SRTM-30 и GAN до гексагонального мира: как создавалась 8 More Lives",
-          "summary": "8 More Lives не появилась сразу как цельная, полностью сформированная игра. Её особенности выросли из нескольких прототипов, экспериментов и уроков, накопленных за последние десять лет. Вот несколько идей, которые сформи",
-          "url": "https://habr.com/ru/articles/1078584/?utm_campaign=1078584&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/383/cb5/f71/383cb5f7189a96d492fc9e9e2e015f90.webp",
-          "publishedAt": "2026-09-04T14:42:25.000Z",
-          "source": "Хабр",
-          "categoryId": "gaming",
-          "categoryName": "Игры",
-          "categorySlug": "gaming"
         }
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-09-07T18:27:48.249Z",
+      "lastFetchAt": "2026-09-08T01:47:22.263Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -965,7 +965,19 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1788794721000",
+          "id": "entertainment-0-1788809684000",
+          "title": "В Ассоциации владельцев кинотеатров допустили прекращение предсеансовых показов // Глава АВК Алексей Воронков допустил отмену предсеансовых показов к зиме",
+          "summary": "В российских кинотеатрах к зиме могут прекратить практику предсеансовых показов. Благодаря ей зрители могли посмотреть в кино зарубежные картины, у которых нет прокатного удостоверения.",
+          "url": "https://www.kommersant.ru/doc/8938523",
+          "image": "https://im2.kommersant.ru/SocialPics/8938523_49_0_765087866",
+          "publishedAt": "2026-09-07T19:34:44.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1788794721000",
           "title": "Умерла заслуженная артистка РСФСР Нина Попова",
           "summary": "Заслуженная артистка РСФСР Нина Попова скончалась в возрасте 81 года. Об этом сообщила пресс-служба Московского драматического театра им.",
           "url": "https://www.kommersant.ru/doc/8938365",
@@ -977,7 +989,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1788789990000",
+          "id": "entertainment-2-1788789990000",
           "title": "Гэри Олдман заявил, что актера на роль Джеймса Бонда уже выбрали",
           "summary": "Британский актер Гэри Олдман заявил, что продюсеры уже приняли решение о том, кто будет играть Джеймса Бонда в новом фильме франшизы. Об этом актер сказал в интервью канадскому телеканалу Global Television Network.",
           "url": "https://www.kommersant.ru/doc/8938284",
@@ -989,11 +1001,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1788787957000",
+          "id": "entertainment-3-1788787957000",
           "title": "Рулетка без азарта // Севастопольский балет показал премьеру «Игрока» в Новосибирске",
           "summary": "На сцене Новосибирского театра оперы и балета прошла мировая премьера: балет «Игрок» по Достоевскому в постановке хореографа Джоны Пола Кука представила труппа Севастопольского театра оперы и балета. Из Новосибирска — Та",
           "url": "https://www.kommersant.ru/doc/8938253",
-          "image": "https://iv.kommersant.ru/SocialPics/8938253_49_3199493_1843430287",
+          "image": "https://im2.kommersant.ru/SocialPics/8938253_49_3199493_1843430287",
           "publishedAt": "2026-09-07T13:32:37.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1001,24 +1013,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1788786646000",
+          "id": "entertainment-4-1788786646000",
           "title": "Мадемуазель знает ток // В прокате идет французская комедия «Электрический поцелуй»",
           "summary": "На экранах — романтическая ретрокомедия Пьера Сальвадори «Электрический поцелуй» (La Venus electrique), фильм открытия Каннского кинофестиваля. Михаил Трофименков скучал в Париже «безумных» 1920-х годов.",
           "url": "https://www.kommersant.ru/doc/8938210",
-          "image": "https://iv.kommersant.ru/SocialPics/8938210_49_3199457_658789858",
+          "image": "https://im2.kommersant.ru/SocialPics/8938210_49_3199457_658789858",
           "publishedAt": "2026-09-07T13:10:46.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1788786229000",
-          "title": "Любовь и капитализм // Фильмы Сергея Лозницы, Виктора Косаковского и Ли Чхан Дона на Венецианском фестивале",
-          "summary": "В конкурсе Венецианского кинофестиваля показали «Возможную любовь» — картину Ли Чхан Дона, имеющую большие шансы на награды, а вне конкурса — «Империю» Сергея Лозницы и «Священную древесную пыль» Виктора Косаковского. Из",
-          "url": "https://www.kommersant.ru/doc/8938181",
-          "image": "https://im2.kommersant.ru/SocialPics/8938181_49_3199454_760001325",
-          "publishedAt": "2026-09-07T13:03:49.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
@@ -1027,7 +1027,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-07T22:21:35.983Z",
+      "lastFetchAt": "2026-09-08T01:47:25.250Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1035,60 +1035,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788818340000",
-          "title": "Пирс Морган: «Мне сказали, что в «Арсенале» считали Винисиуса своим игроком, были уверены в трансфере до того дня, когда он продлил контракт с «Реалом»",
-          "summary": "Пирс Морган сообщил, что « Арсенал » был уверен в приобретении Винисиуса Жуниора . «Мне сообщили, что «Арсенал» готовится вернуться на рынок за новым нападающим в январе. Они снова зайдут на трансферный рынок в январское",
-          "url": "https://www.sports.ru/football/1117362647-pirs-morgan-mne-skazali-chto-v-arsenale-schitali-vinisiusa-svoim-igrok.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/264/7/share/b46da8_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-07T21:59:00.000Z",
+          "id": "sports-0-1788831660000",
+          "title": "Масалитин о Барриосе: «Ничего не отбирает, отдает только ближнему. Как собака был, а стал добрым псом. Игроков «Зенита» нужно заставить работать»",
+          "summary": "Валерий Масалитин раскритиковал игру легионеров « Зенита ». «Во что превратился Барриос ? Ничего не отбирает, отдает только ближнему. Как собака был. А сейчас добрым стал. Такой добрый пес. Вендел был визитной карточкой ",
+          "url": "https://www.sports.ru/football/1117362674-masalitin-o-barriose-nichego-ne-otbiraet-otdaet-tolko-blizhnemu-kak-so.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/267/4/share/10bc4f_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-08T01:41:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788817980000",
-          "title": "Бартону повторно отказано в выходе под залог. Экс-хавбек «Ман Сити» останется под стражей как минимум до марта",
-          "summary": "Джоуи Бартон останется под стражей до суда, назначенного на весну. Бывший полузащитник « Манчестер Сити » вместе с еще одним мужчиной был задержан по подозрению в нанесении телесных повреждений в ходе драки рядом с гольф",
-          "url": "https://www.sports.ru/football/1117362644-bartonu-povtorno-otkazano-v-vyxode-pod-zalog-eks-xavbek-man-siti-ostan.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/264/4/share/775d07_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-07T21:53:00.000Z",
+          "id": "sports-1-1788831540000",
+          "title": "Хачанов впервые с 2022-го вышел в 1/4 финала US Open",
+          "summary": "Карен Хачанов обыграл Лернера Тьена в четвертом круге US Open – 7:5, 4:6, 6:7(6), 6:1, 6:4. В пятом сете Хачанов уступал с брейком. Россиянин стал первым, кто смог выиграть пятисетовый матч у Тьена. До встречи с Хачановы",
+          "url": "https://www.sports.ru/tennis/1117362671-xachanov-vpervye-s-2022-go-vyshel-v-1-4-finala-us-open.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/267/1/share/98f9a9_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-08T01:39:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788817920000",
-          "title": "Потуральски о России: «Казань потрясающая. Санкт‑Петербург – классный европейский город. Москва великолепна. В каждом городе есть что‑то свое, что делает его интересным»",
-          "summary": "Американский нападающий « Авангарда » Эндрю Потуральски поделился впечатлениями от городов России. – Омск буквально живет хоккеем. Чувствуете это на себе? Вас узнают на улицах, подходят поговорить? – Да, и мне очень нрав",
-          "url": "https://www.sports.ru/hockey/1117362642-poturalski-o-rossii-kazan-potryasayushhaya-sanktpeterburg-klassnyj-evr.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/264/2/share/6a7853_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-07T21:52:00.000Z",
+          "id": "sports-2-1788828360000",
+          "title": "US Open. 4-й круг. Хачанов играет пятый сет с Тьеном, Зверев борется с Дардери, Ван де Зандшульп – с Жеа, Серундоло выбыл",
+          "summary": "Карен Хачанов играет с Лернером Тьеном в четвертом круге US Open. Первый сеяный Александр Зверев встретится с Лучано Дардери. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шлема» Приз",
+          "url": "https://www.sports.ru/tennis/1117361728-us-open-2026-muzhchiny-rezultaty-7-sentyabrya.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/172/8/share/c4115f_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-08T00:46:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1788817740000",
-          "title": "Швентек об эмоциях после вылета с US Open: «В теннисе ты привык проигрывать гораздо чаще, чем выигрывать»",
-          "summary": "Ига Швентек рассказала, как себя чувствует после вылета с US Open. Сегодня она уступила Циньвэнь Чжэн 5:7, 3:6, ведя 5:0 в первом сете. – На « Ролан Гаррос » ты говорила, что чувствуешь сильное напряжение на корте, и пос",
-          "url": "https://www.sports.ru/tennis/1117362623-shventek-ob-emocziyax-posle-vyleta-s-us-open-v-tennise-ty-privyk-proig.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/262/3/share/712b49_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-07T21:49:00.000Z",
+          "id": "sports-3-1788830820000",
+          "title": "Черданцев о 2:1 «Динамо»: «Давно не видел, чтобы «Спартаку» не оставляли никаких шансов. Шварц вчистую переиграл Карседо»",
+          "summary": "Комментатор Георгий Черданцев оценил победу «Динамо» над « Спартаком » (2:1) в 7-м туре РПЛ . — Ожидали ли такой уверенной игры от « Динамо »? — Это вопрос процесса работы вдолгую. Когда я комментировал кубковый матч «Ди",
+          "url": "https://www.sports.ru/football/1117362672-cherdanczev-o-21-dinamo-davno-ne-videl-chtoby-spartaku-ne-ostavlyali-n.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/267/2/share/5ae576_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-08T01:27:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788817500000",
-          "title": "Леонид Слуцкий: «Мне много прилетело, когда сказал, что не верю, что «Спартак» поборется за титул, потому что может пропустить когда и с кем угодно. Никого в обороне не назвать королем надежности»",
-          "summary": "Леонид Слуцкий оценил перспективы « Спартака ». «Мне много прилетело, когда я сказал, что не верю, что «Спартак» вдлинную поборется за чемпионство, потому что они могут пропустить когда угодно, с кем угодно, на любой мин",
-          "url": "https://www.sports.ru/football/1117362640-leonid-sluczkij-mne-mnogo-priletelo-kogda-skazal-chto-ne-veryu-chto-sp.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/264/0/share/f0d462_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-07T21:45:00.000Z",
+          "id": "sports-4-1788829980000",
+          "title": "Слуцкий об Угальде: «В подыгрыше, открываниях, понимании игры, взаимодействиях – просто топище. Но не нравится, как он завершает»",
+          "summary": "Леонид Слуцкий высказался об игровых качествах Манфреда Угальде . В 7 матчах сезона РПЛ на счету форварда « Спартака » 2 гола. «Мне очень нравится Угальде, но не нравится, как он завершает. В подыгрыше, открываниях, пони",
+          "url": "https://www.sports.ru/football/1117362670-sluczkij-ob-ugalde-v-podygryshe-otkryvaniyax-ponimanii-igry-vzaimodejs.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/267/0/share/4479fd_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-08T01:13:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1203,7 +1203,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-09-07T13:45:49.059Z",
+      "lastFetchAt": "2026-09-08T01:47:27.060Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1391,7 +1391,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-07T22:21:38.445Z",
+      "lastFetchAt": "2026-09-08T01:47:28.678Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1399,60 +1399,48 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1788819561000",
-          "title": "Сомнолог раскрыл правду о привычке ложиться спать после полуночи",
+          "id": "politics-1-1788831114000",
+          "title": "Иран захотел строить у себя новые АЭС при участии России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/somnolog-raskryl-pravdu-o-privychke-lozhitsya-spat-posle-polunochi/",
-          "image": "https://icdn.lenta.ru/images/2026/09/07/10/20260907105229496/pic_8c2216f78810cbb51adeaac06a55c82d.jpg",
-          "publishedAt": "2026-09-07T22:19:21.000Z",
+          "url": "https://lenta.ru/news/2026/09/08/iran-zahotel-stroit-u-sebya-novye-aes-pri-uchastii-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908043151541/pic_3dcade225a21a05ce46376599d269be7.jpg",
+          "publishedAt": "2026-09-08T01:31:54.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1788819557000",
-          "title": "Правнук Шухова возмутился проектом реконструкции башни",
+          "id": "politics-2-1788830760000",
+          "title": "Стали известны причины закрытия единственной русской радиостанции в Шпицбергене",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/pravnuk-shuhova-vozmutilsya-proektom-rekonstruktsii-bashni/",
-          "image": "https://icdn.lenta.ru/images/2026/09/04/13/20260904133106452/pic_ab92bc562c5b224474f5113625803c03.jpg",
-          "publishedAt": "2026-09-07T22:19:17.000Z",
+          "url": "https://lenta.ru/news/2026/09/08/stali-izvestnyy-zakrytiya-prichiny-zakrytiya-edinstvennoy-russkoy-radiostantsii-v-shpitsbergene/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908042906510/pic_0983b9cb9a4eb825175178458f5811d8.jpg",
+          "publishedAt": "2026-09-08T01:26:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1788819096000",
-          "title": "Страна НАТО захотела провести переговоры с Россией",
+          "id": "politics-3-1788830460000",
+          "title": "Страмоус покинул пост замглавы Росавиации",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/strana-nato-zahotela-provesti-peregovory-s-rossiey/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/01/20260908011132513/pic_4896e13b5309fabce944f13edab9e2c1.jpg",
-          "publishedAt": "2026-09-07T22:11:36.000Z",
+          "url": "https://lenta.ru/news/2026/09/08/stramous-pokinul-post-zamglavy-rosaviatsii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908042113613/pic_85b22b81a52e5af6d3dd42af472b7286.jpg",
+          "publishedAt": "2026-09-08T01:21:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788818940000",
-          "title": "Раскрыты подробности прилетов в Киевской области",
+          "id": "politics-4-1788829860000",
+          "title": "Назван самый популярный у мошенников день для звонков",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/raskryty-podrobnosti-priletov-v-kievskoy-oblasti/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/01/20260908011215981/pic_8227c192f545c2edbb37b763b05d52f0.jpg",
-          "publishedAt": "2026-09-07T22:09:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1788818400000",
-          "title": "Ушедшего в отставку генпрокурора Украины переобъявили в розыск",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/ushedshego-v-otstavku-genprokurora-ukrainy-pereob-yavili-v-rozysk/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/01/20260908010053564/pic_5cc580280549632153b9575896889498.jpg",
-          "publishedAt": "2026-09-07T22:00:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/08/nazvan-samyy-populyarnyy-u-moshennikov-den-dlya-zvonkov/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908041145088/pic_418c04b8e1b1ef3f9cbc0d292488ba81.jpg",
+          "publishedAt": "2026-09-08T01:11:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1470,7 +1458,7 @@
       "articles": []
     },
     "law": {
-      "lastFetchAt": "2026-09-07T13:46:25.136Z",
+      "lastFetchAt": "2026-09-08T01:47:59.111Z",
       "intervalHours": 12,
       "source": "Право.ru",
       "siteUrl": "https://www.pravo.ru",
@@ -1478,7 +1466,31 @@
       "slug": "law",
       "articles": [
         {
-          "id": "law-0-1788785204000",
+          "id": "law-0-1788793899000",
+          "title": "СИП подтвердил аннулирование товарного знака «Меджикул»",
+          "summary": "Продюсер не смог узаконить свой товарный знак, потому что суд подтвердил, что коллектив с таким названием существовал и был известен задолго до регистрации знака.",
+          "url": "https://pravo.ru/news/265730/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-09-07T15:11:39.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-1-1788789305000",
+          "title": "«Арктик СПГ-2» подал иск на $1 млрд к южнокорейской верфи Hanwha Ocean в SIAC",
+          "summary": "Российская компания требует возместить упущенную выгоду из-за нарушения процедуры замены подрядчика.",
+          "url": "https://pravo.ru/news/265729/",
+          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
+          "publishedAt": "2026-09-07T13:55:05.000Z",
+          "source": "Право.ru",
+          "categoryId": "law",
+          "categoryName": "Право",
+          "categorySlug": "law"
+        },
+        {
+          "id": "law-2-1788785204000",
           "title": "Бывшего владельца банка «Мастер-капитал» заочно приговорили к 12 годам колонии",
           "summary": "Феликса Бажанова обвиняют в мошенничестве в особо крупном размере.",
           "url": "https://pravo.ru/news/265727/",
@@ -1490,7 +1502,7 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-1-1788781996000",
+          "id": "law-3-1788781996000",
           "title": "Суд не позволил «Силовым машинам» арестовать активы PetroVietnam",
           "summary": "Суд указал, что доводы российской компании «носят сугубо субъективный характер», и не нашел им доказательств.",
           "url": "https://pravo.ru/news/265722/",
@@ -1502,36 +1514,12 @@
           "categorySlug": "law"
         },
         {
-          "id": "law-2-1788781671000",
+          "id": "law-4-1788781671000",
           "title": "Суд Англии признал неопределенное право требования экономическим ресурсом",
           "summary": "Суд указал, что подсанкционное лицо может уступить право требования, если его сумма зависит от будущих расходов.",
           "url": "https://pravo.ru/news/265724/",
           "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
           "publishedAt": "2026-09-07T11:47:51.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-3-1788781566000",
-          "title": "Антимонопольный дайджест за август: правила онлайн-торговли ЕАЭС, штрафы для маркетплейсов и недопуск к торгам",
-          "summary": "Страны ЕАЭС согласовали единые правила онлайн-торговли, которые призваны защитить и продавцов, и потребителей. Президент ввел штрафы для маркетплейсов за несоблюдение требований закона о платформенной экономике, а также ",
-          "url": "https://pravo.ru/story/265659/",
-          "image": "https://storage.pravo.ru/image/344/172466.webp?v=1788781566",
-          "publishedAt": "2026-09-07T11:46:06.000Z",
-          "source": "Право.ru",
-          "categoryId": "law",
-          "categoryName": "Право",
-          "categorySlug": "law"
-        },
-        {
-          "id": "law-4-1788773643000",
-          "title": "ВС разъяснил порядок страховых выплат при отсутствии вины одного из участников ДТП",
-          "summary": "«Ингосстрах» выплатил жене погибшего в ДТП только половину страховой суммы, сославшись на неустановленную вину участников аварии.",
-          "url": "https://pravo.ru/news/265719/",
-          "image": "https://storage.pravo.ru/image/311/155935.webp?v=1766158515",
-          "publishedAt": "2026-09-07T09:34:03.000Z",
           "source": "Право.ru",
           "categoryId": "law",
           "categoryName": "Право",
@@ -1786,7 +1774,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-07T22:21:48.650Z",
+      "lastFetchAt": "2026-09-08T01:47:40.299Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1794,7 +1782,55 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1788818039000",
+          "id": "svo-0-1788831679000",
+          "title": "Пленный из ВСУ раскрыл сумму выплаты от Киева за убийство солдата ВС России",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/08/plennyy-iz-vsu-raskryl-summu-vyplaty-ot-kieva-za-ubiystvo-soldata-vs-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908044047001/pic_46d5864072055fb1dbc04080e9a024de.jpg",
+          "publishedAt": "2026-09-08T01:41:19.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1788829920000",
+          "title": "Стержаков рассказал о сложных съемках в Мариуполе",
+          "summary": "",
+          "url": "https://ria.ru/20260908/sterzhakov-2116040144.html",
+          "image": "https://cdnn21.img.ria.ru/images/07ea/09/07/2115977488_0:66:3072:1794_650x0_80_0_0_c407dea05a512d98397cc0e799fb3284.jpg",
+          "publishedAt": "2026-09-08T01:12:00.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1788829291000",
+          "title": "Стало известно о серьезных заболеваниях у личного состава ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/08/stalo-izvestno-o-serieznyh-zabolevaniyah-u-lichnogo-sostava-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/04/20260908040143603/pic_69b73e29bddeaebd21d1ad55f9b1c4c9.jpg",
+          "publishedAt": "2026-09-08T01:01:31.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1788820144000",
+          "title": "Раскрыты действия ВСУ на правобережье Днепра",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/08/raskryty-deystviya-vsu-na-pravoberezhie-dnepra/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/01/20260908012906647/pic_dc69c7253ca385d4824a883e69566a59.jpg",
+          "publishedAt": "2026-09-07T22:29:04.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1788818039000",
           "title": "От атак ВСУ за сутки пострадали 14 жителей ДНР",
           "summary": "",
           "url": "https://ria.ru/20260908/ataki-2116190342.html",
@@ -1806,19 +1842,19 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1788814617000",
+          "id": "svo-5-1788814560000",
           "title": "Минобороны сообщило об ударах по грузовой технике ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/07/minoborony-soobschilo-ob-udarah-po-gruzovoy-tehnike-vsu/",
           "image": "https://icdn.lenta.ru/images/2026/09/07/23/20260907235653585/pic_a663145aeae4edc4152f018ac52f5fc8.jpg",
-          "publishedAt": "2026-09-07T20:56:57.000Z",
+          "publishedAt": "2026-09-07T20:56:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1788812700000",
+          "id": "svo-6-1788812700000",
           "title": "Тринадцать человек пострадали в ДНР в результате ударов БПЛА",
           "summary": "Тринадцать мирных жителей пострадали в результате атак беспилотников по территории Донецкой Народной Республики в понедельник, сообщил глава региона Денис Пушилин.\"Тринадцать мирных жителей Республики, в том числе подрос",
           "url": "https://www.interfax.ru/russia/1113731",
@@ -1830,7 +1866,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-3-1788809940000",
+          "id": "svo-7-1788809940000",
           "title": "Стало известно о пострадавших из-за атак ВСУ на ДНР",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/07/stalo-izvestno-o-postradavshih-iz-za-atak-vsu-na-dnr/",
@@ -1840,59 +1876,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1788808920000",
-          "title": "Стало известно о последствиях атаки БПЛА в Горловке",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/07/stalo-izvestno-o-posledstviyah-ataki-bpla-v-gorlovke/",
-          "image": "https://icdn.lenta.ru/images/2026/09/07/22/20260907223816043/pic_5e3532754f7e866980e26d8dd71a4a27.jpg",
-          "publishedAt": "2026-09-07T19:22:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1788808602000",
-          "title": "Боевики ВСУ под Волчанском бросают технику и сдаются, рассказали силовики",
-          "summary": "",
-          "url": "https://ria.ru/20260907/vsu-2116175232.html",
-          "image": "https://cdnn21.img.ria.ru/images/sharing/article/2116175232.jpg?21160135341788811479",
-          "publishedAt": "2026-09-07T19:16:42.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1788808379000",
-          "title": "В ДНР от атак украинских дронов пострадали 12 взрослых и подросток",
-          "summary": "",
-          "url": "https://ria.ru/20260907/postradavshie-2116174944.html",
-          "image": "https://cdnn21.img.ria.ru/images/07ea/08/0e/2110898424_0:159:3077:1890_650x0_80_0_0_578c933ec8c3a332526296604eb74ec7.jpg",
-          "publishedAt": "2026-09-07T19:12:59.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1788804679000",
-          "title": "Лихачев: на ЗАЭС восстановили внешнее энергоснабжение",
-          "summary": "Внешнее энергоснабжение Запорожской АЭС от ЛЭП «Ферросплавная-1» восстановлено. Станция работает в штатном режиме, сообщил глава «Росатома» Алексей Лихачев.",
-          "url": "https://www.kommersant.ru/doc/8938508",
-          "image": "https://im2.kommersant.ru/SocialPics/8938508_49_0_606644779",
-          "publishedAt": "2026-09-07T18:11:19.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-07T22:21:58.555Z",
+      "lastFetchAt": "2026-09-08T01:47:52.231Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1900,7 +1888,31 @@
       "slug": "security-services",
       "articles": [
         {
-          "id": "security-services-1-1788807253000",
+          "id": "security-services-0-1788824760000",
+          "title": "Минобороны предложило взыскать часть выплаты по контракту с осужденных",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/08/minoborony-predlozhilo-vzyskat-chast-vyplaty-po-kontraktu-s-osuzhdennyh/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/02/20260908024838023/pic_bb55569b185d37788a389444dac8a994.jpg",
+          "publishedAt": "2026-09-07T23:46:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-1-1788822439000",
+          "title": "Минобороны предложило взыскивать часть выплаты с осужденных контрактников",
+          "summary": "Минобороны России предложило забирать часть федеральной единовременной выплаты у осужденных контрактников, которые не были приговорены к лишению свободы и остались служить после решения суда. Документ опубликован на порт",
+          "url": "https://www.kommersant.ru/doc/8938564",
+          "image": "https://im2.kommersant.ru/SocialPics/8938564_49_0_1046370561",
+          "publishedAt": "2026-09-07T23:07:19.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-3-1788807253000",
           "title": "В Нидерландах пройдут военные учения с 10 другими странами НАТО",
           "summary": "В Нидерландах с 7 по 18 сентября пройдут международные военно-воздушные учения Falcon Leap, сообщает пресс-служба нидерландского Минобороны. В них примут участие 10 других стран НАТО.",
           "url": "https://www.kommersant.ru/doc/8938519",
@@ -1912,7 +1924,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-2-1788803340000",
+          "id": "security-services-4-1788803340000",
           "title": "Минобороны выпустило заявление о налетах ВСУ на приграничье и юг России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/07/minoborony-vypustilo-zayavlenie-o-naletah-vsu-na-prigranichie-i-yug-rossii/",
@@ -1924,7 +1936,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1788802050000",
+          "id": "security-services-5-1788802050000",
           "title": "Поставщики 30 тыс. негодных бронежилетов для участников СВО получили сроки",
           "summary": "В Москве к десяти и семи годам заключения приговорили финансового директора ГК «Пикет» Викторию Антонову и начальника службы безопасности компании Михаила Кальченко. Они были признаны виновными в хищении у Минобороны 2,4",
           "url": "https://www.kommersant.ru/doc/8938486",
@@ -1936,7 +1948,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1788794702000",
+          "id": "security-services-6-1788794702000",
           "title": "Минобороны России сообщило об ударах по стоянкам автоцистерн на Украине",
           "summary": "Вооруженные силы России ударили по стоянкам фур, в том числе с автоцистернами, в Одесской и Днепропетровской областях. Об этом сообщила пресс-служба Минобороны России.",
           "url": "https://www.kommersant.ru/doc/8938377",
@@ -1948,36 +1960,12 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1788789060000",
-          "title": "«Калашников» представил «МРС-ВВ» Росгвардии",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/07/kalashnikov-predstavil-mrs-vv-rosgvardii/",
-          "image": "https://icdn.lenta.ru/images/2026/09/07/16/20260907162850823/pic_ebe279088bc3d54df4fc6aafc47fc25c.jpg",
-          "publishedAt": "2026-09-07T13:51:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-6-1788786609000",
+          "id": "security-services-7-1788786609000",
           "title": "Предприятия ЖКХ попросили Минобороны разъяснить указ Путина о защите от дронов",
           "summary": "Ассоциация «Совет ЖКХ» направила письмо министру строительства и ЖКХ Иреку Файзуллину, министру энергетики Сергею Цивилеву и министру обороны Андрею Белоусову с просьбой разъяснить указ президента о передаче критических ",
           "url": "https://www.kommersant.ru/doc/8938215",
           "image": "https://im2.kommersant.ru/SocialPics/8938215_49_0_2122207621",
           "publishedAt": "2026-09-07T13:10:09.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-7-1788775755000",
-          "title": "Минобороны России: 1,7 тыс. военных ВСУ окружены в Харьковской области",
-          "summary": "В окружении в Харьковской области находится около 1,7 тыс. военнослужащих ВСУ. За сутки потери украинской армии составили 40 человек.",
-          "url": "https://www.kommersant.ru/doc/8938034",
-          "image": "https://im2.kommersant.ru/SocialPics/8938034_49_0_929644995",
-          "publishedAt": "2026-09-07T10:09:15.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
