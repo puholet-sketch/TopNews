@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-09-08T23:44:37.315Z",
-  "lastRunAt": "2026-09-08T23:44:37.315Z",
+  "updatedAt": "2026-09-09T01:54:23.343Z",
+  "lastRunAt": "2026-09-09T01:54:23.343Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "business",
+    "sports",
+    "politics",
+    "svo",
+    "security-services",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
+    "cybersecurity",
     "startups",
     "science",
     "medicine",
@@ -16,21 +26,11 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
-    "mma",
-    "basketball",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
-    "cybersecurity",
     "football-russia",
     "skiing",
-    "education",
-    "law",
-    "realestate",
-    "travel"
+    "mma",
+    "basketball",
+    "law"
   ],
   "failedNow": [],
   "categories": {
@@ -245,7 +245,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-08T23:43:46.965Z",
+      "lastFetchAt": "2026-09-09T01:53:04.214Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1051,7 +1051,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-08T23:44:17.951Z",
+      "lastFetchAt": "2026-09-09T01:53:06.915Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1059,60 +1059,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1788908640000",
-          "title": "Белоус о допуске России: «Правительства в Германии и Франции могут смениться в следующем году – и все может быстро измениться. Тогда и случится возвращение с гимном и флагом»",
-          "summary": "Юрий Белоус порассуждал на тему допуска России к международным футбольным турнирам. – Лига чемпионов расширилась, как считаете, до какой стадии могли бы дойти российские клубы, если бы не отстранение? – Вопрос, конечно, ",
-          "url": "https://www.sports.ru/football/1117364165-belous-o-dopuske-rossii-pravitelstva-v-germanii-i-franczii-mogut-smeni.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/416/5/share/7b78d6_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-08T23:04:00.000Z",
+          "id": "sports-0-1788917880000",
+          "title": "Дин Хейсен: «У Мбаппе очень хорошие шансы на выигрыш «Золотого мяча». Мы все знаем, какими качествами он обладает. Особенный футболист»",
+          "summary": "Защитник « Реала » Дин Хейсен после матча Лиги чемпионов против «Интера» (2:1) ответил на вопрос о том, является ли его партнер по команде Килиан Мбаппе фаворитом на получение «Золотого мяча». «Я не знаю. Я не из тех, кт",
+          "url": "https://www.sports.ru/football/1117364191-din-xejsen-u-mbappe-ochen-xoroshie-shansy-na-vyigrysh-zolotogo-myacha-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/419/1/share/398826_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-09T01:38:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1788908340000",
-          "title": "Жозе Моуринью: «Мбаппе снова станет лучшим бомбардиром ЛЧ»",
-          "summary": "Жозе Моуринью оценил игру Килиана Мбаппе в матче с « Интером » в Лиге чемпионов. Француз отметился голом и помог « Реалу » победить со счетом 2:1. Перед матчем он получил «Золотую бутсу» – приз лучшему бомбардиру ЛЧ прош",
-          "url": "https://www.sports.ru/football/1117364164-zhoze-mourinyu-mbappe-snova-stanet-luchshim-bombardirom-lch.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/416/4/share/45ca4c_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-08T22:59:00.000Z",
+          "id": "sports-1-1788916860000",
+          "title": "40-летний Халк забил и сделал передачу в первом матче 1/4 финала Кубка Либертадорес против «Платенсе». У форварда 5+3 в 13 матчах за «Флуминенсе»",
+          "summary": "40-летний форвард «Флуминенсе» Халк сделал два результативных действия в первом матче 1/4 финала Кубок Либертадореса против « Платенсе ». Бразильская команда одержала победу над аргентинской со счетом 2:0. Бывший футболи",
+          "url": "https://www.sports.ru/football/1117364188-40-letnij-xalk-zabil-i-sdelal-peredachu-v-pervom-matche-1-4-finala.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/418/8/share/51076c_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-09T01:21:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1788907980000",
-          "title": "Лаутаро после 1:2: «Интер» играл намного лучше «Реала», но две ошибки дорого нам обошлись. Мы не заслуживали поражения»",
-          "summary": "Нападающий « Интера » Лаутаро Мартинес заявил, что «нерадзурри» превзошли «Реал» по игре, несмотря на поражение. В первом матче общего этапа Лиги чемпионов на «Сантьяго Бернабеу» «Интер» уступил со счетом 1:2. «Все объяс",
-          "url": "https://www.sports.ru/football/1117364162-lautaro-posle-12-inter-igral-namnogo-luchshe-reala-no-dve-oshibki-doro.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/416/2/share/258de7_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-08T22:53:00.000Z",
+          "id": "sports-2-1788916260000",
+          "title": "«У Ямаля есть все, чтобы выиграть «Золотой мяч». Вопрос в том, когда это произойдет, а не в том, случится ли это вообще». Ван Бронкхорст о Ламине",
+          "summary": "Главный тренер « Фейеноорда » Джованни ван Бронкхорст перед матчем Лиги чемпионов против «Барселоны» высказался про вингера каталонцев Ламина Ямаля . «Ламин многого добился для своего возраста. Это футболист мирового уро",
+          "url": "https://www.sports.ru/football/1117364186-u-yamalya-est-vse-chtoby-vyigrat-zolotoj-myach-vopros-v-tom-kogda-eto-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/418/6/share/857c89_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-09T01:11:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1788907560000",
-          "title": "Тибо Куртуа: «Матч с «Интером» мог завершиться 4:4, но «Реал» воспользовался ошибками, а они не могли забить почти до конца. Нам не хватало контроля, игра получилась слишком безумной»",
-          "summary": "Тибо Куртуа прокомментировал победу «Реала» над «Интером» (2:1) в Лиге чемпионов. «Мы играли против сильного соперника, «Интер» – одна из лучших команд Европы. Матч мог закончиться 4:4, мы воспользовались их ошибками, а ",
-          "url": "https://www.sports.ru/football/1117364159-tibo-kurtua-match-s-interom-mog-zavershitsya-44-no-real-vospolzovalsya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/415/9/share/73a0fc_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-08T22:46:00.000Z",
+          "id": "sports-3-1788916140000",
+          "title": "Шнайдер и Мертенс вышли в 1/2 финала US Open в паре",
+          "summary": "Диана Шнайдер и Элиза Мертенс обыграли Алену Остапенку и Су-Вэй Се в четвертьфинале парного US Open – 7:5, 6:3. Шнайдер третий раз вышла в полуфинал парного «Большого шлема». В 2025-м они вместе с Миррой Андреевой играли",
+          "url": "https://www.sports.ru/tennis/1117364187-shnajder-i-mertens-vyshli-v-1-2-finala-us-open-v-pare.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/418/7/share/3ca54a_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-09T01:09:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1788907380000",
-          "title": "Мбаппе после 2:1 с «Интером»: «Реал» всегда должен быть на вершине. Хотим добиться чего-то особенного»",
-          "summary": "Нападающий « Реала » Килиан Мбаппе заявил о желании добиться выдающихся результатов в Лиге чемпионов. В первом матче общего этапа турнира мадридцы обыграли « Интер » со счетом 2:1. Мбаппе забил на 14-й минуте встречи. – ",
-          "url": "https://www.sports.ru/football/1117364160-mbappe-posle-21-s-interom-real-vsegda-dolzhen-byt-na-vershine-xotim-do.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/416/0/share/e039a7_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-08T22:43:00.000Z",
+          "id": "sports-4-1788915660000",
+          "title": "Джуд Беллингем: «Матч с «Интером» мог завершиться с более крупным счетом. Были моменты, когда «Реалу» пришлось непросто – не зря они чемпионы Серии А»",
+          "summary": "Полузащитник « Реала » Джуд Беллингем дал комментарий после победы над « Интером » (2:1) в матче группового этапа Лиги чемпионов . «Были моменты, когда нам пришлось непросто в игре против очень сильной команды. Они не зр",
+          "url": "https://www.sports.ru/football/1117364180-dzhud-bellingem-match-s-interom-mog-zavershitsya-s-bolee-krupnym-schet.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/418/0/share/af6058_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-09T01:01:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1415,7 +1415,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-08T23:44:21.448Z",
+      "lastFetchAt": "2026-09-09T01:53:08.601Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1423,36 +1423,48 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-1-1788910217000",
-          "title": "Странная привычка в обращении с бутылками едва не довела девушку до печального исхода",
+          "id": "politics-1-1788917640000",
+          "title": "Эксперт заявил о продвижении российских войск широким фронтом в Харьковской области",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/09/strannaya-privychka-v-obraschenii-s-butylkami-edva-ne-dovela-devushku-do-pechalnogo-ishoda/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/16/20260908162626860/pic_ea792c772a4b1f9347309194f95d0a1e.jpg",
-          "publishedAt": "2026-09-08T23:30:17.000Z",
+          "url": "https://lenta.ru/news/2026/09/09/ekspert-zayavil-o-prodvizhenii-rossiyskih-voysk-shirokim-frontom-v-harkovskoy-oblasti/",
+          "image": "https://icdn.lenta.ru/images/2026/09/09/04/20260909043608867/pic_25db7c4ec1aeda77bad52e44339392cc.jpg",
+          "publishedAt": "2026-09-09T01:34:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1788909264000",
-          "title": "Американские военные сообщили о поражении пяти иранских нефтяных танкеров",
+          "id": "politics-2-1788917429000",
+          "title": "Украинские военные заподозрили сограждан в нежелании видеть их на улицах Киева",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/09/amerikanskie-voennye-soobschili-o-porazhenii-pyati-iranskih-neftyanyh-tankerov/",
-          "image": "https://icdn.lenta.ru/images/2026/09/09/02/20260909021432496/pic_d4f9f19189618e77b48248e94a989cbd.jpg",
-          "publishedAt": "2026-09-08T23:14:24.000Z",
+          "url": "https://lenta.ru/news/2026/09/09/ukrainskie-voennye-zapodozrili-sograzhdan-v-nezhelanii-videt-ih-na-ulitsah-kieva/",
+          "image": "https://icdn.lenta.ru/images/2026/09/09/04/20260909040625849/pic_12aa7815ee53c059539586a7ddc7aa64.jpg",
+          "publishedAt": "2026-09-09T01:30:29.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1788908421000",
-          "title": "Мужчина расчленил жену и скормил собакам",
+          "id": "politics-3-1788915960000",
+          "title": "Стало известно о продолжении набора персонала на концерт Канье Уэста",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/09/muzhchina-raschlenil-zhenu-i-skormil-sobakam/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/10/20260908101025610/pic_3dac339b94552da95c08e6a7493e13e2.jpg",
-          "publishedAt": "2026-09-08T23:00:21.000Z",
+          "url": "https://lenta.ru/news/2026/09/09/stalo-izvestno-o-prodolzhenii-nabora-personala-na-kontsert-kanie-uesta/",
+          "image": "https://icdn.lenta.ru/images/2026/09/09/04/20260909040839181/pic_b2426ee42d55c6ac1fe487879603960d.jpg",
+          "publishedAt": "2026-09-09T01:06:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "politics",
+          "categoryName": "Политика",
+          "categorySlug": "politics"
+        },
+        {
+          "id": "politics-4-1788915629000",
+          "title": "Тюремщик рассказал о самой ненавистной категории заключенных",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/09/tyuremschik-rasskazal-o-samoy-nenavistnoy-kategorii-zaklyuchennyh/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/16/20260908163153157/pic_1df20f1187a7ae9fa6de2b8d0c5b336c.jpg",
+          "publishedAt": "2026-09-09T01:00:29.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1461,7 +1473,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-09-08T17:39:03.349Z",
+      "lastFetchAt": "2026-09-09T01:54:20.706Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1540,7 +1552,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-09-08T17:39:08.417Z",
+      "lastFetchAt": "2026-09-09T01:54:22.098Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1548,7 +1560,31 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1788815460000",
+          "id": "realestate-0-1788902280000",
+          "title": "В Московском регионе начал расти спрос на склады",
+          "summary": "Впрочем, о полноценном восстановлении этого рынка пока речи не идет",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/09/09/1227324-v-moskovskom-regione-nachal-rasti-spros-na-skladi",
+          "image": "https://cdn5.vedomosti.ru/image/2026/6z/14zey1/normal-1h45.jpg",
+          "publishedAt": "2026-09-08T21:18:00.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1788902160000",
+          "title": "Аренда складов в Московском регионе продолжает дешеветь",
+          "summary": "Это результат роста доли свободных площадей",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/09/09/1227347-arenda-skladov-prodolzhaet-deshevet",
+          "image": "https://cdn5.vedomosti.ru/image/2026/6z/15e69v/normal-1hna.jpg",
+          "publishedAt": "2026-09-08T21:16:00.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-2-1788815460000",
           "title": "Площадь проданных квартир в российских новостройках продолжает уменьшаться",
           "summary": "Это результат высоких ставок по ипотеке",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/08/1227052-ploschad-kvartir-v-novostroikah-prodolzhaet-umenshatsya",
@@ -1560,19 +1596,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1788815400000",
-          "title": "Ozon арендовал еще один крупный склад в Московском регионе",
-          "summary": "Это будет одна из крупнейших в этом году сделок на рынке логистической недвижимости",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/09/08/1227056-ozon-arendoval-krupnii-sklad-v-moskovskom-regione",
-          "image": "https://cdn5.vedomosti.ru/image/2026/6y/1cbioc/normal-1qmf.jpg",
-          "publishedAt": "2026-09-07T21:10:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-2-1788728820000",
+          "id": "realestate-3-1788728820000",
           "title": "На месте ТЦ «Город» на Рязанском проспекте может появиться крупный жилой комплекс",
           "summary": "Его владелец – Сбербанк – предлагает купить этот объект девелоперам",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/07/1226725-na-ryazanskom-prospekte-mozhet-poyavitsya-krupnii-zhiloi-kompleks",
@@ -1584,7 +1608,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-3-1788596960000",
+          "id": "realestate-4-1788596960000",
           "title": "Гонка за высотой: как небоскребы изменили облик городов",
           "summary": "170 лет назад родился создатель первых зданий, упиравшихся в облака",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/05/1226299-gonka-za-visotoi",
@@ -1594,23 +1618,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1788469860000",
-          "title": "Спрос на недвижимость в Дубае со стороны россиян начал восстанавливаться",
-          "summary": "При этом продажи жилья там в целом упали почти на 50%",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/09/04/1226103-spros-na-nedvizhimost-v-dubae-so-storoni-rossiyan",
-          "image": "https://cdn5.vedomosti.ru/image/2026/6u/11kx43/normal-1cpe.jpg",
-          "publishedAt": "2026-09-03T21:11:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-09-08T17:39:09.453Z",
+      "lastFetchAt": "2026-09-09T01:54:23.342Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1618,48 +1630,36 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1788888221000",
+          "id": "travel-0-1788914460000",
+          "title": "Туристам посоветовали воздержаться от поездок в место пропажи Усольцевых из-за медведей",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/09/turistam-posovetovali-vozderzhatsya-ot-poezdok-v-mesto-propazhi-usoltsevyh-iz-za-medvedey/",
+          "image": "https://icdn.lenta.ru/images/2026/09/09/03/20260909034317391/pic_a57e1aea5347ba86e077cc30b0717163.jpg",
+          "publishedAt": "2026-09-09T00:41:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1788890820000",
+          "title": "Сильное землетрясение произошло в курортной стране",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/08/silnoe-zemletryasenie-proizoshlo-v-kurortnoy-strane/",
+          "image": "https://icdn.lenta.ru/images/2026/09/08/20/20260908205821912/pic_7e84adf1ec0f8c073d8c24608da89f23.jpg",
+          "publishedAt": "2026-09-08T18:07:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1788888221000",
           "title": "Турист прилетел в Австралию и ограбил богатую местную жительницу с помощью ИИ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/08/turist-priletel-v-avstraliyu-i-ograbil-bogatuyu-mestnuyu-zhitelnitsu-s-pomoschyu-ii/",
           "image": "https://icdn.lenta.ru/images/2026/09/08/17/20260908172842029/pic_e83e000d69b3a7670764600d96f336fc.jpg",
           "publishedAt": "2026-09-08T17:23:41.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-1-1788872598000",
-          "title": "Сотни застрявших во Вьетнаме российских туристов вылетели домой",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/sotni-zastryavshih-vo-vietname-rossiyskih-turistov-vyleteli-domoy/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/15/20260908150710008/pic_6d9d27cf14038f02e2e8c1aa1c5f747a.jpg",
-          "publishedAt": "2026-09-08T13:03:18.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-2-1788871740000",
-          "title": "На российском курорте объявили угрозу атаки ВСУ с моря",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/na-rossiyskom-kurorte-ob-yavili-ugrozu-ataki-vsu-s-morya/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/15/20260908155031309/pic_471ae0429eabafd701299e8977358638.jpg",
-          "publishedAt": "2026-09-08T12:49:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1788870980000",
-          "title": "Российским туристам дали советы на фоне задержек рейсов в аэропортах страны",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/08/rossiyskim-turistam-dali-sovety-na-fone-zaderzhek-reysov-v-aeroportah-strany/",
-          "image": "https://icdn.lenta.ru/images/2026/09/08/12/20260908122856194/pic_78336c9c1450d8aec1b06db180d9b94b.jpg",
-          "publishedAt": "2026-09-08T12:36:20.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
@@ -1774,7 +1774,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-08T23:44:30.929Z",
+      "lastFetchAt": "2026-09-09T01:54:07.720Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1782,7 +1782,19 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1788910380000",
+          "id": "svo-0-1788917786000",
+          "title": "Стало известно о нехватке топлива в ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/09/stalo-izvestno-o-nehvatke-goryuche-smazochnyh-materialov-v-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/09/04/20260909043434884/pic_016987873fe439141d2395b71b691341.jpg",
+          "publishedAt": "2026-09-09T01:36:26.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1788910380000",
           "title": "Стало известно о сужении волчанского котла для ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/09/stalo-izvestno-o-suzhenii-volchanskogo-kotla-dlya-vsu/",
@@ -1794,7 +1806,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1788909779000",
+          "id": "svo-2-1788909779000",
           "title": "ВСУ совершили массированный налет на юг России. В Новороссийске обломки БПЛА упали на территорию предприятия",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/09/long-vsu-sovershili-massirovannyy-nalet-na-yug-rossii-v-novorossiyske-oblomki-bpla-upali-na-territoriyu-predpriyatiya/",
@@ -1806,11 +1818,11 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1788909025000",
+          "id": "svo-3-1788909025000",
           "title": "В Новороссийске беспилотники упали возле жилого дома и на территории предприятий",
           "summary": "В Новороссийске отражают атаку БПЛА, сообщил глава города Андрей Кравченко. Несколько БПЛА упали на территории предприятий и вблизи жилого дома.",
           "url": "https://www.kommersant.ru/doc/8939494",
-          "image": "https://iv.kommersant.ru/SocialPics/8939494_49_0_60801355",
+          "image": "https://im2.kommersant.ru/SocialPics/8939494_49_0_60801355",
           "publishedAt": "2026-09-08T23:10:25.000Z",
           "source": "Коммерсантъ",
           "categoryId": "svo",
@@ -1818,7 +1830,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-3-1788908444000",
+          "id": "svo-4-1788908444000",
           "title": "Обломки БПЛА упали на территории предприятий и близ дома в Новороссийске",
           "summary": "В Новороссийске обломки беспилотников упали на территории предприятий и вблизи жилого дома, сообщил глава города Андрей Кравченко в телеграм-канале.",
           "url": "https://www.rbc.ru/rbcfreenews/6aa089399a79478370da171f",
@@ -1830,7 +1842,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-4-1788906720000",
+          "id": "svo-5-1788906720000",
           "title": "Стало известно об уничтожении трех офицеров ВСУ в ДНР и Харьковской области",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/09/stalo-izvestno-ob-unichtozhenii-treh-ofitserov-vsu-v-dnr-i-harkovskoy-oblasti/",
@@ -1842,7 +1854,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-5-1788904789000",
+          "id": "svo-6-1788904789000",
           "title": "Раскрыт способ привлечения в ВСУ мужчин-наемников при помощи вербовки женщин",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/09/raskryt-sposob-privlecheniya-v-vsu-muzhchin-naemnikov-pri-pomoschi-verbovki-zhenschin/",
@@ -1854,9 +1866,9 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-6-1788904500000",
+          "id": "svo-7-1788904500000",
           "title": "Пожар начался на предприятии в Новороссийске после падения обломков БПЛА",
-          "summary": "Фрагменты БПЛА упали на территории предприятия и у частного дома, произошли возгорания, сообщается в оперативном штабе Краснодарского края в ночь на среду.\"В Новороссийске обломки БПЛА упали рядом с частным домом и на те",
+          "summary": "Фрагменты БПЛА упали на территории предприятия и у частного дома, произошли возгорания, сообщает оперативный штаб Краснодарского края в ночь на среду.\"В Новороссийске обломки БПЛА упали рядом с частным домом и на террито",
           "url": "https://www.interfax.ru/russia/1113951",
           "image": "https://www.interfax.ru/aspimg/1113951.jpg",
           "publishedAt": "2026-09-08T21:55:00.000Z",
@@ -1864,23 +1876,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1788903581000",
-          "title": "В результате атаки БПЛА поврежден многоквартирный дом в Темрюке",
-          "summary": "",
-          "url": "https://ria.ru/20260909/bpla-2116457931.html",
-          "image": "https://cdnn21.img.ria.ru/images/07e8/03/02/1930651503_0:662:1664:1598_650x0_80_0_0_1c092c242e576d00fe25f99f4ccc61bb.jpg",
-          "publishedAt": "2026-09-08T21:39:41.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-08T23:44:37.313Z",
+      "lastFetchAt": "2026-09-09T01:54:18.977Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1928,7 +1928,7 @@
           "title": "Белоусов заявил о готовности российской базы в Таджикистане к борьбе с угрозами",
           "summary": "Российская военная база в Таджикистане находится в состоянии готовности к борьбе с внешними угрозами. Налажено «тесное взаимодействие по ее применению», заявил министр обороны России Андрей Белоусов на официальном приеме",
           "url": "https://www.kommersant.ru/doc/8939443",
-          "image": "https://iv.kommersant.ru/SocialPics/8939443_49_3200618_1363863357",
+          "image": "https://im2.kommersant.ru/SocialPics/8939443_49_3200618_1363863357",
           "publishedAt": "2026-09-08T18:59:46.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
