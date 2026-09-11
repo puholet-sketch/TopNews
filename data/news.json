@@ -1,11 +1,19 @@
 {
-  "updatedAt": "2026-09-10T23:31:32.342Z",
-  "lastRunAt": "2026-09-10T23:31:32.342Z",
+  "updatedAt": "2026-09-11T01:48:30.011Z",
+  "lastRunAt": "2026-09-11T01:48:30.011Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "cybersecurity",
+    "business",
+    "sports",
+    "skiing",
+    "politics",
+    "svo",
+    "security-services"
+  ],
+  "skippedNow": [
     "it",
     "ai",
-    "business",
     "startups",
     "science",
     "medicine",
@@ -16,20 +24,12 @@
     "automotive",
     "gaming",
     "entertainment",
-    "sports",
+    "football-russia",
     "mma",
     "basketball",
-    "politics",
-    "svo",
-    "security-services",
     "education",
     "realestate",
     "travel"
-  ],
-  "skippedNow": [
-    "cybersecurity",
-    "football-russia",
-    "skiing"
   ],
   "failedNow": [
     {
@@ -179,7 +179,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-09-10T12:25:54.401Z",
+      "lastFetchAt": "2026-09-11T01:47:56.867Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -187,7 +187,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1789038570000",
+          "id": "cybersecurity-0-1789073779000",
+          "title": "Прохождение машины Reactor на Hack The Box",
+          "summary": "Привет, хабр! Сегодня будем взламывать сезонную машину из уже прошедшего 11-го сезона на Hack The Box. Нам предстоит проэксплуатировать уязвимость NextJS, наделавшую шума в конце 2025 года, крякнуть пользовательский хеш ",
+          "url": "https://habr.com/ru/articles/1081058/?utm_campaign=1081058&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/9bb/2a6/8bf/9bb2a68bf76eb3c5ca6572001f923797.png",
+          "publishedAt": "2026-09-10T20:56:19.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1789060493000",
+          "title": "Жизнь после смерти или «Как я провёл лето»",
+          "summary": "Друзья, мы знаем, что многие заждались подробностей о серии блокировок наших сервисов, которые несколько раз практически полностью выводили из строя Amnezia Free и Amnezia Premium для пользователей из России. Сейчас мы в",
+          "url": "https://habr.com/ru/companies/amnezia/articles/1080534/?utm_campaign=1080534&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/769/407/7bb/7694077bbd0b8180ce261ca2ef6188f8.png",
+          "publishedAt": "2026-09-10T17:14:53.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1789046579000",
+          "title": "CVE: история о том, как два инженера устали от хаоса и создали идентификатор, связавший все уязвимости мира",
+          "summary": "Одна уязвимость, дюжина названий, 321 запись и стенд, за которым конкуренты договорились “дружить”. История создания самого известного идентификатора в кибербезопасности по первоисточникам 1999 года. Читать далее",
+          "url": "https://habr.com/ru/companies/codescoring/articles/1080866/?utm_campaign=1080866&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/59d/4a6/9c5/59d4a69c594be7f6d3bf02d145ae5843.jpg",
+          "publishedAt": "2026-09-10T13:22:59.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1789038570000",
           "title": "Смартфон-шпион: почему даже отключение интернета не мешает смартфону отправлять хакерам данные",
           "summary": "Есть такое уютное заблуждение: выключил Wi-Fi и мобильные данные – и все, ты невидимка. Спокойно можно строить теории заговора. На деле всё немного иначе. Даже в полном офлайне встроенные датчики смартфона продолжают исп",
           "url": "https://habr.com/ru/companies/solarsecurity/articles/1080794/?utm_campaign=1080794&utm_source=habrahabr&utm_medium=rss",
@@ -199,7 +235,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1789035213000",
+          "id": "cybersecurity-4-1789035213000",
           "title": "Маскирование данных: 8 вопросов, которые волнуют бизнес и разработчиков",
           "summary": "Привет, Хабр! На связи Дмитрий Ларин, я руковожу продуктовым направлением по защите баз данных, в Гарде. Маскирование данных — важное направление нашей работы (в продуктовой линейке Гарды даже представлен отдельный проду",
           "url": "https://habr.com/ru/companies/garda/articles/1080180/?utm_campaign=1080180&utm_source=habrahabr&utm_medium=rss",
@@ -209,47 +245,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1789034356000",
-          "title": "Когда всё соответствует требованиям, но защищенности больше не становится: про ловушки формального контроля",
-          "summary": "Я наблюдал ситуации, когда компания формально соответствует требованиям регулятора, регулярно проходит аудиты, имеет утвержденные Политики, настроенные СЗИ, выделенный SOC и несколько сотен страниц Регламентов на случай ",
-          "url": "https://habr.com/ru/companies/alfa/articles/1080326/?utm_campaign=1080326&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/78d/93d/19c/78d93d19cb1115f3fc05c82895a36cca.png",
-          "publishedAt": "2026-09-10T09:59:16.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1789030872000",
-          "title": "Runtime‑контроль ИИ‑агентов: единица контроля не модель, а действие",
-          "summary": "Пока рынок спорил, достаточно ли «умного» фильтра на промпт, агенты уже начали вызывать инструменты, ходить в MCP, трогать платёжные API и уносить ключи с рабочих станций. Для нас это был момент, когда защита модели пере",
-          "url": "https://habr.com/ru/companies/infera_security/articles/1080536/?utm_campaign=1080536&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/aeb/2fb/4fb/aeb2fb4fbe4d3298c7de8ee1fd667854.jpg",
-          "publishedAt": "2026-09-10T09:01:12.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1789029009000",
-          "title": "Неужели так просто найти хакера в сетевом трафике облака?",
-          "summary": "Большинство разговоров о сетевой безопасности крутятся вокруг систем, которые стоят на пути трафика и должны принять решение здесь и сейчас: NGFW, WAF, IDS. Но есть и другой класс систем — те, что работают не с самим тра",
-          "url": "https://habr.com/ru/companies/pt/articles/1077466/?utm_campaign=1077466&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/71f/e48/0a2/71fe480a2a0b34bf5a52302452396fe5.jpg",
-          "publishedAt": "2026-09-10T08:30:09.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-10T23:30:29.678Z",
+      "lastFetchAt": "2026-09-11T01:47:57.861Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1043,7 +1043,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-10T23:30:58.900Z",
+      "lastFetchAt": "2026-09-11T01:48:00.228Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1051,60 +1051,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1789081380000",
-          "title": "US Open. 1/2 финала. Соболенко играет с Пегулой, Рыбакина встретится с Гауфф",
-          "summary": "Арина Соболенко играет с Джессикой Пегулой в полуфинале US Open. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шлема» Призовой фонд – 108 000 000 долларов Открытые корты, хард Полуфин",
+          "id": "sports-0-1789090920000",
+          "title": "Аленичев может вернуться в тульский «Арсенал». Тренер выводил клуб в РПЛ",
+          "summary": "Дмитрий Аленичев – один из кандидатов на пост тренера тульского «Арсенала», сообщает инсайдер Иван Карпов. 53-летний специалист может вновь возглавить «оружейников», которые на днях расстались с Дмитрием Гунько после пор",
+          "url": "https://www.sports.ru/football/1117366718-alenichev-mozhet-vernutsya-v-tulskij-arsenal-trener-vyvodil-klub-v-rpl.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/671/8/share/bd30cb_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-11T01:42:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1789087140000",
+          "title": "US Open. Рыбакина играет с Гауфф, Соболенко вышла в финал",
+          "summary": "Арина Соболенко обыграла Джессику Пегулу в полуфинале US Open. Сетка здесь . US Open Нью-Йорк, США 30 августа – 13 сентября 2026 Турнир «Большого шлема» Призовой фонд – 108 000 000 долларов Открытые корты, хард Полуфинал",
           "url": "https://www.sports.ru/tennis/1117365823-us-open-2026-zhenshhiny-rezultaty-10-sentyabrya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/582/3/share/b0787d_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-10T23:03:00.000Z",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/582/3/share/8019bb_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-11T00:39:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1789077600000",
-          "title": "Итоги первого дня Магнит Чемпионата России по тяжелой атлетике: Рябых и Плотников выиграли у мужчин, Жаткина и Новицкая – у женщин",
-          "summary": "10 сентября в Москве стартовал Магнит Чемпионат России по тяжелой атлетике. В первый день соревнований спортсмены разыграли медали в четырех весовых категориях: женщины в весовых категориях до 49 и 53 кг, мужчины – до 60",
-          "url": "https://www.sports.ru/heavyathletics/1117366543-itogi-pervogo-dnya-magnit-chempionata-rossii-po-tyazheloj-atletike-rya.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/654/3/share/1b9f92_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-10T22:00:00.000Z",
+          "id": "sports-2-1789090623000",
+          "title": "Пумас  Леон: смотреть онлайн прямую трансляцию матча, 11 сентября 2026",
+          "summary": "В пятницу, 11 сентября, сыграют Пумас и Леон в рамках высшей лиги Мексики. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 06:05 по московскому времени. Где смотреть матч Пумас — Леон Иг",
+          "url": "https://www.sports.ru/football/1117366716-pumas-leon-smotret-onlajn-pryamuyu-translyacziyu-matcha-11-sentyabrya-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/671/6/share/321bb0_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-11T01:37:03.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1789077540000",
-          "title": "Капитан «Сибири» Аланов об общении Кузнецова с судьями: «Евгений проявляет к арбитрам уважение. Он это умеет: и со смехом, и с харизмой»",
-          "summary": "Капитан «Сибири» Егор Аланов высказался о своей роли в команде, а также об общении форварда Евгения Кузнецова с судьями. 10 сентября « Сибирь » обыграла «Амур» (2:0). – Несколько лет назад вы уже были капитаном «Сибири».",
-          "url": "https://www.sports.ru/hockey/1117366678-kapitan-sibiri-alanov-ob-obshhenii-kuzneczova-s-sudyami-ego-slozhno-pe.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/667/8/share/d5435e_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-10T21:59:00.000Z",
+          "id": "sports-3-1789090080000",
+          "title": "Тороп об Олейникове: «Техничный и умный игрок. Я подавал мячи, когда ЦСКА с ним обыгрывал «Тоттенхэм» в молодежной Лиге чемпионов. Надеюсь, усилит нас»",
+          "summary": "Вратарь ЦСКА Владислав Тороп высказался о новичке армейцев хавбеке Иване Олейникове , перешедшем из «Крыльев Советов». — Олейников — большое усиление для ЦСКА. Ваня техничный и умный игрок. Дай бог, чтобы у него все полу",
+          "url": "https://www.sports.ru/football/1117366713-torop-ob-olejnikove-texnichnyj-i-umnyj-igrok-ya-podaval-myachi-kogda-c.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/671/3/share/24284f_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-11T01:28:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1789077360000",
-          "title": "Фабрегас о 4:1 с «Лейпцигом»: «Исторический вечер для «Комо» и для города. Я счастлив, но это продлится всего пять минут – нашим приоритетом остается Серия А. Нужно оставаться скромными»",
-          "summary": "Главный тренер « Комо » Франсеск Фабрегас прокомментировал победу над « РБ Лейпциг » в дебютном матче своей команды в Лиге чемпионов (4:1). «Я счастлив, но это продлится всего пять минут, потому нам нужно готовиться к ма",
-          "url": "https://www.sports.ru/football/1117366674-fabregas-o-41-s-lejpczigom-istoricheskij-vecher-dlya-komo-i-dlya-gorod.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/667/4/share/4d0518_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-10T21:56:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1789077180000",
-          "title": "Компани о 5:0 с «Буде-Глимт»: «Заслуженная победа. Мусиала забил очень важный гол, все были за него рады. Надеюсь, теперь внимание будет только на его игре»",
-          "summary": "Главный тренер «Баварии» Венсан Компани высказался о победе над « Буде-Глимт » в 1-м туре общего этапа Лиги чемпионов (5:0). «Первый тайм был немного похож на матч с «Шальке». Нам нужно было сохранять терпение. У нас был",
-          "url": "https://www.sports.ru/football/1117366673-kompani-o-50-s-bude-glimt-zasluzhennaya-pobeda-musiala-zabil-ochen-vaz.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/667/3/share/bbed91_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-10T21:53:00.000Z",
+          "id": "sports-4-1789089300000",
+          "title": "Гасперини про 1:1: «В какие-то моменты лучше играла «Рома», в какие-то – «Фенербахче». Это очко может оказаться ценным для обеих команд»",
+          "summary": "Тренер «Ромы» Джан-Пьеро Гасперини оценил ничью с «Фенербахче» (1:1) в 1-м туре Лиги чемпионов. «Вернувшись в Лигу чемпионов, мы сегодня вновь увидели, насколько это выдающийся турнир. Обе команды достойно провели свой п",
+          "url": "https://www.sports.ru/football/1117366708-gasperini-pro-11-v-kakie-to-momenty-luchshe-igrala-roma-v-kakie-to-fen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/670/8/share/722129_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-11T01:15:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1219,7 +1219,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-09-10T12:26:18.255Z",
+      "lastFetchAt": "2026-09-11T01:48:03.357Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1227,7 +1227,31 @@
       "slug": "skiing",
       "articles": [
         {
-          "id": "skiing-0-1788974160000",
+          "id": "skiing-0-1789049980000",
+          "title": "Дмитрий Свищев: «Образец декларации от FIS мы должны получить до конца недели. Не хотим, чтобы спортсмены были вынуждены заполнять документ, который их не устраивает»",
+          "summary": "Председатель Федерации лыжного спорта и сноуборда России Дмитрий Свищев заявил, что ФЛССР добивается возвращения на международные старты всех атлетов без исключения «Сейчас мы обсуждаем с коллегами из FIS вопрос возвраще",
+          "url": "https://www.sports.ru/skiing/1117366165-dmitrij-svishhev-obrazecz-deklaraczii-ot-fis-my-dolzhny-poluchit-do-ko.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-10T14:19:40.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-1-1789049640000",
+          "title": "В ФЛССР ждут образец декларации от FIS до 13 сентября",
+          "summary": "Федерация лыжного спорта и сноуборда России (ФЛССР) ожидает получить образец декларации от Международной федерации лыжного спорта и сноуборда (FIS) для дополнительных проверок российских спортсменов до конца недели.",
+          "url": "https://www.sport-express.ru/skiing/news/v-flssr-zhdut-obrazec-deklaracii-ot-fis-do-13-sentyabrya-2454129/",
+          "image": null,
+          "publishedAt": "2026-09-10T14:14:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-2-1788974160000",
           "title": "Светлана Журова: «У Большунова полно мотивации, его ничем не сломишь. Он делает свое дело, ему все равно, что происходит вокруг»",
           "summary": "Олимпийская чемпионка, депутат Госдумы Светлана Журова считает, что у Александра Большунова хватает мотивации для продолжения карьеры.",
           "url": "https://www.sports.ru/skiing/1117365072-svetlana-zhurova-u-bolshunova-polno-motivaczii-ego-nichem-ne-slomish-o.html",
@@ -1239,7 +1263,7 @@
           "categorySlug": "skiing"
         },
         {
-          "id": "skiing-1-1788893400000",
+          "id": "skiing-3-1788893400000",
           "title": "Бьорндален, Йохауг и Сольбаккен посетят похороны короля Норвегии Харальда V",
           "summary": "Многократные олимпийские чемпионы биатлонист Уле Эйнар Бьорндален и лыжница Тереза Йохауг посетят похороны короля Норвегии Харальда V.",
           "url": "https://www.sports.ru/skiing/1117363736-borndalen-i-joxaug-posetyat-poxorony-korolya-norvegii-xaralda-v.html",
@@ -1251,19 +1275,7 @@
           "categorySlug": "skiing"
         },
         {
-          "id": "skiing-2-1788876900000",
-          "title": "Свищев — о решении FIS: «Мы настаиваем, чтобы всех наших спортсменов без ограничений допускали до соревнований»",
-          "summary": "Заместитель председателя комитета Госдумы РФ по спорту и председатель Федерации лыжного спорта и сноуборда России (ФЛССР) Дмитрий Свищев в разговоре с «СЭ» отреагировал на решение Международной федерации лыжного спорта и",
-          "url": "https://www.sport-express.ru/skiing/news/svischev-schitaet-promezhutochnym-itogom-reshenie-fis-dopustit-rossiyskih-sportsmenov-v-neytralnom-statuse-2453547/",
-          "image": null,
-          "publishedAt": "2026-09-08T14:15:00.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-3-1788771120000",
+          "id": "skiing-4-1788771120000",
           "title": "Александр Панжинский: «Болельщики уверены, что наши лыжники обыгрывали всех, включая норвежцев. Это иллюзия – не было никакого доминирования россиян»",
           "summary": "Призер Олимпиады-2010 Александр Панжинский высказался о соперничестве российских лыжников с норвежцами.",
           "url": "https://www.sports.ru/skiing/1117361788-aleksandr-panzhinskij-bolelshhiki-pochemu-to-uvereny-chto-rossijskie-l.html",
@@ -1275,24 +1287,12 @@
           "categorySlug": "skiing"
         },
         {
-          "id": "skiing-4-1788769500000",
+          "id": "skiing-5-1788769500000",
           "title": "Шведский журналист Сванн: «Представьте себе дуэль Большунова и Клэбо снова! Мне бы очень этого хотелось»",
           "summary": "Шведский журналист Людвиг Сванн заявил, что с нетерпением ждет возвращения трехкратного олимпийского чемпиона Александра Большунова на международные старты.",
           "url": "https://www.sports.ru/skiing/1117361835-shvedskij-zhurnalist-svann-predstavte-sebe-duel-bolshunova-i-klebo-sno.html",
           "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
           "publishedAt": "2026-09-07T08:25:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-5-1788632520000",
-          "title": "Валнес о допуске российских лыжников: «Встретиться с ними на соревнованиях будет совершенно нормально. Нас больше волнует политический аспект вопроса»",
-          "summary": "Норвежский лыжник Эрик Валнес поделился мнением о допуске российских спортсменов в нейтральном статусе.",
-          "url": "https://www.sports.ru/skiing/1117360055-valnes-o-dopuske-rossijskix-lyzhnikov-vstretitsya-s-nimi-na-sorevnovan.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-05T18:22:00.000Z",
           "source": "Sports.ru",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
@@ -1407,7 +1407,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-10T23:31:03.804Z",
+      "lastFetchAt": "2026-09-11T01:48:04.717Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1415,60 +1415,48 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1789082760000",
-          "title": "Организаторы «Евровидения» отклонили заявку Казахстана",
+          "id": "politics-0-1789091107000",
+          "title": "Экс-подполковник СБУ указал на хитрый план Запада в отношении Украины",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/11/organizatory-evrovideniya-otklonili-zayavku-kazahstana/",
+          "url": "https://lenta.ru/news/2026/09/11/eks-podpolkovnik-sbu-ukazal-na-hitryy-plan-zapada-v-otnoshenii-ukrainy/",
           "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-09-10T23:26:00.000Z",
+          "publishedAt": "2026-09-11T01:45:07.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1789082760000",
-          "title": "Стали известны зарплаты членов избирательной комиссии на выборах",
+          "id": "politics-2-1789090860000",
+          "title": "Появились подробность атаки Волгограда",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/11/stali-izvestny-zarplaty-sotrudnikov-izbiratelnyh-uchastkov/",
-          "image": "https://icdn.lenta.ru/images/2026/09/11/02/20260911022807701/pic_47ae7aa56ea0196da5bb409d2d0fe536.jpg",
-          "publishedAt": "2026-09-10T23:26:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/11/poyavilis-podrobnost-ataki-volgograda/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/04/20260911044605929/pic_f93b6d304527289cd675265bd525b53c.jpg",
+          "publishedAt": "2026-09-11T01:41:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1789082232000",
-          "title": "Обнаружен неожиданный фактор защиты от диабета первого типа",
+          "id": "politics-3-1789090656000",
+          "title": "Япония потребовала изменить новую карту мира из-за одной территории",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/11/obnaruzhen-neozhidannyy-faktor-zaschity-ot-diabeta-pervogo-tipa/",
-          "image": "https://icdn.lenta.ru/images/2026/09/10/14/20260910141418164/pic_bf8f7d4bd6dc4efca1fb8fbd3865a25b.jpg",
-          "publishedAt": "2026-09-10T23:17:12.000Z",
+          "url": "https://lenta.ru/news/2026/09/11/yaponiya-potrebovala-izmenit-novuyu-kartu-mira-iz-za-odnoy-territorii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/04/20260911043913643/pic_f0943a97c0d1e546a9cf5fe484d740a2.jpg",
+          "publishedAt": "2026-09-11T01:37:36.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1789082227000",
-          "title": "Сумасшедший сталкер порнозвезды-девственницы сбежал из-под надзора и направился к ней",
+          "id": "politics-4-1789089840000",
+          "title": "В российском городе прозвучали взрывы",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/11/sumasshedshiy-stalker-pornozvezdy-devstvennitsy-sbezhal-iz-pod-nadzora-i-napravilsya-k-ney/",
-          "image": "https://icdn.lenta.ru/images/2026/09/10/14/20260910144353942/pic_d472186a1ecde0aa9d1dd2b96454e5bb.jpg",
-          "publishedAt": "2026-09-10T23:17:07.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1789082217000",
-          "title": "В Госдуме фразой про штаны высказались о доступе Украины к Черному морю",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/11/v-gosdume-frazoy-pro-shtany-vyskazalis-o-dostupe-ukrainy-k-chernomu-moryu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/11/02/20260911021705059/pic_68b5a33adde8538aa3fb46e4797a7c35.jpg",
-          "publishedAt": "2026-09-10T23:16:57.000Z",
+          "url": "https://lenta.ru/news/2026/09/11/v-rossiyskom-gorode-prozvuchali-vzryvy/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/04/20260911042818189/pic_e3f4ba9b15e449e8e14ace567190aba7.jpg",
+          "publishedAt": "2026-09-11T01:24:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1802,7 +1790,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-10T23:31:14.569Z",
+      "lastFetchAt": "2026-09-11T01:48:15.176Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1810,7 +1798,91 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1789081491000",
+          "id": "svo-0-1789091040000",
+          "title": "Пожар начался в логистическом центре Ozon после атаки БПЛА на Саратов",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/11/pozhar-nachalsya/",
+          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
+          "publishedAt": "2026-09-11T01:44:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1789089662000",
+          "title": "В Саратове при атаке БПЛА повреждена гражданская инфраструктура",
+          "summary": "",
+          "url": "https://ria.ru/20260911/saratov-2116951614.html",
+          "image": "https://cdnn21.img.ria.ru/images/sharing/article/2116951614.jpg?20431572931789089663",
+          "publishedAt": "2026-09-11T01:21:02.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1789089540000",
+          "title": "ВСУ ударили по Саратову",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/11/vsu-udarili-po-saratovu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/04/20260911042659879/pic_aef577c8079e9c18b22978ba4243170c.jpg",
+          "publishedAt": "2026-09-11T01:19:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1789089420000",
+          "title": "Гражданская инфраструктура повреждена в Саратове в результате атаки БПЛА",
+          "summary": "Губернатор Саратовской области Роман Бусаргин сообщил о повреждениях гражданской инфраструктуры вследствие украинской атаки; предварительно, пострадавших нет.\"В результате атаки БПЛА есть повреждения гражданской инфрастр",
+          "url": "https://www.interfax.ru/russia/1115407",
+          "image": "https://www.interfax.ru/aspimg/1115407.jpg",
+          "publishedAt": "2026-09-11T01:17:00.000Z",
+          "source": "Интерфакс",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1789086872000",
+          "title": "«Нацисты не остановились». ВСУ целенаправленно несколько раз ударили по многоквартирному дому в Железногорске. Что известно?",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/11/long-natsisty-ne-ostanovilis/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/03/20260911033004047/pic_7ee5c3edc0179f4abab9a6cd5f285c4e.jpg",
+          "publishedAt": "2026-09-11T00:34:32.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-5-1789084738000",
+          "title": "Военкор сообщил о знании помогающего ВСУ ИИ привычек россиян",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/11/voenkor-soobschil-o-znanii-pomogayuschego-vsu-ii-privychek-rossiyan/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/02/20260911025825796/pic_7e4cb30f07c5152678405147b7b342f6.jpg",
+          "publishedAt": "2026-09-10T23:58:58.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-6-1789084405000",
+          "title": "Канада начнет производство миллионов дронов по соглашению с Украиной",
+          "summary": "Канада и Украина подписали декларацию об установлении 100-летнего партнерства. Соглашение подразумевает, что Канада сможет начать производство миллионов БПЛА.",
+          "url": "https://www.kommersant.ru/doc/8941354",
+          "image": "https://im2.kommersant.ru/SocialPics/8941354_49_0_1355122214",
+          "publishedAt": "2026-09-10T23:53:25.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-7-1789081491000",
           "title": "Мирошник рассказал о количестве насильно мобилизованных в ВСУ",
           "summary": "",
           "url": "https://ria.ru/20260911/ukraina-2116944848.html",
@@ -1820,95 +1892,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-1-1789080548000",
-          "title": "Мужчина погиб при ударе дрона по автомобилю в Белгородской области",
-          "summary": "В Шебекино при атаке беспилотника ВСУ на автомобиль погиб мужчина, женщина получила ранения, сообщил оперативный штаб Белгородской области.",
-          "url": "https://www.rbc.ru/rbcfreenews/6aa33375269ff5cf528f2fab",
-          "image": null,
-          "publishedAt": "2026-09-10T22:49:08.000Z",
-          "source": "РБК",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-2-1789075397000",
-          "title": "Канада пообещала начать производство миллионов БПЛА и поделиться с Киевом",
-          "summary": "Канада обязалась нарастить производственные мощности для выпуска миллионов беспилотников в течение двух лет и направлять треть произведенных дронов Украине.",
-          "url": "https://www.rbc.ru/rbcfreenews/6aa3158d668d99657f96e80c",
-          "image": null,
-          "publishedAt": "2026-09-10T21:23:17.000Z",
-          "source": "РБК",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-3-1789075328000",
-          "title": "БПЛА трижды атаковали многоэтажку в курском Железногорске",
-          "summary": "Беспилотники три раза ударили по одному многоэтажному дому в Железногорске Курской области. По предварительной информации, пострадали два человека.",
-          "url": "https://www.kommersant.ru/doc/8941332",
-          "image": "https://iv.kommersant.ru/SocialPics/8941332_49_0_1019466445",
-          "publishedAt": "2026-09-10T21:22:08.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1789072800000",
-          "title": "Мужчина погиб в Белгородской области в результате атаки ВСУ",
-          "summary": "Мужчина погиб и женщина пострадала вследствие украинской атаки в городе Шебекино, сообщили в оперативном штабе по региону.\"В городе Шебекино дрон нанес удар по автомобилю.",
-          "url": "https://www.interfax.ru/russia/1115385",
-          "image": "https://www.interfax.ru/aspimg/1115385.jpg",
-          "publishedAt": "2026-09-10T20:40:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1789072094000",
-          "title": "Один человек погиб и один пострадал при ударе дрона в Белгородской области",
-          "summary": "В городе Шебекино Белгородской области дрон ударил по автомобилю. Один человек погиб, еще один ранен.",
-          "url": "https://www.kommersant.ru/doc/8941328",
-          "image": "https://iv.kommersant.ru/SocialPics/8941328_49_0_2060689365",
-          "publishedAt": "2026-09-10T20:28:14.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1789071702000",
-          "title": "В Белгородской области при ударе БПЛА ВСУ погиб мужчина",
-          "summary": "",
-          "url": "https://ria.ru/20260910/bpla-2116931124.html",
-          "image": "https://cdnn21.img.ria.ru/images/07e5/04/0c/1727905474_0:378:2968:2048_650x0_80_0_0_7f1f57114c87d17bd074912f11f3654d.jpg",
-          "publishedAt": "2026-09-10T20:21:42.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1789069667000",
-          "title": "В Новороссийске открылись поврежденные при ударе БПЛА детские сады",
-          "summary": "Детские сады Новороссийска №10 и №22 возобновили работу в ограниченном режиме после удара беспилотников в ночь на 9 сентября. В школе №15 продолжают ремонтировать фасад и укреплять каркас здания.",
-          "url": "https://www.kommersant.ru/doc/8941321",
-          "image": "https://im2.kommersant.ru/SocialPics/8941321_49_0_1271624757",
-          "publishedAt": "2026-09-10T19:47:47.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-10T23:31:23.282Z",
+      "lastFetchAt": "2026-09-11T01:48:25.039Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1928,19 +1916,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-1-1789068430000",
-          "title": "Отбывший срок за госизмену экс-майор ФСБ обжаловал изъятие шести квартир",
-          "summary": "Экс-майор ФСБ Докучаев, отбывший срок за госизмену и вышедший по УДО, обжаловал изъятие активов по иску Генпрокуратуры. Ранее суд изъял у него шесть квартир, пять машин, золото, часы и бриллианты",
-          "url": "https://www.rbc.ru/politics/10/09/2026/6aa2ed7c048df5576e86ae87",
-          "image": "https://s0.rbk.ru/v6_top_pics/media/img/0/12/347890690303120.jpeg",
-          "publishedAt": "2026-09-10T19:27:10.000Z",
-          "source": "РБК",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-2-1789051288000",
+          "id": "security-services-1-1789051288000",
           "title": "Отбывший срок за госизмену экс-майор ФСБ Докучаев обжалует конфискацию активов",
           "summary": "Как стало известно “Ъ”, Мосгорсуд оставил без движения жалобу бывшего майора ФСБ Дмитрия Докучаева, у которого по антикоррупционному иску Генпрокуратуры были изъяты активы на сотни миллионов рублей. Контрразведчик, работ",
           "url": "https://www.kommersant.ru/doc/8941147",
@@ -1952,19 +1928,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1789048560000",
-          "title": "Минобороны России пошутило про нанесенный по Киеву удар",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/10/minoborony-rossii-poshutilo-pro-nanesennyy-po-kievu-udar/",
-          "image": "https://icdn.lenta.ru/images/2026/09/10/16/20260910164316009/pic_09729e3f77e18550db16066138800621.jpg",
-          "publishedAt": "2026-09-10T13:56:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-4-1789043460000",
+          "id": "security-services-2-1789043460000",
           "title": "В Кремле прокомментировали задержание ФСБ бывшего охранника посольства Британии",
           "summary": "Пресс-секретарь президента России Дмитрий Песков заявил, что Великобритания «потеряла контроль» над действиями властей Украины. Так он прокомментировал сообщения о задержании бывшего охранника британского посольства в Мо",
           "url": "https://www.kommersant.ru/doc/8940984",
@@ -1976,11 +1940,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1789031005000",
+          "id": "security-services-3-1789031005000",
           "title": "СВР: Еврокомиссия стремится изгнать из Европы беженцев с Украины",
           "summary": "Еврокомиссия (ЕК) настроила власти государств ЕС «на выработку юридически обоснованных механизмов изгнания на родину украинских граждан». Об этом заявили в Службе внешней разведки России (СВР).",
           "url": "https://www.kommersant.ru/doc/8940693",
-          "image": "https://iv.kommersant.ru/SocialPics/8940693_49_0_227226627",
+          "image": "https://im2.kommersant.ru/SocialPics/8940693_49_0_227226627",
           "publishedAt": "2026-09-10T09:03:25.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1988,11 +1952,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-6-1789030951000",
+          "id": "security-services-4-1789030951000",
           "title": "Российские войска взяли харьковские Зарубинку и Гоптовку // Минобороны: ВС РФ взяли Зарубинку и Гоптовку в Харьковской области",
           "summary": "Российские подразделения в зоне СВО взяли под контроль населенные пункты Зарубинка и Гоптовка в Харьковской области. Об этом заявили в Минобороны РФ.",
           "url": "https://www.kommersant.ru/doc/8940689",
-          "image": "https://im2.kommersant.ru/SocialPics/8940689_49_0_252337075",
+          "image": "https://iv.kommersant.ru/SocialPics/8940689_49_0_252337075",
           "publishedAt": "2026-09-10T09:02:31.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -2000,12 +1964,36 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-7-1789030753000",
+          "id": "security-services-5-1789030753000",
           "title": "СВР: Европа требует от Украины мобилизации женщин",
           "summary": "Служба внешней разведки (СВР) России заявила, что Еврокомиссия требует от Украины принять «политическое решение» о начале военной мобилизации женщин. Об этом сообщила пресс-служба СВР.",
           "url": "https://www.kommersant.ru/doc/8940671",
-          "image": "https://iv.kommersant.ru/SocialPics/8940671_49_0_184247457",
+          "image": "https://im2.kommersant.ru/SocialPics/8940671_49_0_184247457",
           "publishedAt": "2026-09-10T08:59:13.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-6-1789025629000",
+          "title": "В ФСБ выразили надежду, что Британия не знала о подготовке СБУ теракта против посла",
+          "summary": "ФСБ надеется, что британская разведка не была осведомлена о планах Украины совершить диверсию против сотрудника посольства Великобритании в Москве. Об этом сообщили на оперативном видео российской спецслужбы.",
+          "url": "https://www.kommersant.ru/doc/8940568",
+          "image": "https://im2.kommersant.ru/SocialPics/8940568_49_0_776037568",
+          "publishedAt": "2026-09-10T07:33:49.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-7-1789018741000",
+          "title": "Минобороны РФ заявило об ударе по двум сухогрузам и буксиру в районе Одессы",
+          "summary": "Российские вооруженные силы в ночь на 10 сентября нанесли удары по двум судам, направлявшимся в Одесский порт. «Поражены два морских судна типа сухогруз...",
+          "url": "https://www.kommersant.ru/doc/8940470",
+          "image": "https://im2.kommersant.ru/SocialPics/8940470_49_0_1315784793",
+          "publishedAt": "2026-09-10T05:39:01.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
