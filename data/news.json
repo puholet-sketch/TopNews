@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-12T17:58:05.179Z",
-  "lastRunAt": "2026-09-12T17:58:05.179Z",
+  "updatedAt": "2026-09-12T19:54:58.813Z",
+  "lastRunAt": "2026-09-12T19:54:58.813Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "cybersecurity",
+    "skiing",
+    "education",
+    "realestate",
+    "travel"
+  ],
+  "skippedNow": [
     "it",
+    "ai",
     "business",
     "startups",
+    "science",
     "medicine",
+    "health",
     "environment",
+    "energy",
+    "space",
+    "automotive",
     "gaming",
     "entertainment",
     "sports",
     "football-russia",
+    "mma",
+    "basketball",
     "politics",
     "svo",
     "security-services"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "skiing",
-    "mma",
-    "basketball",
-    "education",
-    "realestate",
-    "travel"
   ],
   "failedNow": [
     {
@@ -179,7 +179,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-09-12T06:38:15.277Z",
+      "lastFetchAt": "2026-09-12T19:54:43.827Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -187,8 +187,44 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1789167996000",
-          "title": "Нечеткая логика в ИБ: сокращаю очередь уязвимостей в 7,5 раза, сравниваю с CVSS, EPSS и методикой ФСТЭК",
+          "id": "cybersecurity-0-1789224223000",
+          "title": "Цифровая слежка в кармане: аудит 11 популярных российских Android-приложений",
+          "summary": "Привет, Хабр! Продолжаю серию аудитов. В прошлый раз я разобрал семь яндексовских приложений — и там было на что посмотреть: буфер обмена, WebRTC-утечки, распознавание ключевых слов в аудиопотоке. На этот раз расширяю вы",
+          "url": "https://habr.com/ru/articles/1081580/?utm_campaign=1081580&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1081580/14e5400aba54af959c1f79742e1a49fc/",
+          "publishedAt": "2026-09-12T14:43:43.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1789202987000",
+          "title": "OSINT‑расследование: как посыпалась чесночная легенда…",
+          "summary": "Задалась я целью найти баговый инвестпроект, чтобы посмотреть сколько скама появляется в настоящее время в сфере приземленных инвестиций. Для поиска такого проекта я отправилась на одну из очевидных, самых популярных и д",
+          "url": "https://habr.com/ru/articles/1081514/?utm_campaign=1081514&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/ce1/7ac/f4a/ce17acf4ad79ebdd1649b4128bafaabf.jpg",
+          "publishedAt": "2026-09-12T08:49:47.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1789196417000",
+          "title": "Вы узнаете о клике через девять дней, и не от того, кто кликнул",
+          "summary": "В разборе одного инцидента меня зацепила не техника, а хронология. Ссылку открыли, пароль ввели. В службе безопасности узнали через девять дней - и не от человека, а по срабатыванию правила. Человек понял, что произошло,",
+          "url": "https://habr.com/ru/articles/1078190/?utm_campaign=1078190&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1078190/4408457b85421b9a1c7bb02cbf1a64f2/",
+          "publishedAt": "2026-09-12T07:00:17.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1789167996000",
+          "title": "Нечеткая логика в ИБ: сокращаю очередь уязвимостей в 7,5 раз, сравниваю с CVSS, EPSS и методикой ФСТЭК",
           "summary": "Думаю ни для кого не секрет, что еще задолго до нашего рождения, были сформированы парадоксы кучи и корабля Тесея. Так как оба исследуют проблему изменения границ понятий и идентичности при постепенном удалении или замен",
           "url": "https://habr.com/ru/articles/1081470/?utm_campaign=1081470&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/d5f/b0d/bd6/d5fb0dbd6a10a7646d1773a4f7273fed.png",
@@ -199,48 +235,12 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1789146908000",
+          "id": "cybersecurity-4-1789146908000",
           "title": "[Перевод] Жизненный цикл токена API: от выпуска до отзыва",
           "summary": "Токены (tokens) API часто расцениваются как незначительные детали реализации. Пользователь входит в систему, сервер создает токен, браузер сохраняет его и включает в каждый защищенный запрос (protected request). На верхн",
           "url": "https://habr.com/ru/companies/timeweb/articles/1077690/?utm_campaign=1077690&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/a60/ac6/c6b/a60ac6c6b53692127f5febd088b13e9b.png",
           "publishedAt": "2026-09-11T17:15:08.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1789142336000",
-          "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
-          "summary": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией и технической поддержкой ИТ-инфраструктуры. Agent-Ops — проект открытой отраслевой методологии совместной работы инженеров и ИИ-агентов. Мы н",
-          "url": "https://habr.com/ru/articles/1081344/?utm_campaign=1081344&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/7eb/529/be7/7eb529be733e737cf7ccf77535471f4c.jpg",
-          "publishedAt": "2026-09-11T15:58:56.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1789136860000",
-          "title": "МФО выдали заем мошеннику: кто должен отвечать за последствия",
-          "summary": "Недавно россиянка стала жертвой мошенничества: на ее имя оформили около 60 микрозаймов на сумму более 2,5 млн рублей. Для этого злоумышленникам оказалось достаточно фотографии ее паспорта. Девушка больше года сталкиваетс",
-          "url": "https://habr.com/ru/companies/smartengines/articles/1081388/?utm_campaign=1081388&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/2ad/3b6/fd0/2ad3b6fd065c80a3d07a58316ea60931.jpg",
-          "publishedAt": "2026-09-11T14:27:40.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1789135706000",
-          "title": "Карта экосистемы информационной безопасности вокруг РЕД АДМ",
-          "summary": "Пару лет назад мне попалась на глаза карта рынка экосистемы информационной безопасности для служб каталогов Microsoft, где по строкам стояли вендоры вроде Microsoft, Semperis, Quest, Netwrix и BeyondTrust, а по столбцам ",
-          "url": "https://habr.com/ru/articles/1081196/?utm_campaign=1081196&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/3ca/403/e95/3ca403e950130db5e51676adc68a230e.jpg",
-          "publishedAt": "2026-09-11T14:08:26.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -1183,7 +1183,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-09-12T06:39:22.029Z",
+      "lastFetchAt": "2026-09-12T19:54:48.407Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1191,73 +1191,73 @@
       "slug": "skiing",
       "articles": [
         {
-          "id": "skiing-0-1789163100000",
+          "id": "skiing-0-1789230900000",
+          "title": "Березина и Терентьева проиграли в финале юниорского US Open в парном разряде",
+          "summary": "Российские теннисистки Полина Березина и Алиса Терентьева не смогли завоевать титул юниорского US Open-2026 в парном разряде.",
+          "url": "https://www.sport-express.ru/tennis/grand-slam/news/polina-berezina-alisa-terenteva-annika-penikova-kristine-penikova-rezultat-finala-yuniorskogo-us-open-12-sentyabrya-2026-2454669/",
+          "image": null,
+          "publishedAt": "2026-09-12T16:35:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-1-1789223847000",
+          "title": "Дмитрий Свищев: «Декларацию о нейтральности так мы и не получили пока. FIS перенес это на четверг»",
+          "summary": "Международная федерация лыжного спорта и сноуборда (FIS) отложила отправку образца декларации о нейтральности для российских спортсменов.",
+          "url": "https://www.sports.ru/skiing/1117368408-dmitrij-svishhev-deklaracziyu-o-nejtralnosti-tak-my-i-ne-poluchili-pok.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-12T14:37:27.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-2-1789201801000",
+          "title": "Олимпийская чемпионка лыжница Ступак заявила, что пока не планирует завершать карьеру",
+          "summary": "Российская лыжница Юлия Ступак заявила, что пока не завершила спортивную карьеру.",
+          "url": "https://www.sport-express.ru/skiing/news/olimpiyskaya-chempionka-lyzhnica-stupak-zayavila-chto-poka-ne-planiruet-zavershat-kareru-2454567/",
+          "image": null,
+          "publishedAt": "2026-09-12T08:30:01.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-3-1789201080000",
+          "title": "Юлия Ступак: «Я еще не закончила спортивную карьеру»",
+          "summary": "Российская лыжница Юлия Ступак заявила, что пока не завершает спортивную карьеру.",
+          "url": "https://www.sports.ru/skiing/1117367961-yuliya-stupak-zayavila-chto-poka-ne-zavershila-kareru.html",
+          "image": "https://s5o.ru/storage/simple/19/96/18/2013.10.07.05.15.45.69199618.1.jpg",
+          "publishedAt": "2026-09-12T08:18:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-4-1789197000000",
+          "title": "Дмитрий Свищев: «Во всем мире ждут возвращения Большунова – ждут организаторы, спонсоры. Его участие будет мотивировать соперников»",
+          "summary": "Глава Федерации лыжных видов спорта и сноуборда России Дмитрий Свищев заявил, что во всем мире ждут возвращения российского лыжника Александра Большунова на международную арену.",
+          "url": "https://www.sports.ru/skiing/1117367912-dmitrij-svishhev-vo-vsem-mire-zhdut-vozvrashheniya-bolshunova-zhdut-or.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-12T07:10:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-5-1789163100000",
           "title": "Россиянки Березина и Терентьева вышли в финал юниорского US Open в парном разряде",
           "summary": "Российские теннисистки Полина Березина и Алиса Терентьева вышли в финал юниорского US Open в парном разряде.",
           "url": "https://www.sport-express.ru/tennis/grand-slam/news/berezina-terenteva-makarova-sinzhan-rezultat-polufinala-yuniorskogo-us-open-sredi-par-11-sentyabrya-2026-2454491/",
           "image": null,
           "publishedAt": "2026-09-11T21:45:00.000Z",
           "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-1-1789139701000",
-          "title": "Свищев надеется на помощь МОК и FIS в вопросе получения виз для российских спортсменов",
-          "summary": "Председатель Федерации лыжного спорта и сноуборда России (ФЛССР) Дмитрий Свищев в разговоре с «СЭ» отреагировал на новость о том, что World Aquatics обязала страны гарантировать визы российским атлетам.",
-          "url": "https://www.sport-express.ru/skiing/news/dmitriy-svischev-nadeetsya-na-pomosch-mok-i-fis-v-voprose-polucheniya-viz-dlya-rossiyskih-sportsmenov-2454421/",
-          "image": null,
-          "publishedAt": "2026-09-11T15:15:01.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-2-1789138560000",
-          "title": "Свищев негативно воспринимает решение ISU по Валиевой, Кондратюку, Степановой и Букину",
-          "summary": "Председатель Федерации лыжного спорта и сноуборда России (ФЛССР) Дмитрий Свищев отреагировал на решение Международного союза конькобежцев (ISU) отказать в нейтральном статусе российским фигуристам Камиле Валиевой, Марку ",
-          "url": "https://www.sport-express.ru/figure-skating/news/predsedatel-flssr-dmitriy-svischev-negativno-vosprinimaet-reshenie-isu-po-valievoy-kondratyuku-stepanovoy-i-bukinu-2454416/",
-          "image": null,
-          "publishedAt": "2026-09-11T14:56:00.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-3-1789136141000",
-          "title": "Дмитрий Свищев: «Большунова знают и ждут спонсоры и телеканалы. Это дополнительная интрига на соревнованиях»",
-          "summary": "Председатель Федерации лыжного спорта и сноуборда России (ФЛССР) Дмитрий Свищев заявил, что возвращения трехкратного олимпийского чемпиона Александра Большунова на международные старты ждут и спонсоры, и телеканалы.",
-          "url": "https://www.sports.ru/skiing/1117367321-dmitrij-svishhev-bolshunova-znayut-i-zhdut-sponsory-i-telekanaly-eto-d.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-11T14:15:41.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-4-1789133460000",
-          "title": "Никита Крюков: «Каминский настолько полюбил биатлон, что даже при вопросе «а вы бы пошли тренировать в лыжи снова?» говорит «не хочу»",
-          "summary": "Олимпийский чемпион по лыжным гонкам Никита Крюков рассказал, что Юрий Каминский не намерен уходить из биатлона.",
-          "url": "https://www.sports.ru/skiing/1117367265-nikita-kryukov-kaminskij-nastolko-polyubil-biatlon-chto-dazhe-pri-vopr.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-11T13:31:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-5-1789130220000",
-          "title": "FIS еще не предоставила декларацию нейтральности, заявил Свищев: «Мы обозначили все наши ожидания, тревоги, в том числе по Большунову. Может, поэтому и есть задержки»",
-          "summary": "Международная федерация лыжного спорта и сноуборда (FIS) пока не предоставила российской стороне образец «декларации нейтральности».",
-          "url": "https://www.sports.ru/skiing/1117367214-fis-eshhe-ne-predostavila-obrazecz-deklaraczii-nejtralnosti-zayavil-sv.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-11T12:37:00.000Z",
-          "source": "Sports.ru",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
           "categorySlug": "skiing"
@@ -1441,7 +1441,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-09-12T11:46:59.822Z",
+      "lastFetchAt": "2026-09-12T19:54:49.926Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1533,7 +1533,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-09-12T11:47:05.687Z",
+      "lastFetchAt": "2026-09-12T19:54:57.216Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1603,7 +1603,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-09-12T11:47:07.309Z",
+      "lastFetchAt": "2026-09-12T19:54:58.812Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1611,7 +1611,19 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1789205580000",
+          "id": "travel-0-1789223424000",
+          "title": "Россиянка описала курорт Черногории фразой «улицы грязные, набережная из 90-х»",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/12/rossiyanka-opisala-kurort-chernogorii-frazoy-ulitsy-gryaznye-naberezhnaya-iz-90-h/",
+          "image": "https://icdn.lenta.ru/images/2026/09/11/15/20260911153632706/pic_8ecd9206c6b6ebe72f4d03979bca542a.jpg",
+          "publishedAt": "2026-09-12T14:30:24.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1789205580000",
           "title": "Соло-туристы стали чаще путешествовать по России",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/12/solo-turisty-stali-chasche-puteshestvovat-po-rossii/",
