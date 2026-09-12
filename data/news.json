@@ -1,9 +1,18 @@
 {
-  "updatedAt": "2026-09-12T21:48:06.689Z",
-  "lastRunAt": "2026-09-12T21:48:06.689Z",
+  "updatedAt": "2026-09-12T23:31:13.594Z",
+  "lastRunAt": "2026-09-12T23:31:13.594Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment"
+  ],
+  "skippedNow": [
     "ai",
+    "cybersecurity",
     "business",
     "science",
     "health",
@@ -11,22 +20,13 @@
     "space",
     "automotive",
     "sports",
+    "football-russia",
+    "skiing",
     "mma",
     "basketball",
     "politics",
     "svo",
-    "security-services"
-  ],
-  "skippedNow": [
-    "it",
-    "cybersecurity",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "football-russia",
-    "skiing",
+    "security-services",
     "education",
     "realestate",
     "travel"
@@ -39,7 +39,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-09-12T17:56:38.456Z",
+      "lastFetchAt": "2026-09-12T23:30:45.517Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -47,8 +47,20 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1789226700000",
-          "title": "Как я автоматизировал почти всю работу в CRM",
+          "id": "it-0-1789241018000",
+          "title": "Я просил ход, который сделал бы человек. Stockfish ответил правильным",
+          "summary": "С лета у меня в браузере рядом с доской работает локальный Stockfish и подсказывает стрелкой на лучшем ходу. Люди, которые начали пользоваться, выразили одну претензию: ход верный, но ход непонятный. Я бы так никогда не ",
+          "url": "https://habr.com/ru/articles/1081610/?utm_campaign=1081610&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/8d0/54c/c56/8d054cc56dbdeab253570c6e75819f4e.jpg",
+          "publishedAt": "2026-09-12T19:23:38.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1789226700000",
+          "title": "Как я автоматизировал почти всю работу в CRM",
           "summary": "Я долго ходил по конференциям, у меня хороший нетворк, и все это длительное время я наполнял CRM контактами, результатами звонков, переписками, договорённостями и тд. В какой-то момент в ней оказалось почти 10К человек и",
           "url": "https://habr.com/ru/articles/1081584/?utm_campaign=1081584&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/65f/86f/8a2/65f86f8a2a9b37bf5df28f2dbee6c1e5.png",
@@ -59,7 +71,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1789208133000",
+          "id": "it-2-1789208133000",
           "title": "[Перевод] Микрокод внутри сопроцессора Intel 8087: обмен регистрами",
           "summary": "В 1980 году Intel 8087 стал первым массовым математическим сопроцессором компании и заложил основу для современных вычислений с плавающей точкой. Сегодня его уже не встретить в компьютерах, но внутри этого чипа скрыта ин",
           "url": "https://habr.com/ru/companies/otus/articles/1081142/?utm_campaign=1081142&utm_source=habrahabr&utm_medium=rss",
@@ -71,8 +83,8 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1789205024000",
-          "title": "Cognition выпустила Fusion для Devin Desktop и CLI: две ИИ-модели делят одну задачу",
+          "id": "it-3-1789205024000",
+          "title": "Один ИИ кодит, второй командует: как устроен Devin Fusion",
           "summary": "11 сентября Cognition объявила о доступности Fusion в Devin Desktop и CLI. Ранее система работала в облачном Devin. Теперь связку из ведущей модели и исполнителя можно использовать в десктоп приложении и терминале. Компа",
           "url": "https://habr.com/ru/companies/koda/articles/1081524/?utm_campaign=1081524&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/ec2/db4/f10/ec2db4f10d83302df408cd43a72ec485.png",
@@ -83,24 +95,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1789166732000",
+          "id": "it-4-1789166732000",
           "title": "Пишу алгоритм FFT на Си для процессора Эльбрус: прямая векторизация",
           "summary": "Данная статья является продолжением предыдущей статьи. Здесь рассматривается вариант прямой векторизации алгоритма FFT. Перед чтением рекомендуется бегло ознакомиться с предыдущей статьёй. Читать далее",
           "url": "https://habr.com/ru/articles/1080522/?utm_campaign=1080522&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/73c/003/4d0/73c0034d09ac159633a3f285293f22f6.png",
           "publishedAt": "2026-09-11T22:45:32.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1789140024000",
-          "title": "AI меняет центр тяжести разработки",
-          "summary": "В эпоху AI код становится дешевле, а качественное инженерное решение — ценнее. Поэтому важнее не просто уметь быстро писать код, а уметь спроектировать систему так, чтобы человек и агент одинаково понимали: что нужно изм",
-          "url": "https://habr.com/ru/articles/1081410/?utm_campaign=1081410&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/5a3/be9/e39/5a3be9e39f5b0900e999b183d7d38c89.png",
-          "publishedAt": "2026-09-11T15:20:24.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -319,7 +319,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-09-12T17:56:49.697Z",
+      "lastFetchAt": "2026-09-12T23:30:47.984Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -355,7 +355,7 @@
           "title": "Около 20% сотрудников «дочки» производителя микроэлектроники «Элемент» предложили уволиться по собственному желанию — «Ъ»",
           "summary": "В группе говорят, что в «Нанотроника» проходят кадровые изменения, связанные «с адаптацией к реализуемым и запланированным проектам».",
           "url": "https://vc.ru/hr/3133823-kadrovye-izmeneniya-v-nanotronika-uvolneniya-sotrudnikov-kompanii?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3133823/1789235807/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3133823/1789255847/cover.jpg",
           "publishedAt": "2026-09-11T18:29:12.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -367,7 +367,7 @@
           "title": "Минэкономразвития объявило о льготных кредитах для продавцов, пострадавших от атак на склады Wildberries",
           "summary": "Программу реализуют МЭР, ЦБ и Корпорация МСП.",
           "url": "https://vc.ru/marketplace/3133609-lgotnye-kredity-dlya-prodavtsov-wildberries?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3133609/1789235809/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3133609/1789255847/cover.jpg",
           "publishedAt": "2026-09-11T13:34:05.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -459,7 +459,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-09-12T17:56:54.797Z",
+      "lastFetchAt": "2026-09-12T23:30:51.115Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -467,7 +467,19 @@
       "slug": "medicine",
       "articles": [
         {
-          "id": "medicine-0-1789215645000",
+          "id": "medicine-0-1789249104000",
+          "title": "Онкологический диагноз и медицинская документация: обязательные точки контроля",
+          "summary": "Как организовать работу с онкологическим диагнозом в медицинской документации: точки контроля, источники, прослеживаемость и роль консилиума. Сообщение Онкологический диагноз и медицинская документация: обязательные точк",
+          "url": "https://medrussia.org/66536-onkologicheskiy-diagnoz-i-meditsinskaya-dokumentatsiya-kontrol/",
+          "image": "https://medrussia.org/wp-content/uploads/2026/09/clin-011-onkologicheskiy-diagnoz-meditsinskaya-dokumentatsiya.webp",
+          "publishedAt": "2026-09-12T21:38:24.000Z",
+          "source": "МедРоссия",
+          "categoryId": "medicine",
+          "categoryName": "Медицина",
+          "categorySlug": "medicine"
+        },
+        {
+          "id": "medicine-1-1789215645000",
           "title": "Вакцинопрофилактика детей: как врачу сверять календарь и противопоказания",
           "summary": "Рабочая схема для врача: как сверять Национальный календарь профилактических прививок, эпидемические показания, документацию и противопоказания к конкретному препарату. Сообщение Вакцинопрофилактика детей: как врачу свер",
           "url": "https://medrussia.org/66532-vakcinoprofilaktika-detei-kalendar-protivopokazaniya/",
@@ -479,7 +491,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-1-1789188353000",
+          "id": "medicine-2-1789188353000",
           "title": "Молекулярно-генетические исследования в онкологии: когда они влияют на тактику",
           "summary": "Когда молекулярно-генетическое исследование опухоли меняет тактику: клинический вопрос, выбор материала и метода, интерпретация результата и решение консилиума. Сообщение Молекулярно-генетические исследования в онкологии",
           "url": "https://medrussia.org/66530-molekulyarno-geneticheskie-issledovaniya-v-onkologii-taktika/",
@@ -491,7 +503,7 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-2-1789181475000",
+          "id": "medicine-3-1789181475000",
           "title": "Неонатальный скрининг в России: организация, этапы и официальные источники",
           "summary": "Как организован неонатальный скрининг в России: этапы от забора образца до подтверждающей диагностики, роли участников и официальные документы для проверки актуальности. Сообщение Неонатальный скрининг в России: организа",
           "url": "https://medrussia.org/66525-neonatalnyy-skrining-v-rossii-organizatsiya-etapy-istochniki/",
@@ -503,24 +515,12 @@
           "categorySlug": "medicine"
         },
         {
-          "id": "medicine-3-1789174814000",
+          "id": "medicine-4-1789174814000",
           "title": "Онкологическая помощь в ОМС: уровни маршрутизации и документы",
           "summary": "Как медицинской организации организовать маршрутизацию при онкологических заболеваниях в системе ОМС: уровни помощи, документы, контрольные точки и источники для сверки. Сообщение Онкологическая помощь в ОМС: уровни марш",
           "url": "https://medrussia.org/66522-onkologicheskaya-pomoshch-v-oms-marshrutizatsiya-i-dokumenty/",
           "image": "https://medrussia.org/wp-content/uploads/2026/09/clin-007-oncology-oms-routing.jpg",
           "publishedAt": "2026-09-12T01:00:14.000Z",
-          "source": "МедРоссия",
-          "categoryId": "medicine",
-          "categoryName": "Медицина",
-          "categorySlug": "medicine"
-        },
-        {
-          "id": "medicine-4-1789148596000",
-          "title": "Суд отказал медикам подмосковной скорой в пересмотре условий труда",
-          "summary": "Суд отказал медикам подмосковной скорой в пересмотре условий труда Мытищинский городской суд отказал сотрудникам четырёх подстанций Московской областной станции скорой медицинской помощи в иске о пересмотре результатов с",
-          "url": "https://medrussia.org/66520-sud-otkazal-medikam-podmoskovnoy-skoroy-v-peresmotre-usloviy-truda/",
-          "image": "https://medrussia.org/wp-content/uploads/2026/09/featured-generated-4.webp",
-          "publishedAt": "2026-09-11T17:43:16.000Z",
           "source": "МедРоссия",
           "categoryId": "medicine",
           "categoryName": "Медицина",
@@ -563,7 +563,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-09-12T17:57:08.647Z",
+      "lastFetchAt": "2026-09-12T23:31:01.275Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -879,7 +879,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-09-12T17:57:15.584Z",
+      "lastFetchAt": "2026-09-12T23:31:03.764Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -949,7 +949,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-09-12T17:57:19.957Z",
+      "lastFetchAt": "2026-09-12T23:31:08.726Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -957,11 +957,23 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1789227000000",
+          "id": "entertainment-0-1789241574000",
+          "title": "Режиссер-иноагент Хржановский получил «Серебряного льва» Венецианского фестиваля // Объявлены победители 83-го Венецианского кинофестиваля",
+          "summary": "Фильм «Женщина неизвестна» датского режиссера Май эль-Туки удостоен «Золотого льва» Венецианского кинофестиваля. «Серебряного льва» за лучшую режиссуру получил Илья Хржановский (признан в России иноагентом) за картину «Д",
+          "url": "https://www.kommersant.ru/doc/8953530",
+          "image": "https://iv.kommersant.ru/SocialPics/8953530_49_3204034_307508720",
+          "publishedAt": "2026-09-12T19:32:54.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1789227000000",
           "title": "Заслуженный артист России Сергей Бельский умер в 67 лет",
           "summary": "Заслуженный артист России Сергей Аркадьевич Бельский умер в возрасте 67 лет. Об этом сообщили в Липецком академическом театре драмы имени Л.",
           "url": "https://www.kommersant.ru/doc/8953504",
-          "image": "https://iv.kommersant.ru/SocialPics/8953504_49_0_62586465",
+          "image": "https://im2.kommersant.ru/SocialPics/8953504_49_0_62586465",
           "publishedAt": "2026-09-12T15:30:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -969,11 +981,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1789218725000",
+          "id": "entertainment-2-1789218725000",
           "title": "Умер продюсер «Последнего императора» и «Маленького будды» Джереми Томас",
           "summary": "Британский продюсер, лауреат «Оскара» и основатель кинокомпаний Recorded Picture Company и Hanway Films Джереми Томас умер в возрасте 77 лет. О его смерти сообщает журнал «A Rabbit's Foot», главный редактор которого, Чар",
           "url": "https://www.kommersant.ru/doc/8953465",
-          "image": "https://iv.kommersant.ru/SocialPics/8953465_49_3203962_1488569302",
+          "image": "https://im2.kommersant.ru/SocialPics/8953465_49_3203962_1488569302",
           "publishedAt": "2026-09-12T13:12:05.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -981,7 +993,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1789146225000",
+          "id": "entertainment-3-1789146225000",
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 12–13 сентября",
           "summary": "10 сентября в прокат вышел ряд фильмов, среди которых южнокорейский боевик про вторжение инопланетян «Надежда», а также средневековая драма с Эндрю Гарфилдом в главной роли «Восставший». Что посмотреть в кино на выходных",
           "url": "https://www.kommersant.ru/doc/8941306",
@@ -993,24 +1005,12 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-3-1789140222000",
+          "id": "entertainment-4-1789140222000",
           "title": "Удостоверение без личностей // Резонансный фильм «NAZA» и другие фавориты Венецианского фестиваля",
           "summary": "На Венецианском фестивале прошла последняя громкая премьера: показали израильский фильм «NAZA». Об этой картине и других вероятных претендентах на награды, которые будут вручены в субботу вечером, рассказывает Елена Плах",
           "url": "https://www.kommersant.ru/doc/8952900",
           "image": "https://iv.kommersant.ru/SocialPics/8952900_49_3203410_1451137209",
           "publishedAt": "2026-09-11T15:23:42.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1789138527000",
-          "title": "Церковь Англии поддержала выставку гобеленов с именами террористов из Газы",
-          "summary": "11 сентября в соборе Святого Петра в Лидсе открылась выставка «Вышьем их имена» в память о жертвах боевых действий в секторе Газа с октября 2023 года. Журналисты газеты The Times на подготовленных к выставке гобеленах с ",
-          "url": "https://www.kommersant.ru/doc/8952891",
-          "image": "https://im2.kommersant.ru/SocialPics/8952891_49_3203424_1937413285",
-          "publishedAt": "2026-09-11T14:55:27.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
