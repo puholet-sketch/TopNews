@@ -1,9 +1,20 @@
 {
-  "updatedAt": "2026-09-13T22:00:21.192Z",
-  "lastRunAt": "2026-09-13T22:00:21.192Z",
+  "updatedAt": "2026-09-13T23:53:44.234Z",
+  "lastRunAt": "2026-09-13T23:53:44.234Z",
   "totalCategories": 26,
   "fetchedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "mma",
+    "basketball"
+  ],
+  "skippedNow": [
     "it",
+    "cybersecurity",
     "business",
     "startups",
     "medicine",
@@ -11,22 +22,11 @@
     "gaming",
     "entertainment",
     "sports",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
-    "ai",
-    "cybersecurity",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
     "football-russia",
     "skiing",
-    "mma",
-    "basketball",
+    "politics",
+    "svo",
+    "security-services",
     "education",
     "realestate",
     "travel"
@@ -109,7 +109,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-09-13T17:07:08.622Z",
+      "lastFetchAt": "2026-09-13T23:53:22.051Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -117,9 +117,33 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1789318258000",
-          "title": "Перепеть песню и пересобрать код: почему это законно и что делать авторам в эпоху ИИ",
-          "summary": "В магазине играла \"та самая\" песня - но это была не она: та же композиция, переигранная заново и на два с половиной тона ниже. Авторское право защищает выражение, а не идею, - но пересборка не отменяет прав на само произ",
+          "id": "ai-0-1789323087000",
+          "title": "Нужна система, в которой ТЗ собирается из требований, а не пишется как структурированный документ",
+          "summary": "В одной крупной финансовой компании, где я работал системным аналитиком, технические задания оформляют не в Confluence и не в Word... Узнать секрет",
+          "url": "https://habr.com/ru/articles/1081788/?utm_campaign=1081788&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/fa1/683/3e6/fa16833e652a484bd7e3f6f4a9f561e8.png",
+          "publishedAt": "2026-09-13T18:11:27.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-1-1789320411000",
+          "title": "Reasoning Lock: ИИ‑агент в проде тратит токены и молчит — живой разбор бага",
+          "summary": "В прошлой статье я рассказывал о скрытом баге: ИИ‑агент в проде заказчика тратит токены, генерация закрывается со статусом «успех», а клиенту уезжает пустая строка. Тогда я обещал разобраться и починить. Обещание выполне",
+          "url": "https://habr.com/ru/articles/1081780/?utm_campaign=1081780&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/76f/2be/71d/76f2be71dacdd0dd66701bfe22897b42.png",
+          "publishedAt": "2026-09-13T17:26:51.000Z",
+          "source": "Хабр",
+          "categoryId": "ai",
+          "categoryName": "Искусственный интеллект",
+          "categorySlug": "ai"
+        },
+        {
+          "id": "ai-2-1789318258000",
+          "title": "Перепеть песню и пересобрать код: почему это законно и что делать авторам в эпоху ИИ",
+          "summary": "В магазине играла «та самая» песня — но это была не она: та же композиция, переигранная заново и на два с половиной тона ниже. Авторское право защищает выражение, а не идею, — но пересборка не отменяет прав на само произ",
           "url": "https://habr.com/ru/articles/1081768/?utm_campaign=1081768&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/197/442/2be/1974422be7e25af415270232a728bed2.png",
           "publishedAt": "2026-09-13T16:50:58.000Z",
@@ -129,19 +153,7 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1789317536000",
-          "title": "Видеоаналитика на промышленном объекте: почему большинство внедрений разочаровывают и как сделать правильно (дубль)",
-          "summary": "В этой статье — не маркетинг и не обзор рынка. Личный опыт, реальные цифры и честный разговор о том, почему большинство внедрений не работают так, как обещают. Читать далее",
-          "url": "https://habr.com/ru/articles/1081772/?utm_campaign=1081772&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/f81/1f7/ae1/f811f7ae1e73618e7c6befc46e532d3b.jpg",
-          "publishedAt": "2026-09-13T16:38:56.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-2-1789315682000",
+          "id": "ai-3-1789315682000",
           "title": "Пределы сложности искусственного интеллекта и физические основания жизни",
           "summary": "Физические особенности биологических систем позволяют сделать выводы о перспективах искусственного интеллекта. Читать далее",
           "url": "https://habr.com/ru/articles/1081764/?utm_campaign=1081764&utm_source=habrahabr&utm_medium=rss",
@@ -153,24 +165,12 @@
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1789315226000",
-          "title": "Как я делаю ИИ-память из переписки в Telegram: десятки тысяч сообщений, тысячи фактов, сотни людей",
+          "id": "ai-4-1789315226000",
+          "title": "Как я делаю ИИ‑память из переписки в Telegram: десятки тысяч сообщений, тысячи фактов, сотни людей",
           "summary": "Ночью, около двух по московскому времени, сервер просыпается и запускает конвейер. Сначала сервис идёт в Telegram и скачивает новые сообщения из чатов, которые пользователь отметил галочками. Через час стартует второй во",
           "url": "https://habr.com/ru/articles/1081382/?utm_campaign=1081382&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/getpro/habr/upload_files/f67/0a2/1ba/f670a21bab90cfc2a2ad515bd979880a.png",
           "publishedAt": "2026-09-13T16:00:26.000Z",
-          "source": "Хабр",
-          "categoryId": "ai",
-          "categoryName": "Искусственный интеллект",
-          "categorySlug": "ai"
-        },
-        {
-          "id": "ai-4-1789314592000",
-          "title": "Отличи меня, если сможешь! Как дипфейки меняют современный наем в ИТ (и не только)",
-          "summary": "Вектором для кибератак все чаще становятся обычные собеседования. Злоумышленники используют дипфейки, чтобы выдавать себя за реальных кандидатов и рекрутеров, или распространяют зловреды под видом тестовых заданий — прис",
-          "url": "https://habr.com/ru/companies/beeline_cloud/articles/1081756/?utm_campaign=1081756&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/114/0da/e73/1140dae73065b309335aefcb6b06913d.jpg",
-          "publishedAt": "2026-09-13T15:49:52.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -389,7 +389,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-09-13T17:07:14.822Z",
+      "lastFetchAt": "2026-09-13T23:53:22.855Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -529,7 +529,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-09-13T17:07:22.333Z",
+      "lastFetchAt": "2026-09-13T23:53:24.236Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -579,18 +579,6 @@
           "url": "https://lenta.ru/news/2026/09/13/mer-nizhnekamska-rasskazal-o-sostoyanii-zdorovya-postradavshih-iz-za-ataki-bpla/",
           "image": "https://icdn.lenta.ru/images/2026/09/13/11/20260913112538513/pic_a6da4f9af2abf1f7a5a9951e3b70df67.jpg",
           "publishedAt": "2026-09-13T08:36:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "health",
-          "categoryName": "Здоровье",
-          "categorySlug": "health"
-        },
-        {
-          "id": "health-4-1789275615000",
-          "title": "Врач назвал неочевидную причину тромбоза",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/13/vrach-nazval-neochevidnuyu-prichinu-tromboza/",
-          "image": "https://icdn.lenta.ru/images/2026/09/12/18/20260912183053590/pic_60e28c0e8ce5b9d07c8ecf6de3aa5ece.jpg",
-          "publishedAt": "2026-09-13T05:00:15.000Z",
           "source": "Lenta.ru",
           "categoryId": "health",
           "categoryName": "Здоровье",
@@ -705,7 +693,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-09-13T17:07:42.602Z",
+      "lastFetchAt": "2026-09-13T23:53:32.438Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -713,48 +701,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1789318734000",
-          "title": "ЦБ докапитализирует дочернюю РНПК на 165 млрд руб. в связи с рисками диверсий",
-          "summary": "Объявленная Банком России докапитализация главного российского перестраховащика — Российской национальной перестраховочной компании (РНПК) — необходимый шаг в текущих условиях, уверены эксперты и участники рынка. Совокуп",
-          "url": "https://www.kommersant.ru/doc/8953798",
-          "image": "https://im2.kommersant.ru/SocialPics/8953798_49_0_1375173419",
-          "publishedAt": "2026-09-13T16:58:54.000Z",
+          "id": "energy-0-1789343387000",
+          "title": "Российские легкоатлеты призвали ООН допустить их к международным соревнованиям // Российские легкоатлеты попросили ООН, МОК и World Athletics допустить их на игры",
+          "summary": "Российские легкоатлеты написали письмо с просьбой допустить их на международные турниры. Авторы направили обращение в ООН, Международный олимпийский комитет (МОК) и Международную ассоциацию легкоатлетических федераций (W",
+          "url": "https://www.kommersant.ru/doc/8953861",
+          "image": "https://iv.kommersant.ru/SocialPics/8953861_49_0_192595043",
+          "publishedAt": "2026-09-13T23:49:47.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1789317805000",
-          "title": "При пожаре в Нижнем Новгороде погибла 94-летняя пенсионерка",
-          "summary": "В Нижнем Новгороде при пожаре в квартире жилого дома погибла 94-летняя женщина. Об этом сообщили в пресс-службе управления МЧС России по Нижегородской области.",
-          "url": "https://www.kommersant.ru/doc/8953793",
-          "image": "https://iv.kommersant.ru/SocialPics/8953793_49_0_547711862",
-          "publishedAt": "2026-09-13T16:43:25.000Z",
+          "id": "energy-1-1789342110000",
+          "title": "Bild: хакеры получили секретные документы Берлина об уязвимости перед дронами",
+          "summary": "Хакеры группировки Rhysida взломали внутреннюю сеть сената Берлина и выложили в открытый доступ конфиденциальные отчеты о критической уязвимости городской инфраструктуры перед беспилотниками. Об этом сообщает газета Bild",
+          "url": "https://www.kommersant.ru/doc/8953863",
+          "image": "https://im2.kommersant.ru/SocialPics/8953863_49_0_1251729262",
+          "publishedAt": "2026-09-13T23:28:30.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1789317350000",
-          "title": "У бывшего замдиректора «Роскосмоса» Фролова в СИЗО выявили рак четвертой стадии",
-          "summary": "“Ъ” стало известно о скандальной ситуации, сложившейся в резонансном уголовном деле о махинациях при создании барокомплекса для испытаний различных изделий в интересах космической, авиационной и атомной отраслей. Защита ",
-          "url": "https://www.kommersant.ru/doc/8953790",
-          "image": "https://iv.kommersant.ru/SocialPics/8953790_49_0_547603537",
-          "publishedAt": "2026-09-13T16:35:50.000Z",
+          "id": "energy-2-1789340113000",
+          "title": "«Троицу» Рублева изъяли из иконостаса из-за поломки климатической камеры // РПЦ сообщила о проверке состояния «Троицы» Андрея Рублева",
+          "summary": "Третьяковская галерея проверяет сохранность «Троицы» кисти Андрея Рублева, сообщила Русская православная церковь (РПЦ). До 2023 года икона XV века находилась в залах Третьяковки.",
+          "url": "https://www.kommersant.ru/doc/8953862",
+          "image": "https://im2.kommersant.ru/SocialPics/8953862_49_0_385764342",
+          "publishedAt": "2026-09-13T22:55:13.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1789316719000",
-          "title": "В прокат вышла комедия Филиппа Ларса о нелегком писательском житье «Соавторы»",
-          "summary": "Зрителю предлагается поверить в то, что одутловатый мужик, пялящийся в пустую компьютерную страницу,— писатель (Егор Корешков). Во-первых, у него красивый псевдоним — Игорь Ангелевский.",
-          "url": "https://www.kommersant.ru/doc/8953787",
-          "image": "https://im2.kommersant.ru/SocialPics/8953787_49_0_382151415",
-          "publishedAt": "2026-09-13T16:25:19.000Z",
+          "id": "energy-3-1789339079000",
+          "title": "Галузин: Европа не приемлет мысль о мирных решениях конфликта на Украине",
+          "summary": "Европа категорически не приемлет мысль о поиске мирного решения конфликта на Украине, заявил замминистра иностранных дел России Михаил Галузин. По словам господина Галузина, поставки Украине вооружений говорят о том, что",
+          "url": "https://www.kommersant.ru/doc/8953860",
+          "image": "https://im2.kommersant.ru/SocialPics/8953860_49_0_1963655608",
+          "publishedAt": "2026-09-13T22:37:59.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "energy",
+          "categoryName": "Энергетика",
+          "categorySlug": "energy"
+        },
+        {
+          "id": "energy-4-1789337800000",
+          "title": "Захарова прокомментировала слова Сикорского о быстрой победе над Россией",
+          "summary": "Официальный представитель МИД РФ Мария Захарова назвала «русофобией головного мозга» заявление министра иностранных дел Польши Радослава Сикорского о быстрой победе над Россией в случае ее нападения на страну. Об этом он",
+          "url": "https://www.kommersant.ru/doc/8953859",
+          "image": "https://im2.kommersant.ru/SocialPics/8953859_49_0_74410326",
+          "publishedAt": "2026-09-13T22:16:40.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -763,7 +763,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-09-13T17:07:43.523Z",
+      "lastFetchAt": "2026-09-13T23:53:33.547Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -833,7 +833,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-09-13T17:07:45.650Z",
+      "lastFetchAt": "2026-09-13T23:53:35.614Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1301,7 +1301,7 @@
       ]
     },
     "mma": {
-      "lastFetchAt": "2026-09-13T17:07:57.902Z",
+      "lastFetchAt": "2026-09-13T23:53:36.637Z",
       "intervalHours": 6,
       "source": "Sports.ru, MMA Fighting",
       "siteUrl": "https://www.sports.ru",
@@ -1309,7 +1309,19 @@
       "slug": "mma",
       "articles": [
         {
-          "id": "mma-0-1789315560000",
+          "id": "mma-0-1789322520000",
+          "title": "Ислам Махачев про борцовскую схватку с Берроузом: «Сейчас нет в планах отвлекаться, но в будущем бы поборолся»",
+          "summary": "Чемпион UFC Ислам Махачев рассказал, что будущем готов провести борцовскую схватку с олимпийским чемпионом Джорданом Берроузом.",
+          "url": "https://www.sports.ru/boxing/1117369989-islam-maxachev-pro-borczovskuyu-sxvatku-s-berrouzom-sejchas-net-v-plan.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-09-13T18:02:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-1-1789315560000",
           "title": "Хамзат Чимаев: «Сейчас время Евлоева. Чемпион UFC был у Дагестана и Чечни, сейчас будет у Ингушетии»",
           "summary": "Экс-чемпион UFC Хамзат Чимаев считает, что Мовсар Евлоев победит Алекса Волкановски в бою на UFC 333.",
           "url": "https://www.sports.ru/boxing/1117369841-xamzat-chimaev-sejchas-vremya-evloeva-chempion-ufc-byl-u-dagestana-i-c.html",
@@ -1321,7 +1333,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-1-1789309740000",
+          "id": "mma-2-1789309740000",
           "title": "Маурисио Руффи: «Царукян улетит в нокаут, если будет биться со мной в стойке»",
           "summary": "Боец UFC Маурисио Руффи пообещал нокаутировать Армана Царукяна на UFC 331, если тот будет драться с ним в стойке.",
           "url": "https://www.sports.ru/boxing/1117369671-maurisio-ruffi-czarukyan-uletit-v-nokaut-esli-budet-bitsya-so-mnoj-v-s.html",
@@ -1333,7 +1345,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-2-1789305720000",
+          "id": "mma-3-1789305720000",
           "title": "Конор Макгрегор раскритиковал Макса Холлоуэя: «Ты просил остановить бой, а не я»",
           "summary": "Экс-чемпион UFC Конор Макгрегор раскритиковал Макса Холлоуэя, который просил рефери остановить их бой на UFC 329 из-за травмы ирландца.",
           "url": "https://www.sports.ru/boxing/1117369568-konor-makgregor-raskritikoval-maksa-xolloueya-ty-prosil-ostanovit-boj-.html",
@@ -1345,7 +1357,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-3-1789303260000",
+          "id": "mma-4-1789303260000",
           "title": "Стример N3on подтвердил, что станет угловым Царукяна в бою с Руффи: «Мы с Чимаевым будем секундантами Армана»",
           "summary": "Стример N3on заявил, что будет одним из угловых Армана Царукяна в бою с Маурисио Руффи на UFC 331.",
           "url": "https://www.sports.ru/boxing/1117369515-strimer-n3on-podtverdil-chto-stanet-uglovym-czarukyana-v-boyu-s-ruffi-.html",
@@ -1357,7 +1369,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-4-1789300680000",
+          "id": "mma-5-1789300680000",
           "title": "Хамзат Чимаев: «У меня нет половины щитовидки, было 7 наркозов и 6 операций. Но жить-то надо»",
           "summary": "Экс-чемпион UFC Хамзат Чимаев рассказал о большом количестве травм по ходу карьеры.",
           "url": "https://www.sports.ru/boxing/1117369457-xamzat-chimaev-u-menya-net-poloviny-shhitovidki-bylo-7-narkozov-i-6-op.html",
@@ -1369,7 +1381,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-5-1789299720000",
+          "id": "mma-6-1789299720000",
           "title": "Тренер Илии Топурии опроверг слова Даны Уайта о возвращении: «Мы даже не начинали тренироваться»",
           "summary": "Хорхе Галло, тренер по физподготовке экс-чемпиона UFC Илии Топурии, опроверг слова президента промоушена Даны Уайта, который заявил, что Топурия готов вернуться к боям.",
           "url": "https://www.sports.ru/boxing/1117369438-trener-ilii-topurii-oproverg-slova-dany-uajta-o-vozvrashhenii-my-dazhe.html",
@@ -1381,24 +1393,12 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-6-1789296240000",
+          "id": "mma-7-1789296240000",
           "title": "Хамзат Чимаев: «Как только сказал UFC, что не хочу ждать, пока Стрикленд восстановится, они дали бой за пояс Имавову»",
           "summary": "Экс-чемпион UFC Хамзат Чимаев рассказал о переговорах с промоушеном о следующем бое.",
           "url": "https://www.sports.ru/boxing/1117369378-xamzat-chimaev-kak-tolko-skazal-ufc-chto-ne-xochu-zhdat-poka-striklend.html",
           "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
           "publishedAt": "2026-09-13T10:44:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "mma",
-          "categoryName": "MMA",
-          "categorySlug": "mma"
-        },
-        {
-          "id": "mma-7-1789294380000",
-          "title": "Ислам Махачев: «Царукян победит Руффи, а Усман Нурмагомедов найдет ключ к Арману»",
-          "summary": "Чемпион UFC Ислам Махачев считает, что Арман Царукян победит Маурисио Руффи в предстоящем бою.",
-          "url": "https://www.sports.ru/boxing/1117369347-islam-maxachev-czarukyan-pobedit-ruffi-a-usman-nurmagomedov-najdet-kly.html",
-          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
-          "publishedAt": "2026-09-13T10:13:00.000Z",
           "source": "Sports.ru",
           "categoryId": "mma",
           "categoryName": "MMA",
@@ -1673,7 +1673,7 @@
       ]
     },
     "basketball": {
-      "lastFetchAt": "2026-09-13T17:08:00.360Z",
+      "lastFetchAt": "2026-09-13T23:53:39.148Z",
       "intervalHours": 6,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1681,96 +1681,96 @@
       "slug": "basketball",
       "articles": [
         {
-          "id": "basketball-0-1789317540000",
-          "title": "Испания стала бронзовым призером женского чемпионата мира по баскетболу",
-          "summary": "Испания победила Германию в матче за третье место женского чемпионата мира по баскетболу-2026 — 81:58 (25:15, 15:21, 21:15, 20:7).",
-          "url": "https://www.sport-express.ru/basketball/world/zhenshchiny/news/ispaniya-germaniya-schet-i-rezultat-matcha-za-trete-mesto-zhenskogo-chempionata-mira-po-basketbolu-13-sentyabrya-2026-2454909/",
+          "id": "basketball-0-1789330140000",
+          "title": "ЧМ-2026 по баскетболу. Женщины. Финал. США обыграли Францию, завоевав пятый титул подряд",
+          "summary": "Сегодня определились призеры женского чемпионата мира по баскетболу.",
+          "url": "https://www.sports.ru/basketball/1117369375-chm-2026-po-basketbolu-zhenshhiny-final-ssha-sygrayut-protiv-franczii-.html",
+          "image": "https://s5o.ru/storage/simple/69/93/91/2013.10.09.20.24.34.140699391.1.jpg",
+          "publishedAt": "2026-09-13T20:09:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "basketball",
+          "categoryName": "Баскетбол",
+          "categorySlug": "basketball"
+        },
+        {
+          "id": "basketball-1-1789329000000",
+          "title": "Американские баскетболистки победили француженок и в 12-й раз стали чемпионками мира",
+          "summary": "Женская сборная США победила сборную Франции в финале чемпионата мира по баскетболу-2026 — 97:79.",
+          "url": "https://www.sport-express.ru/basketball/world/zhenshchiny/news/ssha-franciya-schet-i-rezultat-finala-zhenskogo-chempionata-mira-po-basketbolu-13-sentyabrya-2026-2454963/",
           "image": null,
-          "publishedAt": "2026-09-13T16:39:00.000Z",
+          "publishedAt": "2026-09-13T19:50:00.000Z",
           "source": "Спорт-Экспресс",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-1-1789316940000",
-          "title": "Обозреватель Джои Линн: «Клипперс» испытывают неуверенность и пытаются выйти из тени «Лейкерс»",
-          "summary": "Обозреватель Джои Линн считает, что «Клипперс» не ведут себя как «типичная профессиональная спортивная организация», поскольку испытывают неуверенность и пытаются выйти из тени «Лейкерс».",
-          "url": "https://www.sports.ru/basketball/1117369840-obozrevatel-dzhoi-linn-klippers-ispytyvayut-neuverennost-i-pytayutsya-.html",
-          "image": "https://s5o.ru/storage/simple/76/18/15/2013.10.07.15.28.46.71761815.1.jpg",
-          "publishedAt": "2026-09-13T16:29:00.000Z",
+          "id": "basketball-2-1789327800000",
+          "title": "Следите за главными инсайдами, эмоциями и мнениями",
+          "summary": "",
+          "url": "https://sprts.cc/pGts16g",
+          "image": "https://photobooth.cdn.sports.ru/preset/article/8/2e/679fc3ed248a7b346af9bc32e5148.gif",
+          "publishedAt": "2026-09-13T19:30:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-2-1789315260000",
-          "title": "Митчелл Робинсон: «Мне кажется, этот год будет для меня отличным»",
-          "summary": "Митчелл Робинсон рассчитывает провести свой лучший сезон за последние несколько лет после перехода в «Бостон».",
-          "url": "https://www.sports.ru/basketball/1117369803-mitchell-robinson-mne-kazhetsya-etot-god-budet-dlya-menya-otlichnym.html",
-          "image": "https://s5o.ru/storage/simple/95/27/68/2013.10.06.23.19.02.44952768.1.jpg",
-          "publishedAt": "2026-09-13T16:01:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "basketball",
-          "categoryName": "Баскетбол",
-          "categorySlug": "basketball"
-        },
-        {
-          "id": "basketball-3-1789314060000",
-          "title": "Дрэймонд Грин: «Карри и Йокич получают от продаж джерси столько же, сколько игрок во втором сезоне НБА»",
-          "summary": "Дрэймонд Грин рассказал, сколько игроки НБА получают от продаж джерси.",
-          "url": "https://www.sports.ru/basketball/1117369769-drejmond-grin-karri-i-jokich-poluchayut-ot-prodazh-dzhersi-stolko-zhe-.html",
-          "image": "https://s5o.ru/storage/simple/30/41/60/2013.10.10.23.26.13.144304160.1.jpg",
-          "publishedAt": "2026-09-13T15:41:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "basketball",
-          "categoryName": "Баскетбол",
-          "categorySlug": "basketball"
-        },
-        {
-          "id": "basketball-4-1789312800000",
-          "title": "Товарищеские матчи. «Црвена Звезда» уступила «Арису», «Олимпиакос» играет против «Маккаби Тель-Авив» и другие матчи",
-          "summary": "«Арис» взял верх над «Црвеной Звездой», «Олимпиакос» играет против «Маккаби Тель-Авив».",
+          "id": "basketball-3-1789324980000",
+          "title": "Товарищеские матчи. «Црвена Звезда» уступила «Арису», «Олимпиакос» победил «Маккаби Тель-Авив» и другие матчи",
+          "summary": "«Арис» взял верх над «Црвеной Звездой», «Олимпиакос» выиграл у «Маккаби Тель-Авив».",
           "url": "https://www.sports.ru/basketball/1117369447-tovarishheskie-matchi-czrvena-zvezda-vstretitsya-s-arisom-olimpiakos-s.html",
           "image": "https://s5o.ru/storage/simple/12/64/80/2013.10.09.02.11.10.130126480.1.jpg",
-          "publishedAt": "2026-09-13T15:20:00.000Z",
+          "publishedAt": "2026-09-13T18:43:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-5-1789312680000",
-          "title": "Баскетболистка Фролкина пропустит около двух месяцев",
-          "summary": "Игрок сборной России и курского «Динамо» Ольга Фролкина перенесла операцию на ахилловом сухожилии.",
-          "url": "https://www.sport-express.ru/basketball/news/basketbolistka-frolkina-propustit-okolo-dvuh-mesyacev-2454884/",
-          "image": null,
-          "publishedAt": "2026-09-13T15:18:00.000Z",
-          "source": "Спорт-Экспресс",
-          "categoryId": "basketball",
-          "categoryName": "Баскетбол",
-          "categorySlug": "basketball"
-        },
-        {
-          "id": "basketball-6-1789312440000",
-          "title": "Трент Форрест: «Фенербахче» – одна из лучших, если не лучшая, команд Европы»",
-          "summary": "Трент Форрест рассказал, почему без колебаний принял решение перейти из «Басконии» в «Фенербахче».",
-          "url": "https://www.sports.ru/basketball/1117369736-trent-forrest-fenerbaxche-odna-iz-luchshix-esli-ne-luchshaya-komand-ev.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/736/973/6/share/2c03e9_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-13T15:14:00.000Z",
+          "id": "basketball-4-1789324740000",
+          "title": "Ольга Фролкина перенесла плановую операцию на ахилле и пропустит около двух месяцев",
+          "summary": "Форвард сборной России и курского «Динамо» Ольга Фролкина перенесла плановую операцию на ахилловом сухожилии.",
+          "url": "https://www.sports.ru/basketball/1117370028-olga-frolkina-perenesla-planovuyu-operacziyu-na-axille-i-propustit-oko.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/002/8/share/bc99e8_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-13T18:39:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-7-1789311120000",
-          "title": "Норман Пауэлл назвал «Лейкерс» самой переоцененной командой НБА",
-          "summary": "Норман Пауэлл считает «Лейкерс» наиболее переоцененной командой НБА.",
-          "url": "https://www.sports.ru/basketball/1117369705-norman-pauell-nazval-lejkers-samoj-pereoczenennoj-komandoj-nba.html",
-          "image": "https://s5o.ru/storage/simple/17/15/63/2013.10.07.02.20.08.58171563.1.jpg",
-          "publishedAt": "2026-09-13T14:52:00.000Z",
+          "id": "basketball-5-1789323120000",
+          "title": "«Губка, которая впитывает информацию». Шон Маркс объяснил, почему «Нетс» выбрали Майкела Брауна на драфте",
+          "summary": "Генеральный менеджер «Бруклина» Шон Маркс рассказал, почему клуб выбрал Майкела Брауна под шестым номером на драфте НБА-2026.",
+          "url": "https://www.sports.ru/basketball/1117369944-gubka-kotoraya-vpityvaet-informacziyu-shon-marks-obyasnil-pochemu-nets.html",
+          "image": "https://s5o.ru/storage/simple/34/37/88/2013.10.06.23.43.47.46343788.1.jpg",
+          "publishedAt": "2026-09-13T18:12:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "basketball",
+          "categoryName": "Баскетбол",
+          "categorySlug": "basketball"
+        },
+        {
+          "id": "basketball-6-1789319700000",
+          "title": "Тайлер Дорси: «Хочу быть лучшим игроком Европы»",
+          "summary": "Защитник «Олимпиакоса» Тайлер Дорси рассказал о личных целях на новый сезон.",
+          "url": "https://www.sports.ru/basketball/1117369923-tajler-dorsi-xochu-byt-luchshim-igrokom-evropy.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/736/992/3/share/0949e4_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-13T17:15:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "basketball",
+          "categoryName": "Баскетбол",
+          "categorySlug": "basketball"
+        },
+        {
+          "id": "basketball-7-1789319100000",
+          "title": "Турнир памяти В.Е. Родионова. «Динамо-Владивосток» выиграло у «Автодора» в финале, «Самара» обыграла «Барнаул» в матче за 3-место",
+          "summary": "В Саратове завершился 3-й турнир памяти В.Е.",
+          "url": "https://www.sports.ru/basketball/1117369294-turnir-pamyati-ve-rodionova-samara-obygrala-barnaul-v-matche-za-3-mest.html",
+          "image": "https://s5o.ru/storage/simple/78/41/36/2013.10.08.06.23.14.92784136.1.jpg",
+          "publishedAt": "2026-09-13T17:05:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
