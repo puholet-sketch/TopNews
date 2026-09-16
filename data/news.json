@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-15T23:48:33.232Z",
-  "lastRunAt": "2026-09-15T23:48:33.232Z",
+  "updatedAt": "2026-09-16T02:03:49.342Z",
+  "lastRunAt": "2026-09-16T02:03:49.342Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "it",
     "business",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
     "sports",
-    "football-russia",
     "politics",
     "svo",
-    "security-services",
-    "education",
-    "realestate",
-    "travel"
+    "security-services"
   ],
   "skippedNow": [
+    "it",
     "ai",
     "cybersecurity",
+    "startups",
     "science",
+    "medicine",
     "health",
+    "environment",
     "energy",
     "space",
     "automotive",
+    "gaming",
+    "entertainment",
+    "football-russia",
     "skiing",
     "mma",
-    "basketball"
+    "basketball",
+    "education",
+    "realestate",
+    "travel"
   ],
   "failedNow": [
     {
@@ -249,7 +249,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-15T23:47:40.330Z",
+      "lastFetchAt": "2026-09-16T02:03:16.875Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1055,7 +1055,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-15T23:48:03.274Z",
+      "lastFetchAt": "2026-09-16T02:03:19.724Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1063,60 +1063,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1789515124000",
+          "id": "sports-0-1789523880000",
+          "title": "Ларионов про 1+4 Голдобина: «Стал выполнять те вещи, что от него требуют. Игра на партнера делает хоккеиста ярче»",
+          "summary": "Тренер СКА Игорь Ларионов оценил результативность Николая Голдобина . Нападающий армейцев набрал 5 (1+4) очков в матче Фонбет чемпионата КХЛ с «Шанхай Дрэгонс» (7:2). — Голдобин повторил личный рекорд — пять очков за мат",
+          "url": "https://www.sports.ru/hockey/1117372084-larionov-pro-14-goldobina-stal-vypolnyat-te-veshhi-chto-ot-nego-trebuy.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/208/4/share/1fc9c3_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-16T01:58:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-1-1789523160000",
+          "title": "Лав о 2:7 от СКА: «Шанхай» часто терял шайбы в средней зоне, соперник играл быстро»",
+          "summary": "Тренер « Шанхай Дрэгонс » Митч Лав оценил поражение от СКА (2:7) в Фонбет Чемпионате КХЛ. — Тяжелый вечер для нас. Мы смотрели, разбирали игры СКА. То, что видели, то команда и показала. Им не нужно большого количества м",
+          "url": "https://www.sports.ru/hockey/1117372083-lav-o-27-ot-ska-shanxaj-chasto-teryal-shajby-v-srednej-zone-sopernik-i.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/208/3/share/1c84e7_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-16T01:46:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-2-1789522440000",
+          "title": "Де Дзерби про 1:3 с «Ливерпулем»: «Тоттенхэм» играл очень хорошо. Нам нужен переломный момент, верю в своих игроков»",
+          "summary": "Тренер « Тоттенхэма » Роберто Де Дзерби оценил поражение от « Ливерпуля » (1:3) в 3-м раунде Кубка английской лиги. «У нас были голевые моменты, чтобы победить. Сейчас непростой период, но я верю в своих игроков и пять м",
+          "url": "https://www.sports.ru/football/1117372082-de-dzerbi-pro-13-s-liverpulem-tottenxem-igral-ochen-xorosho-nam-nuzhen.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/208/2/share/b8294d_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-16T01:34:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-3-1789521180000",
+          "title": "«Соболев заслужил вызов в сборную. «Зенит» начинает зависеть от его голов». Точилин о форварде",
+          "summary": "Александр Точилин оценил вызов форварда «Зенита» Александра Соболева в сборную России. Россияне под руководством тренера Валерия Карпина в ближайшее время проведет товарищеские матчи с Ираном, Намибией и Нигерией. – Наск",
+          "url": "https://www.sports.ru/football/1117372080-sobolev-zasluzhil-vyzov-v-sbornuyu-zenit-nachinaet-zaviset-ot-ego-golo.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/208/0/share/0e707e_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-16T01:13:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-4-1789515124000",
           "title": "Пуэбла  Толука: смотреть онлайн прямую трансляцию матча, 16 сентября 2026",
           "summary": "В среду, 16 сентября, сыграют Пуэбла и Толука в рамках высшей лиги Мексики. ➡ Бесплатные трансляции топовых матчей от Winline Начало встречи запланировано на 04:00 по московскому времени. Где смотреть матч Пуэбла — Толук",
           "url": "https://www.sports.ru/football/1117372073-puebla-toluka-smotret-onlajn-pryamuyu-translyacziyu-matcha-16-sentyabr.html",
           "image": "https://www.sports.ru/dynamic_images/news/111/737/207/3/share/1fc4b1_no_logo_no_text.jpg",
           "publishedAt": "2026-09-15T23:32:04.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-1-1789513380000",
-          "title": "Алиадьер из всех игроков мира взял бы в «Арсенал» Хвичу: «Сначала думал про Мбаппе, но будет ли он работать на команду? А Кварацхелия – это была бы фантастика»",
-          "summary": "Жереми Алиадьер выбрал одного футболиста, которого хотел бы видеть в « Арсенале ». «Это сложный вопрос. Я по-настоящему верю в то, что команда должна быть сбалансированной и с хорошей атмосферой в раздевалке, чтобы преус",
-          "url": "https://www.sports.ru/football/1117372069-aliader-iz-vsex-igrokov-mira-vzyal-by-v-arsenal-xvichu-snachala-dumal-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/206/9/share/caadbd_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-15T23:03:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-2-1789513320000",
-          "title": "У Винисиуса и Моуринью прочерк за игру с «Эльче» от Marca. У Эспи 3 звезды, у Мбаппе, Беллингема, Диоманде, Гюлера – 2",
-          "summary": "Испанская газета Marca оценила выступление игроков и тренеров в матче «Эльче» – «Реал» (2:3) в 6-м туре Ла Лиги . Самую высокую оценку (3 звезды) получил форвард «сливочных» Карлос Эспи, вышедший на замену на 86-й минуте",
-          "url": "https://www.sports.ru/football/1117372072-u-vinisiusa-i-mourinyu-procherk-za-igru-s-elche-ot-marca-u-espi-3-zvez.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/207/2/share/0b4265_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-15T23:02:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1789512480000",
-          "title": "Винисиус после 3:2 с «Эльче»: «Мои голы скоро вернутся, я не могу столько промахиваться! В воскресенье ожидайте большего»",
-          "summary": "Винисиус пообещал, что его голы скоро вернутся. Вингер «Реала» не забивает 5 матчей подряд. Сегодня мадридцы победили « Эльче » в 6-м туре Ла Лиги (3:2), бразильца заменили на 68-й минуте. «Мои голы скоро вернутся. Я не ",
-          "url": "https://www.sports.ru/football/1117372067-vinisius-posle-32-s-elche-moi-goly-skoro-vernutsya-ya-ne-mogu-stolko-p.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/206/7/share/c4308b_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-15T22:48:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1789512360000",
-          "title": "Тебас о ТВ «Реала»: «То, как они строят из себя жертву, неуместно. У них во всем виноваты другие, а сами они – никогда. Я мог бы сказать, почему у команды меньше очков, но не буду»",
-          "summary": "Президент Ла Лиги Хавьер Тебас высказался о критике, которая звучит в адрес судей от ведущих Real Madrid TV . «То, как они строят из себя жертву, неуместно. Они жалуются не только на то, что происходит с ними, но и на то",
-          "url": "https://www.sports.ru/football/1117372063-tebas-o-tv-reala-to-kak-oni-stroyat-iz-sebya-zhertvu-neumestno-u-nix-v.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/206/3/share/a0d00c_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-15T22:46:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1419,7 +1419,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-15T23:48:08.064Z",
+      "lastFetchAt": "2026-09-16T02:03:21.225Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1427,60 +1427,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1789515890000",
-          "title": "Американский дальнобойщик раскрыл правду о своей зарплате",
+          "id": "politics-0-1789523880000",
+          "title": "Шансы найти Усольцевых оценили",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/16/amerikanskiy-dalnoboyschik-raskryl-pravdu-o-svoey-zarplate/",
-          "image": "https://icdn.lenta.ru/images/2026/09/14/16/20260914165712456/pic_de52b3c20b036fb41ad59f3f0dc4333a.jpg",
-          "publishedAt": "2026-09-15T23:44:50.000Z",
+          "url": "https://lenta.ru/news/2026/09/16/shansy-nayti-usoltsevyh-otsenili/",
+          "image": "https://icdn.lenta.ru/images/2026/09/16/04/20260916043414324/pic_bfa6a4695a8c801bf413c1855b9a84f9.jpg",
+          "publishedAt": "2026-09-16T01:58:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1789515060000",
-          "title": "Директор Долиной обратился к ищущим подвох в переносе концерта певицы",
+          "id": "politics-1-1789523745000",
+          "title": "В польском сейме произошел скандал из-за проукраинской журналистки",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/16/direktor-dolinoy-obratilsya-k-ischuschim-podvoh-v-perenose-kontserta-pevitsy/",
-          "image": "https://icdn.lenta.ru/images/2026/09/16/02/20260916022425079/pic_3f5ed47a1f9eb86a9984c1066823a171.jpg",
-          "publishedAt": "2026-09-15T23:31:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/16/v-polskom-seyme-proizoshel-skandal-iz-za-proukrainskoy-zhurnalistki/",
+          "image": "https://icdn.lenta.ru/images/2026/09/16/04/20260916045353707/pic_b3b88150f0b144a68728dbe71e1e4e54.jpg",
+          "publishedAt": "2026-09-16T01:55:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1789515039000",
-          "title": "25-летняя учительница совратила 15-летнего школьника у него дома",
+          "id": "politics-2-1789522916000",
+          "title": "Экс-премьер Украины назвал причину замалчивания коррупции Зеленского Западом",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/16/25-letnyaya-uchitelnitsa-sovratila-15-letnego-shkolnika-u-nego-doma/",
-          "image": "https://icdn.lenta.ru/images/2026/09/15/13/20260915133828568/pic_547d380a53c2512faa072244b2718405.jpg",
-          "publishedAt": "2026-09-15T23:30:39.000Z",
+          "url": "https://lenta.ru/news/2026/09/16/eks-premier-ukrainy-nazval-prichinu-zamalchivaniya-korruptsii-zelenskogo-zapadom/",
+          "image": "https://icdn.lenta.ru/images/2026/09/16/04/20260916044149704/pic_63c4695806696047931bb618556abfa6.jpg",
+          "publishedAt": "2026-09-16T01:41:56.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1789514760000",
-          "title": "Мировым ценам на нефть предрекли взлет",
+          "id": "politics-3-1789522300000",
+          "title": "Сидни Суини снялась в нижнем белье на фоне скандала с голой фотосессией",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/16/mirovym-tsenam-na-neft-predrekli-vzlet/",
-          "image": "https://icdn.lenta.ru/images/2026/09/16/02/20260916022545621/pic_1fa640c5fdf7aeaa183f18e70c9463fa.jpg",
-          "publishedAt": "2026-09-15T23:26:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/16/sidni-suini-snyalas-v-nizhnem-belie-na-fone-skandala-s-goloy-fotosessiey/",
+          "image": "https://icdn.lenta.ru/images/2026/09/15/15/20260915154643060/pic_77d185b10eb3a4ba84b0817152177bfe.jpg",
+          "publishedAt": "2026-09-16T01:31:40.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1789513870000",
-          "title": "Россиянам назвали самый продуктивный день недели",
+          "id": "politics-4-1789521753000",
+          "title": "КВО сочли «незаменимым инструментом» воздушной разведки ВС России",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/16/rossiyanam-nazvali-samyy-produktivnyy-den-nedeli/",
-          "image": "https://icdn.lenta.ru/images/2026/09/16/02/20260916020917868/pic_e9790075be109e67b955b0397f21f2a6.jpg",
-          "publishedAt": "2026-09-15T23:11:10.000Z",
+          "url": "https://lenta.ru/news/2026/09/16/kvo-sochli-nezamenimym-instrumentom-vozdushnoy-razvedki-vs-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/15/11/20260915111206461/pic_df1f91d3e2fac482bac3409e366aa5e8.jpg",
+          "publishedAt": "2026-09-16T01:22:33.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1778,7 +1778,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-15T23:48:16.330Z",
+      "lastFetchAt": "2026-09-16T02:03:31.529Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1786,7 +1786,31 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1789512180000",
+          "id": "svo-0-1789520189000",
+          "title": "В волчанском котле ликвидированы сотни солдат ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/16/v-volchanskom-kotle-likvidirovali-okolo-500-soldat-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/16/03/20260916035909842/pic_82bfaf019772c73a3a79d640b10a0a45.jpg",
+          "publishedAt": "2026-09-16T00:56:29.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1789517700000",
+          "title": "Кибератака нарушила работу поставщика военных товаров для ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/16/kiberataka-narushila-rabotu-postavschika-voennyh-tovarov-dlya-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/16/03/20260916031451151/pic_c558aa6d91d0b5c171149f4f36f6cb72.jpg",
+          "publishedAt": "2026-09-16T00:15:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1789512180000",
           "title": "Раскрыт новый прием российских беспилотников против ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/16/raskryt-novyy-priem-rossiyskih-bespilotnikov-protiv-vsu/",
@@ -1798,7 +1822,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1789510794000",
+          "id": "svo-3-1789510794000",
           "title": "Пророссийский хакер заблокировал серверы поставщика военных товаров для ВСУ",
           "summary": "",
           "url": "https://ria.ru/20260916/khaker-2117916000.html",
@@ -1810,7 +1834,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1789507330000",
+          "id": "svo-4-1789507330000",
           "title": "Артиллеристы ВС России уничтожили 15 боевиков ВСУ",
           "summary": "",
           "url": "https://ria.ru/20260916/spetsoperatsiya-2117914145.html",
@@ -1822,7 +1846,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-3-1789505707000",
+          "id": "svo-5-1789505707000",
           "title": "Эксмо-АСТ потеряла 400 млн рублей из-за атак БПЛА на склады маркетплейсов",
           "summary": "Потери издательской группы «Эксмо-АСТ» из-за атак БПЛА на склады маркетплейсов составили около 400 млн руб. Об этом сообщил президент издательской группы Олег Новиков.",
           "url": "https://www.kommersant.ru/doc/8955689",
@@ -1834,7 +1858,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-4-1789502671000",
+          "id": "svo-6-1789502671000",
           "title": "Украина планирует потратить на ВСУ почти 44 процентов ВВП в следующем году",
           "summary": "",
           "url": "https://ria.ru/20260915/ukraina-2117908871.html",
@@ -1846,7 +1870,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-5-1789502640000",
+          "id": "svo-7-1789502640000",
           "title": "Россиянин погиб при сбросе взрывчатки с беспилотника ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/15/rossiyanin-pogib-pri-sbrose-vzryvchatki-s-bespilotnika-vsu/",
@@ -1856,35 +1880,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1789501680000",
-          "title": "Мирный житель погиб в результате атаки БПЛА в Белгородской области",
-          "summary": "Мирный житель погиб в результате взрывного устройства с беспилотника в Грайворонском округе, сообщил оперативный штаб Белгородской области во вторник.\"В селе Смородино вследствие сброса взрывного устройства с беспилотник",
-          "url": "https://www.interfax.ru/russia/1116298",
-          "image": "https://www.interfax.ru/aspimg/1116298.jpg",
-          "publishedAt": "2026-09-15T19:48:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1789500530000",
-          "title": "В Грайворонском округе мирный житель погиб при атаке ВСУ",
-          "summary": "",
-          "url": "https://ria.ru/20260915/vsu-2117907226.html",
-          "image": "https://cdnn21.img.ria.ru/images/07ea/08/0e/2110898446_0:141:3140:1907_650x0_80_0_0_765eb71b47caaed0d4566cb08aae9b8e.jpg",
-          "publishedAt": "2026-09-15T19:28:50.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-15T23:48:24.288Z",
+      "lastFetchAt": "2026-09-16T02:03:44.166Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1920,7 +1920,7 @@
           "title": "Минобороны сообщило об ударе по поезду с грузами для ВСУ в порту Южный",
           "summary": "Российские войска нанесли удар по железнодорожному составу в порту Южный в момент погрузки грузов, предназначенных для Вооруженных сил Украины. Об этом сообщили в Минобороны России.",
           "url": "https://www.kommersant.ru/doc/8955630",
-          "image": "https://iv.kommersant.ru/SocialPics/8955630_49_0_1404891221",
+          "image": "https://im2.kommersant.ru/SocialPics/8955630_49_0_1404891221",
           "publishedAt": "2026-09-15T17:36:57.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1928,23 +1928,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1789493460000",
-          "title": "Российские военные за день сбили 22 беспилотника",
-          "summary": "Российские военные с 8:00 до 20:00 по московскому времени перехватили и уничтожили 22 беспилотника самолетного типа, сообщило Минобороны.",
-          "url": "https://www.interfax.ru/russia/1116287",
-          "image": "https://www.interfax.ru/aspimg/1116287.jpg",
-          "publishedAt": "2026-09-15T17:31:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-4-1789481126000",
+          "id": "security-services-3-1789481126000",
           "title": "Минобороны Италии связало сбитый в Литве дрон с Россией // Министр обороны Италии Крозетто: сбитый в Литве беспилотник мог быть российским",
           "summary": "Министр обороны Италии Гвидо Крозетто допустил, что сбитый ночью в воздушном пространстве Литвы беспилотник связан с Россией. БПЛА перехватили итальянские истребители, участвующие в миссии НАТО по противовоздушной оборон",
           "url": "https://www.kommersant.ru/doc/8955435",
-          "image": "https://im2.kommersant.ru/SocialPics/8955435_49_3206309_1654371303",
+          "image": "https://iv.kommersant.ru/SocialPics/8955435_49_3206309_1654371303",
           "publishedAt": "2026-09-15T14:05:26.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1952,19 +1940,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1789480259000",
-          "title": "Минобороны показало видео удара по «Ягодину»",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/15/minoborony-pokazalo-video-udara-po-yagodinu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/15/16/20260915164629602/pic_739b659f94b105793e50dffd2fb74736.jpg",
-          "publishedAt": "2026-09-15T13:50:59.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-6-1789464334000",
+          "id": "security-services-4-1789464334000",
           "title": "Российский БПЛА ударил по пункту пропуска «Ягодин» на границе Украины и Польши // Минобороны РФ: БПЛА «Герань» поразил пункт пропуска «Ягодин» на западе Украины",
           "summary": "Российские войска нанесли удар по международному автомобильному пункту пропуска «Ягодин» в Волынской области Украины на границе с Польшей. Об этом заявили в Минобороны РФ.",
           "url": "https://www.kommersant.ru/doc/8955113",
@@ -1976,12 +1952,36 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-7-1789461508000",
+          "id": "security-services-5-1789461508000",
           "title": "ФСБ: осужденный на 12 лет частный детектив сотрудничал со спецслужбами Украины",
           "summary": "Вступил в силу приговор президенту некоммерческого партнерства «Международное объединение частных детективов» Андрею Матушкину. В июле суд Санкт-Петербурга назначил ему 12 лет колонии строгого режима за госизмену.",
           "url": "https://www.kommersant.ru/doc/8955044",
-          "image": "https://im2.kommersant.ru/SocialPics/8955044_49_0_1613592918",
+          "image": "https://iv.kommersant.ru/SocialPics/8955044_49_0_1613592918",
           "publishedAt": "2026-09-15T08:38:28.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-6-1789460323000",
+          "title": "СВР: спецслужбы НАТО не подтвердили причастность России к инциденту в Лейпциге",
+          "summary": "Спецслужбы государств НАТО изучили обстоятельства инцидента с БПЛА в аэропорту Лейпцига и не нашли доказательств причастности России. Об этом сообщило пресс-бюро Службы внешней разведки (СВР) РФ.",
+          "url": "https://www.kommersant.ru/doc/8955017",
+          "image": "https://im2.kommersant.ru/SocialPics/8955017_49_0_875296294",
+          "publishedAt": "2026-09-15T08:18:43.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-7-1789459601000",
+          "title": "Российская армия взяла харьковскую Ольховатку // Минобороны: ВС РФ взяли под контроль Ольховатку в Харьковской области",
+          "summary": "Российские подразделения в зоне СВО взяли под контроль населенный пункт Ольховатка в Харьковской области. Об этом сообщили в Минобороны РФ.",
+          "url": "https://www.kommersant.ru/doc/8955019",
+          "image": "https://iv.kommersant.ru/SocialPics/8955019_49_0_729095351",
+          "publishedAt": "2026-09-15T08:06:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
