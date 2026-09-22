@@ -105,7 +105,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 export function getCategoryColor(slug: string): string {
-  return CATEGORY_COLORS[slug] || "#0b5fff";
+  return CATEGORY_COLORS[slug] || "#ff3d1f";
 }
 
 export function getHealth(): HealthReport | null {

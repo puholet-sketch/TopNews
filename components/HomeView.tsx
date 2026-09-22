@@ -38,9 +38,36 @@ export function HomeView({ articles, sources, updatedAt, buckets }: HomeViewProp
   const lead = visible[0];
   const side = visible.slice(1, 4);
   const latest = visible.slice(4, 13);
+  const prioritySlugs = [
+    "football-russia",
+    "basketball",
+    "skiing",
+    "mma",
+    "svo",
+    "security-services",
+    "environment",
+    "it",
+    "sports",
+    "politics",
+  ];
   const topicBuckets = topicSlug
     ? buckets.filter((bucket) => bucket.category.slug === topicSlug)
-    : buckets.slice(0, 8);
+    : [
+        ...prioritySlugs
+          .map((slug) => buckets.find((bucket) => bucket.category.slug === slug))
+          .filter(Boolean),
+        ...buckets.filter((bucket) => !prioritySlugs.includes(bucket.category.slug)),
+      ]
+        .filter(
+          (
+            bucket,
+            index,
+            list
+          ): bucket is { category: SourceCategory; articles: NewsArticle[] } =>
+            Boolean(bucket) &&
+            list.findIndex((item) => item?.category.id === bucket?.category.id) === index
+        )
+        .slice(0, 10);
 
   function pickTopic(slug: string) {
     setTopicSlug(slug);
@@ -51,11 +78,11 @@ export function HomeView({ articles, sources, updatedAt, buckets }: HomeViewProp
     <>
       <section className="hero">
         <div className="container">
-          <p className="hero-kicker">Автоагрегатор · {sources.length} тем</p>
-          <h1>Свежие новости на русском</h1>
+          <p className="hero-kicker">Live RSS · {sources.length} тем</p>
+          <h1>TopNews</h1>
           <p className="hero-lead">
-            Топ материалов по каждой теме — IT, экология, футбол России, лыжи, MMA и ещё{" "}
-            {Math.max(sources.length - 5, 0)} направлений. Сбор каждые 2–24 часа.
+            Свежая лента по спорту, СВО, IT и экологии — автосбор каждые 2–24 часа,
+            без ручной редакции.
           </p>
           <div className="hero-meta" role="toolbar" aria-label="Выбор ленты">
             <button
