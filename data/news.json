@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-21T21:19:44.269Z",
-  "lastRunAt": "2026-09-21T21:19:44.269Z",
+  "updatedAt": "2026-09-22T00:21:12.721Z",
+  "lastRunAt": "2026-09-22T00:21:12.721Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "it",
-    "business",
-    "startups",
-    "medicine",
-    "environment",
-    "gaming",
-    "entertainment",
-    "sports",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
     "ai",
     "cybersecurity",
+    "business",
     "science",
     "health",
     "energy",
     "space",
     "automotive",
-    "football-russia",
+    "sports",
     "skiing",
     "mma",
     "basketball",
+    "politics",
+    "svo",
+    "security-services",
     "education",
     "realestate",
     "travel"
+  ],
+  "skippedNow": [
+    "it",
+    "startups",
+    "medicine",
+    "environment",
+    "gaming",
+    "entertainment",
+    "football-russia"
   ],
   "failedNow": [
     {
@@ -109,7 +109,7 @@
       ]
     },
     "ai": {
-      "lastFetchAt": "2026-09-21T16:03:26.526Z",
+      "lastFetchAt": "2026-09-22T00:20:16.528Z",
       "intervalHours": 6,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -117,60 +117,60 @@
       "slug": "ai",
       "articles": [
         {
-          "id": "ai-0-1790001294000",
-          "title": "ИИ не напишет за вас: как масштабировать проект и не утонуть в нечитаемом коде",
-          "summary": "Всякий разработчик-авантюрист, развивающий какой бы то ни было проект, и при этом неважно, в какой конкретно сфере, будь то создание ПО, видеоигры или интернет-сервиса, сталкивается рано или поздно с ситуацией, когда инд",
-          "url": "https://habr.com/ru/articles/1084782/?utm_campaign=1084782&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1084782/20d1988f502245b8dd410f9ca6f226cf/",
-          "publishedAt": "2026-09-21T14:34:54.000Z",
+          "id": "ai-0-1790025710000",
+          "title": "Гига Писарь: полторы недели после первой статьи. Сколько установок и какие грабли",
+          "summary": "Привет, Хабр! С моей первой статьи прошло чуть больше недели, я не ждал, что её вообще одобрят, у меня до этого даже аккаунта на Хабре не было. Программированием я никогда не занимался, хотя интересно было всегда, а пото",
+          "url": "https://habr.com/ru/articles/1084906/?utm_campaign=1084906&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1084906/c10688fcd6a5e9ce660affd48fbc490f/",
+          "publishedAt": "2026-09-21T21:21:50.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-1-1790000210000",
-          "title": "Почему ваша LLM тупеет на больших документах и как ее починить",
-          "summary": "Большой контекст LLM не гарантирует качественных ответов: при работе с объёмными документами модель может терять важные детали и хуже находить нужные факты внутри текста. В статье разбираемся, почему Full‑Context и базов",
-          "url": "https://habr.com/ru/companies/otus/articles/1079804/?utm_campaign=1079804&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/461/49d/9b0/46149d9b077018b0986293b8dc959351.png",
-          "publishedAt": "2026-09-21T14:16:50.000Z",
+          "id": "ai-1-1790017927000",
+          "title": "Мы все обречены поддерживать легаси код, когда‑то сгенерированный ИИ",
+          "summary": "Вероятно вам приходилось принимать участие в проектах, которые практически утратили способность быстро вносить изменения из-за огромного объема техдолга. Поначалу все идет гладко, но в какой-то момент стоимость сопровожд",
+          "url": "https://habr.com/ru/articles/1084880/?utm_campaign=1084880&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/aed/ca5/f78/aedca5f78d9cc410dd6301ab8d3b17cf.png",
+          "publishedAt": "2026-09-21T19:12:07.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-2-1789999886000",
-          "title": "[Перевод] Проверяем Jev на открытых и внутренних данных: классификаторили фильтр?",
-          "summary": "Jev отвечает только «да/нет» или выбирает один из предложенных вариантов. 16 000 вызовов:сначала сравнение с gpt-5.4-mini и gpt-5.6-luna на четырёх открытых датасетах, затем несколько тысяч реальных решений в рабочих про",
-          "url": "https://habr.com/ru/articles/1084770/?utm_campaign=1084770&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/24f/d7a/8f3/24fd7a8f384de068f5ac0bc9ab2a9372.png",
-          "publishedAt": "2026-09-21T14:11:26.000Z",
+          "id": "ai-2-1790017327000",
+          "title": "[Перевод] Как устроены LLM: разбираем на примере 3-уровневой абстракции",
+          "summary": "Чтобы оптимизировать производительность больших языковых моделей (LLM), необходимо понимать весь программный стек. Мне не удалось найти подробную статью, которая показывала бы этот стек как общую картину, поэтому я решил",
+          "url": "https://habr.com/ru/articles/1084878/?utm_campaign=1084878&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/483/518/46c/48351846ce1a2f1b8c749cee9db5f077.png",
+          "publishedAt": "2026-09-21T19:02:07.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-3-1789999749000",
-          "title": "Захватывающая история внедрения ИИ в умирающей не-IT-компании",
-          "summary": "Компания когда-то забрала 99% рынка демпингом, а потом шесть лет подряд теряла продажи. Внедрение ИИ за год буксовало, человек, который им занимался, ушёл, кеш закончился. Меня позвали на месяц с оплатой по факту. Расска",
-          "url": "https://habr.com/ru/articles/1084758/?utm_campaign=1084758&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/edd/676/fac/edd676fac6926887048490725145e7bb.jpg",
-          "publishedAt": "2026-09-21T14:09:09.000Z",
+          "id": "ai-3-1790013205000",
+          "title": "Сколько обходится содержание одного игрока — создание своей 2D MMO RPG, ч. 22",
+          "summary": "Сколько сервера уходит на одного игрока 2D MMO — вместе с существами, которых он будит вокруг себя? Показываю, как платформа считает расход живого мира ещё до установки игры: по онлайну, плотности существ и цене каждой м",
+          "url": "https://habr.com/ru/articles/1084738/?utm_campaign=1084738&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/9ee/942/f18/9ee942f18b1f50e55dcc6207a9343baa.jpg",
+          "publishedAt": "2026-09-21T17:53:25.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
           "categorySlug": "ai"
         },
         {
-          "id": "ai-4-1789994769000",
-          "title": "ИИ пишет тесты, но кто проверит ИИ: как меняется QA в 1С-командах",
-          "summary": "ИИ уже умеет генерировать тесты, разбирать легаси-код и помогать с автоматизацией QA. Но без правил и контроля он так же уверенно создает бесполезные проверки. Поэтому главный вопрос сегодня — не «можно ли применять ИИ в",
-          "url": "https://habr.com/ru/companies/infostart/articles/1084708/?utm_campaign=1084708&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/3b7/816/f0e/3b7816f0e17d3f8633a82d5e16977403.jpg",
-          "publishedAt": "2026-09-21T12:46:09.000Z",
+          "id": "ai-4-1790010002000",
+          "title": "Локальный инференс на Ryzen AI Halo",
+          "summary": "Чего же можно достичь от какой то \"встройки\" от АМД, так ли будет медленно? Будет полезно не только владельцам Ryzen AI Max, но и видеокарт от AMD. Статья созрела когда в очередные выходные все старые инструкции потеряли",
+          "url": "https://habr.com/ru/articles/1081680/?utm_campaign=1081680&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/f4c/86e/384/f4c86e384e251459eee9abb0e273c996.jpg",
+          "publishedAt": "2026-09-21T17:00:02.000Z",
           "source": "Хабр",
           "categoryId": "ai",
           "categoryName": "Искусственный интеллект",
@@ -179,7 +179,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-09-21T09:22:15.859Z",
+      "lastFetchAt": "2026-09-22T00:20:18.821Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -187,7 +187,43 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1789979706000",
+          "id": "cybersecurity-0-1790004557000",
+          "title": "Security Week 2639: вредоносное ПО на торрент-трекерах",
+          "summary": "В свежем отчете экспертов «Лаборатории Касперского» разбирается ранее неизвестное вредоносное ПО, получившее название MovieReaper. Его особенностью является распространение на популярных торрент-трекерах под видом фильмо",
+          "url": "https://habr.com/ru/companies/kaspersky/articles/1084718/?utm_campaign=1084718&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habr.com/share/publication/1084718/1baa9a8b8a91082c3d7c66aacd882fb9/",
+          "publishedAt": "2026-09-21T15:29:17.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1790004264000",
+          "title": "Код быстрее, проверок больше: как ИИ меняет DevSecOps",
+          "summary": "Всем привет! В конце августа мы провели по ИИ в безопасной разработке и решили собрать в этом материалы основные тезисы наших экспертов. Тема - горячая, важная, поэтому добро пожаловать в комментарии! Итак, начинаем разб",
+          "url": "https://habr.com/ru/companies/solarsecurity/articles/1084802/?utm_campaign=1084802&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/bf3/d6e/3e1/bf3d6e3e1d5fd6ee8f1c76cc607d1e66.png",
+          "publishedAt": "2026-09-21T15:24:24.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-2-1789995705000",
+          "title": "[Перевод] Чем занимаются Visa и Mastercard?",
+          "summary": "Большинству людей известны бренды Visa и Mastercard. Есть вероятность, что вы ежедневно пользуетесь их картами для транзакций. Кто-то знает, что большинство магазинов (в США) принимает оба типа, но некоторые принимают то",
+          "url": "https://habr.com/ru/companies/ruvds/articles/1084012/?utm_campaign=1084012&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/7aa/f68/f23/7aaf68f23ce164cb5e03a254d99ccef0.jpg",
+          "publishedAt": "2026-09-21T13:01:45.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-3-1789979706000",
           "title": "Вход в Kubernetes по 2FA: как мы связали Gateway API, Dex и MULTIDIRECTORY",
           "summary": "У нас начали активно появляться кластеры на Talos Linux, в том числе и небольшая песочница для тестирования продуктов, о которой пойдёт речь далее. Доступы раздавались через обмен рутовыми kubeconfig'ами в yopass. Быстро",
           "url": "https://habr.com/ru/companies/multifactor/articles/1084572/?utm_campaign=1084572&utm_source=habrahabr&utm_medium=rss",
@@ -199,7 +235,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1789979667000",
+          "id": "cybersecurity-4-1789979667000",
           "title": "История одного аккаунта OpenAI: паровозик, который не смог",
           "summary": "TLDR: забанили трёхлетний аккаунт с подпиской Pro, кибер‑доступом Daybreak Blue и вследствии: доступ ко всей накопленной информации в аккаунте — утерян. Салют! Много‑много лет читаю Хабр, но сейчас специально зарегистрир",
           "url": "https://habr.com/ru/articles/1084570/?utm_campaign=1084570&utm_source=habrahabr&utm_medium=rss",
@@ -209,47 +245,11 @@
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
           "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-2-1789977631000",
-          "title": "А-ЦОД глазами инженера: зачем это дата-центру и что вообще там сертифицируют",
-          "summary": "Спойлер: ничего. Сертифицируют вообще не ЦОД. Привет! На связи Андрей, инженер в дата-центре Selectel. Работа на этой позиции подразумевает множество зон ответственности, одна из них — надежная эксплуатация инфраструктур",
-          "url": "https://habr.com/ru/companies/selectel/articles/1080926/?utm_campaign=1080926&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/437/f55/fbf/437f55fbf4a8c8b50841a258af65e049.jpg",
-          "publishedAt": "2026-09-21T08:00:31.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-3-1789976009000",
-          "title": "PVS-Studio для Go: краткий обзор новых диагностических правил",
-          "summary": "Вышел PVS-Studio 8.0! Мы добавили поддержку анализа Go проектов и многое другое. В этой статье мы разберем интересные диагностические правила для Go, которые мы подготовили с выходом новой версии нашего анализатора. Чита",
-          "url": "https://habr.com/ru/companies/pvs-studio/articles/1084528/?utm_campaign=1084528&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/d80/cd2/2fe/d80cd22fe5c689cec69b5f1fdd6f3990.png",
-          "publishedAt": "2026-09-21T07:33:29.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1789974619000",
-          "title": "Человечество, ослепленное чуждой силой. Что сверх-ИИ грядущий нам готовит?",
-          "summary": "К вопросу, выживет ли вообще человечество в эпоху ИИ и каким образом, я, признаюсь, подбирался не торопясь и обстоятельно: в предыдущих статьях разобрал базис — какой тип личности нужен на нынешнем этапе бурного развития",
-          "url": "https://habr.com/ru/companies/ru_mts/articles/1083898/?utm_campaign=1083898&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/getpro/habr/upload_files/3d4/eeb/f3b/3d4eebf3ba3698b7f7ac41b81613e0d3.png",
-          "publishedAt": "2026-09-21T07:10:19.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
         }
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-21T21:18:44.258Z",
+      "lastFetchAt": "2026-09-22T00:20:19.830Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -257,7 +257,31 @@
       "slug": "business",
       "articles": [
         {
-          "id": "business-0-1790020178000",
+          "id": "business-0-1790025948000",
+          "title": "РРПК отказалась от строительства двух супертраулеров на «Адмиралтейских верфях»",
+          "summary": "Они сильно подорожали из-за необходимости заменять импортное оборудование",
+          "url": "https://www.vedomosti.ru/business/articles/2026/09/22/1230672-rrpk-otkazalas-ot-stroitelstva-supertraulerov",
+          "image": "https://cdn5.vedomosti.ru/image/2026/7c/1drf9x/normal-1shp.jpg",
+          "publishedAt": "2026-09-21T21:25:48.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-1-1790025850000",
+          "title": "Металлурги выступили против запрета экспорта бензола",
+          "summary": "Российские потребители не способны обеспечить стабильный спрос, считают они",
+          "url": "https://www.vedomosti.ru/business/articles/2026/09/22/1230668-metallurgi-vistupili-protiv-zapreta-eksporta-benzola",
+          "image": "https://cdn5.vedomosti.ru/image/2026/7c/1d15uk/normal-1rjn.jpg",
+          "publishedAt": "2026-09-21T21:24:10.000Z",
+          "source": "Ведомости",
+          "categoryId": "business",
+          "categoryName": "Бизнес и финансы",
+          "categorySlug": "business"
+        },
+        {
+          "id": "business-2-1790020178000",
           "title": "Finnair запустит 24-часовые рейсы из Хельсинки в Мельбурн в обход России",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/09/21/1230666-finnair-zapustit",
@@ -269,7 +293,7 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-1-1790012989000",
+          "id": "business-3-1790012989000",
           "title": "«Нестле»: передача во временное управление не является национализацией",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/09/21/1230642-peredacha-ne-yavlyaetsya",
@@ -281,36 +305,12 @@
           "categorySlug": "business"
         },
         {
-          "id": "business-2-1790008846000",
+          "id": "business-4-1790008846000",
           "title": "«Ашан» продолжит работу после перехода во временное управление",
           "summary": "",
           "url": "https://www.vedomosti.ru/business/news/2026/09/21/1230631-ashan-prodolzhit-rabotu",
           "image": "https://cdn5.vedomosti.ru/image/2026/7c/15vm1i/normal-1i9y.png",
           "publishedAt": "2026-09-21T16:40:46.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
-        },
-        {
-          "id": "business-3-1790003588000",
-          "title": "В Венеции хотят увеличить сбор за однодневное посещение города до 30 евро",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/09/21/1230604-hotyat-uvelichit-sbor",
-          "image": "https://cdn5.vedomosti.ru/image/2026/7c/12y459/normal-1eh7.png",
-          "publishedAt": "2026-09-21T15:13:08.000Z",
-          "source": "Ведомости",
-          "categoryId": "business",
-          "categoryName": "Бизнес и финансы",
-          "categorySlug": "business"
-        },
-        {
-          "id": "business-4-1790003371000",
-          "title": "Кабмин актуализировал программу развития угольной промышленности до 2050 года",
-          "summary": "",
-          "url": "https://www.vedomosti.ru/business/news/2026/09/21/1230611-kabmin-aktualiziroval-programmu",
-          "image": "https://cdn5.vedomosti.ru/image/2026/7c/12glan/normal-1dug.png",
-          "publishedAt": "2026-09-21T15:09:31.000Z",
           "source": "Ведомости",
           "categoryId": "business",
           "categoryName": "Бизнес и финансы",
@@ -389,7 +389,7 @@
       ]
     },
     "science": {
-      "lastFetchAt": "2026-09-21T16:03:31.245Z",
+      "lastFetchAt": "2026-09-22T00:20:20.416Z",
       "intervalHours": 6,
       "source": "N+1",
       "siteUrl": "https://nplus1.ru",
@@ -397,7 +397,19 @@
       "slug": "science",
       "articles": [
         {
-          "id": "science-0-1790004720000",
+          "id": "science-0-1790007300000",
+          "title": "Из бумаги и магния сделали растворимый аккумулятор для имплантов",
+          "summary": "Из бумаги и магния сделали растворимый аккумулятор для имплантов",
+          "url": "https://nplus1.ru/news/2026/09/21/paper-mg",
+          "image": "https://minio.nplus1.ru/app-images/1139742/conversions/6ab14eb076802_cover-share.png",
+          "publishedAt": "2026-09-21T16:15:00.000Z",
+          "source": "N+1",
+          "categoryId": "science",
+          "categoryName": "Наука",
+          "categorySlug": "science"
+        },
+        {
+          "id": "science-1-1790004720000",
           "title": "Робособака с манипулятором на спине научилась передвигать стулья",
           "summary": "Робособака с манипулятором на спине научилась передвигать стулья",
           "url": "https://nplus1.ru/news/2026/09/21/alma-chair",
@@ -409,7 +421,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-1-1790002800000",
+          "id": "science-2-1790002800000",
           "title": "Внутриутробные инфекции оказались связаны с риском развития расстройств аутистического спектра",
           "summary": "Внутриутробные инфекции оказались связаны с риском развития расстройств аутистического спектра",
           "url": "https://nplus1.ru/news/2026/09/21/torch-neuro-outcomes",
@@ -421,7 +433,7 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-2-1790002800000",
+          "id": "science-3-1790002800000",
           "title": "В сточных водах Парижа обнаружили ВПЧ 27 генотипов",
           "summary": "В сточных водах Парижа обнаружили ВПЧ 27 генотипов",
           "url": "https://nplus1.ru/news/2026/09/21/wastewater-papillomavirus-paris",
@@ -433,24 +445,12 @@
           "categorySlug": "science"
         },
         {
-          "id": "science-3-1789995180000",
+          "id": "science-4-1789995180000",
           "title": "В Австрии нашли больше тонны железных заготовок возрастом больше 2000 лет",
           "summary": "Рабочие обнаружили в Австрии в 2019 году огромное скопление железных заготовок, затонувших в Дунае больше двух тысяч лет назад. В общей сложности исследователи насчитали больше 500 бипирамидальных заготовок и их фрагмент",
           "url": "https://nplus1.ru/news/2026/09/21/iron-bars-from-deinham",
           "image": "https://minio.nplus1.ru/app-images/1139601/conversions/6ab0fd32c5f78_cover-share.png",
           "publishedAt": "2026-09-21T12:53:00.000Z",
-          "source": "N+1",
-          "categoryId": "science",
-          "categoryName": "Наука",
-          "categorySlug": "science"
-        },
-        {
-          "id": "science-4-1789989720000",
-          "title": "Объявлен короткий список премии «Просветитель» 2026 года",
-          "summary": "Оргкомитет премии «Просветитель», которая каждый год вручается авторам лучших научно-популярных книг на русском языке, опубликовал короткий список 2026 года. Туда вошли четыре естественно-научные и четыре гуманитарные кн",
-          "url": "https://nplus1.ru/news/2026/09/21/enlight-short-list-2026",
-          "image": null,
-          "publishedAt": "2026-09-21T11:22:00.000Z",
           "source": "N+1",
           "categoryId": "science",
           "categoryName": "Наука",
@@ -529,7 +529,7 @@
       ]
     },
     "health": {
-      "lastFetchAt": "2026-09-21T16:03:36.272Z",
+      "lastFetchAt": "2026-09-22T00:20:22.144Z",
       "intervalHours": 6,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -537,7 +537,31 @@
       "slug": "health",
       "articles": [
         {
-          "id": "health-0-1790004420000",
+          "id": "health-0-1790028551000",
+          "title": "Врач рассказала о последствиях всего одной бессонной ночи",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/22/chto-proishodit-s-organizmom-posle-odnoy-bessonnoy-nochi/",
+          "image": "https://icdn.lenta.ru/images/2026/09/15/12/20260915124914472/pic_e1253a49ce9f8271592d3ae291a95317.jpg",
+          "publishedAt": "2026-09-21T22:09:11.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-1-1790011673000",
+          "title": "Врач оценила модный тренд на «загрузку йодом»",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/21/vrach-otsenila-modnyy-trend-na-zagruzku-yodom/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/12/20260921124234201/pic_99ef9540e219d8b54872bea71fed6fc9.jpg",
+          "publishedAt": "2026-09-21T17:27:53.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "health",
+          "categoryName": "Здоровье",
+          "categorySlug": "health"
+        },
+        {
+          "id": "health-2-1790004420000",
           "title": "Врач назвала суточную норму воды",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/21/vrach-nazvala-sutochnuyu-normu-vody/",
@@ -549,7 +573,7 @@
           "categorySlug": "health"
         },
         {
-          "id": "health-1-1789999320000",
+          "id": "health-3-1789999320000",
           "title": "В России врачи спасли жизнь новорожденному весом 680 граммов",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/21/v-rossii-vrachi-prooperirovali-novorozhdennogo-vesom-680-gramm-i-spasli-emu-zhizn/",
@@ -669,7 +693,7 @@
       ]
     },
     "energy": {
-      "lastFetchAt": "2026-09-21T16:03:56.818Z",
+      "lastFetchAt": "2026-09-22T00:20:30.183Z",
       "intervalHours": 6,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -677,60 +701,60 @@
       "slug": "energy",
       "articles": [
         {
-          "id": "energy-0-1790006502000",
-          "title": "Bloomberg: Путин планирует посетить саммит АТЭС в Китае и пропустить G20 в США",
-          "summary": "Президент России Владимир Путин планирует посетить саммит Азиатско-Тихоокеанского экономического сотрудничества (АТЭС) в Китае, который проведет председатель КНР Си Цзиньпин. При этом российский президент намерен пропуст",
-          "url": "https://www.kommersant.ru/doc/8971765",
-          "image": "https://im2.kommersant.ru/SocialPics/8971765_49_0_1514589874",
-          "publishedAt": "2026-09-21T16:01:42.000Z",
+          "id": "energy-0-1790035298000",
+          "title": "Каллас заявила о нехватке кораблей для миссии Aspides в Красном море",
+          "summary": "Военно-морской миссии Европейского союза в Красном море Aspides требуется более 10 боевых кораблей, заявила глава европейской дипломатии Кая Каллас. «Когда создавалась миссия Aspides, предполагалось, что ей потребуется к",
+          "url": "https://www.kommersant.ru/doc/8971924",
+          "image": "https://im2.kommersant.ru/SocialPics/8971924_49_0_1704816364",
+          "publishedAt": "2026-09-22T00:01:38.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-1-1790005654000",
-          "title": "КХЛ и FONBET отметят десятилетие партнерства несколькими проектами",
-          "summary": "В сезоне-2026/27 Континентальная хоккейная лига (КХЛ) и букмекерская компания FONBET отмечают десятилетний юбилей сотрудничества. Празднование юбилея пройдет под слоганом «10 лет на одной линии».",
-          "url": "https://www.kommersant.ru/doc/8971763",
-          "image": "https://iv.kommersant.ru/SocialPics/8971763_49_0_160339724",
-          "publishedAt": "2026-09-21T15:47:34.000Z",
+          "id": "energy-1-1790033089000",
+          "title": "Американские СМИ объявили бойкот Трампу",
+          "summary": "Крупные американские СМИ отказались освещать мероприятия с участием президента Соединенных Штатов Дональда Трампа. Так они выразили солидарность с телеканалами CNN, MS NOW и изданием Politico, которым Дональд Трамп запре",
+          "url": "https://www.kommersant.ru/doc/8971923",
+          "image": "https://im2.kommersant.ru/SocialPics/8971923_49_0_1642012304",
+          "publishedAt": "2026-09-21T23:24:49.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-2-1790005240000",
-          "title": "Paramount урегулировала иски 12 штатов и продолжит слияние с Warner Bros.",
-          "summary": "Компания Paramount Skydance достигла соглашения с властями Калифорнии и еще 11 штатов, которые пытались заблокировать ее слияние с Warner Bros. Discovery, Inc.",
-          "url": "https://www.kommersant.ru/doc/8971725",
-          "image": "https://im2.kommersant.ru/SocialPics/8971725_49_0_234011748",
-          "publishedAt": "2026-09-21T15:40:40.000Z",
+          "id": "energy-2-1790031792000",
+          "title": "РНПК скорректировала условия перестрахования рисков терроризма",
+          "summary": "РНПК (100% принадлежит ЦБ) обновила правила перестрахования рисков терроризма и диверсии (ТиД). Согласно презентации, разосланной участникам рынка (с ней ознакомился “Ъ”), покрытие по коробочным продуктам будет предостав",
+          "url": "https://www.kommersant.ru/doc/8971891",
+          "image": "https://im2.kommersant.ru/SocialPics/8971891_49_0_650023375",
+          "publishedAt": "2026-09-21T23:03:12.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-3-1790004879000",
-          "title": "Канцлер ФРГ отказался уходить в отставку после провала его партии на выборах",
-          "summary": "Результатов выборов в Мекленбурге—Передней Померании христианские демократы (ХДС) и их партнеры по коалиции социальные демократы (СДПГ) ждали с тревогой. В этой федеральной земле, как и 6 сентября в Саксонии-Анхальт, дол",
-          "url": "https://www.kommersant.ru/doc/8971755",
-          "image": "https://iv.kommersant.ru/SocialPics/8971755_49_0_898578947",
-          "publishedAt": "2026-09-21T15:34:39.000Z",
+          "id": "energy-3-1790031501000",
+          "title": "Министр культуры КНДР посетит Санкт-Петербург",
+          "summary": "Делегация КНДР во главе с министром культуры Хен Ын Чхором вылетела в Санкт-Петербург для участия в Санкт-Петербургском международном форуме объединенных культур. Об этом сообщает Центральное телеграфное агентство Кореи ",
+          "url": "https://www.kommersant.ru/doc/8971922",
+          "image": "https://im2.kommersant.ru/SocialPics/8971922_49_0_750833037",
+          "publishedAt": "2026-09-21T22:58:21.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
           "categorySlug": "energy"
         },
         {
-          "id": "energy-4-1790004874000",
-          "title": "РБК: «Русал» предложил изменить формулу расчета цены алюминия в России",
-          "summary": "«Русал» предложил изменить с 1 октября 2026 года формулу расчета цены первичного алюминия на российском рынке, сообщает РБК со ссылкой на источники. Однако компания пока не согласовывала новую формулу с Федеральной антим",
-          "url": "https://www.kommersant.ru/doc/8971754",
-          "image": "https://im2.kommersant.ru/SocialPics/8971754_49_0_234263895",
-          "publishedAt": "2026-09-21T15:34:34.000Z",
+          "id": "energy-4-1790028224000",
+          "title": "Вооруженные люди перекрыли нефтепровод в Ливии",
+          "summary": "Вооруженная группировка перекрыла клапан на нефтепроводе от месторождения Эш-Шарара до порта Эз-Завия. Об этом сообщила Национальная нефтяная корпорация (NOC).",
+          "url": "https://www.kommersant.ru/doc/8971921",
+          "image": "https://im2.kommersant.ru/SocialPics/8971921_49_0_178026501",
+          "publishedAt": "2026-09-21T22:03:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "energy",
           "categoryName": "Энергетика",
@@ -739,7 +763,7 @@
       ]
     },
     "space": {
-      "lastFetchAt": "2026-09-21T16:03:57.445Z",
+      "lastFetchAt": "2026-09-22T00:20:31.333Z",
       "intervalHours": 6,
       "source": "3DNews",
       "siteUrl": "https://3dnews.ru",
@@ -809,7 +833,7 @@
       ]
     },
     "automotive": {
-      "lastFetchAt": "2026-09-21T16:03:59.973Z",
+      "lastFetchAt": "2026-09-22T00:20:33.748Z",
       "intervalHours": 6,
       "source": "Motor.ru",
       "siteUrl": "https://motor.ru",
@@ -1019,7 +1043,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-21T21:19:16.841Z",
+      "lastFetchAt": "2026-09-22T00:20:36.358Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1027,60 +1051,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1790025240000",
-          "title": "Месси показал форму на прощальную игру за Аргентину: «Последний матч Футболка на всю жизнь »",
-          "summary": "Нападающий « Интер Майами » Лионель Месси показал форму для прощального матча в составе сборной Аргентины. 39-летний футболист 6 октября в последний раз сыграет в составе национальной сборной – против Бенина на стадионе ",
-          "url": "https://www.sports.ru/football/1117377864-messi-pokazal-formu-na-proshhalnuyu-igru-za-argentinu-poslednij-match-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/786/4/share/e0fda1_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T21:14:00.000Z",
+          "id": "sports-0-1790028480000",
+          "title": "Сергей Коньков: «Если Разин настолько негативно высказывается о капитане, боюсь представить, что он говорит об остальных. Конфликт с Яковлевым не улучшит ситуацию в «Металлурге»",
+          "summary": "Сергей Коньков прокомментировал сложные взаимоотношения Андрея Разина и капитана «Металлурга» Егора Яковлева . «Такой конфликт точно не улучшит ситуацию в коллективе. Любые подобные ситуации нужно решать внутри команды. ",
+          "url": "https://www.sports.ru/hockey/1117377880-sergej-konkov-esli-razin-nastolko-negativno-vyskazyvaetsya-o-kapitane-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/788/0/share/1fbbe1_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-21T22:08:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1790024820000",
-          "title": "Хмелевски про 1-е очко в сезоне – с «Ладой»: «Когда хорошо играешь, партнеры тоже чувствуют больше уверенности. Сегодня «Ак Барс» много терял шайбу, Билялов выручал и дал шанс выиграть»",
-          "summary": "Саша Хмелевски высказался после победы « Ак Барса » над «Ладой» (3:2 ОТ). – Почему не получилось переломить игру по ходу основного времени? – Главное – мы выиграли. Мне кажется, просто много теряли шайбу, плохо играли. Т",
-          "url": "https://www.sports.ru/hockey/1117377866-xmelevski-pro-1-e-ochko-v-sezone-s-ladoj-kogda-xorosho-igraesh-partner.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/786/6/share/715ce7_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T21:07:00.000Z",
+          "id": "sports-1-1790027940000",
+          "title": "Анвар Гатиятулин: «Хэйс прибавлял. После непростого выезда, возможно, накопилась усталость. Было видно, что не хватало энергии и эмоций»",
+          "summary": "Анвар Гатиятулин объяснил, как решение Кевина Хэйса завершить карьеру повлияет на «Ак Барс». – Насколько уход Хэйса повлияет на сочетания звеньев? – Если говорить о Кевине, во втором матче было видно, что он прибавлял. У",
+          "url": "https://www.sports.ru/hockey/1117377879-anvar-gatiyatulin-bylo-vidno-chto-xejs-pribavlyal-posle-neprostogo-vye.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/787/9/share/56cba0_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-21T21:59:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1790024710000",
+          "id": "sports-2-1790027940000",
+          "title": "«Шальке» подколол «Боруссию»: на экране стадиона ее название написали мельче остальных команд",
+          "summary": "«Шальке» тонко подколол «Боруссию» на домашнем стадионе. После матча с «Эльферсбергом» (0:0) на экране «Фелтинс-Арены» появилась таблица Бундеслиги . « Боруссия », которая после четырех туров лидирует в чемпионате с четы",
+          "url": "https://www.sports.ru/football/1117377741-na-stadione-shalke-napisali-malenkim-shriftom-borussiyu-lidiruyushhuyu.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/774/1/share/466b78_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-21T21:59:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-3-1790027880000",
+          "title": "«Роналду – лучший игрок Португалии в истории, не может быть вопроса, заслуживает ли он вызова в сборную. Никто не скажет, чтобы Месси больше не вызывали». Журналист Лопеш о 41-летнем форварде",
+          "summary": "Португальский журналист Жоау Лопеш высказался о спорах вокруг вызова 41-летнего нападающего « Аль-Насра » Криштиану Роналду в сборную Португалии . В сентябре-октябре португальская команда сыграет в Лиге наций против Уэль",
+          "url": "https://www.sports.ru/football/1117377878-ronaldu-luchshij-igrok-portugalii-v-istorii-ne-mozhet-byt-voprosa-zasl.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/737/787/8/share/fdd037_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-21T21:58:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "sports",
+          "categoryName": "Спорт",
+          "categorySlug": "sports"
+        },
+        {
+          "id": "sports-4-1790024710000",
           "title": "НХЛ. Выставочные матчи. «Вашингтон» сыграет с «Филадельфией», «Питтсбург» – с «Баффало», «Монреаль» против «Оттавы», «Миннесота» встретится с «Чикаго»",
           "summary": "НХЛ Выставочные матчи 21 сентября «Питтсбург» – «Баффало» – 02:00 «Коламбус» – «Детройт» – 02:00 «Нью-Джерси» – «Рейнджерс» – 02:00 «Вашингтон» – «Филадельфия» – 02:00 «Монреаль» – «Оттава» – 02:00 «Виннипег» – «Колорадо",
           "url": "https://www.sports.ru/hockey/1117377338-nxl-vystavochnye-matchi.html",
           "image": "https://www.sports.ru/dynamic_images/news/111/737/733/8/share/addb22_no_logo_no_text.jpg",
           "publishedAt": "2026-09-21T21:05:10.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-3-1790024580000",
-          "title": "Женская НБА. «Нью-Йорк» примет «Атланту», «Финикс» сыграет против «Далласа»",
-          "summary": "«Нью-Йорк» примет на своей площадке « Атланту », «Финикс» встретится с « Далласом ». Женская НБА Регулярный чемпионат Нью-Йорк – Атланта 22 сентября . 3.00 Финикс – Даллас 22 сентября . 5.00 Положение команд : Миннесота ",
-          "url": "https://www.sports.ru/basketball/1117377506-zhenskaya-nba-nyu-jork-primet-atlantu-finiks-sygraet-protiv-dallasa.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/750/6/share/115a83_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T21:03:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "sports",
-          "categoryName": "Спорт",
-          "categorySlug": "sports"
-        },
-        {
-          "id": "sports-4-1790024520000",
-          "title": "Сингапур (WTA). Прозорова встретится с Костоулас, Саккари – с Фрухвиртовой, Хвалинска, Фернандес вышли во 2-й круг, Касаткина выбыла",
-          "summary": "Дарья Касаткина уступила Александре Саснович в первом круге в Сингапуре. Сетка здесь . Singapore Tennis Open Сингапур, Сингапур 21 – 27 сентября 2026 WTA 500 Призовой фонд – $1 206 446 Открытые корты, хард 1-й круг",
-          "url": "https://www.sports.ru/tennis/1117377076-singapur-wta-2026-rezultaty-pervogo-kruga.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/707/6/share/9c201c_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T21:02:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1195,7 +1219,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-09-21T09:22:55.800Z",
+      "lastFetchAt": "2026-09-22T00:20:41.559Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1203,72 +1227,72 @@
       "slug": "skiing",
       "articles": [
         {
-          "id": "skiing-0-1789977660000",
-          "title": "Елена Вяльбе: «Была бы рада, если бы Нортуг вернулся. Сколько он внес в развитие лыжных гонок – столько еще никто не внес в мире»",
-          "summary": "Елена Вяльбе заявила, что была бы рада возвращению норвежского лыжника Петтера Нортуга на соревнования.",
-          "url": "https://www.sports.ru/skiing/1117377279-elena-vyalbe-byla-by-rada-esli-by-nortug-vernulsya-skolko-on-vnes-v-ra.html",
-          "image": "https://s5o.ru/storage/simple/00/76/45/2013.10.07.04.24.51.69007645.1.jpg",
-          "publishedAt": "2026-09-21T08:01:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-1-1789977000000",
-          "title": "Чемпионат России по лыжероллерам. Терентьева, Степанова, Непряева, Крупицкая, Истомина пробегут классический масс-старт на 30 км",
-          "summary": "21 сентября на чемпионате России по лыжероллерам в Малиновке пройдет женский классический масс-старт на 30 км.",
-          "url": "https://www.sports.ru/skiing/1117377080-chempionat-rossii-po-lyzherolleram-terenteva-stepanova-nepryaeva-krupi.html",
-          "image": "https://s5o.ru/storage/simple/19/96/18/2013.10.07.05.15.45.69199618.1.jpg",
-          "publishedAt": "2026-09-21T07:50:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-2-1789975089000",
-          "title": "Чемпионат России по лыжероллерам. Большунов, Коростелев, Ардашев, Червоткин, Семиков выступят в классическом масс-старте на 30 км",
-          "summary": "21 сентября на чемпионате России по лыжероллерам в Малиновке пройдет мужской классический масс-старт на 30 км.",
-          "url": "https://www.sports.ru/skiing/1117377089-chempionat-rossii-po-lyzherolleram-bolshunov-korostelev-ardashev-cherv.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-21T07:18:09.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-3-1789909260000",
-          "title": "40-летний Петтер Нортуг хочет перейти в одну из стран Карибского бассейна ради участия в Олимпиаде-2030: «Надеюсь, вопрос решится в течение полугода»",
-          "summary": "Двукратный олимпийский чемпион и 13‑кратный чемпион мира, норвежский лыжник Петтер Нортуг намерен сменить спортивное гражданство ради участия в Олимпийских играх 2030 года.",
-          "url": "https://www.sports.ru/skiing/1117376509-40-letnij-petter-nortug-xochet-perejti-v-odnu-iz-stran-karibskogo-bass.html",
-          "image": "https://s5o.ru/storage/simple/00/76/45/2013.10.07.04.24.51.69007645.1.jpg",
-          "publishedAt": "2026-09-20T13:01:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-4-1789906020000",
-          "title": "Терентьев и Баранова стали победителями спринтов на чемпионате России по лыжероллерам",
-          "summary": "Александр Терентьев выиграл спринт на чемпионате России по лыжероллерам в Архангельской области.",
-          "url": "https://www.sport-express.ru/skiing/news/chempionat-rossii-po-lyzherolleram-rezultaty-sprintov-20-sentyabrya-2026-2456627/",
+          "id": "skiing-0-1790011440000",
+          "title": "Бородавко о возможности получения нейтрального статуса Большуновым: «Нужно увольняться из ЦСКА, это требование FIS»",
+          "summary": "Старший тренер сборной России Юрий Бородавко назвал условие, при котором Международная федерация лыжного спорта и сноуборда (FIS) предоставит нейтральный статус трехкратному олимпийскому чемпион Александру Большунову.",
+          "url": "https://www.sport-express.ru/skiing/news/borodavko-o-vozmozhnosti-polucheniya-neytralnogo-statusa-bolshunovym-nuzhno-uvolnyatsya-iz-cska-eto-trebovanie-fis-2456884/",
           "image": null,
-          "publishedAt": "2026-09-20T12:07:00.000Z",
+          "publishedAt": "2026-09-21T17:24:00.000Z",
           "source": "Спорт-Экспресс",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
           "categorySlug": "skiing"
         },
         {
-          "id": "skiing-5-1789905840000",
-          "title": "⛷️ Чемпионат России по лыжероллерам. Терентьев победил в классическом спринте, Осипов – 2-й, Кузнецов – 3-й, Коростелев – 6-й",
-          "summary": "Александр Терентьев выиграл спринт классическим стилем на чемпионате России по лыжероллерам в Малиновке.",
-          "url": "https://www.sports.ru/skiing/1117376241-chempionat-rossii-po-lyzherolleram-terentev-korostelev-ardashev-i-malc.html",
+          "id": "skiing-1-1790005200000",
+          "title": "Юрий Бородавко: «Чтобы получить нейтральный статус, нужно увольняться из ЦСКА. Это требование FIS»",
+          "summary": "Тренер сборной России по лыжам Юрий Бородавко рассказал, что Александр Большунов сможет получить нейтральный статус только в случае увольнения из ЦСКА.",
+          "url": "https://www.sports.ru/skiing/1117377640-yurij-borodavko-chtoby-poluchit-nejtralnyj-status-nuzhno-uvolnyatsya-i.html",
           "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-09-20T12:04:00.000Z",
+          "publishedAt": "2026-09-21T15:40:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-2-1790000460000",
+          "title": "Бородавко о нейтральных статусах: «В ближайшие дни будет декларация, и там все четко будет прописано»",
+          "summary": "Тренер сборной России Юрий Бородавко рассказал, что Международная федерация лыжного спорта и сноуборда (FIS) скоро опбуликует текст декларации о нейтральности.",
+          "url": "https://www.sports.ru/skiing/1117377567-borodavko-o-nejtralnyx-statusax-v-blizhajshie-dni-budet-deklaracziya-i.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-21T14:21:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-3-1789996680000",
+          "title": "Юрий Бородавко: «Большунов должен был приехать на масс-старт, причины пропуска мне неизвестны. Решения Александр принимает сам»",
+          "summary": "Тренер сборной России Юрий Бородавко ответил на вопрос, почему Александр Большунов не выступил в масс-старте классикой на 30 км на чемпионате России по лыжероллерам.",
+          "url": "https://www.sports.ru/skiing/1117377516-yurij-borodavko-bolshunov-dolzhen-byl-priexat-na-mass-start-prichiny-p.html",
+          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
+          "publishedAt": "2026-09-21T13:18:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-4-1789995180000",
+          "title": "Бородавко — о пропуске Большуновым масс-старта: «Должен был приехать, но он все решения принимает сам»",
+          "summary": "Старший тренер сборной России Юрий Бородавко в разговоре с «СЭ» ответил на вопрос о причине пропуска олимпийским чемпионом Александром Большуновым масс-старта на чемпионате России по лыжероллерам.",
+          "url": "https://www.sport-express.ru/skiing/news/borodavko-o-propuske-bolshunovym-mass-starta-dolzhen-byl-priehat-no-on-vse-resheniya-prinimaet-sam-2456844/",
+          "image": null,
+          "publishedAt": "2026-09-21T12:53:00.000Z",
+          "source": "Спорт-Экспресс",
+          "categoryId": "skiing",
+          "categoryName": "Беговые лыжи",
+          "categorySlug": "skiing"
+        },
+        {
+          "id": "skiing-5-1789994700000",
+          "title": "Вяльбе о том, почему Большунов пропустил масс-старт: «Может быть, он сейчас не настолько хорош. Все-таки два месяца не тренировался с командой»",
+          "summary": "Заместитель председателя Федерации лыжного спорта и сноуборда России Елена Вяльбе предположила, почему Александр Большунов пропустил масс-старт на чемпионате России по лыжероллерам.",
+          "url": "https://www.sports.ru/skiing/1117377489-vyalbe-o-propuske-bolshunovym-mass-starta-mozhet-byt-on-ne-nastolko-xo.html",
+          "image": "https://s5o.ru/storage/simple/ru/edt/09/14/14/44/rued5ed894b5e.56.70x70.jpg",
+          "publishedAt": "2026-09-21T12:45:00.000Z",
           "source": "Sports.ru",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
@@ -1277,7 +1301,7 @@
       ]
     },
     "mma": {
-      "lastFetchAt": "2026-09-21T16:04:14.510Z",
+      "lastFetchAt": "2026-09-22T00:20:41.868Z",
       "intervalHours": 6,
       "source": "Sports.ru, MMA Fighting",
       "siteUrl": "https://www.sports.ru",
@@ -1285,7 +1309,43 @@
       "slug": "mma",
       "articles": [
         {
-          "id": "mma-0-1790002200000",
+          "id": "mma-0-1790014020000",
+          "title": "Шлеменко – про решение UFC не давать титульник Волкову: «Матчмейкеры делают бои, которые выгодно продать. Пора уже привыкнуть»",
+          "summary": "Российский боец ММА Александр Шлеменко заявил, что не удивлен решению UFC не давать титульный бой Александру Волкову.",
+          "url": "https://www.sports.ru/boxing/1117377765-shlemenko-pro-reshenie-ufc-ne-davat-titulnik-volkovu-matchmejkery-dela.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-09-21T18:07:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-1-1790010060000",
+          "title": "Олег Тактаров: «Волкова сливают в UFC, а Павлович не дойдет до титула – не хватит мастерства»",
+          "summary": "Бывший чемпион UFC Олег Тактаров прокомментировал решение промоушена не давать титульный бой Александру Волкову.",
+          "url": "https://www.sports.ru/boxing/1117377707-oleg-taktarov-volkova-slivayut-v-ufc-a-pavlovich-ne-dojdet-do-titula-n.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-09-21T17:01:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-2-1790005560000",
+          "title": "Менеджер Гейбла Стивсона: «Его поймали ударом, освистали, а фанаты теперь добивают. Ничего страшного, Махачев и Сен-Пьер тоже проигрывали»",
+          "summary": "Ибрагим Кава, менеджер бойца UFC Гейбла Стивсона, прокомментировал его поражение нокаутом от Шона Шарафа за 12 секунд на UFC 331.",
+          "url": "https://www.sports.ru/boxing/1117377656-menedzher-gejbla-stivsona-ego-pojmali-udarom-osvistali-a-fanaty-teper-.html",
+          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
+          "publishedAt": "2026-09-21T15:46:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "mma",
+          "categoryName": "MMA",
+          "categorySlug": "mma"
+        },
+        {
+          "id": "mma-3-1790002200000",
           "title": "Арман Царукян: «Второй удар локтем в бою с Руффи был для прикола»",
           "summary": "Боец UFC Арман Царукян описал, как нокаутировал Маурисио Руффи на турнире UFC 311.",
           "url": "https://www.sports.ru/boxing/1117377605-arman-czarukyan-vtoroj-udar-loktem-v-boyu-s-ruffi-byl-dlya-prikola.html",
@@ -1297,7 +1357,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-1-1789996440000",
+          "id": "mma-4-1789996440000",
           "title": "Хамзат Чимаев: «Царукян провел идеальный бой с Руффи»",
           "summary": "Экс-чемпион UFC Хамзат Чимаев прокомментировал победу Армана Царукяна над Маурисио Руффи.",
           "url": "https://www.sports.ru/boxing/1117377520-xamzat-chimaev-czarukyan-provel-idealnyj-boj-s-ruffi.html",
@@ -1309,7 +1369,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-2-1789994040000",
+          "id": "mma-5-1789994040000",
           "title": "Чимаев, Царукян, Садулаев, Снайдер и Берроуз выступят на турнире RAF в Абу-Даби",
           "summary": "Бойцы ММА Хамзат Чимаев и Арман Царукян проведут борцовские схватки на турнире RAF в Абу-Даби, который состоится 14 ноября.",
           "url": "https://www.sports.ru/boxing/1117377486-chimaev-czarukyan-sadulaev-snajder-i-berrouz-vystupyat-na-turnire-raf-.html",
@@ -1321,7 +1381,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-3-1789989180000",
+          "id": "mma-6-1789989180000",
           "title": "Магомед Анкалаев бросил вызов Пауло Косте: «Победишь меня и уйдешь из UFC миллионером»",
           "summary": "Экс-чемпион UFC Магомед Анкалаев предложил Пауло Косте провести бой.",
           "url": "https://www.sports.ru/boxing/1117377423-magomed-ankalaev-brosil-vyzov-paulo-koste-pobedish-menya-i-ujdesh-iz-u.html",
@@ -1333,7 +1393,7 @@
           "categorySlug": "mma"
         },
         {
-          "id": "mma-4-1789987140000",
+          "id": "mma-7-1789987140000",
           "title": "Джастин Гейджи: «Я не буду драться в этом году. В Рождество мы поговорим, что делать дальше»",
           "summary": "Чемпион UFC Джастин Гейджи заявил, что не выйдет в октагон до конца этого года, и не исключил, что завершит карьеру.",
           "url": "https://www.sports.ru/boxing/1117377394-dzhastin-gejdzhi-ya-ne-budu-dratsya-v-etom-godu-v-rozhdestvo-my-pogovo.html",
@@ -1343,47 +1403,11 @@
           "categoryId": "mma",
           "categoryName": "MMA",
           "categorySlug": "mma"
-        },
-        {
-          "id": "mma-5-1789983480000",
-          "title": "Александр Волков: «В UFC хотят, чтобы я побил рекорд Кутюра по самому возрастному чемпиону в тяжах»",
-          "summary": "Российский боец UFC Александр Волков ответил на вопрос, почему ему не дают титульный бой.",
-          "url": "https://www.sports.ru/boxing/1117377347-aleksandr-volkov-v-ufc-xotyat-chtoby-ya-pobil-rekord-kutyura-po-samomu.html",
-          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
-          "publishedAt": "2026-09-21T09:38:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "mma",
-          "categoryName": "MMA",
-          "categorySlug": "mma"
-        },
-        {
-          "id": "mma-6-1789981080000",
-          "title": "Валентина Шевченко – про отказ от пояса UFC: «У меня надрыв связок плеча, операцию сделать невозможно, нужно просто время»",
-          "summary": "Экс-чемпионка UFC Валентина Шевченко объяснила, почему отказалась от пояса на время восстановления после травмы.",
-          "url": "https://www.sports.ru/boxing/1117377316-valentina-shevchenko-pro-otkaz-ot-poyasa-ufc-u-menya-nadryv-svyazok-pl.html",
-          "image": "https://s5o.ru/storage/simple/17/15/15/2013.10.09.03.52.32.131171515.1.jpg",
-          "publishedAt": "2026-09-21T08:58:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "mma",
-          "categoryName": "MMA",
-          "categorySlug": "mma"
-        },
-        {
-          "id": "mma-7-1789978080000",
-          "title": "Максим Дивнич назвал причину смерти Григория Пономарева: «Оторвался тромб»",
-          "summary": "Бывший боец ММА Максим Дивнич рассказал о причине смерти экс-чемпиона Fight Nights Григория Пономарева.",
-          "url": "https://www.sports.ru/boxing/1117377284-maksim-divnich-nazval-prichinu-smerti-grigoriya-ponomareva-otorvalsya-.html",
-          "image": "https://s5o.ru/storage/simple/15/01/31/2013.10.08.00.02.05.75150131.1.jpg",
-          "publishedAt": "2026-09-21T08:08:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "mma",
-          "categoryName": "MMA",
-          "categorySlug": "mma"
         }
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-21T21:19:18.509Z",
+      "lastFetchAt": "2026-09-22T00:20:43.773Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1391,60 +1415,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1790024706000",
-          "title": "22 сентября: какой праздник отмечают в России и мире",
-          "summary": "22 сентября во всем мире отмечают День защиты слонов, День без автомобиля и День хоббитов. Православные вспоминают святого Иосифа Волоцкого. День рождения празднует актер Том Фелтон. Подробнее о торжествах, приметах и зн",
-          "url": "https://lenta.ru/news/2026/09/22/22-sentyabrya-kakoy-prazdnik-otmechayut-v-rossii-i-mire/",
-          "image": "https://icdn.lenta.ru/images/2026/09/12/08/20260912084317399/pic_91d55dd64b5f59db9f1a6ae3e161e7e1.jpg",
-          "publishedAt": "2026-09-21T21:05:06.000Z",
+          "id": "politics-0-1790036226000",
+          "title": "Сексолог объяснила фетиш на одну вредную привычку",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/22/seksolog-ob-yasnila-fetish-na-odnu-vrednuyu-privychku/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/12/20260921120753873/pic_2afdd43245f99ee2ae18ec901dc5acf4.jpg",
+          "publishedAt": "2026-09-22T00:17:06.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1790024696000",
-          "title": "Организаторы концерта Канье Уэста в Петербурге дали обещание зрителям",
+          "id": "politics-1-1790036085000",
+          "title": "В России предупредили о мошенничестве в преддверии Дня учителя",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/22/organizatory-kontserta-kanie-uesta-v-peterburge-dali-obeschanie-zritelyam/",
-          "image": "https://icdn.lenta.ru/images/2026/09/22/00/20260922000418003/pic_2582c53e3c0eed23610d5bda54e565ba.jpg",
-          "publishedAt": "2026-09-21T21:04:56.000Z",
+          "url": "https://lenta.ru/news/2026/09/22/v-rossii-predupredili-o-moshennichestve-v-preddverii-dnya-uchitelya/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/03/20260922031359926/pic_904fa03b98b64db98419e9227a9bb1e5.jpg",
+          "publishedAt": "2026-09-22T00:14:45.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1790023782000",
-          "title": "Зеленский захотел переговоров. Что изменилось и как на это пожелание реагируют в России?",
+          "id": "politics-2-1790035380000",
+          "title": "Город под Киевом накрыл блэкаут",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/21/long-peregovory/",
-          "image": "https://icdn.lenta.ru/images/2026/09/21/23/20260921234734727/pic_fa9cbd1f566c5b04abd062262eea0e26.jpg",
-          "publishedAt": "2026-09-21T20:49:42.000Z",
+          "url": "https://lenta.ru/news/2026/09/22/gorod-pod-kievom-ostalsya-bez-sveta/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/03/20260922030536133/pic_c232403ae2afe6b9be9defcddfc90d84.jpg",
+          "publishedAt": "2026-09-22T00:03:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1790023440000",
-          "title": "Президент Финляндии заявил о чрезмерно «острой» реакции разведки на Россию",
+          "id": "politics-3-1790035380000",
+          "title": "Историк рассказал об изменении отношения к России во Франции",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/21/prezident-finlyandii-zayavil-o-chrezmerno-ostroy-reaktsii-razvedki-na-rossiyu/",
-          "image": "https://icdn.lenta.ru/images/2026/09/21/23/20260921234448854/pic_aead3c111cf930bb52568bb63e2af3c9.jpg",
-          "publishedAt": "2026-09-21T20:44:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/22/istorik-rasskazal-ob-izmenenii-otnosheniya-k-rossii-vo-frantsii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/03/20260922030334734/pic_71aa6b9e0e0b064ebfa1dbc172dd0c0d.jpg",
+          "publishedAt": "2026-09-22T00:03:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1790023218000",
-          "title": "Раскрыт замысел крупной операции НАТО у российских границ",
+          "id": "politics-4-1790035260000",
+          "title": "Бобры устроили ловушку для пенсионерок в Костромской области",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/22/raskryt-zamysel-krupnoy-operatsii-nato-u-rossiyskih-granits/",
-          "image": "https://icdn.lenta.ru/images/2026/09/21/23/20260921233926539/pic_af3a83856b22ca1dc5775252c4e8f425.jpg",
-          "publishedAt": "2026-09-21T20:40:18.000Z",
+          "url": "https://lenta.ru/news/2026/09/22/bobry-ustroili-lovushku-dlya-pensionerok-v-kostromskoy-oblasti/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/02/20260922024731509/pic_b063aa10137a677915cb72d6055aa7b7.jpg",
+          "publishedAt": "2026-09-22T00:01:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1453,7 +1477,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-09-21T16:04:44.773Z",
+      "lastFetchAt": "2026-09-22T00:21:05.003Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1532,7 +1556,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-09-21T16:04:50.447Z",
+      "lastFetchAt": "2026-09-22T00:21:11.111Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1540,7 +1564,31 @@
       "slug": "realestate",
       "articles": [
         {
-          "id": "realestate-0-1789938453000",
+          "id": "realestate-0-1790026945000",
+          "title": "У воронежской группы «Развитие» появился еще один проект в Крыму",
+          "summary": "Девелопер планирует построить в Массандре апарт-комплекс стоимостью более 1 млрд рублей",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/09/22/1230658-u-gruppi-razvitie-poyavilsya-proekt-v-krimu",
+          "image": "https://cdn5.vedomosti.ru/image/2026/7c/1d5h58/normal-1rp9.jpg",
+          "publishedAt": "2026-09-21T21:42:25.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-1-1790025668000",
+          "title": "Общая выручка девелоперов жилья за год упала более чем на 7%",
+          "summary": "Показатель снижается в основном за счет Москвы",
+          "url": "https://www.vedomosti.ru/realty/articles/2026/09/22/1230662-viruchka-developerov-zhilya-upala",
+          "image": "https://cdn5.vedomosti.ru/image/2026/7c/1d1oy6/normal-1rkc.jpg",
+          "publishedAt": "2026-09-21T21:21:08.000Z",
+          "source": "Ведомости",
+          "categoryId": "realestate",
+          "categoryName": "Недвижимость",
+          "categorySlug": "realestate"
+        },
+        {
+          "id": "realestate-2-1789938453000",
           "title": "Темпы открытия новых гостиниц в России начали снижаться",
           "summary": "Девелоперы переносят сроки ввода отелей из-за роста стоимости финансирования",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/21/1230350-tempi-otkritiya-gostinits-nachali-snizhatsya",
@@ -1552,7 +1600,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-1-1789679764000",
+          "id": "realestate-3-1789679764000",
           "title": "Доля свободных помещений в складах Московского региона начала снижаться",
           "summary": "Многие компании на фоне активизации спроса отказались от сдачи излишков площадей в субаренду",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/18/1229766-dolya-svobodnih-pomeschenii-v-skladah",
@@ -1564,7 +1612,7 @@
           "categorySlug": "realestate"
         },
         {
-          "id": "realestate-2-1789679737000",
+          "id": "realestate-4-1789679737000",
           "title": "Структура ГК ПИК продала строящийся на «Белорусской» деловой центр «Фрейм»",
           "summary": "Для его нового владельца – фонда «ВИМ сбережения» – это будет первый объект без арендатора",
           "url": "https://www.vedomosti.ru/realty/articles/2026/09/18/1229780-struktura-pik-prodala-delovoi-tsentr-freim",
@@ -1574,35 +1622,11 @@
           "categoryId": "realestate",
           "categoryName": "Недвижимость",
           "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-3-1789593600000",
-          "title": "Рядом с домом купца Брычева в Сокольниках может появиться жилой комплекс",
-          "summary": "Новым владельцем этого исторического здания стала компания, вероятно, связанная с MR Group",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/09/17/1229418-ryadom-s-domom-bricheva-mozhet-poyavitsya-zhiloi-kompleks",
-          "image": "https://cdn5.vedomosti.ru/image/2026/77/12rxaz/normal-1e95.jpg",
-          "publishedAt": "2026-09-16T21:20:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
-        },
-        {
-          "id": "realestate-4-1789593180000",
-          "title": "Активы владеющих складами ЗПИФов за год подорожали в 1,6 раза",
-          "summary": "Инвесторы продолжают вкладывать в них средства на фоне снижения доходности депозитов",
-          "url": "https://www.vedomosti.ru/realty/articles/2026/09/17/1229421-aktivi-vladeyuschih-skladami-zpifov-podorozhali",
-          "image": "https://cdn5.vedomosti.ru/image/2026/77/134yar/normal-1eq0.jpg",
-          "publishedAt": "2026-09-16T21:13:00.000Z",
-          "source": "Ведомости",
-          "categoryId": "realestate",
-          "categoryName": "Недвижимость",
-          "categorySlug": "realestate"
         }
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-09-21T16:04:51.579Z",
+      "lastFetchAt": "2026-09-22T00:21:12.720Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1610,7 +1634,43 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1790000640000",
+          "id": "travel-0-1790012880000",
+          "title": "Россияне раскрыли главные требования к отелям в путешествиях",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/21/rossiyane-raskryli-glavnye-trebovaniya-k-otelyam-v-puteshestviyah/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/20/20260921204934989/pic_4a875c8eb6f7f99235d8b263195545d7.jpg",
+          "publishedAt": "2026-09-21T17:48:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1790012484000",
+          "title": "Худшая авиакомпания Европы запустит рейс длиной в сутки ради облета России",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/21/hudshaya-aviakompaniya-evropy-zapustit-reys-dlinoy-v-sutki-radi-obleta-rossii/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/18/20260921184210158/pic_3121dbec03bc1e1aa38918632e5425dc.jpg",
+          "publishedAt": "2026-09-21T17:41:24.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1790006750000",
+          "title": "Россиянин получил 200 тысяч рублей от авиакомпании за опоздание на пересадку",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/21/rossiyanin-poluchil-200-tysyach-rubley-ot-aviakompanii-za-opozdanie-na-peresadku/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/16/20260921160529569/pic_ba9da9b274cfa2490bf41bdb647eda65.jpg",
+          "publishedAt": "2026-09-21T16:05:50.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-3-1790000640000",
           "title": "Маэстро Понасенков раскрыл отношение европейцев к русским туристам",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/21/maestro-ponasenkov-raskryl-otnoshenie-evropeytsev-k-russkim-turistam/",
@@ -1620,23 +1680,11 @@
           "categoryId": "travel",
           "categoryName": "Путешествия",
           "categorySlug": "travel"
-        },
-        {
-          "id": "travel-1-1789998060000",
-          "title": "Летевшие на курорт богачей москвичи стали жертвами аэроворов",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/21/letevshie-na-kurort-bogachey-moskvichi-stali-zhertvami-aerovorov/",
-          "image": "https://icdn.lenta.ru/images/2026/09/21/15/20260921155016030/pic_35c906d60e9f5de72af6dce4fbb8c4b8.jpg",
-          "publishedAt": "2026-09-21T13:41:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
         }
       ]
     },
     "basketball": {
-      "lastFetchAt": "2026-09-21T16:04:17.208Z",
+      "lastFetchAt": "2026-09-22T00:20:42.302Z",
       "intervalHours": 6,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1644,96 +1692,96 @@
       "slug": "basketball",
       "articles": [
         {
-          "id": "basketball-0-1790006280000",
-          "title": "«Тревизо» подписал центрового Ике Анигбогу",
-          "summary": "«Тревизо» объявил о подписании 27-летнего (208 см) центрового Ике Анигбогу.",
-          "url": "https://www.sports.ru/basketball/1117377659-trevizo-podpisal-czentrovogo-ike-anigbogu.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/765/9/share/cbfe13_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T15:58:00.000Z",
+          "id": "basketball-0-1790024580000",
+          "title": "Женская НБА. «Нью-Йорк» примет «Атланту», «Финикс» сыграет против «Далласа»",
+          "summary": "«Нью-Йорк» примет на своей площадке «Атланту», «Финикс» встретится с «Далласом».",
+          "url": "https://www.sports.ru/basketball/1117377506-zhenskaya-nba-nyu-jork-primet-atlantu-finiks-sygraet-protiv-dallasa.html",
+          "image": "https://s5o.ru/storage/simple/03/97/82/2013.10.11.01.36.55.145039782.1.jpg",
+          "publishedAt": "2026-09-21T21:03:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-1-1790005500000",
-          "title": "Джаред Маккейн о музыкальной карьере: «Сейчас я слишком сильно сосредоточен на баскетболе»",
-          "summary": "Защитник «Оклахомы» Джаред Маккейн рассказал о возможной музыкальной карьере.",
-          "url": "https://www.sports.ru/basketball/1117377639-dzhared-makkejn-o-muzykalnoj-karere-sejchas-ya-slishkom-silno-sosredot.html",
+          "id": "basketball-1-1790024340000",
+          "title": "Трэй Янг: «Эй Джей Дибанца реально крут. Это настоящий талант»",
+          "summary": "Разыгрывающий «Вашингтона» Трэй Янг рассказал о впечатлениях от новичка команды Эй Джея Дибанцы, выбранного под первым номером драфта НБА-2026.",
+          "url": "https://www.sports.ru/basketball/1117377858-trej-yang-ej-dzhej-dibancza-realno-krut-eto-nastoyashhij-talant.html",
           "image": "https://s5o.ru/storage/simple/82/52/77/2013.10.06.01.54.43.4825277.1.jpg",
-          "publishedAt": "2026-09-21T15:45:00.000Z",
+          "publishedAt": "2026-09-21T20:59:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-2-1790004360000",
-          "title": "Душан Алимпиевич: «Участие в Евролиге не создает для нас никакого давления»",
-          "summary": "Главный тренер «Бешикташа» Душан Алимпиевич высказался об участии команды в Евролиге.",
-          "url": "https://www.sports.ru/basketball/1117377628-dushan-alimpievich-uchastie-v-evrolige-ne-sozdaet-dlya-nas-nikakogo-da.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/762/8/share/1d22f1_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T15:26:00.000Z",
+          "id": "basketball-2-1790023260000",
+          "title": "Владелец «Юты» Райан Смит: «Стив Балмер – порядочный человек. Я рад, что он принял наказание»",
+          "summary": "Владелец «Юта» Райан Смит высказался о расследовании НБА в отношении «Клипперс» и Стива Балмера.",
+          "url": "https://www.sports.ru/basketball/1117377855-vladelecz-yuty-rajan-smit-stiv-balmer-poryadochnyj-chelovek-ya-rad-cht.html",
+          "image": "https://s5o.ru/storage/simple/76/18/15/2013.10.07.15.28.46.71761815.1.jpg",
+          "publishedAt": "2026-09-21T20:41:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-3-1790003460000",
-          "title": "Центровой МБА Сергей Балашов пропустит около двух месяцев",
-          "summary": "МБА начнет сезон-2026/27 Единой лиги ВТБ в ограниченном составе.",
-          "url": "https://www.sports.ru/basketball/1117377617-czentrovoj-mba-sergej-balashov-propustit-okolo-dvux-mesyaczev.html",
-          "image": "https://s5o.ru/storage/simple/78/41/36/2013.10.08.06.23.14.92784136.1.jpg",
-          "publishedAt": "2026-09-21T15:11:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "basketball",
-          "categoryName": "Баскетбол",
-          "categorySlug": "basketball"
-        },
-        {
-          "id": "basketball-4-1790002560000",
-          "title": "Дарио Шарич: «Сейчас моя мечта – выиграть Евролигу с «Эфесом»",
-          "summary": "Дарио Шарич рассказал о целях после возвращения в «Анадолу Эфес».",
-          "url": "https://www.sports.ru/basketball/1117377602-dario-sharich-sejchas-moya-mechta-vyigrat-evroligu-s-efesom.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/760/2/share/be3089_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T14:56:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "basketball",
-          "categoryName": "Баскетбол",
-          "categorySlug": "basketball"
-        },
-        {
-          "id": "basketball-5-1790001660000",
-          "title": "Бывший футболист Нико Берг возглавит медицинский штаб «Далласа»",
-          "summary": "«Даллас» близок к назначению нового руководителя медицинского штаба после увольнения Йохана Билсборо по окончании прошлого сезона.",
-          "url": "https://www.sports.ru/basketball/1117377589-byvshij-futbolist-niko-berg-vozglavit-mediczinskij-shtab-dallasa.html",
+          "id": "basketball-3-1790022720000",
+          "title": "Тим Макмэн: «В НБА задаются вопросом, как долго Кайри Ирвинг и «Даллас» будут вместе»",
+          "summary": "Инсайдер Тим Макмэн заявил, что в НБА следят за ситуацией вокруг Кайри Ирвинга и допускают его возможный уход из «Далласа».",
+          "url": "https://www.sports.ru/basketball/1117377850-tim-makmen-v-nba-zadayutsya-voprosom-kak-dolgo-kajri-irving-i-dallas-b.html",
           "image": "https://s5o.ru/storage/simple/95/65/54/2013.10.06.23.20.00.44956554.1.jpg",
-          "publishedAt": "2026-09-21T14:41:00.000Z",
+          "publishedAt": "2026-09-21T20:32:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-6-1790000700000",
-          "title": "Остин Эйндж о продлении Кейонте Джорджа: «Мы хотим, чтобы вся команда была сосредоточена на победах»",
-          "summary": "«Юта» подписала пятилетнее продление контракта с защитником Кейонте Джорджем на 157 млн долларов.",
-          "url": "https://www.sports.ru/basketball/1117377568-ostin-ejndzh-o-prodlenii-kejonte-dzhordzha-my-xotim-chtoby-vsya-komand.html",
-          "image": "https://s5o.ru/storage/simple/82/52/77/2013.10.06.01.54.43.4825277.1.jpg",
-          "publishedAt": "2026-09-21T14:25:00.000Z",
+          "id": "basketball-4-1790021820000",
+          "title": "Новичок «Атланты» Хенри Веесаар получил разрыв «крестов» и пропустит весь сезон-2026/27",
+          "summary": "Новичок «Атланты» Хенри Веесаар получил разрыв передней крестообразной связки правого колена во время тренировки и перенесет операцию в следующем месяце, сообщила пресс-служба клуба.",
+          "url": "https://www.sports.ru/basketball/1117377845-novichok-atlanty-xenri-veesaar-poluchil-razryv-krestov-i-propustit-ves.html",
+          "image": "https://s5o.ru/storage/simple/18/04/48/2013.10.07.01.43.45.56180448.1.jpg",
+          "publishedAt": "2026-09-21T20:17:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
           "categorySlug": "basketball"
         },
         {
-          "id": "basketball-7-1789999800000",
-          "title": "Братья Басс получили эксклюзивное право вести переговоры о покупке «Виллербана»",
-          "summary": "Братья Басс получили исключительное право вести переговоры о покупке «Виллербана» до начала ноября, сообщает Eurohoops со ссылкой на источники.",
-          "url": "https://www.sports.ru/basketball/1117377562-bratya-bass-poluchili-eksklyuzivnoe-pravo-vesti-peregovory-o-pokupke-v.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/756/2/share/15daf2_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-21T14:10:00.000Z",
+          "id": "basketball-5-1790021040000",
+          "title": "«Детройт» предложил Джейлену Дюрену 5-летний контракт на 200 млн долларов",
+          "summary": "«Детройт» повысил предложение Джейлену Дюрену до 200 млн долларов за пять лет, однако стороны пока не смогли договориться о новом контракте, сообщает инсайдер Шэмс Чарания.",
+          "url": "https://www.sports.ru/basketball/1117377836-detrojt-predlozhil-dzhejlenu-dyurenu-5-letnij-kontrakt-na-200-mln-doll.html",
+          "image": "https://s5o.ru/storage/simple/95/46/69/2013.10.06.23.57.08.44954669.1.jpg",
+          "publishedAt": "2026-09-21T20:04:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "basketball",
+          "categoryName": "Баскетбол",
+          "categorySlug": "basketball"
+        },
+        {
+          "id": "basketball-6-1790019780000",
+          "title": "Трэй Янг об уходе из «Атланты»: «Не хотел превращать это в большую историю»",
+          "summary": "Разыгрывающий «Вашингтона» Трэй Янг рассказал, почему решил покинуть «Атланту», подчеркнув, что хотел уйти без конфликта.",
+          "url": "https://www.sports.ru/basketball/1117377822-trej-yang-ob-uxode-iz-atlanty-ne-xotel-prevrashhat-eto-v-bolshuyu-isto.html",
+          "image": "https://s5o.ru/storage/simple/18/04/48/2013.10.07.01.43.45.56180448.1.jpg",
+          "publishedAt": "2026-09-21T19:43:00.000Z",
+          "source": "Sports.ru",
+          "categoryId": "basketball",
+          "categoryName": "Баскетбол",
+          "categorySlug": "basketball"
+        },
+        {
+          "id": "basketball-7-1790018520000",
+          "title": "«Торонто» подписал с Джейденом Брэдли четырехлетний контракт на 9,3 млн долларов",
+          "summary": "«Торонто» перевел контракт Джейдена Брэдли с двустороннего на стандартный четырехлетний контракт общей стоимостью 9,3 млн долларов, сообщает Майкл Скотто из HoopsHype.",
+          "url": "https://www.sports.ru/basketball/1117377809-toronto-podpisal-s-dzhejdenom-bredli-chetyrexletnij-kontrakt-na-9-3-ml.html",
+          "image": "https://s5o.ru/storage/simple/95/18/72/2013.10.06.23.18.24.44951872.1.jpg",
+          "publishedAt": "2026-09-21T19:22:00.000Z",
           "source": "Sports.ru",
           "categoryId": "basketball",
           "categoryName": "Баскетбол",
@@ -1742,7 +1790,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-21T21:19:28.606Z",
+      "lastFetchAt": "2026-09-22T00:20:53.720Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1750,7 +1798,55 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1790025443000",
+          "id": "svo-0-1790033470000",
+          "title": "В Днепропетровске вспыхнул мощный пожар после атаки БПЛА",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/22/v-dnepropetrovske-vspyhnul-moschnyy-pozhar-posle-ataki-bpla/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/02/20260922023129721/pic_8d9acd8a9cad0d5e5fbffeccef70cd24.jpg",
+          "publishedAt": "2026-09-21T23:31:10.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1790033040000",
+          "title": "На Украине уничтожен склад боеприпасов ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/22/na-ukraine-unichtozhen-sklad-boepripasov-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/22/02/20260922022414000/pic_d3fde92e3fd1afd8cae93f93cef0e4c8.jpg",
+          "publishedAt": "2026-09-21T23:24:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1790025780000",
+          "title": "Экс-аналитик ЦРУ назвал признаком слабости атаки ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/21/eks-analitik-tsru-nazval-priznakom-slabosti-ataki-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/23/20260921235706429/pic_635d62108747f9f19200cb1e354fcf15.jpg",
+          "publishedAt": "2026-09-21T21:23:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1790025554000",
+          "title": "Путин посмертно наградил погибшего в Крыму помощника машиниста",
+          "summary": "Президент России Владимир Путин посмертно наградил орденом мужества помощника машиниста Ивана Шведова. Он погиб при ударе БПЛА по поезду в Крыму в июне.",
+          "url": "https://www.kommersant.ru/doc/8971898",
+          "image": "https://im2.kommersant.ru/SocialPics/8971898_49_0_1707203226",
+          "publishedAt": "2026-09-21T21:19:14.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1790025443000",
           "title": "Украина пытается нарастить привлечение иностранцев в ВСУ, заявили в МИД",
           "summary": "",
           "url": "https://ria.ru/20260922/ukraina-2119392529.html",
@@ -1762,7 +1858,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1790020740000",
+          "id": "svo-5-1790020740000",
           "title": "В Европе назвали цель массированной атаки ВСУ на Москву",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/21/v-evrope-nazvali-tsel-massirovannoy-ataki-vsu-na-moskvu/",
@@ -1774,11 +1870,11 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1790018678000",
+          "id": "svo-6-1790018678000",
           "title": "Главу округа в Запорожье задержали по делу о злоупотреблении полномочиями",
           "summary": "Следственный комитет задержал главу Приморского округа Запорожской области Владимира Прокопенко по подозрению в злоупотреблении должностными полномочиями. Об этом рассказал губернатор региона Евгений Балицкий в «Максе».",
           "url": "https://www.kommersant.ru/doc/8971887",
-          "image": "https://iv.kommersant.ru/SocialPics/8971887_49_0_1957652461",
+          "image": "https://im2.kommersant.ru/SocialPics/8971887_49_0_1957652461",
           "publishedAt": "2026-09-21T19:24:38.000Z",
           "source": "Коммерсантъ",
           "categoryId": "svo",
@@ -1786,19 +1882,7 @@
           "categorySlug": "svo"
         },
         {
-          "id": "svo-3-1790018184000",
-          "title": "Боец ВС России рассказал об уничтожении пунктов управления БПЛА ВСУ",
-          "summary": "",
-          "url": "https://ria.ru/20260921/svo-2119384446.html",
-          "image": "https://cdnn21.img.ria.ru/images/07ea/09/10/2117973323_0:161:3071:1888_650x0_80_0_0_e15cd402c6d6042cce7390dc9475b5ef.jpg",
-          "publishedAt": "2026-09-21T19:16:24.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1790015304000",
+          "id": "svo-7-1790015304000",
           "title": "Ковальчук по итогам голосования победил на выборах главы Брянской области",
           "summary": "По итогам подсчета 100% протоколов Ковальчук набрал 67,52% голосов. В Белгородской области победу одержал врио губернатора Александр Шуваев",
           "url": "https://www.rbc.ru/politics/21/09/2026/6ab176606227e026339c33c2",
@@ -1808,47 +1892,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1790015281000",
-          "title": "В ДНР \"Единая Россия\" набрала более 80 процентов голосов на выборах  в ГД",
-          "summary": "",
-          "url": "https://ria.ru/20260921/dnr-2119381156.html",
-          "image": "https://cdnn21.img.ria.ru/images/07ea/09/15/2119150509_0:233:3226:2048_650x0_80_0_0_546b593bcd3362183b9d153722697f08.jpg",
-          "publishedAt": "2026-09-21T18:28:01.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1790015056000",
-          "title": "В Херсонской области более 70 процентов избирателей проголосовали за ЕР",
-          "summary": "",
-          "url": "https://ria.ru/20260921/vybory-2119380878.html",
-          "image": "https://cdnn21.img.ria.ru/images/07ea/09/15/2119365775_0:251:3072:1979_650x0_80_0_0_622894dec8a0401da734011f5ad2d8d6.jpg",
-          "publishedAt": "2026-09-21T18:24:16.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1790014370000",
-          "title": "Российские военные уничтожили американскую БМП Bradley ВСУ",
-          "summary": "",
-          "url": "https://ria.ru/20260921/vsu-2119379400.html",
-          "image": "https://cdnn21.img.ria.ru/images/sharing/article/2119379400.jpg?20818676601790014371",
-          "publishedAt": "2026-09-21T18:12:50.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-21T21:19:38.772Z",
+      "lastFetchAt": "2026-09-22T00:21:03.670Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1856,7 +1904,31 @@
       "slug": "security-services",
       "articles": [
         {
-          "id": "security-services-0-1790011560000",
+          "id": "security-services-0-1790035232000",
+          "title": "В Пентагоне объяснили перенос встречи с главой Минобороны Польши",
+          "summary": "",
+          "url": "https://ria.ru/20260922/pentagon-2119402262.html",
+          "image": "https://cdnn21.img.ria.ru/images/sharing/article/2119402262.jpg?15639802451790035739",
+          "publishedAt": "2026-09-22T00:00:32.000Z",
+          "source": "РИА Новости",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-1-1790032005000",
+          "title": "Пентагон экстренно запросил перенос встречи с главой минобороны Польши",
+          "summary": "Встреча министра обороны Польши Владислава Косиняк-Камыша с руководством Пентагона, запланированная на 23 сентября, будет отложена.",
+          "url": "https://www.rbc.ru/politics/22/09/2026/6ab1ba699a79475bb676cf39",
+          "image": null,
+          "publishedAt": "2026-09-21T23:06:45.000Z",
+          "source": "РБК",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-2-1790011560000",
           "title": "Минобороны выпустило заявление о налете беспилотников ВСУ на Россию",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/21/minoborony-vypustilo-zayavlenie-o-nalete-bespilotnikov-vsu-na-rossiyu/",
@@ -1868,23 +1940,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-1-1790011559000",
-          "title": "За день в регионах России сбили 45 украинских беспилотников",
-          "summary": "Подразделения ПВО в течение дня 21 сентября сбили в регионах России 45 украинских беспилотников самолетного типа, сообщила пресс-служба Минобороны.",
-          "url": "https://www.rbc.ru/rbcfreenews/6ab1685808a81ca8e1e32e9c",
-          "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/38/347900117393385.jpeg",
-          "publishedAt": "2026-09-21T17:25:59.000Z",
-          "source": "РБК",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-2-1789986546000",
+          "id": "security-services-3-1789986546000",
           "title": "Российская армия взяла харьковские Польную и Новоалександровку // Минобороны: ВС РФ взяли Польную и Новоалександровку в Харьковской области",
           "summary": "Российские подразделения в зоне СВО установили контроль над населенными пунктами Польная и Новоалександровка в Харьковской области. Об этом сообщили в Минобороны РФ.",
           "url": "https://www.kommersant.ru/doc/8971464",
-          "image": "https://iv.kommersant.ru/SocialPics/8971464_49_0_1893405076",
+          "image": "https://im2.kommersant.ru/SocialPics/8971464_49_0_1893405076",
           "publishedAt": "2026-09-21T10:29:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1892,11 +1952,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1789974923000",
+          "id": "security-services-4-1789974923000",
           "title": "ФСБ: житель Донецка планировал подорвать машину у избирательного участка",
           "summary": "Житель Донецка по заданию СБУ планировал взорвать бомбу возле избирательного участка. Об этом заявили в ФСБ.",
           "url": "https://www.kommersant.ru/doc/8971273",
-          "image": "https://iv.kommersant.ru/SocialPics/8971273_49_0_1458691643",
+          "image": "https://im2.kommersant.ru/SocialPics/8971273_49_0_1458691643",
           "publishedAt": "2026-09-21T07:15:23.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1904,11 +1964,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1789970065000",
+          "id": "security-services-5-1789970065000",
           "title": "Минобороны России отчиталось об ударе по портам Одесса и Измаил",
           "summary": "Российские вооруженные силы этой ночью ударили по складу в Киевской области, а также по двум портам в Одесской области. Удары были нанесены беспилотниками, следует из пресс-релиза Минобороны РФ.",
           "url": "https://www.kommersant.ru/doc/8971193",
-          "image": "https://iv.kommersant.ru/SocialPics/8971193_49_0_1925063887",
+          "image": "https://im2.kommersant.ru/SocialPics/8971193_49_0_1925063887",
           "publishedAt": "2026-09-21T05:54:25.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1916,7 +1976,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1789969822000",
+          "id": "security-services-6-1789969822000",
           "title": "За ночь над Россией сбили 244 беспилотника // Минобороны: силы ПВО за ночь сбили над Россией 244 БПЛА ВСУ",
           "summary": "С вечера 20 сентября средства ПВО сбили над российскими регионами 244 беспилотника ВСУ. Об этом сообщили в Минобороны РФ.",
           "url": "https://www.kommersant.ru/doc/8971191",
@@ -1928,24 +1988,12 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-6-1789923007000",
+          "id": "security-services-7-1789923007000",
           "title": "Минобороны: ВСУ для срыва голосования предприняли массированную атаку БПЛА и ракетами «Фламинго» // Минобороны сообщило о массированной атаке ВСУ в день голосования",
           "summary": "За сутки над российскими регионами сбили 1951 беспилотников и восемь крылатых ракет большой дальности «Фламинго». Еще одна крылатая ракета отклонилась и упала в безлюдной местности.",
           "url": "https://www.kommersant.ru/doc/8970980",
           "image": "https://iv.kommersant.ru/SocialPics/8970980_49_0_1774756432",
           "publishedAt": "2026-09-20T16:50:07.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-7-1789901636000",
-          "title": "КНДР запустила еще одну ракету в сторону Японского моря",
-          "summary": "Министерство обороны Южной Кореи зафиксировало еще один пуск снаряда с восточного побережья КНДР в сторону Японского моря, передает Reuters. Несколько часов назад северокорейские военные запустили баллистическую ракету в",
-          "url": "https://www.kommersant.ru/doc/8970821",
-          "image": "https://iv.kommersant.ru/SocialPics/8970821_49_0_1181967394",
-          "publishedAt": "2026-09-20T10:53:56.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
