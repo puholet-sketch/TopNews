@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-27T00:00:28.615Z",
-  "lastRunAt": "2026-09-27T00:00:28.615Z",
+  "updatedAt": "2026-09-27T03:52:56.452Z",
+  "lastRunAt": "2026-09-27T03:52:56.452Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "ai",
-    "cybersecurity",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "skiing",
-    "mma",
-    "basketball",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
     "it",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
-    "football-russia",
+    "sports",
+    "politics",
+    "svo",
+    "security-services",
     "education",
     "realestate",
     "travel"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "football-russia",
+    "skiing",
+    "mma",
+    "basketball"
   ],
   "failedNow": [
     {
@@ -39,7 +39,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-09-26T20:17:35.230Z",
+      "lastFetchAt": "2026-09-27T03:51:04.533Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -47,12 +47,12 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1790447616000",
-          "title": "Сделал свой MCP для Blender, чтобы ИИ сам делал 3D-модели",
-          "summary": "Сделал MCP сервер для Blender, чтобы ИИ-агент сам создавал 3D-модели с проверкой качества. 119 команд, автоисправление топологии, скачивание текстур и моделей из библиотек Читать далее",
-          "url": "https://habr.com/ru/articles/1087010/?utm_campaign=1087010&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habr.com/share/publication/1087010/9098ca0f9cbb0df3895424f100204ab6/",
-          "publishedAt": "2026-09-26T18:33:36.000Z",
+          "id": "it-0-1790471288000",
+          "title": "Как вы вообще живёте без POWERLINK…",
+          "summary": "Промавтоматика B&R после санкций, без шаманства и плясок с бубнами: как заменить умерший контроллер мини-ПК, оставить родные стойки и не переписывать проект. Драйвер под сетевые карты Intel I226, шлюз реального времени, ",
+          "url": "https://habr.com/ru/articles/1087036/?utm_campaign=1087036&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/getpro/habr/upload_files/34c/692/0dc/34c6920dc01bee9f03daf78822986c63.png",
+          "publishedAt": "2026-09-27T01:08:08.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -249,7 +249,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-09-26T23:59:57.514Z",
+      "lastFetchAt": "2026-09-27T03:51:06.825Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -319,7 +319,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-09-26T20:17:39.098Z",
+      "lastFetchAt": "2026-09-27T03:51:08.309Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -327,7 +327,19 @@
       "slug": "startups",
       "articles": [
         {
-          "id": "startups-0-1790430143000",
+          "id": "startups-0-1790421342000",
+          "title": "Апелляционный суд США оставил в силе решение о включении Anthropic в «черный список» Минобороны",
+          "summary": "В другом суде это же решение признали незаконным, но компании для его отмены нужно было выиграть два раза.",
+          "url": "https://vc.ru/legal/3160504-apellyatsionnyy-sud-ssha-podtverdil-zapret-anthropic?from=rss",
+          "image": "https://leonardo.osnova.io/737c570f-7b90-5c18-b796-0eda4c8f1728/",
+          "publishedAt": "2026-09-26T11:15:42.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-1-1790430143000",
           "title": "День 1675: Минэнерго предложило ввести внешнее управление на сети АЗС «Трасса», Euroclear подал жалобы к ЦБ в российском суде",
           "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
           "url": "https://vc.ru/money/3160736-minenrgo-predlozhilo-vneshnee-upravlenie-na-seti-azs-trassa?from=rss",
@@ -339,7 +351,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1790357526000",
+          "id": "startups-2-1790357526000",
           "title": "Стартап, который продаёт «тупофоны», устал от однотипных сопроводительных ИИ-писем от кандидатов и попросил писать их от руки",
           "summary": "Эксперимент считает успешным: хотя на проверку заявок ушло больше времени, в компании говорят, что смогли лучше узнать будущих коллег и сделать процесс найма более «личным».",
           "url": "https://vc.ru/hr/3159698-startup-dumbco-rukopisy-soprovoditelnye-pisma?from=rss",
@@ -351,7 +363,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1790333224000",
+          "id": "startups-3-1790333224000",
           "title": "В App Store появилось приложение Spotluma с функциями «Т-Банка»",
           "summary": "Оно замаскировано под сервис для управления клининговой компанией.",
           "url": "https://vc.ru/services/3158891-prilozhenie-spotluma-v-app-store-s-funkciyami-t-banka?from=rss",
@@ -363,24 +375,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1790341285000",
+          "id": "startups-4-1790341285000",
           "title": "«АвтоВАЗ» запустил в Тольятти серийное производство кроссовера Lada Azimut",
           "summary": "Компания представила модель в 2025 году.",
           "url": "https://vc.ru/transport/3157539-avtovaz-zapustil-proizvodstvo-krossovera-lada-azimut?from=rss",
           "image": "https://leonardo.osnova.io/7255d8f3-2115-50e0-91a4-2ae5f40ee016/",
           "publishedAt": "2026-09-25T13:01:25.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1790335732000",
-          "title": "Nielsen продала активы в России — на фоне закона, который запрещает заказывать исследования у компаний под контролем иностранцев",
-          "summary": "Сумма сделки неизвестна.",
-          "url": "https://vc.ru/legal/3158923-nielsen-prodala-aktivy-v-rossii?from=rss",
-          "image": "https://leonardo.osnova.io/6d1d7d16-4a30-5ecd-bdbd-7ac61ee92a1a/",
-          "publishedAt": "2026-09-25T11:28:52.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -459,7 +459,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-09-26T20:17:41.859Z",
+      "lastFetchAt": "2026-09-27T03:51:11.881Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -587,7 +587,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-09-26T20:17:52.306Z",
+      "lastFetchAt": "2026-09-27T03:51:22.774Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -903,7 +903,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-09-26T20:17:54.541Z",
+      "lastFetchAt": "2026-09-27T03:51:24.505Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -973,7 +973,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-09-26T20:17:55.693Z",
+      "lastFetchAt": "2026-09-27T03:51:26.856Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -985,7 +985,7 @@
           "title": "Портрет таксы художника Дэвида Хокни выставили на торги за 2,5 млн фунтов",
           "summary": "Картина «Изображение собаки № 17» британского художника Дэвида Хокни выставлена на торги на аукционе Christie’s. Ее стоимость оценивают от 1,5 до 2,5 млн фунтов стерлингов (€2,9 млн), пишет The Guardian.",
           "url": "https://www.kommersant.ru/doc/8987827",
-          "image": "https://im2.kommersant.ru/SocialPics/8987827_49_3215796_1929693999",
+          "image": "https://iv.kommersant.ru/SocialPics/8987827_49_3215796_1929693999",
           "publishedAt": "2026-09-26T12:56:42.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -997,7 +997,7 @@
           "title": "Михаил Швыдкой получил Эрмитажную премию",
           "summary": "В Зимнем дворце Эрмитажа прошла церемония объявления лауреатов «Эрмитажной премии». Награды были удостоены спецпредставитель президента по международному культурному сотрудничеству Михаил Швыдкой и театральный режиссер Д",
           "url": "https://www.kommersant.ru/doc/8987770",
-          "image": "https://iv.kommersant.ru/SocialPics/8987770_49_0_1824943346",
+          "image": "https://im2.kommersant.ru/SocialPics/8987770_49_0_1824943346",
           "publishedAt": "2026-09-26T09:22:06.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1033,7 +1033,7 @@
           "title": "Путин сообщил о подготовке стратегии развития театров, музеев и архивов в России",
           "summary": "В России разрабатываются стратегии развития отдельных отраслей культуры, сообщил президент Владимир Путин. Среди них он выделил архивную, театральную и музейную сферы.",
           "url": "https://www.kommersant.ru/doc/8987303",
-          "image": "https://iv.kommersant.ru/SocialPics/8987303_49_0_1666883831",
+          "image": "https://im2.kommersant.ru/SocialPics/8987303_49_0_1666883831",
           "publishedAt": "2026-09-25T15:56:44.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1043,7 +1043,7 @@
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-09-27T00:00:05.036Z",
+      "lastFetchAt": "2026-09-27T03:51:28.998Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1051,60 +1051,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1790461800000",
-          "title": "UFC Fight Night 289: Росас – Барселос и другие бои",
-          "summary": "В ночь на 27 сентября в Лас-Вегасе пройдет UFC Fight Night 289. Главным событием станет бой в легчайшем весе между Раулем Росасом-младшим (13-1) и Раони Барселосом (22-5). Другие бои турнира : Мехеммедели Османли (12-1) ",
-          "url": "https://www.sports.ru/boxing/1117378996-ufc-fight-night-289-rosas-barselos-i-drugie-boi.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/737/899/6/share/dfcf2f_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-26T22:30:00.000Z",
+          "id": "sports-0-1790480100000",
+          "title": "Шуравин впервые забил за «Флориду» – «Тампе» на предсезонке. У 20-летнего защитника 1 блок, 1 перехват и 2 потери за 21:22",
+          "summary": "Защитник «Флориды» Матвей Шуравин забросил шайбу в заключительном предсезонном матче с « Тампой » (2:3 Б). 20-летний россиянин (21:22, 2:12 – в большинстве, 1:54 – в меньшинстве) завершил встречу с полезностью «+1». Он р",
+          "url": "https://www.sports.ru/hockey/1117382607-shuravin-vpervye-zabil-za-floridu-tampe-na-predsezonke-u-20-letnego-za.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/738/260/7/share/6f0865_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-27T03:35:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1790465640000",
-          "title": "Федоров о 10-м месте на Мемориале Непелы: «Первый старт в сезоне, не вкатился еще достаточно. Думаю, сейчас будет полегче»",
-          "summary": "Российский фигурист Григорий Федоров прокомментировал свое выступление на Мемориале Ондрея Непелы в Братиславе. Федоров исполнил произвольную программу с ошибками и занял итоговое 10-е место. Победу одержал Евгений Семен",
-          "url": "https://www.sports.ru/figure-skating/1117382568-fedorov-o-10-m-meste-na-memoriale-nepely-pervyj-start-v-sezone-ne-vkat.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/738/256/8/share/f91eaf_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-26T23:34:00.000Z",
+          "id": "sports-1-1790479320000",
+          "title": "Канцеров впервые забил за «Чикаго» – победный гол в матче с «Сент-Луисом» на предсезонке. У него 2 броска, 2 хита и 7 из 11 на точке за 16:07",
+          "summary": "Форвард « Чикаго » Роман Канцеров стал автором победной шайбы в заключительном предсезонном матче с « Сент-Луисом » (3:2). 22-летний россиянин отличился во втором периоде, реализовав большинство броском с неудобной руки.",
+          "url": "https://www.sports.ru/hockey/1117382605-kanczerov-vpervye-zabil-za-chikago-sent-luisu-na-predsezonke-u-nego-2-.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/738/260/5/share/5a7cf6_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-27T03:22:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1790465610000",
-          "title": "«Сиэтл Саундерс»  «Миннесота»: стартовые составы команд на матч МЛС, 27 сентября 2026 года",
-          "summary": "«Сиэтл Саундерс» и «Миннесота» объявили стартовые составы на матч МЛС, который состоится 27 сентября 2026 года на стадионе «Люмен Филд». Стартовый состав «Сиэтл Саундерс» «Сиэтл Саундерс» выйдет с одним нападающим на ост",
-          "url": "https://www.sports.ru/football/1117382567-sietl-saunders-minnesota-startovye-sostavy-komand-na-match-mls-27-sent.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/738/256/7/share/f934b6_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-26T23:33:30.000Z",
+          "id": "sports-2-1790478600000",
+          "title": "Мичков остался без очков в матче с «Вашингтоном» на предсезонке. У него 3 броска и «минус 3» за 18:04",
+          "summary": "Форвард «Филадельфии» Матвей Мичков не отметился результативными действиями в заключительном матче предсезонки против « Вашингтона » (1:5). 21-летний россиянин провел на льду 18 минут 4 секунды (2-й показатель среди форв",
+          "url": "https://www.sports.ru/hockey/1117382604-michkov-ostalsya-bez-ochkov-v-matche-s-vashingtonom-na-predsezonke-u-n.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/738/260/4/share/55c5c3_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-27T03:10:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1790465605000",
-          "title": "«Нэшвилл»  «Торонто»: стартовые составы команд на матч МЛС, 27 сентября 2026 года",
-          "summary": "«Нэшвилл» и «Торонто» объявили стартовые составы на матч МЛС, который состоится 27 сентября 2026 года на «Джиодис Парк». Стартовый состав «Нэшвилл» «Нэшвилл» выстраивает игру с одним форвардом на острие и пятью полузащит",
-          "url": "https://www.sports.ru/football/1117382566-neshvill-toronto-startovye-sostavy-komand-na-match-mls-27-sentyabrya-2.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/738/256/6/share/8ce444_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-26T23:33:25.000Z",
+          "id": "sports-3-1790478000000",
+          "title": "НХЛ. Выставочные матчи. «Каролина» разгромила «Нэшвилл», «Флорида» уступила «Тампе», «Питтсбург» победил «Баффало», «Вегас» играет с «Сан-Хосе»",
+          "summary": "НХЛ Выставочные матчи « Нэшвилл » – « Каролина » – 0:6 (0:3, 0:1, 0:2) 0:1 – 6 Блэйк (Гостисбеер, Ахо), ГБ 0:2 – 8 Мартинук (Элерс, Стаал) 0:3 – 14 Элерс 0:4 – 37 Станковен (Блэйк) 0:5 – 50 Янковски (Серум, Холл), ГБ 0:6",
+          "url": "https://www.sports.ru/hockey/1117381680-nxl-vystavochnye-matchi.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/738/168/0/share/8236c1_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-27T03:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1790465600000",
-          "title": "«Хьюстон Динамо»  «Спортинг Канзас Сити»: стартовые составы команд на матч МЛС, 27 сентября 2026 года",
-          "summary": "«Хьюстон Динамо» и «Спортинг Канзас Сити» объявили стартовые составы на матч МЛС, который состоится 27 сентября 2026 года на «Шелл Энерджи Стэдиум». Стартовый состав «Хьюстон Динамо» «Хьюстон Динамо» выйдет с двумя напад",
-          "url": "https://www.sports.ru/football/1117382565-xyuston-dinamo-sporting-kanzas-siti-startovye-sostavy-komand-na-match-.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/738/256/5/share/51d73a_no_logo_no_text.jpg",
-          "publishedAt": "2026-09-26T23:33:20.000Z",
+          "id": "sports-4-1790477291000",
+          "title": "«Тигрес»  «Пуэбла»: стартовые составы команд на матч Высшей лиги, 27 сентября 2026 года",
+          "summary": "«Тигрес» и «Пуэбла» объявили стартовые составы на матч Высшей лиги, который состоится 27 сентября 2026 года на стадионе «Университарио». Стартовый состав «Тигрес» «Тигрес» выйдет с вратарем в рамке и четырьмя защитниками",
+          "url": "https://www.sports.ru/football/1117382601-tigres-puebla-startovye-sostavy-komand-na-match-vysshej-ligi-27-sentya.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/738/260/1/share/aa68a8_no_logo_no_text.jpg",
+          "publishedAt": "2026-09-27T02:48:11.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1407,7 +1407,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-09-27T00:00:09.662Z",
+      "lastFetchAt": "2026-09-27T03:51:30.401Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1415,48 +1415,24 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1790466060000",
-          "title": "Украину предупредили о полном крахе",
+          "id": "politics-1-1790479200000",
+          "title": "Ряду москвичей напомнили о дополнительных выплатах",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/27/ukrainu-predupredili-o-polnom-krahe/",
-          "image": "https://icdn.lenta.ru/images/2026/09/27/02/20260927023224984/pic_1513a755070dd83b2e29f63ba0a67889.jpg",
-          "publishedAt": "2026-09-26T23:41:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/27/ryadu-moskvichey-napomnili-o-dopolnitelnyh-vyplatah/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/06/20260927062203730/pic_d6007f0755d0ea24045aacec592c544a.jpg",
+          "publishedAt": "2026-09-27T03:20:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1790464419000",
-          "title": "Глава Минпросвещения назвал оптимальную продолжительность школьных каникул",
+          "id": "politics-4-1790478060000",
+          "title": "В премьера европейской страны запустили яйцом во время выступления",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/09/27/glava-minprosvescheniya-nazval-optimalnuyu-prodolzhitelnost-shkolnyh-kanikul/",
-          "image": "https://icdn.lenta.ru/images/2026/09/27/02/20260927021343439/pic_923252f1f0d5948ace7b428eb9d33159.jpg",
-          "publishedAt": "2026-09-26T23:13:39.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-3-1790464257000",
-          "title": "ЕС направит сотни миллионов евро на помощь пострадавшим от кризисов",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/27/es-napravit-sotni-millionov-evro-na-pomosch-postradavshim-ot-krizisov/",
-          "image": "https://icdn.lenta.ru/images/2026/09/27/02/20260927021107505/pic_f5d2cc444d5aea00e558a3d8f5edec6d.jpg",
-          "publishedAt": "2026-09-26T23:10:57.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "politics",
-          "categoryName": "Политика",
-          "categorySlug": "politics"
-        },
-        {
-          "id": "politics-4-1790463960000",
-          "title": "В Киеве прогремели мощные взрывы",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/27/v-kieve-progremeli-moschnye-vzryvy/",
-          "image": "https://icdn.lenta.ru/images/2026/09/27/02/20260927022718429/pic_4af76945d2b9063bd66eca7e8ed12fa4.jpg",
-          "publishedAt": "2026-09-26T23:06:00.000Z",
+          "url": "https://lenta.ru/news/2026/09/27/v-premiera-evropeyskoy-strany-zapustili-yaytsom-vo-vremya-vystupleniya/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/05/20260927055323356/pic_f149ecb3406f0b8d565bf7c2c6727120.jpg",
+          "publishedAt": "2026-09-27T03:01:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1465,7 +1441,7 @@
       ]
     },
     "education": {
-      "lastFetchAt": "2026-09-26T17:29:48.302Z",
+      "lastFetchAt": "2026-09-27T03:52:49.250Z",
       "intervalHours": 8,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -1544,7 +1520,7 @@
       ]
     },
     "realestate": {
-      "lastFetchAt": "2026-09-26T17:29:55.966Z",
+      "lastFetchAt": "2026-09-27T03:52:55.210Z",
       "intervalHours": 8,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -1614,7 +1590,7 @@
       ]
     },
     "travel": {
-      "lastFetchAt": "2026-09-26T17:29:57.525Z",
+      "lastFetchAt": "2026-09-27T03:52:56.451Z",
       "intervalHours": 8,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1622,7 +1598,31 @@
       "slug": "travel",
       "articles": [
         {
-          "id": "travel-0-1790433464000",
+          "id": "travel-0-1790469071000",
+          "title": "Во Франции захотели ужесточить правила для туристов на популярном маршруте",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/vo-frantsii-zayavili-o-planah-uzhestochit-pravila-odnogo-iz-marshrutov-dlya-turistov/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/03/20260927032124368/pic_194a4097afe95a7c70edd70d86d95816.jpg",
+          "publishedAt": "2026-09-27T00:31:11.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-1-1790456837000",
+          "title": "27 сентября: какой праздник отмечают в России и мире",
+          "summary": "27 сентября в России отмечают День государственности Республики Саха, а в мире празднуют Всемирный день туризма. Православные верующие отмечают День Воздвижения Честного Животворящего Креста Господня. Подробнее о торжест",
+          "url": "https://lenta.ru/news/2026/09/27/27-sentyabrya-kakoy-prazdnik-otmechayut-v-rossii-i-mire/",
+          "image": "https://icdn.lenta.ru/images/2026/09/21/09/20260921090747446/pic_4f20d25e024f7c86e427a0b0494537b1.jpg",
+          "publishedAt": "2026-09-26T21:07:17.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "travel",
+          "categoryName": "Путешествия",
+          "categorySlug": "travel"
+        },
+        {
+          "id": "travel-2-1790433464000",
           "title": "Россиянка раскрыла неочевидные для туристов функции вещей в отелях",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/26/rossiyanka-raskryla-neochevidnye-dlya-turistov-funktsii-veschey-v-otelyah/",
@@ -1634,7 +1634,7 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-1-1790425860000",
+          "id": "travel-3-1790425860000",
           "title": "Россиянка описала отель на Бали словами «шведский стол грусть нагоняет»",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/26/rossiyanka-opisala-otel-na-bali-slovami-shvedskiy-stol-grust-nagonyaet/",
@@ -1646,24 +1646,12 @@
           "categorySlug": "travel"
         },
         {
-          "id": "travel-2-1790418840000",
+          "id": "travel-4-1790418840000",
           "title": "Струя воды с потолка российского самолета залила туристов и попала на видео",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/26/struya-vody-s-potolka-rossiyskogo-samoleta-zalila-turistov/",
           "image": "https://icdn.lenta.ru/images/2026/09/26/13/20260926132509900/pic_47d290eb1fa925fc8c59c248182f9323.jpg",
           "publishedAt": "2026-09-26T10:34:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "travel",
-          "categoryName": "Путешествия",
-          "categorySlug": "travel"
-        },
-        {
-          "id": "travel-3-1790411220000",
-          "title": "Назван самый популярный курорт для осеннего отдыха россиян",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/26/nazvan-samyy-populyarnyy-kurort-dlya-osennego-otdyha-rossiyan/",
-          "image": "https://icdn.lenta.ru/images/2026/09/26/11/20260926111433432/pic_c9e1a320d637f7836245fa15797df148.jpg",
-          "publishedAt": "2026-09-26T08:27:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "travel",
           "categoryName": "Путешествия",
@@ -1778,7 +1766,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-09-27T00:00:16.780Z",
+      "lastFetchAt": "2026-09-27T03:51:37.908Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1786,7 +1774,91 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1790465760000",
+          "id": "svo-0-1790480130000",
+          "title": "ВСУ дважды попытались выйти из окружения под Нефедовкой",
+          "summary": "",
+          "url": "https://ria.ru/20260927/spetsoperatsiya-2120504364.html",
+          "image": "https://cdnn21.imgria.ru/images/07ea/07/1e/2108002683_0:160:3071:1887_650x0_80_0_0_32123cca8f8e21570c303f0663bc621c.jpg",
+          "publishedAt": "2026-09-27T03:35:30.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-1-1790479560000",
+          "title": "Стало известно о сотнях уничтоженных за ночь беспилотников ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/stalo-izvestno-o-sotnyah-unichtozhennyh-za-noch-bespilotnikov-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/06/20260927063425276/pic_5561d7b895ed59954c8e83c655431f4e.jpg",
+          "publishedAt": "2026-09-27T03:26:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1790478600000",
+          "title": "Российский военный рассказал об оставлении ВСУ оружия НАТО при бегстве с позиций",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/rossiyskiy-voennyy-rasskazal-ob-ostavlenii-vsu-oruzhiya-nato-pri-begstve/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/06/20260927061241710/pic_e7aae9bea4f3220cc31a76750d93807f.jpg",
+          "publishedAt": "2026-09-27T03:10:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1790478225000",
+          "title": "В ДНР раскрыли число восстановленных за 4 года объектов инфраструктуры",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/v-dnr-raskryli-chislo-vosstanovlennyh-za-4-goda-ob-ektov-infrastruktury/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/05/20260927054959121/pic_ead79b59b3dcc0f024daca9274c46182.jpg",
+          "publishedAt": "2026-09-27T03:03:45.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1790474619000",
+          "title": "Бойцы \"Центра\" уничтожают гексакоптеры ВСУ на Добропольском направлении",
+          "summary": "",
+          "url": "https://ria.ru/20260927/svo-2120502025.html",
+          "image": "https://cdnn21.imgria.ru/images/07ea/08/0f/2111044379_0:45:3072:1773_650x0_80_0_0_ae47d60fd97cd7bc583828537b7536bb.jpg",
+          "publishedAt": "2026-09-27T02:03:39.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-5-1790473860000",
+          "title": "В ДНР рассказали о помощи спасенным из зоны боевых действий",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/v-dnr-rasskazali-o-pomoschi-spasennym-iz-zony-boevyh-deystviy/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/04/20260927045510534/pic_a319c93257f861541adccb34316a7927.jpg",
+          "publishedAt": "2026-09-27T01:51:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-6-1790471837000",
+          "title": "Раскрыты подробности бегства ВСУ под Сумами",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/09/27/raskryty-podrobnosti-begstva-vsu-pod-sumami/",
+          "image": "https://icdn.lenta.ru/images/2026/09/27/04/20260927041901706/pic_e2340e025a7697832cbfc1b0bde671a6.jpg",
+          "publishedAt": "2026-09-27T01:17:17.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-7-1790465760000",
           "title": "ВСУ начали оставлять позиции на Запорожском направлении",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/27/vsu-nachali-ostavlyat-pozitsii-na-zaporozhskom-napravlenii/",
@@ -1796,95 +1868,11 @@
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
-        },
-        {
-          "id": "svo-1-1790449440000",
-          "title": "Лавров сообщил о претензии главы МИД Германии из-за беспилотника",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/26/lavrov-soobschil-o-pretenzii-glavy-mid-germanii-iz-za-bespilotnika/",
-          "image": "https://icdn.lenta.ru/images/2026/09/26/22/20260926220616517/pic_aab03f7ec8cd4243e0c17cac89828083.jpg",
-          "publishedAt": "2026-09-26T19:04:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-2-1790445157000",
-          "title": "Лесной массив в Геленджике загорелся после падения обломков БПЛА",
-          "summary": "Возгорание произошло в районе лесного массива в хуторе Джанхот под Геленджиком после падения обломков БПЛА. Об этом сообщил глава города-курорта Алексей Богодистов.",
-          "url": "https://www.kommersant.ru/doc/8987880",
-          "image": "https://iv.kommersant.ru/SocialPics/8987880_49_0_1021427696",
-          "publishedAt": "2026-09-26T17:52:37.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-3-1790445120000",
-          "title": "Лес загорелся под Геленджиком после падения обломков БПЛА",
-          "summary": "Возникшее из-за падения обломков БПЛА возгорание тушат в лесном массиве в районе хутора Джанхот под Геленджиком (Краснодарский край), пострадавших нет, сообщил глава города Алексей Богодистов в субботу.\"Во время отражени",
-          "url": "https://www.interfax.ru/russia/1118697",
-          "image": "https://www.interfax.ru/aspimg/1118697.jpg",
-          "publishedAt": "2026-09-26T17:52:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1790444580000",
-          "title": "Российские военные за субботу уничтожили 105 украинских дронов",
-          "summary": "Российскими военными с 8:00 до 20:00 мск субботы перехвачены и уничтожены 105 украинских беспилотников, заявило Минобороны РФ.",
-          "url": "https://www.interfax.ru/russia/1118694",
-          "image": "https://www.interfax.ru/aspimg/1118694.jpg",
-          "publishedAt": "2026-09-26T17:43:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-5-1790443426000",
-          "title": "Над Россией за день уничтожили 105 украинских беспилотников",
-          "summary": "Российские силы противовоздушной обороны (ПВО) с 8:00 до 20:00 мск уничтожили 105 украинских беспилотников самолетного типа, сообщает Минобороны.",
-          "url": "https://www.rbc.ru/rbcfreenews/6ab7ff619a79479650ec4e5f",
-          "image": "https://s0.rbk.ru/v6_top_pics/media/img/2/21/537904467111212.jpeg",
-          "publishedAt": "2026-09-26T17:23:46.000Z",
-          "source": "РБК",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1790440489000",
-          "title": "Лавров: Россия устранит угрозы со стороны Украины по итогам СВО",
-          "summary": "Цели специальной военной операции будут достигнуты, а угрозы России со стороны Украины — устранены. Об этом заявил российский министр иностранных дел Сергей Лавров на Генассамблее ООН.",
-          "url": "https://www.kommersant.ru/doc/8987871",
-          "image": "https://iv.kommersant.ru/SocialPics/8987871_49_0_217066441",
-          "publishedAt": "2026-09-26T16:34:49.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1790437200000",
-          "title": "ВС России взяли в плен военного ВСУ при попытке сделать фото с украинским флагом",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/09/26/vs-rossii-vzyali-v-plen-voennogo-vsu-pri-popytke-sdelat-foto-s-ukrainskim-flagom/",
-          "image": "https://icdn.lenta.ru/images/2026/09/26/18/20260926183838288/pic_af4a72536411f1644f6c9ecf02605bba.jpg",
-          "publishedAt": "2026-09-26T15:40:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
         }
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-09-27T00:00:23.794Z",
+      "lastFetchAt": "2026-09-27T03:52:47.660Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1892,7 +1880,7 @@
       "slug": "security-services",
       "articles": [
         {
-          "id": "security-services-2-1790435351000",
+          "id": "security-services-0-1790435351000",
           "title": "Минобороны России отчиталось об ударе по логистическому центру в Одессе",
           "summary": "Вооруженные силы России ударили беспилотниками по логистическому центру «Эпицентр» в Одессе. По данным российского Минобороны, он используется для хранения военной продукции, поставляемой из зарубежных стран для вооружен",
           "url": "https://www.kommersant.ru/doc/8987855",
@@ -1904,7 +1892,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1790422460000",
+          "id": "security-services-1-1790422460000",
           "title": "Румыния поднимала в воздух истребители из-за активности на границе с Украиной",
           "summary": "В ночь на 26 сентября румынское Минобороны обнаружило неопознанную воздушную цель вблизи границы с Украиной. Румыния подняла в воздух истребители.",
           "url": "https://www.kommersant.ru/doc/8987803",
@@ -1916,7 +1904,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1790421600000",
+          "id": "security-services-2-1790421600000",
           "title": "Перестал работать телеканал Минобороны Украины",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/26/na-ukraine-perestali-rabotat-telekanaly/",
@@ -1928,7 +1916,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1790414940000",
+          "id": "security-services-3-1790414940000",
           "title": "В Минобороны раскрыли новые потери ВСУ в кольце окружения под Харьковом",
           "summary": "",
           "url": "https://lenta.ru/news/2026/09/26/v-minoborony-raskryli-novye-poteri-vsu-v-koltse-okruzheniya-pod-harkovom/",
@@ -1940,11 +1928,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-6-1790412699000",
+          "id": "security-services-4-1790412699000",
           "title": "Армия России взяла Петропавловку и Лозовую в Харьковской области",
           "summary": "Вооруженные силы России установили контроль над населенными пунктами Петропавловка и Лозовая в Харьковской области, а также Марьино в Сумской области. Об этом сообщила пресс-служба Минобороны России.",
           "url": "https://www.kommersant.ru/doc/8987760",
-          "image": "https://im2.kommersant.ru/SocialPics/8987760_49_0_528423760",
+          "image": "https://iv.kommersant.ru/SocialPics/8987760_49_0_528423760",
           "publishedAt": "2026-09-26T08:51:39.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1952,12 +1940,36 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-7-1790408078000",
+          "id": "security-services-5-1790408078000",
           "title": "Минобороны России сообщило об ударе по складу «Новой почты» в Одесской области",
           "summary": "Российские вооруженные силы ночью атаковали объекты портовой и транспортной инфраструктуры, а также логистические и коммуникационные центры на Украине. Были поражены в том числе склад «Новой почты» в Одесской области, со",
           "url": "https://www.kommersant.ru/doc/8987740",
           "image": "https://im2.kommersant.ru/SocialPics/8987740_49_0_2126004565",
           "publishedAt": "2026-09-26T07:34:38.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-6-1790401269000",
+          "title": "Силы ПВО за ночь сбили над регионами России 645 БПЛА",
+          "summary": "В период с 20:00 мск 25 сентября до 8:00 26 сентября средства ПВО перехватили и уничтожили 645 беспилотников самолетного типа над семью российскими регионами, сообщило Минобороны России. По его данным, БПЛА сбили над Аст",
+          "url": "https://www.kommersant.ru/doc/8987710",
+          "image": "https://im2.kommersant.ru/SocialPics/8987710_49_0_1642845648",
+          "publishedAt": "2026-09-26T05:41:09.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-7-1790362414000",
+          "title": "За день над Россией сбили 55 БПЛА",
+          "summary": "Силы ПВО уничтожили 55 беспилотников ВСУ над российскими регионами с 8:00 до 20:00 мск. Об этом сообщает пресс-служба Минобороны России.",
+          "url": "https://www.kommersant.ru/doc/8987390",
+          "image": "https://iv.kommersant.ru/SocialPics/8987390_49_0_1573742136",
+          "publishedAt": "2026-09-25T18:53:34.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
