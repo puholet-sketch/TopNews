@@ -1,23 +1,8 @@
 {
-  "updatedAt": "2026-10-10T23:01:57.704Z",
-  "lastRunAt": "2026-10-10T23:01:57.704Z",
+  "updatedAt": "2026-10-11T02:42:43.387Z",
+  "lastRunAt": "2026-10-11T02:42:43.387Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "space",
-    "automotive",
-    "sports",
-    "mma",
-    "basketball",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
     "it",
     "cybersecurity",
     "startups",
@@ -25,13 +10,34 @@
     "environment",
     "gaming",
     "entertainment",
-    "football-russia",
     "skiing",
+    "politics",
+    "svo",
+    "security-services"
+  ],
+  "skippedNow": [
+    "ai",
+    "science",
+    "health",
+    "energy",
+    "space",
+    "automotive",
+    "football-russia",
+    "mma",
+    "basketball",
     "education",
     "realestate",
     "travel"
   ],
   "failedNow": [
+    {
+      "id": "business",
+      "error": "Request timed out after 60000ms"
+    },
+    {
+      "id": "sports",
+      "error": "Request timed out after 60000ms"
+    },
     {
       "id": "law",
       "error": "self-signed certificate"
@@ -39,7 +45,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-10-10T19:36:34.511Z",
+      "lastFetchAt": "2026-10-11T02:35:28.123Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -47,7 +53,19 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1791639587000",
+          "id": "it-0-1791665905000",
+          "title": "Поэзия агентной разработки или как теперь писать код",
+          "summary": "Я к вам пишу — чего же боле? Агент все может написать. Но за ошибки поневоле Придется вам же отвечать. (Письмо инженера Татьяны к вайбкодеру Евгению) Как писать код с агентами, говорят много, часто предлагают конкретные ",
+          "url": "https://habr.com/ru/articles/1092802/?utm_campaign=1092802&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/extt/18/58/9e/18589e809f0c77bea5fea055933ac96b.png",
+          "publishedAt": "2026-10-10T20:58:25.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1791639587000",
           "title": "[Перевод] Джеффри Хантли: агенту хватит --help, если CLI сделана хорошо",
           "summary": "Джеффри Хантли о споре «MCP против CLI». По его мнению, компании с инструментами для разработчиков делятся на S-tier и F-tier, и решают это веса моделей: с GitHub модели работают через gh CLI без всяких скиллов и MCP. Но",
           "url": "https://habr.com/ru/articles/1092348/?utm_campaign=1092348&utm_source=habrahabr&utm_medium=rss",
@@ -59,7 +77,7 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1791628851000",
+          "id": "it-2-1791628851000",
           "title": "Я написал 61 тест для AI-ментора. Потом выяснилось, что тестам тоже нельзя верить",
           "summary": "Репетитора не нанимают по резюме. Ему дают тетрадь реального ученика и смотрят не на то, знает ли он ответ, а на то, где он остановится. Подскажет, в какой строке ошибка, или перепишет задачу за ученика? Скажет «не знаю,",
           "url": "https://habr.com/ru/articles/1092676/?utm_campaign=1092676&utm_source=habrahabr&utm_medium=rss",
@@ -71,9 +89,9 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-2-1791604807000",
-          "title": "Общаемся с ИИ по СМС",
-          "summary": "Как всем известно, в последнее время интернет на улице работает достаточно нестабильно. В определённых регионах ситуация наиболее критическая. Про привычные сервисы я вообще молчу, но спросить что-то у ИИ происходит на р",
+          "id": "it-3-1791604807000",
+          "title": "Общаемся с ИИ по СМС",
+          "summary": "Как всем известно, в последнее время интернет на улице работает достаточно нестабильно. В определённых регионах ситуация наиболее критическая. Про привычные сервисы я вообще молчу, но спросить что‑то у ИИ происходит на р",
           "url": "https://habr.com/ru/articles/1092588/?utm_campaign=1092588&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/extt/8d/b0/de/8db0de2bdca20798ea127b9b29c2e699.png",
           "publishedAt": "2026-10-10T04:00:07.000Z",
@@ -83,24 +101,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-3-1791581108000",
+          "id": "it-4-1791581108000",
           "title": "Зачем быстрая реактивность за пределами DOM: ответы на вопросы и знакомство с Raph",
           "summary": "Зачем ускорять реактивность, если всё упирается в DOM? Рассказываю об устройстве Raph/Nova и показываю, как одно ядро используется для DOM и Canvas. Большие графы, таймлайны, карта и результаты замеров. Читать далее",
           "url": "https://habr.com/ru/articles/1092612/?utm_campaign=1092612&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/extt/9d/1b/b7/9d1bb71b279e1eb33ac8f83775903fd3.jpg",
           "publishedAt": "2026-10-09T21:25:08.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1791575175000",
-          "title": "WASM vs JavaScript 2026 — проверка на Flutter Web",
-          "summary": "Когда мы апгрейдим процессор или видеокарту и начинаем играть в привычную нам игрушку с новым железом, то увеличение производительности на некоторое количество процентов становится сразу же заметным. Например, увеличение",
-          "url": "https://habr.com/ru/articles/1092606/?utm_campaign=1092606&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/extt/4e/97/08/4e97084909cd5c9b6905a5a221fd8a0a.png",
-          "publishedAt": "2026-10-09T19:46:15.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -179,7 +185,7 @@
       ]
     },
     "cybersecurity": {
-      "lastFetchAt": "2026-10-10T14:03:01.359Z",
+      "lastFetchAt": "2026-10-11T02:35:31.569Z",
       "intervalHours": 12,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -187,7 +193,19 @@
       "slug": "cybersecurity",
       "articles": [
         {
-          "id": "cybersecurity-0-1791622702000",
+          "id": "cybersecurity-0-1791651734000",
+          "title": "DarkSword «P7»: утёкшая iOS-цепочка уровня госзаказчика теперь крадёт данные криптокошельков",
+          "summary": "Одно посещение веб-страницы с iPhone на iOS 18.4–18.7 — и через несколько секунд в SpringBoard работает имплант, который расшифровывает связку ключей прямо на устройстве, находит seed-фразы и keystore криптокошельков и о",
+          "url": "https://habr.com/ru/articles/1092766/?utm_campaign=1092766&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/extt/a5/f2/87/a5f2870cdeeb43a59af3dad08577c19e.jpeg",
+          "publishedAt": "2026-10-10T17:02:14.000Z",
+          "source": "Хабр",
+          "categoryId": "cybersecurity",
+          "categoryName": "Кибербезопасность",
+          "categorySlug": "cybersecurity"
+        },
+        {
+          "id": "cybersecurity-1-1791622702000",
           "title": "ONYX 2.0: tor, звонки и децентрализация",
           "summary": "Раньше у ONYX был центральный сервер, но бете 2.0 его больше нет: аккаунт — это ключ на вашем устройстве, а сообщения и звонки идут напрямую между устройствами через Tor. Рассказываю, как это устроено, что мы получили и ",
           "url": "https://habr.com/ru/articles/1092662/?utm_campaign=1092662&utm_source=habrahabr&utm_medium=rss",
@@ -199,7 +217,7 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-1-1791622020000",
+          "id": "cybersecurity-2-1791622020000",
           "title": "Часть файлов на Яндекс.Диске стала недоступной: последствия вывода из строя датацентров?",
           "summary": "После атаки на дата‑центр Яндекса в Сасово я решил на всякий случай сделать резервную копию данных с Яндекс.Диска и обнаружил, что часть файлов в галерее не открывается: в приложении «Ошибка сервера», на части миниатюр к",
           "url": "https://habr.com/ru/articles/1092652/?utm_campaign=1092652&utm_source=habrahabr&utm_medium=rss",
@@ -211,8 +229,8 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-2-1791613839000",
-          "title": "Пока атакуют дата-центры, боты продолжают атаковать нас",
+          "id": "cybersecurity-3-1791613839000",
+          "title": "Пока атакуют дата‑центры, боты продолжают атаковать нас",
           "summary": "И если от первых мы хотя бы пытаемся защищаться, то вторым сами оплачиваем каждый клик! Капчи думают, что научились отличать людей от машин. А машины научились нанимать людей, чтобы капчи думали, что они отличают людей о",
           "url": "https://habr.com/ru/articles/1092590/?utm_campaign=1092590&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/extt/1c/30/b4/1c30b47eb4ad8d5c2e754f44ba0039a4.jpg",
@@ -223,24 +241,12 @@
           "categorySlug": "cybersecurity"
         },
         {
-          "id": "cybersecurity-3-1791600513000",
+          "id": "cybersecurity-4-1791600513000",
           "title": "Не хочу грузить свои документы в онлайн-сервисы. Поэтому сжимаю PDF прямо в браузере",
           "summary": "Нужно было загрузить на сайт посольства пакет документов одним PDF – свидетельство о рождении, дипломы, справки. Лимит – 1 МБ. Загружать сканы всех своих документов в бесплатный онлайн-сервис не хотелось, а платный редак",
           "url": "https://habr.com/ru/articles/1092630/?utm_campaign=1092630&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/extt/9c/92/e8/9c92e88226e30a7bfcd2b4edeb954f87.png",
           "publishedAt": "2026-10-10T02:48:33.000Z",
-          "source": "Хабр",
-          "categoryId": "cybersecurity",
-          "categoryName": "Кибербезопасность",
-          "categorySlug": "cybersecurity"
-        },
-        {
-          "id": "cybersecurity-4-1791554406000",
-          "title": "Призраки в системе управления уязвимостями: как идентификация, слияние и история активов спасают от аномалий",
-          "summary": "Каждый актив в инфраструктуре проходит свой жизненный цикл: он появляется, функционирует, а со временем выводится из эксплуатации. Новые активы часто создаются как копии существующих, но со временем обрастают уникальными",
-          "url": "https://habr.com/ru/companies/pt/articles/1092214/?utm_campaign=1092214&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/extt/03/08/5e/03085ee48dea32b7c29d5a24629ac6a5.jpg",
-          "publishedAt": "2026-10-09T14:00:06.000Z",
           "source": "Хабр",
           "categoryId": "cybersecurity",
           "categoryName": "Кибербезопасность",
@@ -319,7 +325,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-10-10T19:36:42.294Z",
+      "lastFetchAt": "2026-10-11T02:37:37.646Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -379,7 +385,7 @@
           "title": "Ozon рассказал о прекращении страховой программы от атак беспилотников для продавцов",
           "summary": "Все обязательства по полисам обещают исполнить.",
           "url": "https://vc.ru/marketplace/3186201-ozon-prekratil-strahovuyu-programmu-ot-atak-bespilotnikov?from=rss",
-          "image": "https://api.vc.ru/v2.9/cover/fb/c/3186201/1791661001/cover.jpg",
+          "image": "https://api.vc.ru/v2.9/cover/fb/c/3186201/1791686257/cover.jpg",
           "publishedAt": "2026-10-09T19:39:33.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
@@ -459,7 +465,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-10-10T19:36:46.119Z",
+      "lastFetchAt": "2026-10-11T02:37:41.233Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -563,7 +569,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-10-10T19:36:58.563Z",
+      "lastFetchAt": "2026-10-11T02:37:52.845Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -571,13 +577,13 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1791656037000",
-          "title": "В Махачкале на полигоне происходит тление мусора",
-          "summary": "",
-          "url": "https://ria.ru/20261010/mahachkala-2123727951.html",
-          "image": "https://cdnn21.imgria.ru/images/145142/99/1451429957_0:320:3072:2048_650x0_80_0_0_07e1bcecc21395782f8ee3607848b2f5.jpg",
-          "publishedAt": "2026-10-10T18:13:57.000Z",
-          "source": "РИА Новости",
+          "id": "environment-0-1791662932000",
+          "title": "Правительство постановило создать нацпарк «Вулканы Камчатки»",
+          "summary": "Новый национальный парк займет почти 888 тыс. га на базе парков «Южно-Камчатского» и «Ключевского». Минприроды поручили обеспечить особую охрану территории и предусмотреть возможность любительской и спортивной охоты",
+          "url": "https://www.rbc.ru/society/10/10/2026/6aca820eaa5396c8b1bd01cf",
+          "image": "https://s0.rbk.ru/v6_top_pics/media/img/7/90/347916585011907.jpeg",
+          "publishedAt": "2026-10-10T20:08:52.000Z",
+          "source": "РБК",
           "categoryId": "environment",
           "categoryName": "Экология России",
           "categorySlug": "environment"
@@ -867,7 +873,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-10-10T19:37:00.454Z",
+      "lastFetchAt": "2026-10-11T02:37:56.065Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -937,7 +943,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-10-10T19:37:02.854Z",
+      "lastFetchAt": "2026-10-11T02:37:59.400Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -949,7 +955,7 @@
           "title": "Прокатная десятка // Что посмотреть в кино на выходных 10–11 октября",
           "summary": "8 октября в прокат вышел ряд фильмов, среди которых российский блокбастер об автомобильных гонках «Битва моторов» и драма от японского режиссера Хирокадзу Корээды «Барашек в ящике». Что посмотреть в кино на выходных — в ",
           "url": "https://www.kommersant.ru/doc/9023093",
-          "image": "https://im2.kommersant.ru/SocialPics/9023093_49_3226745_1251264206",
+          "image": "https://iv.kommersant.ru/SocialPics/9023093_49_3226745_1251264206",
           "publishedAt": "2026-10-09T16:00:00.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -961,7 +967,7 @@
           "title": "Беспокойный покой // В кинотеатрах показывают «Над вечным покоем» Светланы Проскуриной",
           "summary": "В российский прокат вышел отмеченный на прошлогоднем фестивале «Маяк» призами за сценарий (Екатерина Тирдатова) и операторскую работу (Олег Лукичев) фильм Светланы Проскуриной «Над вечным покоем». Через год после премьер",
           "url": "https://www.kommersant.ru/doc/9023228",
-          "image": "https://iv.kommersant.ru/SocialPics/9023228_49_3226772_1304594778",
+          "image": "https://im2.kommersant.ru/SocialPics/9023228_49_3226772_1304594778",
           "publishedAt": "2026-10-09T15:12:17.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -973,7 +979,7 @@
           "title": "Variety: автопортрет Дэвида Боуи выставлен на торги Sotheby’s",
           "summary": "Одним из лотов назначенного на 15 октября аукциона «День современного британского и ирландского искусства» Sotheby’s станет редкий автопортрет британского музыканта Дэвида Боуи с отпечатками его ладоней. Об этом сообщает",
           "url": "https://www.kommersant.ru/doc/9023178",
-          "image": "https://iv.kommersant.ru/SocialPics/9023178_49_3226637_1596604000",
+          "image": "https://im2.kommersant.ru/SocialPics/9023178_49_3226637_1596604000",
           "publishedAt": "2026-10-09T13:55:41.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -1183,7 +1189,7 @@
       ]
     },
     "skiing": {
-      "lastFetchAt": "2026-10-10T14:03:48.659Z",
+      "lastFetchAt": "2026-10-11T02:42:15.252Z",
       "intervalHours": 12,
       "source": "Sports.ru, Спорт-Экспресс",
       "siteUrl": "https://www.sports.ru",
@@ -1191,73 +1197,13 @@
       "slug": "skiing",
       "articles": [
         {
-          "id": "skiing-0-1791566160000",
-          "title": "Вероника Степанова: «Нейтральный статус – не более чем билет. Если вам выдали билет в стрип‑клуб, это еще не значит, что вы им воспользуетесь»",
-          "summary": "Олимпийская чемпионка Пекина-2022 в эстафете Вероника Степанова высказалась о получении лыжниками нейтрального статуса.",
-          "url": "https://www.sports.ru/skiing/1117394496-veronika-stepanova-nejtralnyj-status-ne-bolee-chem-bilet-esli-vam-vyda.html",
-          "image": "https://s5o.ru/storage/simple/09/95/16/2013.10.07.04.44.30.69099516.1.jpg",
-          "publishedAt": "2026-10-09T17:16:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-1-1791537840000",
-          "title": "Российская лыжница Арина Каличева получила нейтральный статус",
-          "summary": "Российская лыжница Арина Каличева получила нейтральный статус.",
-          "url": "https://www.sports.ru/skiing/1117393878-rossijskaya-lyzhnicza-arina-kalicheva-poluchila-nejtralnyj-status.html",
-          "image": "https://s5o.ru/storage/simple/19/96/18/2013.10.07.05.15.45.69199618.1.jpg",
-          "publishedAt": "2026-10-09T09:24:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-2-1791535620000",
+          "id": "skiing-0-1791535620000",
           "title": "FIS предоставила Каличевой нейтральный статус для участия в соревнованиях",
           "summary": "Международная федерация лыжного спорта и сноуборда (FIS) предоставила российской лыжнице Арине Каличевой нейтральный статус для участия в международных соревнованиях.",
           "url": "https://www.sport-express.ru/skiing/news/fis-predostavila-kalichevoy-neytralnyy-status-dlya-uchastiya-v-sorevnovaniyah-2461530/",
           "image": null,
           "publishedAt": "2026-10-09T08:47:00.000Z",
           "source": "Спорт-Экспресс",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-3-1791462300000",
-          "title": "Линдси Вонн вошла в состав горнолыжной сборной США на сезон-2026/27. Она перенесла пять операций после травмы на Олимпиаде",
-          "summary": "Олимпийская чемпионка Линдси Вонн включена в состав сборной США по горнолыжному спорту на сезон-2026/27.",
-          "url": "https://www.sports.ru/skiing/1117393149-lindsi-vonn-voshla-v-sostav-gornolyzhnoj-sbornoj-ssha-na-sezon-2026-27.html",
-          "image": "https://s5o.ru/storage/simple/00/76/33/2013.10.07.04.24.32.69007633.1.jpg",
-          "publishedAt": "2026-10-08T12:25:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-4-1791460800000",
-          "title": "Ольга Петрикова: «Я выполнила КМС и в лыжах, и в биатлоне. Закончила со спортом в 19 лет, когда не получилось выполнить мастера спорта»",
-          "summary": "Ведущая «Матч ТВ», финалистка конкурса красоты «Мисс Россия» Ольга Петрикова рассказала о своей спортивной карьере.",
-          "url": "https://www.sports.ru/skiing/1117393107-olga-petrikova-ya-vypolnila-kms-i-v-lyzhax-i-v-biatlone-zakonchila-so-.html",
-          "image": "https://s5o.ru/storage/simple/34/55/71/2013.10.07.02.02.23.55345571.1.jpg",
-          "publishedAt": "2026-10-08T12:00:00.000Z",
-          "source": "Sports.ru",
-          "categoryId": "skiing",
-          "categoryName": "Беговые лыжи",
-          "categorySlug": "skiing"
-        },
-        {
-          "id": "skiing-5-1791460680000",
-          "title": "Ведущая «Матч ТВ» Петрикова о Сургуте: «В 90-е наркомания была в каждом дворе – многих моих одноклассников это погубило. Спасибо спорту, что уберег»",
-          "summary": "Ведущая «Матч ТВ», экс-биатлонистка Ольга Петрикова рассказала о Сургуте, где она выросла и окончила среднюю школу.",
-          "url": "https://www.sports.ru/skiing/1117393102-vedushhaya-match-tv-petrikova-o-surgute-v-90-e-narkomaniya-byla-v-kazh.html",
-          "image": null,
-          "publishedAt": "2026-10-08T11:58:00.000Z",
-          "source": "Sports.ru",
           "categoryId": "skiing",
           "categoryName": "Беговые лыжи",
           "categorySlug": "skiing"
@@ -1371,7 +1317,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-10-10T23:01:39.281Z",
+      "lastFetchAt": "2026-10-11T02:42:16.915Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1379,60 +1325,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1791672694000",
-          "title": "Маск заявил о зашедшем слишком далеко Зеленском",
+          "id": "politics-0-1791685440000",
+          "title": "Работа дата-центра «Яндекса» в российском городе полностью остановлена",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/11/mask-zayavil-o-zashedshem-slishkom-daleko-zelenskom/",
-          "image": "https://icdn.lenta.ru/images/2026/10/11/01/20261011015549047/pic_5a1ee876526727cec374e7db8803c4d2.jpg",
-          "publishedAt": "2026-10-10T22:51:34.000Z",
+          "url": "https://lenta.ru/news/2026/10/11/rabota-data-tsentra-yandeksa-vo-vladimire-polnostyu-ostanovlena/",
+          "image": "https://icdn.lenta.ru/images/2026/10/11/05/20261011052549758/pic_f71ad36e78298e8a1b9c989c295e6dca.jpg",
+          "publishedAt": "2026-10-11T02:24:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1791672240000",
-          "title": "Число пострадавших в результате удара по аэропорту Эр-Рияда возросло",
+          "id": "politics-1-1791685080000",
+          "title": "Эстонский премьер пожаловался на США из-за сделки с Россией",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/11/chislo-postradavshih-v-rezultate-udara-po-aeroportu-er-riyada-vozroslo/",
-          "image": "https://icdn.lenta.ru/images/2026/10/11/01/20261011014009049/pic_f3da10b0a7858e76627e7fa91c1e5c03.jpg",
-          "publishedAt": "2026-10-10T22:44:00.000Z",
+          "url": "https://lenta.ru/news/2026/10/11/estonskiy-premier-pozhalovalsya-na-ssha-iz-za-sdelki-s-rossiey/",
+          "image": "https://icdn.lenta.ru/images/2026/10/11/05/20261011050516800/pic_5908350714e59cd764e689a719df7015.jpg",
+          "publishedAt": "2026-10-11T02:18:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1791672180000",
-          "title": "Путин сделал заявление о работе отечественного АПК",
+          "id": "politics-2-1791684420000",
+          "title": "«Яндекс» сообщил о неполадках в одном из дата-центров",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/11/putin-sdelal-zayavlenie-o-rabote-otechestvennogo-apk/",
-          "image": "https://icdn.lenta.ru/images/2026/10/11/01/20261011014509081/pic_ced3c55167cf80edf677ea051c59dcdf.jpg",
-          "publishedAt": "2026-10-10T22:43:00.000Z",
+          "url": "https://lenta.ru/news/2026/10/11/yandeks-soobschil-o-nepoladkah-v-odnom-iz-data-tsentrov/",
+          "image": "https://icdn.lenta.ru/images/2026/10/11/05/20261011050916834/pic_8c033b92ad370abb0bcb29351faa73f1.jpg",
+          "publishedAt": "2026-10-11T02:07:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1791669840000",
-          "title": "Премьер Британии заявил о тяжелом дне для Украины",
+          "id": "politics-3-1791683100000",
+          "title": "Спецпредставитель Путина ответил на слова Маска о перешедшем черту Зеленском",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/10/premier-britanii-zayavil-o-tyazhelom-dne-dlya-ukrainy/",
-          "image": "https://icdn.lenta.ru/assets/webpack/images/lenta_og.8735b949.png",
-          "publishedAt": "2026-10-10T22:04:00.000Z",
+          "url": "https://lenta.ru/news/2026/10/11/spetspredstavitel-putina-otvetil-na-slova-maska-o-pereshedshem-chertu-zelenskom/",
+          "image": "https://icdn.lenta.ru/images/2026/10/11/04/20261011045401099/pic_2657b2ac110815bceeebe8dafa1df713.jpg",
+          "publishedAt": "2026-10-11T01:45:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1791669840000",
-          "title": "В Австрии потребовали разъяснений из-за тайного груза Киева",
+          "id": "politics-4-1791682613000",
+          "title": "«200 кг тайного груза». В Австрии потребовали разъяснений об особой перевозке украинских спецслужб. Что там было?",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/11/v-avstrii-potrebovali-raz-yasneniy-iz-za-taynogo-gruza-kieva/",
-          "image": "https://icdn.lenta.ru/images/2026/10/11/01/20261011011650898/pic_454f4d5a53f909c94c3a5dd95e11aef3.jpg",
-          "publishedAt": "2026-10-10T22:04:00.000Z",
+          "url": "https://lenta.ru/news/2026/10/11/long-200-kg-osobogo-gruza-v-avstrii-potrebovali-ot-vlastey-raz-yasneniy-o-gruze-ukrainskih-spetssluzhb-chto-kiev-mog-perevozit/",
+          "image": "https://icdn.lenta.ru/images/2026/10/11/03/20261011032431316/pic_acb71770f8d155f8d7c81ac903a15988.jpg",
+          "publishedAt": "2026-10-11T01:36:53.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1742,7 +1688,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-10-10T23:01:45.838Z",
+      "lastFetchAt": "2026-10-11T02:42:27.497Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1750,96 +1696,96 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1791672420000",
-          "title": "За время СВО в российскую бронетанковую технику внесено более 300 изменений",
-          "summary": "В конструкцию образцов российской бронетанковой техники, которые задействованы в специальной военной операции, с 2022 года внесены более 300 изменений, включая свыше 100 - принципиальных конструктивных, сообщил журналист",
-          "url": "https://www.interfax.ru/russia/1121633",
-          "image": "https://www.interfax.ru/aspimg/1121633.jpg",
-          "publishedAt": "2026-10-10T22:47:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-1-1791671520000",
-          "title": "Гендиректор Уралвагонзавода заявил, что \"Армата\" имеет высокий экспортный потенциал",
-          "summary": "Экспортный потенциал танка Т-14 высок, \"Армата\" может быть адаптирована под необходимые требования конкретного иностранного заказчика, включая новации по результатам специальной военной операции, сообщил журналистам гене",
-          "url": "https://www.interfax.ru/russia/1121632",
-          "image": "https://www.interfax.ru/aspimg/1121632.jpg",
-          "publishedAt": "2026-10-10T22:32:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-2-1791667638000",
-          "title": "Крупнейший металлургический завод Украины переведут в «холодный останов»",
-          "summary": "«АрселорМиттал Кривой Рог» начал подготовку к «холодному останову» для сохранения активов. Минобороны России сообщало об ударах по цехам в Кривом Роге, выпускавшим стальной прокат для производства оружия для ВСУ",
-          "url": "https://www.rbc.ru/politics/11/10/2026/6acaa458e9760417ba60be2b",
-          "image": null,
-          "publishedAt": "2026-10-10T21:27:18.000Z",
-          "source": "РБК",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-3-1791664456000",
-          "title": "«Яндекс» добавил атаки БПЛА в список форс-мажоров",
-          "summary": "«Яндекс» добавил в пользовательское соглашение своих сервисов перечень форс-мажоров, освобождающих компанию от ответственности. В список, в том числе, включены атаки беспилотников.",
-          "url": "https://www.kommersant.ru/doc/9023862",
-          "image": "https://im2.kommersant.ru/SocialPics/9023862_49_0_729764963",
-          "publishedAt": "2026-10-10T20:34:16.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1791663958000",
-          "title": "В ДНР при украинских атаках один человек погиб, двое пострадали",
+          "id": "svo-0-1791685423000",
+          "title": "Российские военные отразили контратаку ВСУ в районе Доброполья",
           "summary": "",
-          "url": "https://ria.ru/20261010/dnr-2123738439.html",
-          "image": "https://cdnn21.imgria.ru/images/07e6/03/15/1779343866_0:320:3072:2048_650x0_80_0_0_9d284d7a8987714e7084ef08b6d0b6c3.jpg",
-          "publishedAt": "2026-10-10T20:25:58.000Z",
+          "url": "https://ria.ru/20261011/spetsoperatsiya-2123753082.html",
+          "image": "https://cdnn21.imgria.ru/images/07ea/08/06/2109312354_0:49:3072:1777_650x0_80_0_0_3932fb3382384687f113f37fc6807142.jpg",
+          "publishedAt": "2026-10-11T02:23:43.000Z",
           "source": "РИА Новости",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-5-1791661955000",
-          "title": "«Яндекс» включил атаки БПЛА в перечень форс-мажорных обстоятельств",
-          "summary": "«Яндекс» включил атаки БПЛА в условия освобождения от ответственности при форс-мажоре. Как уточнил источник РБК в компании, «Яндекс» не был обязан прописывать эти условия в соглашения, так как они уже регулируются ГК",
-          "url": "https://www.rbc.ru/business/10/10/2026/6aca95716ff6d5fdafc490b8",
+          "id": "svo-1-1791684909000",
+          "title": "Дата-центр «Яндекса» во Владимире остановил работу после атаки БПЛА",
+          "summary": "После атаки БПЛА дата-центр «Яндекса» во Владимире полностью остановил работу. Компания оценивает ущерб и рекомендует пользователям задействовать альтернативные планы аварийного восстановления. Пострадавших в результате ",
+          "url": "https://www.rbc.ru/business/11/10/2026/6acaf11307bfa152cc7626c7",
           "image": null,
-          "publishedAt": "2026-10-10T19:52:35.000Z",
+          "publishedAt": "2026-10-11T02:15:09.000Z",
           "source": "РБК",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-6-1791660544000",
-          "title": "Двое россиян пострадали при атаке БПЛА",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/10/10/dvoe-rossiyan-postradali-pri-atake-bpla/",
-          "image": "https://icdn.lenta.ru/images/2026/10/10/22/20261010223217867/pic_dcc4e7830173e6d2d596094c6b77336c.jpg",
-          "publishedAt": "2026-10-10T19:29:04.000Z",
-          "source": "Lenta.ru",
+          "id": "svo-2-1791684529000",
+          "title": "Дата-центр «Яндекса» во Владимире был атакован БПЛА",
+          "summary": "Центр обработки данных «Яндекса» во Владимире атаковали беспилотники, сообщили в компании. Его работа была полностью остановлена.",
+          "url": "https://www.kommersant.ru/doc/9023874",
+          "image": "https://im2.kommersant.ru/SocialPics/9023874_49_0_1118986009",
+          "publishedAt": "2026-10-11T02:08:49.000Z",
+          "source": "Коммерсантъ",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-7-1791659426000",
-          "title": "В Белгородской области два мирных жителя пострадали при атаке дронов",
+          "id": "svo-3-1791684195000",
+          "title": "Минобороны показало кадры уничтожения доставщика дронов-камикадзе ВСУ",
           "summary": "",
-          "url": "https://ria.ru/20261010/postradavshie-2123733141.html",
-          "image": "https://cdnn21.imgria.ru/images/07ea/08/0e/2110894116_0:86:1565:966_650x0_80_0_0_baa97d685576d6d8e2edb97657a84ce5.jpg",
-          "publishedAt": "2026-10-10T19:10:26.000Z",
+          "url": "https://ria.ru/20261011/spetsoperatsiya-2123752637.html",
+          "image": "https://cdnn21.imgria.ru/images/07ea/08/0e/2110865037_0:22:3072:1750_650x0_80_0_0_1288c3645c5d6ba2218be7b3642d04c0.jpg",
+          "publishedAt": "2026-10-11T02:03:15.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-4-1791678240000",
+          "title": "Производитель «Арматы» сравнил пересадку на нее с переходом на Ferrari",
+          "summary": "Глава «Уралвагонзавода» сравнил переход с Т-72 на «Армату» с пересадкой с «Жигулей» на Ferrari и подчеркнул необходимость обучения экипажей. По его словам, танк дорабатывается с учетом опыта спецоперации",
+          "url": "https://www.rbc.ru/politics/11/10/2026/6acad3e95caccc5c94900e06",
+          "image": null,
+          "publishedAt": "2026-10-11T00:24:00.000Z",
+          "source": "РБК",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-5-1791675703000",
+          "title": "ИИ помогает в борьбе с вражескими беспилотниками, рассказал глава РАН",
+          "summary": "",
+          "url": "https://ria.ru/20261011/ii-2123747630.html",
+          "image": "https://cdnn21.imgria.ru/images/07e9/0b/11/2055391437_0:0:3072:1728_650x0_80_0_0_6da57d3355b24b376c54e2c80439594e.jpg",
+          "publishedAt": "2026-10-10T23:41:43.000Z",
+          "source": "РИА Новости",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-6-1791675540000",
+          "title": "Гендиректор \"Уралвагонзавода\" рассказал о комплексных мерах для защиты от БПЛА",
+          "summary": "Комплексные мере защиты производственных площадок от атак беспилотных летательных аппаратов предпринимает \"Уралвагонзавод\", сообщил журналистам генеральный директор концерна Александр Потапов.\"Что касается защиты от БПЛА",
+          "url": "https://www.interfax.ru/russia/1121635",
+          "image": "https://www.interfax.ru/aspimg/1121635.jpg",
+          "publishedAt": "2026-10-10T23:39:00.000Z",
+          "source": "Интерфакс",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-7-1791675426000",
+          "title": "Женщины-курсанты ВСУ носили нацистские шевроны, рассказал дезертир",
+          "summary": "",
+          "url": "https://ria.ru/20261011/vsu-2123747418.html",
+          "image": "https://cdnn21.imgria.ru/images/sharing/article/2123747418.jpg?21096057841791675429",
+          "publishedAt": "2026-10-10T23:37:06.000Z",
           "source": "РИА Новости",
           "categoryId": "svo",
           "categoryName": "СВО",
@@ -1848,7 +1794,7 @@
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-10-10T23:01:52.759Z",
+      "lastFetchAt": "2026-10-11T02:42:37.966Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1856,19 +1802,31 @@
       "slug": "security-services",
       "articles": [
         {
-          "id": "security-services-1-1791657562000",
-          "title": "Суд изменил приговор фигуранту дела о поставках бронежилетов для Минобороны",
-          "summary": "",
-          "url": "https://ria.ru/20261010/sud-2123730506.html",
-          "image": "https://cdnn21.imgria.ru/images/07e8/02/0e/1927442494_0:307:2393:1653_650x0_80_0_0_9fd8c52d76c931f9cc7c57467e482c22.jpg",
-          "publishedAt": "2026-10-10T18:39:22.000Z",
-          "source": "РИА Новости",
+          "id": "security-services-1-1791674160000",
+          "title": "Пять БПЛА сбиты над Тульской областью",
+          "summary": "Губернатор Тульской области Дмитрий Миляев сообщил об уничтожении пяти беспилотников над регионом.\"Пять украинских беспилотников уничтожены подразделениями ПВО Минобороны России\", - написал Миляев в своем канале в Max в ",
+          "url": "https://www.interfax.ru/russia/1121634",
+          "image": null,
+          "publishedAt": "2026-10-10T23:16:00.000Z",
+          "source": "Интерфакс",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-2-1791654480000",
+          "id": "security-services-2-1791667638000",
+          "title": "Крупнейший металлургический завод Украины переведут в «холодный останов»",
+          "summary": "«АрселорМиттал Кривой Рог» начал подготовку к «холодному останову» для сохранения активов. Минобороны России сообщало об ударах по цехам в Кривом Роге, выпускавшим стальной прокат для производства оружия для ВСУ",
+          "url": "https://www.rbc.ru/politics/11/10/2026/6acaa458e9760417ba60be2b",
+          "image": null,
+          "publishedAt": "2026-10-10T21:27:18.000Z",
+          "source": "РБК",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-3-1791654480000",
           "title": "Военные РФ поразили 78 украинских беспилотников над регионами страны",
           "summary": "Минобороны России сообщило, что в течение субботы в период с 8:00 мск до 20:00 мск дежурными силами ПВО перехвачены и уничтожены 78 украинских беспилотных летательных средств.",
           "url": "https://www.interfax.ru/russia/1121622",
@@ -1880,11 +1838,11 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-3-1791650393000",
+          "id": "security-services-4-1791650393000",
           "title": "Минобороны России отчиталось об ударе по дата-центру «АТМ Укрсиббанка» в Киеве",
           "summary": "Вооруженные силы России нанесли удары беспилотниками по дата-центру «АТМ Укрсиббанка» в Киеве. Об этом сообщила пресс-служба российского Минобороны.",
           "url": "https://www.kommersant.ru/doc/9023839",
-          "image": "https://iv.kommersant.ru/SocialPics/9023839_49_0_148331568",
+          "image": "https://im2.kommersant.ru/SocialPics/9023839_49_0_209861978",
           "publishedAt": "2026-10-10T16:39:53.000Z",
           "source": "Коммерсантъ",
           "categoryId": "security-services",
@@ -1892,7 +1850,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1791648600000",
+          "id": "security-services-5-1791648600000",
           "title": "В Черном море поражен сухогруз, доставлявшего военный груз в Одессу",
           "summary": "Минобороны РФ сообщило, что на переходе морем поражено морское судно типа \"сухогруз\", доставлявшее в порт Одессы грузы военного назначения.",
           "url": "https://www.interfax.ru/russia/1121615",
@@ -1904,37 +1862,25 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-5-1791648180000",
-          "title": "Минобороны РФ сообщило о поражении дата-центра в Киеве",
-          "summary": "Минобороны РФ сообщило, что в субботу российские военные поразили в Киеве дата-центр, используемый для военных нужд.\"В результате ударов в г.",
-          "url": "https://www.interfax.ru/russia/1121616",
-          "image": "https://www.interfax.ru/aspimg/1121616.jpg",
-          "publishedAt": "2026-10-10T16:03:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-6-1791643440000",
-          "title": "Премьер Грузии обвинил европейскую бюрократию в двойных стандартах",
-          "summary": "Глава грузинского правительства Ираклий Кобахидзе считает, что определенные силы в Евросоюзе хотели бы вернуть к власти в Грузии основанное экс-президентом Михаилом Саакашвили \"Единое национальное движение\".\"Эти люди хот",
-          "url": "https://www.interfax.ru/world/1121610",
-          "image": "https://www.interfax.ru/aspimg/1121610.jpg",
-          "publishedAt": "2026-10-10T14:44:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-7-1791631500000",
+          "id": "security-services-6-1791631500000",
           "title": "В Москве взят под стражу экс-начальник управления лесного хозяйства Минобороны",
           "summary": "",
           "url": "https://lenta.ru/news/2026/10/10/eks-nachalnika-upravleniya-lesnogo-hozyaystva-minoborony-vzyali-pod-strazhu/",
           "image": "https://icdn.lenta.ru/images/2026/10/10/14/20261010142512662/pic_d0be76788a8f18163c742549d978514a.jpg",
           "publishedAt": "2026-10-10T11:25:00.000Z",
           "source": "Lenta.ru",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-7-1791625920000",
+          "title": "Минобороны: ВС РФ поразили объекты энергетики, используемые в интересах ВСУ",
+          "summary": "Вооруженные силы России за минувшие сутки нанесли удары по объектам энергетики на территории Украины, которые, по данным Минобороны РФ, используются в интересах военно-промышленного комплекса страны. Об этом сообщила пре",
+          "url": "https://www.kommersant.ru/doc/9023751",
+          "image": "https://im2.kommersant.ru/SocialPics/9023751_49_0_973331045",
+          "publishedAt": "2026-10-10T09:52:00.000Z",
+          "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
           "categorySlug": "security-services"
