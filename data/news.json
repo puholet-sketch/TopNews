@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-10-25T17:25:29.686Z",
-  "lastRunAt": "2026-10-25T17:25:29.686Z",
+  "updatedAt": "2026-10-25T20:06:18.165Z",
+  "lastRunAt": "2026-10-25T20:06:18.165Z",
   "totalCategories": 26,
   "fetchedNow": [
-    "ai",
-    "business",
-    "science",
-    "health",
-    "energy",
-    "automotive",
-    "sports",
-    "mma",
-    "basketball",
-    "politics",
-    "svo",
-    "security-services"
-  ],
-  "skippedNow": [
     "it",
-    "cybersecurity",
+    "business",
     "startups",
     "medicine",
     "environment",
     "gaming",
     "entertainment",
+    "sports",
+    "politics",
+    "svo",
+    "security-services"
+  ],
+  "skippedNow": [
+    "ai",
+    "cybersecurity",
+    "science",
+    "health",
+    "energy",
+    "automotive",
     "football-russia",
     "skiing",
+    "mma",
+    "basketball",
     "education",
     "realestate",
     "travel"
@@ -42,7 +42,7 @@
   ],
   "categories": {
     "it": {
-      "lastFetchAt": "2026-10-25T13:59:23.007Z",
+      "lastFetchAt": "2026-10-25T20:05:18.479Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -50,7 +50,43 @@
       "slug": "it",
       "articles": [
         {
-          "id": "it-0-1792934158000",
+          "id": "it-0-1792946861000",
+          "title": "Cross-Cleaner: стриминг JSON частями вместо загрузки всей базы очистки в память",
+          "summary": "Cross-Cleaner уже проделал большую часть работы по снижению памяти — но не на уровне парсинга, а на уровне представления данных: Читать далее",
+          "url": "https://habr.com/ru/articles/1099174/?utm_campaign=1099174&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/extt/b3/c0/41/b3c041989e439a25a84a4a9e68a82998.png",
+          "publishedAt": "2026-10-25T16:47:41.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-1-1792946679000",
+          "title": "Я боюсь работать без ИИ",
+          "summary": "К агентам быстро привыкаешь. Я уже смотрю, какого болванчика дадут на новой работе, а за часть своих проектов без ИИ вообще бы не взялся. Опасения из прошлых статей остались, но возвращаться к работе без агентов уже не х",
+          "url": "https://habr.com/ru/articles/1099172/?utm_campaign=1099172&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/extt/aa/ca/7e/aaca7e3cba84ccbf0dfffbfe7791ea90.jpg",
+          "publishedAt": "2026-10-25T16:44:39.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-2-1792945373000",
+          "title": "Осталось только всё улучшить: почему с ИИ так трудно закончить работу",
+          "summary": "Бывало ли такое с Вами? ИИ исправно работает, токены расходуются, а момент завершения отодвигается, потому что очередное тестирование проекта от ИИ находит новые проблемы. Но попытка все эти проблемы исправить приводит в",
+          "url": "https://habr.com/ru/articles/1099146/?utm_campaign=1099146&utm_source=habrahabr&utm_medium=rss",
+          "image": "https://habrastorage.org/extt/be/29/e1/be29e18e8f765e8abc0ce2ca3477855b.jpg",
+          "publishedAt": "2026-10-25T16:22:53.000Z",
+          "source": "Хабр",
+          "categoryId": "it",
+          "categoryName": "IT и технологии",
+          "categorySlug": "it"
+        },
+        {
+          "id": "it-3-1792934158000",
           "title": "Память в GoOS, часть 1. От bump allocator к собственному heap и GC",
           "summary": "В первой статье про GoOS я довольно подробно прошёлся по загрузке, SMP, IPC, capabilities, сети, Linux ABI и устройству сервисов. А в комментариях довольно быстро всплыл вопрос, который я тогда сознательно обошёл стороно",
           "url": "https://habr.com/ru/articles/1098968/?utm_campaign=1098968&utm_source=habrahabr&utm_medium=rss",
@@ -62,48 +98,12 @@
           "categorySlug": "it"
         },
         {
-          "id": "it-1-1792918594000",
+          "id": "it-4-1792918594000",
           "title": "Фильтр Калмана в цикле правок ИИ: что он меняет и как это проверить",
           "summary": "Помогает ли способ оценки шумных измерений принимать полезные изменения кода при одинаковых ролях, задачах и лимитах? Разбираю фильтр Калмана на простой учебной модели: как он соединяет прогноз и отзыв критика, чем отлич",
           "url": "https://habr.com/ru/articles/1098756/?utm_campaign=1098756&utm_source=habrahabr&utm_medium=rss",
           "image": "https://habrastorage.org/extt/93/78/bf/9378bf619e7b9cadc8decade8cff7133.png",
           "publishedAt": "2026-10-25T08:56:34.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-2-1792910112000",
-          "title": "ИИ-агент — сотрудник без права на последний клик. Как мы организовали разработку на ELMA 365 с ИИ-агентами",
-          "summary": "Мы делаем бизнес-модули на ELMA 365: договоры, контрагенты, корреспонденция, доверенности, облигации. Всё больше этой работы делают ИИ-агенты. Они правят формы и скрипты, гоняют проверки, пишут документацию и отчёты. Зву",
-          "url": "https://habr.com/ru/articles/1099004/?utm_campaign=1099004&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/extt/03/c2/2c/03c22c85bf39a0ba5cfc8286fc92a6b8.jpg",
-          "publishedAt": "2026-10-25T06:35:12.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-3-1792863039000",
-          "title": "Найти похожие заметки в Obsidian оказалось проще, чем безопасно их изменить",
-          "summary": "Две заметки могут быть похожи по смыслу, но это ещё не повод объединять их или удалять одну из них. Я хотел научить Veynrel не просто находить такие пары, а предлагать действия с ними. И довольно быстро выяснилось, что п",
-          "url": "https://habr.com/ru/articles/1098922/?utm_campaign=1098922&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/extt/ca/ca/8d/caca8d84f796ddab51ba1e17b7dd547d.png",
-          "publishedAt": "2026-10-24T17:30:39.000Z",
-          "source": "Хабр",
-          "categoryId": "it",
-          "categoryName": "IT и технологии",
-          "categorySlug": "it"
-        },
-        {
-          "id": "it-4-1792849171000",
-          "title": "Glafira for Apache Kafka: открытый desktop-клиент на Rust, который даёт LLM читать кластер, но не трогать его",
-          "summary": "Glafira for Apache Kafka — бесплатный desktop-клиент для Kafka под macOS, Windows и Linux: Tauri 2, Rust, librdkafka, код открыт под Apache 2.0. Просмотр сообщений с фильтрами и JSONPath, Producer с шаблонами, consumer-с",
-          "url": "https://habr.com/ru/articles/1098910/?utm_campaign=1098910&utm_source=habrahabr&utm_medium=rss",
-          "image": "https://habrastorage.org/extt/c0/cb/36/c0cb3624379f36c3bc90aec498c98c3b.png",
-          "publishedAt": "2026-10-24T13:39:31.000Z",
           "source": "Хабр",
           "categoryId": "it",
           "categoryName": "IT и технологии",
@@ -252,7 +252,7 @@
       ]
     },
     "business": {
-      "lastFetchAt": "2026-10-25T17:24:42.974Z",
+      "lastFetchAt": "2026-10-25T20:05:20.799Z",
       "intervalHours": 2,
       "source": "Ведомости",
       "siteUrl": "https://www.vedomosti.ru",
@@ -322,7 +322,7 @@
       ]
     },
     "startups": {
-      "lastFetchAt": "2026-10-25T13:59:35.583Z",
+      "lastFetchAt": "2026-10-25T20:05:22.342Z",
       "intervalHours": 4,
       "source": "VC.ru",
       "siteUrl": "https://vc.ru",
@@ -342,7 +342,19 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-1-1792860409000",
+          "id": "startups-1-1792954704000",
+          "title": "День 1705: Минцифры утвердило требования по защите дата-центров от беспилотников",
+          "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
+          "url": "https://vc.ru/services/3215473-mincifry-utverdilo-trebovaniya-po-zashchite-data-tsentrov-ot-bespilotnikov?from=rss",
+          "image": "https://leonardo.osnova.io/f453f3da-2351-5782-8065-de86b859336d/",
+          "publishedAt": "2026-10-25T18:58:24.000Z",
+          "source": "VC.ru",
+          "categoryId": "startups",
+          "categoryName": "Стартапы",
+          "categorySlug": "startups"
+        },
+        {
+          "id": "startups-2-1792860409000",
           "title": "День 1704: Трамп допустил введение пошлин в 200% для России и Украины",
           "summary": "Собираем новости, события и мнения о рынках, банках и реакциях компаний.",
           "url": "https://vc.ru/money/3214007-tramp-ponosheniya-dlya-rossii-i-ukrainy?from=rss",
@@ -354,7 +366,7 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-2-1792857445000",
+          "id": "startups-3-1792857445000",
           "title": "Под атаку БПЛА в Омске попал логистический центр Ozon",
           "summary": "В пресс-службе компании сообщили о возгорании.",
           "url": "https://vc.ru/marketplace/3214031-logisticheskiy-tsentr-ozon-v-omske-podvergsya-atake-bpla?from=rss",
@@ -366,24 +378,12 @@
           "categorySlug": "startups"
         },
         {
-          "id": "startups-3-1792749202000",
+          "id": "startups-4-1792749202000",
           "title": "Правительство начало обсуждать досрочное завершение в 2026 году программы льготной ипотеки для ИТ-специалистов — РБК",
           "summary": "В 2024 году её продлили до 2030 года.",
           "url": "https://vc.ru/money/3211674-obsuzhdenie-zaversheniya-programmy-lgotnoy-ipoteki-dlya-it-spetsialistov?from=rss",
           "image": "https://leonardo.osnova.io/1a858a39-3af7-547a-b7bd-80ae6b7eeb8b/",
           "publishedAt": "2026-10-23T09:53:22.000Z",
-          "source": "VC.ru",
-          "categoryId": "startups",
-          "categoryName": "Стартапы",
-          "categorySlug": "startups"
-        },
-        {
-          "id": "startups-4-1792768856000",
-          "title": "Volvo Cars сократит 2500 рабочих мест на фоне падения выручки в Китае почти на 50%",
-          "summary": "На фоне новостей акции Volvo Car AB упали более чем на 30% — до рекордно низкого уровня, отмечает Bloomberg.",
-          "url": "https://vc.ru/transport/3212447-volvo-cars-sokratit-rabotnye-mesta?from=rss",
-          "image": "https://leonardo.osnova.io/8fb3a577-cb61-5306-83e2-c76b9b440b0e/",
-          "publishedAt": "2026-10-23T15:20:56.000Z",
           "source": "VC.ru",
           "categoryId": "startups",
           "categoryName": "Стартапы",
@@ -462,7 +462,7 @@
       ]
     },
     "medicine": {
-      "lastFetchAt": "2026-10-25T13:59:41.584Z",
+      "lastFetchAt": "2026-10-25T20:05:28.735Z",
       "intervalHours": 4,
       "source": "МедРоссия",
       "siteUrl": "https://medrussia.org",
@@ -578,7 +578,7 @@
       ]
     },
     "environment": {
-      "lastFetchAt": "2026-10-25T14:01:53.265Z",
+      "lastFetchAt": "2026-10-25T20:05:39.168Z",
       "intervalHours": 4,
       "source": "Росгидромет, НИА Экология, РИА",
       "siteUrl": "https://www.meteorf.gov.ru",
@@ -586,7 +586,19 @@
       "slug": "environment",
       "articles": [
         {
-          "id": "environment-0-1792925492000",
+          "id": "environment-0-1792952806000",
+          "title": "Шторм «Боэло» нарушил авиасообщение в Великобритании",
+          "summary": "Ветер достигал 135 км/ч. Непогода также остановила часть поездов и оставила тысячи домов без электричества. Сообщение Шторм «Боэло» нарушил авиасообщение в Великобритании появились сначала на НИА \"Экология\".",
+          "url": "https://nia.eco/2026/10/25/147866/",
+          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/147866-a56f3ea04a1ebf93.jpg",
+          "publishedAt": "2026-10-25T18:26:46.000Z",
+          "source": "НИА Экология",
+          "categoryId": "environment",
+          "categoryName": "Экология России",
+          "categorySlug": "environment"
+        },
+        {
+          "id": "environment-1-1792925492000",
           "title": "В Подмосковье планируют взять под охрану 2,7 тыс. га лесов и лугов",
           "summary": "Шесть новых ООПТ намерены создать в 2026–2027 годах. Защиту должны получить старовозрастные леса, речные долины и остепнённые луга. Сообщение В Подмосковье планируют взять под охрану 2,7 тыс. га лесов и лугов появились с",
           "url": "https://nia.eco/2026/10/25/147847/",
@@ -598,7 +610,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-1-1792923439000",
+          "id": "environment-2-1792923439000",
           "title": "На COP17 возник спор о финансировании защиты почв и вредных субсидиях",
           "summary": "На обсуждении 23 октября делегаты не согласовали часть проекта по почвенному биоразнообразию. Россия и ЕС также разошлись в формулировке о загрязнении почв. Сообщение На COP17 возник спор о финансировании защиты почв и в",
           "url": "https://nia.eco/2026/10/25/147841/",
@@ -610,7 +622,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-2-1792915348000",
+          "id": "environment-3-1792915348000",
           "title": "У Камчатки, Японии и Вануату произошли землетрясения",
           "summary": "На Камчатке толчки могли почувствовать в Петропавловске-Камчатском и Вилючинске. Угрозу цунами не объявляли. Сообщение У Камчатки, Японии и Вануату произошли землетрясения появились сначала на НИА \"Экология\".",
           "url": "https://nia.eco/2026/10/25/147827/",
@@ -622,7 +634,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-3-1792867805000",
+          "id": "environment-4-1792867805000",
           "title": "Страны — участницы Палермской конвенции начнут переговоры о протоколе против экологической преступности",
           "summary": "Резолюцию поддержали 83 государства. Проект протокола о борьбе с транснациональными экологическими преступлениями предполагается представить в 2028 году. Сообщение Страны — участницы Палермской конвенции начнут переговор",
           "url": "https://nia.eco/2026/10/24/147536/",
@@ -634,7 +646,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-4-1792860385000",
+          "id": "environment-5-1792860385000",
           "title": "В Южной Корее поставили под сомнение экологичность бумажных трубочек",
           "summary": "В сравнении четырёх видов трубочек полипропилен показал наименьшее воздействие в 10 из 16 категорий. Авторы предложили сокращать использование всех одноразовых трубочек. Сообщение В Южной Корее поставили под сомнение эко",
           "url": "https://nia.eco/2026/10/24/147527/",
@@ -646,7 +658,7 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-5-1792833560000",
+          "id": "environment-6-1792833560000",
           "title": "Как сортировать отходы дома: что куда сдавать и как подготовить",
           "summary": "Как подготовить бумагу, пластик, стекло и металл, куда передать одежду, обувь и электроприборы, что делать с батарейками и пищевыми отходами. Подробное руководство и памятка для сохранения. Сообщение Как сортировать отхо",
           "url": "https://nia.eco/2026/10/24/147520/",
@@ -658,24 +670,12 @@
           "categorySlug": "environment"
         },
         {
-          "id": "environment-6-1792830060000",
+          "id": "environment-7-1792830060000",
           "title": "В Хабаровском крае вынесли приговор за контрабанду более 450 м³ берёзы",
           "summary": "Древесину приобретали без документов, подтверждающих законность её происхождения, а движение лесоматериалов оформляли фиктивно Сообщение В Хабаровском крае вынесли приговор за контрабанду более 450 м³ берёзы появились сн",
           "url": "https://nia.eco/2026/10/24/147504/",
           "image": "https://nia.eco/wp-content/uploads/nia-social-cards/147504-d0c6ec0a92e8cd22.jpg",
           "publishedAt": "2026-10-24T08:21:00.000Z",
-          "source": "НИА Экология",
-          "categoryId": "environment",
-          "categoryName": "Экология России",
-          "categorySlug": "environment"
-        },
-        {
-          "id": "environment-7-1792824148000",
-          "title": "Землетрясения произошли у Вануату и Тайваня, а также на Кузбассе",
-          "summary": "У Вануату магнитуду уточнили до 6,9 и отменили предупреждение о цунами. В Кузбассе толчки ощутили жители нескольких городов Сообщение Землетрясения произошли у Вануату и Тайваня, а также на Кузбассе появились сначала на ",
-          "url": "https://nia.eco/2026/10/24/147460/",
-          "image": "https://nia.eco/wp-content/uploads/nia-social-cards/147460-14828f532965535c.jpg",
-          "publishedAt": "2026-10-24T06:42:28.000Z",
           "source": "НИА Экология",
           "categoryId": "environment",
           "categoryName": "Экология России",
@@ -882,7 +882,7 @@
       ]
     },
     "gaming": {
-      "lastFetchAt": "2026-10-25T14:01:59.816Z",
+      "lastFetchAt": "2026-10-25T20:05:46.991Z",
       "intervalHours": 4,
       "source": "Хабр",
       "siteUrl": "https://habr.com",
@@ -952,7 +952,7 @@
       ]
     },
     "entertainment": {
-      "lastFetchAt": "2026-10-25T14:02:02.342Z",
+      "lastFetchAt": "2026-10-25T20:05:49.512Z",
       "intervalHours": 4,
       "source": "Коммерсантъ",
       "siteUrl": "https://www.kommersant.ru",
@@ -960,7 +960,31 @@
       "slug": "entertainment",
       "articles": [
         {
-          "id": "entertainment-0-1792935813000",
+          "id": "entertainment-0-1792951576000",
+          "title": "Умер поэт Евгений Чигрин",
+          "summary": "Умер российский поэт и эссеист Евгений Чигрин. Ему было 65 лет.",
+          "url": "https://www.kommersant.ru/doc/9060259",
+          "image": "https://im2.kommersant.ru/SocialPics/9060259_49_3237517_590239730",
+          "publishedAt": "2026-10-25T18:06:16.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-1-1792951099000",
+          "title": "Воцарись, тряпка // Выходит в свет роман Евгении Некрасовой «Берегина»",
+          "summary": "Четвертый роман Евгении Некрасовой издается в год, когда писательница получила премию О. Генри за лучший рассказ. И счет сравняется: сборников рассказов у Некрасовой вышло тоже четыре. При этом ее книги малой прозы читаю",
+          "url": "https://www.kommersant.ru/doc/9060117",
+          "image": "https://im2.kommersant.ru/SocialPics/9060117_49_3237347_566940495",
+          "publishedAt": "2026-10-25T17:58:19.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "entertainment",
+          "categoryName": "Развлечения",
+          "categorySlug": "entertainment"
+        },
+        {
+          "id": "entertainment-2-1792935813000",
           "title": "Туда и среда // Context Дианы Вишневой станцевал «Momento»",
           "summary": "На сцене электротеатра «Станиславский» труппа Дианы Вишневой Сontext представила 50-минутный «Momento» — спектакль израильского хореографа Чен Агрон, поставленный специально для петербургских артистов. Татьяна Кузнецова ",
           "url": "https://www.kommersant.ru/doc/9060118",
@@ -972,11 +996,11 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-1-1792931173000",
+          "id": "entertainment-3-1792931173000",
           "title": "В Париже художники съехали с ярмарки // Art Basel Paris подвела итоги досрочно",
           "summary": "Главная международная ярмарка современного искусства Art Basel Paris, которая должна была работать в парижском Гран-Пале до воскресенья, 25 октября, закрылась в пятницу вечером. Организаторы побоялись субботних манифеста",
           "url": "https://www.kommersant.ru/doc/9060070",
-          "image": "https://im2.kommersant.ru/Issues.photo2/DAILY/2026/198M/KMO_209900_00013_1_t219_151951.jpg",
+          "image": "https://im2.kommersant.ru/Issues.photo2/DAILY/2026/198M/KMO_209900_00048_1_t219_152031.jpg",
           "publishedAt": "2026-10-25T12:26:13.000Z",
           "source": "Коммерсантъ",
           "categoryId": "entertainment",
@@ -984,7 +1008,7 @@
           "categorySlug": "entertainment"
         },
         {
-          "id": "entertainment-2-1792920443000",
+          "id": "entertainment-4-1792920443000",
           "title": "Отъявленная парижанка // Андрей Плахов к 95-летию со дня рождения Анни Жирардо",
           "summary": "Сегодня, 25 октября, Анни Жирардо исполнилось бы 95 лет. Андрей Плахов вспоминает, как воспринимал знаменитую французскую актрису в ее в экранных ролях и в жизни.",
           "url": "https://www.kommersant.ru/doc/9060012",
@@ -994,35 +1018,11 @@
           "categoryId": "entertainment",
           "categoryName": "Развлечения",
           "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-3-1792850398000",
-          "title": "«Кентавр» нашел родственную душу // В Петербурге наградили победителей 36-го международного кинофестиваля «Послание к человеку»",
-          "summary": "В Петербурге назвали победителей 36-го международного кинофестиваля «Послание к человеку». Главную награду — «Золотого кентавра» — получила греческая документальная картина «Творимые души» о швейцарском стоматологе, бесп",
-          "url": "https://www.kommersant.ru/doc/9059857",
-          "image": "https://im2.kommersant.ru/Issues.photo2/REGIONS/PITER_Online/2026/10/24/KSP_018723_00064_1_t219_161316.jpg",
-          "publishedAt": "2026-10-24T13:59:58.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
-        },
-        {
-          "id": "entertainment-4-1792839049000",
-          "title": "Певец тихого апокалипсиса // Умер Рю Мураками",
-          "summary": "В Токио ушел из жизни один из самых ярких и противоречивых представителей современной японской литературы, чьи мрачные, провокативно откровенные романы «Все оттенки голубого» и «Дети из камеры хранения», исследующие язвы",
-          "url": "https://www.kommersant.ru/doc/9059785",
-          "image": "https://im2.kommersant.ru/SocialPics/9059785_49_3236891_2123401230",
-          "publishedAt": "2026-10-24T10:50:49.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "entertainment",
-          "categoryName": "Развлечения",
-          "categorySlug": "entertainment"
         }
       ]
     },
     "sports": {
-      "lastFetchAt": "2026-10-25T17:24:58.492Z",
+      "lastFetchAt": "2026-10-25T20:05:51.841Z",
       "intervalHours": 2,
       "source": "Sports.ru",
       "siteUrl": "https://www.sports.ru",
@@ -1030,60 +1030,60 @@
       "slug": "sports",
       "articles": [
         {
-          "id": "sports-0-1792948680000",
-          "title": "Вайсфельд о «Динамо»: «Все понимают, что Тамбиева назначил Ротенберг. Эта история не про хоккей»",
-          "summary": "Бывший генеральный менеджер клубов КХЛ Леонид Вайсфельд высказался о назначении Леонида Тамбиева главным тренером «Динамо». Вайсфельд отметил, что этому решению мог поспособствовать член совета директоров московского клу",
-          "url": "https://www.sports.ru/hockey/1117414797-vajsfeld-o-dinamo-tambieva-naznachil-rotenberg-eta-istoriya-ne-pro-xok.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/741/479/7/share/051822_no_logo_no_text.jpg",
-          "publishedAt": "2026-10-25T17:18:00.000Z",
+          "id": "sports-0-1792958400000",
+          "title": "Гран-при США-2026. Гонка началась",
+          "summary": "Начало заезда – в 23:00 по московскому времени. Гран-при США Трасса Америк, Остин 25 октября 2026 года Гонка Стартовый порядок 1. Андреа Кими Антонелли («Мерседес») 2. Макс Ферстаппен («Ред Булл») 3. Изак Аджар («Ред Бул",
+          "url": "https://www.sports.ru/automoto/1117406498-gran-pri-ssha-2026-gonka.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/740/649/8/share/4c6fcd_no_logo_no_text.jpg",
+          "publishedAt": "2026-10-25T20:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-1-1792948680000",
-          "title": "Аугусто забил за «Зенит» впервые с июля – «Махачкале» в РПЛ. Голов не было 13 матчей подряд",
-          "summary": "Фелипе Аугусто забил за «Зенит» впервые с июля. Бразилец открыл счет с пенальти в матче 12-го тура Альфа-Банк РПЛ против « Динамо » Махачкала (2:0, второй тайм). Гол в сегодняшнем матче стал для Аугусто первым с 25 июля ",
-          "url": "https://www.sports.ru/football/1117414798-augusto-zabil-za-zenit-vpervye-s-iyulya-maxachkale-v-rpl-golov-ne-bylo.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/741/479/8/share/94492c_no_logo_no_text.jpg",
-          "publishedAt": "2026-10-25T17:18:00.000Z",
+          "id": "sports-1-1792958400000",
+          "title": "Чемпионат Испании. «Барселона» против «Реала», «Сосьедад» Захаряна одолел «Леванте», «Атлетик» разгромил «Хетафе»",
+          "summary": "23 октября « Алавес » подлил очки с «Малагой» (1:1) в рамках 10-го тура Ла Лиги. 24 октября « Валенсия » дома уступила « Вильярреалу » (1:2), « Атлетико » на своем поле победил « Депортиво » (1:0). 25 октября « Реал Сось",
+          "url": "https://www.sports.ru/football/1117411351-chempionat-ispanii-alaves-prinimaet-malagu-barselona-i-real-sygrayut-v.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/741/135/1/share/13d10b_no_logo_no_text.jpg",
+          "publishedAt": "2026-10-25T20:00:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-2-1792948560000",
-          "title": "Киган Мюррэй продолжает испытывать проблемы с левым голеностопом",
-          "summary": "Форвард « Сакраменто » Киган Мюррэй по-прежнему испытывает скованность в левом голеностопе после операции, перенесенной в мае. Ранее Мюррэй уже сообщал о небольшом осложнении, возникшем во время тренировочного сбора. Выб",
-          "url": "https://www.sports.ru/basketball/1117414796-kigan-myurrej-prodolzhaet-ispytyvat-problemy-s-levym-golenostopom.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/741/479/6/share/874afe_no_logo_no_text.jpg",
-          "publishedAt": "2026-10-25T17:16:00.000Z",
+          "id": "sports-2-1792958280000",
+          "title": "Монфис в понедельник проведет стрим на Twitch и сообщит, когда и где завершит карьеру",
+          "summary": "Гаэль Монфис проведет трансляцию на Twitch, чтобы рассказать подробности о завершении карьеры. Эфир начнется в 20:00 по московскому времени на канале француза. «Завершение моей карьеры. Когда? Где? Я вам все расскажу. Вс",
+          "url": "https://www.sports.ru/tennis/1117415104-monfis-v-ponedelnik-provedet-strim-na-twitch-i-soobshhit-kogda-i-gde-z.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/741/510/4/share/181595_no_logo_no_text.jpg",
+          "publishedAt": "2026-10-25T19:58:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-3-1792948440000",
-          "title": "«Бавария» в гостях сыграет с «Фрайбургом» в 7-м туре Бундеслиги. 2:0 – Гнабри и Упамекано забили",
-          "summary": "«Фрайбург» принимает «Баварию» в 7-м туре Бундеслиги. Дайо Упамекано открыл счет на 16-й минуте. Серж Гнабри забил на 42-й. Матч проходит на стадионе «Европа-Парк-Штадион». Игру в прямом эфире показывает Okko. Таблица Бу",
-          "url": "https://www.sports.ru/football/1117413995-bavariya-v-gosyatx-sygraet-s-frajburgom-v-7-m-ture-bundesligi-match-na.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/741/399/5/share/a7a62e_no_logo_no_text.jpg",
-          "publishedAt": "2026-10-25T17:14:00.000Z",
+          "id": "sports-3-1792957980000",
+          "title": "«Всегда знал, что Москва – красно-синяя!» Круговой после 2:0 со «Спартаком»",
+          "summary": "Защитник ЦСКА Данил Круговой выложил пост после победы в дерби над « Спартаком ». Встреча 12-го тура Альфа-Банк РПЛ завершилась со счетом 2:0 в пользу армейцев. «Впереди еще много игр, но давайте порадуемся этой победе и",
+          "url": "https://www.sports.ru/football/1117415137-vsegda-znal-chto-moskva-krasno-sinyaya-krugovoj-posle-20-so-spartakom.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/741/513/7/share/988b3a_no_logo_no_text.jpg",
+          "publishedAt": "2026-10-25T19:53:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
           "categorySlug": "sports"
         },
         {
-          "id": "sports-4-1792948380000",
-          "title": "Гари Невилл: «Кэррику будет невероятно сложно оставаться тренером «МЮ». Завтра руководство, вероятно, примет решение, которое возмутит болельщиков, но оно необходимо, возможно»",
-          "summary": "Бывший защитник «Манчестер Юнайтед» Гари Невилл прокомментировал поражение манкунианцев от « Борнмута » в 8-м туре АПЛ (0:3). «Майклу Кэррику будет невероятно сложно оставаться на посту главного тренера «Манчестер Юнайте",
-          "url": "https://www.sports.ru/football/1117414775-gari-nevill-kerriku-budet-neveroyatno-slozhno-ostavatsya-na-postu-tren.html",
-          "image": "https://www.sports.ru/dynamic_images/news/111/741/477/5/share/9b98ce_no_logo_no_text.jpg",
-          "publishedAt": "2026-10-25T17:13:00.000Z",
+          "id": "sports-4-1792957920000",
+          "title": "Вайсфельд о Шафранове в «Металлурге»: «Он мягкий, кажется, но тренер не должен быть очень хорошим человеком. В его квалификации сомнений нет»",
+          "summary": "Бывший генеральный менеджер клубов КХЛ Леонид Вайсфельд поделился мнением о назначении Константина Шафранова главным тренером « Металлурга ». «Специалист очень грамотный. Случай такой же, как и с Брылиным . Он никогда не",
+          "url": "https://www.sports.ru/hockey/1117415124-vajsfeld-o-shafranove-vo-glave-metallurga-on-myagkij-kazhetsya-no-glav.html",
+          "image": "https://www.sports.ru/dynamic_images/news/111/741/512/4/share/5cf552_no_logo_no_text.jpg",
+          "publishedAt": "2026-10-25T19:52:00.000Z",
           "source": "Sports.ru",
           "categoryId": "sports",
           "categoryName": "Спорт",
@@ -1386,7 +1386,7 @@
       ]
     },
     "politics": {
-      "lastFetchAt": "2026-10-25T17:25:01.897Z",
+      "lastFetchAt": "2026-10-25T20:05:53.225Z",
       "intervalHours": 2,
       "source": "Lenta.ru",
       "siteUrl": "https://lenta.ru",
@@ -1394,60 +1394,60 @@
       "slug": "politics",
       "articles": [
         {
-          "id": "politics-0-1792948011000",
-          "title": "Трамп оценил дизельную сделку с Россией",
+          "id": "politics-0-1792958160000",
+          "title": "Россиянам рассказали о получении медпомощи без регистрации",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/diesel-is-good/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/20/20261025200433933/pic_0f3eea8ac25ac3974930af17dd9c79be.jpg",
-          "publishedAt": "2026-10-25T17:06:51.000Z",
+          "url": "https://lenta.ru/news/2026/10/25/rossiyanam-rasskazali-o-poluchenii-medpomoschi-bez-registratsii/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025225613976/pic_50bed84a88c9c6eeac934faac539d232.jpg",
+          "publishedAt": "2026-10-25T19:56:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-1-1792947540000",
-          "title": "Президент Монголии назвал столицу бывшей советской республики раем на земле",
+          "id": "politics-1-1792958100000",
+          "title": "Маск предупедил о последствиях взрывов спутников Starlink",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/prezident-mongolii-nazval-stolitsu-strany-byvshego-sssr-raem-na-zemle/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/20/20261025200113864/pic_b4ddb18f9d071d035b3899f111310195.jpg",
-          "publishedAt": "2026-10-25T16:59:00.000Z",
+          "url": "https://lenta.ru/news/2026/10/25/mask-predupedil-o-posledstviyah-vzryvov-sputnikov-starlink/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025223300135/pic_82191d348f258ab153463c1c96927277.jpg",
+          "publishedAt": "2026-10-25T19:55:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-2-1792947485000",
-          "title": "Россиянка после пятизвездочного отеля в Египте осталась на улице",
+          "id": "politics-2-1792957224000",
+          "title": "Смолов поделился опытом жизни в Европе",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/rossiyanka-posle-pyatizvezdochnogo-otelya-v-egipte-ostalas-na-ulitse/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/19/20261025195444839/pic_3bca212ac2628cbe2b47092cf7262487.jpg",
-          "publishedAt": "2026-10-25T16:58:05.000Z",
+          "url": "https://lenta.ru/news/2026/10/25/smolov-podelilsya-opytom-zhizni-v-evrope/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/17/20261025175358167/pic_deaa801b343ee89a71195154e3783a72.jpg",
+          "publishedAt": "2026-10-25T19:40:24.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-3-1792946609000",
-          "title": "Россиянин сошел с яхты и устроил переполох на Сицилии",
+          "id": "politics-3-1792956979000",
+          "title": "Трамп раскрыл перспективы энергетических сделок с Россией",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/rossiyanin-soshel-s-yahty-i-ustroil-perepoloh-na-sitsilii/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/19/20261025193329280/pic_3ddf645b831766de22017ac7700a8adf.jpg",
-          "publishedAt": "2026-10-25T16:43:29.000Z",
+          "url": "https://lenta.ru/news/2026/10/26/tramp-raskryl-perspektivy-energeticheskih-sdelok-s-rossiey/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025223534567/pic_a3625d33447d782b8cbeadb961d70d49.jpg",
+          "publishedAt": "2026-10-25T19:36:19.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
           "categorySlug": "politics"
         },
         {
-          "id": "politics-4-1792946561000",
-          "title": "Россиян предупредили об опасности забытых аккаунтов в соцсетях",
+          "id": "politics-4-1792956780000",
+          "title": "Нетаньяху пригрозил Ирану и его союзникам",
           "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/inactive-profile/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/19/20261025194529867/pic_44a53eda612c4d10f18acd0ef89a699e.jpg",
-          "publishedAt": "2026-10-25T16:42:41.000Z",
+          "url": "https://lenta.ru/news/2026/10/25/netanyahu-prigrozil-iranu-i-ego-soyuznikam/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025223340801/pic_3f720c89b84f7f8d84f9b83e429241df.jpg",
+          "publishedAt": "2026-10-25T19:33:00.000Z",
           "source": "Lenta.ru",
           "categoryId": "politics",
           "categoryName": "Политика",
@@ -1733,7 +1733,7 @@
       ]
     },
     "svo": {
-      "lastFetchAt": "2026-10-25T17:25:13.263Z",
+      "lastFetchAt": "2026-10-25T20:06:02.689Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1741,97 +1741,97 @@
       "slug": "svo",
       "articles": [
         {
-          "id": "svo-0-1792948644000",
-          "title": "В Брянской области при атаке БПЛА на поезд пострадал человек",
+          "id": "svo-0-1792958593000",
+          "title": "На фронте погиб священник УПЦ, насильно мобилизованный в ВСУ",
           "summary": "",
-          "url": "https://ria.ru/20261025/bpla-2126923740.html",
-          "image": "https://cdnn21.imgria.ru/images/153268/32/1532683272_0:354:3011:2048_650x0_80_0_0_c3f08a64b7d37c84d5b8afa8a36c74b7.jpg",
-          "publishedAt": "2026-10-25T17:17:24.000Z",
+          "url": "https://ria.ru/20261025/svjaschennik-2126943345.html",
+          "image": "https://cdnn21.imgria.ru/images/sharing/article/2126943345.jpg?21029872441792958594",
+          "publishedAt": "2026-10-25T20:03:13.000Z",
           "source": "РИА Новости",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-1-1792948357000",
-          "title": "В Брянской области 18-летний водитель пострадал из-за атаки ВСУ",
+          "id": "svo-1-1792956120000",
+          "title": "Раскрыты серьезные последствия атаки БПЛА на российский регион",
           "summary": "",
-          "url": "https://ria.ru/20261025/vsu-2126922702.html",
+          "url": "https://lenta.ru/news/2026/10/25/raskryty-serieznye-posledstviya-ataki-bpla-na-rossiyskiy-region/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025222411814/pic_39f020ee5964ed3bf8c4a681e64cf309.jpg",
+          "publishedAt": "2026-10-25T19:22:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-2-1792955479000",
+          "title": "Губернатор раскрыл последствия ракетной атаки ВСУ на промзону в российском городе",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/10/26/gubernator-raskryl-posledstviya-raketnoy-ataki-vsu-na-promzonu-v-rossiyskom-gorode/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025221114816/pic_2430c691fb353ddd0743f0b988237bda.jpg",
+          "publishedAt": "2026-10-25T19:11:19.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-3-1792955413000",
+          "title": "В Белгородской области пять человек пострадали при атаках ВСУ",
+          "summary": "",
+          "url": "https://ria.ru/20261025/vsu-2126938785.html",
           "image": "https://cdnn21.imgria.ru/images/07ea/0a/06/2122500908_0:132:3148:1903_650x0_80_0_0_b9c73fa01af786a8153c5682a9adb533.jpg",
-          "publishedAt": "2026-10-25T17:12:37.000Z",
+          "publishedAt": "2026-10-25T19:10:13.000Z",
           "source": "РИА Новости",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-2-1792948182000",
-          "title": "В Брянской области при ударе БПЛА по грузовому поезду погиб машинист",
-          "summary": "В Брянской области в результате атаки БПЛА погиб 44-летний машинист грузового поезда, следовавшего по маршруту Брянск — Гомель. Об этом сообщил губернатор региона Егор Ковальчук в мессенджере «Макс».",
-          "url": "https://www.kommersant.ru/doc/9060237",
-          "image": "https://im2.kommersant.ru/SocialPics/9060237_49_0_773691870",
-          "publishedAt": "2026-10-25T17:09:42.000Z",
-          "source": "Коммерсантъ",
+          "id": "svo-4-1792954560000",
+          "title": "ВСУ разбросали магнитные мины в российском селе",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/10/25/vsu-razbrosali-magnitnye-miny-v-rossiyskom-sele/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/21/20261025215610039/pic_fe749c5adc475d485d7bf38b18326cc1.jpg",
+          "publishedAt": "2026-10-25T18:56:00.000Z",
+          "source": "Lenta.ru",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-3-1792947720000",
-          "title": "Машинист погиб после удара украинского дрона по товарному составу в Брянской области",
-          "summary": "Губернатор Брянской области Егор Ковальчук сообщил о гибели машиниста грузового поезда в результате атаки дрона-камикадзе ВСУ.",
-          "url": "https://www.interfax.ru/russia/1124901",
-          "image": "https://www.interfax.ru/aspimg/1124901.jpg",
-          "publishedAt": "2026-10-25T17:02:00.000Z",
-          "source": "Интерфакс",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-4-1792946921000",
-          "title": "Машинист поезда Брянск — Гомель погиб при атаке ВСУ",
-          "summary": "Под атаку ВСУ попал грузовой поезд, следовавший из Брянска в Гомель. Машинист скончался в больнице от полученных ранений, поврежден корпус локомотива",
-          "url": "https://www.rbc.ru/politics/25/10/2026/6ade3082bae07110b5b3843d",
-          "image": "https://s0.rbk.ru/v6_top_pics/media/img/7/08/127929473974087.jpeg",
-          "publishedAt": "2026-10-25T16:48:41.000Z",
+          "id": "svo-5-1792954342000",
+          "title": "Украинская торговая сеть «Эпицентр» сообщила о «полном уничтожении»",
+          "summary": "Утром 25 октября Минобороны заявило о поражении логистического центра сети в Харькове, где, по данным ведомства, хранилась продукция, предназначенная для ВСУ",
+          "url": "https://www.rbc.ru/politics/25/10/2026/6ade27fbcaec548e6fd154f7",
+          "image": "https://s0.rbk.ru/v6_top_pics/media/img/2/24/897929461322242.jpeg",
+          "publishedAt": "2026-10-25T18:52:22.000Z",
           "source": "РБК",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
         },
         {
-          "id": "svo-5-1792946176000",
-          "title": "В Брянской области при атаке дрона ВСУ погиб машинист грузового поезда",
-          "summary": "",
-          "url": "https://ria.ru/20261025/ataka-2126917699.html",
-          "image": "https://cdnn21.imgria.ru/images/07e4/0a/02/1578125867_0:159:3077:1889_650x0_80_0_0_a5ccad6e8a5859bdcf3a599ca6f5b785.jpg",
-          "publishedAt": "2026-10-25T16:36:16.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-6-1792945534000",
-          "title": "Похищенного в Киеве священника УПЦ отправили на учебный полигон ВСУ",
-          "summary": "",
-          "url": "https://ria.ru/20261025/upts-2126916548.html",
-          "image": "https://cdnn21.imgria.ru/images/sharing/article/2126916548.jpg?21264786821792945938",
-          "publishedAt": "2026-10-25T16:25:34.000Z",
-          "source": "РИА Новости",
-          "categoryId": "svo",
-          "categoryName": "СВО",
-          "categorySlug": "svo"
-        },
-        {
-          "id": "svo-7-1792944020000",
-          "title": "Главные новости за выходные 24–25 октября // Умер рэпер Миша Маваши",
-          "summary": "Утром 24 октября несколько регионов РФ подверглись налету беспилотников. Обломки беспилотников упали в трех муниципалитетах Краснодарского края.",
-          "url": "https://www.kommersant.ru/doc/9060207",
-          "image": "https://im2.kommersant.ru/SocialPics/9060207_49_0_1032990920",
-          "publishedAt": "2026-10-25T16:00:20.000Z",
+          "id": "svo-6-1792954276000",
+          "title": "При ракетном ударе ВСУ по промзоне Ельца погиб один человек и шестеро пострадали",
+          "summary": "В результате ракетного удара вооруженных сил Украины по промышленной зоне Ельца один человек погиб, шестеро получили ранения. Об этом сообщил губернатор Липецкой области Игорь Артамонов в мессенджере «Макс».",
+          "url": "https://www.kommersant.ru/doc/9060262",
+          "image": "https://im2.kommersant.ru/SocialPics/9060262_49_0_581806458",
+          "publishedAt": "2026-10-25T18:51:16.000Z",
           "source": "Коммерсантъ",
+          "categoryId": "svo",
+          "categoryName": "СВО",
+          "categorySlug": "svo"
+        },
+        {
+          "id": "svo-7-1792954193000",
+          "title": "Военнослужащий рассказал о замаскированных под листья минах ВСУ",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/10/25/voennosluzhaschiy-rasskazal-o-zamaskirovannyh-pod-listya-minah-vsu/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/21/20261025214933051/pic_53ea5b8eef9a06e1c3469d3efadbc441.jpg",
+          "publishedAt": "2026-10-25T18:49:53.000Z",
+          "source": "Lenta.ru",
           "categoryId": "svo",
           "categoryName": "СВО",
           "categorySlug": "svo"
@@ -1839,7 +1839,7 @@
       ]
     },
     "security-services": {
-      "lastFetchAt": "2026-10-25T17:25:24.562Z",
+      "lastFetchAt": "2026-10-25T20:06:12.982Z",
       "intervalHours": 2,
       "source": "РИА, Lenta, Интерфакс, Коммерсантъ",
       "siteUrl": "https://ria.ru",
@@ -1847,7 +1847,43 @@
       "slug": "security-services",
       "articles": [
         {
-          "id": "security-services-0-1792945944000",
+          "id": "security-services-0-1792956060000",
+          "title": "Минобороны европейской страны призвало за 1000 дней подготовиться к войне",
+          "summary": "",
+          "url": "https://lenta.ru/news/2026/10/25/minoborony-evropeyskoy-strany-prizvalo-za-1000-dney-podgotovitsya-k-voyne/",
+          "image": "https://icdn.lenta.ru/images/2026/10/25/22/20261025222321136/pic_f3b6c37e51894b8469f122903b2b8222.jpg",
+          "publishedAt": "2026-10-25T19:21:00.000Z",
+          "source": "Lenta.ru",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-2-1792950692000",
+          "title": "Над регионами России за день сбили 38 беспилотников",
+          "summary": "С 08:00 до 20:00 мск дежурные силы ПВО перехватили и уничтожили 38 украинских беспилотников над регионами России, сообщила пресс-служба Минобороны. По данным ведомства, дроны были сбиты над территориями Брянской, Белгоро",
+          "url": "https://www.kommersant.ru/doc/9060257",
+          "image": "https://im2.kommersant.ru/SocialPics/9060257_49_0_2119924793",
+          "publishedAt": "2026-10-25T17:51:32.000Z",
+          "source": "Коммерсантъ",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-3-1792950240000",
+          "title": "Минобороны РФ заявило об уничтожении с утра воскресенья 38 беспилотников ВСУ",
+          "summary": "Дежурные средства ПВО с 8:00 до 20:00 мск перехватили и уничтожили над российскими регионами 38 украинских беспилотников самолетного типа, сообщило в воскресенье министерство обороны РФ.",
+          "url": "https://www.interfax.ru/russia/1124904",
+          "image": "https://www.interfax.ru/aspimg/1124904.jpg",
+          "publishedAt": "2026-10-25T17:44:00.000Z",
+          "source": "Интерфакс",
+          "categoryId": "security-services",
+          "categoryName": "Минобороны и спецслужбы",
+          "categorySlug": "security-services"
+        },
+        {
+          "id": "security-services-4-1792945944000",
           "title": "Минобороны сообщило об ударе по сухогрузу, шедшему в Одессу",
           "summary": "Вооруженные силы России нанесли удар по сухогрузу, доставлявшему в порт Одессы грузы, предназначенные для обеспечения украинской армии.",
           "url": "https://www.rbc.ru/rbcfreenews/6ade25150302065ce563fedb",
@@ -1859,7 +1895,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-1-1792942800000",
+          "id": "security-services-5-1792942800000",
           "title": "В Минобороны заявили о поражении сухогруза ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/10/25/suhogruz/",
@@ -1871,19 +1907,7 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-2-1792942113000",
-          "title": "Британия и Франция отработали оперативную высадку десанта для защиты НАТО",
-          "summary": "Более 2,5 тыс. британских и французских военных приняли участие в семинедельных учениях Rhino Titan в Германии, сообщает Rapporteur со ссылкой на Министерство обороны Великобритании.",
-          "url": "https://www.rbc.ru/rbcfreenews/6ade12b87dd022ca9cac8eb5",
-          "image": "https://s0.rbk.ru/v6_top_pics/media/img/2/53/417929390372532.jpeg",
-          "publishedAt": "2026-10-25T15:28:33.000Z",
-          "source": "РБК",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-3-1792941660000",
+          "id": "security-services-6-1792941660000",
           "title": "Российские военные нанесли удар по сухогрузу в Черном море",
           "summary": "Российские военные в воскресенье продолжили нанесение ударов беспилотниками по связанным с ВСУ морским судам, сообщили в Минобороны РФ.\"На переходе морем поражено морское судно типа сухогруз, доставлявшее в порт Одесса г",
           "url": "https://www.interfax.ru/russia/1124890",
@@ -1895,49 +1919,13 @@
           "categorySlug": "security-services"
         },
         {
-          "id": "security-services-4-1792926480000",
+          "id": "security-services-7-1792926480000",
           "title": "В Минобороны заявили о тысяче сбитых за сутки беспилотников ВСУ",
           "summary": "",
           "url": "https://lenta.ru/news/2026/10/25/v-minoborony-zayavili-o-tysyache-sbityh-za-sutki-bespilotnikov-vsu/",
           "image": "https://icdn.lenta.ru/images/2026/10/25/14/20261025142130397/pic_44f669c07d212cddc6b8e9a526cc9065.jpg",
           "publishedAt": "2026-10-25T11:08:00.000Z",
           "source": "Lenta.ru",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-5-1792921200000",
-          "title": "В Минобороны раскрыли цели ударов российских войск",
-          "summary": "",
-          "url": "https://lenta.ru/news/2026/10/25/v-minoborony-raskryli-tseli-udarov-rossiyskih-voysk/",
-          "image": "https://icdn.lenta.ru/images/2026/10/25/12/20261025124319263/pic_4fd1afc6b32d7ee2419de27d2c035a37.jpg",
-          "publishedAt": "2026-10-25T09:40:00.000Z",
-          "source": "Lenta.ru",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-6-1792919700000",
-          "title": "Минобороны РФ сообщило об уничтожении за сутки более 1 тыс. беспилотников ВСУ",
-          "summary": "Российские средства противовоздушной обороны за сутки сбили 1 072 беспилотника самолетного типа, заявили в Министерстве обороны РФ. По данным ведомства, российские войска также нанесли удары по объектам энергетической и ",
-          "url": "https://www.kommersant.ru/doc/9060020",
-          "image": "https://im2.kommersant.ru/SocialPics/9060020_49_0_1927930044",
-          "publishedAt": "2026-10-25T09:15:00.000Z",
-          "source": "Коммерсантъ",
-          "categoryId": "security-services",
-          "categoryName": "Минобороны и спецслужбы",
-          "categorySlug": "security-services"
-        },
-        {
-          "id": "security-services-7-1792917347000",
-          "title": "Глава Минобороны Британии отвел 1 тыс. дней на подготовку к возможной войне",
-          "summary": "Великобритании необходимо в течение ближайших 1 тыс. дней обеспечить готовность к возможному военному конфликту. Такой срок обозначил министр обороны страны Уэс Стритинг в статье для The Telegraph.",
-          "url": "https://www.kommersant.ru/doc/9060004",
-          "image": "https://im2.kommersant.ru/SocialPics/9060004_49_0_1996691162",
-          "publishedAt": "2026-10-25T08:35:47.000Z",
-          "source": "Коммерсантъ",
           "categoryId": "security-services",
           "categoryName": "Минобороны и спецслужбы",
           "categorySlug": "security-services"
